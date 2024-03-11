@@ -1,0 +1,10 @@
+commit 516bf75c97ed5039d46554f5456abea1d907568f
+tree d6979880295fe9ba02ec63070eea4170fbe8a624
+parent 66bf66ffd7d19b1b87734540fcd0d2a103cb45db
+author Karkill <hoa.tran@gosmartlog.com> 2021-03-26 10:13:42 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-03-26 10:13:42 +0700
+
+    change deploy
+
+
+:100644 100644 24dfc20a85d0d45bcf2a4d0b701a84b7b8f397c7 9e7d611b657e82f16a8272500110380a6df81bf0 M	deploy.stage.yml

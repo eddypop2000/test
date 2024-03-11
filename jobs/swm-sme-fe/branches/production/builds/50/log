@@ -1,0 +1,706 @@
+Branch event
+Obtained Jenkinsfile from 65f2b93395742dedf8f69534c7436b8e81be6860
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/pod-with-gitversion-2m244-6g7bs
+Agent [8mha:////4PMNf+I+tOHo9T7pkyzYIDsg/U9agZcbVDm+w153VHoqAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/Dxdo1wjExNds3TzpGIAqKzWvt4AAAA=[0mpod-with-gitversion-2m244-6g7bs is provisioned from template pod-with-gitversion-2m244
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/swm-sme-fe/job/production/50/"
+    runUrl: "job/swm-sme-fe/job/production/50/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-2m244-6g7bs"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests:
+        ephemeral-storage: "10Mi"
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests:
+        ephemeral-storage: "10Mi"
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests:
+        ephemeral-storage: "10Mi"
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests:
+        ephemeral-storage: "10Mi"
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-2m244-6g7bs"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-2m244-6g7bs"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4PC4/V2ir+P6ds8N+E5pgQ1TCcOiExFtqbdnmwsB0VvsAAAAwR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZL/dzEvMT0VP3k/NyC0pLUIv2C/BRVI5fyzJIMIJWeWVKWWlScmZ8H5BjlGpmYAGmzdPOkYn0AXI5Omu4AAAA=[0mpod-with-gitversion-2m244-6g7bs in /home/jenkins/agent/workspace/swm-sme-fe_production
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{Zm4w2TOIHz7xnq8EQk6HTeSoDNu9JhsKousHiYDMucagw8pRloPtTnSezRPy8u452dF0fgUukLJjeruuNseP6ayiZA%3d%3d}@bitbucket.org/smartlogwms/swm-sme-fe.git
+ > git init /home/jenkins/agent/workspace/swm-sme-fe_production # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/swm-sme-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{Zm4w2TOIHz7xnq8EQk6HTeSoDNu9JhsKousHiYDMucagw8pRloPtTnSezRPy8u452dF0fgUukLJjeruuNseP6ayiZA%3d%3d}@bitbucket.org/smartlogwms/swm-sme-fe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 65f2b93395742dedf8f69534c7436b8e81be6860 (production)
+Commit message: "Merged in release/sprint-11 (pull request #1052)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+ > git config remote.origin.url https://x-token-auth:{Zm4w2TOIHz7xnq8EQk6HTeSoDNu9JhsKousHiYDMucagw8pRloPtTnSezRPy8u452dF0fgUukLJjeruuNseP6ayiZA%3d%3d}@bitbucket.org/smartlogwms/swm-sme-fe.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 65f2b93395742dedf8f69534c7436b8e81be6860 # timeout=10
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Fetching changes from the remote Git repository
+Fetching without tags
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/swm-sme-fe_production/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{dAc1bjr14ZQwoU2ARHJ1d1RyUXnV0_02YC4MS8wEdJWlloMw64GXv0kSG0FjLk4vQW_jxesDVYIoKViL49ocoQpviw%3d%3d}@bitbucket.org/smartlogwms/swm-sme-fe.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/swm-sme-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{dAc1bjr14ZQwoU2ARHJ1d1RyUXnV0_02YC4MS8wEdJWlloMw64GXv0kSG0FjLk4vQW_jxesDVYIoKViL49ocoQpviw%3d%3d}@bitbucket.org/smartlogwms/swm-sme-fe.git +refs/heads/production:refs/remotes/origin/production # timeout=10
+Checking out Revision 65f2b93395742dedf8f69534c7436b8e81be6860 (production)
+Commit message: "Merged in release/sprint-11 (pull request #1052)"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4HvcU3qz3cKxe1yU2rDxBc0W4GMLnHwqC4vKt7gzN97GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4PBgYTz/0ukqnkXWwIZRA41zsp5tLN0nJQjPAMa4nFv3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4A6j4PJDL2AnaHydOV8myGgDRk6aZ1TLflkgZ84Eyc0YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPOb21ub0AAAA=[0m[Pipeline] pwd
+[8mha:////4JnQ4bAoJImGiCagXsVS6+guB8uLHRXT73mm50YvFjx3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] load
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (/home/jenkins/agent/workspace/swm-sme-fe_production/Jenkins.Base.groovy)
+[8mha:////4BQkCK/pAQ3i3PXrdEFLAo3uxkbuRL5cWV9rqAwYYePLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N3ew3WS+AAAA[0m[Pipeline] }
+[8mha:////4OFvMhvO75+MwMjZQ48q/MPzyvjtpBKft0jfy62tTgX0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFEU4bYvgAAAA==[0m[Pipeline] // load
+[8mha:////4G3f60NFI6cLlvP5p4l63PVRYJ08xPDr3F73mtz3q0OjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv6keuOMEAAAA=[0m[Pipeline] container
+[8mha:////4N62fmc0dTVtc/6u42pPNmzODDLvuzsqEW9otum1fzLxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4KsgI2MzFxy5USMfzawLEitGRrQdj7Q2I3G6JpJ+3HTPAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] sh
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 65f2b93395742dedf8f69534c7436b8e81be6860 # timeout=10
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4Cb1BlMC1wS0jRQhDdxoyKO5/OB/+oLijB4/sTMsoibYAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4D1NlazuToIvVhBQj7lAoK0a86WtAe86KEjvZgNRqaC4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // container
+[8mha:////4Ms/Cm16zHwizHOHP7F11BTg86Z6AUgwInbLMu6xAFuRAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AGAD87u9AAAA[0m[Pipeline] echo
+Process build for production branch
+[8mha:////4GmnRNzLrutvjsph+qD0cClckvkon6hVU9nEWrjnbyF3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] container
+[8mha:////4I0FJ335KXrdEiuMFYgaeex3tWZmYA1AhkK8hhNK401NAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4AuUlT6vYAMiGf+gzb+s/3B/KBoqLYZlFgXzU2My4DO8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ /tools/dotnet-gitversion . /showvariable SemVer
+[8mha:////4HgaYsSXmqiCVp8fY8ZzEEia8MLU+iLEjwR40XvKftZWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] echo
+SemVer: 0.1.528-beta.1
+[8mha:////4HCtKYk5N1KnjMhdTvtprjv81MDUBd0UhEm1bSqKgCDNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/wcDw0vgAAAA==[0m[Pipeline] }
+[8mha:////4NWnduHQW0IDtaFW3TXeWDOoO3/nuLlu8SHnFFyKfxq1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/Dk2eIvgAAAA==[0m[Pipeline] // container
+[8mha:////4Hp3edMkKwg5aefCZhibEoXkhOSzhrbp/L+3csa8FEOeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AJD/cPW9AAAA[0m[Pipeline] echo
+Version 0.1.528-beta.1
+[8mha:////4I+C8ab7avrndXfmOhwf/Jfymh5BI5Rwwajjh+3y6RIPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRTRKJBVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBodgxlE3zOVZv8D5NGMEAAAA=[0m[Pipeline] stage
+[8mha:////4FJBJQOPddeg2o1LGO9A80p4KYwXviMAa8mcnrILiVqLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Build docker)
+[8mha:////4EdyEW5m+XW7zw1cAx+JndD8m467CwU/1Cpbfeg3hf67AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C033GC8BZ51, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4K+h8rdfeuvVWFrdlRRlKeAYxnS6P1wxSNwbdsPLV3I0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ALEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD41tyArCAAAA[0m[Pipeline] container
+[8mha:////4D/kMJXzq3H61aruBULYV12wW3LxK2naxwZrWmWYXEj9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4HDLAuhjqwbq3ln51VF4aORoCAAdRafEUwhEVxf8qVYNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] sh
++ ls -la
+total 484
+drwxr-xr-x    5 1000     1000          4096 Apr  2 15:54 .
+drwxr-xr-x    4 1000     1000            90 Apr  2 15:54 ..
+-rw-r--r--    1 1000     1000           600 Apr  2 15:54 .browserslistrc
+-rw-r--r--    1 1000     1000           274 Apr  2 15:54 .editorconfig
+drwxr-xr-x    9 1000     1000           186 Apr  2 15:54 .git
+-rw-r--r--    1 1000     1000           620 Apr  2 15:54 .gitignore
+drwxr-xr-x    2 1000     1000            27 Apr  2 15:54 .vscode
+-rw-r--r--    1 1000     1000           595 Apr  2 15:54 Dockerfile.prod
+-rw-r--r--    1 1000     1000           592 Apr  2 15:54 Dockerfile.stage
+-rw-r--r--    1 1000     1000           294 Apr  2 15:54 GitVersion.yml
+-rw-r--r--    1 1000     1000          1800 Apr  2 15:54 Jenkins.Base.groovy
+-rw-r--r--    1 1000     1000          3631 Apr  2 15:54 Jenkinsfile
+-rw-r--r--    1 1000     1000          2224 Apr  2 15:54 README.md
+-rw-r--r--    1 1000     1000          5082 Apr  2 15:54 angular.json
+-rw-r--r--    1 1000     1000           390 Apr  2 15:54 deploy-replace-version.js
+-rw-r--r--    1 1000     1000          1273 Apr  2 15:54 deploy.prod.yml
+-rw-r--r--    1 1000     1000          1282 Apr  2 15:54 deploy.stage.yml
+-rw-r--r--    1 1000     1000          1427 Apr  2 15:54 karma.conf.js
+-rw-r--r--    1 1000     1000          1030 Apr  2 15:54 nginx.conf
+-rw-r--r--    1 1000     1000          2697 Apr  2 15:54 package.json
+drwxr-xr-x    6 1000     1000           189 Apr  2 15:54 src
+-rw-r--r--    1 1000     1000           293 Apr  2 15:54 tsconfig.app.json
+-rw-r--r--    1 1000     1000           832 Apr  2 15:54 tsconfig.json
+-rw-r--r--    1 1000     1000           333 Apr  2 15:54 tsconfig.spec.json
+-rw-r--r--    1 1000     1000        407375 Apr  2 15:54 yarn.lock
++ docker build -f Dockerfile.prod --build-arg 'version=0.1.528-beta.1' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-fe:prod '--pull=true' .
+Sending build context to Docker daemon  24.67MB
+Step 1/15 : FROM public.ecr.aws/smartlog/node:16.13.0-alpine3.14 as build-deps
+16.13.0-alpine3.14: Pulling from smartlog/node
+97518928ae5f: Pulling fs layer
+784cd1fd612b: Pulling fs layer
+0ec5d186b713: Pulling fs layer
+98dc27ad6276: Pulling fs layer
+98dc27ad6276: Download complete
+0ec5d186b713: Verifying Checksum
+0ec5d186b713: Download complete
+97518928ae5f: Verifying Checksum
+97518928ae5f: Download complete
+97518928ae5f: Pull complete
+784cd1fd612b: Verifying Checksum
+784cd1fd612b: Download complete
+784cd1fd612b: Pull complete
+0ec5d186b713: Pull complete
+98dc27ad6276: Pull complete
+Digest: sha256:5277c7d171e02ee76417bb290ef488aa80e4e64572119eec0cb9fffbcffb8f6a
+Status: Downloaded newer image for public.ecr.aws/smartlog/node:16.13.0-alpine3.14
+ ---> 44e24535dfbf
+Step 2/15 : ENV NODE_OPTIONS=--max_old_space_size=8192
+ ---> Running in 05292f74a357
+Removing intermediate container 05292f74a357
+ ---> cb3c2ea95c21
+Step 3/15 : ARG version
+ ---> Running in d230527fb2e1
+Removing intermediate container d230527fb2e1
+ ---> 40eef8c4a25c
+Step 4/15 : WORKDIR /usr/src/app
+ ---> Running in 6775b0e73b39
+Removing intermediate container 6775b0e73b39
+ ---> 6378517b8df7
+Step 5/15 : COPY package.json yarn.lock ./
+ ---> c4afe8d3a6f1
+Step 6/15 : RUN yarn
+ ---> Running in db83b3707830
+yarn install v1.22.15
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info esbuild-android-arm64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-android-arm64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-android-arm64@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info esbuild-darwin-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-darwin-arm64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-darwin-arm64@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info esbuild-freebsd-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-freebsd-arm64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-freebsd-arm64@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info esbuild-linux-32@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-32@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-arm64@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-arm64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-mips64le@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-mips64le@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-ppc64le@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-ppc64le@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-linux-s390x@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info "esbuild-linux-s390x@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-netbsd-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-netbsd-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-openbsd-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-openbsd-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-sunos-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-sunos-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-windows-32@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-32@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info esbuild-windows-64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-windows-64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.14: The platform "linux" is incompatible with this module.
+info "esbuild-windows-arm64@0.14.14" is an optional dependency and failed compatibility check. Excluding it from installation.
+info esbuild-windows-arm64@0.14.14: The CPU architecture "x64" is incompatible with this module.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[91mwarning " > ngx-guided-tour@2.0.1" has unmet peer dependency "bootstrap@^4.0.0".
+[0m[4/4] Building fresh packages...
+Done in 99.81s.
+Removing intermediate container db83b3707830
+ ---> 6f874eb0c0db
+Step 7/15 : COPY . ./
+ ---> 24894990a324
+Step 8/15 : RUN yarn node deploy-replace-version.js stage $version
+ ---> Running in 0c6f2b4c26c5
+yarn node v1.22.15
+Build version set: 0.1.528-beta.1
+Done in 0.28s.
+Removing intermediate container 0c6f2b4c26c5
+ ---> 89a39b4295d2
+Step 9/15 : RUN yarn build-production
+ ---> Running in 225420bdbf0d
+yarn run v1.22.15
+$ ng build --configuration=production
+[91m- Generating browser application bundles (phase: setup)...
+[0m[91m✔ Browser application bundle generation complete.
+[0m[91m✔ Browser application bundle generation complete.
+[0m[91m- Copying assets...
+[0m[91m✔ Copying assets complete.
+- Generating index html...
+[0m[91m✔ Index html generation complete.
+[0m
+Initial Chunk Files           | Names                                                                                          |   Raw Size | Estimated Transfer Size
+main.ffc7eaadd044c454.js      | main                                                                                           |  608.52 kB |               153.43 kB
+styles.3a9e9f7863dba776.css   | styles                                                                                         |  536.66 kB |                49.38 kB
+polyfills.4ce33e5774c1b7bd.js | polyfills                                                                                      |   36.25 kB |                11.52 kB
+runtime.e6d29852ac8d3f50.js   | runtime                                                                                        |    5.60 kB |                 2.65 kB
+
+| Initial Total                                                                                  |    1.16 MB |               216.97 kB
+
+Lazy Chunk Files              | Names                                                                                          |   Raw Size | Estimated Transfer Size
+2136.2cb5c0d28ca1556a.js      | pages-main-page-module                                                                         |    5.03 MB |               792.11 kB
+pdfmake.1937d8bc18dcb757.js   | pdfmake                                                                                        |    2.28 MB |               712.96 kB
+8707.b1c9224d8d2a612d.js      | overview-overview-module                                                                       |  980.14 kB |               179.83 kB
+5869.6a653330a953823e.js      | landing-page-landing-page-module                                                               |  565.53 kB |                78.73 kB
+xlsx.cd0bf2e3a84a7712.js      | xlsx                                                                                           |  473.09 kB |               133.96 kB
+6654.0009a80617959f3a.js      | landing-page-landing-page-module                                                               |  272.80 kB |                56.52 kB
+canvg.fc1bae09aec95b54.js     | canvg                                                                                          |  192.73 kB |                49.08 kB
+871.f1367378ca0eda8c.js       | outbound-order-outbound-order-module                                                           |  159.05 kB |                23.44 kB
+13.217f8405d029e652.js        | inbound-sales-order-inbound-sales-order-module                                                 |  114.92 kB |                17.21 kB
+9753.e2787c36bc658710.js      | inbound-order-inbound-order-module                                                             |  113.04 kB |                19.71 kB
+5024.f4cbef0e4250a848.js      | product-manage-product-manage-module                                                           |  107.45 kB |                16.80 kB
+6841.2c0f92e57378e489.js      | check-inventory-remain-check-inventory-remain-module                                           |   84.82 kB |                12.83 kB
+7879.1b5743cee5a551bb.js      | sale-order-sale-order-module                                                                   |   76.78 kB |                14.23 kB
+5461.1a046d33222b7de6.js      | overview-overview-module                                                                       |   61.74 kB |                 9.44 kB
+8976.b936153f5b69bc87.js      | user-configuration-user-configuration-module                                                   |   59.67 kB |                10.91 kB
+2076.659d252d2921a322.js      | inventory-internal-transfer-inventory-internal-transfer-module                                 |   52.42 kB |                 7.95 kB
+5080.d928ed0c80272cd8.js      | attribute-bulk-change-attribute-bulk-change-module                                             |   44.47 kB |                 9.89 kB
+1705.f22f3da101fd7917.js      | replenishment-strategy-replenishment-strategy-module                                           |   37.25 kB |                 8.04 kB
+2985.f01e6eaadc31f379.js      | putaway-strategy-putaway-strategy-module                                                       |   36.56 kB |                 8.17 kB
+6932.3f0734823ca27f1b.js      | customer-customer-module                                                                       |   35.63 kB |                 7.62 kB
+5834.e95f2c4ddc19cc38.js      | replenishment-list-replenishment-list-module                                                   |   35.26 kB |                 7.68 kB
+8378.a2177755ef893d04.js      | customer-group-customer-group-module                                                           |   34.18 kB |                 8.03 kB
+7226.62ab8a00a5cdbb48.js      | master-pick-master-pick-module                                                                 |   32.67 kB |                 7.22 kB
+5192.4ea7e39185500fad.js      | master-ship-master-ship-module                                                                 |   32.60 kB |                 7.36 kB
+4990.514f27faf014cb35.js      | master-receipt-master-receipt-module                                                           |   31.13 kB |                 7.59 kB
+common.a1ad3da7d117421f.js    | common                                                                                         |   30.40 kB |                 6.21 kB
+7717.198db9ad2be0002b.js      | replenishment-list-replenishment-list-module                                                   |   30.25 kB |                 7.35 kB
+6376.6b325dc77f41a1ce.js      | inventory-dashboard-inventory-dashboard-module                                                 |   28.24 kB |                 6.16 kB
+8317.a07fe78829cd948e.js      | attribute-change-product-attribute-change-product-module                                       |   27.29 kB |                 5.87 kB
+5353.73817a5b1f4966ce.js      | location-location-module                                                                       |   26.20 kB |                 6.38 kB
+1628.5090fcc1ab7dd91f.js      | sale-order-sale-order-module                                                                   |   25.67 kB |                 3.96 kB
+2504.cb0080c1d262f051.js      | order-type-export-order-type-export-module                                                     |   25.46 kB |                 5.93 kB
+6446.3c8599f316337e7d.js      | order-type-import-order-type-import-module                                                     |   25.35 kB |                 5.92 kB
+3201.fa70eadafc9ea3ca.js      | kpi-dashboard-kpi-dashboard-module                                                             |   24.71 kB |                 5.73 kB
+8562.aa516617864c711f.js      | calculation-unit-calculation-unit-module                                                       |   24.42 kB |                 5.77 kB
+1173.81ef330524a236dc.js      | overview-overview-module                                                                       |   24.34 kB |                 4.15 kB
+7331.8bb846c0ba3a051d.js      | status-order-status-order-module                                                               |   24.25 kB |                 5.78 kB
+5218.02ba4a535b2fab38.js      | manufacture-manufacture-module                                                                 |   23.84 kB |                 5.88 kB
+9031.aab5d1c2503fec6c.js      | carrier-carrier-module                                                                         |   21.43 kB |                 5.48 kB
+1398.993661efa4168113.js      | putaway-zone-putaway-zone-module                                                               |   21.35 kB |                 5.56 kB
+6113.16d44397b9b1e25c.js      | key-strategy-key-strategy-module                                                               |   19.85 kB |                 5.30 kB
+4795.71d51dfc84271ee5.js      | sku-group-sku-group-module                                                                     |   19.17 kB |                 5.15 kB
+5451.b544e3962526280c.js      | report-configuration-report-configuration-module                                               |   18.64 kB |                 5.01 kB
+1244.78a6fa10ab9faa23.js      | customer-supplier-dashboard-customer-supplier-dashboard-module                                 |   18.57 kB |                 4.48 kB
+6678.9f25751a301929ce.js      | barcode-barcode-module                                                                         |   17.60 kB |                 4.43 kB
+748.ad693ec7873c1d8b.js       | profile-profile-module                                                                         |   17.27 kB |                 4.27 kB
+3317.237d10211d9aa705.js      | inbound-order-inbound-order-module                                                             |   16.77 kB |                 4.54 kB
+6048.f569abc4c40128b1.js      | replenishment-replenishment-module                                                             |   13.03 kB |                 3.24 kB
+9130.090cf5072c917230.js      | warehouse-management-warehouse-management-module                                               |   12.00 kB |                 3.24 kB
+138.843e1a09cf925e86.js       | storer-management-storer-management-module                                                     |   11.24 kB |                 2.84 kB
+8185.498e2cac40851c96.js      | master-pick-master-pick-module                                                                 |    9.75 kB |                 2.98 kB
+4168.ed95149c432eb682.js      | role-configuration-role-configuration-module                                                   |    9.69 kB |                 3.13 kB
+2215.27eaa5dee55378a3.js      | check-inventory-remain-check-inventory-remain-module                                           |    9.19 kB |                 2.98 kB
+4276.fa35d8c82091bc1d.js      | putaway-detail-putaway-detail-module                                                           |    9.01 kB |                 2.85 kB
+918.a005d7b35db00eac.js       | permission-permission-module                                                                   |    7.89 kB |                 2.63 kB
+1845.6649bcf101c1c560.js      | page-tabs-page-tabs-module                                                                     |    7.36 kB |                 2.46 kB
+7484.3ad643fd789f77e5.js      | overview-overview-module                                                                       |    7.00 kB |                 2.02 kB
+5511.b6ff6d260c625193.js      | mobile-config-mobile-config-module                                                             |    6.55 kB |                 2.21 kB
+1655.a3869f68b113d6eb.js      | example-example-module                                                                         |    6.18 kB |                 2.23 kB
+4568.47e989f3ed60c4d8.js      | operational-report-operational-report-module                                                   |    2.48 kB |               757 bytes
+5512.53e8202eb8fe1ec5.js      | inventory-inventory-module                                                                     |    1.81 kB |               623 bytes
+9417.e764b83715104ce4.js      | config-mobile-config-standard-task-type-mobile-config-standard-task-type-module                |    1.56 kB |               555 bytes
+7749.61c6922ca1636b7b.js      | administration-administration-module                                                           |    1.38 kB |               514 bytes
+8179.ed67ebf29c0891d1.js      | outbound-outbound-module                                                                       |    1.22 kB |               500 bytes
+7261.92351232480cd95d.js      | system-code-system-code-module                                                                 |    1.20 kB |               540 bytes
+1659.c5cd2e49068d2015.js      | dashboard-dashboard-module                                                                     |    1.17 kB |               482 bytes
+6897.009e7ef148573cc3.js      | partner-partner-module                                                                         |    1.16 kB |               511 bytes
+5395.7880688ff0ffb420.js      | strategy-strategy-module                                                                       |    1.10 kB |               520 bytes
+646.ddd474d981de1f14.js       | inbound-inbound-module                                                                         |    1.03 kB |               458 bytes
+1541.5846d9d5bd520ec0.js      | config-mobile-config-standard-receive-mobile-config-standard-receive-screen-module             |    1.00 kB |               417 bytes
+8537.61765c9944c284e9.js      | config-mobile-config-standard-pick-mobile-config-pick-screen-module                            | 1022 bytes |               414 bytes
+1740.307359cfb9e51d67.js      | product-product-module                                                                         |  996 bytes |               509 bytes
+5802.65a48b8f41555712.js      | warehouse-address-warehouse-address-module                                                     |  953 bytes |               547 bytes
+6749.f6868a97a81d8aa8.js      | setting-setting-module                                                                         |  933 bytes |               382 bytes
+5301.b499dc95c800e11b.js      | user-management-user-management-module                                                         |  866 bytes |               468 bytes
+1002.b8aed304c613864d.js      | productivity-mastertask-report-productivity-mastertask-report-module                           |  859 bytes |               523 bytes
+1455.6b4aea08164df47b.js      | config-mobile-config-standard-others-module-mobile-config-standard-others-module-screen-module |  859 bytes |               481 bytes
+6565.7ca7e63eac3c6a3e.js      | outbound-report-outbound-report-module                                                         |  859 bytes |               531 bytes
+6651.1db984baf884c003.js      | inbound-report-inbound-report-module                                                           |  857 bytes |               526 bytes
+4267.710b7abea634b612.js      | sales-order-report-sales-order-report-module                                                   |  851 bytes |               527 bytes
+4361.ea9047b8d9b9204a.js      | purchase-report-purchase-report-module                                                         |  829 bytes |               514 bytes
+8791.8df731d1458c6e82.js      | detail-storage-report-detail-storage-report-module                                             |  827 bytes |               517 bytes
+7338.32157aa923c18116.js      | pickdetail-list-pickdetail-list-module                                                         |  768 bytes |               495 bytes
+4410.18c54887b82a85fe.js      | print-palletid-cartonid-unitid-print-palletid-cartonid-unitid-module                           |  723 bytes |               453 bytes
+5600.f9fa22fef121caec.js      | warehouse-premises-warehouse-premises-module                                                   |  705 bytes |               397 bytes
+5361.37d753381587fed8.js      | inventory-list-inventory-list-module                                                           |  674 bytes |               442 bytes
+2300.c9493abd2ee0ea5d.js      | action-history-action-history-module                                                           |  658 bytes |               433 bytes
+5230.61446928b0e1bbe6.js      | mobile-config-standard-review-mobile-config-standard-review-module                             |  655 bytes |               420 bytes
+8653.706a906c8aaa6803.js      | config-mobile-config-standard-premove-mobile-config-standard-premove-module                    |  651 bytes |               419 bytes
+520.d8eee8e783577efa.js       | config-mobile-config-standard-move-mobile-config-standard-move-module                          |  647 bytes |               416 bytes
+2392.db7916b971ad7532.js      | mobile-config-standard-detail-mobile-config-standard-detail-module                             |  635 bytes |               377 bytes
+3927.4576353f46ee93e5.js      | mobile-config-standard-task-list-mobile-config-standard-task-list-module                       |  635 bytes |               411 bytes
+598.57d87655ad9aa4c5.js       | config-mobile-config-standard-ship-mobile-config-standard-ship-module                          |  629 bytes |               406 bytes
+1231.27d45420f8b77c60.js      | config-mobile-config-standard-inventory-mobile-config-standard-inventory-screen-module         |  605 bytes |               398 bytes
+5634.418ed8c736aff651.js      | config-mobile-config-standard-putaway-mobile-config-putaway-screen-module                      |  587 bytes |               382 bytes
+7914.d2fe0371c664a1bb.js      | config-mobile-config-standard-pack-mobile-config-pack-screen-module                            |  583 bytes |               402 bytes
+8203.4bf7d16bfcd56ce5.js      | warehouse-warehouse-module                                                                     |  476 bytes |               304 bytes
+3396.98a53964e992c629.js      | warehouse-management-warehouse-management-module                                               |  475 bytes |               248 bytes
+8243.4654bb9ab65a4104.js      | replenishment-replenishment-module                                                             |  426 bytes |               295 bytes
+
+Build at: 2023-04-02T16:04:23.464Z - Hash: 41936a339d81329f - Time: 387421ms
+[91m
+./src/app/pages/overview/overview-instruction/overview-instruction.component.scss?ngResource - Warning: Module Warning (from ./node_modules/postcss-loader/dist/cjs.js):
+Warning
+
+(161:3) autoprefixer: end value has mixed support, consider using flex-end instead
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.concat'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.every'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.fill'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.filter'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.for-each'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.from'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.includes'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.index-of'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.iterator'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.join'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.map'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.reduce'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.reverse'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.slice'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.array.some'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.function.name'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.map'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.number.constructor'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.object.get-own-property-descriptor'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.object.get-own-property-descriptors'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.object.keys'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#c[0m[91monfiguring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.object.to-string'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.promise'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.reflect.apply'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.reflect.construct'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.reflect.delete-property'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.reflect.get-prototype-of'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.regexp.exec'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.regexp.to-string'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.includes'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.iterator'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.match'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.replace'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.split'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.string.starts-with'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js[0m[91m/modules/es.string.trim'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.symbol'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.symbol.description'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/es.symbol.iterator'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/web.dom-collections.for-each'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'core-js/modules/web.dom-collections.iterator'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/canvg/index.js depends on 'raf'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/node_modules/@amcharts/amcharts4/.internal/core/export/Export.js depends on 'pdfmake/build/pdfmake.js'. CommonJS or AMD dependencies can cause optimization bailouts.
+[0m[91mFor more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/src/app/pages/main-page.component.scss exceeded maximum budget. Budget 2.00 kB was not met by 1.99 kB with a total of 3.99 kB.
+
+Warning: /usr/src/app/src/app/pages/outbound/sale-order/sale-order-form/sale-order-form.component.ts depends on 'rxjs/internal/Subject'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/src/app/pages/outbound/sale-order/sale-order-form/sale-order-form.component.ts depends on 'rxjs/internal/operators/takeUntil'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: /usr/src/app/src/app/pages/overview/overview-favorite/overview-favorite.component.scss exceeded maximum budget. Budget 2.00 kB was not met by 566 bytes with a total of 2.55 kB.
+
+Warning: /usr/src/app/src/app/pages/overview/overview-instruction/overview-instruction.component.scss exceeded maximum budget. Budget 2.00 kB was not met by 654 bytes with a total of 2.64 kB.
+
+Warning: /usr/src/app/src/app/shared/components/table/table.component.scss exceeded maximum budget. Budget 2.00 kB was not met by 50 bytes with a total of 2.05 kB.
+
+Warning: /usr/src/app/src/app/shared/helpers/excel.helper.service.ts depends on 'exceljs'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+Warning: bundle initial exceeded maximum budget. Budget 1.00 MB was not met by 163.03 kB with a total of 1.16 MB.
+
+
+[0mDone in 392.30s.
+Removing intermediate container 225420bdbf0d
+ ---> aea4ed434cce
+Step 10/15 : FROM public.ecr.aws/smartlog/nginx:1.12-alpine
+1.12-alpine: Pulling from smartlog/nginx
+550fe1bea624: Already exists
+af3988949040: Already exists
+d6642feac728: Already exists
+c20f0a205eaa: Already exists
+Digest: sha256:812dd32216edcfd41decaacc8fe7cae80b39e5a87b0b8923bc15c4db94cf5bdb
+Status: Downloaded newer image for public.ecr.aws/smartlog/nginx:1.12-alpine
+ ---> 24ed1c575f81
+Step 11/15 : COPY --from=build-deps /usr/src/app/dist/swm-sme-fe /usr/share/nginx/html
+ ---> 532356de32e2
+Step 12/15 : RUN rm /etc/nginx/conf.d/default.conf
+ ---> Running in ac6db1d96667
+Removing intermediate container ac6db1d96667
+ ---> 61482b35f9be
+Step 13/15 : COPY nginx.conf /etc/nginx/conf.d/default.conf
+ ---> 014d74b3b25c
+Step 14/15 : EXPOSE 80
+ ---> Running in 27438c4a6679
+Removing intermediate container 27438c4a6679
+ ---> 5d3c15375cb3
+Step 15/15 : CMD ["nginx", "-g", "daemon off;"]
+ ---> Running in 79986c81f5d1
+Removing intermediate container 79986c81f5d1
+ ---> 4e57694077f9
+Successfully built 4e57694077f9
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-fe:prod
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiNnI5bEcrMk05akcwUHBadEdBckhVL3R5Z2pWd2Q1cVVuQm0rMnFHWkpLSFgyRjBOa3VJU1lvQ3hLVXMraGpXbk1pM1FMWk44WkVMVVRKRmQ5Y3E0cVdUckxITEVVaGNiS1F0S1lKVkdKU3dsUWFzckVReSszYTZ3dkJ0VXg2aUd2bFJ6MHNsTkI5ZnRWVlF4enNuUUxUL3YyMWtySmJvU2Q1NE1DR1YxTWZLbzNXaCtDLzNxL0tCb3RYUHM0Ri9oalp1VFlSSjVidDF1UXFOc1BtbWVpeTdVQ2NVSEdHcXhGL0lmZll2bHNhUkJkUStHSS9Rd3A4Q2M3NHZEcjlmWGVmWnJXL3pqUEJpSTAvaW5DL0VrNUVBdnlhM3l4QVRBQjdPZDIyaHM0V0VGMWRRazBlclE0QjVPQ1BnWldxQmMyYXhHOVU2R2NzOFRMWmNUVTI0NzgrSm8vZDg2Qy93SXdpRy9BN1ZYYll6MzJxcnJvSW9PamxhdnBvVUF2REZIV0I3ci9RY2RTZVp4R1NFUkpnZG5admFMVUtQaVc0ZTVTYTRNbVU3VlpUTlRMMm8vRFpHeUhPYjM2SUZDSU9hN1FGbmRDeXVOV2dheVJRWjdGeU5kbUNZY1ZUV2tUMkhmV2FxcWtIY1lWVnE1cGpXcW8yUFUxWTcvMW84NFAyc1ZoSU1YVGN6L3lqdHdFVlk2OVhYMktVNlNkbGY4VlE5U3BRSUR2ODg2NjIrUGNlaGFReUkzaXRES0NIcmVEUkVYQTBraFZjZVFRNGxSVHVYQ25VR2tKK1BKcElhT2RQTjZhNjY4djhaY2Z4WERTOHlCZVQ1ZHpScEs5MVRDeDlWQ1BZZWk4dStPTE5JaTNyRWdKV3hiZDFlL1Q3VVdIeDJQOUxGdThLOXVhOHJ5Ky90UDEyTDhlMXE2NUxHTmhWanZSRURnRGJTaUF2aHN0bmQyaUpGRUVYVXBZVjlhNHNnRDBId3V2eUNld3JJY0V4Kzg3MFVlZjc3M3RPSW5rR1B5blppdldrWnAvOFlpMWQ2eWJLNGU0RWQ1NUtMbHAvK1VyVXVrNFl5bEVjQlpqdUliMzBHSjZOVCtjUHN6M2grenlYQ0VoR3lFWTlOcWVtNlpHcUdQdE5RcTJzbmozQ1RzdEY3dG5ycTZxQlZrTXAzc1A5S1FLNHljcDdGcitMcjlmakxGMU5iQmpkR0JZVCtsNERKUEw2OURxaHBoRFlZcWpjZU9ZWGxCVzNXaWlIbklWNHRtOTlMdFVnaEE0M0JRdUswZEZBQlJVWUR0ZWJmN1JzSXFNYkNtcUJSTnNuWGlVK1ZRV3U3ZW1DTlZsQVd5NGc0dXRNa3hiN0FVUG5tRlVJaU5yQ0dDMUZEV3B0MmZib2RPR0JTMm1QS2p3MTF0QVlmdmJNSEsyUmtZbW42OExHbndxeEVnRnp6RkQ5OUtBWmVZQm81RVA4WlM1eXh5M016VUNrRWFTMGdsUTZFZ1VZU0hNU2ZqcXBvMTNOMzAvL1JLSXpqVDgrTjZHK3RXOTVGQy9hRjlTMU9udk9INnM3V0U0UFZmNGw1YUJyMnl2ZkFPQTY1c3JEZFo5WU9icEVjeGxEQms0S3NyNkxVUmZPcFdXTS9jcVdEYVNBaVdrRUdyMWRQLy9aaDBXNFVvTE9tdGxzSmRGbHhSbHJWWmpib3IxZnp1VjM1YzJtNVU5V2JIYkt4bEZWTzVlaFFkVEZtRUlDQkxPUzZVd2ZZUFQ3Q2lpSVA2eTc2SE1Xbm9ySXA5WGNlZGZjRXVUdnViQm94dGdYemZ0cUFMQnJNeHhoeDFXMW4zeW9uWUtCYmk4b2Q4YmxYTzUrVENKSjlTNmZVU2Z1Sk4rL2d6ck54MmF0YTdGSnNBYklCaXAxVVBNU0c4b2cxNWwxR0VkeTRxSFlScTFTM2RXZXhxL2dXUE1VV2hCMWM5aW9GV3JjeUM1NS9FQnFmc3BCS09zWFNMYTV3QSt4SnJLQ3pET1pVVWZ1WWxHUmQ3MUZhWWt0L29leG5rOVZ3WjFmQzNFNEp6VnNXUjAvLy8yaHZtN1ZLNzE1cHAzQVF4Q0hCWC9ISlowbVY1elN0QllxOUk1M0gvWGt0eDlyc2NLaEdhOCtOWDJRdG8xcXNQaldBYWtmdmMrOWN6NXNmUFd0K2twRjVkRWl6V3FMV3FqWERIaTYrSndjbW8zazBIUlN3RHBaTkl5OTNxaG55ekhlLy9sV1hQNjFXZUNtVVd1UzFNS29PSklLTUg5SEgzdFVhTElqYzFuelBuVDBKNnZIY3JmbzhkRTNvYkN3RnU2SytweEhrQ28vdDlwR0Z3S1dFakdpelFXUmVCZ3VjVmVsRDJZTzB1ak9kZUFWbG5VUGRlalRscjgzVTJXUUx0bUQ4MEVXeSs0cUJQMUpKT2VXaHV6NWJxQ1dRdVFoOUY5a0VkbDRpL2x3cGROUmpuRGZFUVZJL01xeDJvNzFwcmxjM2Q4b2hTbEYvbm9ieXdzRlducjQzRVdVNlZ5bFhpa0NHeXYwajZkSG5oM0hndkRod3E4MjdGaG5YcGRnbTl1a1BtUnE4eGV5alYxN3MwMkpmZGJmMEw0WEd2VC8wN2g5cjZQOGVkQjdnTUJDNlhkTGhUblFSeXJLRjhEV1BLRHVtKyIsImRhdGFrZXkiOiJBUUVCQUhpZEVyWkNmaEtPZURNMDgrY1A1ZnR5anZROVhNTVNRNHBLMEZabnZBWlhKZ0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVET2NUWkZOYmMrMXcydkYwYndJQkVJQTc3Q3RkL21DamVLZm9RNklVYXVvQUdqQjRhRW95M05PYmJwQWJHT0t3NmlTZitPQVFVWklXanRJVnhYblFRZjc2bXpaMjdSLzhkNXJzTjRjPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTY4MDQ5NDA2MX0=' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-fe:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-fe]
+240358750803: Preparing
+ef5109ceea0c: Preparing
+17a55c3046c6: Preparing
+68695a6cfd7d: Preparing
+c1dc81a64903: Preparing
+8460a579ab63: Preparing
+d39d92664027: Preparing
+8460a579ab63: Waiting
+d39d92664027: Waiting
+68695a6cfd7d: Layer already exists
+c1dc81a64903: Layer already exists
+d39d92664027: Layer already exists
+8460a579ab63: Layer already exists
+ef5109ceea0c: Pushed
+240358750803: Pushed
+17a55c3046c6: Pushed
+prod: digest: sha256:757e886a73b2c71fb70bd6f138e2fb2e7430c7dee51ebdca4477482228907f53 size: 1778
+[8mha:////4JahLi36faeu7gdKq/5t344gAFI/pT7hD0K0Mf6AmLjUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4BCy5u1mIfvkZ5kMYa0aB4R4XMRqoaSd+hwhgvSqqLr7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // container
+[8mha:////4A3xhL+l6f8o6LayK5bYR8/Sp1JAAKq6sM51AMTAHAh5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPyD91bq+AAAA[0m[Pipeline] }
+[8mha:////4HpAqLcKsu7ULyzxqdLvv0bXih82It/5fwgAL0Fjyx93AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRCB2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuPy0aJaK+AAAA[0m[Pipeline] // stage
+[8mha:////4BSMql1NVQs66cwTp1gWxUxw3Ev2qCn7jQrcpsSQ+4UQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvfgDq3cEAAAA=[0m[Pipeline] stage
+[8mha:////4MPS6mDykkadubiK7TU3VL6yd9jZ8N9H7UKiP+Ni++qeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4KYOMtmmyjARcS1B62VxWQ+jBVQOb7JDSwu2N2gjd1piAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] container
+[8mha:////4Dcz7P2c4a/k+VJkI+PUgd4VnBwCyZKrHyZwOkaN56jFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] {
+[8mha:////4BKh/YNDN8lp3ckLSsXq3NiIs5ztv1vQTP3V3YtuZZlcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN+EEkMO+AAAA[0m[Pipeline] sh
++ kubectl apply -f deploy.prod.yml
+deployment.apps/swm-sme-fe-prod configured
+service/swm-sme-fe-prod unchanged
++ date '+%s'
++ kubectl patch deployment swm-sme-fe-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1680451485"}}}}}' -n swmsme
+deployment.apps/swm-sme-fe-prod patched
++ kubectl rollout status deployment swm-sme-fe-prod -n swmsme
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "swm-sme-fe-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "swm-sme-fe-prod" successfully rolled out
+[8mha:////4PORABQpT2gMMSGH2N4BC/m+GyVJd93InCS64XxPBRFiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEDW5U8vgAAAA==[0m[Pipeline] }
+[8mha:////4FNAcPiaUQ1V1fB4ZgY7sheOcZGafyOu6xqH7aimhK3YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NxzZwG6+AAAA[0m[Pipeline] // container
+[8mha:////4BRXWZmkBB+VMUsGOTqKp1KI8c62A78xoNpoF1GshGoWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP/azv5i+AAAA[0m[Pipeline] }
+[8mha:////4FKTMk1PZYEge0z9sgUnySSEAkANVqt01ilo2CT/l6P8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDNtd+9wHw9YfNvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OSUJ06FRs4JuRfu6XcnOkzjZC1WsyaqU7wca1Zmer2NAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ACKD/fG9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4H5FmEgn6+5X6ZBplqPn/HEJFmXkPYvia9cN4rOhzpdvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPY7Lm6L0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4K2E5pVal8uakbpKhJ6xBK8+DaYhK5q+cqdX61gPinOeAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LdtvsApCSnp70AAAA=[0m[Pipeline] echo
+Build successful
+[8mha:////4I5gtn5HtaxZEG64UW08ebjof2EjAk4S3RUmnUYOSR1sAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU2DhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBTL8j2grws+w/lFby+vQAAAA==[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C033GC8BZ51, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4ADE8j2MHLoGm4sFV1qwB53QMQShSWMzvjoye/d76aeAAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJU0jhWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg8f/ZoovQAAAA==[0m[Pipeline] }
+[8mha:////4P9dCe8iDP5w0i7j8nYNOwlIS59JFdbV8Rw70G4/2kT2AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJUjIVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAFYXzjL0AAAA=[0m[Pipeline] // node
+[8mha:////4Pl24AebPezLFmu9hRxdm8yDJ5pykWNFAr4xYGJnomJ5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQEJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFIipHm9AAAA[0m[Pipeline] }
+[8mha:////4Pzx/0JUXEub487lo79o4wKS0V7DTXm+G5NQPANg5pLKAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEAVCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AEGeoNq9AAAA[0m[Pipeline] // podTemplate
+[8mha:////4PDfRrxX6HffABk6GYHXsD3tmqAnHep3W3TchPDow5mtAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPCL4jJr0AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>bb914edf24ed9ead4ed53a1e5ce0c7978178814a</hash>
+  <message>fix bug link stmv3
+</message>
+  <author>Hung Dang &lt;hung.dang980@gmail.com&gt;</author>
+  <date>2021-06-26 17:40:11.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

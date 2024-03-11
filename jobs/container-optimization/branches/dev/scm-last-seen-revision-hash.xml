@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>aa9fb6b45bd068ad0eed23534012f8b293d8463d</hash>
+  <message>Change time out
+</message>
+  <author>Karkill &lt;hoa.tran@gosmartlog.com&gt;</author>
+  <date>2021-07-08 02:46:33.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

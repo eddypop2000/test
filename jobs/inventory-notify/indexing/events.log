@@ -1,0 +1,434 @@
+[Mon Mar 29 08:06:56 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 29 08:06:56 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Mar 29 08:06:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 29 08:06:56 UTC 2021 processed in 1.6 sec
+[Wed Mar 31 08:25:48 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 08:25:48 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6a7224998d89ef973bc763d61f7c6a2ec8e86107 → 647b379de9a8da75fb3bdd914142f34b14c3e419)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Mar 31 08:25:50 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 08:25:48 UTC 2021 processed in 1.6 sec
+[Wed Mar 31 08:46:51 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 08:46:51 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Wed Mar 31 08:46:53 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 08:46:51 UTC 2021 processed in 1.7 sec
+[Wed Apr 28 10:00:57 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 28 10:00:57 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (647b379de9a8da75fb3bdd914142f34b14c3e419 → b0a0a742d59dc01663994a3fb4624781279e277f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Apr 28 10:00:59 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 28 10:00:57 UTC 2021 processed in 1.8 sec
+[Wed Apr 28 10:03:16 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 28 10:03:16 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (2b8b463d2974269eaea90444c2579d5dc2d36207 → 55101da752a8dafa277593c4f64d8b5eb78f5bba)
+Scheduled build for branch: production
+
+  3 branches were processed (query completed)
+[Wed Apr 28 10:03:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 28 10:03:16 UTC 2021 processed in 1.9 sec
+[Sat May 08 16:21:57 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat May 08 16:21:57 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b0a0a742d59dc01663994a3fb4624781279e277f → 22a5f1a9746b688491dd49e42cf3aba76a0639b1)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat May 08 16:21:59 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat May 08 16:21:57 UTC 2021 processed in 1.9 sec
+[Sun May 09 15:49:08 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun May 09 15:49:08 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (22a5f1a9746b688491dd49e42cf3aba76a0639b1 → 46832e2b2692b78a9b2948c131308b19be8c1d51)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun May 09 15:49:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun May 09 15:49:08 UTC 2021 processed in 2.6 sec
+[Tue Jun 22 17:42:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.137.229 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 22 17:42:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (55101da752a8dafa277593c4f64d8b5eb78f5bba → a8ea50aab957ae5ca829233ed63ffd2431fe03a3)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Jun 22 17:42:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.137.229 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 22 17:42:17 UTC 2021 processed in 1.7 sec
+[Wed Jun 23 10:01:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.232 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 10:01:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (a8ea50aab957ae5ca829233ed63ffd2431fe03a3 → 2590811fd292604a68cac4e63cf6c2f027dff683)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Wed Jun 23 10:01:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.232 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 10:01:28 UTC 2021 processed in 1.4 sec
+[Wed Jul 07 02:55:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 02:55:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (46832e2b2692b78a9b2948c131308b19be8c1d51 → 9cdb6a972e5dff9751ac4a638b810a9981cfa56e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jul 07 02:55:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 02:55:17 UTC 2021 processed in 1.9 sec
+[Wed Jul 07 03:00:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.150.233 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 03:00:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9cdb6a972e5dff9751ac4a638b810a9981cfa56e → 8fcf57ae7e13ae9393c87ed667b3c3f910ba67fa)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jul 07 03:00:01 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.150.233 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 03:00:00 UTC 2021 processed in 1.7 sec
+[Wed Jul 07 03:02:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.125.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 03:02:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (2590811fd292604a68cac4e63cf6c2f027dff683 → 4bb470d49b1b520b640e9b079f4359abee1b6f41)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Wed Jul 07 03:02:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.125.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 03:02:26 UTC 2021 processed in 1.6 sec
+[Wed Jul 07 10:06:01 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:06:01 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8fcf57ae7e13ae9393c87ed667b3c3f910ba67fa → 6d68effe3179de0f315e709a6bc2efa89f566475)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jul 07 10:06:03 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:06:01 UTC 2021 processed in 1.8 sec
+[Wed Aug 11 02:48:03 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.249 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 11 02:48:03 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (4bb470d49b1b520b640e9b079f4359abee1b6f41 → fd5474a916350577adb511b21099650e07e8508a)
+Scheduled build for branch: production
+
+  3 branches were processed (query completed)
+[Wed Aug 11 02:48:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.249 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 11 02:48:03 UTC 2021 processed in 1.7 sec
+[Tue Jan 11 10:45:46 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.130.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:45:46 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+
+  4 branches were processed
+Looking up smartlogwms/inventory-notify for pull requests
+
+  0 pull requests were processed
+[Tue Jan 11 10:45:48 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.130.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:45:46 UTC 2022 processed in 2.1 sec
+[Tue Jan 11 10:47:19 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:47:19 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+
+  4 branches were processed
+Looking up smartlogwms/inventory-notify for pull requests
+
+  0 pull requests were processed
+[Tue Jan 11 10:47:20 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:47:19 UTC 2022 processed in 0.97 sec
+[Tue Jan 11 10:49:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:49:40 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+
+  4 branches were processed
+Looking up smartlogwms/inventory-notify for pull requests
+
+  0 pull requests were processed
+[Tue Jan 11 10:49:41 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 11 10:49:40 UTC 2022 processed in 1.7 sec
+[Sat Jan 15 03:22:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.169.149 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jan 15 03:22:40 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6d68effe3179de0f315e709a6bc2efa89f566475 → 28d22afdf5e79e57ef7861c073bd052ca39b928d)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Sat Jan 15 03:22:41 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.169.149 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jan 15 03:22:40 UTC 2022 processed in 1.6 sec
+[Fri Feb 18 08:13:47 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 18 08:13:42 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (fd5474a916350577adb511b21099650e07e8508a → 976a18223ebd790533745654a9386bfc763320a7)
+Scheduled build for branch: production
+
+  4 branches were processed (query completed)
+[Fri Feb 18 08:13:49 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 18 08:13:42 UTC 2022 processed in 2.1 sec
+[Tue Mar 08 02:43:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.29 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 08 02:43:54 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch master from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (976a18223ebd790533745654a9386bfc763320a7 → 63c370ea854af334396cc3f6636381ff23715a96)
+Scheduled build for branch: production
+
+  4 branches were processed (query completed)
+[Tue Mar 08 02:44:01 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.29 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 08 02:43:54 UTC 2022 processed in 1.7 sec
+[Fri Jul 15 03:22:44 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.77 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 15 03:22:39 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (28d22afdf5e79e57ef7861c073bd052ca39b928d → 5bf0b52c65fab5ede91020998ca3f11d96ac9d05)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Fri Jul 15 03:22:48 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.77 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 15 03:22:39 UTC 2022 processed in 4 sec
+[Fri Jul 15 03:25:24 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 15 03:25:19 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5bf0b52c65fab5ede91020998ca3f11d96ac9d05 → 9968cff5217c8355cc16ba0a34e716bff877b29c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Jul 15 03:25:28 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 15 03:25:19 UTC 2022 processed in 3.3 sec
+[Mon Jul 18 02:31:20 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.143 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 18 02:31:15 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9968cff5217c8355cc16ba0a34e716bff877b29c → ddc142e796e1ace2f6d75016f9ed8eb3c97903f1)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Mon Jul 18 02:31:24 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.143 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 18 02:31:15 UTC 2022 processed in 3.4 sec
+[Mon Jul 18 02:32:21 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.152.252 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 18 02:32:16 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (63c370ea854af334396cc3f6636381ff23715a96 → 194ae0a682ca9b909c620edc6bb447918ae196fd)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Mon Jul 18 02:32:25 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.152.252 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 18 02:32:16 UTC 2022 processed in 3.3 sec
+[Tue Jul 19 10:59:44 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 10:59:39 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (ddc142e796e1ace2f6d75016f9ed8eb3c97903f1 → d874f1aa44a39bc8b1abdd3985d9342cf07d5a97)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Tue Jul 19 10:59:47 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 10:59:39 UTC 2022 processed in 3.3 sec
+[Tue Jul 19 11:01:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.238 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:00:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (194ae0a682ca9b909c620edc6bb447918ae196fd → 2f71265f0ff2a357bb687554682af3bc50167411)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Tue Jul 19 11:01:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.238 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:00:56 UTC 2022 processed in 3.6 sec
+[Tue Jul 19 11:46:18 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.139.20 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:46:13 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d874f1aa44a39bc8b1abdd3985d9342cf07d5a97 → 4da97f6283242d1d2ece6c843556cbd5deedaac1)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jul 19 11:46:21 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.139.20 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:46:13 UTC 2022 processed in 3.4 sec
+[Tue Jul 19 11:46:45 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:46:40 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch dev from smartlogwms/inventory-notify
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (2f71265f0ff2a357bb687554682af3bc50167411 → 19ca2341866505bba1f3a6a8ccab022e189208d4)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Jul 19 11:46:47 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 11:46:40 UTC 2022 processed in 2.8 sec
+[Tue Jul 19 12:05:37 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.97.149 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 12:05:32 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4da97f6283242d1d2ece6c843556cbd5deedaac1 → 9c34b92acadc871708d4cb07946d4bec2038d52e)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Tue Jul 19 12:05:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.97.149 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 12:05:32 UTC 2022 processed in 3.6 sec
+[Tue Jul 19 12:06:30 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 12:06:25 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (19ca2341866505bba1f3a6a8ccab022e189208d4 → a034ea5f68ccdde73c87baa53d8ab7b7596edf7d)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Tue Jul 19 12:06:33 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 19 12:06:25 UTC 2022 processed in 3.4 sec
+[Mon Aug 01 09:30:08 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.226 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 01 09:30:03 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9c34b92acadc871708d4cb07946d4bec2038d52e → 186da9a2e67573906eabab2b47806d77872417a0)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Mon Aug 01 09:30:11 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.226 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 01 09:30:03 UTC 2022 processed in 3.4 sec
+[Mon Aug 01 09:32:12 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.148.99 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 01 09:32:07 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (a034ea5f68ccdde73c87baa53d8ab7b7596edf7d → b045d5631b02b0511724affe983f8f2831059e77)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Mon Aug 01 09:32:16 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.148.99 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 01 09:32:07 UTC 2022 processed in 3.5 sec
+[Mon Aug 22 09:33:22 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.116.228 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 09:33:17 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch 1.6.7/SWMS-1620 from smartlogwms/inventory-notify
+Checking branch dev from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (186da9a2e67573906eabab2b47806d77872417a0 → c5054b6fe083cdb1f337677a41aca5abcef86a26)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Mon Aug 22 09:33:24 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.116.228 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 09:33:17 UTC 2022 processed in 2.2 sec
+[Mon Aug 22 09:36:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 09:36:10 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/inventory-notify for branches
+Checking branch production from smartlogwms/inventory-notify
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (b045d5631b02b0511724affe983f8f2831059e77 → 70818f9de5d3437861f503013ff0ec4212d0c7ed)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Mon Aug 22 09:36:18 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 09:36:10 UTC 2022 processed in 3.4 sec

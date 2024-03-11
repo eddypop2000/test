@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>sagawa</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>cbbcca3a2fddf9f04a386070567d81050eeb3e5e</hash>
+  <message>avoid dist null
+</message>
+  <author>Phuong Do &lt;dongphuong2004@gmail.com&gt;</author>
+  <date>2021-05-31 05:49:44.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

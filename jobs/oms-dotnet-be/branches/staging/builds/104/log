@@ -1,0 +1,379 @@
+Branch event
+Obtained Jenkinsfile from f9ce04c856f0167232437f84a84f9afd878fb9b9
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4H7Fr5jGKq0U/LSvXN/wxRY/c4mMyq6rhiPwopXxTwP9AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FN7ei2CBFtyKtJDcXAGGGnJ/VAAAA[0mcommon-pod-mxs0d-xftmm is provisioned from template common-pod-mxs0d
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/oms-dotnet-be/job/dev/1231/"
+    runUrl: "job/oms-dotnet-be/job/dev/1231/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-mxs0d-xftmm"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-mxs0d-xftmm"
+    - name: "JENKINS_NAME"
+      value: "common-pod-mxs0d-xftmm"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4AfZb6bQ3n/vxbcbU4r2mUzPxHFXq0qHmpsvsDw1ULbMAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVI5lYUG4DoirSS3Fx9APOHO27cAAAA[0mcommon-pod-mxs0d-xftmm in /home/jenkins/agent/workspace/oms-dotnet-be_staging
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{M-YowsWkh2OxUKICfc5xw6u0jWPQaHhcHKSn_dLDi7a3yoMGkqWO4ACLSNMOgSCwM8PjFtqc1s83sFC-536RwJcwvA%3d%3d}@bitbucket.org/smartlogtms/oms-dotnet-be.git
+ > git init /home/jenkins/agent/workspace/oms-dotnet-be_staging # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/oms-dotnet-be.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{M-YowsWkh2OxUKICfc5xw6u0jWPQaHhcHKSn_dLDi7a3yoMGkqWO4ACLSNMOgSCwM8PjFtqc1s83sFC-536RwJcwvA%3d%3d}@bitbucket.org/smartlogtms/oms-dotnet-be.git +refs/heads/staging:refs/remotes/origin/staging # timeout=10
+Avoid second fetch
+Checking out Revision f9ce04c856f0167232437f84a84f9afd878fb9b9 (staging)
+ > git config remote.origin.url https://x-token-auth:{M-YowsWkh2OxUKICfc5xw6u0jWPQaHhcHKSn_dLDi7a3yoMGkqWO4ACLSNMOgSCwM8PjFtqc1s83sFC-536RwJcwvA%3d%3d}@bitbucket.org/smartlogtms/oms-dotnet-be.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/staging:refs/remotes/origin/staging # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f9ce04c856f0167232437f84a84f9afd878fb9b9 # timeout=10
+Commit message: "Merged in feature/oms-add-order-event-handler (pull request #1188)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4G1jLElcRd+J3mGGkik+ERq6adugTzeVi1P2g+ZvC/WEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MoSakPaeSdxFn0fD1Rv/NWWAgulnfGkAXtPnMA8dMhrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // stage
+[8mha:////4Lh6R017mmVziF0/1JA3nsy1l6EiwDdvOoYsnMMMcLesAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AHiMrqC9AAAA[0m[Pipeline] echo
+Process build for staging branch
+[8mha:////4G72Yi4/mlcwlMW+QjYrV1NrzEmGMsIWiUJgv57WRYm0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvxMyLWcEAAAA=[0m[Pipeline] stage
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] container
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4K3Gps8Cb6OxwZKT2h59HbwRsfx/XRHlluGCf90aGBO3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ aws s3 cp s3://smartlog-build-config/swm/oms/appsettings.stage.json src/OMS.WebApi/appsettings.Staging.json
+Completed 3.1 KiB/3.1 KiB (24.5 KiB/s) with 1 file(s) remainingdownload: s3://smartlog-build-config/swm/oms/appsettings.stage.json to src/OMS.WebApi/appsettings.Staging.json
+[8mha:////4N6vi7jJLKGYHenl2f2i9AGeq9Jq3MEoq+qeLRKw5XBdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4Cn8fJ41lTBW2y93mATKKOULw8vwaaNWAgc66JfSa+Q2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4PYxv0u4quTP+RhPwKiKtN+M/Pkv3AQbms39wcpw6J3vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // container
+[8mha:////4HZqH5HSxZPRkRextd7HXtJ5tA+N68VgGXG1zQ7Ku4EuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3U0CVIwgAAAA==[0m[Pipeline] container
+[8mha:////4M8W1q6iQix3FEn4koCfbPRJn8z2IOXZp5cJb2YPcAB+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4F+JqAzsBSUrcRh5OagHbo8kb/6GhZpsrgSWhX7WeFUwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ ls -la
+total 112
+drwxr-xr-x    6 1000     1000          4096 Dec  9 11:07 .
+drwxr-xr-x    4 1000     1000            90 Dec  9 11:07 ..
+-rw-r--r--    1 1000     1000          9005 Dec  9 11:07 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Dec  9 11:07 .git
+-rw-r--r--    1 1000     1000          6704 Dec  9 11:07 .gitignore
+-rw-r--r--    1 1000     1000           564 Dec  9 11:07 Dockerfile.dev
+-rw-r--r--    1 1000     1000           563 Dec  9 11:07 Dockerfile.prod
+-rw-r--r--    1 1000     1000           560 Dec  9 11:07 Dockerfile.stage
+-rw-r--r--    1 1000     1000          5950 Dec  9 11:07 Jenkinsfile
+-rw-r--r--    1 1000     1000         21682 Dec  9 11:07 OMS.All.sln
+-rw-r--r--    1 1000     1000         16776 Dec  9 11:07 OMS.Source.sln
+-rw-r--r--    1 1000     1000          1677 Dec  9 11:07 OMS.Test.sln
+drwxr-xr-x    3 1000     1000            24 Dec  9 11:07 dapr
+-rw-r--r--    1 1000     1000          2200 Dec  9 11:07 deploy.dev.yml
+-rw-r--r--    1 1000     1000          2153 Dec  9 11:07 deploy.prod.yml
+-rw-r--r--    1 1000     1000          2168 Dec  9 11:07 deploy.stage.yml
+drwxr-xr-x    3 1000     1000            20 Dec  9 11:07 docs
+-rw-r--r--    1 1000     1000           288 Dec  9 11:07 package.json
+-rw-r--r--    1 1000     1000           185 Dec  9 11:07 readme.md
+drwxr-xr-x   10 1000     1000           178 Dec  9 11:07 src
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:stage '--pull=true' .
+Sending build context to Docker daemon  39.14MB
+Step 1/16 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+Digest: sha256:a563044ab779aaf0de4618e4a4b42a225cc4f3e9e52d1f3a49500856f72b7b69
+Status: Image is up to date for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> a193959b8fd7
+Step 2/16 : WORKDIR /src
+ ---> Using cache
+ ---> 92a9923d959e
+Step 3/16 : COPY . .
+ ---> cf8aeb283188
+Step 4/16 : RUN cd src/OMS.WebApi && dotnet restore
+ ---> Running in c048a5f4d747
+  Determining projects to restore...
+  Restored /src/src/Modules/User/OMS.User.Persistence/OMS.User.Persistence.csproj (in 5.18 sec).
+  Restored /src/src/OMS.Core/OMS.Core.csproj (in 5.18 sec).
+  Restored /src/src/OMS.Persistence/OMS.Persistence.csproj (in 5.18 sec).
+  Restored /src/src/Modules/User/OMS.User.WebApi/OMS.User.WebApi.csproj (in 5.18 sec).
+  Restored /src/src/OMS.ClientService/OMS.ClientService.csproj (in 5.18 sec).
+  Restored /src/src/Modules/User/OMS.User.QuerySpecification/OMS.User.QuerySpecification.csproj (in 5.18 sec).
+  Restored /src/src/OMS.Infrastructure/OMS.Infrastructure.csproj (in 5.18 sec).
+  Restored /src/src/OMS.Localization/OMS.Localization.csproj (in 5.18 sec).
+  Restored /src/src/Modules/Master/OMS.Master.QuerySpecification/OMS.Master.QuerySpecification.csproj (in 71 ms).
+  Restored /src/src/Modules/Master/OMS.Master.Domain/OMS.Master.Domain.csproj (in 76 ms).
+  Restored /src/src/Modules/Master/OMS.Master.CommandSpecification/OMS.Master.CommandSpecification.csproj (in 79 ms).
+  Restored /src/src/Modules/Master/OMS.Master.WebApi/OMS.Master.WebApi.csproj (in 80 ms).
+  Restored /src/src/Modules/User/OMS.User.Domain/OMS.User.Domain.csproj (in 89 ms).
+  Restored /src/src/Modules/Notification/OMS.Notification/OMS.Notification.csproj (in 93 ms).
+  Restored /src/src/Modules/Master/OMS.Master.Persistence/OMS.Master.Persistence.csproj (in 101 ms).
+  Restored /src/src/Modules/Authorization/OMS.Authorization.WebApi/OMS.Authorization.WebApi.csproj (in 66 ms).
+  Restored /src/src/Modules/User/OMS.User.CommandSpecification/OMS.User.CommandSpecification.csproj (in 84 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.QuerySpecification/OMS.Transaction.QuerySpecification.csproj (in 73 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.WebApi/OMS.Transaction.WebApi.csproj (in 116 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.Domain/OMS.Transaction.Domain.csproj (in 60 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.Persistence/OMS.Transaction.Persistence.csproj (in 81 ms).
+  Restored /src/src/Modules/Admin/OMS.Admin/OMS.Admin.csproj (in 137 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.CommandSpecification/OMS.Transaction.CommandSpecification.csproj (in 25 ms).
+  Restored /src/src/Modules/Authorization/OMS.Authorization/OMS.Authorization.csproj (in 1.83 sec).
+  Restored /src/src/OMS.WebApi/OMS.WebApi.csproj (in 3.55 sec).
+Removing intermediate container c048a5f4d747
+ ---> 51fb6e1f9055
+Step 5/16 : RUN cd src/OMS.WebApi && dotnet publish -c Release -o /app/publish
+ ---> Running in f474eddf1aeb
+MSBuild version 17.3.2+561848881 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+/src/src/OMS.Core/Tenant/TenantService.cs(11,47): warning CS0169: The field 'TenantService._httpContextAccessor' is never used [/src/src/OMS.Core/OMS.Core.csproj]
+  OMS.Core -> /src/src/OMS.Core/bin/Release/net6.0/OMS.Core.dll
+  OMS.Persistence -> /src/src/OMS.Persistence/bin/Release/net6.0/OMS.Persistence.dll
+  OMS.ClientService -> /src/src/OMS.ClientService/bin/Release/net6.0/OMS.ClientService.dll
+  OMS.User.CommandSpecification -> /src/src/Modules/User/OMS.User.CommandSpecification/bin/Release/net6.0/OMS.User.CommandSpecification.dll
+  OMS.Transaction.CommandSpecification -> /src/src/Modules/Transaction/OMS.Transaction.CommandSpecification/bin/Release/net6.0/OMS.Transaction.CommandSpecification.dll
+  OMS.Infrastructure -> /src/src/OMS.Infrastructure/bin/Release/net6.0/OMS.Infrastructure.dll
+  OMS.User.QuerySpecification -> /src/src/Modules/User/OMS.User.QuerySpecification/bin/Release/net6.0/OMS.User.QuerySpecification.dll
+  OMS.Authorization -> /src/src/Modules/Authorization/OMS.Authorization/bin/Release/net6.0/OMS.Authorization.dll
+  OMS.User.Domain -> /src/src/Modules/User/OMS.User.Domain/bin/Release/net6.0/OMS.User.Domain.dll
+  OMS.Master.CommandSpecification -> /src/src/Modules/Master/OMS.Master.CommandSpecification/bin/Release/net6.0/OMS.Master.CommandSpecification.dll
+  OMS.Localization -> /src/src/OMS.Localization/bin/Release/net6.0/OMS.Localization.dll
+  OMS.Authorization.WebApi -> /src/src/Modules/Authorization/OMS.Authorization.WebApi/bin/Release/net6.0/OMS.Authorization.WebApi.dll
+  OMS.Notification -> /src/src/Modules/Notification/OMS.Notification/bin/Release/net6.0/OMS.Notification.dll
+/src/src/Modules/Transaction/OMS.Transaction.Domain/CommandHandlers/Shipments/SetRTSShipmentCommandHandler.cs(24,54): warning CS0169: The field 'SetRTSShipmentCommandHandler._shipmentProviderRepository' is never used [/src/src/Modules/Transaction/OMS.Transaction.Domain/OMS.Transaction.Domain.csproj]
+  OMS.User.WebApi -> /src/src/Modules/User/OMS.User.WebApi/bin/Release/net6.0/OMS.User.WebApi.dll
+  OMS.Transaction.Domain -> /src/src/Modules/Transaction/OMS.Transaction.Domain/bin/Release/net6.0/OMS.Transaction.Domain.dll
+/src/src/Modules/Master/OMS.Master.Domain/CommandHandlers/Owners/RemoveWarehouseCommandHandler.cs(24,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/Master/OMS.Master.Domain/OMS.Master.Domain.csproj]
+  OMS.Master.Domain -> /src/src/Modules/Master/OMS.Master.Domain/bin/Release/net6.0/OMS.Master.Domain.dll
+/src/src/Modules/User/OMS.User.Persistence/Authorization/AuthorizationService.cs(175,61): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/User/OMS.User.Persistence/OMS.User.Persistence.csproj]
+  OMS.User.Persistence -> /src/src/Modules/User/OMS.User.Persistence/bin/Release/net6.0/OMS.User.Persistence.dll
+  OMS.Master.QuerySpecification -> /src/src/Modules/Master/OMS.Master.QuerySpecification/bin/Release/net6.0/OMS.Master.QuerySpecification.dll
+  OMS.Transaction.QuerySpecification -> /src/src/Modules/Transaction/OMS.Transaction.QuerySpecification/bin/Release/net6.0/OMS.Transaction.QuerySpecification.dll
+  OMS.Master.WebApi -> /src/src/Modules/Master/OMS.Master.WebApi/bin/Release/net6.0/OMS.Master.WebApi.dll
+/src/src/Modules/Transaction/OMS.Transaction.WebApi/Controllers/Integrations/OrderIntegrationController.cs(44,58): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/Transaction/OMS.Transaction.WebApi/OMS.Transaction.WebApi.csproj]
+  OMS.Transaction.WebApi -> /src/src/Modules/Transaction/OMS.Transaction.WebApi/bin/Release/net6.0/OMS.Transaction.WebApi.dll
+  OMS.Transaction.Persistence -> /src/src/Modules/Transaction/OMS.Transaction.Persistence/bin/Release/net6.0/OMS.Transaction.Persistence.dll
+  OMS.Master.Persistence -> /src/src/Modules/Master/OMS.Master.Persistence/bin/Release/net6.0/OMS.Master.Persistence.dll
+  OMS.Admin -> /src/src/Modules/Admin/OMS.Admin/bin/Release/net6.0/OMS.Admin.dll
+  OMS.WebApi -> /src/src/OMS.WebApi/bin/Release/net6.0/OMS.WebApi.dll
+  OMS.WebApi -> /app/publish/
+Removing intermediate container f474eddf1aeb
+ ---> 3c3ecf7f5045
+Step 6/16 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+Digest: sha256:e9ba6decd8e792a6237fb520e92fc3f86e8756368862038c5239f659945b4258
+Status: Image is up to date for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> 1cde569b1014
+Step 7/16 : RUN apt-get update
+ ---> Using cache
+ ---> 51892a0720ed
+Step 8/16 : RUN apt-get install -y apt-utils
+ ---> Using cache
+ ---> 7dcb59378148
+Step 9/16 : RUN apt-get install -y libgdiplus
+ ---> Using cache
+ ---> 82272e51354e
+Step 10/16 : RUN apt-get install -y libc6-dev
+ ---> Using cache
+ ---> 002d9357aa92
+Step 11/16 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Using cache
+ ---> 3aef98a67caf
+Step 12/16 : WORKDIR /app
+ ---> Using cache
+ ---> 79097f7cac51
+Step 13/16 : COPY --from=build /app/publish .
+ ---> ab6fa316ac45
+Step 14/16 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in 1bd156a3da72
+Removing intermediate container 1bd156a3da72
+ ---> 9de929808f7b
+Step 15/16 : ENV ASPNETCORE_ENVIRONMENT=Staging
+ ---> Running in 2d20256561c8
+Removing intermediate container 2d20256561c8
+ ---> efb98b41102c
+Step 16/16 : ENTRYPOINT ["dotnet", "OMS.WebApi.dll"]
+ ---> Running in a646daba9f3c
+Removing intermediate container a646daba9f3c
+ ---> b1d45b720fd2
+Successfully built b1d45b720fd2
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:stage
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoidzJmeXNXay9Dc1hJb3FETERvNFcvUFdEbVhzem9JaUpCOERIUXFUZFAvTXdRRm9LajRSemNZTkNZN2RsdHNMYzYwbjdwcG9PUzMzUGVqOWk4VE8wamhPZlJhbjI5RHFDd2xwTC9vR1dsUnRBZXkzc2ErTTNRV2w2QUtwMGNxRWhqUTBRWVdZbWd1QU9teVY1TFk1ZjBWMHpTa3lpNXcvZHNiVHl5ZVFkQ3dpWGY3Vm00QjlPeDl1UTJmUWFvelZ1WTBScjh3dk9KYTFnUE1mMG02SjNNM01WaC8rcjRFeklpWWlMVjNhVEdoeHo5dWpKRTRwSzJoNVpwWVpsZzJrcFhpcXJaOXZFWk9NN3RvVUJuUmtoemJ1ODFDaDI4dWw3dXNjZC9JbUt2M2xadUNCNjNWNzBJd0hnQjBHaWFVaGRiZFdJYjBNcW1zeDZNWmJyc1RKKy9oY2ZXYU9kc09rV1BIb1dTQlpNQWszNE5RTlpBbU5iMXdwRUN5QVFCeFZWdTVXb3l3OEdCYTlwdFNRQUpsczgxeDVJTGsvcGhUTFZVZ1g0d2NQMVFKZ2Z4NUcvTVNFbHJJcjM0VXZmMkVQVTlyMmFONkhGT0R6cmdRc2JwaHArRUhJRWtlbkljOHJEb2JjUUc2azA2S0tldC9QdENpdlhMMlJoU0RkRUYrYnlWWEExY0NNU2thcDNianFvdzNOUGI2cE1wTG5JRE5mMjVWaVpnVUtkdlQydUVCNlBMRDdlQnkzZnZ4WlRhOFpWa0pFQWgreG5KOWZuelJRVFFoRy84MW15N3Y0ejBzYWdMaEU1REw4VXlwaC83K3N4dE5xZE1Gd1JTYzkzamQzZVJ0cGlhQ0g3YWYwMlJGemkzbUJDZ3RwRlJPOXhxTzllK2lWS3Njd2dOUExlTzZmR2NZL0FhQlRzSHJ6R1JnOG92QTFwM2VBZEhMYWJzeUNiTFQ5dVZPNEVOYmw0QWJZUnRBcGFUVDM1clE0elNTQmZ3c3ZCS1JKVHNaQS9KeW5IeVFzaUlscjlreEhuYklvVk9KK1VDTHhRYnhqckhEWVdVNVUzQjNsZjV4Yld4c1VOSTFmTW5HczI1VUw2bkJCNkhPa1BPdlpvRWY4U2M0dEl2cWVOelFtMVJsTHZoWERvMlpuc3ZZUnorckdibGsvRnZqRmV6Vno3MDdOYi9kV1VGVWNRWGdkWjhUeHU5dEhRMmxxb2FVOUZWZG1Rdm5zVnVRdkFIZDV6SEhwSkZIa2hxRnl0VUpUN2diYmRlNXNFMCtxMFRILzd2THJTUzFEcDUyekwvTEpRWWFjSTFXNDdsREJPZWJIcEhEUFl1YmJxdEgzYkw3SWdVZFlvVGpCNStGUmhtdVhwUTJBdU01YjA2U2xnSzNIZm1lRWlMTEx4NUdtajIrSXR4elg5VkFXZEZtMmc2amVLVE5qVjhMT25TcUVzZG1pK3BTMWQ0bVo3OVdScktqUjk3QVdNY2RVRFh2NGZtNUhwamM3ekFFdWR5UlR5VDF4aVBaVW13b0xvZUxRT3RmdjRNb2k5d3ZwNFdoZ3AreHNzNTBvWWlYbk9VQ3BESHNDRytzY1BtVERaMWdOR0xRTHZMUnpwMkR3dENBNmkrOW5ucDB5d3NDd1piblMzOVpMckxZMUIvMU4xNDMyamhxQjNpeFlKcVBkLzYxaGJJbWl2VTRjQmlLOFI5QmpPUUwzaUl1Nzd0TzhJY1RHQVRONjZCZVZrRUpWUDI1WTJlVzRyY3NSbXJTME9yZTZRcDBOb0U1aUNtb3NXNmY4QlZPWitGWlRwNFZ2eFNlbE9TK3oydGZOV0h5VXk5Q2tWTGwrS292MmhxNE4rZzREMEFOcE0yTGQ4WnlMY3ltL1plR0RjSXNjNFhIdmJ4TStNTzduNXhlVDBvMTVNMElqUmZHT0RGcW1QY2Q2QVhMRXMzNUs1aFIwS0VKdEtaZnZJNXdMSHlDeXR1U2xMcXpEYjZyd28yaWVza3pCNDI0WlRHM3JZUnJaQ0VxU2M3V2JiTWZubnRlL3VWQ1N3V0ZiUG1jcWZXaDVoWWdrcUxZRmwxd2lJc1R6SGUzRUtEL285K1M5dVlKMUU3Y3dQVjlqdnBHcklPbXlCUkdtcE5hMnQ3NnNXWm5IaXR6QTNJdUVMenpJWFU0cnQ4a2tRcWFMZ0xtRzg5S2hYL1F6SzVHZWhqdGhkTHpSeHI5b0FaV0xMRnJDSEdVNzdxODdZQmdvMFFCa21nQXR4bHNwT004ZDUzcmttOVdPSUs2QmdJK3hKUTdpTHZ6Q3dpOVlDWjhBUjh1TTNFemxiNkF5WTVoMUhmakpXazNDWWNUYytwOERpbHFaZk92Y3NZZW1pa2Y4WUVwejV5Y2Roa3pIY1RLb1VvSnM9IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURMcmZzZVlLNDY5b0F3SmpVd0lCRUlBN2QwelYyUkxnVVFtMVBDa3Z5ZzhoZ3VNT0EvNzJUN25GOTdJS3ZobHkrV0JYYkkwVU80VithbDlyZmt5dlBkVWUwZXVRTUxMUWVOUm03b2s9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjcwNjI3MjUyfQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:stage
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be]
+0bbc07d8024c: Preparing
+19cca06c1d34: Preparing
+9728d37a2d54: Preparing
+69ae711caa6b: Preparing
+0d87b027481b: Preparing
+996bef8f41f1: Preparing
+8292191adadd: Preparing
+eaadf720213d: Preparing
+8e4fb40b889e: Preparing
+b53738361cc7: Preparing
+7981c869eeeb: Preparing
+b5ebffba54d3: Preparing
+b53738361cc7: Waiting
+7981c869eeeb: Waiting
+8292191adadd: Waiting
+b5ebffba54d3: Waiting
+eaadf720213d: Waiting
+8e4fb40b889e: Waiting
+996bef8f41f1: Waiting
+0d87b027481b: Layer already exists
+19cca06c1d34: Layer already exists
+9728d37a2d54: Layer already exists
+69ae711caa6b: Layer already exists
+8292191adadd: Layer already exists
+996bef8f41f1: Layer already exists
+8e4fb40b889e: Layer already exists
+b53738361cc7: Layer already exists
+7981c869eeeb: Layer already exists
+b5ebffba54d3: Layer already exists
+eaadf720213d: Layer already exists
+0bbc07d8024c: Pushed
+stage: digest: sha256:999aab25044dd6a7b92ab6e238a5ec33404a081488b5e31c0bb3c07499edc9ca size: 2841
+[8mha:////4BqNjw3g0w3nLaegnpAJhxA8C4zLkvSGNPJWW9J8EEPBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4CUZtj1jTIAIy9H2/KH1i7g4wZzsozjIjafNVCJkBLSBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // container
+[8mha:////4IsRPpdfzTjzZ86hYn7Hywbs9GVF5n7U9Np6X1sTlURFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AfJoyIr4AAAA=[0m[Pipeline] }
+[8mha:////4EmOYHLeON4BEMGRQhBnz8/GprISXljfpXvFbfkbhWowAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AYxhncL4AAAA=[0m[Pipeline] // stage
+[8mha:////4PjyoD68h/o4LQUP7K2pD47y62cP1PvRODWJBuuqPQmdAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A15M2Z7BAAAA[0m[Pipeline] stage
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] container
+[8mha:////4Gdmm38Jz+v6e350CDJbvX1mlSUvNF1jyF1Rw9vHBaCkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4GJ915m9rtgFKJ5qKJyYgd06Xt/OYV063kqANWbgHq7zAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy.stage.yml
+deployment.apps/oms-dotnet-be-stage configured
+service/oms-dotnet-be-stage unchanged
+ingress.networking.k8s.io/oms-dotnet-be-stage unchanged
++ date '+%s'
++ kubectl patch deployment oms-dotnet-be-stage -p '{"spec":{"template":{"metadata":{"labels":{"date":"1670584107"}}}}}' -n oms
+deployment.apps/oms-dotnet-be-stage patched
++ kubectl rollout status deployment oms-dotnet-be-stage -n oms
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 0 out of 2 new replicas have been updated...
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-stage" rollout to finish: 1 old replicas are pending termination...
+deployment "oms-dotnet-be-stage" successfully rolled out
+[8mha:////4Mct4KEvRMTu1wz2Mz++Ub5VmGF+3jzyK/NqNxFvdm/mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4HOemGfZ0To9ZEAHNbXAyQPPjHL5uwEp942Mrx/2Ew1ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // container
+[8mha:////4BcBnXlZcRuGIyYdBeDMsPuRgyKHAU4rAn0OoAasjlbdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] }
+[8mha:////4PVsJDl9gveXVLI9TO8i5AQ4q2jhpQU43PyPveUvDVz5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4OMCWsXr0zcvHP9wvtU5MtMnPwtKzKbZOVi3O+nFdIAjAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ANa6Etu9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4DCiCHdTSpQ0BmF+u5+ZUXShu/gETxVo9z+j/iCwPBtMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABXpP/C9AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: oms-deployment-notification, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4ATKL96d4x6Fc6FUDMr/DW0iGQdz+WQ+lbcdOdTwE6HzAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPyqEmK70AAAA=[0m[Pipeline] }
+[8mha:////4LCifKWghR/gBydqAdvIt/SN0MqESeofS0cLrpMYKfV6AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9gLA8AvQAAAA==[0m[Pipeline] // node
+[8mha:////4KAjzB+V99KqC5zyJT4WKYGptrl0SJcvJYdK6Xq3iZvPAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg9GNWhKvQAAAA==[0m[Pipeline] }
+[8mha:////4I5gr4Yiv6D0/Vg1cGolbxNCP9xgH/466IGLjeD7Z26RAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPNdqsk70AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4JKmvmLExB0OLwYBFoCkicbaoVF0xCUZKhUxFeIzppMZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2AxPDy9m9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

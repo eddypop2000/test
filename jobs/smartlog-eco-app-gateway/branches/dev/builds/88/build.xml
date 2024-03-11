@@ -1,0 +1,200 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.6.2">
+            <timestamp>1613708547309</timestamp>
+            <origin>192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.4">
+      <sourceId>a4fcbd75-bf31-46a0-a691-1963d7cdc0dd</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@2.9.5">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>29e74f4dbbd4f9b578b201ad962338c3a6f203ba</hash>
+        <message>Merged in bugfix/fix-create-order-follow (pull request #147)
+
+Create Order: fix order route EstimateTime
+
+* Update Order status: Add log
+
+* Merge remote-tracking branch &apos;origin/dev&apos; into bugfix/fix-create-order-follow
+
+* Create Order: fix order route EstimateTime
+</message>
+        <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+        <date>2021-02-19 04:22:22.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.17">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>23598</queueId>
+  <timestamp>1613708555201</timestamp>
+  <startTime>1613708555206</startTime>
+  <result>FAILURE</result>
+  <duration>259343</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+    node(&apos;pod-with-gitversion&apos;) {
+      isDeploy = true
+      try {
+        SEM_VER = &apos;0.0.0&apos;
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout([
+            $class: &apos;GitSCM&apos;,
+            branches: [[name: &apos;*/dev&apos;]],
+            extensions: scm.extensions,
+            userRemoteConfigs: [[
+              credentialsId: scm.userRemoteConfigs[0].credentialsId,
+              name: &apos;origin&apos;,
+              refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+              url: scm.userRemoteConfigs[0].url
+            ]],
+            doGenerateSubmoduleConfigurations: false
+          ])
+          checkout scm
+          result = sh (
+            script: &quot;git log -1 --pretty=%B | grep &apos;build-all&apos;&quot;,
+            returnStatus: true
+          )
+          if (result != 0){
+            result = sh (
+              script: &apos;git diff --name-status HEAD~1..HEAD | grep src/Gateway/Smartlog.AppGateway&apos;,
+              returnStatus: true
+            )
+          }
+          echo &quot;result: ${result}&quot;
+        }
+        if (env.BRANCH_NAME == &apos;dev&apos; &amp;&amp; result == 0) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Build docker&apos;) {
+            container(&apos;gitversion&apos;) {
+              SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+              ).trim()
+              echo &quot;SemVer: ${SEM_VER}&quot;
+            }
+
+            container(&apos;awscli&apos;) {
+              sh &apos;aws s3 cp s3://smartlog-build-config/stx/smartlog-ecosystem-auth/appsettings-app-gateway.Staging.json src/Gateway/Smartlog.AppGateway/appsettings.Production.json&apos;
+              sh &apos;ls -la src/Gateway/Smartlog.AppGateway&apos;
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+
+            container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/staging-smartlog-eco-auth-be:app-gateway&quot;
+              sh &quot;&quot;&quot;
+              ls -la
+              docker build -f src/Gateway/Smartlog.AppGateway/Dockerfile.staging  --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL}-${SEM_VER} -t ${REGISTRY_URL}-latest --pull=true .
+              ${DOCKER_LOGIN}
+              docker push ${REGISTRY_URL}-${SEM_VER}
+              docker push ${REGISTRY_URL}-latest
+              &quot;&quot;&quot;
+            }
+          }
+          stage(&apos;Deploy to k8s&apos;) {
+            container(&apos;kubectl&apos;) {
+              sh &quot;&quot;&quot;
+              kubectl apply -f src/Gateway/Smartlog.AppGateway/deploy.staging.yml
+              kubectl patch deployment sml-eco-app-gateway-be-dev -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n eco-system
+              kubectl rollout status deployment sml-eco-app-gateway-be-dev -n eco-system
+              &quot;&quot;&quot;
+            }
+          }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else if (env.BRANCH_NAME == &apos;dev&apos;  &amp;&amp; result != 0) {
+          isDeploy = false
+          echo &apos;NO BUILD&apos;
+        } else {
+          currentBuild.result = &apos;NO BUILD&apos;
+          echo &quot;Khong phai branch dev nen ko lam gi ca&quot;
+          error(&apos;Failed to build&apos;)
+        }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        try {
+          deleteDir() /* clean up our workspace */
+        } catch(err) {
+          // Do nothing
+        }
+        if (isDeploy != true) {
+          /* Do nothing */
+        } else if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: &apos;cma-no-boss&apos;,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} v${SEM_VER} completed successfully.&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: &apos;cma-no-boss&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} v${SEM_VER} #${env.BUILD_NUMBER} has failed.&quot;
+        }
+      }
+    }
+  }
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>100174267</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1112584164</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>144659066</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>696205490</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>8370334</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>9</iota>
+    <head>1:9</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev_new</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>c9c28cbf6056a4c279161a7db1d2f92f4a87ec56</hash>
+  <message>Merged in bugfix/statistical-cos-add-changeDetection (pull request #1153)
+
+bugfix/statistical-cos-add-changeDetection
+
+Approved-by: Hồ Minh Tiến</message>
+  <author>Đặng Tuấn Tài &lt;tai.dang@gosmartlog.com&gt;</author>
+  <date>2023-04-14 03:13:13.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>471ef9aaff820db3ee698666046dd4fa8d1ff67d</hash>
+  <message>Merged in dev (pull request #416)
+
+Dev
+
+* check date create reuse
+* Merged in new-modal (pull request #407)
+
+update banner
+
+* update banner
+* update price list
+* update mail refer
+* Merged in feature/update-banner-2-11-2022 (pull request #412)
+
+feature/update-banner-and-reponsive-banner
+
+* feature/update-banner-and-reponsive-banner
+* Merge branch &apos;dev&apos; of https://bitbucket.org/smartlogtms/cma-angular-fe into dev
+
+* Change ShipmentInfo field
+
+* SES-668-add-region-to-blaclist
+
+* Rename BlackListExcelTemplate file
+
+* Open Reuse 40HC Hapag-Lloyd</message>
+  <author>Quốc Hòa &lt;hoa.tran@gosmartlog.com&gt;</author>
+  <date>2022-03-28 04:23:02.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

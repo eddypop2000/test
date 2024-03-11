@@ -1,0 +1,1599 @@
+[Fri Mar 19 02:52:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.45.121 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 19 02:52:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (cd41db24cd0c5777d5c6e2491bc811879c33a773 → 1bede47093a27d5474e9b0ddd400c66586708401)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Mar 19 02:52:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.45.121 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 19 02:52:02 UTC 2021 processed in 1.9 sec
+[Fri Mar 19 03:44:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 19 03:44:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1bede47093a27d5474e9b0ddd400c66586708401 → 4497ce8fba7fd6629b2c9da4db5c19593abbf7a1)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Mar 19 03:44:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 19 03:44:22 UTC 2021 processed in 1.8 sec
+[Fri Mar 26 18:49:14 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 26 18:49:14 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4497ce8fba7fd6629b2c9da4db5c19593abbf7a1 → 10b7fc196e0fd377decf6fccd4a5e99f737a46cc)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Mar 26 18:49:16 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 26 18:49:14 UTC 2021 processed in 2.6 sec
+[Mon Mar 29 05:03:50 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 29 05:03:50 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (10b7fc196e0fd377decf6fccd4a5e99f737a46cc → 264c533071646264bd136ab71d669e295c28afb5)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Mar 29 05:03:52 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 29 05:03:50 UTC 2021 processed in 1.8 sec
+[Tue Mar 30 08:19:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 30 08:19:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (264c533071646264bd136ab71d669e295c28afb5 → 90f6682fe3138685c1c5dcd538fa195523185d17)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Mar 30 08:19:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 30 08:19:22 UTC 2021 processed in 1.7 sec
+[Thu Apr 01 06:54:57 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 06:54:57 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  4 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Thu Apr 01 06:54:59 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 06:54:57 UTC 2021 processed in 1.7 sec
+[Thu Apr 01 09:17:06 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:17:06 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (90f6682fe3138685c1c5dcd538fa195523185d17 → 94a162038ac227249acf1e376cc595effbb70548)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 09:17:07 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:17:06 UTC 2021 processed in 1.8 sec
+[Thu Apr 01 09:17:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:17:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (94a162038ac227249acf1e376cc595effbb70548 → 511022cd7dcbf8fcfde13755f3ff4d3683fd7423)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 09:17:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:17:17 UTC 2021 processed in 1.6 sec
+[Thu Apr 01 09:19:41 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:19:41 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (511022cd7dcbf8fcfde13755f3ff4d3683fd7423 → 784f0f73c455e2f5b08d04bb9593125eaea204a2)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 09:19:43 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:19:41 UTC 2021 processed in 1.8 sec
+[Thu Apr 01 09:24:13 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:24:13 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (784f0f73c455e2f5b08d04bb9593125eaea204a2 → 02abea5dff6d05d17d90ce77b561a06605743c15)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 09:24:15 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:24:13 UTC 2021 processed in 1.7 sec
+[Thu Apr 01 09:29:49 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:29:49 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (02abea5dff6d05d17d90ce77b561a06605743c15 → 277b34f495c68a0eba8758f7403c193c37b19933)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 09:29:51 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:29:49 UTC 2021 processed in 1.8 sec
+[Thu Apr 01 09:32:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:32:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  4 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Thu Apr 01 09:32:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 09:32:09 UTC 2021 processed in 1.7 sec
+[Thu Apr 01 10:39:48 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 10:39:48 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (277b34f495c68a0eba8758f7403c193c37b19933 → ed6d5c084bfc0ed352b960763c491245deb25989)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Thu Apr 01 10:39:49 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 10:39:48 UTC 2021 processed in 1.6 sec
+[Fri Apr 02 02:50:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 02 02:50:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (ed6d5c084bfc0ed352b960763c491245deb25989 → 516fe5276cb17ca088a655a28cf7acf0db3b0806)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Fri Apr 02 02:50:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 02 02:50:27 UTC 2021 processed in 1.5 sec
+[Mon Apr 12 03:58:06 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 03:58:06 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (516fe5276cb17ca088a655a28cf7acf0db3b0806 → 61e8fa988de47f76cac4f6c143eeb1e9b7edd7d0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Apr 12 03:58:08 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 03:58:06 UTC 2021 processed in 1.6 sec
+[Wed Apr 14 08:12:38 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 08:12:38 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (61e8fa988de47f76cac4f6c143eeb1e9b7edd7d0 → bdf65dbb52e20613c607bceab8ca11dcdca08f19)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Apr 14 08:12:40 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 08:12:38 UTC 2021 processed in 1.7 sec
+[Wed Apr 21 16:31:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 21 16:31:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  4 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Wed Apr 21 16:31:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 21 16:31:44 UTC 2021 processed in 1.8 sec
+[Wed Apr 21 16:32:04 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 21 16:32:04 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (bdf65dbb52e20613c607bceab8ca11dcdca08f19 → 0de091c1bb78301647a14a673878f42cf99ab8e2)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Apr 21 16:32:06 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 21 16:32:04 UTC 2021 processed in 1.6 sec
+[Tue Jun 08 05:13:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 08 05:13:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (fe9bbce257e94b55e0580f8719ecb13f6f41a262 → 931c45404406e56bbec72c2b53fcf826cc068db9)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Tue Jun 08 05:13:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 08 05:13:26 UTC 2021 processed in 1.7 sec
+[Wed Jun 23 03:43:04 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.185 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:43:04 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0de091c1bb78301647a14a673878f42cf99ab8e2 → 5bc240ee585c113cdc3ee5846044987310c3cc3e)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Jun 23 03:43:06 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.185 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:43:04 UTC 2021 processed in 1.7 sec
+[Wed Jun 23 03:49:10 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.113 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:49:10 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (931c45404406e56bbec72c2b53fcf826cc068db9 → 2b222b0e5cb3f3bc108c420f4fb635b88d1f49b4)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jun 23 03:49:12 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.113 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:49:10 UTC 2021 processed in 1.7 sec
+[Wed Jun 23 03:51:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:51:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5bc240ee585c113cdc3ee5846044987310c3cc3e → 2b22edb23e1d1fc77f4c221921b76f8f167c8b42)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Jun 23 03:51:17 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:51:15 UTC 2021 processed in 1.6 sec
+[Wed Jun 23 03:51:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.113 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:51:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (2b222b0e5cb3f3bc108c420f4fb635b88d1f49b4 → b2daa2cbf3c8a375dedf9cdf1522978fc928b483)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jun 23 03:51:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.107.113 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 23 03:51:44 UTC 2021 processed in 1.6 sec
+[Thu Jun 24 02:22:52 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.137.229 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 24 02:22:52 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  5 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Thu Jun 24 02:22:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.137.229 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 24 02:22:52 UTC 2021 processed in 3.2 sec
+[Thu Jun 24 03:21:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.201 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 24 03:21:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (b2daa2cbf3c8a375dedf9cdf1522978fc928b483 → 1ee4ccd5e200e7b31c8a8a78b387ab93e35786ed)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Thu Jun 24 03:21:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.201 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 24 03:21:26 UTC 2021 processed in 1.9 sec
+[Fri Jun 25 10:43:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 10:43:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2b22edb23e1d1fc77f4c221921b76f8f167c8b42 → 536cb13430b6fd14b938e0575acc0217e13f9013)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Jun 25 10:43:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 10:43:31 UTC 2021 processed in 1.8 sec
+[Wed Jul 07 10:25:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:25:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (536cb13430b6fd14b938e0575acc0217e13f9013 → 59fc05e0275a7a570ded47a70e27013b5aa14527)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jul 07 10:25:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:25:55 UTC 2021 processed in 2.4 sec
+[Wed Jul 07 10:28:41 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:28:41 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (1ee4ccd5e200e7b31c8a8a78b387ab93e35786ed → e9dd53186856d95db1cb679fdf66315a01b9d471)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Jul 07 10:28:43 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 10:28:41 UTC 2021 processed in 1.7 sec
+[Wed Dec 29 07:11:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:11:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  6 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Wed Dec 29 07:11:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:11:39 UTC 2021 processed in 2.1 sec
+[Wed Dec 29 07:12:25 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:12:25 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (59fc05e0275a7a570ded47a70e27013b5aa14527 → f9ada301f5070ea37e327f153c1335c80cee07c0)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Dec 29 07:12:26 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:12:25 UTC 2021 processed in 1.6 sec
+[Wed Dec 29 07:28:16 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:28:16 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  6 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Wed Dec 29 07:28:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:28:16 UTC 2021 processed in 1.6 sec
+[Wed Dec 29 07:29:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:29:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f9ada301f5070ea37e327f153c1335c80cee07c0 → b2ad701efac79ab8776564513bd92ffc461d9d63)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 07:29:17 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 07:29:15 UTC 2021 processed in 1.7 sec
+[Tue Jun 07 03:18:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 07 03:18:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  7 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Tue Jun 07 03:18:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 07 03:18:31 UTC 2022 processed in 3.4 sec
+[Tue Jun 07 03:22:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 07 03:22:27 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b2ad701efac79ab8776564513bd92ffc461d9d63 → fad6491041da9824364f84c3d9e0d2165a59c4cc)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jun 07 03:22:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 07 03:22:27 UTC 2022 processed in 3.4 sec
+[Tue Jun 14 09:22:03 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 14 09:21:58 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (e9dd53186856d95db1cb679fdf66315a01b9d471 → 24b6342129cb90f220cebc9116cadcf45bf8d80a)
+Scheduled build for branch: production
+
+  7 branches were processed (query completed)
+[Tue Jun 14 09:22:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 14 09:21:58 UTC 2022 processed in 2 sec
+[Thu Jul 14 07:12:56 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.144.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jul 14 07:12:51 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  8 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Thu Jul 14 07:13:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.144.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jul 14 07:12:51 UTC 2022 processed in 4 sec
+[Thu Jul 14 07:17:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jul 14 07:17:22 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (fad6491041da9824364f84c3d9e0d2165a59c4cc → c649c5a486966470758f82226bbc0fe6551aa2c1)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Jul 14 07:17:30 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jul 14 07:17:22 UTC 2022 processed in 3.4 sec
+[Mon Jul 25 03:49:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.141 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 25 03:49:22 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (24b6342129cb90f220cebc9116cadcf45bf8d80a → cdc982d3cd1e473b404bc2a2e954abf033701bd3)
+Scheduled build for branch: production
+
+  8 branches were processed (query completed)
+[Mon Jul 25 03:49:31 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.141 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jul 25 03:49:22 UTC 2022 processed in 3.3 sec
+[Mon Aug 22 10:16:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.61.226 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:16:35 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  9 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+
+  0 pull requests were processed
+[Mon Aug 22 10:16:44 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.61.226 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:16:35 UTC 2022 processed in 3.5 sec
+[Mon Aug 22 10:20:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:20:10 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  9 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-18 from smartlogwms/vnpost-be and branch hot-fix/change-key
+
+  1 pull requests were processed
+[Mon Aug 22 10:20:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:20:10 UTC 2022 processed in 2.1 sec
+[Mon Aug 22 10:20:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:20:37 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (cdc982d3cd1e473b404bc2a2e954abf033701bd3 → 338c27f576e7ca4e0211cd1abb4262c958d4ad62)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Mon Aug 22 10:20:45 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 22 10:20:37 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:12:03 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:11:58 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Aug 30 03:12:06 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:11:58 UTC 2022 processed in 3.3 sec
+[Tue Aug 30 03:12:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.96 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:12:47 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Aug 30 03:12:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.96 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:12:47 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:13:13 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:13:08 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (338c27f576e7ca4e0211cd1abb4262c958d4ad62 → ce6da1722cad4d680f135d7a2c490091ebaf3e30)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Aug 30 03:13:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:13:08 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:17:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:17:10 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Aug 30 03:17:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:17:10 UTC 2022 processed in 2.7 sec
+[Tue Aug 30 03:19:26 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:19:21 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-21 from smartlogwms/vnpost-be and branch hot-fix/vnpost-fix
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  2 pull requests were processed
+[Tue Aug 30 03:19:29 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:19:21 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:19:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:19:37 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (ce6da1722cad4d680f135d7a2c490091ebaf3e30 → 9baf36deb15452c7d0c6b2349661eaa27b37f997)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Aug 30 03:19:45 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:19:37 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:28:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:28:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-22 from smartlogwms/vnpost-be and branch hot-fix/vnpost-fix
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  2 pull requests were processed
+[Tue Aug 30 03:29:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:28:52 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:29:24 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:29:19 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (9baf36deb15452c7d0c6b2349661eaa27b37f997 → d8a072f5427d79fe6c47663fcdd847cd5985189f)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Aug 30 03:29:27 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:29:19 UTC 2022 processed in 3.3 sec
+[Tue Aug 30 03:48:49 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.96 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:48:44 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Aug 30 03:48:53 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.187.96 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:48:44 UTC 2022 processed in 3.4 sec
+[Tue Aug 30 03:53:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:53:02 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (d8a072f5427d79fe6c47663fcdd847cd5985189f → 43e46bf4fd5587b055a3dd7e057fc5136fed1478)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Aug 30 03:53:11 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:53:02 UTC 2022 processed in 3.3 sec
+[Tue Aug 30 03:54:20 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:54:15 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+
+  10 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-24 from smartlogwms/vnpost-be and branch hot-fix/vnpost-fix
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  2 pull requests were processed
+[Tue Aug 30 03:54:23 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:54:15 UTC 2022 processed in 2.7 sec
+[Tue Aug 30 03:54:50 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.221 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:54:45 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (43e46bf4fd5587b055a3dd7e057fc5136fed1478 → 9b161f3810d0ea606b82b269d54e31b8cf195a0e)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Aug 30 03:54:52 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.221 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 30 03:54:45 UTC 2022 processed in 2.7 sec
+[Tue Nov 01 08:24:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:24:10 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  11 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Nov 01 08:24:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:24:10 UTC 2022 processed in 4.5 sec
+[Tue Nov 01 08:30:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:30:47 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  11 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Nov 01 08:30:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:30:47 UTC 2022 processed in 3.4 sec
+[Tue Nov 01 08:33:43 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:33:37 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (c649c5a486966470758f82226bbc0fe6551aa2c1 → 74fa9a4c5a6a8ffaa03301f2260c7c3f7a625f50)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Tue Nov 01 08:33:46 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:33:37 UTC 2022 processed in 3.4 sec
+[Tue Nov 01 08:38:17 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.167 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:38:12 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  11 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Tue Nov 01 08:38:20 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.167 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:38:12 UTC 2022 processed in 2.7 sec
+[Tue Nov 01 08:38:54 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:38:49 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (74fa9a4c5a6a8ffaa03301f2260c7c3f7a625f50 → 6605448f8632148390f2931aee2cd80b2bd28522)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Tue Nov 01 08:38:56 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.61.10 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 01 08:38:49 UTC 2022 processed in 2.1 sec
+[Wed Nov 02 03:10:17 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.141 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 03:10:12 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  12 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Wed Nov 02 03:10:21 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.141 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 03:10:12 UTC 2022 processed in 4 sec
+[Wed Nov 02 03:12:14 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.100 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 03:12:09 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6605448f8632148390f2931aee2cd80b2bd28522 → da4333828e8415fa6e41fcf648ba8d1dbdeda403)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Nov 02 03:12:18 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.100 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 03:12:09 UTC 2022 processed in 3.8 sec
+[Wed Nov 02 08:08:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 08:08:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  13 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Wed Nov 02 08:08:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 08:08:31 UTC 2022 processed in 4 sec
+[Wed Nov 02 08:12:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 08:12:46 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (da4333828e8415fa6e41fcf648ba8d1dbdeda403 → 60fcb80d6ca201876b21ef92797f77c29347ae57)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Nov 02 08:12:54 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 08:12:46 UTC 2022 processed in 3.1 sec
+[Fri Nov 11 05:10:34 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:10:29 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  14 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Fri Nov 11 05:10:38 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:10:29 UTC 2022 processed in 3.5 sec
+[Fri Nov 11 05:13:31 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.34 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:13:26 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  14 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Fri Nov 11 05:13:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.34 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:13:26 UTC 2022 processed in 3.7 sec
+[Fri Nov 11 05:14:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:14:02 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  14 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  1 pull requests were processed
+[Fri Nov 11 05:14:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:14:02 UTC 2022 processed in 3.4 sec
+[Fri Nov 11 05:25:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.96.217 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:24:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  14 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-29 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-3921
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+
+  2 pull requests were processed
+[Fri Nov 11 05:25:04 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.96.217 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:24:56 UTC 2022 processed in 3.4 sec
+[Fri Nov 11 05:26:14 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:26:09 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (60fcb80d6ca201876b21ef92797f77c29347ae57 → 0777197ca698466637535e550354cd19e5bc96c7)
+Scheduled build for branch: dev
+
+  3 branches were processed (query completed)
+[Fri Nov 11 05:26:18 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 05:26:09 UTC 2022 processed in 3.3 sec
+[Wed Feb 01 07:38:51 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 07:38:46 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  15 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  2 pull requests were processed
+[Wed Feb 01 07:38:54 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 07:38:46 UTC 2023 processed in 3.4 sec
+[Wed Feb 01 08:01:16 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:01:11 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0777197ca698466637535e550354cd19e5bc96c7 → 7e43897326d1f53598e6131073f1b65a1872bebf)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Feb 01 08:01:20 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:01:11 UTC 2023 processed in 3.3 sec
+[Wed Feb 01 08:04:59 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:04:54 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  15 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-33 from smartlogwms/vnpost-be and branch 1.9.3/SWMS-4062
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Wed Feb 01 08:05:02 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:04:54 UTC 2023 processed in 3.4 sec
+[Wed Feb 01 08:05:16 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:05:11 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7e43897326d1f53598e6131073f1b65a1872bebf → 64575cdd6745f29a9add307012d253105c1ed087)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Feb 01 08:05:20 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.77.19 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 01 08:05:11 UTC 2023 processed in 3.3 sec
+[Mon Feb 06 03:20:03 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 06 03:19:58 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (9b161f3810d0ea606b82b269d54e31b8cf195a0e → 92bff2ee2ea3955ada77ddb66326c51b40be153c)
+Scheduled build for branch: production
+
+  15 branches were processed (query completed)
+[Mon Feb 06 03:20:07 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 06 03:19:58 UTC 2023 processed in 4.3 sec
+[Fri Apr 07 07:22:40 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.76.254 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:22:35 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  16 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  2 pull requests were processed
+[Fri Apr 07 07:22:44 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.76.254 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:22:35 UTC 2023 processed in 3.6 sec
+[Fri Apr 07 07:42:45 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:42:40 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  16 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  2 pull requests were processed
+[Fri Apr 07 07:42:48 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:42:40 UTC 2023 processed in 3.4 sec
+[Fri Apr 07 07:52:39 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:52:34 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  17 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Fri Apr 07 07:52:43 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:52:34 UTC 2023 processed in 3.4 sec
+[Fri Apr 07 07:53:38 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:53:33 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  17 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Fri Apr 07 07:53:41 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:53:33 UTC 2023 processed in 3.4 sec
+[Fri Apr 07 07:56:03 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:55:58 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  16 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Fri Apr 07 07:56:07 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:55:58 UTC 2023 processed in 3.4 sec
+[Fri Apr 07 07:56:52 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:56:47 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  17 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Fri Apr 07 07:56:55 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 07:56:47 UTC 2023 processed in 3.4 sec
+[Mon Apr 10 02:30:35 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:30:30 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Mon Apr 10 02:30:38 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:30:30 UTC 2023 processed in 3.4 sec
+[Mon Apr 10 02:51:43 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:51:38 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-36 from smartlogwms/vnpost-be and branch argocd-production
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  4 pull requests were processed
+[Mon Apr 10 02:51:46 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:51:38 UTC 2023 processed in 3.4 sec
+[Mon Apr 10 02:52:19 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:52:14 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-35 from smartlogwms/vnpost-be and branch argo
+Checking PR-36 from smartlogwms/vnpost-be and branch argocd-production
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  4 pull requests were processed
+[Mon Apr 10 02:52:21 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:52:14 UTC 2023 processed in 2 sec
+[Mon Apr 10 02:53:49 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:53:44 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (64575cdd6745f29a9add307012d253105c1ed087 → 4b95c47622f485c8ae25ea5b1e1eb01bae52942c)
+Scheduled build for branch: dev
+
+  3 branches were processed (query completed)
+[Mon Apr 10 02:53:53 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:53:44 UTC 2023 processed in 3.3 sec
+[Mon Apr 10 02:57:10 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:57:05 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-36 from smartlogwms/vnpost-be and branch argocd-production
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Mon Apr 10 02:57:13 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:57:05 UTC 2023 processed in 3.4 sec
+[Mon Apr 10 02:57:55 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:57:50 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-36 from smartlogwms/vnpost-be and branch argocd-production
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Mon Apr 10 02:57:58 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:57:50 UTC 2023 processed in 3.3 sec
+[Mon Apr 10 02:59:12 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:59:07 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4b95c47622f485c8ae25ea5b1e1eb01bae52942c → f3558882053669828a64b5a5f3448dcd884b04d8)
+Scheduled build for branch: dev
+
+  3 branches were processed (query completed)
+[Mon Apr 10 02:59:16 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.248 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 02:59:07 UTC 2023 processed in 3.3 sec
+[Mon Apr 10 03:11:14 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 03:11:09 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f3558882053669828a64b5a5f3448dcd884b04d8 → 5cb58a6842e2922b7872324b7811196fe30a978b)
+Scheduled build for branch: dev
+
+  3 branches were processed (query completed)
+[Mon Apr 10 03:11:18 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 03:11:09 UTC 2023 processed in 3.3 sec
+[Mon Apr 10 03:11:57 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 03:11:52 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+
+  18 branches were processed
+Looking up smartlogwms/vnpost-be for pull requests
+Checking PR-36 from smartlogwms/vnpost-be and branch argocd-production
+Checking PR-19 from smartlogwms/vnpost-be and branch dev
+Checking PR-31 from smartlogwms/vnpost-be and branch 1.8.8/SWMS-RELEASE
+
+  3 pull requests were processed
+[Mon Apr 10 03:12:00 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 03:11:52 UTC 2023 processed in 3.4 sec
+[Mon Apr 10 04:41:24 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 04:41:19 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/vnpost-be for branches
+Checking branch 1.4.7/swms-69 from smartlogwms/vnpost-be
+Checking branch 1.7.7/SWMS-2448 from smartlogwms/vnpost-be
+Checking branch 1.8.0/SWMS-2818 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3920 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3921 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-3922 from smartlogwms/vnpost-be
+Checking branch 1.8.8/SWMS-RELEASE from smartlogwms/vnpost-be
+Checking branch 1.9.3/SWMS-4062 from smartlogwms/vnpost-be
+Checking branch argo from smartlogwms/vnpost-be
+Checking branch argo-production from smartlogwms/vnpost-be
+Checking branch argocd-production from smartlogwms/vnpost-be
+Checking branch dev from smartlogwms/vnpost-be
+Checking branch hot-fix/change-db-vnpost from smartlogwms/vnpost-be
+Checking branch hot-fix/change-key from smartlogwms/vnpost-be
+Checking branch hot-fix/vnpost-fix from smartlogwms/vnpost-be
+Checking branch hung_apm from smartlogwms/vnpost-be
+Checking branch master from smartlogwms/vnpost-be
+Checking branch production from smartlogwms/vnpost-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (92bff2ee2ea3955ada77ddb66326c51b40be153c → 5adb49dc7a32e07c3743deae69a4e4d2c330bda8)
+Scheduled build for branch: production
+
+  18 branches were processed (query completed)
+[Mon Apr 10 04:41:27 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 04:41:19 UTC 2023 processed in 2.7 sec

@@ -1,0 +1,137 @@
+Started
+[Wed Mar 23 09:22:53 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘Jenkinsfile.AuthWorker.groovy’ found
+    Met criteria
+No changes detected: dev (still at ac6d0943597667fcf5c4fca2f96855e8e02470b7)
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch SES-394/bugfix/feature/fix-ui-all-statistical-dashboard from smartlogtms/smartlog-ecosystem
+Checking branch SES-453/bugfix/feature/update-message-out-put-order-reuse from smartlogtms/smartlog-ecosystem
+Checking branch SES-477/bugfix/feature/get-list-user from smartlogtms/smartlog-ecosystem
+Checking branch SES-502/bugfix/feature/get-list-user from smartlogtms/smartlog-ecosystem
+Checking branch SES-539/bugfix/feature/report-mt-return-container-no from smartlogtms/smartlog-ecosystem
+Checking branch SES-555/feature/import-and-export-excel-setting-location-notify from smartlogtms/smartlog-ecosystem
+Checking branch SES-559/feature/add-button-complete-order-reuse from smartlogtms/smartlog-ecosystem
+Checking branch SES-635/feature/dashboard-statistical-percent-order from smartlogtms/smartlog-ecosystem
+Checking branch SES-641/bugfix/feature/statiscal-region-order from smartlogtms/smartlog-ecosystem
+Checking branch SES-641/bugfix/feature/statiscal-region-order-bk from smartlogtms/smartlog-ecosystem
+Checking branch SES-641/feature/statiscal-region-order from smartlogtms/smartlog-ecosystem
+Checking branch SES-642/feature/statistical-company-order-reuse from smartlogtms/smartlog-ecosystem
+Checking branch SES-643/feature/statistical-company-order-return from smartlogtms/smartlog-ecosystem
+Checking branch SES-645/feature/import-export-excel-bid from smartlogtms/smartlog-ecosystem
+Checking branch SES-657/feature/create-order-reuse-last-event-taf from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch bk_production from smartlogtms/smartlog-ecosystem
+Checking branch blacklist from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-557-not-send-mt-return-for-port from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-571-572 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-577 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-578-579 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-588 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-588-add-noti-ssc from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-589 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-599 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-607 from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-611/default-currency-unit-usd-while-region-code-equal-cpc from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-617/send-mail-ssc-link-booking from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-618-send-noti-mt-return from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-629-admin-not-cancel-order-reuse-approved from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-630-add-timezone from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/SES-630/SES-631/export-excel-payment-transaction from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/domain-resovle-tenant from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/feature/order-auto-pricing from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/feature/order-notification-service/convert-to-mt-return-order-job from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/fix-get-route-on-create-orders from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/refactor-schema-reuse from smartlogtms/smartlog-ecosystem
+Checking branch bugfix/remove-tenant-user-id from smartlogtms/smartlog-ecosystem
+Checking branch bugifx/SES-588-not-send-mail-ssc from smartlogtms/smartlog-ecosystem
+Checking branch create-reuse-order from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch dev_hung from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/AppNotiAddContentTemplate from smartlogtms/smartlog-ecosystem
+Checking branch feature/Order-checking-auto-cancel-Job from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/api-version from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/audit_development_config from smartlogtms/smartlog-ecosystem
+Checking branch feature/audit_gateway from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/cos-setup-notification from smartlogtms/smartlog-ecosystem
+Checking branch feature/create-shipping-line from smartlogtms/smartlog-ecosystem
+Checking branch feature/custom-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/filter-identity-user from smartlogtms/smartlog-ecosystem
+Checking branch feature/hot_fix from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-CRUD-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/integrate-notification from smartlogtms/smartlog-ecosystem
+Checking branch feature/migrate-notify-from-stx from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-on-server-test from smartlogtms/smartlog-ecosystem
+Checking branch feature/refacture-code from smartlogtms/smartlog-ecosystem
+Checking branch feature/register-company-api from smartlogtms/smartlog-ecosystem
+Checking branch feature/report-mt-return-container-no from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/socket-event-order-update-price from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-active-cos-company from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-location-external-id from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch features/add-identity-server-cert from smartlogtms/smartlog-ecosystem
+Checking branch features/fix-bug-authen from smartlogtms/smartlog-ecosystem
+Checking branch features/fix-create-tenant from smartlogtms/smartlog-ecosystem
+Checking branch features/implement-STM from smartlogtms/smartlog-ecosystem
+Checking branch fixbug/STX-notification from smartlogtms/smartlog-ecosystem
+Checking branch hotfix-auth-token from smartlogtms/smartlog-ecosystem
+Checking branch hotfix/create-tenant-user from smartlogtms/smartlog-ecosystem
+Checking branch hotfix/error-get-reciever-config from smartlogtms/smartlog-ecosystem
+Checking branch hotfix/route-order-info from smartlogtms/smartlog-ecosystem
+Checking branch hotfix_auth_decorator from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch migrate-stm-user from smartlogtms/smartlog-ecosystem
+Checking branch mt-return-fee from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+      ‘Jenkinsfile.AuthWorker.groovy’ found
+    Met criteria
+No changes detected: production (still at 62ef944770f308ad58efc3f30e6a0fe97aac88b0)
+Checking branch remove-mapper from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+Checking branch sync-stm-route-setting from smartlogtms/smartlog-ecosystem
+
+  102 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+ERROR: [Wed Mar 23 09:23:00 UTC 2022] Could not fetch branches from source 4e92d50b-d52e-4ee0-a989-c1bfb2e50dcf
+[Wed Mar 23 09:23:00 UTC 2022] Finished branch indexing. Indexing took 7.1 sec
+FATAL: Failed to recompute children of eco-system-manual-build-auth-worker
+com.cloudbees.jenkins.plugins.bitbucket.api.BitbucketRequestException: HTTP request error. Status: 403: Forbidden.
+{"type": "error", "error": {"message": "Your credentials lack one or more required privilege scopes.", "detail": {"granted": ["project"], "required": ["pullrequest"]}}}
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getRequestAsInputStream(BitbucketCloudApiClient.java:911)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getRequest(BitbucketCloudApiClient.java:923)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getPullRequests(BitbucketCloudApiClient.java:284)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource$1.create(BitbucketSCMSource.java:569)
+	at com.cloudbees.jenkins.plugins.bitbucket.LazyIterable.iterator(LazyIterable.java:57)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource.retrievePullRequests(BitbucketSCMSource.java:635)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource.retrieve(BitbucketSCMSource.java:608)
+	at jenkins.scm.api.SCMSource._retrieve(SCMSource.java:373)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:283)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:641)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:166)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1032)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Finished: FAILURE

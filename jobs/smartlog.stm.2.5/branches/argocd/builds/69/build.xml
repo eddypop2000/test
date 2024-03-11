@@ -1,0 +1,575 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>chithanh</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>1</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>6af6bc3f-c113-4f83-a750-cc8cf1bbfa12</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>argocd</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>a75e7b48988b3654eb7a7144b5a33d3b9dafb490</hash>
+        <message>delete cache
+</message>
+        <author>thanhnc &lt;thanh.nc@gosmartlog.com&gt;</author>
+        <date>2023-02-15 07:41:35.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>argocd</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>a75e7b48988b3654eb7a7144b5a33d3b9dafb490</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>argocd</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>69</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{SHSElpdRdaPylZETFZLMyfPz8--ILDDCyeOmoOVGByApvMoQIoAU9lZ-NgcBnS3wQIbnr9Sa4wcmD8X0qRWskyPvnA==}@bitbucket.org/smartlogtms/smartlog.stm.2.5.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogtms/smartlog.stm.2.5.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction plugin="workflow-cps@3583.v4f58de0d78d5">
+      <interpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+      </interpolatedWarnings>
+    </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>7779</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>7778</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>490648</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>10436003</queueId>
+  <timestamp>1676447938883</timestamp>
+  <startTime>1676447938886</startTime>
+  <result>SUCCESS</result>
+  <duration>517096</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;common-docker20dotnet6&apos;, containers: [
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true, resourceLimitEphemeralStorage: &apos;100Mi&apos;),
+    containerTemplate(name: &apos;buildkit&apos;, image: &apos;moby/buildkit:v0.10.6&apos;, ttyEnabled: true, privileged: true),
+    containerTemplate(name: &apos;dotnet&apos;, image: &apos;danghung/jenkins:all-in-one2&apos;, command: &apos;cat&apos;, ttyEnabled: true, resourceLimitEphemeralStorage: &apos;5Gi&apos;),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true,resourceLimitEphemeralStorage: &apos;100Mi&apos;),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+    configMapVolume(configMapName: &apos;docker-config&apos;, mountPath: &apos;/root/.docker&apos;),   
+  ]) {
+    node(&apos;common-docker20dotnet6&apos;) {
+      SLACK_CHANNEL = &apos;C0223PGJMK6&apos; // Default smartlog-stm-v2_5-build-log
+      isDeploy = true
+      isBuildFe = false
+      isBuildBe = false
+      isBuildApiGateway = false
+      isBuildReport = false
+
+      successBuild = 0
+      totalBuild = 0
+
+      commitMessage = &quot;&quot;
+      try {
+        SEM_VER = &apos;0.0.0&apos;
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout scm
+
+          String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+          commitMessage = parts[0]
+          // check last commit has &quot;build-all&quot; string, do build all ( fe, be, api-gateway)
+          result = sh (
+            script: &quot;git log -1 --pretty=%B | grep &apos;build-all&apos;&quot;,
+            returnStatus: true
+          )
+          isBuildFe = (result == 0)
+          isBuildBe = (result == 0)
+          isBuildApiGateway = (result == 0)
+          isBuildReport = (result == 0)
+
+          if (!isBuildFe){
+            // check modified files in last commit, if file path contains &quot;Smartlog.Stm.Web&quot;, do build
+            isBuildFe = (sh (
+              script: &quot;git diff --name-status HEAD~1..HEAD | grep Smartlog.Stm.Web&quot;,
+              returnStatus: true
+            ) == 0)
+          }
+          echo &quot;isBuildFe: ${isBuildFe}&quot;
+
+          if (!isBuildBe){
+            isBuildBe = (sh (
+              script: &apos;git diff --name-status HEAD~1..HEAD | grep -v Jenkinsfile | grep -v Smartlog.Stm.Web | grep -v Smartlog.Stm.ApiGateway&apos;,
+              returnStatus: true
+            ) == 0)
+          }
+          echo &quot;isBuildBe: ${isBuildBe}&quot;
+
+          if (!isBuildReport){
+            isBuildReport = (sh (
+              script: &apos;git diff --name-status HEAD~1..HEAD | grep -v Jenkinsfile | grep -v Smartlog.Stm.Web | grep -v Smartlog.Stm.ApiGateway&apos;,
+              returnStatus: true
+            ) == 0)
+          }
+          echo &quot;isBuildReport: ${isBuildReport}&quot;
+
+          if (!isBuildApiGateway){
+            isBuildApiGateway = (sh (
+              script: &apos;git diff --name-status HEAD~1..HEAD | grep Smartlog.Stm.ApiGateway&apos;,
+              returnStatus: true
+            ) == 0)
+          }
+          echo &quot;isBuildApiGateway: ${isBuildApiGateway}&quot;
+
+          isDeploy = isBuildFe || isBuildBe || isBuildApiGateway || isBuildReport
+          if (isBuildReport) { totalBuild++ }
+          if (isBuildFe) { totalBuild++ }
+          if (isBuildBe) { totalBuild++ }
+          if (isBuildApiGateway) { totalBuild++ }
+        }
+
+        rootDir = pwd()
+        baseDeploy = load &quot;${rootDir}/Jenkins.Base.groovy&quot;
+        deploy = load &quot;${rootDir}/Jenkins.Build.groovy&quot;
+        deploy.init(baseDeploy)
+        if (env.BRANCH_NAME == &apos;argocd&apos; &amp;&amp; isDeploy) {
+          tagEnv = &apos;dev&apos;
+          longEnv = &apos;Staging&apos;
+          build()
+        } else if (env.BRANCH_NAME == &apos;staging&apos; &amp;&amp; isDeploy) {
+          tagEnv = &apos;stage&apos;
+          longEnv = &apos;Staging&apos;
+          build()
+        } else if (env.BRANCH_NAME == &apos;master&apos; &amp;&amp; isDeploy) {
+          tagEnv = &apos;prod&apos;
+          longEnv = &apos;Production&apos;
+          build()
+        }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        try {
+          deleteDir() /* clean up our workspace */
+        } catch(err) {
+          // Do nothing
+        }
+        if (isDeploy != true) {
+          /* Do nothing */
+        } else if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          // slackSend channel: SLACK_CHANNEL,
+          //   color: &apos;#c40e0e&apos;,
+          //   message: &quot;Deploy ${currentBuild.fullDisplayName} [${commitMessage}].\nKỳ vậy ta :pika_think2: :pika_think2: :pika_think2:.\n@here ${env.BUILD_URL}console&quot;
+        }
+      }
+    }
+  }
+
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+  SEM_VER = &quot;2.5.0-${tagEnv}.${env.BUILD_NUMBER}&quot;
+  echo &quot;Version ${SEM_VER}&quot;
+  if (isBuildReport) {
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Start build ${currentBuild.fullDisplayName}[Report] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildReport(isBuildReport)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Complete build ${currentBuild.fullDisplayName}[Report] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild}.\nNgonnnnn! :pika_tang:&quot;
+  } else {
+    deploy.buildReport(isBuildReport)
+  }
+
+  if (isBuildBe) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[Be] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild}.&quot;
+    deploy.buildBe(isBuildBe)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Complete build ${currentBuild.fullDisplayName}[Be] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild}.\nNgonnnnn! :pika_tang:&quot;
+  } else {
+    deploy.buildBe(isBuildBe)
+  }
+
+  if (isBuildFe) {
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Start build ${currentBuild.fullDisplayName}[Fe] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildFe(isBuildFe)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Complete build ${currentBuild.fullDisplayName}[Fe] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild}.\nNgonnnnn! :pika_tang:&quot;
+  } else {
+    deploy.buildFe(isBuildFe)
+  }
+
+  if (isBuildApiGateway) {
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Start build ${currentBuild.fullDisplayName}[ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildApiGateway(isBuildApiGateway)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Complete build ${currentBuild.fullDisplayName}[ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild}.\nNgonnnnn! :pika_tang:&quot;
+  } else {
+    deploy.buildApiGateway(isBuildApiGateway)
+  }
+
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+
+</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>/* groovylint-disable LineLength */
+
+def generateVersion(running = true) {
+    if (running) {
+        container(&apos;gitversion&apos;) {
+            SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+            ).trim()
+            echo &quot;SemVer: ${SEM_VER}&quot;
+        }
+    }
+}
+
+def loadS3File(source, dest, running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            sh &quot;&quot;&quot;
+                aws s3 cp ${source} ${dest}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def removeFile(path, running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            sh &quot;&quot;&quot;
+                rm ${path}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def git(running = true) {
+    if (running) {
+        script {
+            withCredentials([usernamePassword(credentialsId: &apos;cicd-bitbucket&apos;, passwordVariable: &apos;BITBUCKET_PASSWORD&apos;, usernameVariable: &apos;BITBUCKET_USERNAME&apos;)]) {
+              //def encodedPassword = URLEncoder.encode(&quot;$GIT_PASSWORD&quot;,&apos;UTF-8&apos;)
+
+              sh &quot;&quot;&quot;
+              git config --global user.email jenkins@gosmartlog.com
+              git config --global user.name jenkins
+              rm -rf devops-deployment
+              git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git
+              cd devops-deployment
+              sed -i &apos;s+${HASH}.*+${HASH}@${SHA256}+g&apos; ./smartlog.stm.2.5/${env.BRANCH_NAME}/${app}/.argocd-source.yaml
+              sed -i &quot;s/creationTimestamp:.*/creationTimestamp: &apos;${currentTimestamp}&apos;/&quot; ./smartlog.stm.2.5/${env.BRANCH_NAME}/${app}/.argocd-source.yaml
+              git add ./smartlog.stm.2.5/${env.BRANCH_NAME}/${app}/.argocd-source.yaml
+              git commit -m &apos;Done by Jenkins Job changemanifest: stm.25-${app}:${env.BUILD_NUMBER}&apos;
+              git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git HEAD:refs/heads/master
+              &quot;&quot;&quot;
+            }
+        }
+    }
+}
+def buildkit(running = true) {
+    if (running) {
+        container(&apos;dotnet&apos;) {
+            sh&quot;&quot;&quot;
+            ls -la ${repoPath}   
+            cd ${repoPath}
+            dotnet restore
+            dotnet publish -c release -o ./app --no-restore  
+            &quot;&quot;&quot;
+        } 
+        container(&apos;buildkit&apos;) {
+            REGISTRY_URL = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}:argocd&quot;&quot;&quot;
+            HASH = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}&quot;&quot;&quot;
+            sh&quot;&quot;&quot;
+            ls -la ${repoPath}   
+            cd ${repoPath}
+            wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+            chmod 755 /usr/local/bin/docker-credential-ecr-login
+            buildctl build --frontend dockerfile.v0 --opt platform=linux/amd64,linux/arm64 --local context=. --local dockerfile=./ --opt filename=./Dockerfile.arm.${tagEnv} --output &apos;type=image,name=${REGISTRY_URL},push=true&apos;
+            &quot;&quot;&quot;
+        }
+        scr = &quot;aws ecr describe-images --registry-id 744004065806 --repository-name ${prefixPod} --image-ids imageTag=argocd --query &apos;sort(imageDetails[].imageDigest)&apos; --output text --region ap-southeast-1&quot;
+        container(&apos;awscli&apos;) {
+            def sha256 = sh(
+              script: scr,
+              returnStdout: true
+            ).trim()
+            SHA256 = sha256
+        }
+    }
+}
+
+def buildkitPublic(running = true) {
+    if (running) {
+        container(&apos;dotnet&apos;) {
+            sh&quot;&quot;&quot;
+            ls -la ${repoPath}
+            &quot;&quot;&quot;
+        } 
+        container(&apos;buildkit&apos;) {
+            REGISTRY_URL_PUBLIC = &quot;&quot;&quot;public.ecr.aws/smartlog/${prefixPodPublic}:argocd&quot;&quot;&quot;
+            HASH = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPodPublic}&quot;&quot;&quot;
+            sh&quot;&quot;&quot;
+            ls -la ${repoPath}   
+            cd ${repoPath}
+            wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+            chmod 755 /usr/local/bin/docker-credential-ecr-login
+            buildctl build --frontend dockerfile.v0 --local context=. --local dockerfile=./ --opt filename=./Dockerfile.arm.${tagEnv} --output &apos;type=image,name=${REGISTRY_URL_PUBLIC},push=true&apos;
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+
+def rolloutK8s(running = true) {
+    if (running) {
+        container(&apos;kubectl&apos;) {
+            sh &quot;&quot;&quot;
+                kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+return this
+</string>
+      </entry>
+      <entry>
+        <string>Script2</string>
+        <string>/* groovylint-disable LineLength */
+import groovy.transform.Field
+
+@Field private Base = null
+
+def init(base) {
+    Base = base
+}
+
+def buildFe(running = true) {
+    namespace = &apos;stm&apos;
+    repoPath = &apos;Smartlog.Stm.Web/&apos;
+    prefixPod = &apos;stm-eco-fe&apos;
+    prefixPodPublic = &apos;public-stm-fe&apos;
+    app = &quot;fe&quot;
+    currentTimestamp = sh(returnStdout: true, script: &apos;date -u +\&apos;%Y-%m-%dT%H:%M:%SZ\&apos;&apos;).trim()
+    SHA256 = &quot;&quot;
+    stage(&quot;Build Fe&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stm/config-stm-fe.${tagEnv}.js&quot;, &quot;Smartlog.Stm.Web/wwwroot/config.js&quot;, running)
+        Base.buildkit(running)
+        Base.git(running)
+    }
+}
+def buildReport(running = true) {
+    namespace = &apos;stm&apos;
+    repoPath = &apos;Smartlog.Stm.Api/&apos;
+    prefixPod = &apos;stm-eco-report&apos;
+    prefixPodPublic = &apos;public-stm-report&apos;
+    app = &quot;report&quot;
+    currentTimestamp = sh(returnStdout: true, script: &apos;date -u +\&apos;%Y-%m-%dT%H:%M:%SZ\&apos;&apos;).trim()
+    SHA256 = &quot;&quot;
+    stage(&quot;Build Report&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stm/appsettings-stm.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildkit(running)
+        Base.git(running)
+    }
+}
+
+def buildBe(running = true) {
+    namespace = &apos;stm&apos;
+    repoPath = &apos;Smartlog.Stm.Api/&apos;
+    prefixPod = &apos;stm-eco&apos;
+    prefixPodPublic = &apos;public-stm-be&apos;
+    app = &quot;be&quot;
+    currentTimestamp = sh(returnStdout: true, script: &apos;date -u +\&apos;%Y-%m-%dT%H:%M:%SZ\&apos;&apos;).trim()
+    SHA256 = &quot;&quot;
+    stage(&quot;Build Be&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stm/appsettings-stm.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildkitPublic(running)
+        Base.buildkit(running)
+        Base.git(running)
+    }
+}
+
+def rolloutBe(running = true) {
+    namespace = &apos;stm&apos;
+    repoPath = &apos;Smartlog.Stm.Api/&apos;
+    prefixPod = &apos;stm-eco&apos;
+
+    stage(&quot;Rollout Be&quot;) {
+        // Base.rolloutK8s(running)
+    }
+}
+
+def buildApiGateway(running = true) {
+    namespace = &apos;stm&apos;
+    repoPath = &apos;Smartlog.Stm.ApiGateway/&apos;
+    prefixPod = &apos;stm-eco-api-gateway&apos;
+    app = &quot;gateway&quot;
+    currentTimestamp = sh(returnStdout: true, script: &apos;date -u +\&apos;%Y-%m-%dT%H:%M:%SZ\&apos;&apos;).trim()
+    SHA256 = &quot;&quot;
+    stage(&quot;Build ApiGateway&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stm/appsettings-api-gateway.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildkit(running)
+        Base.git(running)
+    }
+}
+
+return this
+</string>
+      </entry>
+    </loadedScripts>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>577490178</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>341598792</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>7980668325</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>256554445</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1944689451</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>133</iota>
+    <head>1:133</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/argocd:refs/remotes/origin/argocd</refspec>
+            <url>https://x-token-auth:{SHSElpdRdaPylZETFZLMyfPz8--ILDDCyeOmoOVGByApvMoQIoAU9lZ-NgcBnS3wQIbnr9Sa4wcmD8X0qRWskyPvnA==}@bitbucket.org/smartlogtms/smartlog.stm.2.5.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>argocd</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/smartlog.stm.2.5</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>common-docker20dotnet6-x84c7-jfj8m</node>
+      <workspace>/home/jenkins/agent/workspace/smartlog.stm.2.5_argocd</workspace>
+      <changelogFile>/var/jenkins_home/jobs/smartlog.stm.2.5/branches/argocd/builds/69/changelog8585613339610151556.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

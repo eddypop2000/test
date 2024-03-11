@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1681093604395</timestamp>
+            <origin>192.168.58.161 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>7464</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>7463</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>ee2e0e67-ceb9-4134-9e75-0f4474b9df86</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>production</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>d3fc05e488a1806c362971e672a155e6240104c0</hash>
+        <message>Merged in hot-fix/fix-lottable01 (pull request #2974)
+
+Update lot</message>
+        <author>huy ho &lt;huy.ho@gosmartlog.com&gt;</author>
+        <date>2023-04-10 02:26:39.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>13185063</queueId>
+  <timestamp>1681093629170</timestamp>
+  <startTime>1681093629173</startTime>
+  <result>ABORTED</result>
+  <duration>12243</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

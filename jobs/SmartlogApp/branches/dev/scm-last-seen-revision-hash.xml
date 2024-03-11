@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>f9a809b17fbbc0750747c56faca3c3aec024d1b4</hash>
+  <message>Merged in bugfix/sa-564 (pull request #891)
+
+fixbug sa-565, fixbug sa-567
+
+Approved-by: Bong Bui</message>
+  <author>Trần Hùng &lt;tranhung.nguyen@gosmartlog.com&gt;</author>
+  <date>2023-04-14 10:16:30.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,35 @@
+commit 1fca9b825f80a27a62a75da77bf5fac08ebd42ba
+tree 11267d3cb743ffafa3aa1b23c96459cab50da1b7
+parent 29e74f4dbbd4f9b578b201ad962338c3a6f203ba
+author Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 07:12:55 +0000
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 07:12:55 +0000
+
+    Merged in config-log-to-cloudwatch (pull request #148)
+    
+    IdentityServer: config AWS.Logger.SeriLog
+    
+    * IdentityServer: config AWS.Logger.SeriLog
+
+
+:100644 100644 666c15d5afe15ebdb7b2b6c8155375ad3c05c3b8 dc58a0a2eeea9dfdb069a6dbd12fe8e3c20f2d59 M	modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/Program.cs
+:100644 100644 e7db63be8c970eae10dadc4aa5a48c87e0ff389d 62b5fd2db64fec4690f45e41fd72cc55126f7f3d M	modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/Smartlog.Auth.HttpApi.Host.csproj
+:100644 100644 c8c1c30aa1fea462e47eb6551328834f1fee2c7b b69d44fb592b57508a1d0604dcc6ffcbd1f1573e M	modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/appsettings.Development.json
+:100644 100644 4bb370021f05b41d62b6eb581c60ea09eff54469 fc68b75d538908202c3796231158b84e9f3332fd M	modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/appsettings.json
+commit 29e74f4dbbd4f9b578b201ad962338c3a6f203ba
+tree 4ef9976254b95c1dbea1969043c9677a897db8eb
+parent 1db648c9c156ba3421bc67ab9ea745849f73e4fe
+author Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 04:22:22 +0000
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 04:22:22 +0000
+
+    Merged in bugfix/fix-create-order-follow (pull request #147)
+    
+    Create Order: fix order route EstimateTime
+    
+    * Update Order status: Add log
+    
+    * Merge remote-tracking branch 'origin/dev' into bugfix/fix-create-order-follow
+    
+    * Create Order: fix order route EstimateTime
+
+
+:100644 100644 3228a1d7a2824ae88c462ca279df95028f8d4e85 82632cef2462d5cc4484d7055c68cb17329be96b M	src/Services/TransportExchange/Smartlog.TransportExchange.Application/OrderLists/CreateOrdersFromStmv2ToStmv3Command.cs

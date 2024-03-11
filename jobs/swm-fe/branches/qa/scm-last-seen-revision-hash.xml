@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>qa</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>7f17daf056ada6fc849b30c1ca3caba48eafa0e2</hash>
+  <message>Back version old
+</message>
+  <author>tuan88 &lt;tuan.tran@gosmartlog.com&gt;</author>
+  <date>2022-03-23 04:35:37.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

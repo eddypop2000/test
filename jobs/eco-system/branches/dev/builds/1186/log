@@ -1,0 +1,972 @@
+Branch event
+Obtained Jenkinsfile from 1f95cc3928fbf5a05a7b7168aca13034cfccd529
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4HAYXIOJr/42kxXjRQiECCZOtfUPICqCvF3oprmKpa4wAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/DzdCoOU4nLd7AxLAyMAIQQAit4AAAA=[0mpod-with-gitversion-x0dsw-kh902 is provisioned from template pod-with-gitversion-x0dsw
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/stm-be-deliveree/job/dev/1195/"
+    runUrl: "job/stm-be-deliveree/job/dev/1195/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-x0dsw-kh902"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-x0dsw-kh902"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-x0dsw-kh902"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4O2a7qL5nFqIDBkL5FUQ2hn3VjGJFQYZFKa12f1Jkjs+AAAAwR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZL/dzEvMT0VP3k/NyC0pLUIv2C/BRVI5fyzJIMIJWeWVKWWlScmZ8H5FQYpBSXA+nsDEsDI30AS8QbSu4AAAA=[0mpod-with-gitversion-x0dsw-kh902 in /home/jenkins/agent/workspace/eco-system_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{81PX4eFOZq3A800Yg2zYMrYWI7UnfMP6SAFeBaCQ-Bb_4mON6Of5_EE6bv3EuMuJ-HW1fYT_vQ5ZvO3vkBillQ8mzA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git init /home/jenkins/agent/workspace/eco-system_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{81PX4eFOZq3A800Yg2zYMrYWI7UnfMP6SAFeBaCQ-Bb_4mON6Of5_EE6bv3EuMuJ-HW1fYT_vQ5ZvO3vkBillQ8mzA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 1f95cc3928fbf5a05a7b7168aca13034cfccd529 (dev)
+ > git config remote.origin.url https://x-token-auth:{81PX4eFOZq3A800Yg2zYMrYWI7UnfMP6SAFeBaCQ-Bb_4mON6Of5_EE6bv3EuMuJ-HW1fYT_vQ5ZvO3vkBillQ8mzA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1f95cc3928fbf5a05a7b7168aca13034cfccd529 # timeout=10
+Commit message: "Merged in SES-1041/SES-1043/SES-1040/SES-1049/dev/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx (pull request #1360)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision 1f95cc3928fbf5a05a7b7168aca13034cfccd529 (dev)
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/eco-system_dev/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{ecZtDkSa3HPT2M86SL8fBT2Ubpq7FUqLXyxfMt3vrMVs2Rxsa-oATGjga7WjANI9o7teUld5tiZHPbzzKQEvRhK80w%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{ecZtDkSa3HPT2M86SL8fBT2Ubpq7FUqLXyxfMt3vrMVs2Rxsa-oATGjga7WjANI9o7teUld5tiZHPbzzKQEvRhK80w%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1f95cc3928fbf5a05a7b7168aca13034cfccd529 # timeout=10
+Commit message: "Merged in SES-1041/SES-1043/SES-1040/SES-1049/dev/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx (pull request #1360)"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4MO5/2hv+0YI4sFJ6nKzOuhVNamLXVGTKa8siV2v1my2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AOJh0L+9AAAA[0m[Pipeline] sh
++ git log -1 --pretty=%B
++ grep build-all
+[8mha:////4H35T7eAA+JtgsJ+amu72YHDxWdqeb8EepZNPcDQy5gXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep modules/IdentityServer/smartlog-auth-fe
+[8mha:////4IdZYA504BTv71WxNREKBIs1x4MU2Y9Sgz5xHaK+hECoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA2TGium9AAAA[0m[Pipeline] echo
+isBuildAuthFe: false
+[8mha:////4Ghg1hEtmPt3d4PSFh8RAyk6y1anzLCIc6BtFONnGsaMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AKeVp8K9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.Worker
+[8mha:////4PQOCw252DHhp3EjeSYWmLMJ1dJ9Z8bh2/n7FpzU1LKqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roP5qS8270AAAA=[0m[Pipeline] echo
+isBuildAuthWorker: false
+[8mha:////4JmHUTtd9aRRhkBGOi51sXuOkP0tM1sQjXnqDEfce4U3AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEjcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AKbgkXL0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Smartlog.SocketService
+[8mha:////4KdJW5pSks/uAAlWQK8a0Hsj8dCpI5HV0BFRdmVCSHq2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRHQhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2E+TbffcBaIk/Rb0AAAA=[0m[Pipeline] echo
+isBuildSocketService: false
+[8mha:////4CGBR0T2hPg+ZHVIiIT1KFK+gXqvKNDMB/jm8TtarafEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPeIy7lr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Notification
+[8mha:////4C3EVx0YMxzO8b7RBKS4SxdfnOIXWgegBja71E/JBA+HAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPOb2gj70AAAA=[0m[Pipeline] echo
+isBuildNotificationService: false
+[8mha:////4ORvAuchF10+0ivZCoUv2WSbjkU7jmSdmyeor9AFNjioAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H+u6NpL0AAAA=[0m[Pipeline] sh
++ grep src/Services/LocationService
++ git diff --name-status HEAD~1..HEAD
+[8mha:////4DhsnBzS+gHcMRVCtfjWSFlcKaay6iRZ6buVLAtMxwlGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9ALvflr29AAAA[0m[Pipeline] echo
+isBuildLocationService: false
+[8mha:////4GfF031GyjPPo0/qMOfz9KsdKp1f3ctYyRMkjmsxFhn6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA3xJ1/K9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Smartlog.AuditLog.API
+[8mha:////4BV6Lnp8He4Gk//Eh5962sNZBMqqVmqKiPYSkprdXEXBAAAApB+LCAAAAAAAAP9tjbEKwjAURW8rDq6OfkQKgiCIk2vo4hfENsa04b2avNpOfpG/5j9YLDh5p3vOcl5vLFPEkaNTjaXWU6q86kLvpqcGju018KAavqiKKXGwqrRDybU9zViyWMzLciw0VpaqwMmTE6x1Yx6mCIZccZY4uYNG7us7nsj0VBYT5QtjxObW14np1/kbwNgJsr0g3+66Dz14zOu9AAAA[0m[Pipeline] echo
+isBuildAuditLogService: false
+[8mha:////4CAHdSCB/N6E/pwWVYAHuoYP62i6sUmwP2D4SPZYbX8nAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA/4r4cC9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Administration
+[8mha:////4O1kjRxKy00Zlj5bRo2nc0eSffxx9lIoog6tmJeW+UVsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a+tm9AAAA[0m[Pipeline] echo
+isBuildAdministrationService: false
+[8mha:////4PgqqbRMAQhVVi1nZqqeMmDs6Sph/tvxDurGif5RMUMNAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdkpSDfl/0HcAZiXr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Gateway
+[8mha:////4NtfyqwN6LZMoEMqCvvt2E12+9PPAgYxJsEho/e1JsdKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPMTd5R70AAAA=[0m[Pipeline] echo
+isBuildAppGateway: false
+[8mha:////4FnA/j6pBR8qXCxYOorpEz++xriVc91R3hRNEJevttZAAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AE/meZe9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/SocialService
+[8mha:////4J2T9LDIJUBUsHI6nYynX5TX9X4Z4VrmqgHkE8dnrrqUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AA7XYo69AAAA[0m[Pipeline] echo
+isBuildSocialService: false
+[8mha:////4GBwh+cJRaM+zKGhK0YpKre0LhY4jS7el6JdQ0BxZvAMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AM2ET6W9AAAA[0m[Pipeline] sh
++ grep src/Services/COS
++ git diff --name-status HEAD~1..HEAD
+[8mha:////4IIv+t0619lJsxAZgs6DfzWF3Zz1Jiz0DZagDDa1MkaHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0HjLVUvL0AAAA=[0m[Pipeline] echo
+isBuildCosService: false
+[8mha:////4JVqzd0gWpyYFpvdrXeNZXqqMzl3qgQ/0Yqmlkl2DS95AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AEsjFfO9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/TransportExchange
+M	src/Services/TransportExchange/Smartlog.TransportExchange.Application/Orders/CancelOrderCommand.cs
+[8mha:////4IWgxqecdUGRLnOTZ4UJ98MZdlq+T0a90E7armLyqS9cAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAwoSDuq9AAAA[0m[Pipeline] echo
+isBuildTransportExchange: true
+[8mha:////4FdE9yGcweMzYQufS4HiRkAYFd3MIqg+O4qUUu21yEU5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA8lBI8G9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/ZIM
+[8mha:////4JH8lsPiiZ9jW/3tXqRPUtzcr4CWCAdyrE46E+37JIajAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/ALUaGyS9AAAA[0m[Pipeline] }
+[8mha:////4Lvq7yKjMlLkF2UQJH4zQ7iGW0fHVo/7invewtIkEKCFAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpKEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APWQ9Da9AAAA[0m[Pipeline] // stage
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] pwd
+[8mha:////4LeslEuDYOT6XF9VPU8UXnPKOk+F+NJ8N+iOyd1+2rWjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDgWgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv0HJ+W8EAAAA=[0m[Pipeline] load
+[8mha:////4MWUaqmMsRkmwMsZDDKPGBdDsk/uLM+q4M5r5lexZiHZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (/home/jenkins/agent/workspace/eco-system_dev/Jenkins.Base.groovy)
+[8mha:////4O9xiq3QShBdeUVKM8J6r1WYAQF3TyFnooiI5sDBIFQGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BsbtagO+AAAA[0m[Pipeline] }
+[8mha:////4Mwqaznbd8ARuGCDicSAYdpfKFQSo9oVEE/iMyEVpJ2+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BvUOMb++AAAA[0m[Pipeline] // load
+[8mha:////4NaKiAhnM/eZQ6Q3gkFqRqMLJ7h1foF9KGA/g1AjrSoDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTRDSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oNxjDvwMEAAAA=[0m[Pipeline] load
+[8mha:////4KYOMtmmyjARcS1B62VxWQ+jBVQOb7JDSwu2N2gjd1piAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (/home/jenkins/agent/workspace/eco-system_dev/Jenkins.Build.groovy)
+[8mha:////4PylskzQQ81xSpa4XFrpVpDH/6Fl61eVg0QmL1Qc2RIQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bslrlp++AAAA[0m[Pipeline] }
+[8mha:////4IP7ymtjARBCLLtoN1H5IviehTUkN+C3cGJTmeB/p43CAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZMbCsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DfqIzSO+AAAA[0m[Pipeline] // load
+[8mha:////4BSckWnvC7aftvX8OcscPaROdWSI5nQL/p0JLbOmt1U2AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTIISEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A73wLbfBAAAA[0m[Pipeline] container
+[8mha:////4HPT2sKzfjk86aEMSmhp6UsMW2vBDNpu/+Q6yl0Nl57+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] {
+[8mha:////4GMK3Mh2YduR3kbqpDL/Pm12cgF2VpVslK/hdg3b6iQhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4L+k4znQGL5ntgEP96KRuhCibpcv1EShzh8Idi/6a/i2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA7hxSLb4AAAA=[0m[Pipeline] }
+[8mha:////4ALo1f8yT50AibhKFcZvK4Rk3nIp59tr/otJkD9PQ2LjAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eED1l7B3L4AAAA=[0m[Pipeline] // container
+[8mha:////4H5FmEgn6+5X6ZBplqPn/HEJFmXkPYvia9cN4rOhzpdvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPY7Lm6L0AAAA=[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4AI1XLaYqmn8VA14pg2ImE+qGNwK4paOra4h/EqKZyZ3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTAA2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INcjuYZsEAAAA=[0m[Pipeline] stage
+[8mha:////4CjjO/7opzpNbVpGLLiPQFYe5zcm4s5APRofqBqBLcYAAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Build Auth Fe)
+[8mha:////4C0NQouIx+9aZQkpaRp/73LEGBU9Nqd7bGXPCeniybqPAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs/cJ6nb/qfYNPFH6IL4AAAA=[0m[Pipeline] }
+[8mha:////4MTEK5Hyg/g5xjG6d0Ja66Ktre7stGU4/ose/sdHuoyGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNw+yoZy+AAAA[0m[Pipeline] // stage
+[8mha:////4ITQFD+JMubNIW83AbtBdTwolNGOOMYSX70WFcWi/OMhAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgZAQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvCftaEcEAAAA=[0m[Pipeline] stage
+[8mha:////4DgsRdCkzwllHV1MZCnfRWhj1uzhqZmS/d4VEt+zZ52cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0XdaX3CAAAA[0m[Pipeline] { (Build Auth Worker)
+[8mha:////4GdzZ9laD9840nwQMZjQ8Le/nE8e+E21Z07XAGW2E4TQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAxJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+X5P3OvgAAAA==[0m[Pipeline] }
+[8mha:////4D3mDXVfjrvBkn8GR2vUsso5umsnyjaGe+tTOzuCRqWyAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiChASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApAemcr4AAAA=[0m[Pipeline] // stage
+[8mha:////4H71Z2Aenpd7NOr+X+6HKiUZT81vdoac+t1FoW44CEwGAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZinr3OZZv8sIpgcEAAAA=[0m[Pipeline] stage
+[8mha:////4D0myw0xsqlHAUXXtNbjU3JXobEzC93VePkR1ApYoWBTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] { (Build Socket Service)
+[8mha:////4LKx1IrYiVWzH7ZxIYCvSw93NYMBRDw6a9IDi6+hp9Q4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN1wclJ6+AAAA[0m[Pipeline] }
+[8mha:////4CT5LY8fvPfOtsP/fSosEl4s3q+P3WQZDkoNmz2UUdCwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgFv/88ivgAAAA==[0m[Pipeline] // stage
+[8mha:////4OzF0vnzxf9bLZ91K2HTf8ObO301TZpJiVx0mVupwIpiAAAApR+LCAAAAAAAAP9tjTEOgkAURAcMha2lh1g6GmNlu6HxBCus6+Lmf9z9CJUn8mreQZTEyqnmTTJ5zxeKFLHn6FRn6eopNV71YXBzUyPH6znwqDo+qYYpcbCqtmPNrT0sWLNYLMlyrDTWlprAyZMTbHRn7qYMhlx5lDhvO43ctzc8kOnZLCbKF6aI7WVoE9PP81eAqRdklSCvqs+xeAPkgLgawQAAAA==[0m[Pipeline] stage
+[8mha:////4KXFR7AyPoZfI/l2dwf6b5mEAjLJJHkK+R4C5uHScNRfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] { (Build Notification Service)
+[8mha:////4OQJhuTe9osO1oAwgf16yNaRAd+RhM8h7pF/NfUXm6qQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSARKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bj4YO+6+AAAA[0m[Pipeline] }
+[8mha:////4HWuN35oa4d3caLuUPZiZ3eflF/NXqUq5282rjEGR+Z0AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/Qi6NTHGyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+AQ37YFK+AAAA[0m[Pipeline] // stage
+[8mha:////4P0+rn2SeZPckJVew2g1oybJqjhfnC87tsjvjxLN9JZYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDBQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2G0+x/INTWiWasEAAAA=[0m[Pipeline] stage
+[8mha:////4MSsnbghiwdA58y0gRn3yaV5wSX4vo698J5VpNsuZ43yAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] { (Build Location Service)
+[8mha:////4PX7supAGdokGzkmHQzFHjxJdDxITJuASDmeDKKgjjALAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5ikrxm+AAAA[0m[Pipeline] }
+[8mha:////4O+Tz69h5ohN1s0c4hQR9CE9x7qmriw0P5QFypwZcGDLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGrR/SlvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NVESPgR2KrOauZzJNh7FeRCauqdfsuRTH4R8bMDFJDjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxW7zOZZvWyoH8cEAAAA=[0m[Pipeline] stage
+[8mha:////4Du0zlhSNvdjShEIcyWZHFhr5lhLVZpgYrM47dEAAbXFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ATEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD08AFXvCAAAA[0m[Pipeline] { (Build Audit Log Service)
+[8mha:////4EtQIbel2WPnhW/PLsp8EAZhs0DILRzn/A9ulDC7sKAGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BpciU4W+AAAA[0m[Pipeline] }
+[8mha:////4CQjAP5x7shfYy8qzKtQEqVeMGLFzV3ozrF7LNUGQZLdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIKVAVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N6TBCDm+AAAA[0m[Pipeline] // stage
+[8mha:////4J4ckeOfkdBoGP3QwjApDSLohK3N9PTJbGa8b6fGlH7uAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTARKiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxIah2O4+x/INIOrFhsEAAAA=[0m[Pipeline] stage
+[8mha:////4C8TgeGemhFTDN8RU0M/ZsyjekP+GIjrz1Rc5zKBoBXDAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0BISYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+81LNBsIAAAA=[0m[Pipeline] { (Build Administration Service)
+[8mha:////4H+VRBRR550jdRFnLufas/QTer/fZipJEQIURngdoH1GAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBwilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPkj99Ky+AAAA[0m[Pipeline] }
+[8mha:////4AeL9zvhfviyRSyOmE0Tz/8THmWx4PO8tYCb4/a6NqYsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKiIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QF7Hq8QvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LP0AKB9Q0hVFaoSUTRmdkyKAFq06egpYUSmR4tF1bLVAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HbfI7lG6+5FtHBAAAA[0m[Pipeline] stage
+[8mha:////4CXryZOOO80l2OJbnx1NCSSj5n4TQ4Uw0gw+7Escpo/xAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] { (Build App Gateway)
+[8mha:////4GbKRhC6m5ZotL3iQlFPTapH//ArOAnMZLQQjJaQo6iXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGPSihQvgAAAA==[0m[Pipeline] }
+[8mha:////4PNJZxUZIIrA5H3iAfBmGhNldH4LcbLJQOyVwk3T/5ghAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGEDKU+92ntm+8qXPsvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JLIxrJt7pMTlkokw37Fzr8PFcYI79yhu7+X2pXfT+YUAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYTTRUiIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFA1DuWs+x+oNufuHSsEAAAA=[0m[Pipeline] stage
+[8mha:////4FQazCN8CVaU20mI9F7ijtIhffJZGt14DWYwJAaZUU8CAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAR33berCAAAA[0m[Pipeline] { (Build Social Service)
+[8mha:////4JU/4ypAY2ouKEyWe0TGZE6vVB00EcCjWaCjCnjagq7dAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSEglR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3f7U6HIL4AAAA=[0m[Pipeline] }
+[8mha:////4OgQRjRyk8YMBYI9RcatMPEIk9DM6LctOKJdSM8ugUJRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bt6t3Jy+AAAA[0m[Pipeline] // stage
+[8mha:////4Azw2isYIghgFgoK1AgBYCgRWBNstUbg7bCa9a3co3RAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDhYQQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxW7zOZZvEBOpOsEAAAA=[0m[Pipeline] stage
+[8mha:////4Gb5fWjUIgQ0wTks7JTiO75M1p0px612/pQDHNwSame5AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] { (Build Cos Service)
+[8mha:////4M2+oceZJhhVjXxb4KII3I4aYD9gcIOI396QbYqS1rRHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BkvyE9e+AAAA[0m[Pipeline] }
+[8mha:////4MJ13oc0Y1rWRa++0SPi9YbgycrsSfYzfzoii6fYGEzoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN3gRSGu+AAAA[0m[Pipeline] // stage
+[8mha:////4H5/79PV2sjCDnDkWq3cEwZpwQFwke1PJZx9woG5a5LjAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICSEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKHabz7F8AwZROKHBAAAA[0m[Pipeline] stage
+[8mha:////4FQlgQium5RqSqfuWRAR1p1Ue+BWIUX68l+bWl5gpA26AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gQEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDwyoG8LCAAAA[0m[Pipeline] { (Build Transport Exchange Be)
+[8mha:////4BYOw0MHAa3gRZYtxr8bQAah1018IjakRxC3gwNHSZ5yAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0Agkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD2IFAYXCAAAA[0m[Pipeline] container
+[8mha:////4MAvlukNxWsonroOJ1EqjwU28nQCsOf/bIJuTLLs605lAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] {
+[8mha:////4E1j+GAatZ2npZBVoOM3DZFx8zzELw4Idw1sbhP+HJ3IAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeGJWicb4AAAA=[0m[Pipeline] sh
++ ls -la
+total 252
+drwxr-xr-x   11 1000     1000          4096 Apr  4 10:00 .
+drwxr-xr-x    4 1000     1000            76 Apr  4 10:00 ..
+drwxr-xr-x    2 1000     1000            47 Apr  4 10:00 .debug
+-rw-r--r--    1 1000     1000           354 Apr  4 10:00 .dockerignore
+-rw-r--r--    1 1000     1000          5879 Apr  4 10:00 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Apr  4 10:00 .git
+-rw-r--r--    1 1000     1000          2600 Apr  4 10:00 .gitattributes
+-rw-r--r--    1 1000     1000          6463 Apr  4 10:00 .gitignore
+-rw-r--r--    1 1000     1000           294 Apr  4 10:00 GitVersion.yml
+-rw-r--r--    1 1000     1000          3788 Apr  4 10:00 Jenkins.Base.groovy
+-rw-r--r--    1 1000     1000          6801 Apr  4 10:00 Jenkins.Build.groovy
+-rw-r--r--    1 1000     1000         12671 Apr  4 10:00 Jenkinsfile
+-rw-r--r--    1 1000     1000          3895 Apr  4 10:00 Jenkinsfile.Administration.groovy
+-rw-r--r--    1 1000     1000          8293 Apr  4 10:00 Jenkinsfile.All.groovy
+-rw-r--r--    1 1000     1000          3806 Apr  4 10:00 Jenkinsfile.AppGateway.groovy
+-rw-r--r--    1 1000     1000          3826 Apr  4 10:00 Jenkinsfile.AuditLog.groovy
+-rw-r--r--    1 1000     1000          3801 Apr  4 10:00 Jenkinsfile.AuthApi.groovy
+-rw-r--r--    1 1000     1000          3755 Apr  4 10:00 Jenkinsfile.AuthFe.groovy
+-rw-r--r--    1 1000     1000          3812 Apr  4 10:00 Jenkinsfile.AuthLogin.groovy
+-rw-r--r--    1 1000     1000          3808 Apr  4 10:00 Jenkinsfile.AuthWorker.groovy
+-rw-r--r--    1 1000     1000         25493 Apr  4 10:00 Jenkinsfile.BuildAll.js
+-rw-r--r--    1 1000     1000          3802 Apr  4 10:00 Jenkinsfile.Cos.groovy
+-rw-r--r--    1 1000     1000          3847 Apr  4 10:00 Jenkinsfile.Location.groovy
+-rw-r--r--    1 1000     1000          3879 Apr  4 10:00 Jenkinsfile.Notification.groovy
+-rw-r--r--    1 1000     1000          3831 Apr  4 10:00 Jenkinsfile.Social.groovy
+-rw-r--r--    1 1000     1000          3831 Apr  4 10:00 Jenkinsfile.Socket.groovy
+-rw-r--r--    1 1000     1000          3875 Apr  4 10:00 Jenkinsfile.Stx.groovy
+-rw-r--r--    1 1000     1000          3797 Apr  4 10:00 Jenkinsfile.Zim.groovy
+-rw-r--r--    1 1000     1000          4681 Apr  4 10:00 README.md
+drwxr-xr-x    3 1000     1000            86 Apr  4 10:00 Smartlog.Contract.Location
+-rw-r--r--    1 1000     1000         47161 Apr  4 10:00 Smartlog.sln
+-rw-r--r--    1 1000     1000          1573 Apr  4 10:00 Smartlog.sln.DotSettings
+-rw-r--r--    1 1000     1000         14752 Apr  4 10:00 SmartlogCSharp.ruleset
+drwxr-xr-x    2 1000     1000            25 Apr  4 10:00 Templates
+drwxr-xr-x    2 1000     1000           103 Apr  4 10:00 assets
+drwxr-xr-x    2 1000     1000           140 Apr  4 10:00 components
+drwxr-xr-x    2 1000     1000           131 Apr  4 10:00 components-deploy
+-rw-r--r--    1 1000     1000            80 Apr  4 10:00 global.json
+drwxr-xr-x    3 1000     1000            28 Apr  4 10:00 modules
+-rw-r--r--    1 1000     1000           636 Apr  4 10:00 nuget.config
+-rw-r--r--    1 1000     1000          1656 Apr  4 10:00 package.json
+-rw-r--r--    1 1000     1000          1103 Apr  4 10:00 restclient.http
+drwxr-xr-x    8 1000     1000           111 Apr  4 10:00 src
+-rw-r--r--    1 1000     1000          2066 Apr  4 10:00 tye.yaml
++ docker build -f src/Services/TransportExchange/Smartlog.TransportExchange.API/Dockerfile.stage --build-arg 'version=1.1' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:stage '--pull=true' .
+Sending build context to Docker daemon  199.6MB
+Step 1/18 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+f1f26f570256: Already exists
+40885535e7f3: Already exists
+e770cc837acf: Already exists
+b349e6089b6c: Already exists
+9567d8cd2e60: Already exists
+792e7ecc175e: Pulling fs layer
+0db60c053121: Pulling fs layer
+1d3adfd77f01: Pulling fs layer
+1d3adfd77f01: Verifying Checksum
+1d3adfd77f01: Download complete
+792e7ecc175e: Download complete
+792e7ecc175e: Pull complete
+0db60c053121: Verifying Checksum
+0db60c053121: Download complete
+0db60c053121: Pull complete
+1d3adfd77f01: Pull complete
+Digest: sha256:ef18259e9c0570d28b874b6680b13d83cf0c6c2e7e2a2509a339aab5e88c16b4
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> 7b6a689812d3
+Step 2/18 : ARG version
+ ---> Running in aeaf4cbc7a97
+Removing intermediate container aeaf4cbc7a97
+ ---> f7bdd55f5f50
+Step 3/18 : WORKDIR /src
+ ---> Running in 7f8242d27ea5
+Removing intermediate container 7f8242d27ea5
+ ---> 3c677953bbb3
+Step 4/18 : COPY . .
+ ---> c747fd66bbf6
+Step 5/18 : RUN ls -la
+ ---> Running in 65180e908de6
+total 232
+drwxr-xr-x 1 root root  4096 Apr  4 10:01 .
+drwxr-xr-x 1 root root     6 Apr  4 10:01 ..
+drwxr-xr-x 2 root root    47 Apr  4 10:00 .debug
+-rw-r--r-- 1 root root  5879 Apr  4 10:00 .editorconfig
+-rw-r--r-- 1 root root  2600 Apr  4 10:00 .gitattributes
+-rw-r--r-- 1 root root   294 Apr  4 10:00 GitVersion.yml
+-rw-r--r-- 1 root root  3788 Apr  4 10:00 Jenkins.Base.groovy
+-rw-r--r-- 1 root root  6801 Apr  4 10:00 Jenkins.Build.groovy
+-rw-r--r-- 1 root root 12671 Apr  4 10:00 Jenkinsfile
+-rw-r--r-- 1 root root  3895 Apr  4 10:00 Jenkinsfile.Administration.groovy
+-rw-r--r-- 1 root root  8293 Apr  4 10:00 Jenkinsfile.All.groovy
+-rw-r--r-- 1 root root  3806 Apr  4 10:00 Jenkinsfile.AppGateway.groovy
+-rw-r--r-- 1 root root  3826 Apr  4 10:00 Jenkinsfile.AuditLog.groovy
+-rw-r--r-- 1 root root  3801 Apr  4 10:00 Jenkinsfile.AuthApi.groovy
+-rw-r--r-- 1 root root  3755 Apr  4 10:00 Jenkinsfile.AuthFe.groovy
+-rw-r--r-- 1 root root  3812 Apr  4 10:00 Jenkinsfile.AuthLogin.groovy
+-rw-r--r-- 1 root root  3808 Apr  4 10:00 Jenkinsfile.AuthWorker.groovy
+-rw-r--r-- 1 root root 25493 Apr  4 10:00 Jenkinsfile.BuildAll.js
+-rw-r--r-- 1 root root  3802 Apr  4 10:00 Jenkinsfile.Cos.groovy
+-rw-r--r-- 1 root root  3847 Apr  4 10:00 Jenkinsfile.Location.groovy
+-rw-r--r-- 1 root root  3879 Apr  4 10:00 Jenkinsfile.Notification.groovy
+-rw-r--r-- 1 root root  3831 Apr  4 10:00 Jenkinsfile.Social.groovy
+-rw-r--r-- 1 root root  3831 Apr  4 10:00 Jenkinsfile.Socket.groovy
+-rw-r--r-- 1 root root  3875 Apr  4 10:00 Jenkinsfile.Stx.groovy
+-rw-r--r-- 1 root root  3797 Apr  4 10:00 Jenkinsfile.Zim.groovy
+drwxr-xr-x 3 root root    86 Apr  4 10:00 Smartlog.Contract.Location
+-rw-r--r-- 1 root root 47161 Apr  4 10:00 Smartlog.sln
+-rw-r--r-- 1 root root  1573 Apr  4 10:00 Smartlog.sln.DotSettings
+-rw-r--r-- 1 root root 14752 Apr  4 10:00 SmartlogCSharp.ruleset
+drwxr-xr-x 2 root root    25 Apr  4 10:00 Templates
+drwxr-xr-x 2 root root   103 Apr  4 10:00 assets
+drwxr-xr-x 2 root root   140 Apr  4 10:00 components
+drwxr-xr-x 2 root root   131 Apr  4 10:00 components-deploy
+-rw-r--r-- 1 root root    80 Apr  4 10:00 global.json
+drwxr-xr-x 3 root root    28 Apr  4 10:00 modules
+-rw-r--r-- 1 root root   636 Apr  4 10:00 nuget.config
+-rw-r--r-- 1 root root  1656 Apr  4 10:00 package.json
+-rw-r--r-- 1 root root  1103 Apr  4 10:00 restclient.http
+drwxr-xr-x 8 root root   111 Apr  4 10:00 src
+-rw-r--r-- 1 root root  2066 Apr  4 10:00 tye.yaml
+Removing intermediate container 65180e908de6
+ ---> 9d6c50c1785a
+Step 6/18 : RUN cd src/Services/TransportExchange/Smartlog.TransportExchange.API && dotnet restore
+ ---> Running in be3599096417
+  Determining projects to restore...
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.App/Smartlog.Infrastructure.App.csproj (in 4.57 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Audit/Smartlog.Infrastructure.Audit.csproj (in 4.57 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Domain/Smartlog.Domain.csproj (in 3 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization/Smartlog.Infrastructure.Organization.csproj (in 0.6 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization.Storage/Smartlog.Infrastructure.Organization.Storage.csproj (in 3 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/Smartlog.Infrastructure.Localization.csproj (in 0.4 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/Smartlog.Infrastructure.Authorization.csproj (in 5.41 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization.Storage/Smartlog.Infrastructure.Localization.Storage.csproj (in 817 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Auth.Cma/Smartlog.Auth.Cma.csproj (in 830 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization.Storage/Smartlog.Infrastructure.Authorization.Storage.csproj (in 5.41 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/Smartlog.Infrastructure.Cache.csproj (in 5 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.EfCore/Smartlog.Infrastructure.EfCore.csproj (in 1.08 sec).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.Domain/Smartlog.TransportExchange.Domain.csproj (in 1.08 sec).
+  Restored /src/src/Services/COS/Smartlog.CosService.Domain/Smartlog.CosService.Domain.csproj (in 17 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Simulator/Smartlog.Contract.Simulator.csproj (in 154 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Stmv2/Smartlog.Contract.Stmv2.csproj (in 174 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.OpenStreetMap/Smartlog.Contract.OpenStreetMap.csproj (in 2 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Notification/Smartlog.Contract.Notification.csproj (in 78 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.COS/Smartlog.Contract.COS.csproj (in 1 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Auth/Smartlog.Contract.Auth.csproj (in 0.8 ms).
+  Restored /src/src/Services/ZIM/Smartlog.ZimService.Domain/Smartlog.ZimService.Domain.csproj (in 3.2 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure/Smartlog.Infrastructure.csproj (in 3.12 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Quartz/Smartlog.Infrastructure.Quartz.csproj (in 131 ms).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj (in 4.92 sec).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Smartlog.TransportExchange.API.csproj (in 4.98 sec).
+Removing intermediate container be3599096417
+ ---> 0aced3745b6c
+Step 7/18 : RUN cd src/Services/TransportExchange/Smartlog.TransportExchange.API && dotnet publish -c Release -o /app/publish -p:Version=$version
+ ---> Running in e5eb4bfa6a6c
+MSBuild version 17.3.2+561848881 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Smartlog.Infrastructure.Localization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/bin/Release/net6.0/Smartlog.Infrastructure.Localization.dll
+  Smartlog.Contract.Auth -> /src/src/Contracts/Smartlog.Contract.Auth/bin/Release/net6.0/Smartlog.Contract.Auth.dll
+  Smartlog.Infrastructure.Quartz -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Quartz/bin/Release/net6.0/Smartlog.Infrastructure.Quartz.dll
+  Smartlog.Infrastructure.Organization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization/bin/Release/net6.0/Smartlog.Infrastructure.Organization.dll
+  Smartlog.Contract.OpenStreetMap -> /src/src/Contracts/Smartlog.Contract.OpenStreetMap/bin/Release/net6.0/Smartlog.Contract.OpenStreetMap.dll
+/src/src/BuildingBlocks/Smartlog.Domain/Data/ColumnFilter.cs(13,24): warning CS0414: The field 'ColumnFilter._key' is assigned but its value is never used [/src/src/BuildingBlocks/Smartlog.Domain/Smartlog.Domain.csproj]
+  Smartlog.Infrastructure.Cache -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/bin/Release/net6.0/Smartlog.Infrastructure.Cache.dll
+  Smartlog.Domain -> /src/src/BuildingBlocks/Smartlog.Domain/bin/Release/netstandard2.1/Smartlog.Domain.dll
+  Smartlog.Infrastructure.App -> /src/src/BuildingBlocks/Smartlog.Infrastructure.App/bin/Release/netstandard2.1/Smartlog.Infrastructure.App.dll
+  Smartlog.Contract.Stmv2 -> /src/src/Contracts/Smartlog.Contract.Stmv2/bin/Release/netstandard2.1/Smartlog.Contract.Stmv2.dll
+  Smartlog.Contract.COS -> /src/src/Contracts/Smartlog.Contract.COS/bin/Release/net6.0/Smartlog.Contract.COS.dll
+  Smartlog.Infrastructure.Audit -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Audit/bin/Release/net6.0/Smartlog.Infrastructure.Audit.dll
+  Smartlog.Contract.Simulator -> /src/src/Contracts/Smartlog.Contract.Simulator/bin/Release/netstandard2.1/Smartlog.Contract.Simulator.dll
+/src/src/BuildingBlocks/Smartlog.Infrastructure/Dapr/Extensions.cs(15,17): warning SYSLIB0020: 'JsonSerializerOptions.IgnoreNullValues' is obsolete: 'JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.' [/src/src/BuildingBlocks/Smartlog.Infrastructure/Smartlog.Infrastructure.csproj]
+  Smartlog.Infrastructure -> /src/src/BuildingBlocks/Smartlog.Infrastructure/bin/Release/net6.0/Smartlog.Infrastructure.dll
+  Smartlog.Infrastructure.Organization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization.Storage/bin/Release/net6.0/Smartlog.Infrastructure.Organization.Storage.dll
+  Smartlog.Contract.Notification -> /src/src/Contracts/Smartlog.Contract.Notification/bin/Release/net6.0/Smartlog.Contract.Notification.dll
+  Smartlog.Infrastructure.Authorization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/bin/Release/net6.0/Smartlog.Infrastructure.Authorization.dll
+  Smartlog.Infrastructure.Localization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization.Storage/bin/Release/net6.0/Smartlog.Infrastructure.Localization.Storage.dll
+  Smartlog.Infrastructure.EfCore -> /src/src/BuildingBlocks/Smartlog.Infrastructure.EfCore/bin/Release/net6.0/Smartlog.Infrastructure.EfCore.dll
+  Smartlog.Infrastructure.Authorization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization.Storage/bin/Release/net6.0/Smartlog.Infrastructure.Authorization.Storage.dll
+/src/src/BuildingBlocks/Smartlog.Auth.Cma/CmaJwtBearerHandler.cs(323,23): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/src/src/BuildingBlocks/Smartlog.Auth.Cma/Smartlog.Auth.Cma.csproj]
+  Smartlog.TransportExchange.Domain -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.Domain/bin/Release/net6.0/Smartlog.TransportExchange.Domain.dll
+  Smartlog.Auth.Cma -> /src/src/BuildingBlocks/Smartlog.Auth.Cma/bin/Release/net6.0/Smartlog.Auth.Cma.dll
+/src/src/Services/ZIM/Smartlog.ZimService.Domain/Helpers/JsonHelper.cs(9,120): warning CS8625: Cannot convert null literal to non-nullable reference type. [/src/src/Services/ZIM/Smartlog.ZimService.Domain/Smartlog.ZimService.Domain.csproj]
+/src/src/Services/ZIM/Smartlog.ZimService.Domain/Helpers/VnPayLibrary.cs(133,20): warning CS8767: Nullability of reference types in type of parameter 'x' of 'int VnPayCompare.Compare(string x, string y)' doesn't match implicitly implemented member 'int IComparer<string>.Compare(string? x, string? y)' (possibly because of nullability attributes). [/src/src/Services/ZIM/Smartlog.ZimService.Domain/Smartlog.ZimService.Domain.csproj]
+/src/src/Services/ZIM/Smartlog.ZimService.Domain/Helpers/VnPayLibrary.cs(133,20): warning CS8767: Nullability of reference types in type of parameter 'y' of 'int VnPayCompare.Compare(string x, string y)' doesn't match implicitly implemented member 'int IComparer<string>.Compare(string? x, string? y)' (possibly because of nullability attributes). [/src/src/Services/ZIM/Smartlog.ZimService.Domain/Smartlog.ZimService.Domain.csproj]
+  Smartlog.ZimService.Domain -> /src/src/Services/ZIM/Smartlog.ZimService.Domain/bin/Release/net6.0/Smartlog.ZimService.Domain.dll
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Common/TransportPriceOrderFclByRouteDto.cs(15,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Common/TransportPriceOrderFclByRouteDto.cs(16,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Companies/CompanyInformationQuery.cs(93,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Orders/Jobs/OrderFclAutoPricingJob.cs(100,34): warning CS0168: The variable 'ex' is declared but never used [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+  Smartlog.CosService.Domain -> /src/src/Services/COS/Smartlog.CosService.Domain/bin/Release/net6.0/Smartlog.CosService.Domain.dll
+  Smartlog.TransportExchange.Application -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/bin/Release/net6.0/Smartlog.TransportExchange.Application.dll
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Startup.cs(435,21): warning CS0618: 'JobFactoryOptions.AllowDefaultConstructor' is obsolete: 'The value is ignored as all jobs are created with ActivatorUtilities.CreateInstance (see https://github.com/quartznet/quartznet/issues/1120) or via lookup from DI.' [/src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Smartlog.TransportExchange.API.csproj]
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Startup.cs(436,21): warning CS0618: 'JobFactoryOptions.CreateScope' is obsolete: 'The value is ignored as all jobs are created with scope now.' [/src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Smartlog.TransportExchange.API.csproj]
+  Smartlog.TransportExchange.API -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.API/bin/Release/net6.0/Smartlog.TransportExchange.API.dll
+  Smartlog.TransportExchange.API -> /app/publish/
+Removing intermediate container e5eb4bfa6a6c
+ ---> 25965cb2e679
+Step 8/18 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+f1f26f570256: Already exists
+40885535e7f3: Already exists
+e770cc837acf: Already exists
+b349e6089b6c: Already exists
+9567d8cd2e60: Already exists
+Digest: sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> d18ea9795cde
+Step 9/18 : RUN apt-get update
+ ---> Running in f4c0d6225f86
+Get:1 http://deb.debian.org/debian bullseye InRelease [116 kB]
+Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [48.4 kB]
+Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 Packages [8183 kB]
+Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [236 kB]
+Get:6 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [14.6 kB]
+Fetched 8642 kB in 1s (7582 kB/s)
+Reading package lists...
+Removing intermediate container f4c0d6225f86
+ ---> c995ab3720a2
+Step 10/18 : RUN apt-get install -y apt-utils
+ ---> Running in 3133c0168ec4
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  apt-utils
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 439 kB of archives.
+After this operation, 1192 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 apt-utils amd64 2.2.4 [439 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 439 kB in 0s (19.0 MB/s)
+Selecting previously unselected package apt-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6985 files and directories currently installed.)
+Preparing to unpack .../apt-utils_2.2.4_amd64.deb ...
+Unpacking apt-utils (2.2.4) ...
+Setting up apt-utils (2.2.4) ...
+Removing intermediate container 3133c0168ec4
+ ---> 28322df42cad
+Step 11/18 : RUN apt-get install -y libgdiplus
+ ---> Running in c61d24c9722d
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core libbrotli1 libbsd0 libcairo2 libdeflate0
+  libexif12 libexpat1 libfontconfig1 libfreetype6 libgif7 libglib2.0-0
+  libglib2.0-data libjbig0 libjpeg62-turbo libmd0 libpixman-1-0 libpng16-16
+  libtiff5 libwebp6 libx11-6 libx11-data libxau6 libxcb-render0 libxcb-shm0
+  libxcb1 libxdmcp6 libxext6 libxml2 libxrender1 sensible-utils
+  shared-mime-info ucf xdg-user-dirs
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core libbrotli1 libbsd0 libcairo2 libdeflate0
+  libexif12 libexpat1 libfontconfig1 libfreetype6 libgdiplus libgif7
+  libglib2.0-0 libglib2.0-data libjbig0 libjpeg62-turbo libmd0 libpixman-1-0
+  libpng16-16 libtiff5 libwebp6 libx11-6 libx11-data libxau6 libxcb-render0
+  libxcb-shm0 libxcb1 libxdmcp6 libxext6 libxml2 libxrender1 sensible-utils
+  shared-mime-info ucf xdg-user-dirs
+0 upgraded, 35 newly installed, 0 to remove and 1 not upgraded.
+Need to get 11.2 MB of archives.
+After this operation, 39.7 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 sensible-utils all 0.0.14 [14.8 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 ucf all 3.0043 [74.0 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 fonts-dejavu-core all 2.37-2 [1069 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 fontconfig-config all 2.13.1-4.2 [281 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libbrotli1 amd64 1.0.9-2+b2 [279 kB]
+Get:6 http://deb.debian.org/debian bullseye/main amd64 libmd0 amd64 1.0.3-3 [28.0 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 libbsd0 amd64 0.11.3-1 [108 kB]
+Get:8 http://deb.debian.org/debian bullseye/main amd64 libexpat1 amd64 2.2.10-2+deb11u5 [98.2 kB]
+Get:9 http://deb.debian.org/debian bullseye/main amd64 libpng16-16 amd64 1.6.37-3 [294 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libfreetype6 amd64 2.10.4+dfsg-1+deb11u1 [418 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 libfontconfig1 amd64 2.13.1-4.2 [347 kB]
+Get:12 http://deb.debian.org/debian bullseye/main amd64 libpixman-1-0 amd64 0.40.0-1.1~deb11u1 [543 kB]
+Get:13 http://deb.debian.org/debian bullseye/main amd64 libxau6 amd64 1:1.0.9-1 [19.7 kB]
+Get:14 http://deb.debian.org/debian bullseye/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
+Get:15 http://deb.debian.org/debian bullseye/main amd64 libxcb1 amd64 1.14-3 [140 kB]
+Get:16 http://deb.debian.org/debian bullseye/main amd64 libx11-data all 2:1.7.2-1 [311 kB]
+Get:17 http://deb.debian.org/debian bullseye/main amd64 libx11-6 amd64 2:1.7.2-1 [772 kB]
+Get:18 http://deb.debian.org/debian bullseye/main amd64 libxcb-render0 amd64 1.14-3 [111 kB]
+Get:19 http://deb.debian.org/debian bullseye/main amd64 libxcb-shm0 amd64 1.14-3 [101 kB]
+Get:20 http://deb.debian.org/debian bullseye/main amd64 libxext6 amd64 2:1.3.3-1.1 [52.7 kB]
+Get:21 http://deb.debian.org/debian bullseye/main amd64 libxrender1 amd64 1:0.9.10-1 [33.0 kB]
+Get:22 http://deb.debian.org/debian bullseye/main amd64 libcairo2 amd64 1.16.0-5 [694 kB]
+Get:23 http://deb.debian.org/debian bullseye/main amd64 libdeflate0 amd64 1.7-1 [53.1 kB]
+Get:24 http://deb.debian.org/debian bullseye/main amd64 libexif12 amd64 0.6.22-3 [376 kB]
+Get:25 http://deb.debian.org/debian bullseye/main amd64 libgif7 amd64 5.1.9-2 [45.1 kB]
+Get:26 http://deb.debian.org/debian bullseye/main amd64 libglib2.0-0 amd64 2.66.8-1 [1370 kB]
+Get:27 http://deb.debian.org/debian bullseye/main amd64 libjpeg62-turbo amd64 1:2.0.6-4 [151 kB]
+Get:28 http://deb.debian.org/debian bullseye/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]
+Get:29 http://deb.debian.org/debian bullseye/main amd64 libwebp6 amd64 0.6.1-2.1 [258 kB]
+Get:30 http://deb.debian.org/debian-security bullseye-security/main amd64 libtiff5 amd64 4.2.0-1+deb11u4 [290 kB]
+Get:31 http://deb.debian.org/debian bullseye/main amd64 libgdiplus amd64 6.0.4+dfsg-2 [162 kB]
+Get:32 http://deb.debian.org/debian bullseye/main amd64 libglib2.0-data all 2.66.8-1 [1164 kB]
+Get:33 http://deb.debian.org/debian bullseye/main amd64 libxml2 amd64 2.9.10+dfsg-6.7+deb11u3 [693 kB]
+Get:34 http://deb.debian.org/debian bullseye/main amd64 shared-mime-info amd64 2.0-1 [701 kB]
+Get:35 http://deb.debian.org/debian bullseye/main amd64 xdg-user-dirs amd64 0.17-2 [53.8 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 35.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 11.2 MB in 0s (141 MB/s)
+Selecting previously unselected package sensible-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7066 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.14_all.deb ...
+Unpacking sensible-utils (0.0.14) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../01-ucf_3.0043_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0043) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../02-fonts-dejavu-core_2.37-2_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../03-fontconfig-config_2.13.1-4.2_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../04-libbrotli1_1.0.9-2+b2_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2+b2) ...
+Selecting previously unselected package libmd0:amd64.
+Preparing to unpack .../05-libmd0_1.0.3-3_amd64.deb ...
+Unpacking libmd0:amd64 (1.0.3-3) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../06-libbsd0_0.11.3-1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.11.3-1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../07-libexpat1_2.2.10-2+deb11u5_amd64.deb ...
+Unpacking libexpat1:amd64 (2.2.10-2+deb11u5) ...
+Selecting previously unselected package libpng16-16:amd64.
+Preparing to unpack .../08-libpng16-16_1.6.37-3_amd64.deb ...
+Unpacking libpng16-16:amd64 (1.6.37-3) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../09-libfreetype6_2.10.4+dfsg-1+deb11u1_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../10-libfontconfig1_2.13.1-4.2_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../11-libpixman-1-0_0.40.0-1.1~deb11u1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.40.0-1.1~deb11u1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../12-libxau6_1%3a1.0.9-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../13-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../14-libxcb1_1.14-3_amd64.deb ...
+Unpacking libxcb1:amd64 (1.14-3) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../15-libx11-data_2%3a1.7.2-1_all.deb ...
+Unpacking libx11-data (2:1.7.2-1) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../16-libx11-6_2%3a1.7.2-1_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.7.2-1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../17-libxcb-render0_1.14-3_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.14-3) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../18-libxcb-shm0_1.14-3_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-3) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../19-libxext6_2%3a1.3.3-1.1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.3-1.1) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../20-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../21-libcairo2_1.16.0-5_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-5) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../22-libdeflate0_1.7-1_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.7-1) ...
+Selecting previously unselected package libexif12:amd64.
+Preparing to unpack .../23-libexif12_0.6.22-3_amd64.deb ...
+Unpacking libexif12:amd64 (0.6.22-3) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../24-libgif7_5.1.9-2_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.9-2) ...
+Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../25-libglib2.0-0_2.66.8-1_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.66.8-1) ...
+Selecting previously unselected package libjpeg62-turbo:amd64.
+Preparing to unpack .../26-libjpeg62-turbo_1%3a2.0.6-4_amd64.deb ...
+Unpacking libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../27-libjbig0_2.1-3.1+b2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../28-libwebp6_0.6.1-2.1_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2.1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../29-libtiff5_4.2.0-1+deb11u4_amd64.deb ...
+Unpacking libtiff5:amd64 (4.2.0-1+deb11u4) ...
+Selecting previously unselected package libgdiplus.
+Preparing to unpack .../30-libgdiplus_6.0.4+dfsg-2_amd64.deb ...
+Unpacking libgdiplus (6.0.4+dfsg-2) ...
+Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../31-libglib2.0-data_2.66.8-1_all.deb ...
+Unpacking libglib2.0-data (2.66.8-1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../32-libxml2_2.9.10+dfsg-6.7+deb11u3_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.10+dfsg-6.7+deb11u3) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../33-shared-mime-info_2.0-1_amd64.deb ...
+Unpacking shared-mime-info (2.0-1) ...
+Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../34-xdg-user-dirs_0.17-2_amd64.deb ...
+Unpacking xdg-user-dirs (0.17-2) ...
+Setting up libexpat1:amd64 (2.2.10-2+deb11u5) ...
+Setting up libpixman-1-0:amd64 (0.40.0-1.1~deb11u1) ...
+Setting up libxau6:amd64 (1:1.0.9-1) ...
+Setting up xdg-user-dirs (0.17-2) ...
+Setting up libglib2.0-0:amd64 (2.66.8-1) ...
+No schema files found: doing nothing.
+Setting up libbrotli1:amd64 (1.0.9-2+b2) ...
+Setting up libdeflate0:amd64 (1.7-1) ...
+Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+Setting up libglib2.0-data (2.66.8-1) ...
+Setting up libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+Setting up libx11-data (2:1.7.2-1) ...
+Setting up libexif12:amd64 (0.6.22-3) ...
+Setting up libpng16-16:amd64 (1.6.37-3) ...
+Setting up libwebp6:amd64 (0.6.1-2.1) ...
+Setting up fonts-dejavu-core (2.37-2) ...
+Setting up libgif7:amd64 (5.1.9-2) ...
+Setting up libmd0:amd64 (1.0.3-3) ...
+Setting up sensible-utils (0.0.14) ...
+Setting up libtiff5:amd64 (4.2.0-1+deb11u4) ...
+Setting up libbsd0:amd64 (0.11.3-1) ...
+Setting up libxml2:amd64 (2.9.10+dfsg-6.7+deb11u3) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+Setting up libxcb1:amd64 (1.14-3) ...
+Setting up libxcb-render0:amd64 (1.14-3) ...
+Setting up libxcb-shm0:amd64 (1.14-3) ...
+Setting up libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+Setting up shared-mime-info (2.0-1) ...
+Setting up ucf (3.0043) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libx11-6:amd64 (2:1.7.2-1) ...
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up fontconfig-config (2.13.1-4.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libxext6:amd64 (2:1.3.3-1.1) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2) ...
+Setting up libcairo2:amd64 (1.16.0-5) ...
+Setting up libgdiplus (6.0.4+dfsg-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u5) ...
+Removing intermediate container c61d24c9722d
+ ---> 21c637ef4426
+Step 12/18 : RUN apt-get install -y libc6-dev
+ ---> Running in aeaf4770014f
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libc-dev-bin libc-devtools libcrypt-dev libgd3 libnsl-dev libtirpc-dev
+  libxpm4 linux-libc-dev manpages manpages-dev
+Suggested packages:
+  glibc-doc libgd-tools man-browser
+The following NEW packages will be installed:
+  libc-dev-bin libc-devtools libc6-dev libcrypt-dev libgd3 libnsl-dev
+  libtirpc-dev libxpm4 linux-libc-dev manpages manpages-dev
+0 upgraded, 11 newly installed, 0 to remove and 1 not upgraded.
+Need to get 8725 kB of archives.
+After this operation, 29.3 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 manpages all 5.10-1 [1412 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 libc-dev-bin amd64 2.31-13+deb11u5 [276 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 libxpm4 amd64 1:3.5.12-1 [49.1 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 libgd3 amd64 2.3.0-2 [137 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libc-devtools amd64 2.31-13+deb11u5 [246 kB]
+Get:6 http://deb.debian.org/debian-security bullseye-security/main amd64 linux-libc-dev amd64 5.10.162-1 [1576 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 libcrypt-dev amd64 1:4.4.18-4 [104 kB]
+Get:8 http://deb.debian.org/debian bullseye/main amd64 libtirpc-dev amd64 1.3.1-1+deb11u1 [191 kB]
+Get:9 http://deb.debian.org/debian bullseye/main amd64 libnsl-dev amd64 1.3.0-2 [66.4 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libc6-dev amd64 2.31-13+deb11u5 [2359 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 manpages-dev all 5.10-1 [2309 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+[0m[91mdebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 11.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 8725 kB in 0s (104 MB/s)
+Selecting previously unselected package manpages.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 8084 files and directories currently installed.)
+Preparing to unpack .../00-manpages_5.10-1_all.deb ...
+Unpacking manpages (5.10-1) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../01-libc-dev-bin_2.31-13+deb11u5_amd64.deb ...
+Unpacking libc-dev-bin (2.31-13+deb11u5) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../02-libxpm4_1%3a3.5.12-1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../03-libgd3_2.3.0-2_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2) ...
+Selecting previously unselected package libc-devtools.
+Preparing to unpack .../04-libc-devtools_2.31-13+deb11u5_amd64.deb ...
+Unpacking libc-devtools (2.31-13+deb11u5) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../05-linux-libc-dev_5.10.162-1_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.10.162-1) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../06-libcrypt-dev_1%3a4.4.18-4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.18-4) ...
+Selecting previously unselected package libtirpc-dev:amd64.
+Preparing to unpack .../07-libtirpc-dev_1.3.1-1+deb11u1_amd64.deb ...
+Unpacking libtirpc-dev:amd64 (1.3.1-1+deb11u1) ...
+Selecting previously unselected package libnsl-dev:amd64.
+Preparing to unpack .../08-libnsl-dev_1.3.0-2_amd64.deb ...
+Unpacking libnsl-dev:amd64 (1.3.0-2) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../09-libc6-dev_2.31-13+deb11u5_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-13+deb11u5) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../10-manpages-dev_5.10-1_all.deb ...
+Unpacking manpages-dev (5.10-1) ...
+Setting up libxpm4:amd64 (1:3.5.12-1) ...
+Setting up manpages (5.10-1) ...
+Setting up linux-libc-dev:amd64 (5.10.162-1) ...
+Setting up libtirpc-dev:amd64 (1.3.1-1+deb11u1) ...
+Setting up libgd3:amd64 (2.3.0-2) ...
+Setting up libnsl-dev:amd64 (1.3.0-2) ...
+Setting up libcrypt-dev:amd64 (1:4.4.18-4) ...
+Setting up libc-dev-bin (2.31-13+deb11u5) ...
+Setting up libc-devtools (2.31-13+deb11u5) ...
+Setting up manpages-dev (5.10-1) ...
+Setting up libc6-dev:amd64 (2.31-13+deb11u5) ...
+Processing triggers for libc-bin (2.31-13+deb11u5) ...
+Removing intermediate container aeaf4770014f
+ ---> 8a0971d28a58
+Step 13/18 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Running in 1366e64bc1c4
+Removing intermediate container 1366e64bc1c4
+ ---> 768cf1419e44
+Step 14/18 : WORKDIR /app
+ ---> Running in 3b4d74bda01d
+Removing intermediate container 3b4d74bda01d
+ ---> 550d3818e27d
+Step 15/18 : COPY  --from=build /app/publish .
+ ---> dd06be1abaa7
+Step 16/18 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in fd5929b7e113
+Removing intermediate container fd5929b7e113
+ ---> c47cb415a66f
+Step 17/18 : ENV ASPNETCORE_ENVIRONMENT=Staging
+ ---> Running in 918a3c526805
+Removing intermediate container 918a3c526805
+ ---> 6a3b34a0dc41
+Step 18/18 : ENTRYPOINT ["dotnet", "Smartlog.TransportExchange.API.dll"]
+ ---> Running in 1b07d0c61821
+Removing intermediate container 1b07d0c61821
+ ---> 89a1a96c489f
+Successfully built 89a1a96c489f
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:stage
++ docker login -u AWS -p eyJwYXlsb2FkIjoieDlVa0tjeUNnTVhxQ09WakIyQVJoL3pvWmY2ZklSTEJqZ3lwcVJPeGhCNTJQS3VEWTlUMlpJOVRaUDNRb3ZYR1lCci9MYm1leEV6ZW05dHI0TktkVWNrQ05tL28zKzJ0UW9kUG5HU2hzVE9ZMXpHSE5TMEgrUzFKVGR3L3YwM1RqWVlMLzFVam5Da1hldXNPWnlqVmlsL0tRQVNqK3l2cm1JblBVWW5ZeU9kVWxteUlIUWtmcmFPNTh3bkttbnNYMzdlalBzUzAwbThBMG81NVZhQlpNS2hVaVNPUU9PeE90UExRMjhQUm0zS2NsK1psbzBERXc1dm95bmVXWmNzUnFEYVVzUnM4eVJ0c2c0V2s3RVlVeVpsbi8xbWZlNXdFdkN1TUNCamZSUUxXRzNHT1pVV3UyUzRZSTRwNlRJYkRDR1BtOGRLZzlua2VDQnVVSXdKSDZQcmRNNlpOaCtZZ3RxOWUyWFhSK3pqbnZtNUZnU2xUTk5ZZDJ2ZXU1OXZuY3luR2dJRDlwRDh2bGp1WjJvVjFDdTgvOHJOdXFTVWkzeWtWRmhkTGtEKzBIbkQ3K21sUmlKblp6elZwMUJ6OWtwT0VpQ0czZk4yWWN3QVF4UXJzeDUyazJCYW5yWGxVTjRPR3Vya0VFeUYxYXpLL1p3VExTTVRqczVPYWdmQWRBWUdSZzJycDlvT2NWZnFPSXpXY2dhamhtVmFVS25PNHhQSDRPOE5vU2FXN3FNbC9HZHVFc0RYdjRNTlcrMkUxdnJEbUVDdEVpQytmc1ZXd1ZMdWhueGRDSGMra2N0Y3Q5d0Qzd3phYUM4WHppVElEV3htaS9MT1RLL1pQMDRLT1IvVWZ4NjFwRnRydHBYUTNyV2kyU2hjK296aEs2NlYwY1dyVVpEMnh1aHUzSlRUeHZnRVFGRTcwb3d5djBEWXZxKzQ4ckxrVGhxYWhXU1l6eCtNQ3hxTGgrUk11M2NRRVVzZVcwYUxnV3JYb0F6NlJlQXlYblQwQ3pUVFk2WG81V25PbHNEYTB3LzdTRjdNWjNtYlBEWlhtVzdXVHZubmszM2dJQk43ZGxCRXlUN3B3SEZwUWR2UVBQSDlLbDV5Nzl2L2F2QTNCYU1OOFljeXZ6bzFDLzJaYmdocld0NTJHRng2QVZPR1FhQ1N2UnFzRWpuVDFma3ZSMlg5cC9PK3ZpeXFBcXRTY00yblpWaDVBQ1BqTGlHY29qUHczVVhtTVB6MEdYMy9lTWxrWWJOVlRQRUM3T254K3FaWkxmWW92eEZvbGUwaDkwK1JFdkxSZytiR1lua1dGRGRPMzFhd0JPUlFTWmpUNnpKY3ExaWQ4Z3ZVT1MrQUc1VVZJUDlXdTZHRzFSUXdtbTl5aTljNGtUeGxpcFIxbzY4ckRUcXUyWWZKUGp6THFBa3RxeUE2UEZyeFkvMHVjYzhKUXBlR1ZmZXpvaEtQaHpXbkhBMUc3YXBFYXdZRUoxVWoxNFQwT1h4dEFGRDdZSDFFQStOa2tVWmQxV0FhbHViNVJPSDhmTk9tcURWMmFFWGxqMnZQcEpyaXJKaEhDcGk4ZC9vbzIyS2NwTHdjWlcwbFZoQ3BSOTVRSzc4bXZ0TEtqQTM2T09TeHhwakZDcGE3aHhhNDlueTlnVndCZEYvaStHSFU4UDRQTjhUU0RYSVE4NUtmMG5sK1h2OXhxdGpnQVcxQms2V24yS1VKMDJBNGZzTWJNR21ZMlA1R2xCMnZYTTBuRXVmUnBvMjdocWdZcjRXRWFMUW0yS3lNazBRZnNZQzRnQWYzeXZ5ZXA1MXlUODhKWmYzejVpbVlsZ0lKRzJJcnMrcGtQNHVWdTJJdFltSk1FVm1yeHdIRis1MXhId2QxRlhTaTVlTkJNbktGODF2d3NseVJqckE0bzJPczA4QzdIRUFZWUxRbGNGbnRiM3gzN01DTmNUMWpTb05xUTFPaHAzMEJVSG9jUWNHeWRjWm9hVE1MRnNVckxWL3pkbW9OY3E3SUN0R3ZRemxLVytBaWYvclM3ZDdlR2xQcVVSazZYZE51MUVJdHVDK2swb2h1bWJyeE9aMWR4NzY1aWhvMkVBbzlxbG1rdGhHSTVUOFVQV0ZFNEhPV2lyRkNVV0gwQ25ITzJsbEoyZWFBaUNaZEdYY21tNXVIdnc4OVVtTW5OSWpMWGNRdEozOWxlb0F6MURUVEkzVnIwc0orY21CVFY2cWpJQjJoazhvWjV4eTJOanNjTWhLY0pBdSswcks5T1NlcVFKMm1QWnErK2JmSHBLMk5RMWpDYUVadGdHc1ZaS1N3ZnZhMlV2U1lpVFY1Z1dMQjNBTVZ6ZG1qVElKTUQrOHVFSjFuVGlTN29odWFvMmJuMDRSS2psa0Y1cndscnB3VFNiWnF4UlZpNlpDM3FFWHUzVm1UVlZTcGxLeFkzMzI4aVhERlNGRS9EcnpMc2N2MVVNT05Gb3J4MHorQnM5NWl0Yy9yU2owWm5XNStFT0J6MVZ1M2lqOWozeVl2TTgxWmtGcThMUTRQUUJyMStGaXZwa3hsbTJnZXNhQTh6K3hSWHZ3TlM2QWhKT29WWWJXajNFNnVPa1RrRkVWeStRTzBkMzQvTnJveElOd3pXbFd4SG1qc0kvV1g1MjNqdmNRPT0iLCJkYXRha2V5IjoiQVFFQkFIaWRFclpDZmhLT2VETTA4K2NQNWZ0eWp2UTlYTU1TUTRwSzBGWm52QVpYSmdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREhSbC8zYUdDSzdjRTg2QXZRSUJFSUE3emRKS1VQYUhuWlE0YkpWMzkrTHlKZ0pqeGVwQ2N4T0dZYTZjbmlDM1pUdHVCMUdEeGJnSzZhVFhEMGlXSUNPTWM0bVErVWllajdZQjlWWT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE2ODA2NDU2NTR9 https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:stage
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be]
+0cdcfc2070b1: Preparing
+969301e0c560: Preparing
+1beb96b222ef: Preparing
+a01c2fa1c4d0: Preparing
+2f74b1c1fe32: Preparing
+214179c81c9a: Preparing
+35c4cba57ecc: Preparing
+b057de56bd6c: Preparing
+8311470140e5: Preparing
+fff45769f1dd: Preparing
+be54b6aa2854: Preparing
+3af14c9a24c9: Preparing
+214179c81c9a: Waiting
+35c4cba57ecc: Waiting
+b057de56bd6c: Waiting
+8311470140e5: Waiting
+fff45769f1dd: Waiting
+be54b6aa2854: Waiting
+3af14c9a24c9: Waiting
+969301e0c560: Pushed
+1beb96b222ef: Pushed
+214179c81c9a: Pushed
+b057de56bd6c: Layer already exists
+8311470140e5: Layer already exists
+fff45769f1dd: Layer already exists
+be54b6aa2854: Layer already exists
+3af14c9a24c9: Layer already exists
+a01c2fa1c4d0: Pushed
+2f74b1c1fe32: Pushed
+35c4cba57ecc: Pushed
+0cdcfc2070b1: Pushed
+stage: digest: sha256:fd544f3a951c21481acede67e3a05d202622607ea08f2124c419f94dd94fcaaf size: 2841
+[8mha:////4Oyk0GVYnV/HkThOn+d3TaIY2N9IqILZTrQLQcUJCYA+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoghR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvae3VL4AAAA=[0m[Pipeline] }
+[8mha:////4PBDifcD2KscPmVRLJEjBZCx7kCIGpcN5bMQwHqzytZYAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8BpqkVfb8AAAA=[0m[Pipeline] // container
+[8mha:////4LsljRxUpBMQXec9cZOcEWZMMMcX4ykCPBCKH3PHI0i4AAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LI4GAMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6T7HUNWbsvPNX8DHIUNxcMAAAA=[0m[Pipeline] container
+[8mha:////4H/YBbU11aKUJYqHCl0jl1Rqw2FsSa+IWb03WxV9YGHSAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQRV+PE2rD4BLXUWmj+H9timXwiX813sELi5A2Xu0su3+sNpXdwIqdZr3Aw6KVho510SiySG66WIuvpwiShJ6tYq2JLnWrW2lJQsCrLoeCwUSgteYM6wJb34iEqK1BX5+DSduSQm+4OT8h4IgfhwlJmB7vb1HnCH+cvAOYxQFHv68UP32/5AeRSsaPEAAAA[0m[Pipeline] {
+[8mha:////4PZ5qIEuXhrtpeclvHEB6O/gnklxQ0nFb5uTcTp4uF5pAAAApR+LCAAAAAAAAP9tjTsOwjAQRDeJKGgpOYTDp0SpaK00nMDYxtixdoPt4FSciKtxB6JEomKK0bxp3vsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOwTVPvdYe5j/wUKhu8NwAAAAA==[0m[Pipeline] sh
++ aws ecr describe-images --registry-id 744004065806 --repository-name eco-stx-be --image-ids imageTag=stage --query sort(imageDetails[].imageDigest) --output text --region ap-southeast-1
+[8mha:////4DeLdiMusa7LzgP3zanjCSQYgSc06ReeZ+0sx7m/dy/lAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDiA6lorXS8AJjG2PHugu2g1PxIr7GH4gSiYotVjvbzPsDqxigoWCY09hZjNKy3g9mWixT6G6eMnN0ZZIwktes1bklpc8LtpQ0LClKqDisNUpP0aJJsOFOPEXtBZr6ksL0nTiUVj3gBQWfzEmENMMYYHsfVCT8ef4KYOz7BNV+d5z78AUxGKcxwAAAAA==[0m[Pipeline] }
+[8mha:////4F2zuyS5paaGWDrM52+5oafiZkJFL2IW07kXNlrQVqk0AAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7FIYeVY0WbSeIIYYgxkdjEJQuWJvJp3kIEZK3/x57/fvPcHNjHAmYPF1lDnKGqHvR/svHDk0N08j9jyFTVTZG9QmlFyY+oVJScDa7IcCgFbQ9pzdGQT7ESrnqr0imx5SWH+TgJy1zzgBZmYzUmFtMAUYH8fmsj08/wVwNT3CYrqcFy6+gI/QtkOwAAAAA==[0m[Pipeline] // container
+[8mha:////4GYSLGv/xN6QZz8YRXenJhySlyoSkzxCy/WldPhcSKd7AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDBUgooqK10vACExvjxLoL9oWk4kV8jT9gEYmKrXammdcbFjHAkYIVrcHOYWyc6P1g0xMjhe7qaRQtXURDGMkbUZuxJm1OM9bEBuZlORQSlgYbT9GhZVjJVj1U6RXa8swhuUpC7vQdnpDJVGYV+AtTgPVt0JHw1/kbgKlnyA87hmK72fcfaxvbg78AAAA=[0m[Pipeline] sh
++ date +%s
+[8mha:////4EFepdPuoG4ZtuOu+Yr/+5+/JKowO6MsOFwPWSW3P1VgAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6LoYIwhTq4Ni19QodZC8x62D8vkF/lr/oMoiZN3uucmN+f5gjx4OJA3otXYWQy1Fb0bzNREJN9dHEXR0lnUhIGcFpWOFTX6OGNFrGFOkkImYaGxdhQsGoalbNVdFU6hKU7sp62UkNrmBg9I5GRm5fkLo4fVdWgC4c/zVwBjz5DutwzZZr37XPM3AWZUE8MAAAA=[0m[Pipeline] script
+[8mha:////4N+vsQSi1PmIDwevPOwSzIuwhKbAADJZfONRfv+sFCUoAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApTCChTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5Qdi1BftxAAAAA==[0m[Pipeline] {
+[8mha:////4Od/Prdl5VZer7+5JneJ4XrPW/uactK9aDd3REmlnEt0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApbCDUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/AC2mN9UxAAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $BITBUCKET_USERNAME or $BITBUCKET_PASSWORD
+[8mha:////4Jf/CNbP2xEyvdTiQfG1OhLyDvk4Iy3dyDKNrHPNMv7kAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB0Rgn14bFJ6htrYXm/7Etlskn8tV8B0ESJ2+43F1y+V5vKIOHI3nDOo29xSAtG9xo5sQS+f7qKLGOLkwSBnKatTq1pPRprS1FDauyHAoOG43SUbBoImx5Jx6icgJNdY5+3g4ccqvu8ISMz+QofPyWycPuNqpA+OP8BcA0RCiaer94Uy/f8gOljgJOxAAAAA==[0m[Pipeline] {
+[8mha:////4MFOg05uj5O6xB8HAU9w1cczBhCvavDfxQKjraS9qbMnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDakRFa6XhBcY+jBPrztgOScWL+Bp/IEokKrZY7Wwz7w9sUoQTRys6pN5R0k4EP9h5iZFjf/M8io6vQjMl9ihaHFs2eF6x5YywpiihkrBF0p6TI5thJzv1VLVXZOtLjvN3lFA684AXFHI2ZxXzAlOE/X0wienn+SuAKWSomuawdBO+gZ1Fa8AAAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [BITBUCKET_PASSWORD, BITBUCKET_USERNAME]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ git config --global user.email jenkins@gosmartlog.com
++ git config --global user.name jenkins
++ rm -rf devops-deployment-stx
++ git clone https://****:****@bitbucket.org/smartlogtms/devops-deployment-stx.git
+Cloning into 'devops-deployment-stx'...
++ cd devops-deployment-stx
++ sed -i s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be@sha256:fd544f3a951c21481acede67e3a05d202622607ea08f2124c419f94dd94fcaaf+g ./smartlog-ecosystem/dev/transport-exchange-be/.argocd-source.yaml
++ git add ./smartlog-ecosystem/dev/transport-exchange-be/.argocd-source.yaml
++ sed -i s/\(date:\s*\)'[^']*'/\1'1680602540'/ ./smartlog-ecosystem/dev/transport-exchange-be/deploy.background.yaml
++ git add ./smartlog-ecosystem/dev/transport-exchange-be/deploy.background.yaml
++ sed -i s/\(date:\s*\)'[^']*'/\1'1680602540'/ ./smartlog-ecosystem/dev/transport-exchange-be/deploy.yaml
++ git add ./smartlog-ecosystem/dev/transport-exchange-be/deploy.yaml
++ git commit -m Done by Jenkins Job changemanifest: eco-stx-be:1186
+[master 8114165] Done by Jenkins Job changemanifest: eco-stx-be:1186
+ 3 files changed, 3 insertions(+), 3 deletions(-)
++ git pull --rebase https://****:****@bitbucket.org/smartlogtms/devops-deployment-stx.git
+From https://bitbucket.org/smartlogtms/devops-deployment-stx
+ * branch            HEAD       -> FETCH_HEAD
+Current branch master is up to date.
++ git push https://****:****@bitbucket.org/smartlogtms/devops-deployment-stx.git HEAD:refs/heads/master
+To https://bitbucket.org/smartlogtms/devops-deployment-stx.git
+   c74f617..8114165  HEAD -> master
+[8mha:////4BUODZB69UXXC2xzPWcKKgDP+65UAOFpWscmVTW9YmgBAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU98nKKrquPThC/h9yGnAAAAA[0m[Pipeline] }
+[8mha:////4C47YHwzKF/ZJjGkCU948/wjI0Pufq4WLYjdTTOX7BoOAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDRIUQFa2VhheYxBg71p2xLyQVL+Jr/IFAJCq2WO1sM88XLFKEA0UjnMbOYmqsCL430xIDxe7iaRCOzqIhTOS1qPVQU6uPM9bEGuZkORQSlhobT8miYVhJp+6q9ApNeeI4fXsJuW1v8IBMTmZWkb8wRlhf+zYR/jx/BTCGwFBU1fbTm90bqf94r8AAAAA=[0m[Pipeline] // withCredentials
+[8mha:////4NOwUKMdhj5i4+WjMcneamDjHu55NsFgj51cG7fHa0uDAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDJAokREVrpeEFJjHGjnVn7AtJxYv4Gn8gEImKLVY728zzBYsU4UDRCKexs5gaK4LvzbTEQLG7eBqEo7NoCBN5LWo91NTq44w1sYY5WQ6FhKXGxlOyaBhW0qm7Kr1CU544Tt9eQm7bGzwgk5OZVeQvjBHW175NhD/PXwGMITAUVbX99Gb3BrHx2B3AAAAA[0m[Pipeline] }
+[8mha:////4A13t2t70DIjLGAQvYthb0T5h2YPTRYdhpNoXi0Mes5DAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDCkSBqGitNLzAJMbYse6MfSGpeBFf4w8EIlGxxWpnm3m+YJEiHCga4TR2FlNjRfC9mZYYKHYXT4NwdBYNYSKvRa2Hmlp9nLEm1jAny6GQsNTYeEoWDcNKOnVXpVdoyhPH6dtLyG17gwdkcjKzivyFMcL62reJ8Of5K4AxBIaiqraf3uzelOcQK8AAAAA=[0m[Pipeline] // script
+[8mha:////4FBunz/j6sDLHA3TOqj26SaI2rMFdQrDyZZwlb2p8W1lAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KEQRNjmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBRVtWfID7sPtRAylL8AAAA=[0m[Pipeline] }
+[8mha:////4FCLH+z6b1KcXZSAhWVxC/5Ykt26krU1I+P36qD1ecHIAAAApx+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6KExMQYw+TasPgFtdRaaN7D9iFMfpG/5j/YSOLkne45y3m9YRUD1BSs6Az2DqN2YvCjTU9MFPqrp0l0dBGaMJI3ojFTQ605LdgQG1iW5VBIWBvUnqJDy7CRnXqo0iu05ZlDckcJuWvv8IRMpjKrwF+YA2xvYxsJf52/AZiHgaGoqj1Dfth9AIbzaSi/AAAA[0m[Pipeline] // stage
+[8mha:////4LlEfka6Gz2Jv5HYb+nA1x202WtU2/7i/iBBJlZkGgLiAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjNAgJUdFaaXiBiY1xYt0F+4JT8SK+xh+IiETFVjvTzOsNqxThSNHJzmLvMbVeDmF085OZYn8NlGVHF9kSJgpWNjY3ZOxpwYbYwjJRQKlgbbENlDw6ho3q9ENXQaOrzhxnd1BQeHOHJwg1l1lH/sIUYXsbTSL8df4GYBoYxI6hrOv98AFl53LfvgAAAA==[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4K0qKESGo4JOMpMSZP2YE4+gGTJmIHdcRMW4dbZh4gnCAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHaZAQoqK10vAC4xjjxLoL9gWn4kV8jT8QiETFVjsrreb5gjIGOFCwojPYO4zaicGPdm4iUegvnpLo6Cw0YSRvRGNSQ605LtgQG1iS5VBIWBnUnqJDy7CWnbqryiu01YnDvO0l5K69wQMyOZtZBf7CFGBzHdtI+PP8FcA0MGRbhqKud59n+Qb5gU1SwgAAAA==[0m[Pipeline] stage
+[8mha:////4KXpNYZutaVv4uAdr8M0j8sP4EAgI/1wtTJCNVWePXo0AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApZUOIiTXqwglCG0LS6P+SpKQTJ+Jq3IGUSkx4sGxL1nu9ofQOjuQUMxJ7jb7VbLCjSolFcv3VUmSGLqwl9GQla2RsqJOnpTYUJCzKcig4rCS2lrxGFWDNjXiIygpU1Tm4tB045Lq7wxMynshBuPAtk4PNbew84Y/zFwDTEKCo6/3su+38LT+9TXyixAAAAA==[0m[Pipeline] { (Build ZIM Be)
+[8mha:////4K9OJ5/n2oW31q7U5niZyidSAAEAY4pMabGJCvMbpHHBAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7GIrWNFm0njCWKIMZDZxSQIlSfyat5BBmas/MWf/37z3h/YxABnDhZbQ52jqB32frDzwpFDd/M8YstX1EyRvUFpRsmNqVeUnAysyXIoBGwNac/RkU2wE616qtIrsuUlhfk7Cchd84AXZGI2JxXSAlOA/X1oItPP81cAU98nKKpjtfThC0Uzgv3AAAAA[0m[Pipeline] }
+[8mha:////4NzavcNaHY73alr3VJfZFgSaSob0BFRneGE9kr1Sa+4yAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjpEOIitZKwwtMbIwT6y7YF5KKF/E1/oAhEhVbrHa2mecLVjHAgYIVncHeYWydGPxo0xIThf7iaRIdnUVLGMkb0ZipIW2OCzbEBpZkORQS1gZbT9GhZdjITt1V6RXa8sQhfXsJudM3eEAmk5lV4C/MAbbXUUfCn+evAOZhYCiquv50tXsDv8KbnsAAAAA=[0m[Pipeline] // stage
+[8mha:////4F6MVosEIIp/xQAvC5fGqU2Je8et+rHrbnhi9BvKIET8AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjQKJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGHsGsWcoN9td/wH3gMA+vgAAAA==[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4K9fU7i1VlQboQLx1brBoQWYjrXIcNlnYH3+5gcr/+D4AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEKJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGHsGsWcoN9td/wEwFoFxvgAAAA==[0m[Pipeline] deleteDir
+[8mha:////4M180xt90fR8W1fO9NKOQZmfrln46bMMMe25sGkXcNlDAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkKBBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGHsGsWcoN9td/wFxJ5povgAAAA==[0m[Pipeline] echo
+Build successful
+[8mha:////4K4rjpEVIoCI0CHJeeRuINvk4TYgWbIKG+GBinjHPh1aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjKNIgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFoPmZ9R2S+AAAA[0m[Pipeline] }
+[8mha:////4IqhoT255dNDKstCMa+OWAG0w90OKWUOskvVjS0S+4x4AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkBAFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw9sBS7AvgAAAA==[0m[Pipeline] // node
+[8mha:////4L/5kp7qIGc8RSGkxwvIIWprjfTcVBSyefeenMU/9jUCAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEAUSoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw8ronk1vgAAAA==[0m[Pipeline] }
+[8mha:////4PH36asAR+KxFksUrzYO6ivKi7/8MEFrDNpQNBGq47QJAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjoEKIitZKwwuMY4wT6y7YF5yKF/E1/kBEJCq22plmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY98zlJvtnkHsPjgefZa+AAAA[0m[Pipeline] // podTemplate
+[8mha:////4CMDZgtRcNFu5lj1tNtlhBeBKdrOsZkNFUIlMGrKK5DRAAAApB+LCAAAAAAAAP9tjTsOwjAQBdeJKGgpOYTDp0RUtFYaTmAcY5xYu8He4FSciKtxByIiUfGqN9PM6w2LFOFI0cnWYucxGS/7MLjpyUyxuwbKsqWLNISJgpW1zTU19jRjTWxhniigVLC0aAIlj45hpVr90FXQ6Kozx8kdFBS+ucMThJrKrCN/YYywvg1NIvx1/gZg7HuGcrvfMIjdB3qfNie+AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

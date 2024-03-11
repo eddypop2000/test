@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.6.3">
+  <sourceActions>
+    <entry>
+      <string>ee2e0e67-ceb9-4134-9e75-0f4474b9df86</string>
+      <list>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <scm>git</scm>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <repoOwner>smartlogwms</repoOwner>
+          <repository>web-vnau-fe</repository>
+          <defaultBranch>master</defaultBranch>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <iconClassName>icon-bitbucket-repo</iconClassName>
+          <url>https://bitbucket.org/smartlogwms/web-vnau-fe</url>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.6.4">
+          <objectDisplayName>web-vnau-fe</objectDisplayName>
+          <objectUrl>https://bitbucket.org/smartlogwms/web-vnau-fe</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

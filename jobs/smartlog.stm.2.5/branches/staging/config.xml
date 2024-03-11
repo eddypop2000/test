@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@716.vc692a_e52371b_">
+      <branch plugin="branch-api@2.1051.v9985666b_f6cc">
+        <sourceId>6af6bc3f-c113-4f83-a750-cc8cf1bbfa12</sourceId>
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <name>staging</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/staging:refs/remotes/origin/staging</refspec>
+              <url>https://x-token-auth:{yxOzpv1d_ICQSIZNK8m6fxM1T_I8LPm40sqD5ljYcrwWNh8MQWmUR6tXWZGlyIK_MhPhf40_SLYA8rPH3A2d0n8OlQ==}@bitbucket.org/smartlogtms/smartlog.stm.2.5.git</url>
+              <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>staging</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="hudson.plugins.git.browser.BitbucketWeb">
+            <url>https://bitbucket.org/smartlogtms/smartlog.stm.2.5</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties/>
+        <actions>
+          <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+            <iconClassName>icon-bitbucket-branch</iconClassName>
+            <url>https://bitbucket.org/smartlogtms/smartlog.stm.2.5/branch/staging</url>
+          </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@631.v9143df5b_e4a_a">
+            <objectUrl>https://bitbucket.org/smartlogtms/smartlog.stm.2.5/branch/staging</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@716.vc692a_e52371b_">
+    <scriptPath>Jenkinsfile</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

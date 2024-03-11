@@ -1,0 +1,1308 @@
+[Sat Dec 11 11:00:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 11 11:00:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f704f5a9da92bdb67041517d9c9cb6184a629fa2 → 3475d6a7922d1022cf381953ad41027f320ab9c6)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Dec 11 11:00:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 11 11:00:55 UTC 2021 processed in 1.7 sec
+[Sat Dec 11 11:08:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 11 11:08:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (3475d6a7922d1022cf381953ad41027f320ab9c6 → cda16fa01aa2c7d9e6e6fbe6de2a3bd0263c9ca5)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Dec 11 11:08:16 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 11 11:08:15 UTC 2021 processed in 1.6 sec
+[Tue Dec 14 06:29:01 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.163.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 06:29:01 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch qa from smartlogwms/web-vnau-fe
+
+  5 branches were processed
+Looking up smartlogwms/web-vnau-fe for pull requests
+
+  0 pull requests were processed
+[Tue Dec 14 06:29:03 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.163.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 06:29:01 UTC 2021 processed in 1.6 sec
+[Tue Dec 14 06:29:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 06:29:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (cda16fa01aa2c7d9e6e6fbe6de2a3bd0263c9ca5 → cd6a0734fabefda25b2a105d6ba386bb85ceb313)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 14 06:29:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 06:29:37 UTC 2021 processed in 1.6 sec
+[Tue Dec 14 14:51:30 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 14:51:30 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (cd6a0734fabefda25b2a105d6ba386bb85ceb313 → 224776f1fb943c2fe3bbaed2ed2fd60dd7e60158)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 14 14:51:32 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 14:51:30 UTC 2021 processed in 1.7 sec
+[Tue Dec 14 16:43:10 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 16:43:10 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (224776f1fb943c2fe3bbaed2ed2fd60dd7e60158 → 03a36720452f884aca6b3b319988d2d48f7a0616)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 14 16:43:12 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 16:43:10 UTC 2021 processed in 1.7 sec
+[Tue Dec 14 17:54:53 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 17:54:53 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (03a36720452f884aca6b3b319988d2d48f7a0616 → ea1b7d5360068b1c8f6edfc3d4d60229ee084bbd)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 14 17:54:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 14 17:54:53 UTC 2021 processed in 1.6 sec
+[Wed Dec 15 16:54:11 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 16:54:11 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (ea1b7d5360068b1c8f6edfc3d4d60229ee084bbd → 35f3bc9a9f3ad754bbd18ca6d6c635d8c0f2c303)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 15 16:54:13 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 16:54:11 UTC 2021 processed in 1.7 sec
+[Wed Dec 15 17:34:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 17:34:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (35f3bc9a9f3ad754bbd18ca6d6c635d8c0f2c303 → 7a093e8ecc3cffb8cd04d7a27afabdb6b15fe41e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 15 17:34:10 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 17:34:09 UTC 2021 processed in 1.6 sec
+[Thu Dec 16 01:15:10 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 01:15:10 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7a093e8ecc3cffb8cd04d7a27afabdb6b15fe41e → 8cdb110b5bc47710b06614e53fda222625ad58c0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Dec 16 01:15:12 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 01:15:10 UTC 2021 processed in 1.7 sec
+[Thu Dec 16 16:08:19 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 16:08:19 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8cdb110b5bc47710b06614e53fda222625ad58c0 → 1f68856811733836e53913d0b02d28ea16c08eb2)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Dec 16 16:08:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 16:08:19 UTC 2021 processed in 1.7 sec
+[Thu Dec 16 18:03:59 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 18:03:59 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1f68856811733836e53913d0b02d28ea16c08eb2 → 24c8a9a2863879f5c40b3b15adcab7d0989575ff)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Dec 16 18:04:01 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 16 18:03:59 UTC 2021 processed in 1.9 sec
+[Fri Dec 17 01:19:13 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 17 01:19:13 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (24c8a9a2863879f5c40b3b15adcab7d0989575ff → 6995292821d06e66df97c84f5465a83ab543b304)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Dec 17 01:19:14 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 17 01:19:13 UTC 2021 processed in 1.7 sec
+[Sat Dec 18 05:00:25 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.184.9 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 18 05:00:25 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6995292821d06e66df97c84f5465a83ab543b304 → dcead4fd6e30ab7ea7d617bf4de4e78a573fe24e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Dec 18 05:00:27 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.184.9 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 18 05:00:25 UTC 2021 processed in 1.6 sec
+[Sat Dec 18 07:27:42 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 18 07:27:42 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (dcead4fd6e30ab7ea7d617bf4de4e78a573fe24e → b698aec757dffa3340b0464d493ea74051649314)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Dec 18 07:27:43 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Dec 18 07:27:42 UTC 2021 processed in 1.7 sec
+[Sun Dec 19 10:00:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 10:00:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b698aec757dffa3340b0464d493ea74051649314 → 9325ca5afcc21ce7c2781fe8f097301ae0466a29)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Dec 19 10:00:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 10:00:18 UTC 2021 processed in 2.3 sec
+[Sun Dec 19 11:09:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.99 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 11:09:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9325ca5afcc21ce7c2781fe8f097301ae0466a29 → be30e1c27d488c61ad1ad6becea9653aefe1171b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Dec 19 11:09:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.99 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 11:09:00 UTC 2021 processed in 1.7 sec
+[Sun Dec 19 15:33:12 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 15:33:12 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (be30e1c27d488c61ad1ad6becea9653aefe1171b → a6daec6cb7b84e8cfd135ded764698b024c5fdb7)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Dec 19 15:33:14 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.170 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 15:33:12 UTC 2021 processed in 1.6 sec
+[Sun Dec 19 17:00:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 17:00:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (a6daec6cb7b84e8cfd135ded764698b024c5fdb7 → 9517fd88abe4a9ae39f3d31299a73be702500625)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Dec 19 17:00:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Dec 19 17:00:44 UTC 2021 processed in 1.6 sec
+[Mon Dec 20 06:11:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Dec 20 06:11:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9517fd88abe4a9ae39f3d31299a73be702500625 → 0b2f435f46ba17d4aebac903aac5c07b133690eb)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Dec 20 06:11:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Dec 20 06:11:45 UTC 2021 processed in 1.6 sec
+[Wed Dec 22 00:58:40 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 22 00:58:40 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0b2f435f46ba17d4aebac903aac5c07b133690eb → 7160935fbb5d784e9e7c953706b25ef216df285c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 22 00:58:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 22 00:58:40 UTC 2021 processed in 1.8 sec
+[Tue Dec 28 08:24:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 08:24:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7160935fbb5d784e9e7c953706b25ef216df285c → e72c18f2da8ba50bb63588383e2a584198ef8f3d)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 28 08:24:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 08:24:37 UTC 2021 processed in 1.8 sec
+[Tue Dec 28 09:09:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.182.40 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 09:09:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+Checking branch qa from smartlogwms/web-vnau-fe
+
+  6 branches were processed
+Looking up smartlogwms/web-vnau-fe for pull requests
+
+  0 pull requests were processed
+[Tue Dec 28 09:09:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.182.40 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 09:09:26 UTC 2021 processed in 1.6 sec
+[Tue Dec 28 10:22:47 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.52.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 10:22:47 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (e72c18f2da8ba50bb63588383e2a584198ef8f3d → 636ac0f2fb742aa6d1a9da3d3db48bddf0e70cae)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Tue Dec 28 10:22:49 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.52.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 10:22:47 UTC 2021 processed in 1.7 sec
+[Tue Dec 28 10:23:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.142.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 10:23:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e72c18f2da8ba50bb63588383e2a584198ef8f3d → 04bb2463481cc272fa19393ba057c613535195d5)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 28 10:23:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.142.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 10:23:09 UTC 2021 processed in 1.7 sec
+[Tue Dec 28 14:25:59 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 14:25:59 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (636ac0f2fb742aa6d1a9da3d3db48bddf0e70cae → 047a376815cf53d34f0ac27039e3e7654e8d07cf)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Tue Dec 28 14:26:00 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 14:25:59 UTC 2021 processed in 1.7 sec
+[Tue Dec 28 14:40:38 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 14:40:38 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (04bb2463481cc272fa19393ba057c613535195d5 → 76b62d48cdc37e6d1726031e1e84a8e640aded45)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 28 14:40:40 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 14:40:38 UTC 2021 processed in 1.7 sec
+[Tue Dec 28 15:01:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 15:01:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (047a376815cf53d34f0ac27039e3e7654e8d07cf → 7ff85d1d3c53340bc93e4c24323ef5f35bc8c31f)
+Scheduled build for branch: production
+
+  2 branches were processed (query completed)
+[Tue Dec 28 15:01:38 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 15:01:37 UTC 2021 processed in 1.6 sec
+[Tue Dec 28 18:25:46 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 18:25:46 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (76b62d48cdc37e6d1726031e1e84a8e640aded45 → d390db7d8eb4194d30ea432877232a5100e0a773)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Dec 28 18:25:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 18:25:46 UTC 2021 processed in 1.7 sec
+[Wed Dec 29 00:57:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 00:57:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d390db7d8eb4194d30ea432877232a5100e0a773 → 7792e0b82c52f1a80b8a0764856616072ffdb9e7)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 00:57:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 00:57:31 UTC 2021 processed in 1.6 sec
+[Wed Dec 29 01:05:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 01:05:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7792e0b82c52f1a80b8a0764856616072ffdb9e7 → 1f58dda4e2c6bceaeba545f9fefcf0dbabcc849e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 01:05:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 01:05:31 UTC 2021 processed in 1.6 sec
+[Wed Dec 29 02:39:19 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 02:39:19 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (7ff85d1d3c53340bc93e4c24323ef5f35bc8c31f → 7a641fc9ce4ab62af5a7fe09b1f3af67df5850ed)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Dec 29 02:39:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 02:39:19 UTC 2021 processed in 1.5 sec
+[Wed Dec 29 16:28:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 16:28:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1f58dda4e2c6bceaeba545f9fefcf0dbabcc849e → 8e9b813f13924673b88ace6a3f0dc54a3f485b4d)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 16:28:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 16:28:44 UTC 2021 processed in 1.7 sec
+[Wed Dec 29 16:36:07 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.52.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 16:36:07 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8e9b813f13924673b88ace6a3f0dc54a3f485b4d → 12f770e6501ec05756752f4aba9fa57d9552af93)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 16:36:09 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.52.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 16:36:07 UTC 2021 processed in 1.6 sec
+[Wed Dec 29 18:01:32 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 18:01:32 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (12f770e6501ec05756752f4aba9fa57d9552af93 → 383a08a599ecafe0a8018788243e9e97f77af23b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 29 18:01:34 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.188.139 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 29 18:01:32 UTC 2021 processed in 1.7 sec
+[Thu Dec 30 08:12:16 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 30 08:12:16 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (7a641fc9ce4ab62af5a7fe09b1f3af67df5850ed → 49c805dad18af27959bc938f8c09d7ba06126067)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Thu Dec 30 08:12:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 30 08:12:16 UTC 2021 processed in 1.7 sec
+[Thu Dec 30 10:14:34 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 30 10:14:34 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (383a08a599ecafe0a8018788243e9e97f77af23b → 9d53854966f7bcef55f809b4c40a057f3ee4333d)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Dec 30 10:14:36 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 30 10:14:34 UTC 2021 processed in 1.7 sec
+[Sun Jan 02 18:50:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jan 02 18:50:42 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9d53854966f7bcef55f809b4c40a057f3ee4333d → 163806118110aba73e99f5565c3d01d418bc9d6b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Jan 02 18:50:44 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jan 02 18:50:42 UTC 2022 processed in 2.3 sec
+[Mon Jan 03 03:53:35 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jan 03 03:53:35 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (163806118110aba73e99f5565c3d01d418bc9d6b → 8e10656a5a24a1f8f4b49ded5681970fc021956f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Jan 03 03:53:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jan 03 03:53:35 UTC 2022 processed in 1.6 sec
+[Tue Jan 04 02:27:41 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.91 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 02:27:41 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8e10656a5a24a1f8f4b49ded5681970fc021956f → 2880c4fcfccaea421bb59d7567e4a56d765cc006)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 04 02:27:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.91 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 02:27:41 UTC 2022 processed in 1.7 sec
+[Tue Jan 04 04:58:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 04:58:15 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (49c805dad18af27959bc938f8c09d7ba06126067 → f1bdfe7832549e35fa2a447fab2224eeff285837)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Tue Jan 04 04:58:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 04:58:15 UTC 2022 processed in 1.6 sec
+[Tue Jan 04 06:01:08 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 06:01:08 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2880c4fcfccaea421bb59d7567e4a56d765cc006 → bb6ec0666092d4d1474231f0d3e6a37386aada12)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 04 06:01:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 06:01:08 UTC 2022 processed in 1.8 sec
+[Tue Jan 04 17:57:00 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 17:57:00 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (bb6ec0666092d4d1474231f0d3e6a37386aada12 → fa48ba3344baa91001239108b2ab98750e0ae573)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 04 17:57:02 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 17:57:00 UTC 2022 processed in 1.7 sec
+[Tue Jan 04 18:05:49 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 18:05:49 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (fa48ba3344baa91001239108b2ab98750e0ae573 → 49f39564cf7b9489e16cc05ae37a2909ae9cdd9f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 04 18:05:50 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 04 18:05:49 UTC 2022 processed in 1.8 sec
+[Wed Jan 05 00:51:29 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 00:51:29 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (49f39564cf7b9489e16cc05ae37a2909ae9cdd9f → 4fb56f6af50671a02b521778a73025c52a4e6c71)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 05 00:51:30 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 00:51:29 UTC 2022 processed in 1.6 sec
+[Wed Jan 05 04:03:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.168.55 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 04:03:07 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (f1bdfe7832549e35fa2a447fab2224eeff285837 → 98c402303aa0722390ad20e3b4cc19b65a362bce)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Jan 05 04:03:09 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.168.55 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 04:03:07 UTC 2022 processed in 1.5 sec
+[Wed Jan 05 05:45:31 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.189 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 05:45:31 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4fb56f6af50671a02b521778a73025c52a4e6c71 → 9563e6ec256ec4f5955676ccf6b5366428fc9b5c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 05 05:45:32 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.189 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 05:45:31 UTC 2022 processed in 1.7 sec
+[Wed Jan 05 17:42:05 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 17:42:05 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (98c402303aa0722390ad20e3b4cc19b65a362bce → e93d34fc80db78036a46ccaaf5f10aff2495dc2c)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Jan 05 17:42:07 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 17:42:05 UTC 2022 processed in 1.7 sec
+[Wed Jan 05 17:42:26 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 17:42:26 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (e93d34fc80db78036a46ccaaf5f10aff2495dc2c → 258ed736af979c5b1ee92d1d1e19390882320ad2)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jan 05 17:42:27 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 17:42:26 UTC 2022 processed in 1 sec
+[Wed Jan 05 18:02:45 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:02:45 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9563e6ec256ec4f5955676ccf6b5366428fc9b5c → 2265e2acda4910cb6cffb5d31675f5f1e7142f2c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 05 18:02:46 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:02:45 UTC 2022 processed in 1 sec
+[Wed Jan 05 18:08:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:08:27 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (258ed736af979c5b1ee92d1d1e19390882320ad2 → c388704f334712b1bad977fb20012612b181036c)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jan 05 18:08:29 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:08:27 UTC 2022 processed in 1.8 sec
+[Wed Jan 05 18:16:38 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:16:38 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (c388704f334712b1bad977fb20012612b181036c → 561b2b857c7371a0105078358dd36b94518cedc5)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jan 05 18:16:39 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:16:38 UTC 2022 processed in 1.7 sec
+[Wed Jan 05 18:46:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:46:27 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2265e2acda4910cb6cffb5d31675f5f1e7142f2c → 3be40ccc178b13b6d55f5b1de6dc76073b331136)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 05 18:46:29 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.134 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 18:46:27 UTC 2022 processed in 1.6 sec
+[Wed Jan 05 19:28:30 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 19:28:30 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (3be40ccc178b13b6d55f5b1de6dc76073b331136 → 2ba611989136f00d46178b266cfa8c8fa06d2b69)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 05 19:28:32 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 19:28:30 UTC 2022 processed in 1.6 sec
+[Wed Jan 05 19:33:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 19:33:01 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (561b2b857c7371a0105078358dd36b94518cedc5 → 10d95315bd58c89500324375586c265502a9dd18)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Jan 05 19:33:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 05 19:33:01 UTC 2022 processed in 1.7 sec
+[Thu Jan 06 02:22:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 06 02:22:52 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2ba611989136f00d46178b266cfa8c8fa06d2b69 → d596a58408b5a50544389b65cef3c22fa5c2e15c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Jan 06 02:22:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 06 02:22:52 UTC 2022 processed in 2.8 sec
+[Thu Jan 06 02:57:37 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 06 02:57:37 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (10d95315bd58c89500324375586c265502a9dd18 → 1795db204686c86b86693bab0d2bd7e95a873818)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Thu Jan 06 02:57:39 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 06 02:57:37 UTC 2022 processed in 1.7 sec
+[Thu Jan 20 17:08:31 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 20 17:08:31 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d596a58408b5a50544389b65cef3c22fa5c2e15c → 6d5dc9262f98f695011b900e9a1e28914c7d895f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Jan 20 17:08:33 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 20 17:08:31 UTC 2022 processed in 1.8 sec
+[Sat Jan 22 07:15:02 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jan 22 07:15:02 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (1795db204686c86b86693bab0d2bd7e95a873818 → a425866a8eab1d1780c33f8f92865ccd3d1ab619)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Sat Jan 22 07:15:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jan 22 07:15:02 UTC 2022 processed in 2.6 sec
+[Tue Jan 25 06:17:45 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.210 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 06:17:45 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (a425866a8eab1d1780c33f8f92865ccd3d1ab619 → 5eabe136402c016c86698083c51d4c21b99fb17b)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Tue Jan 25 06:17:46 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.173.210 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 06:17:45 UTC 2022 processed in 1.1 sec
+[Tue Jan 25 18:09:08 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 18:09:08 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6d5dc9262f98f695011b900e9a1e28914c7d895f → 10b77681f62dcc7129618d76d4c246547df75d08)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 25 18:09:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 18:09:08 UTC 2022 processed in 1.8 sec
+[Tue Jan 25 18:11:26 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 18:11:26 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (10b77681f62dcc7129618d76d4c246547df75d08 → 7b59e73fab32fbdda309dbd3aa1efb53d1ed2281)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 25 18:11:28 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 25 18:11:26 UTC 2022 processed in 1.8 sec
+[Wed Jan 26 13:42:13 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 26 13:42:13 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7b59e73fab32fbdda309dbd3aa1efb53d1ed2281 → 093c12adbb7f5ec3ba9f489ccfd413932235a42f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jan 26 13:42:14 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 26 13:42:13 UTC 2022 processed in 1.7 sec
+[Wed Jan 26 13:45:17 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 26 13:45:17 UTC 2022
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (5eabe136402c016c86698083c51d4c21b99fb17b → 62636a945ddbcd5609bc5c54e898b4dc7d2f04f0)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Jan 26 13:45:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jan 26 13:45:17 UTC 2022 processed in 1.7 sec
+[Sat Feb 05 11:52:17 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.250 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 05 11:52:12 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (093c12adbb7f5ec3ba9f489ccfd413932235a42f → 111e8ddbf27fe775e7166f54eba484de1af46ef6)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 05 11:52:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.158.250 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 05 11:52:12 UTC 2022 processed in 2.1 sec
+[Tue Feb 08 02:16:58 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 08 02:16:53 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (111e8ddbf27fe775e7166f54eba484de1af46ef6 → 372dd9d083c9f8a00919b3f288da1952f55d46a0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 08 02:17:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 08 02:16:53 UTC 2022 processed in 1.8 sec
+[Tue Feb 08 09:33:11 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 08 09:33:06 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (62636a945ddbcd5609bc5c54e898b4dc7d2f04f0 → 3a9b06eb14b4da3416bd288e7005fc701edcfcfb)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Tue Feb 08 09:33:13 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 08 09:33:06 UTC 2022 processed in 1.7 sec
+[Sat Feb 12 14:37:04 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.82 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 12 14:36:59 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (372dd9d083c9f8a00919b3f288da1952f55d46a0 → 5daccf7a76948d61843d07ada03437ba1a41071e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 12 14:37:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.82 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 12 14:36:59 UTC 2022 processed in 1.8 sec
+[Sun Feb 13 16:44:06 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 13 16:44:01 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5daccf7a76948d61843d07ada03437ba1a41071e → 5a7a2362b34d3dd40f88f680116bb6822cdeb358)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Feb 13 16:44:07 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 13 16:44:01 UTC 2022 processed in 1.7 sec
+[Mon Feb 14 02:59:58 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.184.173 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 14 02:59:53 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (3a9b06eb14b4da3416bd288e7005fc701edcfcfb → 4635c2f786c4a9c3208b41cef903748039b026e3)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Mon Feb 14 02:59:59 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.184.173 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 14 02:59:53 UTC 2022 processed in 1.6 sec
+[Mon Feb 14 17:54:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.35.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 14 17:54:37 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5a7a2362b34d3dd40f88f680116bb6822cdeb358 → 201d4a5513ebd686223897fa7bee2d6fb28e9416)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Feb 14 17:54:44 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.35.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 14 17:54:37 UTC 2022 processed in 1.7 sec
+[Tue Feb 15 17:28:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 15 17:28:47 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (201d4a5513ebd686223897fa7bee2d6fb28e9416 → b51acd291f106ce564b7db503577091c4e3c072e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 15 17:28:54 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 15 17:28:47 UTC 2022 processed in 1.9 sec
+[Wed Feb 16 02:35:35 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 02:35:30 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (4635c2f786c4a9c3208b41cef903748039b026e3 → bddec134e86ef5e70547cd1a6312c94d51fb19d2)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Feb 16 02:35:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 02:35:30 UTC 2022 processed in 1.6 sec
+[Wed Feb 16 16:09:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.155 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 16:09:10 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b51acd291f106ce564b7db503577091c4e3c072e → b834cf3ccce2035ef3b555bf75f46ecc3b08d3f2)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Feb 16 16:09:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.155 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 16:09:10 UTC 2022 processed in 1.8 sec
+[Thu Feb 17 03:08:58 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.155 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 17 03:08:53 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (bddec134e86ef5e70547cd1a6312c94d51fb19d2 → c6e35dc77161adeed59bb54bcdfba3884b38307e)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Thu Feb 17 03:09:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.155 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 17 03:08:53 UTC 2022 processed in 1.6 sec
+[Fri Feb 18 18:44:20 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 18 18:44:15 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b834cf3ccce2035ef3b555bf75f46ecc3b08d3f2 → 01622a856b879d8c9f2357c6ef16755be8c638d9)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 18 18:44:22 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 18 18:44:15 UTC 2022 processed in 1.8 sec
+[Sat Feb 19 03:14:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.91 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 03:14:10 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (01622a856b879d8c9f2357c6ef16755be8c638d9 → d7d8c6935adf97cbcbaaafb7fdadf3429c924050)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 19 03:14:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.91 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 03:14:10 UTC 2022 processed in 1.6 sec
+[Sat Feb 19 04:25:26 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 04:25:21 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (c6e35dc77161adeed59bb54bcdfba3884b38307e → 01773c5f435df66e94f99a48939a3457c7d098b8)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Sat Feb 19 04:25:28 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 04:25:21 UTC 2022 processed in 1.6 sec
+[Sat Feb 19 16:42:05 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.35.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 16:42:00 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d7d8c6935adf97cbcbaaafb7fdadf3429c924050 → 90d12e048702953e500debc06703033f46ac403b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 19 16:42:07 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.35.148 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 16:42:00 UTC 2022 processed in 1.6 sec
+[Sat Feb 19 17:28:06 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:28:01 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (90d12e048702953e500debc06703033f46ac403b → 0eb2036e14f571def49cd70e08ef36c89d11b022)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 19 17:28:08 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:28:01 UTC 2022 processed in 1.6 sec
+[Sat Feb 19 17:46:23 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:46:18 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0eb2036e14f571def49cd70e08ef36c89d11b022 → b9618c565cfbc53a3c37829deaab0d33218dd1eb)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 19 17:46:25 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:46:18 UTC 2022 processed in 2 sec
+[Sat Feb 19 17:57:21 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:57:16 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b9618c565cfbc53a3c37829deaab0d33218dd1eb → fd57e1a3edc720098535a32dd39857986d585224)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Feb 19 17:57:22 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 19 17:57:16 UTC 2022 processed in 1.7 sec
+[Sun Feb 20 02:13:41 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 02:13:36 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (01773c5f435df66e94f99a48939a3457c7d098b8 → 855ab8af85f1181ac3a1d93ae24329ca5c9526b2)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Sun Feb 20 02:13:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 02:13:36 UTC 2022 processed in 1.7 sec
+[Sun Feb 20 02:26:17 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 02:26:12 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (fd57e1a3edc720098535a32dd39857986d585224 → 4266a60450868aa06b33a19b529be409aaf803a2)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Feb 20 02:26:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 02:26:12 UTC 2022 processed in 1.7 sec
+[Sun Feb 20 08:18:55 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 08:18:50 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4266a60450868aa06b33a19b529be409aaf803a2 → d71001609b95b868589869ba8dbb255f5e548c4d)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Feb 20 08:18:57 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 08:18:50 UTC 2022 processed in 2.5 sec
+[Sun Feb 20 16:40:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 16:40:46 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d71001609b95b868589869ba8dbb255f5e548c4d → 76b372dd41e5964cc7f721a01f85a5d3e36a9181)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Feb 20 16:40:53 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 16:40:46 UTC 2022 processed in 1.7 sec
+[Sun Feb 20 16:51:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 16:51:27 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (76b372dd41e5964cc7f721a01f85a5d3e36a9181 → 2b509dec42d378762642658442f97272b6ddd5b9)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun Feb 20 16:51:33 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.111.246 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 20 16:51:27 UTC 2022 processed in 1.6 sec
+[Mon Feb 21 02:58:00 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.157.147 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 21 02:57:55 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (855ab8af85f1181ac3a1d93ae24329ca5c9526b2 → a05ff9a8b03de2e60bc84d87548b35ebfc9a9ab9)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Mon Feb 21 02:58:02 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.157.147 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 21 02:57:55 UTC 2022 processed in 1.7 sec
+[Tue Feb 22 16:45:35 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 22 16:45:30 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2b509dec42d378762642658442f97272b6ddd5b9 → fdefb52c57e18cfc99eb1c192bae51bf68aaca70)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 22 16:45:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 22 16:45:30 UTC 2022 processed in 1.7 sec
+[Wed Feb 23 16:11:48 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:11:43 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (a05ff9a8b03de2e60bc84d87548b35ebfc9a9ab9 → de5aaae9c3ce7d0bfcf259311d5d668fa3ceecad)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Feb 23 16:11:50 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:11:43 UTC 2022 processed in 2 sec
+[Wed Feb 23 16:18:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.116.77 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:18:37 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (de5aaae9c3ce7d0bfcf259311d5d668fa3ceecad → 2f976f3788a7a0eb0571766a8c244b419a13717d)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Feb 23 16:18:44 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.116.77 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:18:37 UTC 2022 processed in 1.8 sec
+[Wed Feb 23 16:28:22 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:28:17 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (2f976f3788a7a0eb0571766a8c244b419a13717d → e99bbeb82ad5aafc9f56bb15d668a292dce0ed55)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Feb 23 16:28:24 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 23 16:28:17 UTC 2022 processed in 1.7 sec
+[Thu Feb 24 16:37:49 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 24 16:37:44 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (e99bbeb82ad5aafc9f56bb15d668a292dce0ed55 → 129e35c76dc88f6b90f40cf2ceec65b11d079107)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Thu Feb 24 16:37:50 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 24 16:37:44 UTC 2022 processed in 1.1 sec
+[Sat Feb 26 09:32:24 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.165 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 26 09:32:19 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (129e35c76dc88f6b90f40cf2ceec65b11d079107 → 53b36330472f1e77002abc76e4d242d6f4899951)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Sat Feb 26 09:32:26 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.165 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 26 09:32:19 UTC 2022 processed in 1.8 sec
+[Sat Feb 26 16:20:10 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.175.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 26 16:20:05 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (53b36330472f1e77002abc76e4d242d6f4899951 → 7cfc1a2406cdfa79925a60fe40d5e497dae45655)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Sat Feb 26 16:20:12 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.175.182 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 26 16:20:05 UTC 2022 processed in 1.7 sec
+[Wed Mar 02 15:47:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 15:47:46 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (7cfc1a2406cdfa79925a60fe40d5e497dae45655 → 338d4b39dae46d5a96c5affac59d4429b4d4aa4b)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Mar 02 15:47:53 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 15:47:46 UTC 2022 processed in 1.9 sec
+[Wed Mar 02 15:51:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.179.230 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 15:51:35 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (338d4b39dae46d5a96c5affac59d4429b4d4aa4b → 8a84763c5751c46b9639a69c042d8c788d911905)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Mar 02 15:51:42 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.179.230 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 15:51:35 UTC 2022 processed in 1.6 sec
+[Wed Mar 02 16:08:41 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 16:08:36 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (8a84763c5751c46b9639a69c042d8c788d911905 → d1968f84fe2d95d3da3536bea43c2dd3b1716ee0)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Mar 02 16:08:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 16:08:36 UTC 2022 processed in 1.6 sec
+[Wed Mar 02 16:43:08 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 16:43:03 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (d1968f84fe2d95d3da3536bea43c2dd3b1716ee0 → eb0f1e4e78a43a9a085dd0f877e55c4020415efb)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Wed Mar 02 16:43:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 02 16:43:03 UTC 2022 processed in 1.8 sec
+[Thu Mar 03 17:24:23 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 03 17:24:18 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogwms/web-vnau-fe for branches
+Checking branch dev from smartlogwms/web-vnau-fe
+Checking branch feature/build-dev from smartlogwms/web-vnau-fe
+Checking branch main from smartlogwms/web-vnau-fe
+Checking branch master from smartlogwms/web-vnau-fe
+Checking branch production from smartlogwms/web-vnau-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (eb0f1e4e78a43a9a085dd0f877e55c4020415efb → a0ecfcbbb6b593cbf1868e5ebe2e41a41e5c5861)
+Scheduled build for branch: production
+
+  5 branches were processed (query completed)
+[Thu Mar 03 17:24:24 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 03 17:24:18 UTC 2022 processed in 1.8 sec

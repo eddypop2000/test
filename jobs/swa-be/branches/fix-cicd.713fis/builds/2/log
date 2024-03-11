@@ -1,0 +1,379 @@
+Branch event
+Obtained Jenkinsfile from 9e0d5cd56778a8bfdbfc569f23d979455f7883b0
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4B6VfL2/HgTVQe8Ln+6TrKq9t2eLOj7XVFY5CN6MJdhzAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FN8XUyNBY16K8qqwKAPP/ifzVAAAA[0mcommon-pod-d5213-8wzvz is provisioned from template common-pod-d5213
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/stm-auth-deliveree/job/dev/14/"
+    runUrl: "job/stm-auth-deliveree/job/dev/14/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-d5213-8wzvz"
+  namespace: "jenkins"
+spec:
+  containers:
+  - image: "moby/buildkit:v0.10.6"
+    imagePullPolicy: "IfNotPresent"
+    name: "buildkit"
+    resources:
+      limits: {}
+      requests: {}
+    securityContext:
+      privileged: true
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "danghung/jenkins:all-in-one2"
+    imagePullPolicy: "IfNotPresent"
+    name: "dotnet"
+    resources:
+      limits:
+        ephemeral-storage: "8Gi"
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-d5213-8wzvz"
+    - name: "JENKINS_NAME"
+      value: "common-pod-d5213-8wzvz"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - configMap:
+      name: "docker-config"
+    name: "volume-1"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4LZVRs/MkepJ70NyUG2EzuUyFwIlBMZluvcVP4xi/HX4AAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgY9/dzEvMT0VP3k/NyC0pLUIhAjNz9P1cilID8FSKaYGhkaA2mL8qqyKn0Ajm+pteMAAAA=[0mcommon-pod-d5213-8wzvz in /home/jenkins/agent/workspace/swa-be_fix_cicd
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4BGijl3oFvDbE7aBdDrd24AuhIl3bdX/pH+mib9oUyYvAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] properties
+[8mha:////4LlZSwM/cRuJIzx4Bwf+nxelw8dR38a0V4sIs9P7Kf3hAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SHSnQjiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/XNDXAwAAAAA==[0m[Pipeline] timeout
+Timeout set to expire in 20 min
+[8mha:////4J+AaDSJjJDMMzLq/vbMPjOhCq5oIahK+AKF6A4jHUwXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4KhWUl0Wn9PbSoZC9rfIrHwaMQyHxjuPxFfV7jBzbb0BAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] stage
+[8mha:////4Ob7BTiGzcuDgpBPzh2cGtc4dwJK/+welQ2kSWydNk9eAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4FZ9wnVpNMFxutIAcawn/o9hF+VmlXHzdWw/PISbtj+mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] echo
+Getting source code...
+[8mha:////4IJulzMm7uCMbBwgORhmTfOolHHywwYd7TrT0UE4If0HAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{LkzqTwYp7S7VHXQngVcMdPQiP1LBFyjExrVIhoP1_rvMMeXw3Am0on4JgcmFMZzm5auC30qUjC4Z1uCsRUK5uFhQ5Q%3d%3d}@bitbucket.org/smartlogwms/swa-be.git
+ > git init /home/jenkins/agent/workspace/swa-be_fix_cicd # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/swa-be.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{LkzqTwYp7S7VHXQngVcMdPQiP1LBFyjExrVIhoP1_rvMMeXw3Am0on4JgcmFMZzm5auC30qUjC4Z1uCsRUK5uFhQ5Q%3d%3d}@bitbucket.org/smartlogwms/swa-be.git +refs/heads/fix/cicd:refs/remotes/origin/fix/cicd # timeout=10
+Avoid second fetch
+Checking out Revision 9e0d5cd56778a8bfdbfc569f23d979455f7883b0 (fix/cicd)
+ > git config remote.origin.url https://x-token-auth:{LkzqTwYp7S7VHXQngVcMdPQiP1LBFyjExrVIhoP1_rvMMeXw3Am0on4JgcmFMZzm5auC30qUjC4Z1uCsRUK5uFhQ5Q%3d%3d}@bitbucket.org/smartlogwms/swa-be.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/fix/cicd:refs/remotes/origin/fix/cicd # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9e0d5cd56778a8bfdbfc569f23d979455f7883b0 # timeout=10
+Commit message: "test build"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BGxT2mE1nqTToPpRbdniMpKrJymkPKCunXha49ReZsfAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4LnrHQB4gBKcZHM+wDXkQPqiB/PTdJxDEtnlWw4jjQnQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfnAYgMb4AAAA=[0m[Pipeline] }
+[8mha:////4IiAhFNWiz0lXh37RTl56NNRbQOnlsTilExE8cRSLj+tAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICDQ2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BqREs8C+AAAA[0m[Pipeline] // stage
+[8mha:////4FoKn0s+s9E3Z+I/yWCmiDc4wUOPB5xuav0j/S49LIxzAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPUq/Lfb0AAAA=[0m[Pipeline] echo
+Process build for fix/cicd branch
+[8mha:////4CV4a1dDVxPO0CPqU+rM5cqIiMwTzPa1uKxJYmZ6TtT0AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRHQhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+TbXfcBnbNT+r0AAAA=[0m[Pipeline] sh
++ date -u +%Y-%m-%dT%H:%M:%SZ
+[8mha:////4LcNgx3MzdP+PX0mpnSbWVm6lC2x/NCiUnWzfs0gHlRLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjyghR0VpueIFJjHFi3QX7QlLxIr7GHzBEomKrnZVW83xBmSIcKDrZWew9psbLIYwuNzlR7C+BJtnRWTaEiYKV2k6aWntcUBNbWCIKWClYW2wCJY+OYaM6czdVMOiqE8e87RUUvr3BA4TKZjaRvzBH2F7HNhH+PH8FMA8MomYodvXnWL4BefixvcEAAAA=[0m[Pipeline] stage
+[8mha:////4IsM4UmdN9bHaI7+mtnSIMRPmHm2vtj48aa2jQb4fK8eAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Build)
+[8mha:////4N62fmc0dTVtc/6u42pPNmzODDLvuzsqEW9otum1fzLxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] container
+[8mha:////4Biyld1GUC8alAaCxFUhcPEd+p1k7JJeIywwkhhP7j/qAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IgLKfm2gzaUpKIW9f2mFrh0IhZWLBRL+JCxDdBoCuEtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+Connecting to amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com (52.219.104.224:443)
+saving to '/usr/local/bin/docker-credential-ecr-login'
+docker-credential-ec   4% |*                               |  271k  0:00:21 ETA
+docker-credential-ec  13% |****                            |  849k  0:00:12 ETA
+docker-credential-ec  24% |*******                         | 1512k  0:00:09 ETA
+docker-credential-ec  36% |***********                     | 2226k  0:00:07 ETA
+docker-credential-ec  47% |***************                 | 2957k  0:00:05 ETA
+docker-credential-ec  59% |*******************             | 3671k  0:00:04 ETA
+docker-credential-ec  73% |***********************         | 4504k  0:00:02 ETA
+docker-credential-ec  85% |***************************     | 5269k  0:00:01 ETA
+docker-credential-ec  98% |******************************* | 6085k  0:00:00 ETA
+docker-credential-ec 100% |********************************| 6164k  0:00:00 ETA
+'/usr/local/bin/docker-credential-ecr-login' saved
++ chmod 755 /usr/local/bin/docker-credential-ecr-login
++ buildctl build --frontend dockerfile.v0 --opt 'platform=linux/amd64,linux/arm64' --local 'context=.' --local 'dockerfile=./' --opt 'filename=./Dockerfile' --output 'type=image,name=744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cicd,push=true' --export-cache 'type=registry,ref=744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cache-cicd' --import-cache 'type=registry,ref=744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cache-cicd'
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from ./Dockerfile
+#2 transferring dockerfile: 632B done
+#2 DONE 0.0s
+
+#3 resolve image config for docker.io/docker/dockerfile:experimental
+#3 DONE 2.5s
+
+#4 docker-image://docker.io/docker/dockerfile:experimental@sha256:600e5c62eedff338b3f7a0850beb7c05866e0ef27b2d2e8c02aa468e78496ff5
+#4 resolve docker.io/docker/dockerfile:experimental@sha256:600e5c62eedff338b3f7a0850beb7c05866e0ef27b2d2e8c02aa468e78496ff5 done
+#4 sha256:d7f0373ffb1d5ac3477b10ab7f91cba7c5df586c72e7e4a12649024efdc0d531 0B / 9.64MB 0.2s
+#4 sha256:d7f0373ffb1d5ac3477b10ab7f91cba7c5df586c72e7e4a12649024efdc0d531 9.64MB / 9.64MB 0.3s done
+#4 extracting sha256:d7f0373ffb1d5ac3477b10ab7f91cba7c5df586c72e7e4a12649024efdc0d531
+#4 extracting sha256:d7f0373ffb1d5ac3477b10ab7f91cba7c5df586c72e7e4a12649024efdc0d531 0.1s done
+#4 DONE 0.5s
+
+#5 [internal] load build definition from ./Dockerfile
+#5 DONE 0.0s
+
+#6 [internal] load .dockerignore
+#6 DONE 0.0s
+
+#7 [linux/amd64 internal] load metadata for docker.io/library/node:14.6.0-alpine
+#7 DONE 1.6s
+
+#8 [internal] load build context
+#8 DONE 0.0s
+
+#9 [linux/amd64 build 1/6] FROM docker.io/library/node:14.6.0-alpine@sha256:7cd4742b8c8fc8e632617d1f488376a057a424878a3328971c1fcea65bb5d454
+#9 resolve docker.io/library/node:14.6.0-alpine@sha256:7cd4742b8c8fc8e632617d1f488376a057a424878a3328971c1fcea65bb5d454 done
+#9 DONE 0.0s
+
+#10 [auth] sharing credentials for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+#10 DONE 0.0s
+
+#11 importing cache manifest from 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cache-cicd
+#11 ERROR: 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cache-cicd: not found
+
+#8 [internal] load build context
+#8 transferring context: 8.03MB 0.1s
+#8 transferring context: 26.53MB 0.3s done
+#8 DONE 0.4s
+
+#9 [linux/amd64 build 1/6] FROM docker.io/library/node:14.6.0-alpine@sha256:7cd4742b8c8fc8e632617d1f488376a057a424878a3328971c1fcea65bb5d454
+#9 sha256:9e9365981335985783951799ef7b2c6411486c87b691ef8e91b83e3fb6980791 282B / 282B 0.3s done
+#9 sha256:ae1c1f64e3122bf104f6cfba4c96371ec64167d61edd0cad1ad9c5017ace8b99 0B / 2.24MB 0.3s
+#9 sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 0B / 35.83MB 0.3s
+#9 sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08 0B / 2.81MB 0.3s
+#9 sha256:ae1c1f64e3122bf104f6cfba4c96371ec64167d61edd0cad1ad9c5017ace8b99 2.24MB / 2.24MB 0.5s done
+#9 sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 12.58MB / 35.83MB 0.8s
+#9 sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08 2.81MB / 2.81MB 0.7s done
+#9 extracting sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08
+#9 sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 28.31MB / 35.83MB 0.9s
+#9 extracting sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08 0.2s done
+#9 sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 35.83MB / 35.83MB 1.0s done
+#9 extracting sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6
+#9 extracting sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 0.9s done
+#9 extracting sha256:ae1c1f64e3122bf104f6cfba4c96371ec64167d61edd0cad1ad9c5017ace8b99 0.0s done
+#9 DONE 2.1s
+
+#9 [linux/amd64 build 1/6] FROM docker.io/library/node:14.6.0-alpine@sha256:7cd4742b8c8fc8e632617d1f488376a057a424878a3328971c1fcea65bb5d454
+#9 extracting sha256:9e9365981335985783951799ef7b2c6411486c87b691ef8e91b83e3fb6980791 0.0s done
+#9 DONE 2.1s
+
+#12 [linux/amd64 build 2/6] WORKDIR /usr/src/app
+#12 DONE 0.4s
+
+#13 [linux/amd64 build 3/6] COPY ./package.json ./yarn.lock ./
+#13 DONE 0.0s
+
+#14 [linux/amd64 build 4/6] RUN --mount=type=cache,target=/usr/local/share/.cache/yarn     yarn install --frozen-lockfile --production=false
+#14 0.212 yarn install v1.22.4
+#14 0.274 [1/4] Resolving packages...
+#14 0.615 [2/4] Fetching packages...
+#14 15.64 info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+#14 15.64 info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+#14 15.64 info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+#14 15.64 info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+#14 15.65 info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+#14 15.65 info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+#14 15.65 [3/4] Linking dependencies...
+#14 15.65 warning "@nestjs/swagger > @nestjs/mapped-types@0.1.0" has incorrect peer dependency "class-transformer@^0.3.0".
+#14 21.32 [4/4] Building fresh packages...
+#14 21.61 Done in 21.40s.
+#14 DONE 30.9s
+
+#15 [linux/amd64 build 5/6] COPY ./ .
+#15 DONE 0.3s
+
+#16 [linux/amd64 build 6/6] RUN --mount=type=cache,target=/usr/local/share/.cache/yarn     yarn build
+#16 0.193 yarn run v1.22.4
+#16 0.215 $ yarn clean && tsc
+#16 0.360 $ rimraf build
+#16 30.50 Done in 30.31s.
+#16 DONE 30.6s
+
+#17 exporting to image
+#17 exporting layers
+#17 exporting layers 11.3s done
+#17 exporting manifest sha256:ba5bd5bfbd7c4f1e940b265c85f33cac43f95c9a20cccc6e2ea8402428ab7ebc done
+#17 exporting config sha256:21121cf6b31be43eabef02140481c27e0cce8c2b02b81fd9bb8963824336fc15 done
+#17 exporting manifest sha256:2fe02821b434b9a7d9a54d8d316d56d56cb84772441f400594bc6215fcffdcf1 done
+#17 exporting config sha256:0a82859075e3bd93cb0a8c7ffce6fc864c71874d7c1755a4c1d443ba68aa328d done
+#17 exporting manifest list sha256:750edf206424f61c4ce438b387fd66386413a701fe8f7a7b995617c3bc92a9c0 done
+#17 pushing layers
+#17 pushing layers 3.3s done
+#17 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cicd@sha256:750edf206424f61c4ce438b387fd66386413a701fe8f7a7b995617c3bc92a9c0
+#17 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cicd@sha256:750edf206424f61c4ce438b387fd66386413a701fe8f7a7b995617c3bc92a9c0 0.5s done
+#17 DONE 15.1s
+
+#18 exporting cache
+#18 preparing build cache for export 0.0s done
+#18 writing layer sha256:10b3890287683906551c77ae4410fb0e83ef4664056ff8cff146eae9f34a1c62 0.0s done
+#18 writing layer sha256:1f0b5b66664b74d7b1033fdcc5dccfc3a0c515009f0cb3a2f4ff3acd3fa7d101
+#18 writing layer sha256:1f0b5b66664b74d7b1033fdcc5dccfc3a0c515009f0cb3a2f4ff3acd3fa7d101 0.0s done
+#18 writing layer sha256:6c9578185979ece463cb8c431e248458ddbdba1f11a8c7391a8b95ade78edb30 0.0s done
+#18 writing layer sha256:6d105d3d5b0804fe84b2d46029881b1cd2367d9cbe4abe393f4c59cb2bba97bb 0.0s done
+#18 writing layer sha256:9e9365981335985783951799ef7b2c6411486c87b691ef8e91b83e3fb6980791 0.0s done
+#18 writing layer sha256:ae1c1f64e3122bf104f6cfba4c96371ec64167d61edd0cad1ad9c5017ace8b99
+#18 writing layer sha256:ae1c1f64e3122bf104f6cfba4c96371ec64167d61edd0cad1ad9c5017ace8b99 0.0s done
+#18 writing layer sha256:bb1ae110e80697c2063655a7f51b30b9d34b7a634ad1672e176064f8aac74b02 0.0s done
+#18 writing layer sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08 0.0s done
+#18 writing layer sha256:ee6a7bb6b75062d3468af1a164ac8aa4844cf77fc8a1939cd7a68a16e51b9fa6 0.0s done
+#18 writing config sha256:8f20c622b5535e4c0cab5c4dbda90de079d4665716c5b35b4affa1c4a66dec57
+#18 writing config sha256:8f20c622b5535e4c0cab5c4dbda90de079d4665716c5b35b4affa1c4a66dec57 0.3s done
+#18 writing manifest sha256:5579a8f604ee7e2e1f3e7219bdb92b45a40d379079b962a00169db59324d977c 0.1s done
+#18 ERROR: error writing manifest blob: failed commit on ref "sha256:5579a8f604ee7e2e1f3e7219bdb92b45a40d379079b962a00169db59324d977c": unexpected status: 400 Bad Request
+------
+ > importing cache manifest from 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swa-be-dev:cache-cicd:
+------
+------
+ > exporting cache:
+------
+error: failed to solve: error writing manifest blob: failed commit on ref "sha256:5579a8f604ee7e2e1f3e7219bdb92b45a40d379079b962a00169db59324d977c": unexpected status: 400 Bad Request
+[8mha:////4KWF0pNJ/YTgi81wLIDe8BTBQ3z1mPj8KllstFNCmlxyAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4CazcmbbifzPIbHe+Ik/gZFi4Bk3E8K9/jhh2OD7cEOQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4NKlxX9Ium0XToLeSRFVYSWxwSHLO36y9R76v9RqaDBEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/oNdtq+AAAA[0m[Pipeline] }
+[8mha:////4GvUy1IOO8wwSdetDjPR8AcW3SEPPsnYg38o4JHrxR0DAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw84NdtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4N3qFANt9Q/qgXOX+qPnL9UNTpxmBUmuSX9VBmflIQSqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPV24QGr0AAAA=[0m[Pipeline] }
+[8mha:////4JeCuMll80RWQ6SseQdkxNyXd7nMSo4fO58sdCvBU6VQAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPcXd3UL0AAAA=[0m[Pipeline] // timeout
+[8mha:////4GwuIlKQ8JmuMs1nhcRxBWFen6rQNjsj27lNSi8osy3RAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABKdRse9AAAA[0m[Pipeline] echo
+I failed
+[8mha:////4EtmJYALdgseWQZnyW+jti5lsAZ1+YkcZZPJ4QL6saC9AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AFOsXd69AAAA[0m[Pipeline] echo
+script returned exit code 1
+[8mha:////4Hp3edMkKwg5aefCZhibEoXkhOSzhrbp/L+3csa8FEOeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AJD/cPW9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4GBinaipe06RCV6DD9oYqj7DsjO+1Zg7zxE6Ji7FsNY0AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H0c5r7L0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4D0yzqjASiLBUP3xp7fPTKYXEWbUC+4LkDYjy6FOOGm1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPYk0DhL0AAAA=[0m[Pipeline] }
+[8mha:////4Hri8ykahe0VFgHWRQMeNcWx23u1Mn5IgiupEn61RJHMAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUDpVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAaDVqIL0AAAA=[0m[Pipeline] // node
+[8mha:////4CzeypAV+zJwzszoDzRoZa3vdeUEAkaPko4t0a95rfoLAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPLn/NEL0AAAA=[0m[Pipeline] }
+[8mha:////4H8TGpGPoziHujLRRH1yJT9EJVaQd/u2OaRggkVPMIYOAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvNwLsvIDPcPJs70AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4LJYyEAvMfLZryEIRwtHDx74eeowk1LO3qXbh7i8Oy25AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHpknka9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: FAILURE

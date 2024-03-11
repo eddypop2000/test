@@ -1,0 +1,10 @@
+commit 3f385629ae9795c286f5b9de6930cf6ae3cd3080
+tree 03441f1bf1e2afb4cfdab86a4d62859d3f7b2187
+parent 67339bb3793cbde7fbc33fb0ccc9b379cb7b568c
+author Huy Ho <huy.ho@gosmartlog.com> 2021-04-23 16:24:40 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-04-23 16:24:40 +0700
+
+    Update prod
+
+
+:100755 100755 c8a8f0e9d444e21de04696caac6a3086195def8c e1f5c2d328f75b399b7214e1782372e0626cc805 M	src/@config/envs/production.ts

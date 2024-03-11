@@ -1,0 +1,71 @@
+Checking branch dev from smartlogwms/swm-sme-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (99dcc5161d2c150447cb4e2c40461757f8c9b63a → 4577ca379383ecc96b934dbd229face88d7e683e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Apr 15 07:06:17 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 07:06:05 UTC 2023 processed in 6.7 sec
+[Sat Apr 15 07:16:49 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 07:16:44 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/swm-sme-fe for branches
+Checking branch dev from smartlogwms/swm-sme-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4577ca379383ecc96b934dbd229face88d7e683e → 783e9b88f78812571a982ca95f701fd1dbbeff35)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Apr 15 07:16:56 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 07:16:44 UTC 2023 processed in 7.1 sec
+[Sat Apr 15 17:36:50 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 17:36:45 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/swm-sme-fe for branches
+Checking branch MobileAppConfig-SWMSME-1355 from smartlogwms/swm-sme-fe
+Checking branch MobileAppConfig-SWMSME-1355_conflict from smartlogwms/swm-sme-fe
+Checking branch Revert-SWM-2301 from smartlogwms/swm-sme-fe
+Checking branch SWMS-2301 from smartlogwms/swm-sme-fe
+Checking branch SWMS-2301-fixbug from smartlogwms/swm-sme-fe
+Checking branch SWMSME-1355 from smartlogwms/swm-sme-fe
+Checking branch SWMSME-1364 from smartlogwms/swm-sme-fe
+Checking branch SWMSME-1368 from smartlogwms/swm-sme-fe
+Checking branch SWMSME-165-inventory-detail-report from smartlogwms/swm-sme-fe
+Checking branch SWMSME-166-outbound-report from smartlogwms/swm-sme-fe
+Checking branch SWMSME-168-saleorder-reports from smartlogwms/swm-sme-fe
+Checking branch SWMSME-245-change-the-name-of-cancel-button from smartlogwms/swm-sme-fe
+Checking branch SWMSME-258-features-palletization from smartlogwms/swm-sme-fe
+Checking branch SWMSME-407-error-screen-manage-purchase-orders from smartlogwms/swm-sme-fe
+Checking branch SWMSME-409-update-logic-edit-in-screen-manage-purchase-order-screen from smartlogwms/swm-sme-fe
+Checking branch SWMSME-416-error-on-screen-create-order-import-order from smartlogwms/swm-sme-fe
+Checking branch SWMSME-433-manage-create-repository-create-new-store from smartlogwms/swm-sme-fe
+Checking branch SWMSME-433-manage-repository-create-new from smartlogwms/swm-sme-fe
+Checking branch SWMSME-434-Manage-repository-error-manipulating-with-repositories from smartlogwms/swm-sme-fe
+Checking branch SWMSME-455-manage-type-single-export-bug-fe-button-delete from smartlogwms/swm-sme-fe
+Checking branch SWMSME-483-disable-some-fields-information-when-single-purchase-change-status from smartlogwms/swm-sme-fe
+Checking branch SWMSME-517-create-purchase-order-error-update-info-after-create-and-edit from smartlogwms/swm-sme-fe
+Checking branch SWMSME-588-purchase-order-create-purchase-orders-error-in-info-fields from smartlogwms/swm-sme-fe
+Checking branch SWMSME-589-create-single-enter-row-error-of-fields-informations from smartlogwms/swm-sme-fe
+Checking branch SWMSME-589-order-import-order-create-order-import-error-fields-informations from smartlogwms/swm-sme-fe
+Checking branch SWMSME-64-managements-purchades-orders from smartlogwms/swm-sme-fe
+Checking branch SWMSME-64-order-manage-purchase-orders from smartlogwms/swm-sme-fe
+Checking branch SWMSME-64-purchades-managements-orders from smartlogwms/swm-sme-fe
+Checking branch SWMSME-673-fix-delete-customerGroupDetail from smartlogwms/swm-sme-fe
+Checking branch SWMSME-673-manage-group-customers-error-delete-in-screen-details-group-customers from smartlogwms/swm-sme-fe
+Checking branch SWMSME-730-report-export-row-adjust-logic-sort-data from smartlogwms/swm-sme-fe
+Checking branch SWMSME-734-manage-repository-edit-ui-copy-repository from smartlogwms/swm-sme-fe
+Checking branch SWMSME-76-map-api-create from smartlogwms/swm-sme-fe
+Checking branch SWMSME/SWMSME-1095 from smartlogwms/swm-sme-fe
+Checking branch SWMSME/SWMSME-1214 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint-2/SWMSME-1246 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint-2/SWMSME-1283-1286 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1083 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1161 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1167 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1172 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1193 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1194 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1204 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1215 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1250 from smartlogwms/swm-sme-fe
+Checking branch after-release-sprint2/SWMSME-1259 from smartlogwms/swm-sme-fe

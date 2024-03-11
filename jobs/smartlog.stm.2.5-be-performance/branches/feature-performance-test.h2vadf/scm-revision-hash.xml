@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>feature/performance-test</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>41353cd0f928f7f20ffcaf95f69c321de387829d</hash>
+  <message>Update not include
+</message>
+  <author>Khoa Nguyen &lt;khoa.nguyen@gosmartlog.com&gt;</author>
+  <date>2021-08-10 06:05:51.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

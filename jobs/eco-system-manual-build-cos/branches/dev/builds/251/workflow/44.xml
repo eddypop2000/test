@@ -1,0 +1,34 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>43</string>
+    </parentIds>
+    <id>44</id>
+    <descriptorId>jenkins.plugins.slack.workflow.SlackSendStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>channel</string>
+          <string>cma-no-boss</string>
+        </entry>
+        <entry>
+          <string>color</string>
+          <string>good</string>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>The pipeline eco-system-manual-build-cos » dev #251[Cos-Be] v.1.1 [Manual Trigger Build Cos Service (Merged in cherry-pick/feature/add-log-error-create-order-bid-stx-to-prod-to-dev (pull request #1268))] 1/1 completed successfully.</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1673863123753</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

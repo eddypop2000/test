@@ -1,0 +1,288 @@
+Started by user [8mha:////4ANZAGLv6DgoFYLkburj/B+/aIPr1YRcUA63DrOpmnZ5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Obtained Jenkinsfile from 4d3167d2600e503cb73fe602d6cb5a13dca626a9
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor
+Created Pod: kubernetes jenkins/common-pod-msh5g-fr4pv
+Agent [8mha:////4ADYg7RU5LVnwq1CreLEDakyCmKhuiBe3M4KOWq7ijJvAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FN7c4wzRdN63IpKAMANh02TXVAAAA[0mcommon-pod-msh5g-fr4pv is provisioned from template common-pod-msh5g
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/smartlog-stb-api-gateway/job/dev/57/"
+    runUrl: "job/smartlog-stb-api-gateway/job/dev/57/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-msh5g-fr4pv"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-msh5g-fr4pv"
+    - name: "JENKINS_NAME"
+      value: "common-pod-msh5g-fr4pv"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4PTLL6Q0duupqSWtcMuxlzMGr27mnpGnKdz5o5h0JQ6VAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgY9/dzEvMT0VP3k/NyC0pLUIhAjNz9P1cilID8FSOYWZ5imA+m0IpOCMn0AIsNq/eMAAAA=[0mcommon-pod-msh5g-fr4pv in /home/jenkins/agent/workspace/smartlog-stb-api-gateway_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{FVCUjydVUMi0f9G0WWrJ-ZEMmwH0H2NY0qVPOZ6PeeLtLJJAkRM5De74GteIOqkw9hQ78zUgI-na8vcZbpp6KxfOkw%3d%3d}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git
+ > git init /home/jenkins/agent/workspace/smartlog-stb-api-gateway_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{FVCUjydVUMi0f9G0WWrJ-ZEMmwH0H2NY0qVPOZ6PeeLtLJJAkRM5De74GteIOqkw9hQ78zUgI-na8vcZbpp6KxfOkw%3d%3d}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision 4d3167d2600e503cb73fe602d6cb5a13dca626a9 (dev)
+ > git config remote.origin.url https://x-token-auth:{FVCUjydVUMi0f9G0WWrJ-ZEMmwH0H2NY0qVPOZ6PeeLtLJJAkRM5De74GteIOqkw9hQ78zUgI-na8vcZbpp6KxfOkw%3d%3d}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4d3167d2600e503cb73fe602d6cb5a13dca626a9 # timeout=10
+Commit message: "update TOKEN_ADMIN"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws s3 cp s3://smartlog-build-config/dev/smartlog-bid-apigateway-eco.env .env
+Completed 2.4 KiB/2.4 KiB (28.2 KiB/s) with 1 file(s) remainingdownload: s3://smartlog-build-config/dev/smartlog-bid-apigateway-eco.env to ./.env
+[8mha:////4D/7/6Zwygi8YqPbCVR0QzXALi/2is7pzc5o+H+xA+tSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4NtudCtbNoy2MmDdds8XTcwxo6I7vhOUhVjIbATCwENfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
+[8mha:////4Ki+U1ESg3+qmb2w4sC4zwdoiKuIAGOZy7NVUq2WSWkqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // container
+[8mha:////4E+PM7zT+Fi8Q6X0kKsfIjfzQC0gN5i3myCpKSS4s/l7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] container
+[8mha:////4D7P0Yrdtxlcjz0OLv04Mqtgg5kyfASs8cXT2SXHIbcKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4CMq6RLuwQDhip7fnaRp5CStPAcb0H2m7bGCZ785JgfTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ ls -la
+total 276
+drwxr-xr-x   10 1000     1000          4096 Dec 30 06:59 .
+drwxr-xr-x    4 1000     1000           104 Dec 30 06:59 ..
+-rw-r--r--    1 1000     1000            15 Dec 30 06:59 .dockerignore
+-rw-r--r--    1 1000     1000           207 Dec 30 06:59 .editorconfig
+-rw-r--r--    1 root     root          2493 Feb  5  2021 .env
+-rw-r--r--    1 1000     1000           280 Dec 30 06:59 .env.example
+-rw-r--r--    1 1000     1000           309 Dec 30 06:59 .eslintrc
+drwxr-xr-x    8 1000     1000           162 Dec 30 06:59 .git
+-rw-r--r--    1 1000     1000            77 Dec 30 06:59 .gitignore
+-rw-r--r--    1 1000     1000           128 Dec 30 06:59 .sequelizerc
+drwxr-xr-x    2 1000     1000            46 Dec 30 06:59 .vscode
+-rw-r--r--    1 1000     1000           155 Dec 30 06:59 Dockerfile
+-rw-r--r--    1 1000     1000           179 Dec 30 06:59 Dockerfile.prod
+-rw-r--r--    1 1000     1000           179 Dec 30 06:59 Dockerfile.stage
+-rw-r--r--    1 1000     1000          4282 Dec 30 06:59 Jenkinsfile
+-rw-r--r--    1 1000     1000          2919 Dec 30 06:59 Jenkinsfile.normal
+-rw-r--r--    1 1000     1000           557 Dec 30 06:59 Jenkinsfile.old
+-rw-r--r--    1 1000     1000            15 Dec 30 06:59 README.md
+drwxr-xr-x    8 1000     1000           107 Dec 30 06:59 api
+drwxr-xr-x    2 1000     1000            77 Dec 30 06:59 config
+-rw-r--r--    1 1000     1000          3478 Dec 30 06:59 deploy-eco.prod.yml
+-rw-r--r--    1 1000     1000          3401 Dec 30 06:59 deploy-eco.stage.yml
+-rw-r--r--    1 1000     1000          1869 Dec 30 06:59 deploy.prod.yml
+-rw-r--r--    1 1000     1000          1861 Dec 30 06:59 deploy.stage.yml
+drwxr-xr-x   11 1000     1000           175 Dec 30 06:59 graphql
+-rw-r--r--    1 1000     1000           648 Dec 30 06:59 index.js
+drwxr-xr-x    5 1000     1000            50 Dec 30 06:59 libraries
+drwxr-xr-x    2 1000     1000            38 Dec 30 06:59 middleware
+-rw-r--r--    1 1000     1000          2025 Dec 30 06:59 package.json
+drwxr-xr-x    2 1000     1000            22 Dec 30 06:59 scripts
+-rw-r--r--    1 1000     1000           215 Dec 30 06:59 start.js
+-rw-r--r--    1 1000     1000           632 Dec 30 06:59 taskdef.json
+-rw-r--r--    1 1000     1000        180253 Dec 30 06:59 yarn.lock
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco '--pull=true' .
+Sending build context to Docker daemon  840.2kB
+Step 1/6 : FROM public.ecr.aws/m6a7v9p6/node:11.4-alpine
+11.4-alpine: Pulling from m6a7v9p6/node
+Digest: sha256:699c780e215b4af217ba1de26750f7715ab892e25540df0fceefdeb5f836901e
+Status: Image is up to date for public.ecr.aws/m6a7v9p6/node:11.4-alpine
+ ---> f21b938fb1e6
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Using cache
+ ---> 3c7ba71ae5d4
+Step 3/6 : COPY ./package.json ./yarn.lock ./
+ ---> Using cache
+ ---> dac3ef740e1e
+Step 4/6 : RUN npm install
+ ---> Using cache
+ ---> d5a13a2e0aef
+Step 5/6 : COPY ./ .
+ ---> 11c6e97b0c98
+Step 6/6 : CMD [ "node", "index.js" ]
+ ---> Running in b8440e991cc8
+Removing intermediate container b8440e991cc8
+ ---> 24a05094842c
+Successfully built 24a05094842c
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiK1d5UGpGVFVkLzZacnpRMC9QemdEeWlBOXJtUEgzQVVoT1ZFTG9mUzJPSkJWaEJMbXFZNWJEOFJtbS9DaWFsekN3SVRDLy80OVdxVXJuTzFMSUYrVTJMdldjN3BvWVVoZmE1NlJVTU1ZeEh0UERhVy9oUk9BOUtLak9rVndUcFJCbGZJREc0QjczWjUzWEErZ1RaWlA4WVA1eHRCOEJlVHo2dXdaNEhYd1h4NGk0L3YzdVVOTnI4a0MxbmV1c2NtbXFrRU45VG9UcUFrN0taSzByY0J4QzFPU1k5UjdWNVNxSCtxeGUvWjZLa1pqQUJMVnhUNWF0L3kya3FIWjRmV09Ec2x3a2xxVGNOQTBJSTA0eHRxVCtEWk9MVGRvTHg4SmNZZXVZUkkzdFVNemtzanZxRzVtU000RjEvdFl6bXRvZmpPUWxRY0drNXlmdEhhRHIya3d4ZFFDSFdhNEdaTG5SOCt5OXhERkNNV2R2MkcvcjJmUitGREFRR1lidVg0WjhUMzFHcllyZis4ek9mWUFEeWQwOUVhbkx1ZzBWM090MzVLWEF3UFRyNWQwamRXM1RpSU9TVDNrSDlpaVFIT2lmd3BmczhmdTRzWDc2ZjBvUVZzN0ZVTWZFK3pNTVk4RkxvbjBnQzN4YVE0OWxnelZaQmUyazZRTE4xWSszMFZZR1J6eXJMMTQxdThIekh3MzRaWWVqbDVBbFVzM3AxbWpiTEhPNUZyMFFmNWtKdStXNHFiMitxQWpGaTcvQmt1WEtRdzVEN3M0eUl0Y09naW85Yjd6aVB5ODMvQUFPVURZTmtEdjJ0bXpVUVU0ejVQbEtTWU1JS1ZDUWVHR25YZUZNTzN2Zi9WcW9UV2dkdFhaREZZTlI2eFllemRZWWFucUFBaUV6Mkc5ZURBaGdmTXZaaW94Rm1PK3R6Q3Ryc1NXQnBGMUdUNC83eGU3U01YK3VrZ0VoZmE2ZkRPVXhncFlBUys5MThhT050ejl1c3ZJeXpFYU93TWtjek1HOTgvTXVKNG4vSnoxSzJzOEYyTnlpSTR2VjIyVUM2WjBaRU9ra2crT2NKbjN6YnQ1ZEhVK0hzK0V3QXdmdUN4SGZTbGd1THNxaHN5NGtKemM5clFHZkRXVS9MSTdPY2M4aHlZaTdkbXM3Tjk0MTY4MUFwTzN4RHFrYlVnUkpqV3ZBRHJ5RTI3dHVuZWZQM3RVVWpKSnRBMXpIWGg0SnM2MkI1SGNaRVRFK0ZFWmVwMXJkMGJUNGJsOVY2VFA4Z0hENm55UkJCemhuY0pZcForQjQyQTM1SVIxcmVPRTE4V0RjTTNJZWlVSjBMRXNyeU9ROE45VWtwZzlSRVF3VlpBWGR6YSt0MXZRWmh3ei9nbm5taTRpb0IrKzA3WUF1N3d4OXI2TThiMVpWNWx5NU1vWEs1Zk1abStHVjAwUzJBVEN0UWZTTExYRHFXRHIzNE9HUnJYR0pYbjBVWTl4R3RqREpZZGs4NGtCN015RTkrcHZPcFFnODhpYXJsWmc4SXFVd3hhcTltNC9BWHlQSWZZdVdSUGdZY2IrR3RTM0VlY0ZoRk81dmpJMmcwV3NDMGszWWgwZ0tQMVlEZ3dnczFMMTlXY3p6dFZYYnJrN1A5Vyt1NFEzR3NHT1R1OXhXRzhaNytqRm9ndkFxZjBoK2JQeUNQVlEwNGhmQXRVOGZoQXM4QSt2MFRyR3dwRWkwcys0QXRpS0JYR0M1eCtyVzVrOGtJMGpXTEo4a2lUZlA4VytncWJaaFF5ZjczM3Fxc2RPZmlhcDBtL2hDdHdWYWhNL0RYTXFtbEtYem9iZTZRU1RGY2NDUUhhT1M4dUp1aGpoWENOcytYNjMrWXdtSWFvUERNM3BZM2F4OWRjZVplSEE2VHd3V3VZc1lxS291bVJHVmNEN1BiOVRXQ0pYdys5blYydVNTUkd5NThtUTlVMnlmUnNCRzVmZnlsWU5LUGZqTS9kQUpQZ3FxS3M1bEJCanVSaS9RYndlQ3Y5QXNyNjdjZ295c2l0ckxpdGt1TE43by96SVppNE5ITEd6OHc3WFpJT0lscGJ1UE02SkV3bUhLK2pHVmhiY0RvcXE0akR0NVJVZ3JHbmpXcGNZV3h4NGRTd3dWMlhSMmp5WlRCNWVoWkVhdGxkdHUvckUxZjk4cElDTHoyS0lkZmF3WjF6NVVoNFhBM0xzbmVQY25nSkRlSTBRTEZjWTlPSHZVM0JsQ1k5RWdFREdGUGx6M3IvQTAxWHlwMUpYd2FLVWtFd3hQVFhQb1NJT2kycVVNcFFqUklRTWRVMmo4V0ZmNFRMMVBKWVdmTE9SN3NTMklkVkhHVVRRdDI3a0pITkVlMk90WlJPLzJxTTFUN0xWblFmQlNhc2liUlh0cHM9IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRUREaittQmRmaThZd2IyMkZyZ0lCRUlBN0M1T0RuZ3RYTmdvK3F2bzlQMkQ2WVRKU1FLR0JIN0pFNVZreGRhTElxWGJPdnJPMHVZbVZBTzI3QzVVZ3RyOWdQanFydjdCR0svT0sxOUk9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjcyNDI2NzYxfQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway]
+fdc108b549f5: Preparing
+43502434cc95: Preparing
+bc72d910fc12: Preparing
+0366969c17a4: Preparing
+ad9b6fc9faa7: Preparing
+efab93543da3: Preparing
+df64d3292fd6: Preparing
+efab93543da3: Waiting
+df64d3292fd6: Waiting
+bc72d910fc12: Layer already exists
+0366969c17a4: Layer already exists
+ad9b6fc9faa7: Layer already exists
+43502434cc95: Layer already exists
+efab93543da3: Layer already exists
+df64d3292fd6: Layer already exists
+fdc108b549f5: Pushed
+eco: digest: sha256:a462223a6b047bde8e82563701a4bd9c01d92ed8d5c538883e50f015e20af04e size: 1789
+[8mha:////4CfGXCHix0f+Je86diNmVu8jWjrF+0QrwkLCKHy7gNE4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Bg1iNnIz9OT0i+dcudw46SMZIKmwVs2OS5Zz1cTZ3wsAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // container
+[8mha:////4FDbHEwfPO6XVn3EYrEeuN7MWGsDW/nimu1lvdoitzSZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AE3ltSr4AAAA=[0m[Pipeline] }
+[8mha:////4IEeNBH66TTF6ytlOzJpxZ16pgi0jrHwUp6R+SqEr2B2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AUPs8zL4AAAA=[0m[Pipeline] // stage
+[8mha:////4F1YZivQGEopyemBR56MY/Adqv408/ctuvnYKCIHc9GJAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGyIWoR/BAAAA[0m[Pipeline] stage
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] container
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4DybIPg1jnoSg9wmRpx8PukPSk9gqpczwhujrmOlpJtwAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy-eco.stage.yml
+Error from server (Forbidden): error when retrieving current configuration of:
+Resource: "apps/v1, Resource=deployments", GroupVersionKind: "apps/v1, Kind=Deployment"
+Name: "stx-stb-api-gateway-dev", Namespace: "stx"
+Object: &{map["kind":"Deployment" "metadata":map["name":"stx-stb-api-gateway-dev" "namespace":"stx" "annotations":map["kubectl.kubernetes.io/last-applied-configuration":""]] "spec":map["replicas":'\x01' "selector":map["matchLabels":map["app":"stx-stb-api-gateway-dev"]] "strategy":map["rollingUpdate":map["maxSurge":'\x01' "maxUnavailable":'\x00'] "type":"RollingUpdate"] "template":map["metadata":map["labels":map["app":"stx-stb-api-gateway-dev"]] "spec":map["containers":[map["image":"744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco" "imagePullPolicy":"Always" "name":"stx-stb-api-gateway-dev" "ports":[map["containerPort":'\u0bb8']] "resources":map["limits":map["cpu":"2000m" "memory":"4Gi"] "requests":map["cpu":"1m" "memory":"1Mi"]] "env":[map["name":"TZ" "value":"Asia/Saigon"] map["name":"TOKEN_ADMIN" "value":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjI4RkJGNTMxNTY5MDRCMTg2MkVCQkYxMzI4OEMwRjFCOTFDREIwQkVSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6IktQdjFNVmFRU3hoaTY3OFRLSXdQRzVITnNMNCJ9.eyJuYmYiOjE2Njk5NjgyMjIsImV4cCI6MTcwMTUyNTE0OCwiaXNzIjoiaHR0cHM6Ly9zbWFydGxvZy1hdXRoLWJlLWRldi5zbWFydGxvZ3ZuLmNvbSIsImF1ZCI6IkF1dGgiLCJjbGllbnRfaWQiOiJTVFhfQXBwIiwic3ViIjoiMjhlZWI0Y2UtNTU5NS00NjM4LWFmM2YtNWYyODExZWE4M2Y0IiwiYXV0aF90aW1lIjoxNjY5OTY4MjA5LCJpZHAiOiJsb2NhbCIsInJvbGUiOiJzdHguYWRtaW4iLCJwaG9uZV9udW1iZXJfdmVyaWZpZWQiOiJGYWxzZSIsImVtYWlsIjoidGhhby5uZ3V5ZW5AZ29zbWFydGxvZy5jb20iLCJlbWFpbF92ZXJpZmllZCI6IlRydWUiLCJuYW1lIjoidGhhby5uZ3V5ZW5AZ29zbWFydGxvZy5jb20iLCJzaWQiOiI1N0QwNEI2M0JBNkVCOEUyMDEyRDE1RENBNjIzMkQwMSIsImlhdCI6MTY2OTk2ODIyMiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwiYWRkcmVzcyIsInBob25lIiwicm9sZSIsIkF1dGgiLCJvZmZsaW5lX2FjY2VzcyJdLCJhbXIiOlsicHdkIl19.R_E6hf4voE0wrXaP_hwP12Nt-A618DRc2eiC4FZ6YFMF9JmQDNOYHf0waMKW5anqIIgFoNRWdgx1EtbywXQdODiQ0qxAjT8bQvGou0N4t34phgXzOwuxeAi8sBNpq5ZKL98uw053sL8yJuBhpQt1HJgO1xAm6ga2R7aumES-OLm4Am6wNcL9TX1xdbZ76ozJIUaNbZq6HPRWSAYhwu5o7zs0M5q9WbJ7q8WMSmafkxfI3oRAlgTKEd0wG3vcwGOMpm_JWEE70mS3cTqCfkPDqEx3MU5Y4KLwaF2Jv5eZ8xmyoRO93oqA45kjnl1opySJFjZ3BKwAIC8qI278jQvTIjlZiU6iZdKd3Qd9WPIHqH2aXKufOrKHhWUY-isJS-_nnyfg7a8Uxr6_GnO1qQ5ClwlEFO-_D0A7u0_2H-O984ixsk96c7oINhQiNaHH8deKBrIK6W-iyh71tOOQeEW3qmIaBEL3ihwk_rT3Hr4z5VWT8qZfJIuve05dlDf_hISy5L4F3ZOk0ovRB9g60QycHb1005w697QffAW_U6ax8_onNH3L89wvvlnx7T4H48m11bjCYHERrcuKhJkyJbShTG5kPGVHSVkJsqcHQB28Q4ypbzMePtgSiVx1TKv56Kf-cNvkDKUlbxoUzG7kMUM60ZJYoO_Rqlw4juqeDAgsBEE"] map["name":"NODE_ENV" "value":"eco-stage"] map["name":"APM_SECRET_TOKEN" "valueFrom":map["secretKeyRef":map["key":"apm_secret_token" "name":"apm"]]]]]] "nodeSelector":map["type":"general"]]]] "apiVersion":"apps/v1"]}
+from server for: "deploy-eco.stage.yml": deployments.apps "stx-stb-api-gateway-dev" is forbidden: User "system:serviceaccount:jenkins:default" cannot get resource "deployments" in API group "apps" in the namespace "stx"
+Error from server (Forbidden): error when retrieving current configuration of:
+Resource: "/v1, Resource=services", GroupVersionKind: "/v1, Kind=Service"
+Name: "stx-stb-api-gateway-dev", Namespace: "stx"
+Object: &{map["apiVersion":"v1" "kind":"Service" "metadata":map["labels":map["app":"stx-stb-api-gateway-dev"] "name":"stx-stb-api-gateway-dev" "namespace":"stx" "annotations":map["kubectl.kubernetes.io/last-applied-configuration":""]] "spec":map["ports":[map["port":'\u0bb8' "protocol":"TCP" "targetPort":'\u0bb8']] "selector":map["app":"stx-stb-api-gateway-dev"] "type":"ClusterIP"]]}
+from server for: "deploy-eco.stage.yml": services "stx-stb-api-gateway-dev" is forbidden: User "system:serviceaccount:jenkins:default" cannot get resource "services" in API group "" in the namespace "stx"
+Error from server (Forbidden): error when retrieving current configuration of:
+Resource: "networking.k8s.io/v1, Resource=ingresses", GroupVersionKind: "networking.k8s.io/v1, Kind=Ingress"
+Name: "stx-stb-api-gateway-dev", Namespace: "stx"
+Object: &{map["kind":"Ingress" "metadata":map["annotations":map["kubernetes.io/ingress.class":"nginx" "kubectl.kubernetes.io/last-applied-configuration":""] "name":"stx-stb-api-gateway-dev" "namespace":"stx"] "spec":map["rules":[map["host":"stb-apigateway.danghung.xyz" "http":map["paths":[map["backend":map["service":map["port":map["number":'\u0bb8'] "name":"stx-stb-api-gateway-dev"]] "path":"/" "pathType":"Prefix"]]]]]] "apiVersion":"networking.k8s.io/v1"]}
+from server for: "deploy-eco.stage.yml": ingresses.networking.k8s.io "stx-stb-api-gateway-dev" is forbidden: User "system:serviceaccount:jenkins:default" cannot get resource "ingresses" in API group "networking.k8s.io" in the namespace "stx"
+[8mha:////4L3HRVJ3vdegamdi6CeY23Rn/PPV0nuG9Kcf72OYj/GqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4EsG1lMXsta4tL5YjnxfFaS8/x6OFwlcBjXlp9EduKZ0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // container
+[8mha:////4H/LgRmWh47RQ6d/wo3DJAJlpUncd64FdJ5Bl3kRNlf0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEPNxplvgAAAA==[0m[Pipeline] }
+[8mha:////4P5ulgHH0FSNK8YKrEDPBjs76IMDbdXcNteHmsk5ji0vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] // stage
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] echo
+I failed
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+script returned exit code 1
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4OMCWsXr0zcvHP9wvtU5MtMnPwtKzKbZOVi3O+nFdIAjAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ANa6Etu9AAAA[0m[Pipeline] deleteDir
+[8mha:////4DCiCHdTSpQ0BmF+u5+ZUXShu/gETxVo9z+j/iCwPBtMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABXpP/C9AAAA[0m[Pipeline] echo
+I failed :(
+[8mha:////4OJWcYyUhnEZaiIGFAqaTGdC5Ud0WJXxjecnpOc09lPXAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPVNgk6b0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: #c40e0e, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4D67X/A5s0NzEP1PxRZMygWB9gSIxxyfQcQcQj5AyaSQAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8A2n0Gmb0AAAA=[0m[Pipeline] }
+[8mha:////4Hi87qOCQ+IEk+0EUJsGNnOj3uCEjNRgpyWIdU+q7dNqAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0UjlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyfSnIyg/QBW89vQAAAA==[0m[Pipeline] // node
+[8mha:////4GEOO7++I0LJlFRq3KJsLAlxxskrgQny9kRETqxgTRnOAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0jI1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAlk/IDb0AAAA=[0m[Pipeline] }
+[8mha:////4JqEpXfQVgn7SD3FfjW45ERQdA0FVOWi1/jQ0XT78No7AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AIXzzK69AAAA[0m[Pipeline] // podTemplate
+[8mha:////4CYdYc7a12Sx35HQ+X/piPjGYrfu+n4KFgXN537srfuhAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A8JUm1u9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: FAILURE

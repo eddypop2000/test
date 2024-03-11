@@ -1,0 +1,334 @@
+Branch event
+Obtained Jenkinsfile from d53db3a1f9f74eb35834fc900659e112ceb609e9
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/common-pod-z21pb-bkbjr
+[Normal][jenkins/common-pod-z21pb-bkbjr][Scheduled] Successfully assigned jenkins/common-pod-z21pb-bkbjr to ip-192-168-120-220.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-z21pb-bkbjr][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/common-pod-z21pb-bkbjr][Created] Created container kubectl
+[Normal][jenkins/common-pod-z21pb-bkbjr][Started] Started container kubectl
+[Normal][jenkins/common-pod-z21pb-bkbjr][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/common-pod-z21pb-bkbjr][Created] Created container awscli
+[Normal][jenkins/common-pod-z21pb-bkbjr][Started] Started container awscli
+[Normal][jenkins/common-pod-z21pb-bkbjr][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/common-pod-z21pb-bkbjr][Created] Created container docker
+[Normal][jenkins/common-pod-z21pb-bkbjr][Started] Started container docker
+[Normal][jenkins/common-pod-z21pb-bkbjr][Pulled] Container image "jenkins/inbound-agent:4.11-1-jdk11" already present on machine
+[Normal][jenkins/common-pod-z21pb-bkbjr][Created] Created container jnlp
+[Normal][jenkins/common-pod-z21pb-bkbjr][Started] Started container jnlp
+Agent [8mha:////4PbkgvM8JcCj/zyqjRVQz4NaS3KnVgYgc/jPsF7ljHaQAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9Ft8rIsCBJNyk7KasIABgPOCnVAAAA[0mcommon-pod-z21pb-bkbjr is provisioned from template common-pod-z21pb
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/swm-authentication-fe/job/dev/4/"
+    runUrl: "job/swm-authentication-fe/job/dev/4/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-z21pb-bkbjr"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-z21pb-bkbjr"
+    - name: "JENKINS_NAME"
+      value: "common-pod-z21pb-bkbjr"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4BN97nkORRbAdsUFE4DORL4/DfuziTvbubggpa5gjhaUAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVIVhkZFiQB6aTspKwifQABUyIK3AAAAA==[0mcommon-pod-z21pb-bkbjr in /home/jenkins/agent/workspace/swm-authentication-fe_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{nEIpvnnm7-ULnlJbtR02usIrztIOYxvBdsYOwP3p0GlE3utuTigLjvya2ita40kHhJnsHNSDwZMi8mIcEg%3d%3d}@bitbucket.org/smartlogwms/authentication-fe.git
+ > git init /home/jenkins/agent/workspace/swm-authentication-fe_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/authentication-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{nEIpvnnm7-ULnlJbtR02usIrztIOYxvBdsYOwP3p0GlE3utuTigLjvya2ita40kHhJnsHNSDwZMi8mIcEg%3d%3d}@bitbucket.org/smartlogwms/authentication-fe.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision d53db3a1f9f74eb35834fc900659e112ceb609e9 (dev)
+ > git config remote.origin.url https://x-token-auth:{nEIpvnnm7-ULnlJbtR02usIrztIOYxvBdsYOwP3p0GlE3utuTigLjvya2ita40kHhJnsHNSDwZMi8mIcEg%3d%3d}@bitbucket.org/smartlogwms/authentication-fe.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d53db3a1f9f74eb35834fc900659e112ceb609e9 # timeout=10
+Commit message: "add deploy"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4G1jLElcRd+J3mGGkik+ERq6adugTzeVi1P2g+ZvC/WEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MoSakPaeSdxFn0fD1Rv/NWWAgulnfGkAXtPnMA8dMhrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // stage
+[8mha:////4Lh6R017mmVziF0/1JA3nsy1l6EiwDdvOoYsnMMMcLesAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AHiMrqC9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4G72Yi4/mlcwlMW+QjYrV1NrzEmGMsIWiUJgv57WRYm0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvxMyLWcEAAAA=[0m[Pipeline] stage
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] container
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4K3Gps8Cb6OxwZKT2h59HbwRsfx/XRHlluGCf90aGBO3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4O9zGdADWXcpGOTMTW/2lSc7lMpaJharlBI2y5LigcxqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4Pr3RuTHy8PDWIeKE/9G3zIh2wdvmyjoB9Z0bj4if5eXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // container
+[8mha:////4P4non9Fgu840T3XGyutGkLe6gr/sXmVcpDLS3pLTGv8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUdGBBTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFxA3mDwgAAAA==[0m[Pipeline] container
+[8mha:////4D7P0Yrdtxlcjz0OLv04Mqtgg5kyfASs8cXT2SXHIbcKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4CMq6RLuwQDhip7fnaRp5CStPAcb0H2m7bGCZ785JgfTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ ls -la
+total 796
+drwxr-xr-x    5 1000     1000           299 Jul  8 02:40 .
+drwxr-xr-x    4 1000     1000            98 Jul  8 02:40 ..
+-rw-r--r--    1 1000     1000           245 Jul  8 02:40 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Jul  8 02:40 .git
+-rw-r--r--    1 1000     1000           503 Jul  8 02:40 .gitignore
+-rw-r--r--    1 1000     1000           497 Jul  8 02:40 Dockerfile.dev
+-rw-r--r--    1 1000     1000          3045 Jul  8 02:40 Jenkinsfile
+-rw-r--r--    1 1000     1000          1033 Jul  8 02:40 README.md
+-rw-r--r--    1 1000     1000          4600 Jul  8 02:40 angular.json
+-rw-r--r--    1 1000     1000          1348 Jul  8 02:40 deploy.dev.yml
+drwxr-xr-x    3 1000     1000            68 Jul  8 02:40 e2e
+-rw-r--r--    1 1000     1000          1030 Jul  8 02:40 nginx.conf
+-rw-r--r--    1 1000     1000        382187 Jul  8 02:40 package-lock.json
+-rw-r--r--    1 1000     1000          1682 Jul  8 02:40 package.json
+drwxr-xr-x    5 1000     1000           267 Jul  8 02:40 src
+-rw-r--r--    1 1000     1000           408 Jul  8 02:40 tsconfig.json
+-rw-r--r--    1 1000     1000          2837 Jul  8 02:40 tslint.json
+-rw-r--r--    1 1000     1000        380459 Jul  8 02:40 yarn.lock
++ docker build -f Dockerfile.dev '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-authentication-fe:dev '--pull=true' .
+Sending build context to Docker daemon  60.33MB
+Step 1/13 : FROM public.ecr.aws/smartlog/node:16.13.0-alpine3.14 as build-deps
+16.13.0-alpine3.14: Pulling from smartlog/node
+Digest: sha256:5277c7d171e02ee76417bb290ef488aa80e4e64572119eec0cb9fffbcffb8f6a
+Status: Image is up to date for public.ecr.aws/smartlog/node:16.13.0-alpine3.14
+ ---> 44e24535dfbf
+Step 2/13 : ARG version
+ ---> Running in 0b95e6aa37f3
+Removing intermediate container 0b95e6aa37f3
+ ---> 3b94981a2fb1
+Step 3/13 : WORKDIR /usr/src/app
+ ---> Running in 3da1480bb63a
+Removing intermediate container 3da1480bb63a
+ ---> a3b47fd7d161
+Step 4/13 : COPY package.json yarn.lock ./
+ ---> f9179bfb2989
+Step 5/13 : RUN yarn
+ ---> Running in 4748ac5c5cde
+yarn install v1.22.15
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[91mwarning mini-css-extract-plugin@0.4.4: Invalid bin field for "mini-css-extract-plugin".
+[0m[91mwarning url-loader@1.1.2: Invalid bin field for "url-loader".
+[0minfo fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[91mwarning " > angular-oauth2-oidc@9.2.2" has incorrect peer dependency "@angular/common@>=8.0.0".
+warning " > angular-oauth2-oidc@9.2.2" has incorrect peer dependency "@angular/core@>=8.0.0".
+[0m[91mwarning " > angular-oauth2-oidc@9.2.2" has unmet peer dependency "tslib@^1.10.0".
+[0m[91mwarning " > angular-oauth2-oidc-jwks@9.0.0" has unmet peer dependency "tslib@^1.10.0".
+[0m[91mwarning "superdev-angular-core > @angular/animations@6.0.9" has incorrect peer dependency "@angular/core@6.0.9".
+[0m[4/4] Building fresh packages...
+[91mwarning Error running install script for optional dependency: "/usr/src/app/node_modules/node-sass: Command failed.
+Exit code: 1
+Command: node scripts/build.js
+Arguments: 
+Directory: /usr/src/app/node_modules/node-sass
+Output:
+Building: /usr/local/bin/node /usr/src/app/node_modules/node-gyp/bin/node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+gyp info it worked if it ends with ok
+gyp verb cli [
+gyp verb cli   '/usr/local/bin/node',
+gyp verb cli   '/usr/src/app/node_modules/node-gyp/bin/node-gyp.js',
+gyp verb cli   'rebuild',
+gyp verb cli   '--verbose',
+gyp verb cli   '--libsass_ext=',
+gyp verb cli   '--libsass_cflags=',
+gyp verb cli   '--libsass_ldflags=',
+gyp verb cli   '--libsass_library='
+gyp verb cli ]
+gyp info using node-gyp@3.8.0
+gyp info using node@16.13.0 | linux | x64
+gyp verb command rebuild []
+gyp verb command clean []
+gyp verb clean removing \"build\" directory
+gyp verb command configure []
+gyp verb check python checking for Python executable \"python2\" in the PATH
+gyp verb `which` failed Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (/usr/src/app/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/usr/src/app/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/usr/src/app/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /usr/src/app/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21)
+gyp verb `which` failed  python2 Error: not found: python2
+gyp verb `which` failed     at getNotFoundError (/usr/src/app/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/usr/src/app/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/usr/src/app/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /usr/src/app/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21) {
+gyp verb `which` failed   code: 'ENOENT'
+gyp verb `which` failed }
+gyp verb check python checking for Python executable \"python\" in the PATH
+gyp verb `which` failed Error: not found: python
+gyp verb `which` failed     at getNotFoundError (/usr/src/app/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/usr/src/app/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/usr/src/app/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /usr/src/app/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21)
+gyp verb `which` failed  python Error: not found: python
+gyp verb `which` failed     at getNotFoundError (/usr/src/app/node_modules/which/which.js:13:12)
+gyp verb `which` failed     at F (/usr/src/app/node_modules/which/which.js:68:19)
+gyp verb `which` failed     at E (/usr/src/app/node_modules/which/which.js:80:29)
+gyp verb `which` failed     at /usr/src/app/node_modules/which/which.js:89:16
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/index.js:42:5
+gyp verb `which` failed     at /usr/src/app/node_modules/isexe/mode.js:8:5
+gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:198:21) {
+gyp verb `which` failed   code: 'ENOENT'
+gyp verb `which` failed }
+gyp ERR! configure error 
+gyp ERR! stack Error: Can't find Python executable \"python\", you can set the PYTHON env variable.
+gyp ERR! stack     at PythonFinder.failNoPython (/usr/src/app/node_modules/node-gyp/lib/configure.js:484:19)
+gyp ERR! stack     at PythonFinder.<anonymous> (/usr/src/app/node_modules/node-gyp/lib/configure.js:406:16)
+gyp ERR! stack     at F (/usr/src/app/node_modules/which/which.js:68:16)
+gyp ERR! stack     at E (/usr/src/app/node_modules/which/which.js:80:29)
+gyp ERR! stack     at /usr/src/app/node_modules/which/which.js:89:16
+gyp ERR! stack     at /usr/src/app/node_modules/isexe/index.js:42:5
+gyp ERR! stack     at /usr/src/app/node_modules/isexe/mode.js:8:5
+gyp ERR! stack     at FSReqCallback.oncomplete (node:fs:198:21)
+gyp ERR! System Linux 5.4.196-108.356.amzn2.x86_64
+gyp ERR! command \"/usr/local/bin/node\" \"/usr/src/app/node_modules/node-gyp/bin/node-gyp.js\" \"rebuild\" \"--verbose\" \"--libsass_ext=\" \"--libsass_cflags=\" \"--libsass_ldflags=\" \"--libsass_library=\"
+gyp ERR! cwd /usr/src/app/node_modules/node-sass
+gyp ERR! node -v v16.13.0
+gyp ERR! node-gyp -v v3.8.0
+gyp ERR! not ok 
+Build failed with error code: 1"
+[0minfo This module is OPTIONAL, you can safely ignore this error
+Done in 55.78s.
+Removing intermediate container 4748ac5c5cde
+ ---> d084c63b0a6a
+Step 6/13 : COPY . ./
+ ---> 7bb767e9a616
+Step 7/13 : RUN yarn build:dev
+ ---> Running in fda5f4b4aef4
+yarn run v1.22.15
+[91merror Command "build:dev" not found.
+[0minfo Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+The command '/bin/sh -c yarn build:dev' returned a non-zero code: 1
+[8mha:////4CfGXCHix0f+Je86diNmVu8jWjrF+0QrwkLCKHy7gNE4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Bg1iNnIz9OT0i+dcudw46SMZIKmwVs2OS5Zz1cTZ3wsAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // container
+[8mha:////4KGut+P8+kvMqxQsBTHRr6VHjNTVirbuK8Z/0x4L8GdgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+pKGTTvgAAAA==[0m[Pipeline] }
+[8mha:////4K3fXOYO456MPMirrXoJhv2HMsqHfr+0pjpzSEH78tfzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu0Ou7f4Dxss7u74AAAA=[0m[Pipeline] // stage
+[8mha:////4CJIENh3O0YTjsCLxyHbtiT0ro25iqMHilbKJpAivVFfAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA2xMRhe9AAAA[0m[Pipeline] echo
+I failed
+[8mha:////4GwuIlKQ8JmuMs1nhcRxBWFen6rQNjsj27lNSi8osy3RAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABKdRse9AAAA[0m[Pipeline] echo
+script returned exit code 1
+[8mha:////4EtmJYALdgseWQZnyW+jti5lsAZ1+YkcZZPJ4QL6saC9AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AFOsXd69AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4Hp3edMkKwg5aefCZhibEoXkhOSzhrbp/L+3csa8FEOeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AJD/cPW9AAAA[0m[Pipeline] deleteDir
+[8mha:////4GBinaipe06RCV6DD9oYqj7DsjO+1Zg7zxE6Ji7FsNY0AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H0c5r7L0AAAA=[0m[Pipeline] echo
+I failed :(
+[8mha:////4A5Ra9rmpuSP9ISJEDJ19Ox5sU/xw9ciqwD7rZPZkKE5AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPFlgqo70AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: sabeco-system-notification, color: #c40e0e, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4IH2EY5FPttA6qk9bO54h+hrNGjK01m5yajn4jglgWpBAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP0mRjub0AAAA=[0m[Pipeline] }
+[8mha:////4HGqzZ5gLA4eXkJSTTGUgtjAw1RhhZn8vtYTSF/IfMzyAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPuE/KZ70AAAA=[0m[Pipeline] // node
+[8mha:////4NV/CPTVUPXfBhNtxAnWDqGcrIDgcDGnZfNusuwvoCxcAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQKJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJ5WrS29AAAA[0m[Pipeline] }
+[8mha:////4LbL+jK4qo6mKyF2isTyGA+25VgX7VPBg3A5DpQhXqSRAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH7FSZMb0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4Hu0cbDq0cfGhR7nL613HRGAkKmL1Ks+4h5P/12iUTLWAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPyk3+e70AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: FAILURE

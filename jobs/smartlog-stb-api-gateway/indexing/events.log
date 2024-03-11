@@ -1,0 +1,663 @@
+[Wed Dec 23 09:46:44 UTC 2020] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.226 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 09:46:44 UTC 2020
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (485e01bc87a17d58b450b27435098f7626d075a1 → 95523bdb31b2f02bdb6d721201da13b61e431b19)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Dec 23 09:46:46 UTC 2020] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.226 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 09:46:44 UTC 2020 processed in 1.8 sec
+[Wed Dec 23 10:52:46 UTC 2020] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.228 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 10:52:46 UTC 2020
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (95523bdb31b2f02bdb6d721201da13b61e431b19 → b24255893df551704a773ac0a2b71069a9e6a3c8)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Wed Dec 23 10:52:48 UTC 2020] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.228 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 10:52:46 UTC 2020 processed in 1.8 sec
+[Wed Dec 23 11:09:30 UTC 2020] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.231 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 11:09:30 UTC 2020
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b24255893df551704a773ac0a2b71069a9e6a3c8 → 6618f9f5d893a60a75ef97e0b254e306c68e6573)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Wed Dec 23 11:09:31 UTC 2020] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.231 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 11:09:30 UTC 2020 processed in 1.8 sec
+[Wed Dec 23 20:45:55 UTC 2020] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.229 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 20:45:55 UTC 2020
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6618f9f5d893a60a75ef97e0b254e306c68e6573 → 90a5addcb6f9f759394a4603183032d64dfbe9d7)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Dec 23 20:45:56 UTC 2020] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.229 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 23 20:45:55 UTC 2020 processed in 1.8 sec
+[Thu Dec 24 03:06:16 UTC 2020] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.227 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 24 03:06:16 UTC 2020
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (90a5addcb6f9f759394a4603183032d64dfbe9d7 → a92d09574d54d11c3e3dbe47c0fe806fc28598b3)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Dec 24 03:06:18 UTC 2020] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.227 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Dec 24 03:06:16 UTC 2020 processed in 1.7 sec
+[Tue Jan 26 02:33:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.52 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 02:33:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (a92d09574d54d11c3e3dbe47c0fe806fc28598b3 → de96d07b924a8db340184813b9144399662548bb)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 26 02:33:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.52 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 02:33:27 UTC 2021 processed in 2.1 sec
+[Tue Jan 26 11:50:57 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.52 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 11:50:57 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (de96d07b924a8db340184813b9144399662548bb → 179d8a0f838e06d2c36e8c12a6a8f14cadf27fc5)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Tue Jan 26 11:50:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.52 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 11:50:57 UTC 2021 processed in 1.8 sec
+[Tue Jan 26 14:51:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 14:51:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (179d8a0f838e06d2c36e8c12a6a8f14cadf27fc5 → 557f6fa1257f65fe157fc44d75b8c9223111eb8c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 26 14:51:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 14:51:55 UTC 2021 processed in 1.8 sec
+[Tue Jan 26 15:59:19 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.225 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 15:59:19 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (557f6fa1257f65fe157fc44d75b8c9223111eb8c → 4bb982275171bed29ac18a353303d9af9134f17d)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Jan 26 15:59:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.225 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jan 26 15:59:19 UTC 2021 processed in 2 sec
+[Thu Jan 28 07:13:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 28 07:13:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4bb982275171bed29ac18a353303d9af9134f17d → 0387e032937e6f1859c15fa1cdd29adb08d76105)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Jan 28 07:13:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jan 28 07:13:37 UTC 2021 processed in 1.7 sec
+[Tue Feb 02 04:24:21 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 02 04:24:21 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0387e032937e6f1859c15fa1cdd29adb08d76105 → 8796d69d4abad60599216e09564256898dfb6bcd)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 02 04:24:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 18.234.32.232 ⇒ https://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 02 04:24:21 UTC 2021 processed in 1.8 sec
+[Wed Feb 03 04:14:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 03 04:14:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8796d69d4abad60599216e09564256898dfb6bcd → c39d64b87a023fea26904c38a5cbacd58931dd50)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Feb 03 04:14:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 03 04:14:27 UTC 2021 processed in 1.9 sec
+[Thu Feb 04 03:38:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 04 03:38:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (c39d64b87a023fea26904c38a5cbacd58931dd50 → 06b97ab5e66be2a055f52e551ea41e1397750ba0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Feb 04 03:38:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 04 03:38:02 UTC 2021 processed in 2.2 sec
+[Tue Feb 09 07:29:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:29:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (06b97ab5e66be2a055f52e551ea41e1397750ba0 → 46c3eb8d20882857c36511cf045b17186d89293b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 07:29:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:29:27 UTC 2021 processed in 1.7 sec
+[Tue Feb 09 09:49:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 09:49:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (46c3eb8d20882857c36511cf045b17186d89293b → ac6955cd1bbb29c53e2ec488215ab8e27a73e6d0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 09:49:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 09:49:55 UTC 2021 processed in 1.9 sec
+[Fri Feb 19 04:35:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:35:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (ac6955cd1bbb29c53e2ec488215ab8e27a73e6d0 → e5ec4b56564dedf489714835c1eff892fa78ec44)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 04:35:17 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:35:15 UTC 2021 processed in 1.9 sec
+[Sun Feb 21 16:14:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 21 16:14:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e5ec4b56564dedf489714835c1eff892fa78ec44 → 6503969800b8471aa02a27870aea618fb216e099)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Sun Feb 21 16:14:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Feb 21 16:14:37 UTC 2021 processed in 2 sec
+[Mon Feb 22 02:09:49 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 22 02:09:49 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (6503969800b8471aa02a27870aea618fb216e099 → a2dcecef05ab000b9fa8f67eea514884d717c509)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Feb 22 02:09:51 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 22 02:09:49 UTC 2021 processed in 1.6 sec
+[Wed Feb 24 03:59:23 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 24 03:59:23 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (a2dcecef05ab000b9fa8f67eea514884d717c509 → cc367d86404500ff79fe2a1c32b45f3369a3d8a4)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Feb 24 03:59:25 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 24 03:59:23 UTC 2021 processed in 1.7 sec
+[Thu Feb 25 11:27:53 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 25 11:27:53 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (cc367d86404500ff79fe2a1c32b45f3369a3d8a4 → 7a951625aeb8e3dbc71528e51869166880da8a4c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Feb 25 11:27:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 25 11:27:53 UTC 2021 processed in 1.9 sec
+[Tue Mar 02 09:11:38 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 02 09:11:38 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (7a951625aeb8e3dbc71528e51869166880da8a4c → 609185bff515ba9f2cc85d947e44281860282aab)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Mar 02 09:11:40 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.73.141 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 02 09:11:38 UTC 2021 processed in 1.8 sec
+[Wed Mar 03 02:18:56 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 03 02:18:56 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (609185bff515ba9f2cc85d947e44281860282aab → 5174b84e2b56a72f025e9ba1861deed8302431c0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Mar 03 02:18:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 03 02:18:56 UTC 2021 processed in 1.7 sec
+[Fri Mar 05 08:25:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 05 08:25:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5174b84e2b56a72f025e9ba1861deed8302431c0 → ffa943e365f09f9af32689e797fe3ef1ac789ff1)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Mar 05 08:25:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 05 08:25:55 UTC 2021 processed in 1.9 sec
+[Tue Mar 09 04:25:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 09 04:25:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (ffa943e365f09f9af32689e797fe3ef1ac789ff1 → 76e3f65b5bea171306608195cd03c7143c481073)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Mar 09 04:25:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 09 04:25:15 UTC 2021 processed in 2.2 sec
+[Tue Mar 09 08:51:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.45.121 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 09 08:51:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (76e3f65b5bea171306608195cd03c7143c481073 → e0cd32b14f61921af3fb424c4e8a639863a90e9a)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Tue Mar 09 08:51:22 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.45.121 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 09 08:51:20 UTC 2021 processed in 2 sec
+[Wed Mar 10 04:18:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.0.132 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 10 04:18:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e0cd32b14f61921af3fb424c4e8a639863a90e9a → d96800001ecffd51a89bdaa35ab633051f2f11a2)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Mar 10 04:18:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.0.132 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 10 04:18:45 UTC 2021 processed in 1.8 sec
+[Wed Mar 10 14:50:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 10 14:50:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d96800001ecffd51a89bdaa35ab633051f2f11a2 → 2b37a762cf108cca58ab79749254a88b91330471)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Mar 10 14:50:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 10 14:50:39 UTC 2021 processed in 2.1 sec
+[Thu Mar 11 01:48:42 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.0.132 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 11 01:48:42 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2b37a762cf108cca58ab79749254a88b91330471 → 65984fcc92308016466bc384db129f90281cca69)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Mar 11 01:48:44 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.0.132 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 11 01:48:42 UTC 2021 processed in 1.8 sec
+[Tue Mar 16 03:18:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 16 03:18:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (65984fcc92308016466bc384db129f90281cca69 → 359a1ab48191a206e48941bbff8abf2f5ac0b551)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Mar 16 03:18:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.44.183 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 16 03:18:44 UTC 2021 processed in 1.6 sec
+[Fri Mar 26 19:25:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 26 19:25:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (359a1ab48191a206e48941bbff8abf2f5ac0b551 → 0671f5c71ee5734eee724927e758d00e92e115f4)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Mar 26 19:25:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 26 19:25:45 UTC 2021 processed in 2.2 sec
+[Wed May 05 16:52:36 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 05 16:52:36 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0671f5c71ee5734eee724927e758d00e92e115f4 → 87c45f7428e400a8bafc113d6f1943ba7d70dcef)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed May 05 16:52:38 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 05 16:52:36 UTC 2021 processed in 2.1 sec
+[Sun May 09 13:34:42 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun May 09 13:34:42 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (87c45f7428e400a8bafc113d6f1943ba7d70dcef → 5cb1228f756fd8dc746cd23a62386ddc1dc3556f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sun May 09 13:34:44 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun May 09 13:34:42 UTC 2021 processed in 2 sec
+[Wed Jun 09 13:09:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 09 13:09:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (5cb1228f756fd8dc746cd23a62386ddc1dc3556f → 1c900f65407ea1126202f7f4a13e4ce5a788d451)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jun 09 13:09:34 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 09 13:09:31 UTC 2021 processed in 2.5 sec
+[Fri Jun 25 17:10:03 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 17:10:03 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch fix.location from smartlogtms/smartlog-stb-api-gateway
+Checking branch huynhtienhuy from smartlogtms/smartlog-stb-api-gateway
+Checking branch integrate.auth.service from smartlogtms/smartlog-stb-api-gateway
+Checking branch master from smartlogtms/smartlog-stb-api-gateway
+Checking branch production from smartlogtms/smartlog-stb-api-gateway
+
+  11 branches were processed
+Looking up smartlogtms/smartlog-stb-api-gateway for pull requests
+
+  0 pull requests were processed
+[Fri Jun 25 17:10:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 17:10:03 UTC 2021 processed in 1.7 sec
+[Fri Jun 25 17:19:35 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.154.48 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 17:19:35 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch fix.location from smartlogtms/smartlog-stb-api-gateway
+Checking branch huynhtienhuy from smartlogtms/smartlog-stb-api-gateway
+Checking branch integrate.auth.service from smartlogtms/smartlog-stb-api-gateway
+Checking branch master from smartlogtms/smartlog-stb-api-gateway
+Checking branch production from smartlogtms/smartlog-stb-api-gateway
+
+  11 branches were processed
+Looking up smartlogtms/smartlog-stb-api-gateway for pull requests
+
+  0 pull requests were processed
+[Fri Jun 25 17:19:37 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.154.48 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 25 17:19:35 UTC 2021 processed in 2 sec
+[Sat Jun 26 17:40:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.216 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jun 26 17:40:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch fix.location from smartlogtms/smartlog-stb-api-gateway
+Checking branch huynhtienhuy from smartlogtms/smartlog-stb-api-gateway
+Checking branch integrate.auth.service from smartlogtms/smartlog-stb-api-gateway
+Checking branch master from smartlogtms/smartlog-stb-api-gateway
+Checking branch production from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (7db395180b9d5f855e2d967926f7819d5c9bed16 → bb914edf24ed9ead4ed53a1e5ce0c7978178814a)
+Scheduled build for branch: production
+
+  11 branches were processed (query completed)
+[Sat Jun 26 17:40:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.103.216 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Jun 26 17:40:22 UTC 2021 processed in 1.8 sec
+[Wed Jul 07 04:28:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.46 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 04:28:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1c900f65407ea1126202f7f4a13e4ce5a788d451 → dbeeeac69250be33d4051389b32a6381b7c035c0)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Jul 07 04:28:48 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.46 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 07 04:28:45 UTC 2021 processed in 2.7 sec
+[Wed Dec 15 03:35:06 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.166.206 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 03:35:06 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (dbeeeac69250be33d4051389b32a6381b7c035c0 → d307b10e275b236967c00f194025625bd7f61a93)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Wed Dec 15 03:35:08 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.166.206 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 03:35:06 UTC 2021 processed in 1.9 sec
+[Wed Dec 15 03:35:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 03:35:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch eco-prod from smartlogtms/smartlog-stb-api-gateway
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch fix.location from smartlogtms/smartlog-stb-api-gateway
+Checking branch huynhtienhuy from smartlogtms/smartlog-stb-api-gateway
+Checking branch integrate.auth.service from smartlogtms/smartlog-stb-api-gateway
+Checking branch master from smartlogtms/smartlog-stb-api-gateway
+Checking branch production from smartlogtms/smartlog-stb-api-gateway
+
+  12 branches were processed
+Looking up smartlogtms/smartlog-stb-api-gateway for pull requests
+
+  0 pull requests were processed
+[Wed Dec 15 03:35:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Dec 15 03:35:20 UTC 2021 processed in 0.91 sec
+[Fri Dec 24 15:38:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:38:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d307b10e275b236967c00f194025625bd7f61a93 → 16d2fcc75e419d83c04e33ce7ad0ad22bb939330)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Fri Dec 24 15:38:10 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:38:09 UTC 2021 processed in 1.6 sec
+[Fri Dec 24 15:44:43 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.158 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:44:43 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (16d2fcc75e419d83c04e33ce7ad0ad22bb939330 → 947dec0036f7645e48d6819fdd392e2688cc91d5)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Fri Dec 24 15:44:45 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.158 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:44:43 UTC 2021 processed in 1.6 sec
+[Fri Dec 24 15:51:21 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:51:21 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (947dec0036f7645e48d6819fdd392e2688cc91d5 → 79ecdc676d054d21ba5bdf9e7798b108939eb28a)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Dec 24 15:51:22 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:51:21 UTC 2021 processed in 1.6 sec
+[Fri Dec 24 15:54:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.42.78 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:54:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (79ecdc676d054d21ba5bdf9e7798b108939eb28a → 08634f7e35cb6057ad15f654d763c8250c377359)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Dec 24 15:54:40 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.42.78 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:54:39 UTC 2021 processed in 1.5 sec
+[Fri Dec 24 15:56:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.158 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:56:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch eco-prod from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: eco-prod (d307b10e275b236967c00f194025625bd7f61a93 → fdc316f71daedfaaf6ca7816bb766b198dd88a2d)
+Scheduled build for branch: eco-prod
+
+  2 branches were processed (query completed)
+[Fri Dec 24 15:56:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.172.158 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 24 15:56:26 UTC 2021 processed in 1.6 sec
+[Tue Dec 28 03:55:36 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.54.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 03:55:36 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (08634f7e35cb6057ad15f654d763c8250c377359 → f878ab7cae80b41e4f7afe392ddb73b8fffdcbdd)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Tue Dec 28 03:55:38 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.54.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 03:55:36 UTC 2021 processed in 1.7 sec
+[Tue Dec 28 05:00:08 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.206 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 05:00:08 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f878ab7cae80b41e4f7afe392ddb73b8fffdcbdd → f887be410dcc8e4ebf12d55d808fe4a508f85f05)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Tue Dec 28 05:00:10 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.206 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 05:00:08 UTC 2021 processed in 1.6 sec
+[Tue Dec 28 08:17:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 08:17:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch eco-prod from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: eco-prod (fdc316f71daedfaaf6ca7816bb766b198dd88a2d → a783b35a39fd426c4c6a19ad98f1f346a2ba354f)
+Scheduled build for branch: eco-prod
+
+  7 branches were processed (query completed)
+[Tue Dec 28 08:17:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Dec 28 08:17:02 UTC 2021 processed in 1.8 sec
+[Fri Dec 02 08:05:14 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.177 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 02 08:05:09 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f887be410dcc8e4ebf12d55d808fe4a508f85f05 → a373601ccfab9288934a6000049ea6a0a40d9739)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Fri Dec 02 08:05:18 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.177 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 02 08:05:09 UTC 2022 processed in 3.8 sec

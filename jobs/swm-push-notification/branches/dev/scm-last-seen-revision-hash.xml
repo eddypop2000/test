@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>e0e7e6b7d0a0c3b4e6deca7de5cd52b61eba7ceb</hash>
+  <message>Update
+</message>
+  <author>Huy Ho &lt;huy.ho@gosmartlog.com&gt;</author>
+  <date>2022-12-16 10:00:04.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

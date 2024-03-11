@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>fix/cicd</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>6305e4706c3c1c8f8c3bebb81b89c2f5361f147d</hash>
+  <message>test build
+</message>
+  <author>thanhnc &lt;thanh.nc@gosmartlog.com&gt;</author>
+  <date>2023-02-23 08:34:47.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

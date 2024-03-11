@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1680602269183</timestamp>
+            <origin>192.168.58.141 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>5947</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>5946</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>b7b5232d-a70c-481a-ad95-8cd164e6ea18</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>production</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>f9a44dd32aefcd8e48a16b57e6ff09fe85021d6b</hash>
+        <message>fix jenkins pod
+</message>
+        <author>Dang Hung &lt;hung.dang980@gmail.com&gt;</author>
+        <date>2023-04-04 09:57:32.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>12819495</queueId>
+  <timestamp>1680602289567</timestamp>
+  <startTime>1680602289570</startTime>
+  <result>ABORTED</result>
+  <duration>9176</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

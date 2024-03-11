@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>9b69a57e55b7067cbf5d892316bdf18b42fed2ba</hash>
+  <message>Merged in bugfix/oms-status-sales-channel-dev (pull request #1192)
+
+[OMS] status sales channel</message>
+  <author>phung.mai &lt;phung.mai@gosmartlog.com&gt;</author>
+  <date>2022-12-13 08:53:04.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

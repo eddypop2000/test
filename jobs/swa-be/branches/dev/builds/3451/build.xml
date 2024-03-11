@@ -1,0 +1,294 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1681538594944</timestamp>
+            <origin>192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>9274</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>9272</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>ee2e0e67-ceb9-4134-9e75-0f4474b9df86</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>c1a1ea45dac5cf6f9192b7f86a804db56f1f77f1</hash>
+        <message>Merge branch &apos;dev&apos; of bitbucket.org:smartlogwms/swa-be into dev
+</message>
+        <author>Huy Ho &lt;huy.ho@gosmartlog.com&gt;</author>
+        <date>2023-04-15 06:02:21.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>c1a1ea45dac5cf6f9192b7f86a804db56f1f77f1</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3451</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{zaxcDFam-RRfu7aE7Mz_95uf-JC4A65MDfXZpRc6IYfYwCpJz_CrtzPHzyIGnQQ8n_ck_secDfNw8lk0GwsgMtpDBw==}@bitbucket.org/smartlogwms/swa-be.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogwms/swa-be.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction plugin="workflow-cps@3583.v4f58de0d78d5">
+      <interpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+      </interpolatedWarnings>
+    </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>8727</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>8726</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>148872</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>13515637</queueId>
+  <timestamp>1681538622697</timestamp>
+  <startTime>1681538622702</startTime>
+  <result>SUCCESS</result>
+  <duration>171105</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;common-pod&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;buildkit&apos;, image: &apos;moby/buildkit:master&apos;,ttyEnabled: true, privileged: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+    configMapVolume(configMapName: &apos;docker-config&apos;, mountPath: &apos;/root/.docker&apos;),   
+  ]) {
+    node(&apos;common-pod&apos;) {
+      properties([disableConcurrentBuilds()])
+      commitMessage = &apos;&apos;
+      try {
+        timeout(time: 30, unit: &apos;MINUTES&apos;) {
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout scm
+          String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+          commitMessage = parts[0]
+        }
+        if (env.BRANCH_NAME == &apos;production&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          REPO=&quot;swa-be-prod&quot;
+          TAG=&quot;latest&quot;
+          DOCKERFILE = &quot;Dockerfile.prod&quot;
+          PROJECT = &quot;swm&quot;
+          build()
+        } else if (env.BRANCH_NAME == &apos;production-sme&apos;){
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          REPO=&quot;swm-sme-be-prod&quot;
+          TAG=&quot;latest&quot;
+          DOCKERFILE = &quot;Dockerfile.sme&quot;
+          PROJECT = &quot;swm&quot;
+          build()
+        } else if (env.BRANCH_NAME == &apos;dev&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          REPO=&quot;swa-be-dev&quot;
+          TAG=&quot;stage&quot;
+          DOCKERFILE = &quot;Dockerfile.stage&quot;
+          PROJECT = &quot;swm&quot;
+          build()
+        } else if (env.BRANCH_NAME == &apos;release/coyote&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          REPO=&quot;swa-be-prod&quot;
+          TAG=&quot;swa-be-coyote&quot;
+          DOCKERFILE = &quot;Dockerfile.coyote&quot;
+          PROJECT = &quot;swm&quot;
+          build()
+        } else {
+          echo &quot;Khong phai branch (production|dev) nen ko lam gi&quot;
+          error(&apos;Failed to build&apos;)
+        }
+      }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        deleteDir() /* clean up our workspace */
+        if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: &apos;sabeco-system-notification&apos;,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} [${commitMessage}] completed successfully.&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: &apos;sabeco-system-notification&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} [${commitMessage}] #${env.BUILD_NUMBER} has failed.&quot;
+        }
+      }
+    }
+  }
+def build() {
+  currentTimestamp = sh(returnStdout: true, script: &apos;date +%s&apos;).trim()
+  scr = &quot;aws ecr describe-images --registry-id 744004065806 --repository-name ${REPO} --image-ids imageTag=${TAG} --query &apos;sort(imageDetails[].imageDigest)&apos; --output text --region ap-southeast-1&quot;
+  stage(&apos;Build&apos;) {
+    container(&apos;buildkit&apos;) {
+      REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${REPO}&quot;
+      sh &quot;&quot;&quot;
+      wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+      chmod 755 /usr/local/bin/docker-credential-ecr-login
+      buildctl build --frontend dockerfile.v0 --local context=. --local dockerfile=./ --opt filename=./${DOCKERFILE} --output &apos;type=image,name=${REGISTRY_URL}:${TAG},push=true&apos;
+      &quot;&quot;&quot;
+    }
+    container(&apos;awscli&apos;) {
+      def sha256 = sh(
+        script: scr,
+        returnStdout: true
+      ).trim()
+      SHA256 = sha256
+    }
+  }
+  stage(&apos;Update GIT&apos;) {
+    script {
+      withCredentials([usernamePassword(credentialsId: &apos;cicd-bitbucket&apos;, passwordVariable: &apos;BITBUCKET_PASSWORD&apos;, usernameVariable: &apos;BITBUCKET_USERNAME&apos;)]) {
+        //def encodedPassword = URLEncoder.encode(&quot;$GIT_PASSWORD&quot;,&apos;UTF-8&apos;)
+        sh &quot;&quot;&quot;
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+        cd devops-deployment-${PROJECT}
+        sed -i &apos;s+${REGISTRY_URL}.*+${REGISTRY_URL}@${SHA256}+g&apos; ./swa-be/${env.BRANCH_NAME}/.argocd-source.yaml
+        for file in ./swa-be/${env.BRANCH_NAME}/deploy*.yaml; do sed -i &quot;s/\\(date:\\s*\\)&apos;[^&apos;]*&apos;/\\1&apos;${currentTimestamp}&apos;/&quot; &quot;\$file&quot;;git add &quot;\$file&quot;;done
+        git add ./swa-be/${env.BRANCH_NAME}/.argocd-source.yaml
+        git commit -m &apos;Done by Jenkins Job changemanifest: ${REPO}:${env.BUILD_NUMBER}&apos;
+        git pull --rebase https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git HEAD:refs/heads/master
+        &quot;&quot;&quot;
+      }
+    }
+  }
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>218349544</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>341992009</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2711652254</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>247841623</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>360561665</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>56</iota>
+    <head>1:56</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://x-token-auth:{zaxcDFam-RRfu7aE7Mz_95uf-JC4A65MDfXZpRc6IYfYwCpJz_CrtzPHzyIGnQQ8n_ck_secDfNw8lk0GwsgMtpDBw==}@bitbucket.org/smartlogwms/swa-be.git</url>
+            <credentialsId>oauth-swm</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogwms/swa-be</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>common-pod-jgzhq-f0nk0</node>
+      <workspace>/home/jenkins/agent/workspace/swa-be_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/swa-be/branches/dev/builds/3451/changelog14747817729997133263.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

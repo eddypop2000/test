@@ -1,0 +1,17 @@
+Started
+[Mon Mar 29 08:07:40 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/container-optimization for branches
+Checking branch dev from smartlogtms/container-optimization
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at 516bf75c97ed5039d46554f5456abea1d907568f)
+Checking branch master from smartlogtms/container-optimization
+
+  2 branches were processed
+Looking up smartlogtms/container-optimization for pull requests
+
+  0 pull requests were processed
+[Mon Mar 29 08:07:42 UTC 2021] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

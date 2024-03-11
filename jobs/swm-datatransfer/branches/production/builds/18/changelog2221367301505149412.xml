@@ -1,0 +1,20 @@
+commit caae9503b36f4a1078a141cafcbb9c6b91aecb83
+tree ffd5587427fbad1fcf8b9030ada7ad0c63e58086
+parent 31c0405e3dbd2216a31e3d06287bf6c99180d278
+author tuan88 <tuan.tran@gosmartlog.com> 2021-10-09 18:00:18 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-10-09 18:00:18 +0700
+
+    10 day
+
+
+:100644 100644 a35255ceab398abcd3b9221f1cdca1869733001b 3debd4b40198ced15cb84011bb942e6a35fb4505 M	src/x-modules/actions/providers/schedule.provider.ts
+commit 31c0405e3dbd2216a31e3d06287bf6c99180d278
+tree fa7012fd6e9c7a09588a208b6005bfd89fd82127
+parent 3cf8c8c37172c679bb383c0d6c812edddbbf19fa
+author tuan88 <tuan.tran@gosmartlog.com> 2021-10-09 17:59:28 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-10-09 17:59:28 +0700
+
+    Update timeout
+
+
+:100644 100644 396865b1cd9a8768e9ec810bd5bc463ffa353c49 87c466e4484ccf4df504dc896bc49ce51634b347 M	src/services/@common/api.service.ts

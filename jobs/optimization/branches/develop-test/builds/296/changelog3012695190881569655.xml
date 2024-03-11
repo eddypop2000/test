@@ -1,0 +1,10 @@
+commit 198f74123fcbb8cb95aef959b2d8634bac85d2a6
+tree fb6728f68c782bc1952273b81437ef338be69dbf
+parent ed3c9d65e9dceebbb547602a4dc40ebc95d07c3d
+author hoang7k <hoang.dao@gomartlog.com> 2022-03-10 15:51:11 +0700
+committer hoang7k <hoang.dao@gomartlog.com> 2022-03-10 15:51:11 +0700
+
+    [Brenntag] [Fix bug] Fix OutOfMemoryError due to no External Vehicle
+
+
+:100644 100644 e760298c23284870290e44dffe9ef2017aa5427a 8a22182dbd232602967e114e68ac1c6dc3104d3c M	src/main/java/vrp/opvrp/scheduler/solvers/brenntag/BrenntagAddGreedySolver.java

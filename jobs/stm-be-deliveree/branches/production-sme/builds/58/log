@@ -1,0 +1,917 @@
+Branch event
+Obtained Jenkinsfile-smartlog.groovy from a1b7ddd332b894a56d19866a953778f7ace46194
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4IjgZE5PnST5Jkrf+u9kcXpuzWdrEaG5O55XtDzULVOlAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/DzdouLCrAzdNKOUjGwAh4mGUd4AAAA=[0mpod-with-gitversion-rsqjh-f2dhk is provisioned from template pod-with-gitversion-rsqjh
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/stm-fe-deliveree/job/production-sme/45/"
+    runUrl: "job/stm-fe-deliveree/job/production-sme/45/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-rsqjh-f2dhk"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-rsqjh-f2dhk"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-rsqjh-f2dhk"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4GtHZck+4b8LnRmVL1nwC1Vjf4KZuPUcslqppjy0W8v7AAAAwB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZL/dzEvMT0VP3k/NyC0pLUIv2C/BRVI5fyzJIMIJWeWVKWWlScmZ8H5BQVF2aBBNOMUjKy9QGs00Lx7gAAAA==[0mpod-with-gitversion-rsqjh-f2dhk in /home/jenkins/agent/workspace/stm-be-deliveree_production-sme
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{NGP26ejC3L5Na2aYj5FUhSn-OKrlHAAK4q1ATojaNdU90A7MktlqgeFQKug9qLUNE2rG9CHOuxGJ_o0HqNbAYDIyYQ%3d%3d}@bitbucket.org/smartlogtms/stm-be-deliveree.git
+ > git init /home/jenkins/agent/workspace/stm-be-deliveree_production-sme # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/stm-be-deliveree.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{NGP26ejC3L5Na2aYj5FUhSn-OKrlHAAK4q1ATojaNdU90A7MktlqgeFQKug9qLUNE2rG9CHOuxGJ_o0HqNbAYDIyYQ%3d%3d}@bitbucket.org/smartlogtms/stm-be-deliveree.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://x-token-auth:{NGP26ejC3L5Na2aYj5FUhSn-OKrlHAAK4q1ATojaNdU90A7MktlqgeFQKug9qLUNE2rG9CHOuxGJ_o0HqNbAYDIyYQ%3d%3d}@bitbucket.org/smartlogtms/stm-be-deliveree.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision a1b7ddd332b894a56d19866a953778f7ace46194 (production-sme)
+Commit message: "Merged in dev (pull request #3620)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a1b7ddd332b894a56d19866a953778f7ace46194 # timeout=10
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/stm-be-deliveree_production-sme/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{-TxB_H4ognzdgrwGyZloz27LP3Y10QHYVfpckniUh-rPrKb1EL7A73spBRO7WRS9MPRKFA2ECDTsucYKlfiAzVsfcA%3d%3d}@bitbucket.org/smartlogtms/stm-be-deliveree.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/stm-be-deliveree.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{-TxB_H4ognzdgrwGyZloz27LP3Y10QHYVfpckniUh-rPrKb1EL7A73spBRO7WRS9MPRKFA2ECDTsucYKlfiAzVsfcA%3d%3d}@bitbucket.org/smartlogtms/stm-be-deliveree.git +refs/heads/production-sme:refs/remotes/origin/production-sme # timeout=10
+Checking out Revision a1b7ddd332b894a56d19866a953778f7ace46194 (production-sme)
+Commit message: "Merged in dev (pull request #3620)"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4MO5/2hv+0YI4sFJ6nKzOuhVNamLXVGTKa8siV2v1my2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AOJh0L+9AAAA[0m[Pipeline] sh
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a1b7ddd332b894a56d19866a953778f7ace46194 # timeout=10
++ git log -1 --pretty=%B
++ grep build-all
+[8mha:////4H35T7eAA+JtgsJ+amu72YHDxWdqeb8EepZNPcDQy5gXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] sh
++ grep -v src/GPS
++ grep -v src/TaskManagementSystem
++ grep -v src/Smartlog.Stm.Smes.SignalR
++ grep -v src/SocketService
++ grep -v src/TenantService
++ grep -v src/LocalServices
++ git diff --name-status HEAD~1..HEAD
++ grep -v src/Smartlog.Stm.Smes.ApiGateway
+M	CHANGELOG.md
+M	src/Smartlog.Stm.Smes.Domain.Contracts/Configurations/PlatformConfigurations.cs
+A	src/Smartlog.Stm.Smes.Domain.Contracts/Configurations/SampleClientDataConfiguration.cs
+M	src/Smartlog.Stm.Smes.Domain.Contracts/Domain/CurrentUser.cs
+M	src/Smartlog.Stm.Smes.Domain.Contracts/LinqEntityExtensions.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/CAT/ContractRoutingExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/CAT/LocationExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/CAT/RoutingExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/CUS/CustomerExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/Dashboard/ChartFilterReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/DataSourceRequest.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/FLM/AssetFeeExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/FLM/ReceiptMaterialExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/FLM/ReceiptRepairExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/FLM/ScheduleFeeDefaultDriverExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/FLM/SupplierExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/TenantSampleDataReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Requests/ORD/OrderProductCreateExcelReqDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Responses/CUS/ProductResDto.cs
+M	src/Smartlog.Stm.Smes.Domain.DTO/Responses/FLM/SupplierExcelResDto.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Auth/ICurrentUser.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/DefaultValueConst.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/ErrorMessage.ORD.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/ErrorMessage.json
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/ExcelColumns.CAT.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/ExcelColumns.json
+M	src/Smartlog.Stm.Smes.Domain.Shared/Constants/KeyFormatConst.cs
+A	src/Smartlog.Stm.Smes.Domain.Shared/Constants/SampleDataType.cs
+M	src/Smartlog.Stm.Smes.Domain.Shared/Services/MemoryCache/IMemoryCacheService.cs
+M	src/Smartlog.Stm.Smes.Domain/Extensions/StmDbContextExtensions.FLM.cs
+M	src/Smartlog.Stm.Smes.Domain/Extensions/StmDbContextExtensions.OPS.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Authorization/FunctionBaseAuthorizationService.cs
+A	src/Smartlog.Stm.Smes.Domain/Services/Authorization/ITokenService.cs
+A	src/Smartlog.Stm.Smes.Domain/Services/Authorization/TokenService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/CAT/ContractRoutingService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/CAT/LocationService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/CUS/CustomersService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/CUS/ICustomersService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Cache/CacheService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Cache/ICacheService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/DLVR/DLVRService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Dashboard/DashboardService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/AssetFeeService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/AssetWarningService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/IReceiptsService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/ReceiptsService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/ScheduleFeeDefaultDriverService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/FLM/SuppliersService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Integrations/ITenantIntegrationsService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Integrations/TenantIntegrationsService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/MON/MonitorService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/OPS/AutoPlanningsService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/OPS/OperationService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/ORD/OrderFileTemplatesService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/ORD/OrdersService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/Report/ReportGenerationService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/SYS/DLVR2UserService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/SYS/DLVRUserService.cs
+M	src/Smartlog.Stm.Smes.Domain/Services/SYS/UsersService.cs
+M	src/Smartlog.Stm.Smes/Controllers/Dashboard/DashboardController.cs
+M	src/Smartlog.Stm.Smes/Controllers/FLM/ReceiptsRepairController.cs
+M	src/Smartlog.Stm.Smes/Controllers/FLM/SuppliersController.cs
+M	src/Smartlog.Stm.Smes/Controllers/Internal/InternalController.Integration.cs
+M	src/Smartlog.Stm.Smes/Middlewares/AuthenticationClaimMiddlewareHandler.cs
+M	src/Smartlog.Stm.Smes/Middlewares/InternalAuthenticationHandler.cs
+M	src/Smartlog.Stm.Smes/Middlewares/SMEAuthenticationHandler.cs
+M	src/Smartlog.Stm.Smes/Resources/ErrorMessage.json
+M	src/Smartlog.Stm.Smes/Resources/ExcelColumns.json
+M	src/Smartlog.Stm.Smes/Resources/en-US/ErrorMessage.json
+M	src/Smartlog.Stm.Smes/Resources/en-US/ExcelColumns.json
+M	src/Smartlog.Stm.Smes/Resources/en-US/MessageTemplates.json
+M	src/Smartlog.Stm.Smes/Resources/en-US/ReportKeys.json
+M	src/Smartlog.Stm.Smes/Resources/id-ID/ErrorMessage.json
+M	src/Smartlog.Stm.Smes/Resources/id-ID/ExcelColumns.json
+M	src/Smartlog.Stm.Smes/Resources/id-ID/MessageTemplates.json
+M	src/Smartlog.Stm.Smes/Resources/id-ID/ReportKeys.json
+M	src/Smartlog.Stm.Smes/Resources/th-TH/Enums.json
+M	src/Smartlog.Stm.Smes/Resources/th-TH/ErrorMessage.json
+M	src/Smartlog.Stm.Smes/Resources/th-TH/ExcelColumns.json
+M	src/Smartlog.Stm.Smes/Resources/th-TH/MessageTemplates.json
+M	src/Smartlog.Stm.Smes/Resources/th-TH/ReportKeys.json
+M	src/Smartlog.Stm.Smes/Resources/vi-VN/ErrorMessage.json
+M	src/Smartlog.Stm.Smes/Resources/vi-VN/ExcelColumns.json
+M	src/Smartlog.Stm.Smes/Resources/vi-VN/MessageTemplates.json
+M	src/Smartlog.Stm.Smes/Startup.cs
+M	src/Smartlog.Stm.Smes/appsettings.json
+M	src/Smartlog.Stm.Smes/appsettings.sme.json
+[8mha:////4IdZYA504BTv71WxNREKBIs1x4MU2Y9Sgz5xHaK+hECoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA2TGium9AAAA[0m[Pipeline] echo
+isBuildBe: true
+[8mha:////4Ghg1hEtmPt3d4PSFh8RAyk6y1anzLCIc6BtFONnGsaMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AKeVp8K9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E src/GPS|Jenkins
+M	src/GPS/Smartlog.Stm.Smes.GPS.Api/Controllers/GpsController.cs
+[8mha:////4PQOCw252DHhp3EjeSYWmLMJ1dJ9Z8bh2/n7FpzU1LKqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roP5qS8270AAAA=[0m[Pipeline] echo
+isBuildGPS: true
+[8mha:////4JmHUTtd9aRRhkBGOi51sXuOkP0tM1sQjXnqDEfce4U3AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEjcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AKbgkXL0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E src/GPS|Jenkins
+M	src/GPS/Smartlog.Stm.Smes.GPS.Api/Controllers/GpsController.cs
+[8mha:////4KdJW5pSks/uAAlWQK8a0Hsj8dCpI5HV0BFRdmVCSHq2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRHQhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2E+TbffcBaIk/Rb0AAAA=[0m[Pipeline] echo
+isBuildGEO: true
+[8mha:////4CGBR0T2hPg+ZHVIiIT1KFK+gXqvKNDMB/jm8TtarafEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPeIy7lr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E Jenkins|src/Smartlog.Stm.Smes.ApiGateway
+[8mha:////4C3EVx0YMxzO8b7RBKS4SxdfnOIXWgegBja71E/JBA+HAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPOb2gj70AAAA=[0m[Pipeline] echo
+isBuildApiGateway: false
+[8mha:////4ORvAuchF10+0ivZCoUv2WSbjkU7jmSdmyeor9AFNjioAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H+u6NpL0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E Jenkins|src/TaskManagementSystem
+[8mha:////4DhsnBzS+gHcMRVCtfjWSFlcKaay6iRZ6buVLAtMxwlGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9ALvflr29AAAA[0m[Pipeline] echo
+isBuildTaskManager: false
+[8mha:////4GfF031GyjPPo0/qMOfz9KsdKp1f3ctYyRMkjmsxFhn6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA3xJ1/K9AAAA[0m[Pipeline] sh
++ grep -E Jenkins|src/TaskManagementSystem
++ git diff --name-status HEAD~1..HEAD
+[8mha:////4BV6Lnp8He4Gk//Eh5962sNZBMqqVmqKiPYSkprdXEXBAAAApB+LCAAAAAAAAP9tjbEKwjAURW8rDq6OfkQKgiCIk2vo4hfENsa04b2avNpOfpG/5j9YLDh5p3vOcl5vLFPEkaNTjaXWU6q86kLvpqcGju018KAavqiKKXGwqrRDybU9zViyWMzLciw0VpaqwMmTE6x1Yx6mCIZccZY4uYNG7us7nsj0VBYT5QtjxObW14np1/kbwNgJsr0g3+66Dz14zOu9AAAA[0m[Pipeline] echo
+isBuildTaskManagerService: false
+[8mha:////4CAHdSCB/N6E/pwWVYAHuoYP62i6sUmwP2D4SPZYbX8nAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA/4r4cC9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E Jenkins|src/Smartlog.Stm.Smes.SignalR
+[8mha:////4O1kjRxKy00Zlj5bRo2nc0eSffxx9lIoog6tmJeW+UVsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a+tm9AAAA[0m[Pipeline] echo
+isBuildSignalR: false
+[8mha:////4PgqqbRMAQhVVi1nZqqeMmDs6Sph/tvxDurGif5RMUMNAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdkpSDfl/0HcAZiXr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep -E Jenkins|src/LocalServices
+[8mha:////4NtfyqwN6LZMoEMqCvvt2E12+9PPAgYxJsEho/e1JsdKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPMTd5R70AAAA=[0m[Pipeline] echo
+isBuildLocalService: false
+[8mha:////4GU0FxHLhLMfb7qcWAwVnNHE0Y3hANuDW4T2uFMbzTvQAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKXGO5a9AAAA[0m[Pipeline] }
+[8mha:////4PXkxQeYItC22qMJQBQmLHQxvvZ3tAOcBYWs61PrImjYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AITy5Du9AAAA[0m[Pipeline] // stage
+[8mha:////4Hp3edMkKwg5aefCZhibEoXkhOSzhrbp/L+3csa8FEOeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AJD/cPW9AAAA[0m[Pipeline] pwd
+[8mha:////4I+C8ab7avrndXfmOhwf/Jfymh5BI5Rwwajjh+3y6RIPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRTRKJBVLSWG15gYmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKUIB4pOdBZ7j6n1Ygijy01MFPtLoEl0dBYtYaJghbKTImOPCypiC0uKElYS1hbbQMmjY9jITt91HTS6+sQxb3sJpTc3eEAhs5l15C/MEbbX0STCn+evAOaBodgxlE3zOVZv8D5NGMEAAAA=[0m[Pipeline] load
+[8mha:////4FJBJQOPddeg2o1LGO9A80p4KYwXviMAa8mcnrILiVqLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (/home/jenkins/agent/workspace/stm-be-deliveree_production-sme/Jenkins.Base.groovy)
+[8mha:////4HT18TSRDXdgNFaRJFNIsX7AeGRiubbnN6A0jfQOabB5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3BriB4+S+AAAA[0m[Pipeline] }
+[8mha:////4OVFRv8rgpVoHgTtGX6TQJh6CESo2zfoJmSvk8beQbpRAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZMbGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DbVmE/y+AAAA[0m[Pipeline] // load
+[8mha:////4C4OZDoyhDrbxPhAgVqti+LC6bUgA39Ii6Mob58LdiT1AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIEGBqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A+Z83IPBAAAA[0m[Pipeline] load
+[8mha:////4CVu/77gdSBl/Kewz+UlV7s3oYanpWUp22nYalSgSd9hAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (/home/jenkins/agent/workspace/stm-be-deliveree_production-sme/Jenkinsfile-smartlog.Build.groovy)
+[8mha:////4MPEU6MQ1kaT8j3l5clvqf+5+Hk0vxkVuLTTw4LkEpvrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+gNl5q+AAAA[0m[Pipeline] }
+[8mha:////4ENVOGsSdMhMx95wttkny5p5Q+0jAm1O07sG3g3X3RdQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAP3+A6L4AAAA=[0m[Pipeline] // load
+[8mha:////4FIF8Aqpo0yK86KdV30CeuvYTF/fmmRuD8WFFlRf4xe0AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A3WhIpDBAAAA[0m[Pipeline] container
+[8mha:////4Ps+zaHrmqjt8KTDN2/rhYBcGC71nKTTUbyNkSKzaFtwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4FwPzeEDntqbCYXMGT07y3qfor2EzHgiFkhJttgy4t80AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4CtlyNC5jBpNrb60+SJ30kY2pwzUdSIlamNSFGpO3ZwhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4M9Wfh2DhSWLQ9y32cA2nqWXzpwwEtYXV/pgmK3mdPpHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // container
+[8mha:////4FEDtapzfVHqn9y0l92q2biKLNgIJRNtixzagQ3+TQEDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0Do1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AESxTlL0AAAA=[0m[Pipeline] echo
+Process build for production-sme branch
+[8mha:////4CumJMZ5PMLSvcpwPgIksh7XIFWLJBxAXZWm/NwheYrUAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvaEJ7RsEAAAA=[0m[Pipeline] container
+[8mha:////4JaeB/CKuXuuvibn8nWgds2jksbWLhdFpPyPAi+337k7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4F/5+ClzTJgAZyTu2Laj/31u/qYc1EF8bcJoO4Vf9BbwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ /tools/dotnet-gitversion . /showvariable SemVer
+[8mha:////4BWa/otkIzKLugGm51DziaT5fiIBvzpzPmJ1+6FH6ELnAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wATIMs3b4AAAA=[0m[Pipeline] echo
+SemVer: 0.1.3209-production-sme.52
+[8mha:////4PFFbhGBullimLh/FlqSayDYA4vS+mFPsk4VYLzrlrfCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJJCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDeCxVWr4AAAA=[0m[Pipeline] }
+[8mha:////4I6xeg/LLGenyp2wQnNjdGHOeVRYMPrhFhKcj9YeKiACAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIRAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAR0N+TL4AAAA=[0m[Pipeline] // container
+[8mha:////4H5FmEgn6+5X6ZBplqPn/HEJFmXkPYvia9cN4rOhzpdvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPY7Lm6L0AAAA=[0m[Pipeline] echo
+Version 0.1.3209-production-sme.52
+[8mha:////4K2E5pVal8uakbpKhJ6xBK8+DaYhK5q+cqdX61gPinOeAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LdtvsApCSnp70AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4MnJ47QRs+xHdAsE2bdhKx2r/xuPK2vONIWCrfEbcjwTAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRThQZR0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0B1+jErcEAAAA=[0m[Pipeline] stage
+[8mha:////4OdeGFzmth8KKHRWV+KZhqtp/aUH/81K5WY9Vl0/Fi2yAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] { (Build Be)
+[8mha:////4K+u00v/+fmSVXhJfkyETPZH78Z1/CavklzByT0lMbh6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] container
+[8mha:////4AfeRJ0kCZzT/+tOruUOz8EBz1Dfvx+z1AlWtvAqN/1UAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QiAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LDyb6zSXCAAAA[0m[Pipeline] {
+[8mha:////4MBGMda+K962EK4aAL0+AdpGea6QpKnzsnCGLtEfYLsZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN5s4RMC+AAAA[0m[Pipeline] sh
++ ls -la src/Smartlog.Stm.Smes/
+total 140
+drwxr-xr-x   12 1000     1000          4096 Mar 27 01:53 .
+drwxr-xr-x   18 1000     1000          4096 Mar 27 01:53 ..
+drwxr-xr-x    2 1000     1000           118 Mar 27 01:53 Attributes
+drwxr-xr-x    2 1000     1000            64 Mar 27 01:53 Binders
+drwxr-xr-x   16 1000     1000           324 Mar 27 01:53 Controllers
+drwxr-xr-x    2 1000     1000            63 Mar 27 01:53 DataTemplates
+-rw-r--r--    1 1000     1000           553 Mar 27 01:53 Dockerfile
+drwxr-xr-x    2 1000     1000            38 Mar 27 01:53 HostedService
+drwxr-xr-x    2 1000     1000          4096 Mar 27 01:53 Middlewares
+-rw-r--r--    1 1000     1000          4230 Mar 27 01:53 Program.cs
+drwxr-xr-x    2 1000     1000            33 Mar 27 01:53 Properties
+drwxr-xr-x    3 1000     1000            55 Mar 27 01:53 Report
+drwxr-xr-x    6 1000     1000           178 Mar 27 01:53 Resources
+-rw-r--r--    1 1000     1000          4520 Mar 27 01:53 Smartlog.Stm.Smes.csproj
+-rw-r--r--    1 1000     1000         29069 Mar 27 01:53 Startup.cs
+drwxr-xr-x    2 1000     1000            71 Mar 27 01:53 Swagger
+-rw-r--r--    1 1000     1000           159 Mar 27 01:53 appsettings.Development.json
+-rw-r--r--    1 1000     1000         18662 Mar 27 01:53 appsettings.json
+-rw-r--r--    1 1000     1000          8028 Mar 27 01:53 appsettings.sme.json
+-rw-r--r--    1 1000     1000         42557 Mar 27 01:53 sme-functions.json
++ docker build -f src/Smartlog.Stm.Smes/Dockerfile --build-arg 'version=0.1.3209-production-sme.52' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be:prod '--pull=true' .
+Sending build context to Docker daemon    103MB
+Step 1/10 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+Digest: sha256:ef18259e9c0570d28b874b6680b13d83cf0c6c2e7e2a2509a339aab5e88c16b4
+Status: Image is up to date for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> 7b6a689812d3
+Step 2/10 : WORKDIR /source
+ ---> Using cache
+ ---> a093da54364e
+Step 3/10 : COPY . .
+ ---> 21c23de408a7
+Step 4/10 : RUN cd src/Smartlog.Stm.Smes && dotnet restore
+ ---> Running in c6a85c65c2bc
+  Determining projects to restore...
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Queue/Smartlog.Stm.Smes.Domain.Queue.csproj (in 1.77 sec).
+  Restored /source/src/Smartlog.Stm.Smes.EFCore/Smartlog.Stm.Smes.EFCore.csproj (in 2.16 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Shared/Smartlog.Stm.Smes.Domain.Shared.csproj (in 5 ms).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj (in 3.03 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Cache/Smartlog.Stm.Smes.Domain.Cache.csproj (in 40 ms).
+  Restored /source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj (in 1.44 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj (in 1.05 sec).
+  Restored /source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj (in 4.39 sec).
+Removing intermediate container c6a85c65c2bc
+ ---> 7334a2674a99
+Step 5/10 : RUN cd src/Smartlog.Stm.Smes && dotnet publish -c release -o /app --no-restore
+ ---> Running in 9b2d10dd88cb
+MSBuild version 17.3.2+561848881 for .NET
+  Smartlog.Stm.Smes.Domain.Shared -> /source/src/Smartlog.Stm.Smes.Domain.Shared/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Shared.dll
+  Smartlog.Stm.Smes.Domain.Cache -> /source/src/Smartlog.Stm.Smes.Domain.Cache/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Cache.dll
+  Smartlog.Stm.Smes.Domain.Queue -> /source/src/Smartlog.Stm.Smes.Domain.Queue/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Queue.dll
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/POD/PODReqDto.cs(31,54): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(9,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(10,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(11,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(13,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(15,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/Integrations/EmployeeSyncReqDto.cs(16,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/ORD/OrderTransportationsCreateExcelReqDto.cs(7,59): warning CS0108: 'OrderTransportationsCreateExcelReqDto.Products' hides inherited member 'OrderTransportationsCreateReqDto.Products'. Use the new keyword if hiding was intended. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/ORD/OrderCreateExcelItemReqDto.cs(9,67): warning CS0108: 'OrderCreateExcelItemReqDto.Transportations' hides inherited member 'OrderCreateReqDto.Transportations'. Use the new keyword if hiding was intended. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/CAT/DrivingLicenceCreateReqDto.cs(14,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Requests/CAT/DrivingLicenceUpdateReqDto.cs(16,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/FIN/CustomerComparisonResDto.cs(20,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/FIN/CustomerComparisonResDto.cs(23,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/OPS/DIAutoplanVehicleResDto.cs(72,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/OPS/DIAutoplanVehicleResDto.cs(73,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/OPS/DIAutoplanVehicleResDto.cs(78,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/OPS/DIAutoplanVehicleResDto.cs(79,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/OPS/DIOrderTagResDto.cs(131,48): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/FIN/VendorComparisonResDto.cs(11,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/FIN/VendorComparisonResDto.cs(32,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/FIN/VendorComparisonTransportInfoResDto.cs(24,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/CAT/StandResDto.cs(80,25): warning CS0108: 'StandResDto.CreatedDate' hides inherited member 'BaseResDto.CreatedDate'. Use the new keyword if hiding was intended. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/SelectedItemResDto.cs(9,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/SelectedItemResDto.cs(10,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/SelectedItemResDto.cs(11,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/SelectedItemResDto.cs(12,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(393,23): warning CS8618: Non-nullable property 'RegNo' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(398,23): warning CS8618: Non-nullable property 'GPSCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(403,23): warning CS8618: Non-nullable property 'GPSCodeMobile' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(357,23): warning CS8618: Non-nullable property 'LocationName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(358,23): warning CS8618: Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(359,23): warning CS8618: Non-nullable property 'DistrictName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(360,23): warning CS8618: Non-nullable property 'ProvinceName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(361,23): warning CS8618: Non-nullable property 'WardName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(364,23): warning CS8618: Non-nullable property 'JsonData_CancelPickUp' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(365,23): warning CS8618: Non-nullable property 'JsonData_CancelDelivery' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(377,23): warning CS8618: Non-nullable property 'StatusName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(344,23): warning CS8618: Non-nullable property 'ProductGroupName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(347,23): warning CS8618: Non-nullable property 'ProductName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(261,23): warning CS8618: Non-nullable property 'Code' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(271,23): warning CS8618: Non-nullable property 'DriverName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(276,23): warning CS8618: Non-nullable property 'DriverTel' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(284,23): warning CS8618: Non-nullable property 'VendorName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(288,23): warning CS8618: Non-nullable property 'VendorShortName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(306,23): warning CS8618: Non-nullable property 'TransportationStatus' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(336,57): warning CS8618: Non-nullable property 'ShipmentDetails' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(338,48): warning CS8618: Non-nullable property 'Routes' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(245,16): warning CS8618: Non-nullable property 'Trips' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(145,48): warning CS8618: Non-nullable property 'PickupLocation' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(150,48): warning CS8618: Non-nullable property 'DeliveryLocation' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(160,23): warning CS8618: Non-nullable property 'ProductCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(165,23): warning CS8618: Non-nullable property 'ProductName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(175,23): warning CS8618: Non-nullable property 'GroupOfProductCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(180,23): warning CS8618: Non-nullable property 'GroupOfProductName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(205,23): warning CS8618: Non-nullable property 'StatusCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(230,23): warning CS8618: Non-nullable property 'DITOMasterCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(99,23): warning CS8618: Non-nullable property 'Code' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(104,23): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(109,23): warning CS8618: Non-nullable property 'Address' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(23,23): warning CS8618: Non-nullable property 'Code' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(33,23): warning CS8618: Non-nullable property 'CustomerShortName' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(38,23): warning CS8618: Non-nullable property 'StatusOfOrderCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(48,23): warning CS8618: Non-nullable property 'StatusOfPlanCode' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(73,49): warning CS8618: Non-nullable property 'Transportations' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.DTO/Responses/ORD/OrderTrackingResDto.cs(78,51): warning CS8618: Non-nullable property 'Shipments' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.DTO/Smartlog.Stm.Smes.Domain.DTO.csproj]
+  Smartlog.Stm.Smes.Domain.DTO -> /source/src/Smartlog.Stm.Smes.Domain.DTO/bin/release/net6.0/Smartlog.Stm.Smes.Domain.DTO.dll
+/source/src/Smartlog.Stm.Smes.EFCore/Entities/FLM_ReceiptDetail.cs(12,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.EFCore/Smartlog.Stm.Smes.EFCore.csproj]
+  Smartlog.Stm.Smes.EFCore -> /source/src/Smartlog.Stm.Smes.EFCore/bin/release/net6.0/Smartlog.Stm.Smes.EFCore.dll
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/IDLVRApiService.cs(42,86): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/IDLVRApiService.cs(43,46): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/IDLVRApiService.cs(43,99): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/IDLVRApiService.cs(44,42): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/IDLVRApiService.cs(44,87): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/ServicesApi/Models/EmployeeUpdateReqDto.cs(8,16): warning CS8618: Non-nullable property 'Identity' must contain a non-null value when exiting constructor. Consider declaring the property as nullable. [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+/source/src/Smartlog.Stm.Smes.Domain.Contracts/Utilities/FinanceHelper.cs(718,30): warning CS0168: The variable 'ex' is declared but never used [/source/src/Smartlog.Stm.Smes.Domain.Contracts/Smartlog.Stm.Smes.Domain.Contracts.csproj]
+  Smartlog.Stm.Smes.Domain.Contracts -> /source/src/Smartlog.Stm.Smes.Domain.Contracts/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Contracts.dll
+/source/src/Smartlog.Stm.Smes.Domain/Services/Mobile/MobileService.Driver.Distribution.cs(155,126): warning CS8629: Nullable value type may be null. [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Extensions/StmDbContextExtensions.FINCalculation.cs(1070,30): warning CS0168: The variable 'ex' is declared but never used [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/Mobile/MobileService.Driver.Distribution.cs(175,126): warning CS8629: Nullable value type may be null. [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/Mobile/MobileService.Driver.Distribution.cs(195,126): warning CS8629: Nullable value type may be null. [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Extensions/StmDbContextExtensions.FINCalculation.cs(1239,30): warning CS0168: The variable 'ex' is declared but never used [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/Mobile/MobileService.Driver.Distribution.cs(284,29): warning CS8604: Possible null reference argument for parameter 'source' in 'bool Enumerable.Any<DITOLocationJsonDataCancel>(IEnumerable<DITOLocationJsonDataCancel> source)'. [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/OPS/OperationService.cs(521,43): warning CS0219: The variable 'statusSummaryResDto' is assigned but its value is never used [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Extensions/StmDbContextExtensions.FINCalculation.cs(2342,30): warning CS0168: The variable 'ex' is declared but never used [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/Mobile/MobileService.Driver.Distribution.cs(1393,48): warning CS8602: Dereference of a possibly null reference. [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+/source/src/Smartlog.Stm.Smes.Domain/Services/Integrations/TenantIntegrationsService.cs(2099,17): warning CA2200: Re-throwing caught exception changes stack information [/source/src/Smartlog.Stm.Smes.Domain/Smartlog.Stm.Smes.Domain.csproj]
+  Smartlog.Stm.Smes.Domain -> /source/src/Smartlog.Stm.Smes.Domain/bin/release/net6.0/Smartlog.Stm.Smes.Domain.dll
+/source/src/Smartlog.Stm.Smes/Controllers/Mobile/MobileController.Manager.cs(98,34): warning CS1570: XML comment has badly formed XML -- 'Whitespace is not allowed at this location.' [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/Mobile/MobileController.Manager.cs(111,38): warning CS1570: XML comment has badly formed XML -- 'Whitespace is not allowed at this location.' [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/ContractsController.ContractTerms.cs(378,116): warning CS1573: Parameter 'id' has no matching param tag in the XML comment for 'ContractsController.GetPricesGroupLocationAllAsync(Guid, IEnumerable<Guid>, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/GroupOfTroublesController.cs(35,26): warning CS1572: XML comment has a param tag for 'model', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/GroupOfTroublesController.cs(39,83): warning CS1573: Parameter 'groupOfTroubleCreateReqDto' has no matching param tag in the XML comment for 'GroupOfTroublesController.CreateAsync(GroupOfTroubleCreateReqDto)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(104,26): warning CS1572: XML comment has a param tag for 'catLocationId', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(108,112): warning CS1573: Parameter 'id' has no matching param tag in the XML comment for 'LocationsController.GetCustomersByLocationIdAsync(Guid, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(108,146): warning CS1573: Parameter 'filterParams' has no matching param tag in the XML comment for 'LocationsController.GetCustomersByLocationIdAsync(Guid, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(117,26): warning CS1572: XML comment has a param tag for 'catLocationId', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(121,110): warning CS1573: Parameter 'id' has no matching param tag in the XML comment for 'LocationsController.GetPartnersByLocationIdAsync(Guid, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CAT/LocationsController.cs(121,144): warning CS1573: Parameter 'filterParams' has no matching param tag in the XML comment for 'LocationsController.GetPartnersByLocationIdAsync(Guid, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/OPS/AutoPlanningsController.cs(285,149): warning CS1573: Parameter 'vehicleExcludeIds' has no matching param tag in the XML comment for 'AutoPlanningsController.GetVendorVehiclesAsync(DataSourceRequest, List<Guid>)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/CUS/CustomersController.cs(398,180): warning CS1573: Parameter 'filterParams' has no matching param tag in the XML comment for 'CustomersController.GetCatLocationsNotInPartnerAsync(Guid, Guid, DataSourceRequest)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FIN/ProfitsController.cs(221,26): warning CS1572: XML comment has a param tag for 'order', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FIN/ProfitsController.cs(225,109): warning CS1573: Parameter 'profitOfOrder' has no matching param tag in the XML comment for 'ProfitsController.UpdateOrderForRevenueAsync(Guid, ProfitRevenueOrderUpdateReqDto)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/DriverContractsController.cs(151,92): warning CS1573: Parameter 'driverFeeId' has no matching param tag in the XML comment for 'DriverContractsController.UpdateAsync(Guid, Guid, CatDriverFeeUpdateReqDto)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/DriverContractsController.cs(378,69): warning CS1573: Parameter 'id' has no matching param tag in the XML comment for 'DriverContractsController.DeleteFilterRoutingAsync(Guid, IEnumerable<Guid>)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/DriverContractsController.cs(390,26): warning CS1572: XML comment has a param tag for 'ids', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/DriverContractsController.cs(391,26): warning CS1572: XML comment has a param tag for 'filterParams', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/DriverContractsController.cs(395,130): warning CS1573: Parameter 'req' has no matching param tag in the XML comment for 'DriverContractsController.GetFilterLocationsAllAsync(PriceLocationFilterReqDto)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/FLM/ReceiptsRepairController.cs(145,9): warning CS1587: XML comment is not placed on a valid language element [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/Mobile/MobileController.Driver.cs(239,26): warning CS1572: XML comment has a param tag for 'stationId', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/Mobile/MobileController.Driver.cs(240,26): warning CS1572: XML comment has a param tag for 'typeOfStationId', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/MonitorController.cs(525,26): warning CS1572: XML comment has a param tag for 'note', but there is no parameter by that name [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/MonitorController.cs(529,115): warning CS1573: Parameter 'updateDto' has no matching param tag in the XML comment for 'MonitorController.UpdateDITOMasterNoteAsync(Guid, DITOMasterNoteUpdateDto)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/OPS/OperationController.cs(624,130): warning CS1573: Parameter 'orderedLocations' has no matching param tag in the XML comment for 'OperationController.CheckDLVRVehicleSetting(int, List<DIOrderCreateTripLocationReqDto>)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+/source/src/Smartlog.Stm.Smes/Controllers/SYS/EventsController.cs(78,126): warning CS1573: Parameter 'updateReqDtos' has no matching param tag in the XML comment for 'EventsController.UpdateEventUsersAsync(Guid, IList<EventUserUpdateReqDto>)' (but other parameters do) [/source/src/Smartlog.Stm.Smes/Smartlog.Stm.Smes.csproj]
+  Smartlog.Stm.Smes -> /source/src/Smartlog.Stm.Smes/bin/release/net6.0/Smartlog.Stm.Smes.dll
+  Smartlog.Stm.Smes -> /app/
+Removing intermediate container 9b2d10dd88cb
+ ---> 5d114491c0cd
+Step 6/10 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+Digest: sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+Status: Image is up to date for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> d18ea9795cde
+Step 7/10 : WORKDIR /app
+ ---> Using cache
+ ---> e309524e9a9e
+Step 8/10 : COPY --from=build /app .
+ ---> 2b46de9d7789
+Step 9/10 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in 071ec4a4967f
+Removing intermediate container 071ec4a4967f
+ ---> 509d6fbd9f9f
+Step 10/10 : ENTRYPOINT ["dotnet", "Smartlog.Stm.Smes.dll"]
+ ---> Running in 36d60ce537a6
+Removing intermediate container 36d60ce537a6
+ ---> 8e20b7409670
+[Warning] One or more build-args [version] were not consumed
+Successfully built 8e20b7409670
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be:prod
++ docker login -u AWS -p eyJwYXlsb2FkIjoiRHZJWmRLVi9BeTZDSXdYQ2RJeitDR0RWSThGeGo1SUIyTk9JaXJvQXJHU1F1RXJIb0MvVmRpZ012c2dKazQ0L0pXNDhPVk54eE5uVmNyd3huUDkwTGtSVC9ZV1l2SnRJVmdvTWpiRDFpb05UZ0hTY0p4RjBiamIzWkF1NFNmNE84eFVXdFZyZGYxSEVIY0xMQlRzT0hZakk5M3h5Sm0zNDdHU1YyeTJ3UHY2NStjbkdYZVJOaWhxVmY0dmVHMHhsZjVVS1MwdDg5MDRYK2tucEFBaGwxaG5OaktiSm9LTGMvMGo2Q2tRaXg5cFpSNjlUeVZ5ZXZNUlBTaW1aa1l3WkttcEdsb2dna0h0K2MwTFNBKzhKbmdrbXp5NzFTTjJIeDlHa1VGWmVVMG56VjRzYlhrWmE2SGthMDM4YnhYSXlucDk0Q1l6UDdmQkdsUS9rQnVDWGMxL2FKSDF2VnFRMG5KTWNuSmZQZWM4Q3E3TUhwekhYbE9HY2lyeldCY3JOK2k0UzFrRWNJb2tSS2VRMWVUK21ZbStKUFdzUzFJWE53M0FNTjl6SmlZSkw0OHhGbTdSNjJsYnZhMHNPT0pyMWQrVGR1MVl6SXNCckdpSVIwWjA0Y01JemRWL1FNVDN4ZHlPd2RidUxGblpFK3pJRXFsb3FpdXdmVE11VGRQNGhuMm9yak8wRGlJQkQ2aU5WWkRPNFUxa0hxZmQ4NkNWSlFhTHpKc2I3THpoZ21WWEpLMVczemxHSzhSb1ZNYm9oZjZZWFJPdjNvaFh2UjZLMVdMWmVRZkVQc0hlb1N6NXB1YmFqVGdKZVVVS05XZFgyMGlhS1Q3a2E4WlZWdVR6TnFsb0ZoK2hUVklFcTZDV1ZWdS92L1R5R3RBUC9PZXBkZEdZbkxUNktvTXlhY0lyS3lhdmJTNVFJYzN1bDB3U2pGd2RidWJuTWZLTHdEUlp3YTZ2Vk9mNnhKd2I2WE9nRW1CV0l0VVNpZmZPTjZpRjA1MmQrOXBscUdEQktMN0RLamNqTitqM0t6Q3hTOVpXYWpEM3diamZzV3VaZGdFejZjOFg3dE8xOTBsNDhaM2Qyd3B1TjBZOHhPeUYxK1ZiWllnb0hQUXlNR1JqUFd1SGVILy9qQjZocE1uT204Nys3MmY2Z3JLTnJhMHhHaGdBb0loQmxjQ0E1N2lsSEU5WGVSVStjVEpOL3pzd0hFNEVIRTY2aEUwT3YrelhPdk5rbHlJS2p5MHRBQ0p3czhRakdxU1lUbW53bU8ySWUzbEVscGZHNDRPMVROY3owN21XNDRyZkZwN01lblRDM3ZQODNTeTFxUXdHMTUvcGdXblZkRk5sZTFGU0dUQ2RZZkl6dWhQWkdxYU9GZjFrd216bHdKOE93SWI4QUhqS2RuV1dZSjAybnRYQkRBZ3BycTVQSE0rSXhYTS9zSTJ2ZXY5eGd3T2prb3drdXlTSmZ4SVZwWmM3QittbnhzbDNMTGFUK243K0lvZEduN0N2U00rSW12MUJrb3phaEdadjhQV3RmRGM3eStNbXJ3SUt5SUpsVWFCSzd5VFNnZmhYVnVhY1M0UXJxS0lJd3pDS1c0dDJrYXVkRytQdFc5eXpBT29oMzdoTWwzcEJBT0JUVjZnWWlRemkzZi9mVDg4bTJXU1lhN0QvRHZhS2Y2eVFQQkozMHFzblcvSjc5dVcxQThRaUhBMnIwbTQ1czU3cmZBRVQrdjdHOHNTVEtoV0xLclJjVm1laWlTMWtvWlZ1UWJ5SEhDYTRhQUdPRWsvSzE1UGZRZzJleVhNY1FrK2VoVEs4NFhZbjEvd2ZPbXNzUWxqaExOUThyVU9yelNwZWsrdUF5a0p0TWpLQlRMdDdFNzdDa1JjdS84OFIwdnR1d0ZtQit0OTc3SllmbytvMjhIVGZsU3F5Qlk5OGNWSzRBOU4vQ3JXYVdTZk9NWWo3a1E1SGZ5aDZnVG1aSGlDLyt5dnIxUmRaMVNCWUpZeHJ5M3NGbkxLc203M3liVW9XV1dCOWFzS1ZJeEdOWjFDY3lUb1Q0NkxHdUR0SmhiN20wNjB6SjNEbHZjUXJnWDlMTWViMlY0Y3cvMDZZY0VUVWdjbk5PTWhoMjUrSnN1QnkzTnp0TGl3VVkyTmJDb3ZqMWxmWFBzR1dzRFQrbTNRL3R4ZXp2aFk5azlZcXRScUxUZ0xZLzBSZGgzdE5jbXQySU81YklmQVRpTlVBakZWQnNZRUlJYkdDdDVpcE5UUHpMUnJNSEVhdjVFWXh3K2YwUXRwTXVYUERaMEhiMXp3NHozL0NHSDlUb0VBTkhHUjcxT1NGSTlQNlhqWTdadFQ3U3B1YkdJUDZoMHh3Wm5yeGNLMU1xY2xjTmhyVHM3NXhDV0NTenZtRm5QbXl2NnZ6VVUzMWliK1ZiRnBZUUhCdThrbnRxSk9tTFhnbGVMalVZN095S1J4SlkzNzV3YlJEZnJIemIySkFmbk91WjA5TS9sU3NpUTVHR3BSMWhNREZyV3Y1bWdSRUo4VGllbHNIT2hmSks3NXY2Yk9VQTczY2Fib0trME5zKzc2NWJqSGV2Vzgwc1hqSm9CNjhuZjhYRmtybXhaRkozR3lBczJaaGRoMzgzTjNuSXBPR21RZSt4N1kyQ0ZnPT0iLCJkYXRha2V5IjoiQVFFQkFIaWRFclpDZmhLT2VETTA4K2NQNWZ0eWp2UTlYTU1TUTRwSzBGWm52QVpYSmdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREpwY3dmWWtYQUQ0aDN3SEdBSUJFSUE3S0c2TnFkWEk4RllSeWxVQS9vM21leDJoZ01SNlkwUGxLaERCSFJibFpEQlpPenRPdXNzSG9SQkh5a0grS0pMYzdGS0V3cTFYYmROMi9mVT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE2Nzk5MjUyMjN9 https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be]
+3d974a369fa5: Preparing
+10e7a5808355: Preparing
+b057de56bd6c: Preparing
+8311470140e5: Preparing
+fff45769f1dd: Preparing
+be54b6aa2854: Preparing
+3af14c9a24c9: Preparing
+be54b6aa2854: Waiting
+3af14c9a24c9: Waiting
+8311470140e5: Layer already exists
+fff45769f1dd: Layer already exists
+b057de56bd6c: Layer already exists
+10e7a5808355: Layer already exists
+be54b6aa2854: Layer already exists
+3af14c9a24c9: Layer already exists
+3d974a369fa5: Pushed
+prod: digest: sha256:ba812e7b398cf1a67cbb49e004b030f20cadce37dc3dc74fd06201966330a5ba size: 1790
+[8mha:////4E4mWNKUu514vAUDfZXtx3N4eEhWm+Jx3qVJND/NbzAEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCA0JCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8B1Pq5vgAAAA==[0m[Pipeline] }
+[8mha:////4CoRkk9zd4Tn9UyBBdJifhIrvbUCAFUosjUqeGgHPJtzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw81GhnivgAAAA==[0m[Pipeline] // container
+[8mha:////4CpW1ifQbl67ht6J+7FxIlsfPMVsnDUhq4NR8NbmAcltAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQqILYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlvsnW7D7P6g0dHDB0wgAAAA==[0m[Pipeline] container
+[8mha:////4D0myw0xsqlHAUXXtNbjU3JXobEzC93VePkR1ApYoWBTAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAokFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADKbit4wgAAAA==[0m[Pipeline] {
+[8mha:////4GLphvT94ImmXk98mGgokLAXGT5heJMo30zRtXOfHpYUAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN5arJPu+AAAA[0m[Pipeline] sh
++ date '+%s'
++ kubectl patch deployment stm-sme-be-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1679882140"}}}}}' -n stmsme
+deployment.apps/stm-sme-be-prod patched
++ kubectl rollout status deployment stm-sme-be-prod -n stmsme
+Waiting for deployment "stm-sme-be-prod" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "stm-sme-be-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "stm-sme-be-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "stm-sme-be-prod" successfully rolled out
+[8mha:////4A2GIBSBp6SMzBbJCogiSZZLAL/xopo2CS7NqBvwi/JnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN/nPyFW+AAAA[0m[Pipeline] }
+[8mha:////4KgVu28oFQz9DL7WY+mCE4KgORZxHbDxcv3zFROsVS2mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUaRBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUzeJyjr+lP7N8GNW6S+AAAA[0m[Pipeline] // container
+[8mha:////4DJ+JINZILLTr7tUHEE7xdHBHmb3WSOWTux5DNQVzLNmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKpCAWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGV9yLWvP77JR0O+AAAA[0m[Pipeline] }
+[8mha:////4P4bszmuYmF2U7clE7UaKIy7Fmj8Kuq/cWi851Lo+jMDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBSEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHRKhgrvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KfO5MMpKexxjSzBFqltOpeOaM+1Zr39x3bHU4rE1dVyAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6JsJMY4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOTlvv8AsORPEL0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4P0+rn2SeZPckJVew2g1oybJqjhfnC87tsjvjxLN9JZYAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRDBQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2G0+x/INTWiWasEAAAA=[0m[Pipeline] stage
+[8mha:////4MSsnbghiwdA58y0gRn3yaV5wSX4vo698J5VpNsuZ43yAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdsxXVDCAAAA[0m[Pipeline] { (Build ApiGateway)
+[8mha:////4PX7supAGdokGzkmHQzFHjxJdDxITJuASDmeDKKgjjALAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5ikrxm+AAAA[0m[Pipeline] }
+[8mha:////4O+Tz69h5ohN1s0c4hQR9CE9x7qmriw0P5QFypwZcGDLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgGrR/SlvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EycUwm96zw2VE3ZL5/cjX17KiYgZEE5w732qhrzivlYAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDfb7sPyvAjpL0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4IKnHKZC+Ae9q7u3blbV8LVg5b/xZPe6wE23SY6wRMkSAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTAQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxJah2G0+x/IN/vlbOsEAAAA=[0m[Pipeline] stage
+[8mha:////4CdlAs2TgLo8PPjWGw86nNGkf6MEL2wXKEoTLWGOcCKpAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxASGtDzzCAAAA[0m[Pipeline] { (Build GPS)
+[8mha:////4JDfbrwsyoLpQ+kzdOg/8ZDsLZltXh7RZlS0OF/Z2NZiAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0owNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPhRixbsIAAAA=[0m[Pipeline] container
+[8mha:////4Iut7MWfKAhahwDeQ6fmo1g5g2mj/BwYSaQbPtOfmK83AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] {
+[8mha:////4EZgA3lqAvkGiQqUAT17a5E80GGFwCryUowQKKEjkvO9AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] sh
++ ls -la src/GPS/Smartlog.Stm.Smes.GPS.Api/
+total 28
+drwxr-xr-x   10 1000     1000           258 Mar 27 01:53 .
+drwxr-xr-x    5 1000     1000           121 Mar 27 01:53 ..
+drwxr-xr-x    2 1000     1000            77 Mar 27 01:53 Attributes
+drwxr-xr-x    2 1000     1000            64 Mar 27 01:53 Binders
+drwxr-xr-x    2 1000     1000           116 Mar 27 01:53 Controllers
+-rw-r--r--    1 1000     1000           575 Mar 27 01:53 Dockerfile
+drwxr-xr-x    2 1000     1000           140 Mar 27 01:53 Middleware
+drwxr-xr-x    2 1000     1000            46 Mar 27 01:53 Models
+-rw-r--r--    1 1000     1000          2528 Mar 27 01:53 Program.cs
+drwxr-xr-x    2 1000     1000            84 Mar 27 01:53 Properties
+-rw-r--r--    1 1000     1000          2785 Mar 27 01:53 Smartlog.Stm.Smes.GPS.Api.csproj
+-rw-r--r--    1 1000     1000          7541 Mar 27 01:53 Startup.cs
+drwxr-xr-x    2 1000     1000            27 Mar 27 01:53 Templates
+-rw-r--r--    1 1000     1000          4404 Mar 27 01:53 appsettings.json
+drwxr-xr-x    2 1000     1000            25 Mar 27 01:53 wwwroot
++ docker build -f src/GPS/Smartlog.Stm.Smes.GPS.Api/Dockerfile --build-arg 'version=0.1.3209-production-sme.52' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-gps:prod '--pull=true' .
+Sending build context to Docker daemon    103MB
+Step 1/15 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+Digest: sha256:ef18259e9c0570d28b874b6680b13d83cf0c6c2e7e2a2509a339aab5e88c16b4
+Status: Image is up to date for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> 7b6a689812d3
+Step 2/15 : WORKDIR /source
+ ---> Using cache
+ ---> a093da54364e
+Step 3/15 : COPY . .
+ ---> Using cache
+ ---> 21c23de408a7
+Step 4/15 : RUN cd src/GPS/Smartlog.Stm.Smes.GPS.Api && dotnet restore
+ ---> Running in 1cd45dba8e56
+  Determining projects to restore...
+  Restored /source/src/GPS/Smartlog.Stm.Smes.GPS.Infrastructure/Smartlog.Stm.Smes.GPS.Infrastructure.csproj (in 1.66 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Shared/Smartlog.Stm.Smes.Domain.Shared.csproj (in 2.19 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Queue/Smartlog.Stm.Smes.Domain.Queue.csproj (in 514 ms).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Cache/Smartlog.Stm.Smes.Domain.Cache.csproj (in 2.19 sec).
+  Restored /source/src/GPS/Smartlog.Stm.Smes.GPS.Services/Smartlog.Stm.Smes.GPS.Services.csproj (in 2.56 sec).
+  Restored /source/src/GPS/Smartlog.Stm.Smes.GPS.Api/Smartlog.Stm.Smes.GPS.Api.csproj (in 2.03 sec).
+Removing intermediate container 1cd45dba8e56
+ ---> 0b089dcc60a1
+Step 5/15 : RUN cd src/GPS/Smartlog.Stm.Smes.GPS.Api && dotnet publish -c release -o /app --no-restore
+ ---> Running in d4f0ff9f22db
+MSBuild version 17.3.2+561848881 for .NET
+  Smartlog.Stm.Smes.Domain.Shared -> /source/src/Smartlog.Stm.Smes.Domain.Shared/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Shared.dll
+  Smartlog.Stm.Smes.GPS.Infrastructure -> /source/src/GPS/Smartlog.Stm.Smes.GPS.Infrastructure/bin/release/net6.0/Smartlog.Stm.Smes.GPS.Infrastructure.dll
+  Smartlog.Stm.Smes.Domain.Cache -> /source/src/Smartlog.Stm.Smes.Domain.Cache/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Cache.dll
+  Smartlog.Stm.Smes.Domain.Queue -> /source/src/Smartlog.Stm.Smes.Domain.Queue/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Queue.dll
+  Smartlog.Stm.Smes.GPS.Services -> /source/src/GPS/Smartlog.Stm.Smes.GPS.Services/bin/release/net6.0/Smartlog.Stm.Smes.GPS.Services.dll
+/source/src/GPS/Smartlog.Stm.Smes.GPS.Api/Middleware/ExceptionMidleware.cs(58,17): warning SYSLIB0020: 'JsonSerializerOptions.IgnoreNullValues' is obsolete: 'JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.' [/source/src/GPS/Smartlog.Stm.Smes.GPS.Api/Smartlog.Stm.Smes.GPS.Api.csproj]
+  Smartlog.Stm.Smes.GPS.Api -> /source/src/GPS/Smartlog.Stm.Smes.GPS.Api/bin/release/net6.0/Smartlog.Stm.Smes.GPS.Api.dll
+  Smartlog.Stm.Smes.GPS.Api -> /app/
+Removing intermediate container d4f0ff9f22db
+ ---> 81d4a0dd6586
+Step 6/15 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+Digest: sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+Status: Image is up to date for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> d18ea9795cde
+Step 7/15 : RUN apt-get update
+ ---> Using cache
+ ---> f1392c1ac9b0
+Step 8/15 : RUN apt-get install -y apt-utils
+ ---> Using cache
+ ---> 82b5e908f21f
+Step 9/15 : RUN apt-get install -y libgdiplus
+ ---> Using cache
+ ---> cab9e3a54bef
+Step 10/15 : RUN apt-get install -y libc6-dev
+ ---> Using cache
+ ---> 3793f89cdef0
+Step 11/15 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Using cache
+ ---> 11fe13c4a4f9
+Step 12/15 : WORKDIR /app
+ ---> Using cache
+ ---> 8dfd4d12e397
+Step 13/15 : COPY --from=build /app .
+ ---> 832ae7c05eaf
+Step 14/15 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in 72376e8ec22c
+Removing intermediate container 72376e8ec22c
+ ---> 82e1166470cd
+Step 15/15 : ENTRYPOINT ["dotnet", "Smartlog.Stm.Smes.GPS.Api.dll"]
+ ---> Running in 4c21f02c20b7
+Removing intermediate container 4c21f02c20b7
+ ---> 59678ef6f84c
+[Warning] One or more build-args [version] were not consumed
+Successfully built 59678ef6f84c
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-gps:prod
++ docker login -u AWS -p eyJwYXlsb2FkIjoiRHZJWmRLVi9BeTZDSXdYQ2RJeitDR0RWSThGeGo1SUIyTk9JaXJvQXJHU1F1RXJIb0MvVmRpZ012c2dKazQ0L0pXNDhPVk54eE5uVmNyd3huUDkwTGtSVC9ZV1l2SnRJVmdvTWpiRDFpb05UZ0hTY0p4RjBiamIzWkF1NFNmNE84eFVXdFZyZGYxSEVIY0xMQlRzT0hZakk5M3h5Sm0zNDdHU1YyeTJ3UHY2NStjbkdYZVJOaWhxVmY0dmVHMHhsZjVVS1MwdDg5MDRYK2tucEFBaGwxaG5OaktiSm9LTGMvMGo2Q2tRaXg5cFpSNjlUeVZ5ZXZNUlBTaW1aa1l3WkttcEdsb2dna0h0K2MwTFNBKzhKbmdrbXp5NzFTTjJIeDlHa1VGWmVVMG56VjRzYlhrWmE2SGthMDM4YnhYSXlucDk0Q1l6UDdmQkdsUS9rQnVDWGMxL2FKSDF2VnFRMG5KTWNuSmZQZWM4Q3E3TUhwekhYbE9HY2lyeldCY3JOK2k0UzFrRWNJb2tSS2VRMWVUK21ZbStKUFdzUzFJWE53M0FNTjl6SmlZSkw0OHhGbTdSNjJsYnZhMHNPT0pyMWQrVGR1MVl6SXNCckdpSVIwWjA0Y01JemRWL1FNVDN4ZHlPd2RidUxGblpFK3pJRXFsb3FpdXdmVE11VGRQNGhuMm9yak8wRGlJQkQ2aU5WWkRPNFUxa0hxZmQ4NkNWSlFhTHpKc2I3THpoZ21WWEpLMVczemxHSzhSb1ZNYm9oZjZZWFJPdjNvaFh2UjZLMVdMWmVRZkVQc0hlb1N6NXB1YmFqVGdKZVVVS05XZFgyMGlhS1Q3a2E4WlZWdVR6TnFsb0ZoK2hUVklFcTZDV1ZWdS92L1R5R3RBUC9PZXBkZEdZbkxUNktvTXlhY0lyS3lhdmJTNVFJYzN1bDB3U2pGd2RidWJuTWZLTHdEUlp3YTZ2Vk9mNnhKd2I2WE9nRW1CV0l0VVNpZmZPTjZpRjA1MmQrOXBscUdEQktMN0RLamNqTitqM0t6Q3hTOVpXYWpEM3diamZzV3VaZGdFejZjOFg3dE8xOTBsNDhaM2Qyd3B1TjBZOHhPeUYxK1ZiWllnb0hQUXlNR1JqUFd1SGVILy9qQjZocE1uT204Nys3MmY2Z3JLTnJhMHhHaGdBb0loQmxjQ0E1N2lsSEU5WGVSVStjVEpOL3pzd0hFNEVIRTY2aEUwT3YrelhPdk5rbHlJS2p5MHRBQ0p3czhRakdxU1lUbW53bU8ySWUzbEVscGZHNDRPMVROY3owN21XNDRyZkZwN01lblRDM3ZQODNTeTFxUXdHMTUvcGdXblZkRk5sZTFGU0dUQ2RZZkl6dWhQWkdxYU9GZjFrd216bHdKOE93SWI4QUhqS2RuV1dZSjAybnRYQkRBZ3BycTVQSE0rSXhYTS9zSTJ2ZXY5eGd3T2prb3drdXlTSmZ4SVZwWmM3QittbnhzbDNMTGFUK243K0lvZEduN0N2U00rSW12MUJrb3phaEdadjhQV3RmRGM3eStNbXJ3SUt5SUpsVWFCSzd5VFNnZmhYVnVhY1M0UXJxS0lJd3pDS1c0dDJrYXVkRytQdFc5eXpBT29oMzdoTWwzcEJBT0JUVjZnWWlRemkzZi9mVDg4bTJXU1lhN0QvRHZhS2Y2eVFQQkozMHFzblcvSjc5dVcxQThRaUhBMnIwbTQ1czU3cmZBRVQrdjdHOHNTVEtoV0xLclJjVm1laWlTMWtvWlZ1UWJ5SEhDYTRhQUdPRWsvSzE1UGZRZzJleVhNY1FrK2VoVEs4NFhZbjEvd2ZPbXNzUWxqaExOUThyVU9yelNwZWsrdUF5a0p0TWpLQlRMdDdFNzdDa1JjdS84OFIwdnR1d0ZtQit0OTc3SllmbytvMjhIVGZsU3F5Qlk5OGNWSzRBOU4vQ3JXYVdTZk9NWWo3a1E1SGZ5aDZnVG1aSGlDLyt5dnIxUmRaMVNCWUpZeHJ5M3NGbkxLc203M3liVW9XV1dCOWFzS1ZJeEdOWjFDY3lUb1Q0NkxHdUR0SmhiN20wNjB6SjNEbHZjUXJnWDlMTWViMlY0Y3cvMDZZY0VUVWdjbk5PTWhoMjUrSnN1QnkzTnp0TGl3VVkyTmJDb3ZqMWxmWFBzR1dzRFQrbTNRL3R4ZXp2aFk5azlZcXRScUxUZ0xZLzBSZGgzdE5jbXQySU81YklmQVRpTlVBakZWQnNZRUlJYkdDdDVpcE5UUHpMUnJNSEVhdjVFWXh3K2YwUXRwTXVYUERaMEhiMXp3NHozL0NHSDlUb0VBTkhHUjcxT1NGSTlQNlhqWTdadFQ3U3B1YkdJUDZoMHh3Wm5yeGNLMU1xY2xjTmhyVHM3NXhDV0NTenZtRm5QbXl2NnZ6VVUzMWliK1ZiRnBZUUhCdThrbnRxSk9tTFhnbGVMalVZN095S1J4SlkzNzV3YlJEZnJIemIySkFmbk91WjA5TS9sU3NpUTVHR3BSMWhNREZyV3Y1bWdSRUo4VGllbHNIT2hmSks3NXY2Yk9VQTczY2Fib0trME5zKzc2NWJqSGV2Vzgwc1hqSm9CNjhuZjhYRmtybXhaRkozR3lBczJaaGRoMzgzTjNuSXBPR21RZSt4N1kyQ0ZnPT0iLCJkYXRha2V5IjoiQVFFQkFIaWRFclpDZmhLT2VETTA4K2NQNWZ0eWp2UTlYTU1TUTRwSzBGWm52QVpYSmdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREpwY3dmWWtYQUQ0aDN3SEdBSUJFSUE3S0c2TnFkWEk4RllSeWxVQS9vM21leDJoZ01SNlkwUGxLaERCSFJibFpEQlpPenRPdXNzSG9SQkh5a0grS0pMYzdGS0V3cTFYYmROMi9mVT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE2Nzk5MjUyMjN9 https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-gps:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-gps]
+54eb0fed630f: Preparing
+ab78f7c4db83: Preparing
+14a9356d8f0e: Preparing
+d2eb75d2b941: Preparing
+5db6695083df: Preparing
+c409fa0afb49: Preparing
+b9d6ddfb1049: Preparing
+b057de56bd6c: Preparing
+8311470140e5: Preparing
+fff45769f1dd: Preparing
+be54b6aa2854: Preparing
+3af14c9a24c9: Preparing
+c409fa0afb49: Waiting
+8311470140e5: Waiting
+b9d6ddfb1049: Waiting
+b057de56bd6c: Waiting
+be54b6aa2854: Waiting
+3af14c9a24c9: Waiting
+fff45769f1dd: Waiting
+ab78f7c4db83: Pushed
+14a9356d8f0e: Pushed
+c409fa0afb49: Pushed
+54eb0fed630f: Pushed
+8311470140e5: Pushed
+b9d6ddfb1049: Pushed
+d2eb75d2b941: Pushed
+5db6695083df: Pushed
+b057de56bd6c: Pushed
+be54b6aa2854: Pushed
+fff45769f1dd: Pushed
+3af14c9a24c9: Pushed
+prod: digest: sha256:0897e9e2496a5791bd9b85494484e0ed3a064492a65b3a1e3088560c273df88e size: 2840
+[8mha:////4OTCsr7icPdiap1Yr6xTHSd6EBXe89ekf9vTVu2kmLAKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRyREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP97N89u+AAAA[0m[Pipeline] }
+[8mha:////4JMi4qJi9K/8eT/UmMIznXahc0pRxyZjYs9jL1Ag8R/EAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRVZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QHqAxCAvgAAAA==[0m[Pipeline] // container
+[8mha:////4N1HSfi6wN/FjkqN1fPuMIcXntc6r9l8+rgXw3Hp71+EAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgAk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK3TbbfvN5Vm/f+TTIwgAAAA==[0m[Pipeline] container
+[8mha:////4CXryZOOO80l2OJbnx1NCSSj5n4TQ4Uw0gw+7Escpo/xAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] {
+[8mha:////4GjXTPOhaPyGS2zZWdIn81bQqW6LK8IjvYfetqrqGJlaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] sh
++ date '+%s'
++ kubectl patch deployment stm-sme-gps-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1679882172"}}}}}' -n stmsme
+deployment.apps/stm-sme-gps-prod patched
++ kubectl rollout status deployment stm-sme-gps-prod -n stmsme
+Waiting for deployment "stm-sme-gps-prod" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "stm-sme-gps-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "stm-sme-gps-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "stm-sme-gps-prod" successfully rolled out
+[8mha:////4MFpF0kYPm+1biJcxwISU8X9A4QUIk20lOrh1HYRP4OXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
+[8mha:////4HgEYw4MeJXF/FAAvLiCKGNFHOHP0HZRLPZf+VChUvHUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0S2+dqvgAAAA==[0m[Pipeline] // container
+[8mha:////4CQKcgYnQ/2DdXbGulkzwqEqGkH2ZxhPTyJ+f6kTo+fqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMLpCBKiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP2HQTiG+AAAA[0m[Pipeline] }
+[8mha:////4O/KgNE0RwILmkA6V4MciT4uKFhtAs4bgGi/7KVHgU0MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSISIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtdh/wEOMxFJvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EPagMH2HsmbzZ1AHj/e+c8ubAZuAx5TBUwHpciPR3O9AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpEAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2FeS7ffcBusnRGr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4HGdqOExR90JR5WemCo293A41oNcOOtaMiKsYzneHOY1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQkKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDfb7sPxBjRyr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4MvhoFm6i61wltJ79mIhtSNF9OhYmT2rgKllCkD2V/2GAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjGiSEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKHabz7F8A7XA9fHBAAAA[0m[Pipeline] stage
+[8mha:////4P2QgZTIax2qK1qEZDEH99+nLzlJau28XiHKujIujdUIAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAfY0Sa7CAAAA[0m[Pipeline] { (Build GEO)
+[8mha:////4CzMWaKg3nwBhw5CKpqhXvo4gUNOuHk7yWtQDcQaYG26AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD1KB9/zCAAAA[0m[Pipeline] container
+[8mha:////4KeIGN1tT+/zET0A/VlmisXhMQRTB7deUPlPoRU9gmDfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDypufCDCAAAA[0m[Pipeline] {
+[8mha:////4BOhgAadCeYJ4n3LtjKlPM03t9YQH9xwOg5/o6vIY3vRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN8jx5PW+AAAA[0m[Pipeline] sh
++ ls -la src/GPS/Smartlog.Stm.Smes.GPS.Services/
+total 24
+drwxr-xr-x    5 1000     1000           166 Mar 27 01:53 .
+drwxr-xr-x    5 1000     1000           121 Mar 27 01:53 ..
+-rw-r--r--    1 1000     1000           590 Mar 27 01:53 Dockerfile
+drwxr-xr-x    2 1000     1000           138 Mar 27 01:53 HostedServices
+drwxr-xr-x    2 1000     1000            30 Mar 27 01:53 Models
+-rw-r--r--    1 1000     1000          6857 Mar 27 01:53 Program.cs
+drwxr-xr-x    2 1000     1000            28 Mar 27 01:53 ServicesApi
+-rw-r--r--    1 1000     1000          2138 Mar 27 01:53 Smartlog.Stm.Smes.GPS.Services.csproj
+-rw-r--r--    1 1000     1000          5175 Mar 27 01:53 appsettings.json
++ docker build -f src/GPS/Smartlog.Stm.Smes.GPS.Services/Dockerfile --build-arg 'version=0.1.3209-production-sme.52' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-geo:prod '--pull=true' .
+Sending build context to Docker daemon    103MB
+Step 1/15 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+Digest: sha256:ef18259e9c0570d28b874b6680b13d83cf0c6c2e7e2a2509a339aab5e88c16b4
+Status: Image is up to date for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> 7b6a689812d3
+Step 2/15 : WORKDIR /source
+ ---> Using cache
+ ---> a093da54364e
+Step 3/15 : COPY . .
+ ---> Using cache
+ ---> 21c23de408a7
+Step 4/15 : RUN cd src/GPS/Smartlog.Stm.Smes.GPS.Services && dotnet restore
+ ---> Running in 586bead89942
+  Determining projects to restore...
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Shared/Smartlog.Stm.Smes.Domain.Shared.csproj (in 2.19 sec).
+  Restored /source/src/GPS/Smartlog.Stm.Smes.GPS.Infrastructure/Smartlog.Stm.Smes.GPS.Infrastructure.csproj (in 2.19 sec).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Queue/Smartlog.Stm.Smes.Domain.Queue.csproj (in 32 ms).
+  Restored /source/src/Smartlog.Stm.Smes.Domain.Cache/Smartlog.Stm.Smes.Domain.Cache.csproj (in 2.3 sec).
+  Restored /source/src/GPS/Smartlog.Stm.Smes.GPS.Services/Smartlog.Stm.Smes.GPS.Services.csproj (in 3.61 sec).
+Removing intermediate container 586bead89942
+ ---> aa57dc550fc0
+Step 5/15 : RUN cd src/GPS/Smartlog.Stm.Smes.GPS.Services && dotnet publish -c release -o /app --no-restore
+ ---> Running in 1d7bad9af102
+MSBuild version 17.3.2+561848881 for .NET
+  Smartlog.Stm.Smes.Domain.Shared -> /source/src/Smartlog.Stm.Smes.Domain.Shared/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Shared.dll
+  Smartlog.Stm.Smes.GPS.Infrastructure -> /source/src/GPS/Smartlog.Stm.Smes.GPS.Infrastructure/bin/release/net6.0/Smartlog.Stm.Smes.GPS.Infrastructure.dll
+  Smartlog.Stm.Smes.Domain.Cache -> /source/src/Smartlog.Stm.Smes.Domain.Cache/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Cache.dll
+  Smartlog.Stm.Smes.Domain.Queue -> /source/src/Smartlog.Stm.Smes.Domain.Queue/bin/release/net6.0/Smartlog.Stm.Smes.Domain.Queue.dll
+  Smartlog.Stm.Smes.GPS.Services -> /source/src/GPS/Smartlog.Stm.Smes.GPS.Services/bin/release/net6.0/Smartlog.Stm.Smes.GPS.Services.dll
+  Smartlog.Stm.Smes.GPS.Services -> /app/
+Removing intermediate container 1d7bad9af102
+ ---> 76853c544d59
+Step 6/15 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+Digest: sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+Status: Image is up to date for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> d18ea9795cde
+Step 7/15 : RUN apt-get update
+ ---> Using cache
+ ---> f1392c1ac9b0
+Step 8/15 : RUN apt-get install -y apt-utils
+ ---> Using cache
+ ---> 82b5e908f21f
+Step 9/15 : RUN apt-get install -y libgdiplus
+ ---> Using cache
+ ---> cab9e3a54bef
+Step 10/15 : RUN apt-get install -y libc6-dev
+ ---> Using cache
+ ---> 3793f89cdef0
+Step 11/15 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Using cache
+ ---> 11fe13c4a4f9
+Step 12/15 : WORKDIR /app
+ ---> Using cache
+ ---> 8dfd4d12e397
+Step 13/15 : COPY --from=build /app .
+ ---> a86b2f22e290
+Step 14/15 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in f729f920f6d2
+Removing intermediate container f729f920f6d2
+ ---> cb2c5eecbf14
+Step 15/15 : ENTRYPOINT ["dotnet", "Smartlog.Stm.Smes.GPS.Services.dll"]
+ ---> Running in 92defa9f40b9
+Removing intermediate container 92defa9f40b9
+ ---> 8bdb69dd45ad
+[Warning] One or more build-args [version] were not consumed
+Successfully built 8bdb69dd45ad
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-geo:prod
++ docker login -u AWS -p eyJwYXlsb2FkIjoiRHZJWmRLVi9BeTZDSXdYQ2RJeitDR0RWSThGeGo1SUIyTk9JaXJvQXJHU1F1RXJIb0MvVmRpZ012c2dKazQ0L0pXNDhPVk54eE5uVmNyd3huUDkwTGtSVC9ZV1l2SnRJVmdvTWpiRDFpb05UZ0hTY0p4RjBiamIzWkF1NFNmNE84eFVXdFZyZGYxSEVIY0xMQlRzT0hZakk5M3h5Sm0zNDdHU1YyeTJ3UHY2NStjbkdYZVJOaWhxVmY0dmVHMHhsZjVVS1MwdDg5MDRYK2tucEFBaGwxaG5OaktiSm9LTGMvMGo2Q2tRaXg5cFpSNjlUeVZ5ZXZNUlBTaW1aa1l3WkttcEdsb2dna0h0K2MwTFNBKzhKbmdrbXp5NzFTTjJIeDlHa1VGWmVVMG56VjRzYlhrWmE2SGthMDM4YnhYSXlucDk0Q1l6UDdmQkdsUS9rQnVDWGMxL2FKSDF2VnFRMG5KTWNuSmZQZWM4Q3E3TUhwekhYbE9HY2lyeldCY3JOK2k0UzFrRWNJb2tSS2VRMWVUK21ZbStKUFdzUzFJWE53M0FNTjl6SmlZSkw0OHhGbTdSNjJsYnZhMHNPT0pyMWQrVGR1MVl6SXNCckdpSVIwWjA0Y01JemRWL1FNVDN4ZHlPd2RidUxGblpFK3pJRXFsb3FpdXdmVE11VGRQNGhuMm9yak8wRGlJQkQ2aU5WWkRPNFUxa0hxZmQ4NkNWSlFhTHpKc2I3THpoZ21WWEpLMVczemxHSzhSb1ZNYm9oZjZZWFJPdjNvaFh2UjZLMVdMWmVRZkVQc0hlb1N6NXB1YmFqVGdKZVVVS05XZFgyMGlhS1Q3a2E4WlZWdVR6TnFsb0ZoK2hUVklFcTZDV1ZWdS92L1R5R3RBUC9PZXBkZEdZbkxUNktvTXlhY0lyS3lhdmJTNVFJYzN1bDB3U2pGd2RidWJuTWZLTHdEUlp3YTZ2Vk9mNnhKd2I2WE9nRW1CV0l0VVNpZmZPTjZpRjA1MmQrOXBscUdEQktMN0RLamNqTitqM0t6Q3hTOVpXYWpEM3diamZzV3VaZGdFejZjOFg3dE8xOTBsNDhaM2Qyd3B1TjBZOHhPeUYxK1ZiWllnb0hQUXlNR1JqUFd1SGVILy9qQjZocE1uT204Nys3MmY2Z3JLTnJhMHhHaGdBb0loQmxjQ0E1N2lsSEU5WGVSVStjVEpOL3pzd0hFNEVIRTY2aEUwT3YrelhPdk5rbHlJS2p5MHRBQ0p3czhRakdxU1lUbW53bU8ySWUzbEVscGZHNDRPMVROY3owN21XNDRyZkZwN01lblRDM3ZQODNTeTFxUXdHMTUvcGdXblZkRk5sZTFGU0dUQ2RZZkl6dWhQWkdxYU9GZjFrd216bHdKOE93SWI4QUhqS2RuV1dZSjAybnRYQkRBZ3BycTVQSE0rSXhYTS9zSTJ2ZXY5eGd3T2prb3drdXlTSmZ4SVZwWmM3QittbnhzbDNMTGFUK243K0lvZEduN0N2U00rSW12MUJrb3phaEdadjhQV3RmRGM3eStNbXJ3SUt5SUpsVWFCSzd5VFNnZmhYVnVhY1M0UXJxS0lJd3pDS1c0dDJrYXVkRytQdFc5eXpBT29oMzdoTWwzcEJBT0JUVjZnWWlRemkzZi9mVDg4bTJXU1lhN0QvRHZhS2Y2eVFQQkozMHFzblcvSjc5dVcxQThRaUhBMnIwbTQ1czU3cmZBRVQrdjdHOHNTVEtoV0xLclJjVm1laWlTMWtvWlZ1UWJ5SEhDYTRhQUdPRWsvSzE1UGZRZzJleVhNY1FrK2VoVEs4NFhZbjEvd2ZPbXNzUWxqaExOUThyVU9yelNwZWsrdUF5a0p0TWpLQlRMdDdFNzdDa1JjdS84OFIwdnR1d0ZtQit0OTc3SllmbytvMjhIVGZsU3F5Qlk5OGNWSzRBOU4vQ3JXYVdTZk9NWWo3a1E1SGZ5aDZnVG1aSGlDLyt5dnIxUmRaMVNCWUpZeHJ5M3NGbkxLc203M3liVW9XV1dCOWFzS1ZJeEdOWjFDY3lUb1Q0NkxHdUR0SmhiN20wNjB6SjNEbHZjUXJnWDlMTWViMlY0Y3cvMDZZY0VUVWdjbk5PTWhoMjUrSnN1QnkzTnp0TGl3VVkyTmJDb3ZqMWxmWFBzR1dzRFQrbTNRL3R4ZXp2aFk5azlZcXRScUxUZ0xZLzBSZGgzdE5jbXQySU81YklmQVRpTlVBakZWQnNZRUlJYkdDdDVpcE5UUHpMUnJNSEVhdjVFWXh3K2YwUXRwTXVYUERaMEhiMXp3NHozL0NHSDlUb0VBTkhHUjcxT1NGSTlQNlhqWTdadFQ3U3B1YkdJUDZoMHh3Wm5yeGNLMU1xY2xjTmhyVHM3NXhDV0NTenZtRm5QbXl2NnZ6VVUzMWliK1ZiRnBZUUhCdThrbnRxSk9tTFhnbGVMalVZN095S1J4SlkzNzV3YlJEZnJIemIySkFmbk91WjA5TS9sU3NpUTVHR3BSMWhNREZyV3Y1bWdSRUo4VGllbHNIT2hmSks3NXY2Yk9VQTczY2Fib0trME5zKzc2NWJqSGV2Vzgwc1hqSm9CNjhuZjhYRmtybXhaRkozR3lBczJaaGRoMzgzTjNuSXBPR21RZSt4N1kyQ0ZnPT0iLCJkYXRha2V5IjoiQVFFQkFIaWRFclpDZmhLT2VETTA4K2NQNWZ0eWp2UTlYTU1TUTRwSzBGWm52QVpYSmdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREpwY3dmWWtYQUQ0aDN3SEdBSUJFSUE3S0c2TnFkWEk4RllSeWxVQS9vM21leDJoZ01SNlkwUGxLaERCSFJibFpEQlpPenRPdXNzSG9SQkh5a0grS0pMYzdGS0V3cTFYYmROMi9mVT0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE2Nzk5MjUyMjN9 https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-geo:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-geo]
+b41405e14f7b: Preparing
+ab78f7c4db83: Preparing
+14a9356d8f0e: Preparing
+d2eb75d2b941: Preparing
+5db6695083df: Preparing
+c409fa0afb49: Preparing
+b9d6ddfb1049: Preparing
+b057de56bd6c: Preparing
+8311470140e5: Preparing
+fff45769f1dd: Preparing
+be54b6aa2854: Preparing
+3af14c9a24c9: Preparing
+b9d6ddfb1049: Waiting
+b057de56bd6c: Waiting
+8311470140e5: Waiting
+c409fa0afb49: Waiting
+be54b6aa2854: Waiting
+3af14c9a24c9: Waiting
+ab78f7c4db83: Pushed
+14a9356d8f0e: Pushed
+b41405e14f7b: Pushed
+c409fa0afb49: Pushed
+8311470140e5: Pushed
+d2eb75d2b941: Pushed
+b9d6ddfb1049: Pushed
+5db6695083df: Pushed
+b057de56bd6c: Pushed
+be54b6aa2854: Pushed
+fff45769f1dd: Pushed
+3af14c9a24c9: Pushed
+prod: digest: sha256:62e57e1433dd7088db24752ee5a47a6e69d15159a280cc43a5ca485a9971f92f size: 2840
+[8mha:////4K8CNSoy8JASHKcZpssvrQTfBUjdD4j5wlztDZpt+WU/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHSROg8vgAAAA==[0m[Pipeline] }
+[8mha:////4GaIt7F2tZxzC03svkVUNUZuVa818HNPNRPWWLggzru9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgHUAtBpvgAAAA==[0m[Pipeline] // container
+[8mha:////4OolqBMF8yu/IOP4g6wTSvNACjpZfW9+0Pjt56525YgXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD5FxMJbCAAAA[0m[Pipeline] container
+[8mha:////4F9rAdFepMVHSExZ6xLAkv/6oJ/XzsssEeXNUFkdm05gAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0pUJMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBsPrDv8IAAAA=[0m[Pipeline] {
+[8mha:////4DJUIEN7laQrGdaxPIZUqXH6xm+OCdpV/B8TZYBd7nSqAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGwZBwr2gyNJ4hJjIHMLiaLUHkir+YdZGTGyl/995r3esMmRThRdKKz2HtM2oshjG55YqLYXwNNoqOL0ISJghWtnVoytlmxJbawLsuhkLC1qAMlj45hJzv1UGVQ6Mozx8UdJeTe3OEJmVzKrCJ/YY6wv40mEf46fwMwDwx5XTMUh6oaPqKpLoK/AAAA[0m[Pipeline] sh
++ date '+%s'
++ kubectl patch deployment stm-sme-geo-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1679882200"}}}}}' -n stmsme
+deployment.apps/stm-sme-geo-prod patched
++ kubectl rollout status deployment stm-sme-geo-prod -n stmsme
+Waiting for deployment spec update to be observed...
+Waiting for deployment "stm-sme-geo-prod" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "stm-sme-geo-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "stm-sme-geo-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "stm-sme-geo-prod" successfully rolled out
+[8mha:////4DSM2ffGBvPhsHURfx/y673s6+vLjB9HPmCCKHrv0nESAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxGkZBwr2gyNJ4ghxkBmF5NFqDyRV/MOZmTGyl/995r3esMmBjhRsKI3ODiM2onRTzY9MVMYrp5m0dNFaMJI3ojWzC11plmxJTawLsuhkLA1qD1Fh5ZhJ3v1UKVXaMszh+SOEnLX3eEJmUxlVoG/sATY36YuEv46fwOwjCNDUR0qhryuP5Jn9ia/AAAA[0m[Pipeline] }
+[8mha:////4NvXZ3Y5+3B872UMl5TDNZDo/5PPoCeRpSXLwLs2QW6kAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHUSoexss3QeIJIYgxkdjFZhMoTeTXvYEZmrPzVf695rzcsYoAjBStag53D2DjR+8GmJ0YK3dXTKFq6iIYwkjeiNmNN2pxmrIkNzMtyKCQsDTaeokPLsJKteqjSK7TlmUNylYTc6Ts8IZOpzCrwF6YA69ugI+Gv8zcAU98zFNvNjiE/7D+qJWXXvwAAAA==[0m[Pipeline] // container
+[8mha:////4C7JBRwrutJ1ouM2tpUsc05cdW/pZq7sqRuAmtN0TZeMAAAAph+LCAAAAAAAAP9tjTsOwjAQBTeJKGgpOYTDp0IRFa2VhhOY2Bgn1m6wNyQVJ+Jq3AGLSFS86s0083rDIgY4UrCiNdg5jI0TvR9semKk0F09jaKli2gII3kjajPWpM1pxprYwLwsh0LC0mDjKTq0DCvZqocqvUJbnjkkV0nInb7DEzKZyqwCf2EKsL4NOhL+On8DMPU9Q7Hd7Bnyw+4DER/s/L8AAAA=[0m[Pipeline] }
+[8mha:////4P9mbhm68VpeICm/O1QiV8UkqoeC0VZGM1uplOg+NSzXAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6JI4mIMk2vD4hdUWmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jK0Tgx9temKi0F89TaKji2gJI3kjGjM1pM1pwYbYwLIsh0LC2mDrKTq0DBvZqYcqvUJbnjkkd5SQO32HJ2QylVkF/sIcYHsbdST8df4GYB4GhqLa7RnyQ/UBE37geL8AAAA=[0m[Pipeline] // stage
+[8mha:////4EpXW/4S9sXAkVFszpyq33lQ5zLB1HtZSFlVIK3GLq6gAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQDBTSIitZKwwuMY4wT6y7YF5yKF/E1/kBEJCq22plmXm9YpAhHik62FjuPyXjZh8FNT2aK3TVQli1dpCFMFKysba6psacZa2IL80QBpYKlRRMoeXQMK9Xqh66CRledOU7uoKDwzR2eINRUZh35C2OE9W1oEuGv8zcAY88g9gzldrPrPx/zHmu+AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: C02CR8V040K, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4BW13QPDtORVydsf3EFy2dhnpdJ/KLCh7wvfqAXFpvAgAAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ggHmjSIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkNUMxW5bf57lG5g4bAXCAAAA[0m[Pipeline] stage
+[8mha:////4IpRC8VwcfT9SetKaWjNhQSSggu9ZkXv8IBJptcRHSfwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApLDCgTqxRF04QkhCSRv+XJKWdOBFX4w6UVmLCg2Vbst7rDWUMUFMwzGlsLUZpWed7MyU2UGivngbm6MIkYSSvWaOHhpQ+LbWhpGFRlkPBYaVReooWTYI1d+IhKi/QVOcUpu3IIbfqDk/I+EROIqS5jAE2t15Fwh/nLwDGLkGx2+5nP3y/5QfYKuSHxAAAAA==[0m[Pipeline] { (Build TaskManager)
+[8mha:////4LjHzjoBin7UNzmrgNIiQnfO7FMd8tIwqvRprAVKJHksAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDFUgoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGPfJ6j2u+Pchy/Khm2GwAAAAA==[0m[Pipeline] }
+[8mha:////4FIc5mfRtjEPGb3DrMkenxD+c3+Kq64x9yVSlDWGO4bIAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDDRJCqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7PkG13x3nPnwB6L0dV8AAAAA=[0m[Pipeline] // stage
+[8mha:////4BPlGG9Hn+HHYPqR7uc4UEkCf9J6S26kuBgId8CItGY6AAAApx+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8giHNDSIitZKwwuMY4wT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhjgQMGKzmDvMGonBj/a1MREob94mkRHZ6EJI3kjGjM11Jrjgg2xgSVZDoWElUHtKTq0DGvZqbuqvEJbnTikbS8hd+0NHpDJZGYV+AtzgM11bCPhz/NXAPPAkO0Yirrefp7lGzHQQnXCAAAA[0m[Pipeline] stage
+[8mha:////4OsK1qIjTUhKHjvJjXO6KHgnspvQcjqr+NlVAiNepyY0AAAAph+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApnRETa5SFE4QkhLTR/yVJaSdOxNW4A6GVmPBg2Zas93pDHQMcKVjWGewdRuXY4EebE5so9FdPE+vowhRhJG+YMJMgbU5rFZQMrCpKqDhsDCpP0aFNsOWdfMjGS7TNOYW8HTiUTt/hCQXP5CRDWsocYHcbdST8cf4CYB4SVG27X7z9fusPFL5hxcQAAAA=[0m[Pipeline] { (Build TaskManagerService)
+[8mha:////4E/q4BiTcS9pxYjU5nTTKmljaj7lXkkXNynk/dGOYUn0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0CIqWisNLzCJMXasO3N2SCpexNf4A1YiUbHFamebeX9gExlOxEY4jYPF2FkR/GjyEhPxcPM0CUdX0RFG8lq0emqp1+cVW0oa1hQlVBK2GjtP0aJJsJNOPVXtFZr6kjh/Rwml7R/wgkJmc1KcFpgZ9vexj4Q/z18BzCEkqJrmsHTzBW5Nzx7AAAAA[0m[Pipeline] }
+[8mha:////4N+JgDhS78pZdMcpx589kxeDY2GZFWhrEVpjusmhxKQCAAAApB+LCAAAAAAAAP9tjTESgjAQRRcYC1tLD7HIWDpWtJk0niCGGAOZXUyCUHkir+YdZGDGyl/8+e837/2BTQxw5mCxNdQ5itph7wc7Lxw5dDfPI7Z8Rc0U2RuUZpTcmHpFycnAmiyHQsDWkPYcHdkEO9Gqpyq9IlteUpi/k4DcNQ94QSZmc1IhLTAF2N+HJjL9PH8FMPV9gqKqjksfvkx2v8/AAAAA[0m[Pipeline] // stage
+[8mha:////4BF+INcPdgSwc11Bu3d7/wEZpu5Yc5fgayHBcLGij5CAAAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHkRANoqK10vAC4xjjxLoL9gWn4kV8jT8QiETFVjsrreb5gjIGOFCwojPYO4zaicGPdm4iUegvnpLo6Cw0YSRvRGNSQ605LtgQG1iS5VBIWBnUnqJDy7CWnbqryiu01YnDvO0l5K69wQMyOZtZBf7CFGBzHdtI+PP8FcA0MGQ7hqKut59n+QYnktPuwgAAAA==[0m[Pipeline] stage
+[8mha:////4BwYSwWhQ4m+pkRYdshtcSk5r+ulTKtFNYKHSVWoD4MKAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJiU7GibVh8QlqqbXQ/D+2xTL5RL6a72CFxMkbLneXXL7XG0rv4EROs17hYNBLw0Y76ZRYJDdcLUXW04VJQk9WsVbFljrVrLWloGBVlkPBYaNQWvIGdYAt78VDVFagrs7Bpe3IITfdHZ6Q8UQOwoWlzA52t6nzhD/OXwDMY4CirveLH77f8gN9x/ZdxAAAAA==[0m[Pipeline] { (Build SignalR)
+[8mha:////4B6aX6zHzNjlgy3EN1YOJqkhyMvrBKnLGL4YWNSa03GyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjFNAgqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTB7n6BqmuPShy9kre3twAAAAA==[0m[Pipeline] }
+[8mha:////4ORDxzlZvQVEDx2U2X/x2C36JtBeI24+LbP/QaCjQuIpAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSEgUiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHM3ieomua49OELRpadPMAAAAA=[0m[Pipeline] // stage
+[8mha:////4JH09jEdUa2Whjic1JdPP2wb4nIGh0MzpjmBg+HFjAG0AAAAqB+LCAAAAAAAAP9tjTEOwjAQBC+JUtBS8ghHaRASoqK10vAC4xjjxLoL9gWn4kV8jT8QiETFVjsrreb5gjIGOFCwojPYO4zaicGPdm4iUegvnpLo6Cw0YSRvRGNSQ605LtgQG1iS5VBIWBnUnqJDy7CWnbqryiu01YnDvO0l5K69wQMyOZtZBf7CFGBzHdtI+PP8FcA0MGRbhqKud59n+QZcUhGZwgAAAA==[0m[Pipeline] stage
+[8mha:////4FYqdmfIX0mB54nAIcYTPfCr1O1ZMtnCh6gHWzryEUEcAAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJm8Y4sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgCHSj4vxAAAAA==[0m[Pipeline] { (Build LocalService)
+[8mha:////4DVidChQHI7PkPJUlFDxadip5uwHa4HV7RnPjEL4WsC9AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRD6BCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIpqu/l0tXsDltMECcAAAAA=[0m[Pipeline] }
+[8mha:////4Ojwm8ISnKBOfIFMRskK7wUL8n3QuKRo6CpgvJF9fFw5AAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUyEhqrRWGl5gbGPsWHfBdkgqXsTX+AOBSFRssdrZZp4vWKUIR4qWeYOdw6Qc68Ng58VGit0l0Mg8nZkiTBQMa83YkjbNgi1lA0uKEioBa4MqUHJoM2yEl3dZB4m2PuU4fwcBpdM3eEAhZnOWMX9hirC9DjoR/jx/BTD1fYaK7/in+f4NtOh02MAAAAA=[0m[Pipeline] // stage
+[8mha:////4NxPHA5kBifFKPt7jk6uaudRbY6dEF8rGtzXiGTiZOCzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjUtAgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmAJDsWeodk0TPrax2ye+AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4F6MVosEIIp/xQAvC5fGqU2Je8et+rHrbnhi9BvKIET8AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjQKJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGHsGsWcoN9td/wH3gMA+vgAAAA==[0m[Pipeline] deleteDir
+[8mha:////4K9fU7i1VlQboQLx1brBoQWYjrXIcNlnYH3+5gcr/+D4AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEKJBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGHsGsWcoN9td/wEwFoFxvgAAAA==[0m[Pipeline] echo
+Build successful
+[8mha:////4H2FYjdTSmWTfx8k4exY5mPuGYcFJiOAWL47AnPVCOxqAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkKBBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxsdwxi/wG2B+cjvgAAAA==[0m[Pipeline] }
+[8mha:////4Gby5JTwvV+EyOuuKm6Vzv8Z5KbKbaynOI7tvVsxf/1jAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjkKBBVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxs9wxi9wHcLE79vgAAAA==[0m[Pipeline] // node
+[8mha:////4Bmfb0t/VDhwbnlO2s8lmAMOSCAU2zGGBWkut+WbN+BjAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEBIFoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw/6NSm3vgAAAA==[0m[Pipeline] }
+[8mha:////4J0/PMir3tG76hpLXq7iiuV71A3A3fGq/3DH+Gaiehb0AAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjoEFCVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxs9wxi9wGINx2rvgAAAA==[0m[Pipeline] // podTemplate
+[8mha:////4GvbGxvjx3xu+WMNUh+vxuCzOt9jHrf/Eoowc5lXfmREAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQj0iFERWul4QUmNsaJdWfsC07Fi/gafyAiEhVb7UwzrzesUoQjRSt6g4PD1DkR/GjnJzLF4eopi54uoiNM5I1oTW5Jm9OCLbGBZUUJlYS1wc5TcmgZNrJXD1V7hbY+c5zdQULp9B2eUMi5zCryF6YI29uoE+Gv8zcAUwgM1a7ZMxTNB64ueuG+AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

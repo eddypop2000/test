@@ -1,0 +1,10 @@
+commit ed2e53b06175249e29ba8ed2974a435c7df23d27
+tree a18ac6f948e22ee97ccefd0b60299fbba56ebb08
+parent 77289c9421234fdeb89276ad519d3d2953ad2208
+author hoang7k <hoang.dao@gomartlog.com> 2022-03-04 15:35:20 +0700
+committer hoang7k <hoang.dao@gomartlog.com> 2022-03-04 15:35:20 +0700
+
+    [brenntag] reset protobuf version to 3.11.4
+
+
+:100644 100644 ae969d575763f6e484c5d39621cb69e712dba3a9 1cc8a8119db02e1600b78495e22171d3dd4477ee M	pom.xml

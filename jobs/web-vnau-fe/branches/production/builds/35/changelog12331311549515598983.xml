@@ -1,0 +1,11 @@
+commit a0ecfcbbb6b593cbf1868e5ebe2e41a41e5c5861
+tree 7fbffd39f3bca8e26fede6c189a9a9fd6eedef45
+parent eb0f1e4e78a43a9a085dd0f877e55c4020415efb
+author dung.phung <dung.phung@bizzi.vn> 2022-03-04 00:24:09 +0700
+committer dung.phung <dung.phung@bizzi.vn> 2022-03-04 00:24:09 +0700
+
+    update list notification
+
+
+:100644 100644 a6f100d8db1408a7d0e3941b0ae45ab5ca4eb497 db0b52a05dbb094e6f5c9caef626904abbcf67fc M	layouts/Header.tsx
+:100644 100644 46299187e933f51838792bb3b1470c3e80cfcd8a d68e6a35a55fd041cdededbdabe95c9fab335682 M	layouts/account/Notifications.tsx

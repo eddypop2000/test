@@ -1,0 +1,10 @@
+commit 522c28dfcfe636d0e0f6a1fedaa1a5c9e9a65148
+tree 202ee84abee6dc7562d23b5cc2fc6d5279126ba3
+parent 2ca1f831e1bff82ebb07eb8fb6abe9439635c383
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-15 11:51:15 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-15 11:51:25 +0700
+
+    Change Timeout to 900s
+
+
+:100644 100644 b5d41f481892d4a541c7d9c2f57aa04d977eb14e 1cd4b8b81610ceca66c15b6f9f52ceb582bcfd98 M	deploy.yml

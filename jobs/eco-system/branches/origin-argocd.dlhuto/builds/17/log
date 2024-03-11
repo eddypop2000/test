@@ -1,0 +1,22 @@
+Branch event
+Cannot find the branch origin/argocd
+ERROR: Could not determine exact tip revision of origin/argocd; falling back to nondeterministic checkout
+Checking out git https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git into /var/jenkins_home/workspace/eco-system_origin_argocd@script/690f27925e78c65d49aea4035f2919804c14aa38b042e311a74ca8f2ce013a8e to read Jenkinsfile
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{ntWsAeSZ-lsgoUTHiyJHWJ8s-2M4QLUpG2oP6d7r990m2ntwcorbD6jwPOPsJGcWvT7QInFEK9hUjF2Sd3rDMsdwaA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git init /var/jenkins_home/workspace/eco-system_origin_argocd@script/690f27925e78c65d49aea4035f2919804c14aa38b042e311a74ca8f2ce013a8e # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{ntWsAeSZ-lsgoUTHiyJHWJ8s-2M4QLUpG2oP6d7r990m2ntwcorbD6jwPOPsJGcWvT7QInFEK9hUjF2Sd3rDMsdwaA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/origin/argocd:refs/remotes/origin/origin/argocd # timeout=10
+ > git config remote.origin.url https://x-token-auth:{ntWsAeSZ-lsgoUTHiyJHWJ8s-2M4QLUpG2oP6d7r990m2ntwcorbD6jwPOPsJGcWvT7QInFEK9hUjF2Sd3rDMsdwaA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/origin/argocd:refs/remotes/origin/origin/argocd # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/argocd^{commit} # timeout=10
+ > git rev-parse origin/argocd^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+ERROR: Maximum checkout retry attempts reached, aborting
+Finished: FAILURE

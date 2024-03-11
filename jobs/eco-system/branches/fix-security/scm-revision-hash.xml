@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>fix-security</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>f95b664369c952bf9ebd123b2d42e1c515a9f510</hash>
+  <message>fix security
+</message>
+  <author>Dang Hung &lt;danghung@gosmartlog.com&gt;</author>
+  <date>2022-07-21 03:54:20.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

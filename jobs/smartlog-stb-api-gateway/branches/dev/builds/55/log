@@ -1,0 +1,410 @@
+Branch event
+Obtained Jenkinsfile from a373601ccfab9288934a6000049ea6a0a40d9739
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4FXDnmpjDAMQqImADsL/ba12CJ6yJBxQyP+9BIEKMOgKAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FN8ukvMpM1yAlJ6UCABJ1eg/VAAAA[0mcommon-pod-j4wz6-0dldx is provisioned from template common-pod-j4wz6
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/swa-be/job/dev/2711/"
+    runUrl: "job/swa-be/job/dev/2711/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-j4wz6-0dldx"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-j4wz6-0dldx"
+    - name: "JENKINS_NAME"
+      value: "common-pod-j4wz6-0dldx"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4MbGZRQycUPSGTVkFqjM2whof7c7aIyClClQjDSgVBY2AAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVIZpmUV5kBaYOUnJQKfQCIUMOS3AAAAA==[0mcommon-pod-j4wz6-0dldx in /home/jenkins/agent/workspace/smartlog-stb-api-gateway_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{HSia7gJqpz9RNx6MV8e3bg1VunD6DM3xzcF7PyKLyT8JjXqJdR3cUPWu42l9c2XJ1dXUf8vU8oQy2oc0iTGhjx73}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git
+ > git init /home/jenkins/agent/workspace/smartlog-stb-api-gateway_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{HSia7gJqpz9RNx6MV8e3bg1VunD6DM3xzcF7PyKLyT8JjXqJdR3cUPWu42l9c2XJ1dXUf8vU8oQy2oc0iTGhjx73}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision a373601ccfab9288934a6000049ea6a0a40d9739 (dev)
+ > git config remote.origin.url https://x-token-auth:{HSia7gJqpz9RNx6MV8e3bg1VunD6DM3xzcF7PyKLyT8JjXqJdR3cUPWu42l9c2XJ1dXUf8vU8oQy2oc0iTGhjx73}@bitbucket.org/smartlogtms/smartlog-stb-api-gateway.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a373601ccfab9288934a6000049ea6a0a40d9739 # timeout=10
+Commit message: "update TOKEN ADMIN"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws s3 cp s3://smartlog-build-config/dev/smartlog-bid-apigateway-eco.env .env
+Completed 2.4 KiB/2.4 KiB (18.8 KiB/s) with 1 file(s) remainingdownload: s3://smartlog-build-config/dev/smartlog-bid-apigateway-eco.env to ./.env
+[8mha:////4D/7/6Zwygi8YqPbCVR0QzXALi/2is7pzc5o+H+xA+tSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN1TuT7W+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4NtudCtbNoy2MmDdds8XTcwxo6I7vhOUhVjIbATCwENfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICNBQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AGHKGa5vgAAAA==[0m[Pipeline] }
+[8mha:////4Ki+U1ESg3+qmb2w4sC4zwdoiKuIAGOZy7NVUq2WSWkqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AG0yz0FvgAAAA==[0m[Pipeline] // container
+[8mha:////4E+PM7zT+Fi8Q6X0kKsfIjfzQC0gN5i3myCpKSS4s/l7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUVGJCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDc7bM1zedZvQFwZZsawgAAAA==[0m[Pipeline] container
+[8mha:////4D7P0Yrdtxlcjz0OLv04Mqtgg5kyfASs8cXT2SXHIbcKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] {
+[8mha:////4CMq6RLuwQDhip7fnaRp5CStPAcb0H2m7bGCZ785JgfTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] sh
++ ls -la
+total 276
+drwxr-xr-x   10 1000     1000          4096 Dec  2 08:05 .
+drwxr-xr-x    4 1000     1000           104 Dec  2 08:05 ..
+-rw-r--r--    1 1000     1000            15 Dec  2 08:05 .dockerignore
+-rw-r--r--    1 1000     1000           207 Dec  2 08:05 .editorconfig
+-rw-r--r--    1 root     root          2493 Feb  5  2021 .env
+-rw-r--r--    1 1000     1000           280 Dec  2 08:05 .env.example
+-rw-r--r--    1 1000     1000           309 Dec  2 08:05 .eslintrc
+drwxr-xr-x    8 1000     1000           162 Dec  2 08:05 .git
+-rw-r--r--    1 1000     1000            77 Dec  2 08:05 .gitignore
+-rw-r--r--    1 1000     1000           128 Dec  2 08:05 .sequelizerc
+drwxr-xr-x    2 1000     1000            46 Dec  2 08:05 .vscode
+-rw-r--r--    1 1000     1000           155 Dec  2 08:05 Dockerfile
+-rw-r--r--    1 1000     1000           179 Dec  2 08:05 Dockerfile.prod
+-rw-r--r--    1 1000     1000           179 Dec  2 08:05 Dockerfile.stage
+-rw-r--r--    1 1000     1000          4282 Dec  2 08:05 Jenkinsfile
+-rw-r--r--    1 1000     1000          2919 Dec  2 08:05 Jenkinsfile.normal
+-rw-r--r--    1 1000     1000           557 Dec  2 08:05 Jenkinsfile.old
+-rw-r--r--    1 1000     1000            15 Dec  2 08:05 README.md
+drwxr-xr-x    8 1000     1000           107 Dec  2 08:05 api
+drwxr-xr-x    2 1000     1000            77 Dec  2 08:05 config
+-rw-r--r--    1 1000     1000          3410 Dec  2 08:05 deploy-eco.prod.yml
+-rw-r--r--    1 1000     1000          3401 Dec  2 08:05 deploy-eco.stage.yml
+-rw-r--r--    1 1000     1000          1869 Dec  2 08:05 deploy.prod.yml
+-rw-r--r--    1 1000     1000          1861 Dec  2 08:05 deploy.stage.yml
+drwxr-xr-x   11 1000     1000           175 Dec  2 08:05 graphql
+-rw-r--r--    1 1000     1000           648 Dec  2 08:05 index.js
+drwxr-xr-x    5 1000     1000            50 Dec  2 08:05 libraries
+drwxr-xr-x    2 1000     1000            38 Dec  2 08:05 middleware
+-rw-r--r--    1 1000     1000          2025 Dec  2 08:05 package.json
+drwxr-xr-x    2 1000     1000            22 Dec  2 08:05 scripts
+-rw-r--r--    1 1000     1000           215 Dec  2 08:05 start.js
+-rw-r--r--    1 1000     1000           632 Dec  2 08:05 taskdef.json
+-rw-r--r--    1 1000     1000        180253 Dec  2 08:05 yarn.lock
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco '--pull=true' .
+Sending build context to Docker daemon  839.2kB
+Step 1/6 : FROM public.ecr.aws/m6a7v9p6/node:11.4-alpine
+11.4-alpine: Pulling from m6a7v9p6/node
+4fe2ade4980c: Pulling fs layer
+136604f124e7: Pulling fs layer
+13f341eda658: Pulling fs layer
+4fe2ade4980c: Verifying Checksum
+4fe2ade4980c: Download complete
+13f341eda658: Verifying Checksum
+13f341eda658: Download complete
+4fe2ade4980c: Pull complete
+136604f124e7: Verifying Checksum
+136604f124e7: Download complete
+136604f124e7: Pull complete
+13f341eda658: Pull complete
+Digest: sha256:699c780e215b4af217ba1de26750f7715ab892e25540df0fceefdeb5f836901e
+Status: Downloaded newer image for public.ecr.aws/m6a7v9p6/node:11.4-alpine
+ ---> f21b938fb1e6
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Running in 371a39f08174
+Removing intermediate container 371a39f08174
+ ---> be8a28bd3b78
+Step 3/6 : COPY ./package.json ./yarn.lock ./
+ ---> b427413dd262
+Step 4/6 : RUN npm install
+ ---> Running in 08b449ef4ee1
+[91mnpm WARN deprecated babel-eslint@8.2.6: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+[0m[91mnpm WARN deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[0m[91mnpm WARN deprecated joi@13.7.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated apollo-server-express@2.26.1: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated[0m[91m graphql-tools@3.1.1: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+[0m[91mnpm WARN deprecated[0m[91m core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m[91mnpm WARN deprecated apollo-datasource-rest@0.1.5: The `apollo-datasource-rest` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/datasource-rest` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated async-cache@1.1.0: No longer maintained. Use [lru-cache](http://npm.im/lru-cache) version 7.6 or higher, and provide an asynchronous `fetchMethod` option.
+[0m[91mnpm[0m[91m WARN deprecated hoek@5.0.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm WARN deprecated topo@3.0.3: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+[0m[91mnpm WARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated apollo-server-core@2.26.1: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-server-types@0.10.0: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated graphql-tools@4.0.8: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+[0m[91mnpm WARN deprecated subscriptions-transport-ws@0.9.19: The `subscriptions-transport-ws` package is no longer maintained. We recommend you use `graphql-ws` instead. For help migrating Apollo software to `graphql-ws`, see https://www.apollographql.com/docs/apollo-server/data/subscriptions/#switching-from-subscriptions-transport-ws    For general help using `graphql-ws`, see https://github.com/enisdenjo/graphql-ws/blob/master/README.md
+[0m[91mnpm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+[0m[91mnpm WARN deprecated apollo-server-caching@0.1.2: This package is part of the legacy caching implementation used by Apollo Server v2 and v3, and is no longer maintained. We recommend you switch to the newer Keyv-based implementation (which is compatible with all versions of Apollo Server). See https://www.apollographql.com/docs/apollo-server/v3/performance/cache-backends#legacy-caching-implementation for more details.
+[0m[91mnpm WARN deprecated apollo-server-env@2.0.3: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-server-errors@2.0.2: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-datasource@0.1.3: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+[0m[91mnpm WARN deprecated apollo-datasource@0.10.0: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-cache-control@0.15.0: The functionality provided by the `apollo-cache-control` package is built in to `apollo-server-core` starting with Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#cachecontrol for details.
+[0m[91mnpm WARN deprecated apollo-server-caching@0.7.0: This package is part of the legacy caching implementation used by Apollo Server v2 and v3, and is no longer maintained. We recommend you switch to the newer Keyv-based implementation (which is compatible with all versions of Apollo Server). See https://www.apollographql.com/docs/apollo-server/v3/performance/cache-backends#legacy-caching-implementation for more details.
+[0m[91mnpm WARN deprecated apollo-server-env@3.2.0: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-reporting-protobuf@0.8.0: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-server-errors@2.5.0: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated @slack/client@4.12.0: Slack Client is deprecated - Use @slack/web-api, @slack/rtm-api, or @slack/webhook instead.
+[0m[91mnpm WARN deprecated apollo-server-plugin-base@0.14.0: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-tracing@0.16.0: The `apollo-tracing` package is no longer part of Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#tracing for details
+[0m[91mnpm WARN deprecated graphql-extensions@0.16.0: The `graphql-extensions` API has been removed from Apollo Server 3. Use the plugin API instead: https://www.apollographql.com/docs/apollo-server/integrations/plugins/
+[0m[91mnpm WARN deprecated json-schema-ref-parser@7.1.4: Please switch to @apidevtools/json-schema-ref-parser
+[0m[91mnpm WARN deprecated swagger-methods@2.0.2: This package is no longer being maintained.
+[0m[91mnpm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mnpm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+[0m[91mnpm WARN deprecated @types/form-data@2.5.0: This is a stub types definition. form-data provides its own type definitions, so you do not need this installed.
+[0m[91mnpm WARN deprecated @types/p-retry@3.0.1: This is a stub types definition. p-retry provides its own type definitions, so you do not need this installed.
+[0m[91mnpm WARN deprecated @types/p-cancelable@1.0.1: This is a stub types definition. p-cancelable provides its own type definitions, so you do not need this installed.
+[0m[91mnpm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+[0m[91mnpm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[91mnpm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+[0m[91mnpm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m
+> snappy@6.3.5 install /usr/src/app/node_modules/snappy
+> prebuild-install || node-gyp rebuild
+
+[91mprebuild-install [0m[91mWARN install[0m[91m No prebuilt binaries found (target=11.4.0 runtime=node arch=x64 libc=musl platform=linux)
+[0m[91mgyp[0m[91m [0m[91mERR! [0m[91mconfigure error[0m[91m 
+[0m[91mgyp [0m[91mERR! [0m[91mstack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp[0m[91m ERR![0m[91m stack[0m[91m     at PythonFinder.failNoPython (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:484:19)
+gyp[0m[91m ERR! [0m[91mstack     at PythonFinder.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/node-gyp/lib/configure.js:406:16)
+gyp ERR![0m[91m stack[0m[91m     at F (/usr/local/lib/node_modules/npm/node_modules/which/which.js:68:16)
+gyp ERR! [0m[91mstack[0m[91m     at E (/usr/local/lib/node_modules/npm/node_modules/which/which.js:80:29)
+gyp ERR! [0m[91mstack     at /usr/local/lib/node_modules/npm/node_modules/which/which.js:89:16
+gyp[0m[91m ERR! [0m[91mstack     at /usr/local/lib/node_modules/npm/node_modules/isexe/index.js:42:5
+gyp[0m[91m ERR! [0m[91mstack[0m[91m     at /usr/local/lib/node_modules/npm/node_modules/isexe/mode.js:8:5
+gyp ERR! stack     at FSReqCallback.oncomplete (fs.js:160:21)
+[0m[91mgyp [0m[91mERR! System Linux 5.4.209-116.367.amzn2.x86_64
+[0m[91mgyp [0m[91mERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+[0m[91mgyp ERR! [0m[91mcwd /usr/src/app/node_modules/snappy
+[0m[91mgyp ERR! node -v v11.4.0
+gyp [0m[91mERR![0m[91m node-gyp -v v3.8.0
+[0m[91mgyp ERR! not ok 
+[0m
+> core-js@2.6.12 postinstall /usr/src/app/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js on Open Collective or Patreon: [0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://www.patreon.com/zloirock [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> core-js-pure@3.26.1 postinstall /usr/src/app/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[96mThank you for using core-js ([94m https://github.com/zloirock/core-js [96m) for polyfilling JavaScript standard library![0m
+
+[96mThe project needs your help! Please consider supporting of core-js:[0m
+[96m>[94m https://opencollective.com/core-js [0m
+[96m>[94m https://patreon.com/zloirock [0m
+[96m>[94m bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz [0m
+
+[96mAlso, the author of core-js ([94m https://github.com/zloirock [96m) is looking for a good job -)[0m
+
+
+> @apollo/protobufjs@1.2.2 postinstall /usr/src/app/node_modules/@apollo/protobufjs
+> node scripts/postinstall
+
+
+> nodemon@1.19.4 postinstall /usr/src/app/node_modules/nodemon
+> node bin/postinstall || exit 0
+
+[32mLove nodemon? You can now support the project via the open collective:[22m[39m
+ > [96m[1mhttps://opencollective.com/nodemon/donate[0m
+
+[91mnpm notice created a lockfile as package-lock.json. You should commit this file.
+[0m[91mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/chokidar/node_modules/fsevents):
+npm WARN[0m[91m notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[91mnpm WARN node-fetch@2.6.7 requires a peer of encoding@^0.1.0 but none is installed. You must install peer dependencies yourself.
+[0m[91mnpm WARN @apollographql/apollo-tools@0.5.4 requires a peer of graphql@^14.2.1 || ^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN[0m[91m apollo-graphql@0.9.7 requires a peer of graphql@^14.2.1 || ^15.0.0 but none is installed. You must install peer dependencies yourself.
+[0m[91mnpm WARN[0m[91m ws@7.5.9 requires a peer of bufferutil@^4.0.1 but none is installed. You must install peer dependencies yourself.
+[0m[91mnpm WARN[0m[91m ws@7.5.9 requires a peer of utf-8-validate@^5.0.2 but none is installed. You must install peer dependencies yourself.
+[0m[91mnpm WARN[0m[91m ajv-keywords@2.1.1 requires a peer of ajv@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm [0m[91mWARN[0m[91m node-base@0.0.1 No description
+[0m[91mnpm WARN optional SKIPPING OPTIONAL DEPENDENCY: snappy@6.3.5 (node_modules/snappy):
+npm WARN optional[0m[91m SKIPPING OPTIONAL DEPENDENCY: snappy@6.3.5 install: `prebuild-install || node-gyp rebuild`
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+[0m[91m
+[0madded 1003 packages from 702 contributors and audited 1056 packages in 34.484s
+found 15 vulnerabilities (7 moderate, 7 high, 1 critical)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Removing intermediate container 08b449ef4ee1
+ ---> 83e39ebb63c2
+Step 5/6 : COPY ./ .
+ ---> 0d56f5859baa
+Step 6/6 : CMD [ "node", "index.js" ]
+ ---> Running in 1d33e3d91bc6
+Removing intermediate container 1d33e3d91bc6
+ ---> 6c025b89cbde
+Successfully built 6c025b89cbde
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiRjVaZnkreTgwV1piK3BXUGZab3lXVlJEMjd5L3pOWWh5NE5MdkdtSGZzZS85UEd4VVBqVFJ4WmxYa1c0dndWaFdPY0RkaGFmUHNqZ0N6bHB0V2V6eXYxT3U2VDlYSzhVV0gxa0tLQVl4V2tLN1RHOTV6bk1WdWROVmovVDhzSFVxdzB3ZjZSR3FWWGV1b1Z3NEpMNVJrQkt6Q1VtN1VZeTEzOElTd3VOSDFaaXkyNzQySHF0SHhuTzBDWkRaTXRrRFJFcyt6VEREeFM1SXJjL0RNdVo1dThaeEVMNkYzV1VXWlNOQk15dXd0WVlpa2RmMVlweXl4T0FmeXppTG9BQWNEUWVHYUlvajhVdEY1bmxPdnpzRGVqTnpkSWhEL2YvcVBzay9hK3FCWmxNNDhZaGFDcWdRYU1uYmdjdmlzSC80K2dNR2VZSXRQZUFBblVEQnJIbXAwZUxtSHhGTDJCSzhibG04WjZkUWtNS3dGeHpBUVhWbFMvODNGWnUxcUtyYVNhaGRjeFlmWm04SCt0bkR5YXU5ZG1ZTHd3NjRlR1VSeEZQUnlZM0JUdGxxbDhlTnlqMThwcXFZeWV3eEU0cjNSMFBVY2tGU0FpTG1yemFYb2tENUs5Sm5HWXVQNGFHRWdSZ2ZFTkxVM1hwSXp4ZGU5TWZSNGpIZ1o0SEZHUlhWODQ3aGJMcWN6NGtjOWJSSkNrVndjY3IzR1liWWlBMmZjYjYvYUcyL2JXeUw4eW0zRTZSNHJlL3ZLMG0xU1g4VEU1Y0dhTzFiaFExemp0R1Q0OERYL1Q1UndBa05BQjhwV3FsU1FocWxYbGFYU09aVE9zeDVSQVFpajd3bjlqbCtveTVxZExvTmVGcHZtb2N4MHZrQzBDZW85OUgzZjBzZVZ6SWgwMmtxWWt4aHlncGpHUWl3NzlTVktvN205MVVaQTlucFlPbkwzejNtajNHMk9XOURwOUlDaDl5enJvVVlBcTFCL3cwRHNzU3Zma1NCelhJbzJtNkJaSlpEOTFYWkV6NytFUmJZQzVhR1ZxSnhobWhHWndqOHlRVlRiaVFxUzN5aDJyVC9wU2hZOG5KZ1c5MkRScjB2ZDdrR2NNZmQ5Sk05QlhnNzRBU2haVUJJYjZ3UkZFaTVBVjVVSW1ZekU1TThkYWxReUhIT1RWMmRCWHVEZThhSmZQMitwN3dtMTV3WDNkeVhjZmZyeGkrazU4QXhWd21XM2ZZUUJGeXo3MFdwaWNoQnliN2REZkZ1dFFCYXFmY1hPeHB4cU9TZVVBemx1V29rQzgrSHplRXZ1TVM2NTJ2R1lIYjAzUVh0WVBEUHNGaDJYWk5PczEydXc5bG03ZGdCQzMvY3VocGRLbm81WUFSN2E1WUxXNVFwZ3Jid2dJRCtlVFNBVWtmV1VIZDhzREZLUDNvbEl5djB4RnptT3Z4YnVRdktaTWJ4NXg2NGtBMTI0UEZwbTVQSHpxNFgyLzVCbEZ5cUtUaElnVVE3UTlHWmFJZkplbW9JaDVhQmxuSWlFZUxsQXJzNWZZelpNS2c3TnNsdmtTVTRmRHM3Ry8vQ2wyeEFHTGttSU5LU2hwQVAxOEFZTzNxVFdFdUtxTWxNcEZDKzBTM1plRzA3NzIycmlOUzNYbWczbG9BQlgyL3pRYThTTVNBMm1rblpuUEVYeFJ1c2VTY2Yzd2FlR0RJSnpLRjJGRTR5TG9ZNStsWEJFMUlTK1dxYU1mbXE3U3didEt5RFFkRU10TFQxOVZLN1ptSnQyQzdUUUZ2M1R6cjBNUXVKSGlmaGRoTmg4TG4rVjJ0cFdPOFVqbHJTTm9hNVowcXRWUWhFdmJiMGhTL04zYmFJMEZVY05KTG1vYlFxS0VkVE80V0RnMVBlS3M2dHNIQUdwN0pZWDlOTzl0NWdDNFhOSVIraHZhblNYLzE2cCtSQ0VIS2tpYzJCc0pVVGh2SE1IN2d3MkNqMHZocnFvZkUzdXdERlJ0cmFEdmFRSU9kZmJTL3h2UkMwOEhTMlVnWGc3dEJLaUtsUzA0QkZHQ1hWd0xMbUpKMlZNcENHZTVhQXhwdDhNN3FWSm1qdWRpZjlvbXZiUDg1aWlITE9oUW9GYmIyMjcwTnE1Si9wTTJGWGdiYjF3Zk5idnhSbStieTBiM3ZiN0Q5cEpua1liSytFQkxPazRHUlJKazlaRHVuelI2RnVHaHcxOFlMTk83OUhTNjRkR3dqQld4NlRFd0dpOGtrUjk1M0hVVmthWjNJVi9pZWJMOHFQd0R4dHhNeXh3SkhYREVxVFJjRmp1TEtYOEdrNitLbkRua3BFbE1sdkFPU2NVbm1GVzVzV3JnVXVjU3RiWlV4N1Q3eEMzbU9ITTJ2VGFOS0VraFp2WUdSTFF0MVJRRUthS002bG41S3BoeEtsU1NtK1dJPSIsImRhdGFrZXkiOiJBUUVCQUhpZEVyWkNmaEtPZURNMDgrY1A1ZnR5anZROVhNTVNRNHBLMEZabnZBWlhKZ0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVETkpEbnl4Z2J1RE42ZWxPRVFJQkVJQTdLYjM0T1A4a2kxWHN6OEZKeTV3MXo3MEN5Y1lLUGsvUFhNMWdUS1BNZkh3cVlEOWY1WGJzenZaaVZQRTJkS3dNelVGc0w2WEdSTTE0bVpBPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTY3MDAxMTU1Mn0=' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway:eco
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/dev-stb-api-gateway]
+69f72c17ca1a: Preparing
+46516109d2ec: Preparing
+4f0a1d1b3a81: Preparing
+0598a9aeecfb: Preparing
+ad9b6fc9faa7: Preparing
+efab93543da3: Preparing
+df64d3292fd6: Preparing
+efab93543da3: Waiting
+df64d3292fd6: Waiting
+ad9b6fc9faa7: Layer already exists
+efab93543da3: Layer already exists
+df64d3292fd6: Layer already exists
+0598a9aeecfb: Pushed
+4f0a1d1b3a81: Pushed
+69f72c17ca1a: Pushed
+46516109d2ec: Pushed
+eco: digest: sha256:7f13ad60ae39f350ced9eb8812b5220dbe21685f2a84720e17fadf7b627cdfca size: 1789
+[8mha:////4CfGXCHix0f+Je86diNmVu8jWjrF+0QrwkLCKHy7gNE4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N+4u68W+AAAA[0m[Pipeline] }
+[8mha:////4Bg1iNnIz9OT0i+dcudw46SMZIKmwVs2OS5Zz1cTZ3wsAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyk8LGsbJlaDwBJogQ5n8CRFJ5Iq/mHUQzY+UWO/u2ec8XrGOAIwXNrMLBYOwM827SZbFMYbg6yszShXWEkZxiQmVBvTotKCgpWFLVsOKwUdg5igZ1gi238i4bJ1E35xTKd+BQm36EB1S8mJMM6QtzgN1t6iPhz/NXALP3Cep2/6n2DdZseDS+AAAA[0m[Pipeline] // container
+[8mha:////4FDbHEwfPO6XVn3EYrEeuN7MWGsDW/nimu1lvdoitzSZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AE3ltSr4AAAA=[0m[Pipeline] }
+[8mha:////4IEeNBH66TTF6ytlOzJpxZ16pgi0jrHwUp6R+SqEr2B2AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AUPs8zL4AAAA=[0m[Pipeline] // stage
+[8mha:////4F1YZivQGEopyemBR56MY/Adqv408/ctuvnYKCIHc9GJAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGyIWoR/BAAAA[0m[Pipeline] stage
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] container
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] {
+[8mha:////4DybIPg1jnoSg9wmRpx8PukPSk9gqpczwhujrmOlpJtwAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikRJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3favo5XL4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy-eco.stage.yml
+deployment.apps/stx-stb-api-gateway-dev configured
+service/stx-stb-api-gateway-dev unchanged
+ingress.networking.k8s.io/stx-stb-api-gateway-dev unchanged
++ date '+%s'
++ kubectl patch deployment stx-stb-api-gateway-dev -p '{"spec":{"template":{"metadata":{"labels":{"date":"1669968431"}}}}}' -n stx
+deployment.apps/stx-stb-api-gateway-dev patched
++ kubectl rollout status deployment stx-stb-api-gateway-dev -n stx
+Waiting for deployment "stx-stb-api-gateway-dev" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "stx-stb-api-gateway-dev" rollout to finish: 1 old replicas are pending termination...
+deployment "stx-stb-api-gateway-dev" successfully rolled out
+[8mha:////4L3HRVJ3vdegamdi6CeY23Rn/PPV0nuG9Kcf72OYj/GqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bij33Ma+AAAA[0m[Pipeline] }
+[8mha:////4EsG1lMXsta4tL5YjnxfFaS8/x6OFwlcBjXlp9EduKZ0AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNzd1iZS+AAAA[0m[Pipeline] // container
+[8mha:////4H/LgRmWh47RQ6d/wo3DJAJlpUncd64FdJ5Bl3kRNlf0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEPNxplvgAAAA==[0m[Pipeline] }
+[8mha:////4P5ulgHH0FSNK8YKrEDPBjs76IMDbdXcNteHmsk5ji0vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYEQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAT22Bzr4AAAA=[0m[Pipeline] // stage
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] deleteDir
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] echo
+Build successful
+[8mha:////4OMCWsXr0zcvHP9wvtU5MtMnPwtKzKbZOVi3O+nFdIAjAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ANa6Etu9AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4OYzSFom6u5yVeYD/IcWZayNoxR7tL3a0hADyYbmm+wEAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AHqIRha9AAAA[0m[Pipeline] }
+[8mha:////4IEYX0Qz1Fd2/wjNQrBtIZRgoszfzT6sLcIbh2LMcYm4AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AcPAvsr0AAAA=[0m[Pipeline] // node
+[8mha:////4LuUVI8G/MSxnaDuapdYLeiWtEbj/u3BZg4Hi/p6AivdAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0dI6VbYbGE0SIMZDZhWQRKk/k1byDjMxY+av/XvNeb2xTxImjU62lzlOqverD6JanJo7dLfCkWr6qmilxsKqyU8WNPa9YsVisy3JsNHaW6sDJkxPsdWsepgiGXHGRuLijRu6bAU9keimLifKFOeJwH5vE9Ov8DWDue0FeloKs/AD2HAh3vQAAAA==[0m[Pipeline] }
+[8mha:////4F3xi27vuwkZomiyhUbUY2QUqr3k0AodaPtKzSFBWEVDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId3tBtv0A5aAM1L0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4I6GoMj1zOi5NscbjL0fQ5kGk2qs4jBWLaYpN6lXivO6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKPqq+S9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

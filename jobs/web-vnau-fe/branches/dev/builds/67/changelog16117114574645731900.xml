@@ -1,0 +1,15 @@
+commit 2b509dec42d378762642658442f97272b6ddd5b9
+tree 37753955eff2fc7f193cefc6dd794a38311e99ce
+parent 76b372dd41e5964cc7f721a01f85a5d3e36a9181
+author dung.phung <dung.phung@bizzi.vn> 2022-02-20 23:51:20 +0700
+committer dung.phung <dung.phung@bizzi.vn> 2022-02-20 23:51:20 +0700
+
+    update
+
+
+:100644 100644 963d1dedc5c3603d94066f45251b59df42a02ef5 938d65f9754f8b00c3672ddc7e746985a1a3ad53 M	components/ItemNews2.tsx
+:100644 100644 a85d21c13fbe622db8a45b1477596a165fac9623 f85ca951aea372c2e560c63d6cf758b5c1d75a07 M	pages/partner/find/index.tsx
+:100644 100644 ce5f3d628c37a7ba55412cea821c07f6eca906c9 18dc6a97ee9c6b8d46b78543699d7184373ff85c M	translations/en/components/ItemNew2.lang.json
+:100644 100644 2bb68383b1b2fb4a387e857f9218d7e26ec9fce9 64f04bfbf7fedab60ea13d1651d98435b1a8435a M	translations/en/pages/partner/find/index.lang.json
+:100644 100644 8dfdd2a4dc3406bc0dc54a5c1696cd8fd83a7519 675ca9d4ae15e4b5d734aa9a26b9892154d57ab4 M	translations/vi/components/ItemNew2.lang.json
+:100644 100644 1b27ac2fb7a5ae7d10cb871cd7ff675d60dca101 9108e431929a3067122e183f5e9b1e2f3362e55a M	translations/vi/pages/partner/find/index.lang.json

@@ -1,0 +1,10 @@
+commit adc28ac95799e6bb9a5af1c38bc4a52f86810644
+tree 84f8fa910b0737a1753cb8986da8687da79edbe7
+parent 0ee6f249e147a8ae0b27c718c6c0a6bafc3e1e5b
+author Karkill <karkill@Karkills-iMac.local> 2020-12-05 10:09:49 +0700
+committer Karkill <karkill@Karkills-iMac.local> 2020-12-05 10:09:49 +0700
+
+    back to traefik
+
+
+:100644 100644 49f9337501d016aa73eacf5a0dea7395e7344412 bfce55aecb84d18d8c89cf2cd186818699930fe7 M	deploy-dev.yml

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>f4c3f38ae752481e0709e1f29725374cfd5a17e1</hash>
+  <message>Merged in SES-1041/SES-1043/SES-1040/SES-1049/dev/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx (pull request #1364)
+
+fix-reject-cancel-order-stx</message>
+  <author>Hồ Minh Tiến &lt;tien.ho@gosmartlog.com&gt;</author>
+  <date>2023-04-06 10:22:57.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

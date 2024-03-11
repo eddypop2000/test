@@ -1,0 +1,49 @@
+Started
+[Fri Sep 23 04:16:57 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch dev from smartlogtms/smartlog-app
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at 7f445371bac4c678515bfd30f338ff67a66fc26d)
+Checking branch production from smartlogtms/smartlog-app
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: production
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-130 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-193 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-195 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  28 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-2 from smartlogtms/smartlog-app and branch dev
+Checking PR-285 from smartlogtms/smartlog-app and branch bugfix/SA-193
+Checking PR-284 from smartlogtms/smartlog-app and branch bugfix/SA-195
+
+  3 pull requests were processed
+[Fri Sep 23 04:17:02 UTC 2022] Finished branch indexing. Indexing took 4.7 sec
+Finished: SUCCESS

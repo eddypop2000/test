@@ -1,0 +1,13 @@
+[Sat Apr 10 04:20:59 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:20:59 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/swm-socket for branches
+Checking branch dev from smartlogwms/swm-socket
+Checking branch production from smartlogwms/swm-socket
+Checking branch master from smartlogwms/swm-socket
+
+  3 branches were processed
+Looking up smartlogwms/swm-socket for pull requests
+
+  0 pull requests were processed
+[Sat Apr 10 04:21:01 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:20:59 UTC 2021 processed in 1.7 sec

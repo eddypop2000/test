@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1046.v0ca_37783ecc5">
+  <sourceActions>
+    <entry>
+      <string>7c4af00c-e625-457e-b687-ea1c47c813c8</string>
+      <list>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <scm>git</scm>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <repoOwner>smartlogtms</repoOwner>
+          <repository>visualize-thp</repository>
+          <defaultBranch>master</defaultBranch>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <iconClassName>icon-bitbucket-repo</iconClassName>
+          <url>https://bitbucket.org/smartlogtms/visualize-thp</url>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@621.vda_a_b_055e58f7">
+          <objectDisplayName>visualize-thp</objectDisplayName>
+          <objectUrl>https://bitbucket.org/smartlogtms/visualize-thp</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

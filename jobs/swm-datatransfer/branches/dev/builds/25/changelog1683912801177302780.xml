@@ -1,0 +1,11 @@
+commit 0ae70530b04537abeaca4fd2311f0bf3260ad3c2
+tree b27f8242ba795910f05f5b0eff33cc2098f30a40
+parent 8f43e095164f5158be7147cb44a29e62d6b42630
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-26 17:12:27 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-26 17:12:27 +0700
+
+    Add nullable
+
+
+:100644 100644 c10c7568580ce3293366d4bcd0b80a2a3a0dcd46 670e76711daa8df46bb7630723359397ee82a0a7 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 c0230342c6ac9e952209e1f3af6a9cc5a47e2fdd 5c8c2894636605c1c6f7e944d240af63be0b59f0 M	src/entities/primary/dock_operation_historical.ts

@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>0ae70530b04537abeaca4fd2311f0bf3260ad3c2</hash>
+  <message>Add nullable
+</message>
+  <author>Karkill &lt;hoa.tran@gosmartlog.com&gt;</author>
+  <date>2021-11-26 10:12:27.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

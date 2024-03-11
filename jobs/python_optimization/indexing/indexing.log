@@ -1,0 +1,34 @@
+Started
+[Fri Apr 09 09:04:02 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/python_optimization for branches
+Checking branch production from smartlogtms/python_optimization
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: production (still at 20899fcc3136ade8b2a2abf238a24d5f3860c7b8)
+Checking branch chau_nguyen from smartlogtms/python_optimization
+Checking branch dev/abbott from smartlogtms/python_optimization
+Checking branch dev/abbott_algorithm_fix from smartlogtms/python_optimization
+Checking branch dev/abbott_fix/bug_8_add_api_err from smartlogtms/python_optimization
+Checking branch dev/abbott_fix/refactor from smartlogtms/python_optimization
+Checking branch dev/api-doc from smartlogtms/python_optimization
+Checking branch dev/gia-bao from smartlogtms/python_optimization
+Checking branch dev/poligon from smartlogtms/python_optimization
+Checking branch dev/s197 from smartlogtms/python_optimization
+Checking branch dev/temp_branch from smartlogtms/python_optimization
+Checking branch develop from smartlogtms/python_optimization
+Checking branch feat/htc from smartlogtms/python_optimization
+Checking branch feat/htc_2 from smartlogtms/python_optimization
+Checking branch fix/formatting from smartlogtms/python_optimization
+Checking branch fix/test from smartlogtms/python_optimization
+Checking branch master from smartlogtms/python_optimization
+
+  17 branches were processed
+Looking up smartlogtms/python_optimization for pull requests
+Checking PR-3 from smartlogtms/python_optimization and branch chau_nguyen
+Checking PR-4 from smartlogtms/python_optimization and branch dev/abbott
+
+  2 pull requests were processed
+[Fri Apr 09 09:04:06 UTC 2021] Finished branch indexing. Indexing took 3.1 sec
+Finished: SUCCESS

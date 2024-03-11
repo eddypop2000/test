@@ -1,0 +1,35 @@
+Started
+[Fri Feb 03 04:46:02 UTC 2023] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: develop_v3 (still at a4f94d44bc4a11ee58c02c7f4a1c84028951fdfd)
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 077e1ed7dbc8310a1c86a652b6d15a6ac4e5440d)
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  15 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Fri Feb 03 04:46:06 UTC 2023] Finished branch indexing. Indexing took 4.6 sec
+Evaluating orphaned items in super-vrp
+Will remove buildkit
+Finished: SUCCESS

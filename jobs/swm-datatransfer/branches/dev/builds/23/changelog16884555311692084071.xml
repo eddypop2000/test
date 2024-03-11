@@ -1,0 +1,12 @@
+commit 49578f0c6a615e0a16e52d559fe7333dc771146e
+tree 564c82ce014a6c6c0c1df36e37d49a3787d97a38
+parent dc6a973f85e105be4878f53c239fe3ac36c9dfea
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-26 16:40:22 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-26 16:40:22 +0700
+
+    Add CommitMessage Jenkins
+
+
+:100644 100644 3a63d77c7f041bdee5ecbc670a31a65c3d5f3ec2 7b8776de3a289f436eba310e38b3b66719c3c5ba M	Jenkinsfile
+:100644 100644 6a11d13276934847d3e2dec234a7710182080701 0ff708ef03fbc4f7f2ba8a62a20ff3ab1489bb93 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 39a02083bcef05487c9528e5fe286c55234bb107 72de3c3d9242fe77eac88f1f442928138c97fc19 M	yarn.lock

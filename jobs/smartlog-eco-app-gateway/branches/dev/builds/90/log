@@ -1,0 +1,259 @@
+Branch event
+Obtained src/Gateway/Smartlog.AppGateway/Jenkinsfile from 15a6701e64261a94f3abcbfd4e42019b89bc8979
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+All nodes of label ‘[8mha:////4ObvLlyTtnP0BTSCwTdmju0kTH4n5pzlhAx4oU0Xzk9TAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZpoPak1Bz9gvwU3fLMkgzd9MySstSi4sz8PH0AWlk5HNAAAAA=[0mpod-with-gitversion’ are offline
+Created Pod: jenkins/pod-with-gitversion-srbzx-08l9z
+Created Pod: jenkins/pod-with-gitversion-srbzx-7zcks
+Created Pod: jenkins/pod-with-gitversion-srbzx-ktl1j
+Created Pod: jenkins/pod-with-gitversion-srbzx-k2dgf
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Scheduled] Successfully assigned jenkins/pod-with-gitversion-srbzx-ktl1j to ip-192-168-34-87.ap-southeast-1.compute.internal
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][Scheduled] Successfully assigned jenkins/pod-with-gitversion-srbzx-08l9z to ip-192-168-34-87.ap-southeast-1.compute.internal
+[Normal][jenkins/pod-with-gitversion-srbzx-k2dgf][Scheduled] Successfully assigned jenkins/pod-with-gitversion-srbzx-k2dgf to ip-192-168-16-228.ap-southeast-1.compute.internal
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][Scheduled] Successfully assigned jenkins/pod-with-gitversion-srbzx-7zcks to ip-192-168-34-87.ap-southeast-1.compute.internal
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Created] Created container kubectl
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Started] Started container kubectl
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Created] Created container awscli
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Started] Started container awscli
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Pulled] Container image "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1" already present on machine
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Created] Created container gitversion
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Started] Started container gitversion
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Created] Created container docker
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "7bde23d951dd898c0c14668a04215acd4eed1cc51948d85cf589b82e7c98a850" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Started] Started container docker
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Pulled] Container image "jenkins/inbound-agent:4.3-4" already present on machine
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Created] Created container jnlp
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "90875d1dfd0d9898a0206188f14b1de2160262d5a0c1eb6c4ddda20e7925a456" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-k2dgf][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "190569d2073d5194a939feaa75fe06875c6e94f11ec29d14cb16c24b7947e7b4" network for pod "pod-with-gitversion-srbzx-k2dgf": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-k2dgf_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-ktl1j][Started] Started container jnlp
+[Normal][jenkins/pod-with-gitversion-srbzx-k2dgf][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "b5315e8f5a1e27e674f9d105243c44aa409fb04ff17a797cd938746bd706a974" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "739641e9f266bdbcc000ec8fe28f9d7c56e3574f0278df5bd7e12d7c01abd629" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-k2dgf][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "3317356ee5d03845fab26c60761c7e30b434e8d611d9a79cc5f0c4529b8b2340" network for pod "pod-with-gitversion-srbzx-k2dgf": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-k2dgf_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+Agent [8mha:////4KBXpwbrw4YFwQ/uLYToOqHZOJ5U5xHI0AYUw6XKTKnQAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/Dzd4qKkqgrd7JIcwywAS6pgpd4AAAA=[0mpod-with-gitversion-srbzx-ktl1j is provisioned from template pod-with-gitversion-srbzx
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins:8080/job/smartlog-eco-app-gateway/job/dev/90/"
+    runUrl: "job/smartlog-eco-app-gateway/job/dev/90/"
+  labels:
+    jenkins/jenkins-jenkins-agent: "true"
+    jenkins/label-digest: "f738308e5afd40e05a41d030519a9a45a5fe73d4"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-srbzx-ktl1j"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins-agent:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-srbzx-ktl1j"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-srbzx-ktl1j"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins:8080/"
+    image: "jenkins/inbound-agent:4.3-4"
+    name: "jnlp"
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "256Mi"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "7bac6f576ad570ad1cc7db89bc5daa2bfe710b9537dc4cd0b62e12fb88d533ee" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-k2dgf][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "e580337b85a403a96af3aa129e2c303d3491e4b97fd0a06d87916db2753c7768" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+Running on [8mha:////4IAnkXLdKsO4RU6auf/QhwVX6RSqxBopH5oVAYe1b7lfAAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgYt/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/Dzd4qKkqgrd7JIcwyx9AGsxTFHfAAAA[0mpod-with-gitversion-srbzx-ktl1j in /home/jenkins/agent/workspace/smartlog-eco-app-gateway_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "63f629df7eb7e35be1f0fa6cfc78160539e0726a6f5300967d727fd7a5d8d824" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "940eaa5ee5dd754f5fb5d782993e934283a52f5a5907e8a3e564f0636fb0d2dc" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Warning][jenkins/pod-with-gitversion-srbzx-k2dgf][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "db1c701d9f584f06d7e8ac54dc134bf84a3afd49475afe5184978ee87aa45262" network for pod "pod-with-gitversion-srbzx-k2dgf": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-k2dgf_jenkins" network: add cmd: failed to assign an IP address to container
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "f3c9e104ada6d5d9c7da207431eaaf47b71012712352c8dc9348083e3fcdc0d6" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+Cloning repository https://bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git init /home/jenkins/agent/workspace/smartlog-eco-app-gateway_dev # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "51603baf355898838cb3e22ec941a6141b81c6ea6860c40ffbfbd315273c5c8b" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-k2dgf][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "47587a2570b676989e480b314fad91ece132dc8dcefc15c6faacb58707c7e385" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "e12e201a57109b7c2c6ea124209aacd48824ac85e03c6497620f173d223beae6" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+Avoid second fetch
+Checking out Revision 15a6701e64261a94f3abcbfd4e42019b89bc8979 (dev)
+ > git config remote.origin.url https://bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 15a6701e64261a94f3abcbfd4e42019b89bc8979 # timeout=10
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "c5db7f449a236315801ccb079b0dd7e5d4f179850092f461a60a1a0a4d08ff96" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "428fe0d099a34aa3678627f4ae3cb752279b0e45a0c2baf4e2c61e48c56023c5" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-k2dgf][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "9d676c1f34ce316f0cfa5818c61bb6a845a3dbfae95295a3d1e45aa0d5e1e8ae" network for pod "pod-with-gitversion-srbzx-k2dgf": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-k2dgf_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-k2dgf][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+Commit message: "Merged in update-many-order-pricing-list (pull request #149)"
+ > git rev-list --no-walk 1fca9b825f80a27a62a75da77bf5fac08ebd42ba # timeout=10
+[Bitbucket] Notifying commit build result
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "8cd6d42170fdbe6433e1639fac19dbaf24c78d49b62478c6676b736e6d9bcc49" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "796df79d8eaef1cc2aa9e853db42915c1d17a36141315f3514f7fc6d96da0b0f" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+ > git rev-parse --is-inside-work-tree # timeout=10
+ > git config remote.origin.url https://bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Checking out Revision 15a6701e64261a94f3abcbfd4e42019b89bc8979 (dev)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 15a6701e64261a94f3abcbfd4e42019b89bc8979 # timeout=10
+[Warning][jenkins/pod-with-gitversion-srbzx-7zcks][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "aff42cc18b452c61cdd0220d262a736224ce5085170514787583a327b638ea62" network for pod "pod-with-gitversion-srbzx-7zcks": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-7zcks_jenkins" network: add cmd: failed to assign an IP address to container
+Commit message: "Merged in update-many-order-pricing-list (pull request #149)"
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
+[Warning][jenkins/pod-with-gitversion-srbzx-08l9z][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "24f538069416d9d317b12a5aaca247325d8f029e5f32570d41bee8578f59e1d1" network for pod "pod-with-gitversion-srbzx-08l9z": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-08l9z_jenkins" network: add cmd: failed to assign an IP address to container
+[Normal][jenkins/pod-with-gitversion-srbzx-08l9z][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
+[Normal][jenkins/pod-with-gitversion-srbzx-7zcks][SandboxChanged] Pod sandbox changed, it will be killed and re-created.
++ grep build-all
++ git log -1 --pretty=%B
+[8mha:////4MO5/2hv+0YI4sFJ6nKzOuhVNamLXVGTKa8siV2v1my2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AOJh0L+9AAAA[0m[Pipeline] sh
+[Warning][jenkins/pod-with-gitversion-srbzx-k2dgf][FailedCreatePodSandBox] Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "959f2b633256f725642d3e7c206e147a04bbb7017d2dae99736e315f73a49226" network for pod "pod-with-gitversion-srbzx-k2dgf": networkPlugin cni failed to set up pod "pod-with-gitversion-srbzx-k2dgf_jenkins" network: add cmd: failed to assign an IP address to container
++ grep src/Gateway/Smartlog.AppGateway
++ git diff --name-status HEAD~1..HEAD
+[8mha:////4H35T7eAA+JtgsJ+amu72YHDxWdqeb8EepZNPcDQy5gXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] echo
+result: 1
+[8mha:////4Hw/woP8QoGAydOBchzXONJGnXcbHjU/dK0H/1Lg+q9SAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A97oExO9AAAA[0m[Pipeline] }
+[8mha:////4NAEESCDea+piThNvskgj4J7xLISCT/0xdONjhYUDj81AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPn48MxL0AAAA=[0m[Pipeline] // stage
+[8mha:////4GP6KUBBv/DqCm6sag8L5zWJIkJ3do/ALjvj4pKNZ2yUAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPu9+Di70AAAA=[0m[Pipeline] echo
+NO BUILD
+[8mha:////4POHXglFi47aoOpj71TssplhCofOSAXXPlxFMJNSEY2SAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99AHTDGwy9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4EtcaTv4FEPjki0opu5BV2jbtXMripVVtJcV5por1EemAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDRJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99ADXyABW9AAAA[0m[Pipeline] deleteDir
+[8mha:////4KkqwozePH1EqMB2iFmKDF1Zz3BznGa9UOyZxZD0lIb0AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBFDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPBzjfur0AAAA=[0m[Pipeline] }
+[8mha:////4IyU7T7AyZkOBo1+zDxCd4HhKRZb6Q3A2cExLC2WtneHAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPDUC2Hr0AAAA=[0m[Pipeline] // node
+[8mha:////4M0IL8aJquaWOQmoY2Drq8aMYmAywprLdy3FEyqMPWidAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8ASwoRLr0AAAA=[0m[Pipeline] }
+[8mha:////4IjLjzVWOj68sAlZK+yoMYjkCb3KHLBTC5ULeJA0ZYJxAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkMhon14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmvhfk+1KQlR9YthWNvQAAAA==[0m[Pipeline] // podTemplate
+[8mha:////4N5DoMzyTHCX32MnL//yXiH08SPEGNGtGKQkeqTShiPVAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkxM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwA3loySL0AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

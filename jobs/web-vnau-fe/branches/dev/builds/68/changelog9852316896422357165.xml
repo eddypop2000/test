@@ -1,0 +1,18 @@
+commit fdefb52c57e18cfc99eb1c192bae51bf68aaca70
+tree 62fe85d2b5d2bb0c2b455a4d26adae55d4515c10
+parent 2b509dec42d378762642658442f97272b6ddd5b9
+author dung.phung <dung.phung@bizzi.vn> 2022-02-22 23:45:21 +0700
+committer dung.phung <dung.phung@bizzi.vn> 2022-02-22 23:45:21 +0700
+
+    update
+
+
+:100644 100644 e5a244065e9fa7ce5ac5dfe05e55071c669df396 53f31a30eeb6731a109573b190768b591879bdfb M	contexts/AuthContext.tsx
+:100644 100644 bee4dbc779a94fc414eb0b9ce72fc4f01d94b9f2 ad3853bca259b864c46e5e73dc7e1f935cfb4085 M	layouts/Header.tsx
+:100644 100644 d9b4db3df141d0160e6320918f121ab56fce6d4c d70c1b7e951bed3fd3c75fd5a265ce45d0a4a808 M	layouts/account/AccountInfo.tsx
+:100644 100644 0503bf92e51bdadadeffb9ca094addbe59d00e08 d13bcc2e42febed07477bea88de2d94778856faf M	layouts/account/Notifications.tsx
+:100644 100644 08f5e4e2acdfed70848e51071c734ecaed5a95e6 5a11080afbfd44ddb4d717ac9b0e55cb7cbd414e M	layouts/account/Posts.tsx
+:100644 100644 4f8471dfd6b70ef03dc821d4136193aa6058985a e59a8c56cd132eb01b01106afe304415b5365957 M	pages/event/index.tsx
+:100644 100644 8d0419e071eda39f6ad0e5470960e7ca473ab758 0e94d5c0d69b936370332e3102601597c9c9f575 M	pages/media-release/index.tsx
+:100644 100644 8fdfe336e2a52dbf05144d9f5028a964fa3b3d40 cd56e38fe818225e6fb3a2287151c17f2b2f9ed5 M	pages/partner/list.tsx
+:100644 100644 c64201d4e11bc66862ac546f009acd3feba544f4 dffbda2338ff3589eda8ebe512a891d0de031aeb M	utils/rest/endpoints.ts

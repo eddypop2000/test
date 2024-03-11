@@ -1,0 +1,20 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>c717657788d2ded2330d4ce9d84302cb0ed88e44</hash>
+  <message>Merged in config-log-to-cloudwatch (pull request #150)
+
+Transport exchange, Notification: Config serilog
+
+* IdentityServer: config AWS.Logger.SeriLog
+
+* Transport exchange, Notification: Config serilog
+
+* merge dev
+</message>
+  <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+  <date>2021-02-19 10:46:36.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,450 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1145.v7f2433caa07f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.7.0"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.0.2.8.1">
+      <queuingDurationMillis>7769</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>7768</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@595.vd5a_df5eb_0e39">
+      <sourceId>94231aa3-e641-4a53-8d17-68b4c6addc12</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>f78f9f56a83160ee443c59c3f7915acffcb76113</hash>
+        <message>Merged in lokalise-2022-05-27_04-49-13 (pull request #1823)
+
+Lokalise: Translations update
+
+* Smartlog lokalise update</message>
+        <author>Smartlog Lokalise &lt;smartlog.lokalise@gmail.com&gt;</author>
+        <date>2022-05-27 02:50:14.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@552.vd9cc05b8a2e1">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+        <c class="list">
+          <jenkins.model.CauseOfInterruption_-UserInterruption>
+            <user>admin</user>
+          </jenkins.model.CauseOfInterruption_-UserInterruption>
+        </c>
+        <list reference="../c"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>2377575</queueId>
+  <timestamp>1653636258369</timestamp>
+  <startTime>1653636258373</startTime>
+  <result>ABORTED</result>
+  <duration>17308</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+  node(&apos;pod-with-gitversion&apos;) {
+    SLACK_CHANNEL = &apos;C02CR8V040K&apos; // stm_sme_build_log
+    isDeploy = true
+    isBuildBe = false
+    isBuildGPS = false
+    isBuildApiGateway = false
+    isBuildTenantService = false
+    isBuildTaskManager = false
+    isBuildTaskManagerService = false
+    isBuildSignalR = false
+    isBuildLocalService = false
+
+    successBuild = 0
+    totalBuild = 0
+
+    commitMessage = &quot;&quot;
+    try {
+      SEM_VER = &apos;0.0.0&apos;
+      stage(&apos;Get source code&apos;) {
+        echo &apos;Getting source code...&apos;
+        checkout([
+          $class: &apos;GitSCM&apos;,
+          branches: [[name: &apos;*/dev&apos;]],
+          extensions: scm.extensions,
+          userRemoteConfigs: [[
+            credentialsId: scm.userRemoteConfigs[0].credentialsId,
+            name: &apos;origin&apos;,
+            refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+            url: scm.userRemoteConfigs[0].url
+          ]],
+          doGenerateSubmoduleConfigurations: false
+        ])
+
+        checkout scm
+
+        String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+        commitMessage = parts[0]
+
+        result = sh (
+          script: &quot;git log -1 --pretty=%B | grep &apos;build-all&apos;&quot;,
+          returnStatus: true
+        )
+        isBuildBe = (result == 0)
+        isBuildGPS = (result == 0)
+        isBuildApiGateway = (result == 0)
+        isBuildTenantService = (result == 0)
+        isBuildTaskManager = (result == 0)
+        isBuildTaskManagerService = (result == 0)
+        isBuildSignalR = (result == 0)
+        isBuildLocalService = (result == 0)
+
+        if (!isBuildBe){
+          isBuildBe = (sh (
+            script: &quot;&quot;&quot;git diff --name-status HEAD~1..HEAD \\
+             | grep -v Jenkins \\
+             | grep -v src/GPS \\
+             | grep -v src/Smartlog.Stm.Smes.ApiGateway \\
+             | grep -v src/TenantService \\
+             | grep -v src/TaskManagementSystem \\
+             | grep -v src/SocketService \\
+             | grep -v src/Smartlog.Stm.Smes.SignalR \\
+             | grep -v src/LocalServices
+            &quot;&quot;&quot;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildBe: ${isBuildBe}&quot;
+
+        if (!isBuildGPS){
+          isBuildGPS = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/GPS&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildGPS: ${isBuildGPS}&quot;
+
+        if (!isBuildApiGateway) {
+          isBuildApiGateway = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/Smartlog.Stm.Smes.ApiGateway&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildApiGateway: ${isBuildApiGateway}&quot;
+
+        if (!isBuildTenantService) {
+          isBuildTenantService = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/TenantService&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildTenantService: ${isBuildTenantService}&quot;
+
+        if (!isBuildTaskManager) {
+          isBuildTaskManager = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/TaskManagementSystem&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildTaskManager: ${isBuildTaskManager}&quot;
+
+        if (!isBuildTaskManagerService) {
+          isBuildTaskManagerService = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/TaskManagementSystem&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildTaskManagerService: ${isBuildTaskManagerService}&quot;
+
+        if (!isBuildSignalR) {
+          isBuildSignalR = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/Smartlog.Stm.Smes.SignalR&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildSignalR: ${isBuildSignalR}&quot;
+
+        if (!isBuildLocalService) {
+          isBuildLocalService = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep src/LocalServices&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildLocalService: ${isBuildLocalService}&quot;
+
+        isDeploy = isBuildBe || isBuildGPS || isBuildApiGateway || isBuildTenantService || isBuildTaskManager
+        isDeploy = isDeploy || isBuildTaskManagerService || isBuildSignalR || isBuildLocalService
+        if (isBuildBe) { totalBuild++ }
+        if (isBuildGPS) { totalBuild++ }
+        if (isBuildApiGateway) { totalBuild++ }
+        if (isBuildTenantService) { totalBuild++ }
+        if (isBuildTaskManager) { totalBuild++ }
+        if (isBuildTaskManagerService) { totalBuild++ }
+        if (isBuildSignalR) { totalBuild++ }
+        if (isBuildLocalService) { totalBuild++ }
+      }
+
+      rootDir = pwd()
+      baseDeploy = load &quot;${rootDir}/Jenkins.Base.groovy&quot;
+      listOldDeploy = [&quot;dev&quot;, &quot;qc&quot;, &quot;DLVR-SSO&quot;, &quot;DLVR-SSO-v2&quot;]
+      isOldDeploy = listOldDeploy.any {v -&gt; v == env.BRANCH_NAME }
+      if (isOldDeploy){
+        privateEcr = &apos;551870716768.dkr.ecr.ap-southeast-1.amazonaws.com&apos;
+        namespace = &apos;stm&apos;
+      }else {
+        privateEcr = &apos;551870716768.dkr.ecr.ap-southeast-1.amazonaws.com&apos;
+        namespace = &apos;tms&apos;
+      }
+      echo &quot;isOldDeploy: ${isOldDeploy}&quot;
+
+      if (isOldDeploy) {
+        deploy = load &quot;${rootDir}/Jenkins.Build.groovy&quot;
+      }else {
+        deploy = load &quot;${rootDir}/Jenkins.BuildMultipleBranch.groovy&quot;
+      }
+      deploy.init(baseDeploy)
+      baseDeploy.awscli()
+
+      if (env.BRANCH_NAME == &apos;dev&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;stage&apos;
+        longEnv = &apos;Staging&apos;
+        build()
+      } else if (env.BRANCH_NAME == &apos;qc&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;qc&apos;
+        longEnv = &apos;Staging&apos;
+        build()
+      } else if (env.BRANCH_NAME == &apos;DLVR-SSO&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;authen&apos;
+        longEnv = &apos;Staging&apos;
+
+        isBuildGPS = false
+        isBuildApiGateway = false
+        isBuildTenantService = false
+        isBuildTaskManager = false
+        isBuildTaskManagerService = false
+        isBuildSignalR = false
+        isBuildLocalService = false
+
+        totalBuild = 0
+        if (isBuildBe) { totalBuild++ }
+        if (isBuildGPS) { totalBuild++ }
+        if (isBuildApiGateway) { totalBuild++ }
+        if (isBuildTenantService) { totalBuild++ }
+        if (isBuildTaskManager) { totalBuild++ }
+        if (isBuildTaskManagerService) { totalBuild++ }
+        if (isBuildSignalR) { totalBuild++ }
+        if (isBuildLocalService) { totalBuild++ }
+        build()
+      } else if (env.BRANCH_NAME == &apos;DLVR-SSO-v2&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;authen-v2&apos;
+        longEnv = &apos;Staging&apos;
+
+        isBuildGPS = false
+        // isBuildApiGateway = false
+        isBuildTenantService = false
+        isBuildTaskManager = false
+        isBuildTaskManagerService = false
+        isBuildSignalR = false
+        isBuildLocalService = false
+
+        totalBuild = 0
+        if (isBuildBe) { totalBuild++ }
+        if (isBuildGPS) { totalBuild++ }
+        if (isBuildApiGateway) { totalBuild++ }
+        if (isBuildTenantService) { totalBuild++ }
+        if (isBuildTaskManager) { totalBuild++ }
+        if (isBuildTaskManagerService) { totalBuild++ }
+        if (isBuildSignalR) { totalBuild++ }
+        if (isBuildLocalService) { totalBuild++ }
+        build()
+      } else if (isDeploy) {
+        tagEnv = env.BRANCH_NAME == &apos;production&apos; ? &apos;prod&apos; : env.BRANCH_NAME
+        listTemplateProductionBranch = [&quot;prod&quot;, &quot;release&quot;, &quot;master&quot;]
+        longEnv = listTemplateProductionBranch.any { v -&gt; v.contains(env.BRANCH_NAME) } ? &apos;Production&apos; :  &apos;Staging&apos;
+        build()
+      }
+      currentBuild.result = &apos;SUCCESS&apos;
+    } catch (exc) {
+      currentBuild.result = &apos;FAILURE&apos;
+      echo &apos;I failed&apos;
+      echo exc.getMessage()
+    }
+    finally {
+      echo &apos;One way or another, I have finished&apos;
+      try {
+        deleteDir() /* clean up our workspace */
+      } catch(err) {
+        // Do nothing
+      }
+      if (currentBuild.result == &apos;SUCCESS&apos;) {
+        echo &apos;Build successful&apos;
+      } else if (currentBuild.result == &apos;FAILURE&apos;) {
+        echo &apos;I failed :(&apos;
+        slackSend channel: SLACK_CHANNEL,
+          color: &apos;#c40e0e&apos;,
+          message: &quot;Attention @here ${env.JOB_NAME} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+      }
+    }
+  }
+}
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+  baseDeploy.generateVersion()
+  echo &quot;Version ${SEM_VER}&quot;
+
+  if (isBuildBe) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-Be] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildBe(isBuildBe)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-Be] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildBe(isBuildBe)
+  }
+
+  if (isBuildGPS) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-GPS] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildGPS(isBuildGPS)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-GPS] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildGPS(isBuildGPS)
+  }
+
+  if (isBuildApiGateway) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildApiGateway(isBuildApiGateway)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildApiGateway(isBuildApiGateway)
+  }
+
+  if (isBuildTenantService) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TenantService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildTenantService(isBuildTenantService)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TenantService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildTenantService(isBuildTenantService)
+  }
+
+  if (isBuildTaskManager) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TaskManager] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildTaskManager(isBuildTaskManager)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TaskManager] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildTaskManager(isBuildTaskManager)
+  }
+
+  if (isBuildTaskManagerService) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TaskManagerService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildTaskManagerService(isBuildTaskManagerService)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TaskManagerService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildTaskManagerService(isBuildTaskManagerService)
+  }
+
+  if (isBuildSignalR) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-SignalR] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildSignalR(isBuildSignalR)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-SignalR] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildSignalR(isBuildSignalR)
+  }
+
+  if (isBuildLocalService) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-LocalService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildLocalService(isBuildLocalService)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-LocalService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildLocalService(isBuildLocalService)
+  }
+
+  currentBuild.result = &apos;SUCCESS&apos;
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>49449968</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>407775684</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>101263743</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>295285391</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>23522213</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>9</iota>
+    <head>1:9</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

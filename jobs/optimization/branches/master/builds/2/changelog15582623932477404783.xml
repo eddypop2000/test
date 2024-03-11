@@ -1,0 +1,11 @@
+commit 625b7999bd26478f5a398ab07f0cb89b7352b139
+tree 6caab99961f56ff18191edb4590931406b3e59f7
+parent a50df50c0027f0f4bec7859212364b58105539a6
+author Karkill <hoa.tran@gosmartlog.com> 2022-01-12 17:28:41 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2022-01-12 17:28:41 +0700
+
+    Change Server
+
+
+:100644 100644 cd54c30402f88dfd4f95f7a63dc346d65959e407 0c091f057bb78bdf69dcbe99a56425c3bc678dd1 M	deploy.master.yml
+:100644 100644 35aa6fcf0cf9d761a6b60730c4ccdbdb963c8152 d7ca23736faa82b01605b91d922e46ebfa153e30 M	deploy.stage.yml

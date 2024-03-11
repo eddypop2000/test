@@ -1,0 +1,111 @@
+commit db6d5f713412979dbe07409aab96fb6ead10add1
+tree 90ba9a9be904a077e59ea585985265acc2f5edb5
+parent 20968f54418372d38c0667907ac4cbcb5bd0f5ce
+author Huy Ho <Huy Ho@DESKTOP-ONTGILH> 2021-12-07 16:47:12 +0700
+committer Huy Ho <Huy Ho@DESKTOP-ONTGILH> 2021-12-07 16:47:12 +0700
+
+    Update db prod
+
+
+:100755 100755 ee5c9f6b745283adee1fedb6c3939b9368578414 e1f5c2d328f75b399b7214e1782372e0626cc805 M	src/@config/envs/production.ts
+commit 20968f54418372d38c0667907ac4cbcb5bd0f5ce
+tree e21590505c2286c9525dfe4a12a79e2ec6158389
+parent 0c9b654792c8d6aa9870a4e417e7d00ebac3132a
+author Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:21:54 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:21:54 +0700
+
+    Update error ip
+
+
+:100644 100644 e70dc1df886f5e976d40c90f903165d66c3df842 93aa3fe3767664ec4a5782c16b064a929a1253ec M	src/x-modules/publics/controllers/auth.controller.ts
+commit 0c9b654792c8d6aa9870a4e417e7d00ebac3132a
+tree 30341046647ddc39b9229dbb14114ea5b476c114
+parent e8bfafa6e519a43ba02d153cdd9a8bbdf53a6c3e
+author Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:16:57 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:16:57 +0700
+
+    Update error ip
+
+
+:100644 100644 7a19dfe72fbd30ebf7ca02e37786ac8591b0fa99 e70dc1df886f5e976d40c90f903165d66c3df842 M	src/x-modules/publics/controllers/auth.controller.ts
+commit e8bfafa6e519a43ba02d153cdd9a8bbdf53a6c3e
+tree df086960541bef3b042af6846796389dd7aba1d9
+parent 2b81d16ed67e7901437baad0d42da12ea73db4c6
+author Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:11:20 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:11:20 +0700
+
+    Update error ip
+
+
+:100644 100644 3f556a49b7db2d4e2ba11b299c3a202672a4b9b4 7a19dfe72fbd30ebf7ca02e37786ac8591b0fa99 M	src/x-modules/publics/controllers/auth.controller.ts
+commit 2b81d16ed67e7901437baad0d42da12ea73db4c6
+tree de14a8c55b3f1b63938df2fb9be6a9e4cee195cb
+parent 3be0a91015aecf0f696585cbc0ccde48fd68449d
+author Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:01:25 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-12-06 16:01:25 +0700
+
+    Update error ip
+
+
+:100644 100644 acafc74476813039d3019c333231ea3d6746f850 3f556a49b7db2d4e2ba11b299c3a202672a4b9b4 M	src/x-modules/publics/controllers/auth.controller.ts
+commit 3be0a91015aecf0f696585cbc0ccde48fd68449d
+tree 09b0b139868db9bdfdc471478bef8d9e311ad6df
+parent 3eb0af764c6d7d19401647805c2ba11de090e738
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-30 11:14:10 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-30 11:14:10 +0700
+
+    Change Node Version
+
+
+:100644 100644 c2723f32003db2cafb0bf72fbd4445e71f9bbed3 fe996299d587f96d30f30df9eefc3714e7880f4d M	Dockerfile.prod
+:100644 100644 c2723f32003db2cafb0bf72fbd4445e71f9bbed3 fe996299d587f96d30f30df9eefc3714e7880f4d M	Dockerfile.stage
+commit 3eb0af764c6d7d19401647805c2ba11de090e738
+tree ef011d6e5dd7500f68b89fbdbcc7f9e7401980dc
+parent 621facc7d134dafa784db9fe0e9c68b43c03fe41
+author Huy Ho <huy.ho@gosmartlog.com> 2021-11-30 10:48:35 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-11-30 10:48:35 +0700
+
+    Update IP check for ACC
+
+
+:100644 100644 3486ba037db7954c7452f4758f5e254db7da7bf9 acafc74476813039d3019c333231ea3d6746f850 M	src/x-modules/publics/controllers/auth.controller.ts
+commit 621facc7d134dafa784db9fe0e9c68b43c03fe41
+tree f5535f693632ca98d4a00283586c53561aec3a4f
+parent f8a00973fdf31a32b7136f25d73a570a668a6498
+author Huy Ho <huy.ho@gosmartlog.com> 2021-11-30 10:45:22 +0700
+committer Huy Ho <huy.ho@gosmartlog.com> 2021-11-30 10:45:22 +0700
+
+    Update IP check for ACC
+
+
+:100644 100644 f0d1c0f7b843175c1187c20a8b5e4919552af89d 3486ba037db7954c7452f4758f5e254db7da7bf9 M	src/x-modules/publics/controllers/auth.controller.ts
+commit f8a00973fdf31a32b7136f25d73a570a668a6498
+tree 50fa9c8c6c1989f26ea196fb338a0f809cca70d8
+parent 6f6d9dbbcd14881a0f9a0abc3960be937822052f
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-13 11:05:16 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-13 11:05:16 +0700
+
+    Change Server QA
+
+
+:100755 100755 acfa694d5ec0d13823e5653de1ca1cbf17965a79 d7f16d724b38be056c29c7336e10f9c00821d67f M	src/@config/envs/qa.ts
+commit 6f6d9dbbcd14881a0f9a0abc3960be937822052f
+tree 42a5981c7b67b8202bfc6e0d9969688d54f3cb28
+parent 9c7835b2707bcbbe81dfa2fe34eac7c84b2c958e
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-13 10:54:53 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-13 10:54:53 +0700
+
+    Change server Dev
+
+
+:100755 100755 ccc5867f0e2c1236d14218a36358540026ecfd66 f3c346b2d18fc47a5746f296b5fa21b2feb3bb07 M	src/@config/envs/development.ts
+commit 9c7835b2707bcbbe81dfa2fe34eac7c84b2c958e
+tree 61dc0943da51c3d5d98079867405e6c7b20cc62d
+parent 3f385629ae9795c286f5b9de6930cf6ae3cd3080
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-20 16:27:51 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-06-28 12:16:51 +0700
+
+    Add
+
+
+:100755 100755 e1f5c2d328f75b399b7214e1782372e0626cc805 ee5c9f6b745283adee1fedb6c3939b9368578414 M	src/@config/envs/production.ts

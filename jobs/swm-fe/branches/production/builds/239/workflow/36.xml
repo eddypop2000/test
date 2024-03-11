@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>35</string>
+    </parentIds>
+    <id>36</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git
+        cd devops-deployment
+        sed -i &apos;s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-fe.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-fe@sha256:cdd593283cfbd16a48bea9366018d1259af60e8da391dd6eddae49443bcc945c+g&apos; ./swm-fe/production/.argocd-source.yaml
+        sed -i &quot;s/creationTimestamp:.*/creationTimestamp: &apos;2023-03-22T02:15:26Z&apos;/&quot; ./swm-fe/production/.argocd-source.yaml
+        git add ./swm-fe/production/.argocd-source.yaml
+        git commit -m &apos;Done by Jenkins Job changemanifest: swm-fe:239&apos;
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git HEAD:refs/heads/master
+        rm -rf /home/jenkins/agent/workspace/swm-fe_production/*
+        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1679451713367</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

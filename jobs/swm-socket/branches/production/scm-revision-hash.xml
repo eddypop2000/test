@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>3d67d49d53155d1ab6148427383d0e13351dd3e8</hash>
+  <message>Change Deploy
+</message>
+  <author>Karkill &lt;hoa.tran@gosmartlog.com&gt;</author>
+  <date>2021-04-10 04:20:35.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

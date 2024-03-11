@@ -1,0 +1,39 @@
+commit 3e2218c97b475708e81890c49db2e0a1a0b6f130
+tree daffcb2d708c9daab7b0510b27e3a8f0b880137f
+parent 442c73124b4c15dd14e7496fc12ef2349807605f
+author Trâm Anh <tramanh1998tls@gmail.com> 2021-04-05 09:29:41 +0000
+committer Tu Hoang <htu25399@gmail.com> 2021-04-05 09:29:41 +0000
+
+    Merged in feature/new-report (pull request #16)
+    
+    Feature/new report
+    
+    * delete jquery
+    
+    * #setting
+    
+    * #setting
+    
+    * fix size navbar, Pagination
+    
+    * grid no virtual scroll
+    
+    * no message
+    
+    * format code
+    
+    * scroll to top of the table
+    
+    * #scroll to top of the table
+    #resolve conflict
+    
+    * remove comment
+    
+    Approved-by: Tu Hoang
+
+
+:100644 100644 75879cda4ef7b3f3089937381814c97a1e771d70 18532515692df4baec98a9c039a4aca3d2f926fd M	src/app/control/grid-control/grid-control.component.html
+:100644 100644 842d580a71f64823243da7b7e101b055bb0d0508 baa1fbd795e9ac5da2dee82e0b7d98f4e174f0c1 M	src/app/control/grid-control/grid-control.component.scss
+:100644 100644 7dc6036bc43dc2f827158156ffb99983a4faae46 1ad86bc0759074b74a395e7bbae6af252d36ebff M	src/app/control/grid-control/grid-control.component.ts
+:100644 100644 7f11c2818dd35118f06808c80c92a768387a7f3b 9f76a453939ad37e6b566ebf085459bfc6cc05f3 M	src/app/main/main.component.scss
+:100644 100644 c5d62d7cc959eb5dc1090a62312c1599e9715f41 3d49518a76fa51fcd736026df756e0398d7ef2d4 M	src/styles.scss

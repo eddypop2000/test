@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>eco-prod</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>a783b35a39fd426c4c6a19ad98f1f346a2ba354f</hash>
+  <message>update TOKEN_ADMIN
+</message>
+  <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+  <date>2021-12-28 08:16:54.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

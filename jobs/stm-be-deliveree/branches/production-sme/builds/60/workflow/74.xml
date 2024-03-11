@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>73</string>
+    </parentIds>
+    <id>74</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+                git config --global user.email jenkins@gosmartlog.com
+                git config --global user.name jenkins
+                rm -rf devops-deployment-stm-sme
+                git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-stm-sme.git
+                cd devops-deployment-stm-sme
+                sed -i &apos;s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-sme-be@sha256:8ef47c45fc9e2fc043ce000c26932ed0edb562a5e905070222ccb1f3b8626742+g&apos; ./stm-be-deliveree/production-sme/be/.argocd-source.yaml
+                git add ./stm-be-deliveree/production-sme/be/.argocd-source.yaml
+                for file in ./stm-be-deliveree/production-sme/be/deploy*.yaml; do sed -i &quot;s/\(date:\s*\)&apos;[^&apos;]*&apos;/\1&apos;1680561486&apos;/&quot; &quot;$file&quot;;git add &quot;$file&quot;;done
+                
+                </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1680561486997</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

@@ -1,0 +1,192 @@
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2bb0f1ed8cf7af5ac59a9e56e5f75a3914364cff → 0a1379713cc296b8c9074b5f6fcf6376e63985ca)
+Scheduled build for branch: dev
+
+  6 branches were processed (query completed)
+[Wed Feb 16 02:22:23 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.174.218 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 02:22:16 UTC 2022 processed in 1.8 sec
+[Wed Feb 16 02:39:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 02:39:10 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch production from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (98b50c4288b0c8b9c62c46c4ab20f56fddf6d3b8 → 33443cb6798dd98feb80e852a661c34aca0ca39c)
+Scheduled build for branch: production
+
+  1 branches were processed (query completed)
+[Wed Feb 16 02:39:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Feb 16 02:39:10 UTC 2022 processed in 1.9 sec
+[Mon Mar 07 07:54:10 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.29 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 07 07:54:05 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (0a1379713cc296b8c9074b5f6fcf6376e63985ca → f0bc29d7fbe4510e1bf54e80d07c1a6ff0bc63f5)
+Scheduled build for branch: dev
+
+  6 branches were processed (query completed)
+[Mon Mar 07 07:54:12 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.118.29 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 07 07:54:05 UTC 2022 processed in 2.5 sec
+[Mon Mar 14 01:37:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 14 01:37:54 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+Checking branch dev-fix from smartlogtms/cma-angular-fe
+Checking branch dev-fix001 from smartlogtms/cma-angular-fe
+Checking branch dev-region from smartlogtms/cma-angular-fe
+Checking branch dev_bk_reuse_lv2 from smartlogtms/cma-angular-fe
+Checking branch feature/Log-default-filter from smartlogtms/cma-angular-fe
+Checking branch feature/request-update-rexmove from smartlogtms/cma-angular-fe
+Checking branch filter-container-no from smartlogtms/cma-angular-fe
+Checking branch fix-mtmovefee from smartlogtms/cma-angular-fe
+Checking branch fix_black_list from smartlogtms/cma-angular-fe
+Checking branch fix_bug from smartlogtms/cma-angular-fe
+Checking branch fix_bug_register from smartlogtms/cma-angular-fe
+Checking branch hotfix/get-company from smartlogtms/cma-angular-fe
+Checking branch hotfix/remove-rule-check-booking from smartlogtms/cma-angular-fe
+Checking branch master from smartlogtms/cma-angular-fe
+Checking branch mtmove-fee from smartlogtms/cma-angular-fe
+Checking branch production from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (33443cb6798dd98feb80e852a661c34aca0ca39c → 6d3f4df2dc38d7e0dbf0f5ef7a6b998238712fac)
+Scheduled build for branch: production
+
+  22 branches were processed (query completed)
+[Mon Mar 14 01:38:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 14 01:37:54 UTC 2022 processed in 3.6 sec
+[Thu Mar 24 03:00:53 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 24 03:00:48 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f0bc29d7fbe4510e1bf54e80d07c1a6ff0bc63f5 → cb96b9b9cfdae4f20f7e73004a14601a3e6064dd)
+Scheduled build for branch: dev
+
+  6 branches were processed (query completed)
+[Thu Mar 24 03:00:57 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 24 03:00:48 UTC 2022 processed in 4.1 sec
+[Thu Mar 24 04:58:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 24 04:58:27 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (cb96b9b9cfdae4f20f7e73004a14601a3e6064dd → 3780f11c82657b76159b55df70f3535f11135d22)
+Scheduled build for branch: dev
+
+  6 branches were processed (query completed)
+[Thu Mar 24 04:58:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 24 04:58:27 UTC 2022 processed in 3.7 sec
+[Fri Mar 25 03:56:48 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.124.227 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 25 03:56:43 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+Checking branch dev-fix from smartlogtms/cma-angular-fe
+Checking branch dev-fix001 from smartlogtms/cma-angular-fe
+Checking branch dev-region from smartlogtms/cma-angular-fe
+Checking branch dev_bk_reuse_lv2 from smartlogtms/cma-angular-fe
+Checking branch feature/Log-default-filter from smartlogtms/cma-angular-fe
+Checking branch feature/request-update-rexmove from smartlogtms/cma-angular-fe
+Checking branch filter-container-no from smartlogtms/cma-angular-fe
+Checking branch fix-mtmovefee from smartlogtms/cma-angular-fe
+Checking branch fix_black_list from smartlogtms/cma-angular-fe
+Checking branch fix_bug from smartlogtms/cma-angular-fe
+Checking branch fix_bug_register from smartlogtms/cma-angular-fe
+Checking branch hotfix/get-company from smartlogtms/cma-angular-fe
+Checking branch hotfix/remove-rule-check-booking from smartlogtms/cma-angular-fe
+Checking branch master from smartlogtms/cma-angular-fe
+Checking branch mtmove-fee from smartlogtms/cma-angular-fe
+Checking branch production from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (6d3f4df2dc38d7e0dbf0f5ef7a6b998238712fac → 04ba818b98fde612fb6cff3941b2a13f848bfa51)
+Scheduled build for branch: production
+
+  22 branches were processed (query completed)
+[Fri Mar 25 03:56:52 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.124.227 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Mar 25 03:56:43 UTC 2022 processed in 3.6 sec
+[Mon Mar 28 02:34:43 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 28 02:34:38 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (3780f11c82657b76159b55df70f3535f11135d22 → 2c59faf15c68eb71eb4936b8b41974ac48ce4984)
+Scheduled build for branch: dev
+
+  6 branches were processed (query completed)
+[Mon Mar 28 02:34:47 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 28 02:34:38 UTC 2022 processed in 4.1 sec
+[Mon Mar 28 04:23:15 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 28 04:23:10 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch bugfix/check-container-special from smartlogtms/cma-angular-fe
+Checking branch bugfix/tick-all-container from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+Checking branch dev-fix from smartlogtms/cma-angular-fe
+Checking branch dev-fix001 from smartlogtms/cma-angular-fe
+Checking branch dev-region from smartlogtms/cma-angular-fe
+Checking branch dev_bk_reuse_lv2 from smartlogtms/cma-angular-fe
+Checking branch feature/Log-default-filter from smartlogtms/cma-angular-fe
+Checking branch feature/request-update-rexmove from smartlogtms/cma-angular-fe
+Checking branch filter-container-no from smartlogtms/cma-angular-fe
+Checking branch fix-mtmovefee from smartlogtms/cma-angular-fe
+Checking branch fix_black_list from smartlogtms/cma-angular-fe
+Checking branch fix_bug from smartlogtms/cma-angular-fe
+Checking branch fix_bug_register from smartlogtms/cma-angular-fe
+Checking branch hotfix/get-company from smartlogtms/cma-angular-fe
+Checking branch hotfix/remove-rule-check-booking from smartlogtms/cma-angular-fe
+Checking branch master from smartlogtms/cma-angular-fe
+Checking branch mtmove-fee from smartlogtms/cma-angular-fe
+Checking branch production from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (04ba818b98fde612fb6cff3941b2a13f848bfa51 → 471ef9aaff820db3ee698666046dd4fa8d1ff67d)
+Scheduled build for branch: production
+
+  22 branches were processed (query completed)
+[Mon Mar 28 04:23:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Mar 28 04:23:10 UTC 2022 processed in 3.7 sec

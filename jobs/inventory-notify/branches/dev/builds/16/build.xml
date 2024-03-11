@@ -1,0 +1,254 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1189.va_d37a_e9e4eda_">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1046.v0ca_37783ecc5">
+            <timestamp>1659346203311</timestamp>
+            <origin>192.168.61.226 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.1.6.2">
+      <queuingDurationMillis>6296</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>6292</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@608.vfa_f971c5a_a_e9">
+      <sourceId>08238d55-8e74-4436-9dda-ebb110e2c130</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>186da9a2e67573906eabab2b47806d77872417a0</hash>
+        <message>update
+</message>
+        <author>Tinh Nguyen &lt;tinh.nhat@gosmartlog.com&gt;</author>
+        <date>2022-08-01 09:29:53.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@593.va_a_fc25d520e9">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1139.veb_9579fca_33b_">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.3">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>186da9a2e67573906eabab2b47806d77872417a0</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>16</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{XeDBZk_HIEHn-suu6_2LFK2p1c4qCHsgG3QgHGO370ZiRfPYoLCJsZogpqhqV1NT2GTDUkkeXZTff9qWp-IlGEVeJQ==}@bitbucket.org/smartlogwms/inventory-notify.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogwms/inventory-notify.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2725.v7b_c717eb_12ce">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>4673594</queueId>
+  <timestamp>1659346218038</timestamp>
+  <startTime>1659346218044</startTime>
+  <result>SUCCESS</result>
+  <duration>169693</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;common-pod&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+    node(&apos;common-pod&apos;) {
+      try {
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout scm
+        }
+        if (env.BRANCH_NAME == &apos;production&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Build docker&apos;) {
+            container(&apos;awscli&apos;) {
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+            container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify:prod&quot;
+              sh &quot;&quot;&quot;
+              docker build -f Dockerfile.prod --network=host -t ${REGISTRY_URL} --pull=true .
+              ${DOCKER_LOGIN}
+              docker push ${REGISTRY_URL}
+              &quot;&quot;&quot;
+            }
+          }
+          stage(&apos;Deploy k8s&apos;) {
+            container(&apos;kubectl&apos;) {
+              sh &quot;&quot;&quot;
+              kubectl apply -f deploy.prod.yml
+              kubectl patch deployment inv-notify-prod -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n swm
+              kubectl rollout status deployment inv-notify-prod -n swm
+              &quot;&quot;&quot;
+            }
+          }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else if (env.BRANCH_NAME == &apos;dev&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Build docker&apos;) {
+            container(&apos;awscli&apos;) {
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+            container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify:dev&quot;
+              sh &quot;&quot;&quot;
+              docker build -f Dockerfile.stage --network=host -t ${REGISTRY_URL} --pull=true .
+              ${DOCKER_LOGIN}
+              docker push ${REGISTRY_URL}
+              &quot;&quot;&quot;
+            }
+          }
+          stage(&apos;Deploy k8s&apos;) {
+            container(&apos;kubectl&apos;) {
+              sh &quot;&quot;&quot;
+              kubectl apply -f deploy.stage.yml
+              kubectl patch deployment inv-notify-dev -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n swm
+              kubectl rollout status deployment inv-notify-dev -n swm
+              &quot;&quot;&quot;
+            }
+          }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else {
+          echo &quot;Khong phai branch (production|dev) nen ko lam gi&quot;
+          error(&apos;Failed to build&apos;)
+        }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        deleteDir() /* clean up our workspace */
+        if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: &apos;sabeco-system-notification&apos;,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} completed successfully.&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: &apos;sabeco-system-notification&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} #${env.BUILD_NUMBER} has failed.&quot;
+        }
+      }
+    }
+  }
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>203184877</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>14938714</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2826493675</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>25333811</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>290402793</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>45</iota>
+    <head>1:45</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.11.3">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://x-token-auth:{XeDBZk_HIEHn-suu6_2LFK2p1c4qCHsgG3QgHGO370ZiRfPYoLCJsZogpqhqV1NT2GTDUkkeXZTff9qWp-IlGEVeJQ==}@bitbucket.org/smartlogwms/inventory-notify.git</url>
+            <credentialsId>oauth-swm</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogwms/inventory-notify</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>common-pod-p7kd6-mxx5x</node>
+      <workspace>/home/jenkins/agent/workspace/inventory-notify_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/inventory-notify/branches/dev/builds/16/changelog1215450015899853555.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

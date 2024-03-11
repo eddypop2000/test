@@ -1,0 +1,305 @@
+Branch event
+Obtained Jenkinsfile from c5054b6fe083cdb1f337677a41aca5abcef86a26
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/common-pod-jnmfx-hbm14
+[Normal][jenkins/common-pod-jnmfx-hbm14][Scheduled] Successfully assigned jenkins/common-pod-jnmfx-hbm14 to ip-192-168-160-143.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-jnmfx-hbm14][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/common-pod-jnmfx-hbm14][Created] Created container kubectl
+[Normal][jenkins/common-pod-jnmfx-hbm14][Started] Started container kubectl
+[Normal][jenkins/common-pod-jnmfx-hbm14][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/common-pod-jnmfx-hbm14][Created] Created container awscli
+[Normal][jenkins/common-pod-jnmfx-hbm14][Started] Started container awscli
+[Normal][jenkins/common-pod-jnmfx-hbm14][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/common-pod-jnmfx-hbm14][Created] Created container docker
+[Normal][jenkins/common-pod-jnmfx-hbm14][Started] Started container docker
+[Normal][jenkins/common-pod-jnmfx-hbm14][Pulled] Container image "jenkins/inbound-agent:4.11-1-jdk11" already present on machine
+[Normal][jenkins/common-pod-jnmfx-hbm14][Created] Created container jnlp
+[Normal][jenkins/common-pod-jnmfx-hbm14][Started] Started container jnlp
+Agent [8mha:////4EYJrmB34F0J8Qbsp1Xnd26U18unO3Cz3JTJL55tQQtoAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FNysvN61CNyMp19AEAHeU7jPVAAAA[0mcommon-pod-jnmfx-hbm14 is provisioned from template common-pod-jnmfx
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/inventory-notify/job/dev/17/"
+    runUrl: "job/inventory-notify/job/dev/17/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-jnmfx-hbm14"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-jnmfx-hbm14"
+    - name: "JENKINS_NAME"
+      value: "common-pod-jnmfx-hbm14"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4GUZjF/ry5KJxEzyvLmeUA/vggATjH5HShLfrmCqzufmAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVIZuXlplUA6YykXEMTfQBQkTyC3AAAAA==[0mcommon-pod-jnmfx-hbm14 in /home/jenkins/agent/workspace/inventory-notify_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{vujxk6w0_df_QrVrBa1ZXgrARtpYszfeYMtoMnbZvfosNNHrAzFA7wMRthVhFupOvNwhOmo0FV0Mcv6QPwbyCvsEWQ%3d%3d}@bitbucket.org/smartlogwms/inventory-notify.git
+ > git init /home/jenkins/agent/workspace/inventory-notify_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/inventory-notify.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{vujxk6w0_df_QrVrBa1ZXgrARtpYszfeYMtoMnbZvfosNNHrAzFA7wMRthVhFupOvNwhOmo0FV0Mcv6QPwbyCvsEWQ%3d%3d}@bitbucket.org/smartlogwms/inventory-notify.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision c5054b6fe083cdb1f337677a41aca5abcef86a26 (dev)
+ > git config remote.origin.url https://x-token-auth:{vujxk6w0_df_QrVrBa1ZXgrARtpYszfeYMtoMnbZvfosNNHrAzFA7wMRthVhFupOvNwhOmo0FV0Mcv6QPwbyCvsEWQ%3d%3d}@bitbucket.org/smartlogwms/inventory-notify.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c5054b6fe083cdb1f337677a41aca5abcef86a26 # timeout=10
+Commit message: "changeKeySlack"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4HNuZvHPhJzOnDLqEHrwnbz1S3v1CTG+lpYWuuk4QfonAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4M89+sba7ffu+qHsbBbqhN8rZ1qTvxcUfzvL7Pz/myTCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // container
+[8mha:////4Pg+whfNdDodDIEG5bJYMuFMVVxae0mgnbEXSkhgU4GWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] container
+[8mha:////4Biyld1GUC8alAaCxFUhcPEd+p1k7JJeIywwkhhP7j/qAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IgLKfm2gzaUpKIW9f2mFrh0IhZWLBRL+JCxDdBoCuEtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify:dev '--pull=true' .
+Sending build context to Docker daemon  547.8kB
+Step 1/8 : FROM public.ecr.aws/smartlog/node:14.6.0-alpine
+14.6.0-alpine: Pulling from smartlog/node
+cbdbe7a5bc2a: Already exists
+ee6a7bb6b750: Already exists
+ae1c1f64e312: Already exists
+9e9365981335: Already exists
+Digest: sha256:1aa9089d948437ff5fe4076b543fd3a0146fe23ffcf35de715b9f234b46f40c6
+Status: Downloaded newer image for public.ecr.aws/smartlog/node:14.6.0-alpine
+ ---> 38f7251093f0
+Step 2/8 : WORKDIR /usr/src/app
+ ---> Running in bb5c38a08007
+Removing intermediate container bb5c38a08007
+ ---> 16733b9523ca
+Step 3/8 : COPY ./package.json  ./
+ ---> e0360baba3c0
+Step 4/8 : RUN yarn
+ ---> Running in 2c06bdebe6db
+yarn install v1.22.4
+info No lockfile found.
+[1/4] Resolving packages...
+[91mwarning @nestjs/platform-express > multer@1.4.2: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+Created Pod: kubernetes jenkins/common-pod-jnmfx-vgmbq
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Scheduled] Successfully assigned jenkins/common-pod-jnmfx-vgmbq to ip-192-168-190-25.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Created] Created container kubectl
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Started] Started container kubectl
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Created] Created container awscli
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Started] Started container awscli
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Created] Created container docker
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Started] Started container docker
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Pulled] Container image "jenkins/inbound-agent:4.11-1-jdk11" already present on machine
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Created] Created container jnlp
+[Normal][jenkins/common-pod-jnmfx-vgmbq][Started] Started container jnlp
+[0m[91mwarning multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0m[91mwarning @types/moment-timezone@0.5.30: This is a stub types definition. moment-timezone provides its own type definitions, so you do not need this installed.
+[0m[91mwarning @types/socket.io > @types/socket.io-parser@3.0.0: This is a stub types definition. socket.io-parser provides its own type definitions, so you do not need this installed.
+[0m[2/4] Fetching packages...
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[91mwarning " > class-validator-jsonschema@2.2.0" has incorrect peer dependency "class-validator@^0.12.0".
+[0m[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 42.66s.
+Removing intermediate container 2c06bdebe6db
+ ---> 57b07d00fdb0
+Step 5/8 : COPY ./ .
+ ---> 677f43a61eb9
+Step 6/8 : RUN yarn build
+ ---> Running in bc0ef0aae8dd
+yarn run v1.22.4
+$ yarn clean && tsc
+$ rimraf build
+Done in 8.53s.
+Removing intermediate container bc0ef0aae8dd
+ ---> 483ed5462bed
+Step 7/8 : EXPOSE 3000
+ ---> Running in e623c59b5ecf
+Removing intermediate container e623c59b5ecf
+ ---> ab2a63bfca7d
+Step 8/8 : CMD [ "node", "build/main.js" ]
+ ---> Running in 8216c1995729
+Removing intermediate container 8216c1995729
+ ---> 9d17e26bd4ce
+Successfully built 9d17e26bd4ce
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify:dev
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiZlVDVllwRHp2SFFBVVRLa2w1TUp6cXg3ZTlENExLdlpUVmlzQ0JnOTRxSkJYLzJGQkRlWHViUU9yblVLbFRmaTUvdVZyL3lSOXExUVA3NVdtN3hZdTFzWDdXUDRWMzJFeHJ4ZnprVjZISkhEWFNKS0hEbXJrY2R0Tk05TkwzUE9iUS9ueWJMSzB6dmxYMHR3VkFjMWJCUXdNaGVWM25HV2VINXJsV3lxUnBLc2QxNnRYUkVpUFVsbmhmUlo2NGlWNy9Ic2ZEUkFqMUhSZXg1cFhuTGg5TkdPb0pLRTM1ZmdhZ0ZHL0FlN0NQbEliOHV3YSsxczhNSENNeXhlSzFxN2M2MmtYYmh5RzRxMmdRS0NXSGwzS1Vrc2pYRXhYK21NUTNGSXNVWnBOK0JNR2hJQjlxR1RYT2hwSVB1Nk5jbmZkWElCWUJyb01CREUxbXBpbkJXSHNKQ0ZmcVJWK2haaDJOQmtvRklSUTFhS2tJTDY5V1dETjYwNGdmUlhKS3dFc2wySEppZXkxT29HS0ZEWS90TEFod0tNbmRNd0RJcCtETjkyZWV0bnh3b240QkZqNG04ZVNxbDFobUtlcTU4RHRxczJ0M0ZYYjh0VUhMUGpxNFRjaGFVQjRrbWhvUFB4RGp2bDh1b0E1QXlPWmE3Y25HMzJvcmxzR3dHUnhld2s4KzNuMDIyd1lCaFJ2MzAvMTFNbTE0UHQ1TzNxK0MzRzRwblpPT0JOTkJOdzdNY05ocEpDUUlGOTR4aXZrUEJkd2JKR3E4NjNsVHZMejZCUklReE5ncDNWaTgwa2J0TThZMWx5RlZva1RFRnFFWG93SWZ0cTQ4WWtYblFmUWRTeGw4MjF2ODBwdTd1NWdtNUJRQi9aR1k4WHp3akFWTHBvakxnNC9aYUNKMVhMR3VLN0lqaEd2VkUwU2ZxdUcvanY3M0Z3dHlFcTRTVjRyMVJrNFBMNUZCR3l2SXZ2RWZnK0dwZUFTbS9KaStycnM0bHNlVlM5SXRrUmlZVVlBRitNajlEalhnL0FJVUZpZlZyNnBIcHU3WFVSZCt5NS81aDh2empodFVjajc0MVVmbS9QVHB1Ty9HRDM3ZitZSHY1RllXMWdRWWx2MzlaczJyQklzZXp4bkUyOFhOcEhUY3JqVHU3SVlpZTJZSW5TdmtoNXNhcWV3VnFkOERLWDZsanlic080V1MwcnJRSGl4c1VEZDFtZklFV0krNVdyR083bEhReHhYZFJyWG54eDRYbTlNd2RYS2s2Nmw3SkhsRFAxRU54eUM2VUZUK1RWUFZyYVl0ditTVTNRdTBHWjRlOFdEU3Z3d3RMRmV2SGhOOUJpakFuVG1TYXFNcitKdnJZeUNDVmlHc05nWDAvMUpmMGhIUjZTRmdoRkd6NUtyNTNWbytIdVdEbTlwYnhxbE9UUTEwbVpGSUJueWYvemxsNmJGaUE5V2IwR3JMaG1wc2ZIMzZhcVBsVlcrNy83OUo4UlhmTlFCNmRYUDZHWlgveHFCWmIydlFHK3dTVkU1YlJkem9zcnU0K2REVDRaQy9XcnhmTFVYWkRXVVBwc2pzRG1Ccko2ajZHclhUVkt3cXA1YmNxRHhGbkdId3llMVd1cVVJUnQ0SGpObVlvMEtGbzNxSndhMnQ3WVY4TzY0QUtlTytNS0NQSVgrb0QrNWh0SzBCNXl6YUpzMkk4STljOXUwS1kxcHB4TVVhK012QS8vUjhjeEVNcEMxcTlyK0theXZuc3VHM2RDY3huKzAwOHNmcEtFdHNoWmFsTUdHM3dGSlNGOE1IQWNEOEJ2akp0K0lzNjUzMkhLdlRzdjlDYTV1cVc5MzlIYU9rM2VIMWpsRmtkWWpRWGVCaFNuRmkyQjJLbVRxK204RFhEM2FUZFhkRjdueXFETGNENGZMajluNXBIZWc1bEgvTllLU2hseXdIcS93UDFXbW1OYnkvQTdPd2lCaGdTYk5INnc1bVQ5TVUxSHFrcXJCNGxOT3VYeXJUSi83bE00T29pem1vMHdGamZjaHo4QVJlQVBOUXpaNHJSWmdMdFhZTWdYMXQ3MFN3Q1BRTUhWTWdUem9SZXNGaVE1L1Q1RTF5bHpTekFCNW5CN3duYjE1SDJNa29OOFZQTENYM3NzNjhlalk1d0E2Nkp5TlR3ZS9SWFJka3JpRE8xTUl0QVdXUiszbWlMTll6OW82dk5lNWR3UkdpT1RsNWpTZGJPWUZLM3pTNVdVN05NWTByNFVWbVlpVHFBMEx1b1NjL2QvTk4zV0RmNnZkSzErZmxxRkFnMld2OGwwVHp2OEEvL2dVQUpNNE5TWitZYjRZUFJYWFhzd2NOTko5MDd0elRjTHYwUHpPU0tmWmRINUFsSGRCQ0diYzdZcVkyeWNCc0J4S0hWWWZhaGMxUT09IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURERVNvVU1ZUXV0TWxUTGZMQUlCRUlBN1N0a0VzYkVXUEI3dEJEemRXQ1dJVzNyY0NVRW1Qc0hLK2lNNXJMNG51U3VqdmR0WXZOTjg1T1RkSTdES3pxQjAzK0VpTkk5WWpqUSswWDg9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjYxMjA0MDMzfQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify:dev
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/inv-notify]
+6afe6fcd92e1: Preparing
+c06b034fc1da: Preparing
+23d120148e20: Preparing
+35b38b5e32a4: Preparing
+aae3da4456e3: Preparing
+be84c2056d9b: Preparing
+9c2a1b1edba7: Preparing
+a5af46b9546f: Preparing
+3e207b409db3: Preparing
+be84c2056d9b: Waiting
+9c2a1b1edba7: Waiting
+a5af46b9546f: Waiting
+3e207b409db3: Waiting
+6afe6fcd92e1: Pushed
+aae3da4456e3: Pushed
+be84c2056d9b: Layer already exists
+9c2a1b1edba7: Layer already exists
+a5af46b9546f: Layer already exists
+3e207b409db3: Layer already exists
+c06b034fc1da: Pushed
+35b38b5e32a4: Pushed
+23d120148e20: Pushed
+dev: digest: sha256:0d6524b936e2e8049d0edfd704369c9a263da3d08b06c120eab735d48938ddb6 size: 2204
+[8mha:////4KWF0pNJ/YTgi81wLIDe8BTBQ3z1mPj8KllstFNCmlxyAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4CazcmbbifzPIbHe+Ik/gZFi4Bk3E8K9/jhh2OD7cEOQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4D3hmYdxjU8XVFpF+wMM4syXQckhTJwjyPV5jzU3guFpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] }
+[8mha:////4IVv0lYAl42UN0QNk2dev6Cbv1SmF0oGuZL2KJI7qhXBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] // stage
+[8mha:////4LK5al4eqReEWNnCcvS52S6fM0e8TjoDmxqfP6JpvxR+AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG4fF/dTBAAAA[0m[Pipeline] stage
+[8mha:////4KUAmbgRK7qFBzI+a2qpesOCqzslphsdZI7NJuQZvqtlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Deploy k8s)
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] container
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4NqvfkRS1ZporbVgqIMixLWF8Vq1pWIz3fS29dwcL7BuAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy.stage.yml
+deployment.apps/inv-notify-dev configured
+service/inv-notify-dev unchanged
+ingress.networking.k8s.io/inv-notify-dev unchanged
++ date '+%s'
++ kubectl patch deployment inv-notify-dev -p '{"spec":{"template":{"metadata":{"labels":{"date":"1661160933"}}}}}' -n swm
+deployment.apps/inv-notify-dev patched
++ kubectl rollout status deployment inv-notify-dev -n swm
+Waiting for deployment "inv-notify-dev" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "inv-notify-dev" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "inv-notify-dev" rollout to finish: 1 old replicas are pending termination...
+deployment "inv-notify-dev" successfully rolled out
+[8mha:////4G87h2+xpNSBt+7lb2zAOZKUc5HcR5V6WoF8Y6JOxZHHAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4IUlBncUQZm6NYOtnhBpOaEI6aSkplAMwGHputdbpcoTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // container
+[8mha:////4Lg7iBkwIauAYzzxFEUETQb6ApXJVjISRMlph5eCDy1AAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4H55eVUR1MbAhss647slnGXmwpClpV12SMsO8gPJ36BeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // stage
+[8mha:////4KM/K60iwy0ELaiubczBEnfeuSe5mn+xUhFabBo5IQH+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99ANULB4i9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] deleteDir
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: sabeco-system-notification, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4BBOF8zL0QuEPSserDoebGo7eedy9wFxGLBc4knRq4LZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKry5lG9AAAA[0m[Pipeline] }
+[8mha:////4I80lOpg5HUJA80xtI+tZBmR9p4ZN2LLYBhkMdQXpaF6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPwNlPj70AAAA=[0m[Pipeline] // node
+[8mha:////4OSZrNYCuGZci/f+w9qZka3AmOhvr3h12W0fQ92vc87HAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/mwCjFvQAAAA==[0m[Pipeline] }
+[8mha:////4DWZSrDNKCa4wMOhomNh6rPaNQwjD7UQNFyAKu7DDl83AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9ViWzpvQAAAA==[0m[Pipeline] // podTemplate
+[8mha:////4F0oAKG8YtO1f0ykH2BifRPib7ffpNpqbMnq6ye67ePbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPc5ALo70AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+commit 2ca1f831e1bff82ebb07eb8fb6abe9439635c383
+tree a2aa4dd7b5b618638497ae49c1abd16350dbfe24
+parent abcb1cf6460a9d7c5010e605b1164995be73bcf7
+author hoang7k <hoang.dao@gosmartlog.com> 2021-04-14 12:33:44 +0700
+committer hoang7k <hoang.dao@gosmartlog.com> 2021-04-14 12:33:44 +0700
+
+    add nutifood data
+
+
+:000000 100644 0000000000000000000000000000000000000000 d7d9b9e87d4b61a6e84ffd32cb9ad2a069f101fb A	test_data/custestnutifood.json

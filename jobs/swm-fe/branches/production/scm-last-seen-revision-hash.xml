@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>071a800b0a1ef5c1dd273961e87830145a02c2e2</hash>
+  <message>Merged in 1.9.8/SWMS-5187 (pull request #3255)
+
+fix invoiceDateSai
+
+Approved-by: Tuan Tran</message>
+  <author>Tinh Nguyen &lt;tinh.nhat@gosmartlog.com&gt;</author>
+  <date>2023-04-05 07:35:59.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

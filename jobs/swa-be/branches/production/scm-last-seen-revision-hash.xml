@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>b9a73e91224fb559b3510658adf460f12ce877e5</hash>
+  <message>Merged in FIX-ACREAGE (pull request #3012)
+
+FIX ACREAGE
+
+Approved-by: Tuan Tran</message>
+  <author>Huy Huỳnh &lt;cnot.huyhuynh1012@gmail.com&gt;</author>
+  <date>2023-04-14 02:09:41.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>277fef1ad06d4bc75ba50e73e2a9afe9d83cb5fc</hash>
+  <message>Merged in 1.9.8/revert-preallocate (pull request #3031)
+
+revert get list inventory preallocate</message>
+  <author>Vinh Nguyen &lt;vinh.nguyen@gosmartlog.com&gt;</author>
+  <date>2023-04-15 10:48:00.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

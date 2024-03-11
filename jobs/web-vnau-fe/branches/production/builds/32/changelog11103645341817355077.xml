@@ -1,0 +1,11 @@
+commit 8a84763c5751c46b9639a69c042d8c788d911905
+tree 0d5095d47406813d0805c65643c1e8d4d4d2a4c7
+parent 338d4b39dae46d5a96c5affac59d4429b4d4aa4b
+author dung.phung <dung.phung@bizzi.vn> 2022-03-02 22:51:26 +0700
+committer dung.phung <dung.phung@bizzi.vn> 2022-03-02 22:51:26 +0700
+
+    update language
+
+
+:100644 100644 2f2cf62226f1cea32caf26c02b4c6c19227d69ad 5251c6c2fa01b2a5324dadc69d14e00ab35f14d1 M	backup/look-up/index.tsx
+:100644 100644 c40874dc1862d03637ecba31393bf023f3055321 8181f4a3424fd813c23514dc57c5b4f7b18dee17 M	pages/look-up/shipping/index.tsx

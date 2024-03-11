@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>abda5b0ec4871c3d88a9de195070bff855b3a058</hash>
+  <message>Merged in trihuynh (pull request #9)
+
+update SWMS-4154
+
+Approved-by: Tuan Tran</message>
+  <author>Tri Huynh &lt;tri.huynh@gosmartlog.com&gt;</author>
+  <date>2023-02-22 07:57:29.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

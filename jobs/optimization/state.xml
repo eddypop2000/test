@@ -1,0 +1,26 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.6.2">
+  <sourceActions>
+    <entry>
+      <string>29ec8388-2894-4336-8ecd-af88877e1c96</string>
+      <list>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <scm>git</scm>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketRepoMetadataAction>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <repoOwner>smartlogtms</repoOwner>
+          <repository>optimization</repository>
+          <defaultBranch>develop-test</defaultBranch>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketDefaultBranch>
+        <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@2.9.5">
+          <iconClassName>icon-bitbucket-repo</iconClassName>
+          <url>https://bitbucket.org/smartlogtms/optimization</url>
+        </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.6.4">
+          <objectDisplayName>optimization</objectDisplayName>
+          <objectUrl>https://bitbucket.org/smartlogtms/optimization</objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

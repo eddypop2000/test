@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@838.va_3a_087b_4055b">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>41</string>
+    </parentIds>
+    <id>42</id>
+    <descriptorId>jenkins.plugins.slack.workflow.SlackSendStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2759.v87459c4eea_ca_">
+      <arguments>
+        <entry>
+          <string>channel</string>
+          <string>oms-deployment-notification</string>
+        </entry>
+        <entry>
+          <string>color</string>
+          <string>good</string>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>Deploy oms-dotnet-be » production #37 [Merged in staging (pull request #1189)].
+Ngonnnnn! :pika_tang:</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1192.v2d0deb_19d212">
+      <startTime>1670688822358</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

@@ -1,0 +1,475 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>105</string>
+    </parentIds>
+    <id>106</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.DeleteDirStep</descriptorId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1681466942153</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.ErrorAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <error class="jenkins.util.io.CompositeIOException">
+        <detailMessage>Unable to delete &apos;/home/jenkins/agent/workspace/smartlog.stm.2.5_master&apos;. Tried 3 times (of a maximum of 3) waiting 0.1 sec between attempts. (Discarded 481 additional exceptions)</detailMessage>
+        <stackTrace>
+          <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:96)</trace>
+          <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+          <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+          <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+          <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+          <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+          <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+          <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+          <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+          <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+        </stackTrace>
+        <suppressedExceptions>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/Smartlog.Stm.Api.csproj.nuget.g.props</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/Smartlog.Stm.Api.csproj.nuget.g.targets</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/project.assets.json</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/project.nuget.cache</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/Smartlog.Stm.Api.csproj.nuget.dgspec.json</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/release/net6.0/refint/Smartlog.Stm.Api.dll</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/release/net6.0/refint</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/release/net6.0/ref/Smartlog.Stm.Api.dll</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/release/net6.0/ref</file>
+          </java.nio.file.FileSystemException>
+          <java.nio.file.FileSystemException>
+            <detailMessage>Operation not permitted</detailMessage>
+            <stackTrace>
+              <trace>java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setMode(Unknown Source)</trace>
+              <trace>java.base/sun.nio.fs.UnixFileAttributeViews$Posix.setPermissions(Unknown Source)</trace>
+              <trace>java.base/java.nio.file.Files.setPosixFilePermissions(Unknown Source)</trace>
+              <trace>jenkins.util.io.PathRemover.makeWritable(PathRemover.java:283)</trace>
+              <trace>jenkins.util.io.PathRemover.makeRemovable(PathRemover.java:256)</trace>
+              <trace>jenkins.util.io.PathRemover.removeOrMakeRemovableThenRemove(PathRemover.java:236)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveFile(PathRemover.java:202)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:213)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveDirectoryContents(PathRemover.java:223)</trace>
+              <trace>jenkins.util.io.PathRemover.tryRemoveRecursive(PathRemover.java:212)</trace>
+              <trace>jenkins.util.io.PathRemover.forceRemoveRecursive(PathRemover.java:93)</trace>
+              <trace>hudson.Util.deleteRecursive(Util.java:320)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1436)</trace>
+              <trace>hudson.FilePath$DeleteRecursive.invoke(FilePath.java:1431)</trace>
+              <trace>hudson.FilePath$FileCallableWrapper.call(FilePath.java:3492)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:211)</trace>
+              <trace>hudson.remoting.UserRequest.perform(UserRequest.java:54)</trace>
+              <trace>hudson.remoting.Request$2.run(Request.java:376)</trace>
+              <trace>hudson.remoting.InterceptingExecutorService.lambda$wrap$0(InterceptingExecutorService.java:78)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)</trace>
+              <trace>hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)</trace>
+              <trace>java.base/java.lang.Thread.run(Unknown Source)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+            <file>/home/jenkins/agent/workspace/smartlog.stm.2.5_master/Smartlog.Stm.Api/obj/release/net6.0/Smartlog.Stm.Api.GlobalUsings.g.cs</file>
+          </java.nio.file.FileSystemException>
+          <hudson.remoting.Channel_-CallSiteStackTrace>
+            <detailMessage>Remote call to JNLP4-connect connection from ip-192-168-108-64.ap-southeast-1.compute.internal/192.168.108.64:54054</detailMessage>
+            <stackTrace>
+              <trace>hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1784)</trace>
+              <trace>hudson.remoting.UserRequest$ExceptionResponse.retrieve(UserRequest.java:356)</trace>
+              <trace>hudson.remoting.Channel.call(Channel.java:1000)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:1186)</trace>
+              <trace>hudson.FilePath.act(FilePath.java:1175)</trace>
+              <trace>hudson.FilePath.deleteRecursive(FilePath.java:1428)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.DeleteDirStep$Execution.run(DeleteDirStep.java:79)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.DeleteDirStep$Execution.run(DeleteDirStep.java:71)</trace>
+              <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+              <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+              <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+              <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+              <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+            </stackTrace>
+            <suppressedExceptions class="empty-list"/>
+          </hudson.remoting.Channel_-CallSiteStackTrace>
+        </suppressedExceptions>
+        <exceptions>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[2]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[3]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[4]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[5]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[6]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[7]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[8]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[9]"/>
+          <java.nio.file.FileSystemException reference="../../suppressedExceptions/java.nio.file.FileSystemException[10]"/>
+        </exceptions>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

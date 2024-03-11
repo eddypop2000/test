@@ -1,0 +1,11 @@
+commit 8f43e095164f5158be7147cb44a29e62d6b42630
+tree 2b4987803e7513d4f57b66dd6d136d1da376e472
+parent 49578f0c6a615e0a16e52d559fe7333dc771146e
+author tuan88 <tuan.tran@gosmartlog.com> 2021-11-26 17:04:21 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-11-26 17:04:21 +0700
+
+    Update
+
+
+:100644 100644 0ff708ef03fbc4f7f2ba8a62a20ff3ab1489bb93 c10c7568580ce3293366d4bcd0b80a2a3a0dcd46 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 3ae6e64ba775cbb42ce2c2cebcdebba2db11ef28 c0230342c6ac9e952209e1f3af6a9cc5a47e2fdd M	src/entities/primary/dock_operation_historical.ts

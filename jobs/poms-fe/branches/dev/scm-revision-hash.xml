@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>e4db8cba54b444a47fe4be5f276bc3f723076623</hash>
+  <message>Merged in 1.8.8/mdlz (pull request #55)
+
+re-build</message>
+  <author>Thái Huy &lt;lethaihuy77@gmail.com&gt;</author>
+  <date>2023-02-17 17:05:27.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

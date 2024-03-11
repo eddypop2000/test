@@ -1,0 +1,11 @@
+commit 17d43aca08fd12c9b0ad8038dad577a3aa4cafe6
+tree 654f8c46b917dd0d7eb57612437d8533848e0da2
+parent 12d7a55892065d000b89806dabc9b77ef679fc20
+author Phuong Do <dongphuong2004@gmail.com> 2021-05-21 05:56:11 +0700
+committer Phuong Do <dongphuong2004@gmail.com> 2021-05-21 05:56:11 +0700
+
+    remove district code
+
+
+:100644 100644 946ecdd2b1015bac92c4d5b09ccf55198da84d5f 0bacd037d4b4c4cb8a6df2d3e641ab0fe004a2c2 M	src/main/java/vrp/model/VRPLocationConfig.java
+:100644 100644 de0ff47fd5d1cb7d18f7d7873598a9446055a29c 81b5d8ea371e97bbf396f67151520ee9d14e119b M	src/main/java/vrp/usecase/brenntag/algorithm/smartroute/SolverMap.java

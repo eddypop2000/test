@@ -1,0 +1,80 @@
+commit 442c73124b4c15dd14e7496fc12ef2349807605f
+tree 729e49560187f3db3401912f5fc58bf3c43184b9
+parent c21d14e8bf9e3b982e0ef304d42b804a48509996
+author Trâm Anh <tramanh1998tls@gmail.com> 2021-04-05 02:30:08 +0000
+committer Tu Hoang <htu25399@gmail.com> 2021-04-05 02:30:08 +0000
+
+    Merged in feature/new-report (pull request #15)
+    
+    Feature/new report
+    
+    * drag & drop row
+    resize table
+    
+    * fix bug: no value accessor for form control...
+    
+    * resolve conflict, fix form control
+    
+    * delete jquery
+    
+    * #setting
+    
+    * #setting
+    
+    * fix size navbar, Pagination
+    
+    * grid no virtual scroll
+    
+    * no message
+    
+    * format code
+    
+    Approved-by: Tu Hoang
+
+
+:100644 100644 98d3966e0c5476b1d9919dd2de91d6eabc63101a ab2d34f584758a8392864415c7f28494dbaf3458 M	angular.json
+:100644 100644 5abda00ce177b08698a0f17d0d2ff73f4406ff56 130dfd464982a6727152fdd3e9a523b98a1f0fe2 M	package-lock.json
+:100644 100644 00f273735472f4dbbfbc9eb579e6ea5932146ab9 0ece8e6b76d27a0bcae4fac6be67e42469fe404e M	package.json
+:100644 100644 a693b2b85af8fb3bd86d8702d60be40d8c351a64 90c6b64632858139a9e4f4b1c55d0ee1d6e7b740 M	src/app/app.component.html
+:100644 100644 8da20cd4f28798b897ac23cbb74669b7c6153b22 3fe79fc5a56132e068875ce8ddf941b0e2fae696 M	src/app/app.module.ts
+:100644 100644 7e386f960ed9bca3cd46ccb922bf66f0a96ac7ad f0ee76cebdce0456e763e132db3eb9bb6a3b62e7 M	src/app/control/control.module.ts
+:100644 100644 2d25717fdc1398409be0f15c0a8e9ba7a83df4b5 75879cda4ef7b3f3089937381814c97a1e771d70 M	src/app/control/grid-control/grid-control.component.html
+:100644 100644 d7b6abb87c96d76f6cfc13695238d9be4f438d04 7dc6036bc43dc2f827158156ffb99983a4faae46 M	src/app/control/grid-control/grid-control.component.ts
+:100644 100644 b6c4cefc8cc60c7844d553dbda1328a57a2a02e8 e80dcf2fc43430e1496000cf09f683f3cd2f118f M	src/app/control/grid-control/grid-control.ts
+:100644 100644 6bd25b704967ff6b06ca4364b77e9edb0e863030 7c338600291b7a580805f59de6b2add4514a49c5 M	src/app/control/grid-control/setting/grid-control-setting/grid-control-setting.component.html
+:100644 100644 9ebac0c2826e16e47e48b60dfdc0b8932b0f11e0 80bb771110f1f5f7ded56d872e40092e6f4ed367 M	src/app/control/grid-control/setting/grid-control-setting/grid-control-setting.component.ts
+:100644 100644 19726a927aac07f68be20621ef7d04a1158f1c21 5af634a07a95267baac9f63b616bc7e93c6ef0bc M	src/app/control/select-control/select-control.component.ts
+:000000 100644 0000000000000000000000000000000000000000 eb9ab82490d57a9be0954554b9985d832bf4d877 A	src/app/control/states/state/config.model.ts
+:000000 100644 0000000000000000000000000000000000000000 a05b3ea37f82951753d764858639f172175d6334 A	src/app/control/states/state/config.query.ts
+:000000 100644 0000000000000000000000000000000000000000 637e230addc9c922aee9cf847ae964910fb96475 A	src/app/control/states/state/config.service.ts
+:000000 100644 0000000000000000000000000000000000000000 08b46cb3df9f195ace06ca642cfc084d53f615a3 A	src/app/control/states/state/config.store.ts
+:100644 100644 e8ddb550b8b08cbbd8c7142c3af940c20cd31d5e 0cefe15ff5e482951ec53b6171a8d9b64c80454c M	src/app/core/authentication/authentication.model.ts
+:100644 100644 a259cff9d3d756513572aee619e9f9c5921617c5 17662021d229ef7f5ac4d0d77e14b186fc1eb35f M	src/app/core/core.module.ts
+:100644 100644 2cc2fd8d147ab5e48a61c74a1770cb95c117aa69 df0e32998b7a4ad245554eb09c5b847962e21c7d M	src/app/core/layout/login/login.component.ts
+:100644 100644 b10bcc15bf5771fa2d75dd7b78feed9936c1d8eb 0badeeb2b70a55f96442fde6a36a6687164db44a M	src/app/core/layout/menu/menu.component.html
+:100644 100644 9d6711bd0ffe402d2a81817a828a4d925faaa3c1 9da90008e94f409e7fb4d4853d7f34c5d3f86aa4 M	src/app/core/layout/menu/menu.component.scss
+:100644 100644 90ab13d638009fc0f6981d9ee0da2efb74863b02 f7b9a2b7d9f2e4120dee255ef11e6fc6ffde5f9b M	src/app/core/layout/menu/menu.resources.ts
+:100644 100644 12fc71b62ae32fc68bc72bf48790c24144664777 b35248aef44c5f32e5c9520a973a1cc3bf63ad71 M	src/app/core/layout/user/components/account/account.component.ts
+:100644 100644 6646573901a317414e8ec21111125a49be942e9d 3d0dfd8d8fd53aab96eca2ac83007f01663d75d7 M	src/app/core/layout/user/components/notifications/notifications.component.ts
+:100644 100644 d682ae18c3e45fef184ff798b43f458ac88c0a38 89560075fa815dc1c4625c9cebef245bb0e5153f M	src/app/core/layout/user/components/quick-actions/quick-actions.component.ts
+:100644 100644 0d1abed7edb71bccc6ce1260a022b280ac132df3 4e6e01f3d8a4aeb81184f05bdbf37ee873eb6801 M	src/app/core/services/excel/excel.model.ts
+:100644 100644 f432847dca9af13c3dda7b53070e44dca3dd6287 091d27d146f3631aaa8dae7e91fb5b5e01b07fb6 M	src/app/core/services/excel/excel.service.ts
+:100644 100644 6651b362a2f30278cf14eaa4da024082ec8f716d 2b3e57c5c078f281db91123739d49c8c3cbad7c8 M	src/app/core/services/utility/utility.service.ts
+:100644 100644 2f30034de9ab3cdd933999950edbe208e56a8aad 0c7c0c37ae5892b85dc08967124ce4e4ffa9e4ba M	src/app/main/main-routing.module.ts
+:100644 100644 ccde14a2f1c9242867486eeed5c793428da4a118 7f11c2818dd35118f06808c80c92a768387a7f3b M	src/app/main/main.component.scss
+:100644 100644 0cf7320cb41271f31a28d8f1d3bc994595b6ef47 40d7773f8cdaf7da7f51f1b50aeed7b9e28117b9 M	src/app/pages/inbound-outbound/component/chart/chart.component.ts
+:100644 100644 354dad42f4980f6a5a9d7efdeec30e1728d84a77 70ef4838bf67564d654d2c0de00da747fce564bc M	src/app/pages/inbound-outbound/services/inbound-outbound.model.ts
+:100644 100644 1772c36e458a9bf577acccdd09130c3f7b650c91 bc88f3df6cccd59a563b4e93ea605739edde4ac6 M	src/app/pages/inventory/component/inventory-main/inventory-main.component.ts
+:100644 100644 aad6eb1313730ed8f0d9e933dd939f3f7435869c 225908663cc14e16dc3b2ac17782c923a75452a4 M	src/app/pages/report/inbound-report-tracking/inbound-report-tracking/inbound-report-tracking.component.html
+:100644 100644 083b4449b479c8843daa53c445c1a6d65a5d1f6d e6f011eba9a98e71c3ad367c23edf4fb158bc084 M	src/app/pages/report/inbound-report-tracking/inbound-report-tracking/inbound-report-tracking.component.ts
+:100644 100644 29cb0d91bc2f2cab83cf67bc356b03670a7334bf 73b4e982832e35fecd4665b65dad47643f41fec4 M	src/app/pages/report/inbound-report/components/inbound-report/inbound-report.component.html
+:100644 100644 d7f8f7a76c775d793b69576652343b41c5c5c656 56c66106181003b9cdade67baf0745f52c3b5926 M	src/app/pages/report/inbound-report/components/inbound-report/inbound-report.component.ts
+:100644 100644 073573d9ccc1b4a2f8d37262802c2e335df327b7 8666d11cca2b2bd18c8a302b8ad734315f42ebef M	src/app/pages/report/inventory-report-by-sku/inventory-report-by-sku/inventory-report-by-sku.component.ts
+:100644 100644 62e70601ec2db49ab00a78ec8284b024ac6e3aee 6b270d51ce966fbf32ce39aae7d2b529866c9758 M	src/app/pages/report/inventory-report/inventory-report/inventory-report.component.html
+:100644 100644 393b4ce61341f7552d1af848a8127d552469e2fa e4259c5fb61372e2831fb08287c13b69e7ae9b58 M	src/app/pages/report/inventory-report/inventory-report/inventory-report.component.ts
+:100644 100644 e1c8cb27aba6d75153095edd7df2e6521897a0b3 6af29318809342dadd54f22b74272bba59825606 M	src/app/pages/report/outbound-report-tracking/outbound-report-tracking/outbound-report-tracking.component.html
+:100644 100644 3c4b160ef32f8441a7cff9c881815717deb3a9d1 32dc83f6fe2953ed67bedb72a3bb72e5ca2063db M	src/app/pages/report/outbound-report-tracking/outbound-report-tracking/outbound-report-tracking.component.ts
+:100644 100644 f11c1282000fd9915c7a6bdf895b93dbfeb01c07 199fb8c831d9c45c59efb99ec51f3db47ac9f7b6 M	src/app/pages/report/outbound-report/component/outbound-report/outbound-report.component.html
+:100644 100644 f75c65bacb1753812e6c567af67a00f9a230eb04 f6215fe69b899e586264cbd0c512539d1dcf828f M	src/app/pages/report/outbound-report/component/outbound-report/outbound-report.component.ts
+:100644 100644 1fbc47f7836ce228380a9a4f483e210c666a3f5e 40aa531f430d99413a9d63668dc4f0a0ad1a04f1 M	src/environments/environment.ts
+:100644 100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 c5d62d7cc959eb5dc1090a62312c1599e9715f41 M	src/styles.scss

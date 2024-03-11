@@ -1,0 +1,13 @@
+commit d1968f84fe2d95d3da3536bea43c2dd3b1716ee0
+tree 66e115f3c5664ce8ca631a7466eda4ab658a5384
+parent 8a84763c5751c46b9639a69c042d8c788d911905
+author dung.phung <dung.phung@bizzi.vn> 2022-03-02 23:08:25 +0700
+committer dung.phung <dung.phung@bizzi.vn> 2022-03-02 23:08:25 +0700
+
+    update language
+
+
+:100644 100644 9f9851e17d315d3fff4004a4fab95c7c8d06b89b 4c2863542b99b38275b9be069933e22deec35cb1 M	hooks/look-up/useGetPort.ts
+:100644 100644 06553a4804dd342794fccbdda9e34ee27536a516 6d54f4af62a6fae4bad467707b6d82afa44aa0f7 M	hooks/look-up/usePL.ts
+:100644 100644 004fb88ec6b7051b734c58c0dbbc1132d5c6a8d4 7f61a42ce8847c3c9afd6fae92bc333ab793fbe8 M	pages/look-up/3PL.tsx
+:100644 100644 d3071f854598b7ae4f67f41871f83bac648b3108 c06b115aa52c49c6bc13b5f7ca03c30421a3fea5 M	pages/look-up/port/index.tsx

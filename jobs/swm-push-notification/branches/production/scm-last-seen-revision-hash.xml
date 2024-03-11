@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>0c0cb16fe10d03dedef9687231519432f9ec0f1d</hash>
+  <message>Update db production
+</message>
+  <author>Huy Ho &lt;huy.ho@gosmartlog.com&gt;</author>
+  <date>2022-04-18 07:36:11.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

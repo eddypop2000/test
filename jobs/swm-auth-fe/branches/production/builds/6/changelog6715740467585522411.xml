@@ -1,0 +1,162 @@
+commit 1a3371be86d088ad7f4b96d959b6214f125f443a
+tree 403ee33b01ad6b8256114b223cfc2a1b7f5752f3
+parent 07afcb2f566d1307833f3bd6e4c9f1e180f3561a
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 15:26:03 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 15:26:03 +0700
+
+    add
+
+
+:100644 100644 4ff8cec03f467e9da51e5c14a78c010f4faa8ada 517f3891fa729a80545c190f8d8dcbf2f1ab299d M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+commit 07afcb2f566d1307833f3bd6e4c9f1e180f3561a
+tree 79e2b8dc86ef2ccc3be632eb1c9c8aecaf54a785
+parent c081cf249bd5b1c4fa9a96c4579a02fbf34b8886
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 15:18:18 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 15:18:18 +0700
+
+    add
+
+
+:100644 100644 b8e40170c651a39bc4459b9d7a9b469d5de7cc1a 4ff8cec03f467e9da51e5c14a78c010f4faa8ada M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+:100644 100644 eaafc7a0b39a102e2356ca690c99654c737e9d53 5c770ed9cd9fa8e8a58d7c02ae8cef800fc8c54a M	src/app/store/swa/swa.service.ts
+commit c081cf249bd5b1c4fa9a96c4579a02fbf34b8886
+tree 738b013030ad9cdf0cc82783246c2380d8ce6e25
+parent 7557ab9eacacf7008b26b24f76ce54fc3225d2e7
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:48:23 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:48:23 +0700
+
+    add
+
+
+:100644 100644 ddae9791e2e007cbb4aa88c56cef9aeed2687d71 b8e40170c651a39bc4459b9d7a9b469d5de7cc1a M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+:100644 100644 b03ced32aafcc940ec0357ed814f2b08b4ecc1b9 eaafc7a0b39a102e2356ca690c99654c737e9d53 M	src/app/store/swa/swa.service.ts
+commit 7557ab9eacacf7008b26b24f76ce54fc3225d2e7
+tree 52c00b1a9b12d65edb0482a511403963f3341721
+parent 8d870910e0b4ea76add86ef46ee12dcd9d2f546a
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:39:35 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:39:35 +0700
+
+    add
+
+
+:100644 100644 ee5bc36646036dabb13d433c631f49c78099fc1a ddae9791e2e007cbb4aa88c56cef9aeed2687d71 M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+commit 8d870910e0b4ea76add86ef46ee12dcd9d2f546a
+tree 2889ea6e4f009da52337079c517cf8cbb2490f3d
+parent 47080fd4e638950c6a2cc0600256b82fa5c91d6d
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:03:37 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 10:03:37 +0700
+
+    finish schedule
+
+
+:100644 100644 fbae00394a069ad08b01bab693fd6a96e8e1eaaf 6f53550bce21fe77f90d9bdb7c93b801c6c91901 M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.html
+:100644 100644 9f0fdf3ffc40b10d5a2dd3a2445f10162040cac0 ee5bc36646036dabb13d433c631f49c78099fc1a M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+:100644 100644 65a6969fdca74b3c02434cbbfbe67f1c191e4101 b03ced32aafcc940ec0357ed814f2b08b4ecc1b9 M	src/app/store/swa/swa.service.ts
+commit 47080fd4e638950c6a2cc0600256b82fa5c91d6d
+tree d84a3b0d47304a109cfc33098e4fa700a22261de
+parent 2baab624ed220985a2d538f768deaae94ac0ae2c
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 09:34:36 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-19 09:34:36 +0700
+
+    add
+
+
+:100644 100644 4bc578ad5ae3614829db7856ba68f2f5990efb8a 9f0fdf3ffc40b10d5a2dd3a2445f10162040cac0 M	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+commit 2baab624ed220985a2d538f768deaae94ac0ae2c
+tree cce38d282ca8da4adb87d9de76cbb58d0c5249a0
+parent 4223cb872d2f86f4fa353f806a169a4ae66efb7f
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-18 17:00:38 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-18 17:00:38 +0700
+
+    AdD
+
+
+:100644 100644 643b64a76d28e1e51177eba2dbb6591e36b1150e a7e041bfb7fd424faa6cb625186e4fc431947425 M	src/app/modules/authentication/user/user.component.ts
+commit 4223cb872d2f86f4fa353f806a169a4ae66efb7f
+tree 8399db83c84dfe5294bd8b08fa9717acbf65286d
+parent 8994d4d5d140745aeb2e5d27a6c3c0f208e7211c
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-13 15:39:40 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-13 15:39:40 +0700
+
+    add
+
+
+:100644 100644 c513ebe7c3b74a5e5079a2ff7d4da85c618dbd9a cb532647e81797b024f3496502eee5f6eb8baac6 M	src/app/modules/authentication/user/user-detail.component.ts
+:100644 100644 7e4e2a94dc4c47c1fbb292cf9655c943eac141b2 643b64a76d28e1e51177eba2dbb6591e36b1150e M	src/app/modules/authentication/user/user.component.ts
+commit 8994d4d5d140745aeb2e5d27a6c3c0f208e7211c
+tree d8579f77d70f521a6875842066d5cab08b9581a7
+parent 9f8790e6c7a8c3e755e8a68dd8ac5451958f1013
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-11 11:55:37 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-05-11 11:55:37 +0700
+
+    add schedule replishment
+
+
+:100644 100644 984c994719b294ec603a9e39439552c998c82e84 93a66cb46c3e8bf7d4db1270f252e050b4638e25 M	src/app/components/main/main.component.html
+:100644 100644 21e0a362974cef73c6bd27059bcf45bc7ea612b2 b97e3b3d36f80997fb8083dbc6eeb575324c45ea M	src/app/modules/authentication/authentication-routing.module.ts
+:100644 100644 3fefeb14536f615b35763fa7ecf6223e5029c08a 6dbdf2d594138dbc5490e1beb3b1e1357985dd34 M	src/app/modules/authentication/authentication.module.ts
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.css
+:000000 100644 0000000000000000000000000000000000000000 fbae00394a069ad08b01bab693fd6a96e8e1eaaf A	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.html
+:000000 100644 0000000000000000000000000000000000000000 4bc578ad5ae3614829db7856ba68f2f5990efb8a A	src/app/modules/authentication/schedule-replenishment/schedule-replenishment.component.ts
+:000000 100644 0000000000000000000000000000000000000000 0c38db854331bbb36c8d9f180154029a77de8231 A	src/app/store/swa/schedule.model.ts
+:100644 100644 ecda4aa8cdda1e7a83cc74e5de72c7854ccb987e 65a6969fdca74b3c02434cbbfbe67f1c191e4101 M	src/app/store/swa/swa.service.ts
+commit 9f8790e6c7a8c3e755e8a68dd8ac5451958f1013
+tree 10da0e4841500a6d89bf707c814a2b239f881cfe
+parent fb974f74e18c8d309d901b4eb63f154d3ecdfe49
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-23 09:47:53 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-23 09:47:53 +0700
+
+    user type chang ok
+
+
+:100644 100644 0fcb92ec665bb81f9aa0b248c14a735af7ec3714 7e4e2a94dc4c47c1fbb292cf9655c943eac141b2 M	src/app/modules/authentication/user/user.component.ts
+:100644 100644 5c0206fb4d32c3fdfb49f6b6d806823ad11e49d5 ecda4aa8cdda1e7a83cc74e5de72c7854ccb987e M	src/app/store/swa/swa.service.ts
+commit fb974f74e18c8d309d901b4eb63f154d3ecdfe49
+tree de6cba00113469846ea54a0375d873d303ce9c86
+parent 789cb0b54275cf33be53d3fe40b10f69e2798b7c
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 18:22:05 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 18:22:05 +0700
+
+    add
+
+
+:100644 100644 07ad691638ca3b8ce6597f0c8a0fa6eb2651b48a 0fcb92ec665bb81f9aa0b248c14a735af7ec3714 M	src/app/modules/authentication/user/user.component.ts
+:100644 100644 991d0ce7559b4116900e84a5d1225460d8acdce1 5c0206fb4d32c3fdfb49f6b6d806823ad11e49d5 M	src/app/store/swa/swa.service.ts
+commit 789cb0b54275cf33be53d3fe40b10f69e2798b7c
+tree af5d749123ca4b90b24f425bfdfe5e0531341abc
+parent a62462df9ede52e3b8562dfc215ad08c073fd9cf
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 16:32:17 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 16:43:59 +0700
+
+    add
+
+
+:100644 100644 9810fdbd7b7bf5f2495327e60670fb1578f10609 07ad691638ca3b8ce6597f0c8a0fa6eb2651b48a M	src/app/modules/authentication/user/user.component.ts
+commit a62462df9ede52e3b8562dfc215ad08c073fd9cf
+tree 1c1984bf61db254b663e9544fe15860b048ac329
+parent 938e144f511c1b85e1aa23565b94984467fbf749
+author Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 16:31:14 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 16:43:59 +0700
+
+    add
+
+
+:100644 100644 9cfb1b5bfd44e86091677f82e16adf81da2098a1 71d6e8f163058033807b630fa188784d3f7a6a62 M	src/app/modules/authentication/user/user.component.html
+:100644 100644 2747445f7b84368a08e6d8907778db465db645e4 9810fdbd7b7bf5f2495327e60670fb1578f10609 M	src/app/modules/authentication/user/user.component.ts
+:100644 100644 17e8990716210c96ba23d821bd08f41d714162e1 a1b3e81bf03ce99e8f795dc08f9761d010daa82f M	src/app/store/store.module.ts
+:000000 100644 0000000000000000000000000000000000000000 991d0ce7559b4116900e84a5d1225460d8acdce1 A	src/app/store/swa/swa.service.ts
+:100644 100644 0d1b966a4a60dc58dc0c89fb4bd6699d9e9f2706 77647a9aab9144c50b7b7f18e4cba9d1d6d9c816 M	src/environments/environment.development.ts
+:100644 100644 2c0108e3b2faf3f24eab0e8095bc26f25fcf8f6b de8df69db0a7567fed288d0da7e2504537b65187 M	src/environments/environment.model.ts
+:100644 100644 ac1968d7979a3c1d94b1049750765d392474d46f 906ae15b421c546b8c60ea225b6e33021edf47b6 M	src/environments/environment.production.ts
+:100644 100644 a7fe92eaef5565d02d830aa185ad4d44ff078adb e71ca3ce710d63ee65677aed884b7efbfeaf6a1f M	src/environments/environment.ts
+:100644 100644 77425c7ccc0115a050942f6f8a972490a67a8fd7 27a9db6c45c70de8832589b6e0f27c407433dc62 M	yarn.lock
+commit 938e144f511c1b85e1aa23565b94984467fbf749
+tree 392e2ceb9199a4227e18aad552306ddf4976ec78
+parent e684e64afc3a926e6a27d9a0f82c98108c8debb8
+author tuan88 <tuan.tran@gosmartlog.com> 2021-04-21 09:16:01 +0700
+committer Le Thanh Luan <thanhluan.bkhn@gmail.com> 2021-04-22 16:43:59 +0700
+
+    Change Link Production
+
+
+:100644 100644 3cfdaaf033220c3548462c84caaccc77e9bda1cd 1c325026de02a5ae58c320524adffa6ee59fce61 M	src/app/modules/authentication/warehouse/warehouse.component.ts

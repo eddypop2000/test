@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>35</string>
+    </parentIds>
+    <id>36</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git
+        cd devops-deployment
+        sed -i &apos;s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-visualize.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/stm-visualize@sha256:979522aace49e6003fe688b5a0faef4a9cf45e9e72302705167339b2bb7acca6+g&apos; ./visualize-thp/master/.argocd-source.yaml
+        git add ./visualize-thp/master/.argocd-source.yaml
+        for file in ./visualize-thp/master/deploy*.yaml; do sed -i &quot;s/\(date:\s*\)&apos;[^&apos;]*&apos;/\1&apos;1677733294&apos;/&quot; &quot;$file&quot;;git add &quot;$file&quot;;done
+        git commit -m &apos;Done by Jenkins Job changemanifest: stm-visualize:12&apos;
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git HEAD:refs/heads/master
+        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1677733306662</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

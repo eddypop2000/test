@@ -1,0 +1,21 @@
+commit 431d796137d2f23e1d3a2cb0920e4b9be2363678
+tree 73d073731a5905b7dc40cdbb77855b9a26f963ff
+parent a4ae05677c30d2090ae8a14eb10a9302e1e7ad6a
+author Hung Dang <hung.dang980@gmail.com> 2021-10-10 12:24:20 +0700
+committer Hung Dang <hung.dang980@gmail.com> 2021-10-10 12:24:20 +0700
+
+    add more ram
+
+
+:100644 100644 f6a950e59222ab7b9e4b5206b2ac74d3dbcd759d c0b52fe2cd5f26865a3fc07492608b121de6c0ad M	deploy.prod.yml
+commit a4ae05677c30d2090ae8a14eb10a9302e1e7ad6a
+tree dd1e71cdca5f3b51fde75b74edd29772da4e4302
+parent eaf42187f198f6cca3086acfafa28ebe469ed41c
+author Hung Dang <hung.dang980@gmail.com> 2021-10-10 12:23:24 +0700
+committer Hung Dang <hung.dang980@gmail.com> 2021-10-10 12:23:24 +0700
+
+    add more ram
+
+
+:100644 100644 8ff05fbaf7035e27ef91c4b503ef28aa0dff4d81 4dec26b90e02cdc89c43cf960c43e51279966032 M	Dockerfile.prod
+:100644 100644 8ff05fbaf7035e27ef91c4b503ef28aa0dff4d81 4dec26b90e02cdc89c43cf960c43e51279966032 M	Dockerfile.stage

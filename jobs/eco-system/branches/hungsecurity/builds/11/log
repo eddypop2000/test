@@ -1,0 +1,933 @@
+Started by user [8mha:////4ANZAGLv6DgoFYLkburj/B+/aIPr1YRcUA63DrOpmnZ5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Obtained Jenkinsfile from 5a0a4421552db342df011dc1b3a4ffc52bc596c7
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/pod-with-gitversion-hzz2k-3qlmd
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Scheduled] Successfully assigned jenkins/pod-with-gitversion-hzz2k-3qlmd to ip-192-168-118-225.ap-southeast-1.compute.internal
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulling] Pulling image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+Still waiting to schedule task
+‘[8mha:////4NW8SOu/tKY0DBOXxrfJ1MjOg/EFgsa/w8ccagN5EfexAAAAuh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgYj/eT83ILSktQi/YL8FFUjl/LMkgwglZ5ZUpZaVJyZnwfkZFRVGWUDaePCnNwUfQCHPgPR5wAAAA==[0mpod-with-gitversion-hzz2k-3qlmd’ is offline
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulled] Successfully pulled image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" in 5.46217324s
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Created] Created container kubectl
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Started] Started container kubectl
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulling] Pulling image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulled] Successfully pulled image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" in 8.290913249s
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Created] Created container awscli
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Started] Started container awscli
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulling] Pulling image "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulled] Successfully pulled image "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1" in 6.347088961s
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Created] Created container gitversion
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Started] Started container gitversion
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulling] Pulling image "public.ecr.aws/smartlog/docker:19.03.8"
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulled] Successfully pulled image "public.ecr.aws/smartlog/docker:19.03.8" in 6.903219221s
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Created] Created container docker
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Started] Started container docker
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulling] Pulling image "jenkins/inbound-agent:4.11-1-jdk11"
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Pulled] Successfully pulled image "jenkins/inbound-agent:4.11-1-jdk11" in 10.211115222s
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Created] Created container jnlp
+[Normal][jenkins/pod-with-gitversion-hzz2k-3qlmd][Started] Started container jnlp
+Agent [8mha:////4MnL7qauqtWQGRozlUhNnLsY6N5mhRBuP1DaEwlEJ34vAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/DzdjKoqo2xd48Kc3BQANV09Tt4AAAA=[0mpod-with-gitversion-hzz2k-3qlmd is provisioned from template pod-with-gitversion-hzz2k
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/eco-system/job/hungsecurity/11/"
+    runUrl: "job/eco-system/job/hungsecurity/11/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-hzz2k-3qlmd"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-hzz2k-3qlmd"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-hzz2k-3qlmd"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4NW8SOu/tKY0DBOXxrfJ1MjOg/EFgsa/w8ccagN5EfexAAAAuh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgYj/eT83ILSktQi/YL8FFUjl/LMkgwglZ5ZUpZaVJyZnwfkZFRVGWUDaePCnNwUfQCHPgPR5wAAAA==[0mpod-with-gitversion-hzz2k-3qlmd in /home/jenkins/agent/workspace/eco-system_hungsecurity
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{5CDmbP15l9ECweZuBBHfXd24mKz-Dj5eSg4Rzdl6rGJnVzrbr6cPqFIDbh2c1VrQvk9DfRh_p5b3mL0JUden7zx-oA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git init /home/jenkins/agent/workspace/eco-system_hungsecurity # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{5CDmbP15l9ECweZuBBHfXd24mKz-Dj5eSg4Rzdl6rGJnVzrbr6cPqFIDbh2c1VrQvk9DfRh_p5b3mL0JUden7zx-oA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 5a0a4421552db342df011dc1b3a4ffc52bc596c7 (hungsecurity)
+ > git config remote.origin.url https://x-token-auth:{5CDmbP15l9ECweZuBBHfXd24mKz-Dj5eSg4Rzdl6rGJnVzrbr6cPqFIDbh2c1VrQvk9DfRh_p5b3mL0JUden7zx-oA%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5a0a4421552db342df011dc1b3a4ffc52bc596c7 # timeout=10
+Commit message: "add log"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/eco-system_hungsecurity/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{E9ccZ6QsaFA34-Ghv4nkfqFVAuh-ZFhpQ3CCehQ4OTq6ujeMwWZmZ5oleojIL_qTIYYmDw9gkUz6qzLAykKHSq8Vxg%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{E9ccZ6QsaFA34-Ghv4nkfqFVAuh-ZFhpQ3CCehQ4OTq6ujeMwWZmZ5oleojIL_qTIYYmDw9gkUz6qzLAykKHSq8Vxg%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/hungsecurity:refs/remotes/origin/hungsecurity # timeout=10
+Checking out Revision 5a0a4421552db342df011dc1b3a4ffc52bc596c7 (hungsecurity)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5a0a4421552db342df011dc1b3a4ffc52bc596c7 # timeout=10
+Commit message: "add log"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4MO5/2hv+0YI4sFJ6nKzOuhVNamLXVGTKa8siV2v1my2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AOJh0L+9AAAA[0m[Pipeline] sh
++ grep build-all
++ git log -1 --pretty=%B
+[8mha:////4H35T7eAA+JtgsJ+amu72YHDxWdqeb8EepZNPcDQy5gXAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREgUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAyX3kfC9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep modules/IdentityServer/smartlog-auth-fe
+[8mha:////4IdZYA504BTv71WxNREKBIs1x4MU2Y9Sgz5xHaK+hECoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA2TGium9AAAA[0m[Pipeline] echo
+isBuildAuthFe: false
+[8mha:////4Ghg1hEtmPt3d4PSFh8RAyk6y1anzLCIc6BtFONnGsaMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRDUJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AKeVp8K9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.Worker
+[8mha:////4PQOCw252DHhp3EjeSYWmLMJ1dJ9Z8bh2/n7FpzU1LKqAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRFUiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roP5qS8270AAAA=[0m[Pipeline] echo
+isBuildAuthWorker: false
+[8mha:////4JmHUTtd9aRRhkBGOi51sXuOkP0tM1sQjXnqDEfce4U3AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEjcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AKbgkXL0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Smartlog.SocketService
+[8mha:////4KdJW5pSks/uAAlWQK8a0Hsj8dCpI5HV0BFRdmVCSHq2AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRHQhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2E+TbffcBaIk/Rb0AAAA=[0m[Pipeline] echo
+isBuildSocketService: false
+[8mha:////4CGBR0T2hPg+ZHVIiIT1KFK+gXqvKNDMB/jm8TtarafEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPeIy7lr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Notification
+[8mha:////4C3EVx0YMxzO8b7RBKS4SxdfnOIXWgegBja71E/JBA+HAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPOb2gj70AAAA=[0m[Pipeline] echo
+isBuildNotificationService: false
+[8mha:////4ORvAuchF10+0ivZCoUv2WSbjkU7jmSdmyeor9AFNjioAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H+u6NpL0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/LocationService
+[8mha:////4DhsnBzS+gHcMRVCtfjWSFlcKaay6iRZ6buVLAtMxwlGAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9ALvflr29AAAA[0m[Pipeline] echo
+isBuildLocationService: false
+[8mha:////4GfF031GyjPPo0/qMOfz9KsdKp1f3ctYyRMkjmsxFhn6AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREAUSoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA3xJ1/K9AAAA[0m[Pipeline] sh
++ grep src/Services/Smartlog.AuditLog.API
++ git diff --name-status HEAD~1..HEAD
+[8mha:////4BV6Lnp8He4Gk//Eh5962sNZBMqqVmqKiPYSkprdXEXBAAAApB+LCAAAAAAAAP9tjbEKwjAURW8rDq6OfkQKgiCIk2vo4hfENsa04b2avNpOfpG/5j9YLDh5p3vOcl5vLFPEkaNTjaXWU6q86kLvpqcGju018KAavqiKKXGwqrRDybU9zViyWMzLciw0VpaqwMmTE6x1Yx6mCIZccZY4uYNG7us7nsj0VBYT5QtjxObW14np1/kbwNgJsr0g3+66Dz14zOu9AAAA[0m[Pipeline] echo
+isBuildAuditLogService: false
+[8mha:////4CAHdSCB/N6E/pwWVYAHuoYP62i6sUmwP2D4SPZYbX8nAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuA/4r4cC9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/Administration
+[8mha:////4O1kjRxKy00Zlj5bRo2nc0eSffxx9lIoog6tmJeW+UVsAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a+tm9AAAA[0m[Pipeline] echo
+isBuildAdministrationService: false
+[8mha:////4PgqqbRMAQhVVi1nZqqeMmDs6Sph/tvxDurGif5RMUMNAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdkpSDfl/0HcAZiXr0AAAA=[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Gateway
+[8mha:////4NtfyqwN6LZMoEMqCvvt2E12+9PPAgYxJsEho/e1JsdKAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRqECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPMTd5R70AAAA=[0m[Pipeline] echo
+isBuildAppGateway: false
+[8mha:////4FnA/j6pBR8qXCxYOorpEz++xriVc91R3hRNEJevttZAAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AE/meZe9AAAA[0m[Pipeline] sh
++ + grep src/Services/SocialServicegit
+ diff --name-status HEAD~1..HEAD
+[8mha:////4J2T9LDIJUBUsHI6nYynX5TX9X4Z4VrmqgHkE8dnrrqUAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AA7XYo69AAAA[0m[Pipeline] echo
+isBuildSocialService: false
+[8mha:////4GBwh+cJRaM+zKGhK0YpKre0LhY4jS7el6JdQ0BxZvAMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AM2ET6W9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/COS
+[8mha:////4IIv+t0619lJsxAZgs6DfzWF3Zz1Jiz0DZagDDa1MkaHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMLCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0HjLVUvL0AAAA=[0m[Pipeline] echo
+isBuildCosService: false
+[8mha:////4JVqzd0gWpyYFpvdrXeNZXqqMzl3qgQ/0Yqmlkl2DS95AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AEsjFfO9AAAA[0m[Pipeline] sh
++ git diff --name-status HEAD~1..HEAD
++ grep src/Services/TransportExchange
+[8mha:////4IWgxqecdUGRLnOTZ4UJ98MZdlq+T0a90E7armLyqS9cAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEBISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbC/It7vuAwoSDuq9AAAA[0m[Pipeline] echo
+isBuildTransportExchange: false
+[8mha:////4AwZJy4phajQ7DsSXeS3FqPxGv5EzfTU/3unjnQ/aJoQAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+AwUzexm9AAAA[0m[Pipeline] }
+[8mha:////4GLpqA/1gCp9NKsntaqM4A3a+RxqzNuSfIMmVMtuxEdPAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFhSOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCfF8KsvIDJAektL0AAAA=[0m[Pipeline] // stage
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] pwd
+[8mha:////4CqdMVGz0m5T1GFR2qQ+7MHGX9MrudDZ0zeHC+G/BNCoAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTICEhREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG5Yd1rnBAAAA[0m[Pipeline] load
+[8mha:////4PeRVlT19Vi39eCfrmOmCkzUGq/eXm4plj3nndhc6zhGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] { (/home/jenkins/agent/workspace/eco-system_hungsecurity/Jenkins.Base.groovy)
+[8mha:////4ID9j8GfJd3w8zYFDveOA1H8Ud/1zkf8uhe9SBt5KE1vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7Bv6v+fK+AAAA[0m[Pipeline] }
+[8mha:////4GvenxozhQbIoyoLJ5GT01WF0E4m/w9tWZzqNQbag9Y+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQ1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw8z8/BCvgAAAA==[0m[Pipeline] // load
+[8mha:////4BSMql1NVQs66cwTp1gWxUxw3Ev2qCn7jQrcpsSQ+4UQAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTgGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvfgDq3cEAAAA=[0m[Pipeline] load
+[8mha:////4MPS6mDykkadubiK7TU3VL6yd9jZ8N9H7UKiP+Ni++qeAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] { (/home/jenkins/agent/workspace/eco-system_hungsecurity/Jenkins.Build.groovy)
+[8mha:////4BfbBZTU3A9Ek2pMtxX3NOh9Xl9wYQkqqeW/8J7Cv5vwAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs/cJ6nb/qfYN8SkFbr4AAAA=[0m[Pipeline] }
+[8mha:////4LJgVkMhuwHqQj+nNOY3TPuIYImx+FCTAIGsqgVZfIyyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/zO9Xa+AAAA[0m[Pipeline] // load
+[8mha:////4CumJMZ5PMLSvcpwPgIksh7XIFWLJBxAXZWm/NwheYrUAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYTTICgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvaEJ7RsEAAAA=[0m[Pipeline] container
+[8mha:////4JaeB/CKuXuuvibn8nWgds2jksbWLhdFpPyPAi+337k7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QQIJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD9vR8YwgAAAA==[0m[Pipeline] {
+[8mha:////4F/5+ClzTJgAZyTu2Laj/31u/qYc1EF8bcJoO4Vf9BbwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSUIAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzJSLA2+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4GQqGri5gcduue/WoK19dwgm+xuHjyDR5o+AdGu27aOSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARISSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA3f8Jkb4AAAA=[0m[Pipeline] }
+[8mha:////4EGdBYwCliFvqU4028ZnRXdhtuD3WPjFivu5hKtU1hJ0AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wA6THqyr4AAAA=[0m[Pipeline] // container
+[8mha:////4Cy3XNL4UdejjR2N96gqOjeWW88k7j8ipiFgywDjNVKTAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUGDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A2/YwbDBAAAA[0m[Pipeline] container
+[8mha:////4HQAOrmy5/GYHzbj1PXPFPkfsdXNGPSNgXXgtO76DyurAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] {
+[8mha:////4LrQSNXjSasv9M/J7+f6Hl4NDPxEJCsWsFw4oT+KgYIuAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] sh
++ ls -la
+total 240
+drwxr-xr-x   11 1000     1000          4096 Jul 22 01:16 .
+drwxr-xr-x    4 1000     1000            94 Jul 22 01:16 ..
+drwxr-xr-x    2 1000     1000            47 Jul 22 01:16 .debug
+-rw-r--r--    1 1000     1000           354 Jul 22 01:16 .dockerignore
+-rw-r--r--    1 1000     1000          5879 Jul 22 01:16 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Jul 22 01:16 .git
+-rw-r--r--    1 1000     1000          2600 Jul 22 01:16 .gitattributes
+-rw-r--r--    1 1000     1000          6412 Jul 22 01:16 .gitignore
+-rw-r--r--    1 1000     1000           294 Jul 22 01:16 GitVersion.yml
+-rw-r--r--    1 1000     1000          1758 Jul 22 01:16 Jenkins.Base.groovy
+-rw-r--r--    1 1000     1000          6283 Jul 22 01:16 Jenkins.Build.groovy
+-rw-r--r--    1 1000     1000         12997 Jul 22 01:16 Jenkinsfile
+-rw-r--r--    1 1000     1000          3917 Jul 22 01:16 Jenkinsfile.Administration.groovy
+-rw-r--r--    1 1000     1000          8315 Jul 22 01:16 Jenkinsfile.All.groovy
+-rw-r--r--    1 1000     1000          3828 Jul 22 01:16 Jenkinsfile.AppGateway.groovy
+-rw-r--r--    1 1000     1000          3869 Jul 22 01:16 Jenkinsfile.AuditLog.groovy
+-rw-r--r--    1 1000     1000          3824 Jul 22 01:16 Jenkinsfile.AuthApi.groovy
+-rw-r--r--    1 1000     1000          3798 Jul 22 01:16 Jenkinsfile.AuthFe.groovy
+-rw-r--r--    1 1000     1000          3834 Jul 22 01:16 Jenkinsfile.AuthLogin.groovy
+-rw-r--r--    1 1000     1000          3830 Jul 22 01:16 Jenkinsfile.AuthWorker.groovy
+-rw-r--r--    1 1000     1000         25536 Jul 22 01:16 Jenkinsfile.BuildAll.js
+-rw-r--r--    1 1000     1000          3825 Jul 22 01:16 Jenkinsfile.Cos.groovy
+-rw-r--r--    1 1000     1000          3869 Jul 22 01:16 Jenkinsfile.Location.groovy
+-rw-r--r--    1 1000     1000          3901 Jul 22 01:16 Jenkinsfile.Notification.groovy
+-rw-r--r--    1 1000     1000          3853 Jul 22 01:16 Jenkinsfile.Social.groovy
+-rw-r--r--    1 1000     1000          3853 Jul 22 01:16 Jenkinsfile.Socket.groovy
+-rw-r--r--    1 1000     1000          3897 Jul 22 01:16 Jenkinsfile.Stx.groovy
+-rw-r--r--    1 1000     1000          4681 Jul 22 01:16 README.md
+drwxr-xr-x    3 1000     1000            86 Jul 22 01:16 Smartlog.Contract.Location
+-rw-r--r--    1 1000     1000         44466 Jul 22 01:16 Smartlog.sln
+-rw-r--r--    1 1000     1000          1573 Jul 22 01:16 Smartlog.sln.DotSettings
+-rw-r--r--    1 1000     1000         14752 Jul 22 01:16 SmartlogCSharp.ruleset
+drwxr-xr-x    2 1000     1000            25 Jul 22 01:16 Templates
+drwxr-xr-x    2 1000     1000           103 Jul 22 01:16 assets
+drwxr-xr-x    2 1000     1000           140 Jul 22 01:16 components
+drwxr-xr-x    2 1000     1000           131 Jul 22 01:16 components-deploy
+drwxr-xr-x    3 1000     1000            28 Jul 22 01:16 modules
+-rw-r--r--    1 1000     1000           636 Jul 22 01:16 nuget.config
+-rw-r--r--    1 1000     1000          1447 Jul 22 01:16 package.json
+-rw-r--r--    1 1000     1000          1103 Jul 22 01:16 restclient.http
+drwxr-xr-x    8 1000     1000           111 Jul 22 01:16 src
+-rw-r--r--    1 1000     1000          2066 Jul 22 01:16 tye.yaml
++ docker build -f src/Services/TransportExchange/Smartlog.TransportExchange.API/Dockerfile.stage --build-arg 'version=0.0.0' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:hungsecurity '--pull=true' .
+Sending build context to Docker daemon   49.2MB
+Step 1/20 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+461246efe0a7: Pulling fs layer
+2b6a8a95a1cb: Pulling fs layer
+e6a21b009eab: Pulling fs layer
+8cb016ebfcfd: Pulling fs layer
+bbc5ede09ce5: Pulling fs layer
+b543e8ccdfd4: Pulling fs layer
+b78e0d529ef6: Pulling fs layer
+208f32530956: Pulling fs layer
+8cb016ebfcfd: Verifying Checksum
+8cb016ebfcfd: Download complete
+bbc5ede09ce5: Download complete
+208f32530956: Verifying Checksum
+208f32530956: Download complete
+2b6a8a95a1cb: Verifying Checksum
+b543e8ccdfd4: Download complete
+e6a21b009eab: Verifying Checksum
+e6a21b009eab: Download complete
+461246efe0a7: Verifying Checksum
+461246efe0a7: Download complete
+461246efe0a7: Pull complete
+b78e0d529ef6: Download complete
+2b6a8a95a1cb: Pull complete
+e6a21b009eab: Pull complete
+8cb016ebfcfd: Pull complete
+bbc5ede09ce5: Pull complete
+b543e8ccdfd4: Pull complete
+b78e0d529ef6: Pull complete
+208f32530956: Pull complete
+Digest: sha256:b48b7c00643738c5988aba448369c7f8840a55eaf6a9df925d8b93c9a1c0291a
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> b847a4eb3c52
+Step 2/20 : ARG version
+ ---> Running in f1cd9457424f
+Removing intermediate container f1cd9457424f
+ ---> c1bfdbd07baa
+Step 3/20 : WORKDIR /src
+ ---> Running in cbd33216c526
+Removing intermediate container cbd33216c526
+ ---> aa67fc86bec4
+Step 4/20 : COPY . .
+ ---> 78c1ec19863b
+Step 5/20 : RUN ls -la
+ ---> Running in 1f43e440fb8d
+total 220
+drwxr-xr-x 1 root root  4096 Jul 22 01:16 .
+drwxr-xr-x 1 root root     6 Jul 22 01:16 ..
+drwxr-xr-x 2 root root    47 Jul 22 01:16 .debug
+-rw-r--r-- 1 root root  5879 Jul 22 01:16 .editorconfig
+-rw-r--r-- 1 root root  2600 Jul 22 01:16 .gitattributes
+-rw-r--r-- 1 root root   294 Jul 22 01:16 GitVersion.yml
+-rw-r--r-- 1 root root  1758 Jul 22 01:16 Jenkins.Base.groovy
+-rw-r--r-- 1 root root  6283 Jul 22 01:16 Jenkins.Build.groovy
+-rw-r--r-- 1 root root 12997 Jul 22 01:16 Jenkinsfile
+-rw-r--r-- 1 root root  3917 Jul 22 01:16 Jenkinsfile.Administration.groovy
+-rw-r--r-- 1 root root  8315 Jul 22 01:16 Jenkinsfile.All.groovy
+-rw-r--r-- 1 root root  3828 Jul 22 01:16 Jenkinsfile.AppGateway.groovy
+-rw-r--r-- 1 root root  3869 Jul 22 01:16 Jenkinsfile.AuditLog.groovy
+-rw-r--r-- 1 root root  3824 Jul 22 01:16 Jenkinsfile.AuthApi.groovy
+-rw-r--r-- 1 root root  3798 Jul 22 01:16 Jenkinsfile.AuthFe.groovy
+-rw-r--r-- 1 root root  3834 Jul 22 01:16 Jenkinsfile.AuthLogin.groovy
+-rw-r--r-- 1 root root  3830 Jul 22 01:16 Jenkinsfile.AuthWorker.groovy
+-rw-r--r-- 1 root root 25536 Jul 22 01:16 Jenkinsfile.BuildAll.js
+-rw-r--r-- 1 root root  3825 Jul 22 01:16 Jenkinsfile.Cos.groovy
+-rw-r--r-- 1 root root  3869 Jul 22 01:16 Jenkinsfile.Location.groovy
+-rw-r--r-- 1 root root  3901 Jul 22 01:16 Jenkinsfile.Notification.groovy
+-rw-r--r-- 1 root root  3853 Jul 22 01:16 Jenkinsfile.Social.groovy
+-rw-r--r-- 1 root root  3853 Jul 22 01:16 Jenkinsfile.Socket.groovy
+-rw-r--r-- 1 root root  3897 Jul 22 01:16 Jenkinsfile.Stx.groovy
+drwxr-xr-x 3 root root    86 Jul 22 01:16 Smartlog.Contract.Location
+-rw-r--r-- 1 root root 44466 Jul 22 01:16 Smartlog.sln
+-rw-r--r-- 1 root root  1573 Jul 22 01:16 Smartlog.sln.DotSettings
+-rw-r--r-- 1 root root 14752 Jul 22 01:16 SmartlogCSharp.ruleset
+drwxr-xr-x 2 root root    25 Jul 22 01:16 Templates
+drwxr-xr-x 2 root root   103 Jul 22 01:16 assets
+drwxr-xr-x 2 root root   140 Jul 22 01:16 components
+drwxr-xr-x 2 root root   131 Jul 22 01:16 components-deploy
+drwxr-xr-x 3 root root    28 Jul 22 01:16 modules
+-rw-r--r-- 1 root root   636 Jul 22 01:16 nuget.config
+-rw-r--r-- 1 root root  1447 Jul 22 01:16 package.json
+-rw-r--r-- 1 root root  1103 Jul 22 01:16 restclient.http
+drwxr-xr-x 8 root root   111 Jul 22 01:16 src
+-rw-r--r-- 1 root root  2066 Jul 22 01:16 tye.yaml
+Removing intermediate container 1f43e440fb8d
+ ---> 805bdb436f5a
+Step 6/20 : RUN dotnet --version
+ ---> Running in f246140ec8a4
+6.0.302
+Removing intermediate container f246140ec8a4
+ ---> f357e8a13182
+Step 7/20 : RUN dotnet --info
+ ---> Running in c39234288f38
+.NET SDK (reflecting any global.json):
+ Version:   6.0.302
+ Commit:    c857713418
+
+Runtime Environment:
+ OS Name:     debian
+ OS Version:  11
+ OS Platform: Linux
+ RID:         debian.11-x64
+ Base Path:   /usr/share/dotnet/sdk/6.0.302/
+
+global.json file:
+  Not found
+
+Host:
+  Version:      6.0.7
+  Architecture: x64
+  Commit:       0ec02c8c96
+
+.NET SDKs installed:
+  6.0.302 [/usr/share/dotnet/sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 6.0.7 [/usr/share/dotnet/shared/Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 6.0.7 [/usr/share/dotnet/shared/Microsoft.NETCore.App]
+
+Download .NET:
+  https://aka.ms/dotnet-download
+
+Learn about .NET Runtimes and SDKs:
+  https://aka.ms/dotnet/runtimes-sdk-info
+Removing intermediate container c39234288f38
+ ---> 0bb783466ef9
+Step 8/20 : RUN cd src/Services/TransportExchange/Smartlog.TransportExchange.API && dotnet restore
+ ---> Running in 886269f56663
+  Determining projects to restore...
+  Restored /src/src/Contracts/Smartlog.Contract.Notification/Smartlog.Contract.Notification.csproj (in 5.27 sec).
+  Restored /src/src/Contracts/Smartlog.Contract.COS/Smartlog.Contract.COS.csproj (in 5.27 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.EfCore/Smartlog.Infrastructure.EfCore.csproj (in 5.71 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Audit/Smartlog.Infrastructure.Audit.csproj (in 5.71 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization.Storage/Smartlog.Infrastructure.Organization.Storage.csproj (in 410 ms).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.Domain/Smartlog.TransportExchange.Domain.csproj (in 410 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Auth/Smartlog.Contract.Auth.csproj (in 1 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/Smartlog.Infrastructure.Localization.csproj (in 2 ms).
+  Restored /src/src/Services/COS/Smartlog.CosService.Domain/Smartlog.CosService.Domain.csproj (in 140 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Domain/Smartlog.Domain.csproj (in 2 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/Smartlog.Infrastructure.Cache.csproj (in 516 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization.Storage/Smartlog.Infrastructure.Localization.Storage.csproj (in 6.37 sec).
+  Restored /src/src/Contracts/Smartlog.Contract.Simulator/Smartlog.Contract.Simulator.csproj (in 210 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.Stmv2/Smartlog.Contract.Stmv2.csproj (in 874 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.App/Smartlog.Infrastructure.App.csproj (in 874 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization/Smartlog.Infrastructure.Organization.csproj (in 1 ms).
+  Restored /src/src/Contracts/Smartlog.Contract.OpenStreetMap/Smartlog.Contract.OpenStreetMap.csproj (in 1 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Quartz/Smartlog.Infrastructure.Quartz.csproj (in 59 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/Smartlog.Infrastructure.Authorization.csproj (in 470 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization.Storage/Smartlog.Infrastructure.Authorization.Storage.csproj (in 6.85 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure/Smartlog.Infrastructure.csproj (in 2.71 sec).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj (in 8.5 sec).
+  Restored /src/src/Services/TransportExchange/Smartlog.TransportExchange.API/Smartlog.TransportExchange.API.csproj (in 9.23 sec).
+Removing intermediate container 886269f56663
+ ---> 1a2737c41d7a
+Step 9/20 : RUN cd src/Services/TransportExchange/Smartlog.TransportExchange.API && dotnet publish -c Release -o /app/publish -p:Version=$version
+ ---> Running in 88f011a56c84
+Microsoft (R) Build Engine version 17.2.0+41abc5629 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Smartlog.Infrastructure.Localization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/bin/Release/net5.0/Smartlog.Infrastructure.Localization.dll
+  Smartlog.Contract.OpenStreetMap -> /src/src/Contracts/Smartlog.Contract.OpenStreetMap/bin/Release/net5.0/Smartlog.Contract.OpenStreetMap.dll
+  Smartlog.Contract.Auth -> /src/src/Contracts/Smartlog.Contract.Auth/bin/Release/net5.0/Smartlog.Contract.Auth.dll
+  Smartlog.Infrastructure.App -> /src/src/BuildingBlocks/Smartlog.Infrastructure.App/bin/Release/netstandard2.1/Smartlog.Infrastructure.App.dll
+  Smartlog.Contract.COS -> /src/src/Contracts/Smartlog.Contract.COS/bin/Release/net5.0/Smartlog.Contract.COS.dll
+  Smartlog.Infrastructure.Cache -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/bin/Release/net5.0/Smartlog.Infrastructure.Cache.dll
+  Smartlog.Contract.Stmv2 -> /src/src/Contracts/Smartlog.Contract.Stmv2/bin/Release/netstandard2.1/Smartlog.Contract.Stmv2.dll
+  Smartlog.Contract.Notification -> /src/src/Contracts/Smartlog.Contract.Notification/bin/Release/net5.0/Smartlog.Contract.Notification.dll
+  Smartlog.Contract.Simulator -> /src/src/Contracts/Smartlog.Contract.Simulator/bin/Release/netstandard2.1/Smartlog.Contract.Simulator.dll
+  Smartlog.Domain -> /src/src/BuildingBlocks/Smartlog.Domain/bin/Release/netstandard2.1/Smartlog.Domain.dll
+  Smartlog.Infrastructure.Organization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization/bin/Release/net5.0/Smartlog.Infrastructure.Organization.dll
+  Smartlog.Infrastructure.Organization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Organization.Storage/bin/Release/net5.0/Smartlog.Infrastructure.Organization.Storage.dll
+  Smartlog.Infrastructure.Localization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization.Storage/bin/Release/net5.0/Smartlog.Infrastructure.Localization.Storage.dll
+  Smartlog.Infrastructure.Quartz -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Quartz/bin/Release/net5.0/Smartlog.Infrastructure.Quartz.dll
+  Smartlog.Infrastructure.EfCore -> /src/src/BuildingBlocks/Smartlog.Infrastructure.EfCore/bin/Release/net5.0/Smartlog.Infrastructure.EfCore.dll
+  Smartlog.Infrastructure.Audit -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Audit/bin/Release/net5.0/Smartlog.Infrastructure.Audit.dll
+  Smartlog.Infrastructure.Authorization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/bin/Release/net5.0/Smartlog.Infrastructure.Authorization.dll
+  Smartlog.Infrastructure -> /src/src/BuildingBlocks/Smartlog.Infrastructure/bin/Release/net5.0/Smartlog.Infrastructure.dll
+  Smartlog.CosService.Domain -> /src/src/Services/COS/Smartlog.CosService.Domain/bin/Release/net5.0/Smartlog.CosService.Domain.dll
+  Smartlog.Infrastructure.Authorization.Storage -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization.Storage/bin/Release/net5.0/Smartlog.Infrastructure.Authorization.Storage.dll
+  Smartlog.TransportExchange.Domain -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.Domain/bin/Release/net5.0/Smartlog.TransportExchange.Domain.dll
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/OrderPricingLists/ImportExcelOrderPricingListCommand.cs(14,7): warning CS0105: The using directive for 'Smartlog.TransportExchange.Domain' appeared previously in this namespace [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Companies/CompanyInformationQuery.cs(87,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/Smartlog.TransportExchange.Application.csproj]
+  Smartlog.TransportExchange.Application -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.Application/bin/Release/net5.0/Smartlog.TransportExchange.Application.dll
+  Smartlog.TransportExchange.API -> /src/src/Services/TransportExchange/Smartlog.TransportExchange.API/bin/Release/net5.0/Smartlog.TransportExchange.API.dll
+  Smartlog.TransportExchange.API -> /app/publish/
+Removing intermediate container 88f011a56c84
+ ---> dd470f1ed7e4
+Step 10/20 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+461246efe0a7: Already exists
+2b6a8a95a1cb: Already exists
+e6a21b009eab: Already exists
+8cb016ebfcfd: Already exists
+bbc5ede09ce5: Already exists
+Digest: sha256:d8b274c1ac356a3bbea84204d20e99046ce5eae20cfa7fbcf703e5aa034cb36b
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> 56bc39541821
+Step 11/20 : RUN apt-get update
+ ---> Running in ce9c918a17e1
+Get:1 http://deb.debian.org/debian bullseye InRelease [116 kB]
+Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [44.1 kB]
+Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 Packages [8182 kB]
+Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [166 kB]
+Get:6 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [2592 B]
+Fetched 8555 kB in 1s (5710 kB/s)
+Reading package lists...
+Removing intermediate container ce9c918a17e1
+ ---> 666b9b11ce95
+Step 12/20 : RUN apt-get install -y apt-utils
+ ---> Running in 224e2cbe543e
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  apt-utils
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 439 kB of archives.
+After this operation, 1192 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 apt-utils amd64 2.2.4 [439 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 439 kB in 0s (21.6 MB/s)
+Selecting previously unselected package apt-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6985 files and directories currently installed.)
+Preparing to unpack .../apt-utils_2.2.4_amd64.deb ...
+Unpacking apt-utils (2.2.4) ...
+Setting up apt-utils (2.2.4) ...
+Removing intermediate container 224e2cbe543e
+ ---> a7d27f2fbacc
+Step 13/20 : RUN apt-get install -y libgdiplus
+ ---> Running in 74e343e943e5
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core libbrotli1 libbsd0 libcairo2 libdeflate0
+  libexif12 libexpat1 libfontconfig1 libfreetype6 libgif7 libglib2.0-0
+  libglib2.0-data libjbig0 libjpeg62-turbo libmd0 libpixman-1-0 libpng16-16
+  libtiff5 libwebp6 libx11-6 libx11-data libxau6 libxcb-render0 libxcb-shm0
+  libxcb1 libxdmcp6 libxext6 libxml2 libxrender1 sensible-utils
+  shared-mime-info ucf xdg-user-dirs
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core libbrotli1 libbsd0 libcairo2 libdeflate0
+  libexif12 libexpat1 libfontconfig1 libfreetype6 libgdiplus libgif7
+  libglib2.0-0 libglib2.0-data libjbig0 libjpeg62-turbo libmd0 libpixman-1-0
+  libpng16-16 libtiff5 libwebp6 libx11-6 libx11-data libxau6 libxcb-render0
+  libxcb-shm0 libxcb1 libxdmcp6 libxext6 libxml2 libxrender1 sensible-utils
+  shared-mime-info ucf xdg-user-dirs
+0 upgraded, 35 newly installed, 0 to remove and 0 not upgraded.
+Need to get 11.2 MB of archives.
+After this operation, 39.7 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 sensible-utils all 0.0.14 [14.8 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 ucf all 3.0043 [74.0 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 fonts-dejavu-core all 2.37-2 [1069 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 fontconfig-config all 2.13.1-4.2 [281 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libbrotli1 amd64 1.0.9-2+b2 [279 kB]
+Get:6 http://deb.debian.org/debian bullseye/main amd64 libmd0 amd64 1.0.3-3 [28.0 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 libbsd0 amd64 0.11.3-1 [108 kB]
+Get:8 http://deb.debian.org/debian bullseye/main amd64 libexpat1 amd64 2.2.10-2+deb11u3 [98.5 kB]
+Get:9 http://deb.debian.org/debian bullseye/main amd64 libpng16-16 amd64 1.6.37-3 [294 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libfreetype6 amd64 2.10.4+dfsg-1+deb11u1 [418 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 libfontconfig1 amd64 2.13.1-4.2 [347 kB]
+Get:12 http://deb.debian.org/debian bullseye/main amd64 libpixman-1-0 amd64 0.40.0-1 [543 kB]
+Get:13 http://deb.debian.org/debian bullseye/main amd64 libxau6 amd64 1:1.0.9-1 [19.7 kB]
+Get:14 http://deb.debian.org/debian bullseye/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
+Get:15 http://deb.debian.org/debian bullseye/main amd64 libxcb1 amd64 1.14-3 [140 kB]
+Get:16 http://deb.debian.org/debian bullseye/main amd64 libx11-data all 2:1.7.2-1 [311 kB]
+Get:17 http://deb.debian.org/debian bullseye/main amd64 libx11-6 amd64 2:1.7.2-1 [772 kB]
+Get:18 http://deb.debian.org/debian bullseye/main amd64 libxcb-render0 amd64 1.14-3 [111 kB]
+Get:19 http://deb.debian.org/debian bullseye/main amd64 libxcb-shm0 amd64 1.14-3 [101 kB]
+Get:20 http://deb.debian.org/debian bullseye/main amd64 libxext6 amd64 2:1.3.3-1.1 [52.7 kB]
+Get:21 http://deb.debian.org/debian bullseye/main amd64 libxrender1 amd64 1:0.9.10-1 [33.0 kB]
+Get:22 http://deb.debian.org/debian bullseye/main amd64 libcairo2 amd64 1.16.0-5 [694 kB]
+Get:23 http://deb.debian.org/debian bullseye/main amd64 libdeflate0 amd64 1.7-1 [53.1 kB]
+Get:24 http://deb.debian.org/debian bullseye/main amd64 libexif12 amd64 0.6.22-3 [376 kB]
+Get:25 http://deb.debian.org/debian bullseye/main amd64 libgif7 amd64 5.1.9-2 [45.1 kB]
+Get:26 http://deb.debian.org/debian bullseye/main amd64 libglib2.0-0 amd64 2.66.8-1 [1370 kB]
+Get:27 http://deb.debian.org/debian bullseye/main amd64 libjpeg62-turbo amd64 1:2.0.6-4 [151 kB]
+Get:28 http://deb.debian.org/debian bullseye/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]
+Get:29 http://deb.debian.org/debian bullseye/main amd64 libwebp6 amd64 0.6.1-2.1 [258 kB]
+Get:30 http://deb.debian.org/debian bullseye/main amd64 libtiff5 amd64 4.2.0-1+deb11u1 [289 kB]
+Get:31 http://deb.debian.org/debian bullseye/main amd64 libgdiplus amd64 6.0.4+dfsg-2 [162 kB]
+Get:32 http://deb.debian.org/debian bullseye/main amd64 libglib2.0-data all 2.66.8-1 [1164 kB]
+Get:33 http://deb.debian.org/debian bullseye/main amd64 libxml2 amd64 2.9.10+dfsg-6.7+deb11u2 [692 kB]
+Get:34 http://deb.debian.org/debian bullseye/main amd64 shared-mime-info amd64 2.0-1 [701 kB]
+Get:35 http://deb.debian.org/debian bullseye/main amd64 xdg-user-dirs amd64 0.17-2 [53.8 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 35.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 11.2 MB in 0s (98.4 MB/s)
+Selecting previously unselected package sensible-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7066 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.14_all.deb ...
+Unpacking sensible-utils (0.0.14) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../01-ucf_3.0043_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0043) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../02-fonts-dejavu-core_2.37-2_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../03-fontconfig-config_2.13.1-4.2_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../04-libbrotli1_1.0.9-2+b2_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2+b2) ...
+Selecting previously unselected package libmd0:amd64.
+Preparing to unpack .../05-libmd0_1.0.3-3_amd64.deb ...
+Unpacking libmd0:amd64 (1.0.3-3) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../06-libbsd0_0.11.3-1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.11.3-1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../07-libexpat1_2.2.10-2+deb11u3_amd64.deb ...
+Unpacking libexpat1:amd64 (2.2.10-2+deb11u3) ...
+Selecting previously unselected package libpng16-16:amd64.
+Preparing to unpack .../08-libpng16-16_1.6.37-3_amd64.deb ...
+Unpacking libpng16-16:amd64 (1.6.37-3) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../09-libfreetype6_2.10.4+dfsg-1+deb11u1_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../10-libfontconfig1_2.13.1-4.2_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../11-libpixman-1-0_0.40.0-1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.40.0-1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../12-libxau6_1%3a1.0.9-1_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.9-1) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../13-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../14-libxcb1_1.14-3_amd64.deb ...
+Unpacking libxcb1:amd64 (1.14-3) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../15-libx11-data_2%3a1.7.2-1_all.deb ...
+Unpacking libx11-data (2:1.7.2-1) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../16-libx11-6_2%3a1.7.2-1_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.7.2-1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../17-libxcb-render0_1.14-3_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.14-3) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../18-libxcb-shm0_1.14-3_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-3) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../19-libxext6_2%3a1.3.3-1.1_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.3-1.1) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../20-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../21-libcairo2_1.16.0-5_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-5) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../22-libdeflate0_1.7-1_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.7-1) ...
+Selecting previously unselected package libexif12:amd64.
+Preparing to unpack .../23-libexif12_0.6.22-3_amd64.deb ...
+Unpacking libexif12:amd64 (0.6.22-3) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../24-libgif7_5.1.9-2_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.9-2) ...
+Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../25-libglib2.0-0_2.66.8-1_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.66.8-1) ...
+Selecting previously unselected package libjpeg62-turbo:amd64.
+Preparing to unpack .../26-libjpeg62-turbo_1%3a2.0.6-4_amd64.deb ...
+Unpacking libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../27-libjbig0_2.1-3.1+b2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../28-libwebp6_0.6.1-2.1_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2.1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../29-libtiff5_4.2.0-1+deb11u1_amd64.deb ...
+Unpacking libtiff5:amd64 (4.2.0-1+deb11u1) ...
+Selecting previously unselected package libgdiplus.
+Preparing to unpack .../30-libgdiplus_6.0.4+dfsg-2_amd64.deb ...
+Unpacking libgdiplus (6.0.4+dfsg-2) ...
+Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../31-libglib2.0-data_2.66.8-1_all.deb ...
+Unpacking libglib2.0-data (2.66.8-1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../32-libxml2_2.9.10+dfsg-6.7+deb11u2_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.10+dfsg-6.7+deb11u2) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../33-shared-mime-info_2.0-1_amd64.deb ...
+Unpacking shared-mime-info (2.0-1) ...
+Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../34-xdg-user-dirs_0.17-2_amd64.deb ...
+Unpacking xdg-user-dirs (0.17-2) ...
+Setting up libexpat1:amd64 (2.2.10-2+deb11u3) ...
+Setting up libpixman-1-0:amd64 (0.40.0-1) ...
+Setting up libxau6:amd64 (1:1.0.9-1) ...
+Setting up xdg-user-dirs (0.17-2) ...
+Setting up libglib2.0-0:amd64 (2.66.8-1) ...
+No schema files found: doing nothing.
+Setting up libbrotli1:amd64 (1.0.9-2+b2) ...
+Setting up libdeflate0:amd64 (1.7-1) ...
+Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+Setting up libglib2.0-data (2.66.8-1) ...
+Setting up libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+Setting up libx11-data (2:1.7.2-1) ...
+Setting up libexif12:amd64 (0.6.22-3) ...
+Setting up libpng16-16:amd64 (1.6.37-3) ...
+Setting up libwebp6:amd64 (0.6.1-2.1) ...
+Setting up fonts-dejavu-core (2.37-2) ...
+Setting up libgif7:amd64 (5.1.9-2) ...
+Setting up libmd0:amd64 (1.0.3-3) ...
+Setting up sensible-utils (0.0.14) ...
+Setting up libtiff5:amd64 (4.2.0-1+deb11u1) ...
+Setting up libbsd0:amd64 (0.11.3-1) ...
+Setting up libxml2:amd64 (2.9.10+dfsg-6.7+deb11u2) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+Setting up libxcb1:amd64 (1.14-3) ...
+Setting up libxcb-render0:amd64 (1.14-3) ...
+Setting up libxcb-shm0:amd64 (1.14-3) ...
+Setting up libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+Setting up shared-mime-info (2.0-1) ...
+Setting up ucf (3.0043) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libx11-6:amd64 (2:1.7.2-1) ...
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up fontconfig-config (2.13.1-4.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libxext6:amd64 (2:1.3.3-1.1) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2) ...
+Setting up libcairo2:amd64 (1.16.0-5) ...
+Setting up libgdiplus (6.0.4+dfsg-2) ...
+Processing triggers for libc-bin (2.31-13+deb11u3) ...
+Removing intermediate container 74e343e943e5
+ ---> 0b8df707d9f5
+Step 14/20 : RUN apt-get install -y libc6-dev
+ ---> Running in c2173bcb3a60
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libc-dev-bin libc-devtools libcrypt-dev libgd3 libnsl-dev libtirpc-dev
+  libxpm4 linux-libc-dev manpages manpages-dev
+Suggested packages:
+  glibc-doc libgd-tools man-browser
+The following NEW packages will be installed:
+  libc-dev-bin libc-devtools libc6-dev libcrypt-dev libgd3 libnsl-dev
+  libtirpc-dev libxpm4 linux-libc-dev manpages manpages-dev
+0 upgraded, 11 newly installed, 0 to remove and 0 not upgraded.
+Need to get 8653 kB of archives.
+After this operation, 29.1 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main amd64 manpages all 5.10-1 [1412 kB]
+Get:2 http://deb.debian.org/debian bullseye/main amd64 libc-dev-bin amd64 2.31-13+deb11u3 [275 kB]
+Get:3 http://deb.debian.org/debian bullseye/main amd64 libxpm4 amd64 1:3.5.12-1 [49.1 kB]
+Get:4 http://deb.debian.org/debian bullseye/main amd64 libgd3 amd64 2.3.0-2 [137 kB]
+Get:5 http://deb.debian.org/debian bullseye/main amd64 libc-devtools amd64 2.31-13+deb11u3 [245 kB]
+Get:6 http://deb.debian.org/debian bullseye/main amd64 linux-libc-dev amd64 5.10.127-1 [1516 kB]
+Get:7 http://deb.debian.org/debian bullseye/main amd64 libcrypt-dev amd64 1:4.4.18-4 [104 kB]
+Get:8 http://deb.debian.org/debian bullseye/main amd64 libtirpc-dev amd64 1.3.1-1 [190 kB]
+Get:9 http://deb.debian.org/debian bullseye/main amd64 libnsl-dev amd64 1.3.0-2 [66.4 kB]
+Get:10 http://deb.debian.org/debian bullseye/main amd64 libc6-dev amd64 2.31-13+deb11u3 [2348 kB]
+Get:11 http://deb.debian.org/debian bullseye/main amd64 manpages-dev all 5.10-1 [2309 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 11.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 8653 kB in 0s (110 MB/s)
+Selecting previously unselected package manpages.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 8084 files and directories currently installed.)
+Preparing to unpack .../00-manpages_5.10-1_all.deb ...
+Unpacking manpages (5.10-1) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../01-libc-dev-bin_2.31-13+deb11u3_amd64.deb ...
+Unpacking libc-dev-bin (2.31-13+deb11u3) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../02-libxpm4_1%3a3.5.12-1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../03-libgd3_2.3.0-2_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2) ...
+Selecting previously unselected package libc-devtools.
+Preparing to unpack .../04-libc-devtools_2.31-13+deb11u3_amd64.deb ...
+Unpacking libc-devtools (2.31-13+deb11u3) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../05-linux-libc-dev_5.10.127-1_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.10.127-1) ...
+Selecting previously unselected package libcrypt-dev:amd64.
+Preparing to unpack .../06-libcrypt-dev_1%3a4.4.18-4_amd64.deb ...
+Unpacking libcrypt-dev:amd64 (1:4.4.18-4) ...
+Selecting previously unselected package libtirpc-dev:amd64.
+Preparing to unpack .../07-libtirpc-dev_1.3.1-1_amd64.deb ...
+Unpacking libtirpc-dev:amd64 (1.3.1-1) ...
+Selecting previously unselected package libnsl-dev:amd64.
+Preparing to unpack .../08-libnsl-dev_1.3.0-2_amd64.deb ...
+Unpacking libnsl-dev:amd64 (1.3.0-2) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../09-libc6-dev_2.31-13+deb11u3_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.31-13+deb11u3) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../10-manpages-dev_5.10-1_all.deb ...
+Unpacking manpages-dev (5.10-1) ...
+Setting up libxpm4:amd64 (1:3.5.12-1) ...
+Setting up manpages (5.10-1) ...
+Setting up linux-libc-dev:amd64 (5.10.127-1) ...
+Setting up libtirpc-dev:amd64 (1.3.1-1) ...
+Setting up libgd3:amd64 (2.3.0-2) ...
+Setting up libnsl-dev:amd64 (1.3.0-2) ...
+Setting up libcrypt-dev:amd64 (1:4.4.18-4) ...
+Setting up libc-dev-bin (2.31-13+deb11u3) ...
+Setting up libc-devtools (2.31-13+deb11u3) ...
+Setting up manpages-dev (5.10-1) ...
+Setting up libc6-dev:amd64 (2.31-13+deb11u3) ...
+Processing triggers for libc-bin (2.31-13+deb11u3) ...
+Removing intermediate container c2173bcb3a60
+ ---> 3f51816ebc97
+Step 15/20 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Running in 445c0ee36a5a
+Removing intermediate container 445c0ee36a5a
+ ---> da87b5dd6812
+Step 16/20 : WORKDIR /app
+ ---> Running in dfeba4501846
+Removing intermediate container dfeba4501846
+ ---> b72eaea05f82
+Step 17/20 : COPY --from=build /app/publish .
+ ---> b05928d4357a
+Step 18/20 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in b3976d965568
+Removing intermediate container b3976d965568
+ ---> b24e8302506e
+Step 19/20 : ENV ASPNETCORE_ENVIRONMENT=Staging
+ ---> Running in bb6fff10d360
+Removing intermediate container bb6fff10d360
+ ---> 8aafc3ed49cc
+Step 20/20 : ENTRYPOINT ["dotnet", "Smartlog.TransportExchange.API.dll"]
+ ---> Running in c82eb2644ad8
+Removing intermediate container c82eb2644ad8
+ ---> eaa9357355fd
+Successfully built eaa9357355fd
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:hungsecurity
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiV0xEU3puUUJEYXV5NXljWEplbDJFam9RbkpiZVplUlh5azdjZzVWYnNTVWhuZEZrUXNZTTB4YVc4eU1LWlNHbHY0OEJFV011eG5TSUgyWm9yM3RtZkNVeXhLR21tZHVvVEJ4UzhHRFVEd0d6NWJFYTFyTmt3RXRUSDlWTGlDTS9CZWdDUk8xNVQ4bVVlTTJ3cXFnTXh1bW1UWFN3eSt5L0t5V3BZUm1waTFMUDFoT1N5dm1VK2NCcmpFb0R2WmZvcmtzYzFPRkMrelZPZkEyM3dpbjJtVWxhTGgrWDlyeFE5c3JaZUlUWDZxT1Y4ak5xMVpCVUhKSnEzUnBXMncwZVkwb0JXK3UwSlBpRjFpN1lTSVlKS0dtbmpqMW14bnNiVUZJR2RLcUl2UGMxOWh5US9XMWxjbTdZUFdYSnVXcTZCQzFNZFQ4djNIYk01WUxzUU51clFSQmRaekZFYTZsYVExYzlhVWhSa2w0WHFUb3dIWXpSdjFkQXBYRXFpWlYvSHJHU3BsWDNNUDVtbDV1YWpqTVZpcnEyVTJnY3RhUGJaenVqTk9pR2xEL2hod25Vd3ZiNFVoVXZaSDhTOXhERjJlTzVBWHVxVnBvOWpsMk1rV05WSDJ3UW9GVmQrOWF2dmJMN1QwSG1MeEk0RGZ3UUNzQm1ub2JWRTNOUmk4RkZ2UjQ5dUVxZDRRK2ZtbEtJQksvelZPVklxNlJNMHV4dmpFcVkwN01uWFYwYnk2V0lxbERuT09SRTNSMTJTOWVXRHMzYkIwUzNqVEIzVlQ3Ky9JM2ZlVE9CY0VRVjN3dWpNTjZVaXM3ZWU5dDQzell4YlNqWmJ3T3R2YmYrWGozckFQVVRUcG94eVpVRGh6MDcyVmQxeUJYb1UrZTkxTjY5dmI0WUJZUXN3bjYwRzRkaHNiYWFjZTVXWC9lRFh3OVppTnd5ZTdmRTM0NEx4TWZYdEhVOWJyakR1QTJ0QlRBQ3NIKzJuaFpoaEx4em5hWVhnL0o1Z0VxTnl3SEQyb0YrYTNPY2ZEeFFVZGZEREpyNVVFY3JRQnRLcWZnZWpnRENyenhsWXJJVjhEYW5vV2MwUVpXdGZ6OHVVd0xTVDVweWUvQmNFc2tUSXdMdXlwUk9XZmtIZkh0NUEwYW5oR21OSWJMVlk1UnZNSFFBZmp2WTFhZkpqdFF5bzA0YkZsc3BBT1BGMnlHTklQeGF6MjZXMEFRU3pDK2VEL3JzS0JLYTVOcWJDWndTWWtPemZSd2FZU1BQQXpNd3dtdUxnMVliYXpiZGZ5RmZOVWU0SmFwQWdYMWN4ZElseHQySFNGb0tvU09wVHZKSXowajJnUWhTQmM1b1FNWEdmVytXcE52TXBTcUtGbkVGNWJEaGZva2VoTG5GTTRTVkUwTkllSUkrMmhLcDhRd0g3dGt1VkJORkx4M0hIMGpHaGYyNGFoUVAvT1BVRWMwbW9nSUhTZGR6MmRvSkN4KzNJSW9kS2RqN2FlaTlLY0prVTNEQXZ2MU9Rd0ZPUFNNcW51ZGprY2wvSzhDSUY5ZTRuTWFMSXpQdDg3THRsZEdSRnBWeDhzeTBIUVZMZnhaWUJFdWRIdkN6MzBPSWYxTlFaekUyTzBFaTk0OTE0MGtmVVJoenpsNEV5U1AwRXpMNmlsaGxycVlFRGtkQnNUKysxVXdER0NVZ2F3aktQL2UrVTNTdHlPcUpUWEZ4TmlldEtvRjR4R3Qza3J5NFhCT1AwY1VwN0Z5Y05pYWdPYmZwZ09DQmh0blZjZVZuK0xNUkJVT2JTNVhJTXUvelptejNPU2RScTZteWtFWXFnMW1KT24vS1FncFBVbVVwU0xUM0NtaUZhS2JWYUQyZU9kQ2VSMU11QS93ZDdNRlp6S2lSeVR0c2dPL0VZK053bkVHZXdhZ0hRbFlNL1Bia29zbzJ0WXVibnJjUk9NWTBiVmpCU3picHBOd3h6M0ZlajhWRjNYYkkvektkUUs2dWpINWhEMGJJSDlrZGthWmRxRXMvV0VTb01pamt3c1NiVHk0eTlhcnRwbEpMWS9sWS9kQS95TWNlbFlPb2hKUkdiZ2tsYlFJbm5UTkI2UGtwNjc0SkoxeFAxblJyanlud0ZGYjFLc1VKNzE1L2xFWWJxL21mdXFpMVFDODgrNDRWL2FsY09TcS9aNVVmK1dJRmtqWGI4TlFRemJ2T0k1U0syRElKWGN0VTZHREZaamlYMUVsTFJGb05uLzQxbzdFZEsrMWdCb2ZoeGY1NCtxOWZ0WXRPaCtCNVJORHhjZ20yaDdiVmlEd0NkWHVhRnVSOVhVcCt5WDlIVzZoVFU4YXVaajczWnlQNGJoazRPQ0ZRcnE5eWsxbHZRS3l2dkpzcllUemJaVkxiOElWejFLdjZ3ZnhpSWgyanVHbDlkdz09IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURNN2dqYk5BTkdRd1lCSHFud0lCRUlBNzBZSWJxNjdKcWkwVDY3bHBWai9FSkEwSlBBNi9DUHJhOVRTNzZqajBhNUluYVU4eDY3V3VjZWJXL3B5TGlPaldpT3pZNDlPMlpaN3ZSaWM9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjU4NDk1Nzc1fQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be:hungsecurity
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-stx-be]
+f8d258770d44: Preparing
+b03dc72eb06c: Preparing
+71d3b3a8e742: Preparing
+25b7b63958e9: Preparing
+79244482f0e3: Preparing
+5dccbb1ccd00: Preparing
+9b4342a3c791: Preparing
+6bb07d46b096: Preparing
+e794b96cf63b: Preparing
+90b3f23fee9e: Preparing
+fcb89f4a4dd2: Preparing
+43b3c4e3001c: Preparing
+e794b96cf63b: Waiting
+90b3f23fee9e: Waiting
+5dccbb1ccd00: Waiting
+43b3c4e3001c: Waiting
+6bb07d46b096: Waiting
+9b4342a3c791: Waiting
+fcb89f4a4dd2: Waiting
+b03dc72eb06c: Pushed
+71d3b3a8e742: Pushed
+5dccbb1ccd00: Pushed
+25b7b63958e9: Pushed
+79244482f0e3: Pushed
+e794b96cf63b: Pushed
+9b4342a3c791: Pushed
+6bb07d46b096: Pushed
+f8d258770d44: Pushed
+fcb89f4a4dd2: Pushed
+90b3f23fee9e: Pushed
+43b3c4e3001c: Pushed
+hungsecurity: digest: sha256:45cedb6027b055abd55c86aa399113e7b26fd9318f0661f5fdbaecdab7758aaf size: 2841
+[8mha:////4MdEUtxK2BBXeDZOOAl3EfwUZXOaPwKtFEcKxKIhkiOrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BqeGDU++AAAA[0m[Pipeline] }
+[8mha:////4DNQOL2ZnBrart0102y1rorGcGlXAmjHHlTGUMYegaBaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgGfxJ6+vgAAAA==[0m[Pipeline] // container
+[8mha:////4DHg52RRkxiczwKmM5Xm+2lYHU9RDqwcbhzzJVRyZ1beAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJUauFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbCfLtvvsAZ3eKjL0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4EU92WjmVDz117P/DSxqFjEBt+R4BX51m4OQjb3x3lz4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPqGsSC70AAAA=[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4DePDgIT3i2/isg3gDM16DPbDnLGK/uO/h4CpdL7kH1RAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsP6VoJEr0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4Op9Raa8jLLNfdBL0RWdHQIi5guMEKPoPX8ouHp0YApgAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0ThWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg8Rek4hvQAAAA==[0m[Pipeline] }
+[8mha:////4Pxm7BWw2hLcnuUG7IRkzp3pNZIfZgB0t/08H7CuJaNiAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPGwInhb0AAAA=[0m[Pipeline] // node
+[8mha:////4LT2ijkNAko39HqnJUL/4+ARhXdQorFhKi+8SWmdY9mCAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AF1IgLW9AAAA[0m[Pipeline] }
+[8mha:////4GODIfUb+/ulas52KOcmiCrgxJayixxoS4KCsGlAgphQAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHTvSEFr0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4PUoAMbaU39sIxb/HRMrkRNRGGiFcdzB0oON6sDpEhzyAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AMgYo9O9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

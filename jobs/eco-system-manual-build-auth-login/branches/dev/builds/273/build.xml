@@ -1,0 +1,639 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>1</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>4e92d50b-d52e-4ee0-a989-c1bfb2e50dcf</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>2907dc846ddf749033a0a358a321717159501beb</hash>
+        <message>fix
+</message>
+        <author>Dang Hung &lt;hung.dang980@gmail.com&gt;</author>
+        <date>2023-03-23 12:20:43.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>2907dc846ddf749033a0a358a321717159501beb</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>273</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{-1FOCm6vyGLrxc8mvsdlJrfHomTpGD7lo7Q7njoVSMLaSpFfzUmBiyiMc2RX71uSdddh10PYDQ5OdYgRB9kkUkj8Rg==}@bitbucket.org/smartlogtms/smartlog-ecosystem.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>2907dc846ddf749033a0a358a321717159501beb</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>273</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{spvuNhg_6CDKdDNxVF_GoMLmdFm7znRvkoIuk8Hyki1Jci-o-n2UAlZbRM9HYUsrt_2p033ZY-5hm7VAq9e0jIDwRw==}@bitbucket.org/smartlogtms/smartlog-ecosystem.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction plugin="workflow-cps@3583.v4f58de0d78d5">
+      <interpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+      </interpolatedWarnings>
+    </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>45921</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>45919</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>194326</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>12221406</queueId>
+  <timestamp>1679574627767</timestamp>
+  <startTime>1679574627770</startTime>
+  <result>SUCCESS</result>
+  <duration>246403</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;gittools/gitversion:5.11.1-alpine.3.13-6.0&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+  node(&apos;pod-with-gitversion&apos;) {
+    def isStartedByUser = currentBuild.rawBuild.getCause(hudson.model.Cause$UserIdCause) != null
+    if (!isStartedByUser) return
+
+    isDeploy = false
+
+    isBuildAuthLoginBe = true
+
+    successBuild = 0
+    totalBuild = 0
+
+    commitMessage = &apos;Manual Trigger Build Auth Login Be&apos;
+    try {
+      SEM_VER = &apos;0.0.0&apos;
+      stage(&apos;Get source code&apos;) {
+        echo &apos;Getting source code...&apos;
+        checkout([
+          $class: &apos;GitSCM&apos;,
+          branches: [[name: &apos;*/dev&apos;]],
+          extensions: scm.extensions,
+          userRemoteConfigs: [[
+            credentialsId: scm.userRemoteConfigs[0].credentialsId,
+            name: &apos;origin&apos;,
+            refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+            url: scm.userRemoteConfigs[0].url
+          ]],
+          doGenerateSubmoduleConfigurations: false
+        ])
+
+        checkout scm
+
+        String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+        commitMessage = commitMessage + &quot; (&quot; + parts[0] + &quot;)&quot;
+
+        isDeploy = isDeploy || isBuildAuthLoginBe
+        if (isBuildAuthLoginBe) { totalBuild++ }
+      }
+
+      rootDir = pwd()
+      baseDeploy = load &quot;${rootDir}/Jenkins.Base.groovy&quot;
+      deploy = load &quot;${rootDir}/Jenkins.Build.groovy&quot;
+      deploy.init(baseDeploy)
+      baseDeploy.awscli()
+      if (env.BRANCH_NAME == &apos;dev&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;stage&apos;
+        longEnv = &apos;Staging&apos;
+        build()
+      } else if (env.BRANCH_NAME == &apos;production&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;prod&apos;
+        longEnv = &apos;Production&apos;
+        build()
+      } else if (!isDeploy) {
+        echo &apos;NO BUILD&apos;
+      } else {
+        echo &apos;Khong phai branch production || dev nen ko lam gi ca&apos;
+        error(&apos;Failed to build&apos;)
+      }
+    } catch (exc) {
+      currentBuild.result = &apos;FAILURE&apos;
+      echo &apos;I failed&apos;
+      echo exc.getMessage()
+    } finally {
+      echo &apos;One way or another, I have finished&apos;
+      try {
+        deleteDir() /* clean up our workspace */
+      } catch (err) {
+        // Do nothing
+      }
+      if (isDeploy != true) {
+        /* Do nothing */
+      } else if (currentBuild.result == &apos;SUCCESS&apos;) {
+        echo &apos;Build successful&apos;
+        // slackSend channel: &apos;cma-no-boss&apos;,
+        //   color: &apos;good&apos;,
+        //   message: &quot;The pipeline ${currentBuild.fullDisplayName} completed successfully.&quot;
+      } else if (currentBuild.result == &apos;FAILURE&apos;) {
+        echo &apos;I failed :(&apos;
+        slackSend channel: &apos;cma-no-boss&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+        }
+    }
+  }
+}
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+  // baseDeploy.generateVersion()
+  SEM_VER = &quot;1.1&quot;
+
+  deploy.buildAuthBe(isBuildAuthLoginBe)
+
+  if (isBuildAuthLoginBe) {
+    successBuild++
+    slackSend channel: &apos;cma-no-boss&apos;,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[AuthLogin-Be] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  }
+
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>/* groovylint-disable LineLength */
+def awscli(running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+            ).trim()
+        }
+    }
+}
+
+def generateVersion(running = true) {
+    if (running) {
+        container(&apos;gitversion&apos;) {
+            SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+            ).trim()
+            echo &quot;SemVer: ${SEM_VER}&quot;
+        }
+    }
+}
+
+def loadS3File(source, dest, running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            sh &quot;&quot;&quot;aws s3 cp ${source} ${dest}&quot;&quot;&quot;
+        }
+    }
+}
+
+def buildDocker(running = true) {
+    if (running) {
+        container(&apos;docker&apos;) {
+            REGISTRY_URL = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}:${tagEnv}&quot;&quot;&quot;
+            sh &quot;&quot;&quot;
+                ls -la
+                docker build -f ${repoPath}Dockerfile.${tagEnv} --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL} --pull=true .
+                ${DOCKER_LOGIN}
+                docker push ${REGISTRY_URL}
+            &quot;&quot;&quot;
+        }
+        scr = &quot;aws ecr describe-images --registry-id 744004065806 --repository-name ${prefixPod} --image-ids imageTag=${tagEnv} --query &apos;sort(imageDetails[].imageDigest)&apos; --output text --region ap-southeast-1&quot;
+        container(&apos;awscli&apos;) { 
+            def sha256 = sh(
+                script: scr,
+                returnStdout: true
+            ).trim()
+            SHA256 = sha256
+        }
+        currentTimestamp = sh(returnStdout: true, script: &apos;date +%s&apos;).trim()
+        REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}&quot;
+        script {
+            withCredentials([usernamePassword(credentialsId: &apos;cicd-bitbucket&apos;, passwordVariable: &apos;BITBUCKET_PASSWORD&apos;, usernameVariable: &apos;BITBUCKET_USERNAME&apos;)]) {
+            //def encodedPassword = URLEncoder.encode(&quot;$GIT_PASSWORD&quot;,&apos;UTF-8&apos;)
+            sh &quot;&quot;&quot;
+            git config --global user.email jenkins@gosmartlog.com
+            git config --global user.name jenkins
+            rm -rf devops-deployment
+            git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git
+            cd devops-deployment
+            sed -i &apos;s+${REGISTRY_URL}.*+${REGISTRY_URL}@${SHA256}+g&apos; ./smartlog-ecosystem/${env.BRANCH_NAME}/${gitFolder}/.argocd-source.yaml
+            git add ./smartlog-ecosystem/${env.BRANCH_NAME}/${gitFolder}/.argocd-source.yaml
+            for file in ./smartlog-ecosystem/${env.BRANCH_NAME}/${gitFolder}/deploy*.yaml; do sed -i &quot;s/\\(date:\\s*\\)&apos;[^&apos;]*&apos;/\\1&apos;${currentTimestamp}&apos;/&quot; &quot;\$file&quot;;git add &quot;\$file&quot;;done
+            git commit -m &apos;Done by Jenkins Job changemanifest: ${prefixPod}:${env.BUILD_NUMBER}&apos;
+            git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git HEAD:refs/heads/master
+            &quot;&quot;&quot;
+            }
+        }
+    }
+}
+
+def deployToK8s(running = true) {
+    if (running) {
+        container(&apos;kubectl&apos;) {
+            sh &quot;&quot;&quot;
+                kubectl apply -f ${repoPath}deploy.${tagEnv}.yml
+                kubectl patch deployment ${prefixPod}-${tagEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n ${namespace}
+                kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+
+return this
+</string>
+      </entry>
+      <entry>
+        <string>Script2</string>
+        <string>/* groovylint-disable LineLength */
+import groovy.transform.Field
+
+@Field private Base = null
+
+def init(base) {
+    Base = base
+}
+
+def buildAuthFe(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;modules/IdentityServer/smartlog-auth-fe/&apos;
+    prefixPod = &apos;eco-auth-fe&apos;
+    gitFolder = &apos;auth-fe&apos;
+    stage(&quot;Build Auth Fe&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildAuthBe(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/&apos;
+    prefixPod = &apos;eco-auth-be&apos;
+    gitFolder = &apos;auth-be&apos;
+
+    stage(&quot;Build Auth Be&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/auth/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildAuthApiBe(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/&apos;
+    prefixPod = &apos;eco-auth-api-be&apos;
+    gitFolder = &apos;auth-api&apos;
+
+    stage(&quot;Build Auth Api Be&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/auth/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+        // stage(&quot;Deploy to k8s ${prefixPod}&quot;) {
+        //     if (running) {
+        //         container(&apos;kubectl&apos;) {
+        //             sh &quot;&quot;&quot;
+        //                 kubectl apply -f ${repoPath}deploy-api.${tagEnv}.yml
+        //                 kubectl patch deployment ${prefixPod}-${tagEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n ${namespace}
+        //                 kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+        //             &quot;&quot;&quot;
+        //         }
+        //     }
+        // }
+    }
+}
+//
+def buildAuthWorker(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.Worker/&apos;
+    prefixPod = &apos;eco-auth-worker&apos;
+    gitFolder = &apos;auth-worker&apos;
+    stage(&quot;Build Auth Worker&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/auth-worker/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+//
+def buildSocketService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/Smartlog.SocketService/&apos;
+    prefixPod = &apos;eco-socket-be&apos;
+    gitFolder = &apos;socket-service&apos;
+    stage(&quot;Build Socket Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/socket-service/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildNotificationService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/Notification/Smartlog.Notification.API/&apos;
+    prefixPod = &apos;eco-notification-be&apos;
+    gitFolder = &apos;notification-service&apos;
+
+    stage(&quot;Build Notification Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/notification-service/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildLocationService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/LocationService/Smartlog.LocationService.API/&apos;
+    prefixPod = &apos;eco-location-be&apos;
+    gitFolder = &apos;location-service&apos;
+
+    stage(&quot;Build Location Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/location-service/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildAuditLogService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/Smartlog.AuditLog.API/&apos;
+    prefixPod = &apos;eco-audit-log-be&apos;
+    gitFolder = &apos;audit-log-service&apos;
+
+    stage(&quot;Build Audit Log Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/audit-log/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildAdministrationService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/Administration/Smartlog.Administration.API/&apos;
+    prefixPod = &apos;eco-admin-be&apos;
+    gitFolder = &apos;administration-service&apos;
+
+    stage(&quot;Build Administration Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/admin-service/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildAppGateway(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Gateway/Smartlog.AppGateway/&apos;
+    prefixPod = &apos;eco-app-gateway-be&apos;
+    gitFolder = &apos;app-gateway&apos;
+
+    stage(&quot;Build App Gateway&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/app-gateway/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildSocialService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/SocialService/Smartlog.SocialService.Api/&apos;
+    prefixPod = &apos;eco-social-be&apos;
+    gitFolder = &apos;social-service&apos;
+
+    stage(&quot;Build Social Service&quot;) {
+        Base.loadS3File(&quot;s3://smartlog-build-config/stx/ecosystem/social-service/appsettings.${tagEnv}.json&quot;, &quot;${repoPath}appsettings.${longEnv}.json&quot;, running)
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildCosService(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/COS/Smartlog.CosService.API/&apos;
+    prefixPod = &apos;eco-cos-be&apos;
+    gitFolder = &apos;cos-service&apos;
+
+    stage(&quot;Build Cos Service&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildTransportExchangeBe(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/TransportExchange/Smartlog.TransportExchange.API/&apos;
+    prefixPod = &apos;eco-stx-be&apos;
+    gitFolder = &apos;transport-exchange-be&apos;
+
+    stage(&quot;Build Transport Exchange Be&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+def buildZimBe(running = true) {
+    namespace = &apos;eco-system&apos;
+    repoPath = &apos;src/Services/ZIM/Smartlog.ZimService.API/&apos;
+    prefixPod = &apos;eco-zim-be&apos;
+    gitFolder = &apos;zim-be&apos;
+
+    stage(&quot;Build ZIM Be&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8s(running)
+    }
+}
+
+
+
+return this
+</string>
+      </entry>
+    </loadedScripts>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>292659229</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>183060640</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>5325038816</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>163438126</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>610240684</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>67</iota>
+    <head>1:67</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://x-token-auth:{-1FOCm6vyGLrxc8mvsdlJrfHomTpGD7lo7Q7njoVSMLaSpFfzUmBiyiMc2RX71uSdddh10PYDQ5OdYgRB9kkUkj8Rg==}@bitbucket.org/smartlogtms/smartlog-ecosystem.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-tmh20-bx0tx</node>
+      <workspace>/home/jenkins/agent/workspace/stem-manual-build-auth-login_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/eco-system-manual-build-auth-login/branches/dev/builds/273/changelog4740440640346191610.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://x-token-auth:{spvuNhg_6CDKdDNxVF_GoMLmdFm7znRvkoIuk8Hyki1Jci-o-n2UAlZbRM9HYUsrt_2p033ZY-5hm7VAq9e0jIDwRw==}@bitbucket.org/smartlogtms/smartlog-ecosystem.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-tmh20-bx0tx</node>
+      <workspace>/home/jenkins/agent/workspace/stem-manual-build-auth-login_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/eco-system-manual-build-auth-login/branches/dev/builds/273/changelog11709845561026646803.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

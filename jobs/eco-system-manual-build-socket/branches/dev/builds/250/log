@@ -1,0 +1,455 @@
+Started by user [8mha:////4ANZAGLv6DgoFYLkburj/B+/aIPr1YRcUA63DrOpmnZ5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+Obtained Jenkinsfile.Socket.groovy from c284e14a23bb94dee2f1451150e1e77b07a6033f
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+There are no nodes with the label ‘[8mha:////4ObvLlyTtnP0BTSCwTdmju0kTH4n5pzlhAx4oU0Xzk9TAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZpoPak1Bz9gvwU3fLMkgzd9MySstSi4sz8PH0AWlk5HNAAAAA=[0mpod-with-gitversion’
+Created Pod: kubernetes jenkins/pod-with-gitversion-m4xm5-7lz3v
+Agent [8mha:////4BisJTfe1bsmTtB95GDJqqM1aH+1OjNzed5g3CB4bJHRAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/DzdXJOKXFNd85wq4zIAsGra9t4AAAA=[0mpod-with-gitversion-m4xm5-7lz3v is provisioned from template pod-with-gitversion-m4xm5
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/eco-system-manual-build-socket/job/dev/250/"
+    runUrl: "job/eco-system-manual-build-socket/job/dev/250/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-m4xm5-7lz3v"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "gittools/gitversion:5.11.1-alpine.3.13-6.0"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-m4xm5-7lz3v"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-m4xm5-7lz3v"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4KWkRl33kqlR9I9ZNVsdkKLugxa667YlVOdxQRmKhGWsAAAAwR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZL/dzEvMT0VP3k/NyC0pLUIv2C/BRVI5fyzJIMIJWeWVKWWlScmZ8H5OSaVOSaAmnznCrjMn0ANslQlu4AAAA=[0mpod-with-gitversion-m4xm5-7lz3v in /home/jenkins/agent/workspace/o-system-manual-build-socket_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{hELCfN_PqzGGSXqX2-qNe7hszylwoROek6IoXovLrGrCI_YPrmH-0W7Vo_abL4-81tj2MaLP74qE8Jz0nLakR46r}@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git init /home/jenkins/agent/workspace/o-system-manual-build-socket_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{hELCfN_PqzGGSXqX2-qNe7hszylwoROek6IoXovLrGrCI_YPrmH-0W7Vo_abL4-81tj2MaLP74qE8Jz0nLakR46r}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://x-token-auth:{hELCfN_PqzGGSXqX2-qNe7hszylwoROek6IoXovLrGrCI_YPrmH-0W7Vo_abL4-81tj2MaLP74qE8Jz0nLakR46r}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision c284e14a23bb94dee2f1451150e1e77b07a6033f (dev)
+Commit message: "Merged in feature/update-job-fcl-auto-pricing (pull request #1331)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c284e14a23bb94dee2f1451150e1e77b07a6033f # timeout=10
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+Checking out Revision c284e14a23bb94dee2f1451150e1e77b07a6033f (dev)
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/o-system-manual-build-socket_dev/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{hI1q59PM9nHrr4ub-hnsuqRcVIGXHSYUlVmBoh_U17-NChQfyiltLmcNpBHmuE14LAGZqVIDmtEeqAaPea2PUqUfew%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-ecosystem.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{hI1q59PM9nHrr4ub-hnsuqRcVIGXHSYUlVmBoh_U17-NChQfyiltLmcNpBHmuE14LAGZqVIDmtEeqAaPea2PUqUfew%3d%3d}@bitbucket.org/smartlogtms/smartlog-ecosystem.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c284e14a23bb94dee2f1451150e1e77b07a6033f # timeout=10
+Commit message: "Merged in feature/update-job-fcl-auto-pricing (pull request #1331)"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4HvcU3qz3cKxe1yU2rDxBc0W4GMLnHwqC4vKt7gzN97GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4PBgYTz/0ukqnkXWwIZRA41zsp5tLN0nJQjPAMa4nFv3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4A6j4PJDL2AnaHydOV8myGgDRk6aZ1TLflkgZ84Eyc0YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPOb21ub0AAAA=[0m[Pipeline] pwd
+[8mha:////4JnQ4bAoJImGiCagXsVS6+guB8uLHRXT73mm50YvFjx3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] load
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (/home/jenkins/agent/workspace/o-system-manual-build-socket_dev/Jenkins.Base.groovy)
+[8mha:////4BQkCK/pAQ3i3PXrdEFLAo3uxkbuRL5cWV9rqAwYYePLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N3ew3WS+AAAA[0m[Pipeline] }
+[8mha:////4OFvMhvO75+MwMjZQ48q/MPzyvjtpBKft0jfy62tTgX0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGiSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFEU4bYvgAAAA==[0m[Pipeline] // load
+[8mha:////4G3f60NFI6cLlvP5p4l63PVRYJ08xPDr3F73mtz3q0OjAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZv6keuOMEAAAA=[0m[Pipeline] load
+[8mha:////4N62fmc0dTVtc/6u42pPNmzODDLvuzsqEW9otum1fzLxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (/home/jenkins/agent/workspace/o-system-manual-build-socket_dev/Jenkins.Build.groovy)
+[8mha:////4PKfbpXmaLd4YFGlq39W3dTnVnzetJeMC5Z1WTY72l/1AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0ben/gNr4AAAA=[0m[Pipeline] }
+[8mha:////4Pq9rB+R6ADcHSy1mNClP0aIgQCEUOsHof1PR4ZQSO9lAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fSZy7ir4AAAA=[0m[Pipeline] // load
+[8mha:////4EmtlFeNIC260zIUpG712s6z0BSD8BeZWbLJVeLdoc9aAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A/wFP6PBAAAA[0m[Pipeline] container
+[8mha:////4Oyw2zrJlcWr3kG6TpfmHOzbJMxXkYbWxe+I10Oj3Gz/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4JKHrCWJz7n3BKcmuopTcwSdgouRg214yx8jaxIxGcXHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4Io6GVFGkwR4RWFTk2MTX+TmP/g0x4Zy9qNrHE2eyvdQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4LVmDlQ1R8tvHYjA8ni5lWc8rjyIxdx6jIXD3zI7OsHkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // container
+[8mha:////4CJIENh3O0YTjsCLxyHbtiT0ro25iqMHilbKJpAivVFfAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA2xMRhe9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4PjyoD68h/o4LQUP7K2pD47y62cP1PvRODWJBuuqPQmdAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A15M2Z7BAAAA[0m[Pipeline] stage
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Build Socket Service)
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] container
+[8mha:////4Gdmm38Jz+v6e350CDJbvX1mlSUvNF1jyF1Rw9vHBaCkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4GJ915m9rtgFKJ5qKJyYgd06Xt/OYV063kqANWbgHq7zAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ aws s3 cp s3://smartlog-build-config/stx/ecosystem/socket-service/appsettings.stage.json src/Services/Smartlog.SocketService/appsettings.Staging.json
+Completed 3.4 KiB/3.4 KiB (64.3 KiB/s) with 1 file(s) remainingdownload: s3://smartlog-build-config/stx/ecosystem/socket-service/appsettings.stage.json to src/Services/Smartlog.SocketService/appsettings.Staging.json
+[8mha:////4Mct4KEvRMTu1wz2Mz++Ub5VmGF+3jzyK/NqNxFvdm/mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4HOemGfZ0To9ZEAHNbXAyQPPjHL5uwEp942Mrx/2Ew1ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // container
+[8mha:////4AkSNuQEKTVan1LXKJctoP+qU7f2d9nKDLRKrwNfwPNgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiIEBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLk+91sh/lZfABqEsOwwgAAAA==[0m[Pipeline] container
+[8mha:////4CVu/77gdSBl/Kewz+UlV7s3oYanpWUp22nYalSgSd9hAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4HfNzAj3z8u6ZgIDo1ZP4pXT1huCCY+6FH1ZkNhviqtbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ ls -la
+total 252
+drwxr-xr-x   11 1000     1000          4096 Mar 20 03:14 .
+drwxr-xr-x    4 1000     1000           112 Mar 20 03:14 ..
+drwxr-xr-x    2 1000     1000            47 Mar 20 03:14 .debug
+-rw-r--r--    1 1000     1000           354 Mar 20 03:14 .dockerignore
+-rw-r--r--    1 1000     1000          5879 Mar 20 03:14 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Mar 20 03:14 .git
+-rw-r--r--    1 1000     1000          2600 Mar 20 03:14 .gitattributes
+-rw-r--r--    1 1000     1000          6463 Mar 20 03:14 .gitignore
+-rw-r--r--    1 1000     1000           294 Mar 20 03:14 GitVersion.yml
+-rw-r--r--    1 1000     1000          1758 Mar 20 03:14 Jenkins.Base.groovy
+-rw-r--r--    1 1000     1000          6277 Mar 20 03:14 Jenkins.Build.groovy
+-rw-r--r--    1 1000     1000         12623 Mar 20 03:14 Jenkinsfile
+-rw-r--r--    1 1000     1000          3895 Mar 20 03:14 Jenkinsfile.Administration.groovy
+-rw-r--r--    1 1000     1000          8293 Mar 20 03:14 Jenkinsfile.All.groovy
+-rw-r--r--    1 1000     1000          3806 Mar 20 03:14 Jenkinsfile.AppGateway.groovy
+-rw-r--r--    1 1000     1000          3826 Mar 20 03:14 Jenkinsfile.AuditLog.groovy
+-rw-r--r--    1 1000     1000          3801 Mar 20 03:14 Jenkinsfile.AuthApi.groovy
+-rw-r--r--    1 1000     1000          3755 Mar 20 03:14 Jenkinsfile.AuthFe.groovy
+-rw-r--r--    1 1000     1000          3812 Mar 20 03:14 Jenkinsfile.AuthLogin.groovy
+-rw-r--r--    1 1000     1000          3808 Mar 20 03:14 Jenkinsfile.AuthWorker.groovy
+-rw-r--r--    1 1000     1000         25493 Mar 20 03:14 Jenkinsfile.BuildAll.js
+-rw-r--r--    1 1000     1000          3802 Mar 20 03:14 Jenkinsfile.Cos.groovy
+-rw-r--r--    1 1000     1000          3847 Mar 20 03:14 Jenkinsfile.Location.groovy
+-rw-r--r--    1 1000     1000          3879 Mar 20 03:14 Jenkinsfile.Notification.groovy
+-rw-r--r--    1 1000     1000          3831 Mar 20 03:14 Jenkinsfile.Social.groovy
+-rw-r--r--    1 1000     1000          3831 Mar 20 03:14 Jenkinsfile.Socket.groovy
+-rw-r--r--    1 1000     1000          3875 Mar 20 03:14 Jenkinsfile.Stx.groovy
+-rw-r--r--    1 1000     1000          3797 Mar 20 03:14 Jenkinsfile.Zim.groovy
+-rw-r--r--    1 1000     1000          4681 Mar 20 03:14 README.md
+drwxr-xr-x    3 1000     1000            86 Mar 20 03:14 Smartlog.Contract.Location
+-rw-r--r--    1 1000     1000         47161 Mar 20 03:14 Smartlog.sln
+-rw-r--r--    1 1000     1000          1573 Mar 20 03:14 Smartlog.sln.DotSettings
+-rw-r--r--    1 1000     1000         14752 Mar 20 03:14 SmartlogCSharp.ruleset
+drwxr-xr-x    2 1000     1000            25 Mar 20 03:14 Templates
+drwxr-xr-x    2 1000     1000           103 Mar 20 03:14 assets
+drwxr-xr-x    2 1000     1000           140 Mar 20 03:14 components
+drwxr-xr-x    2 1000     1000           131 Mar 20 03:14 components-deploy
+-rw-r--r--    1 1000     1000            80 Mar 20 03:14 global.json
+drwxr-xr-x    3 1000     1000            28 Mar 20 03:14 modules
+-rw-r--r--    1 1000     1000           636 Mar 20 03:14 nuget.config
+-rw-r--r--    1 1000     1000          1447 Mar 20 03:14 package.json
+-rw-r--r--    1 1000     1000          1103 Mar 20 03:14 restclient.http
+drwxr-xr-x    8 1000     1000           111 Mar 20 03:14 src
+-rw-r--r--    1 1000     1000          2066 Mar 20 03:14 tye.yaml
++ docker build -f src/Services/Smartlog.SocketService/Dockerfile.stage --build-arg 'version=1.1' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-socket-be:stage '--pull=true' .
+Sending build context to Docker daemon  199.5MB
+Step 1/13 : FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+6.0: Pulling from dotnet/sdk
+3f9582a2cbe7: Already exists
+d866aec6058e: Already exists
+11332129480d: Already exists
+9f9b514859b0: Already exists
+b709e83c5e9e: Already exists
+95bf3c712b69: Pulling fs layer
+bfbd60288f07: Pulling fs layer
+67b8902cebc8: Pulling fs layer
+67b8902cebc8: Verifying Checksum
+67b8902cebc8: Download complete
+95bf3c712b69: Verifying Checksum
+95bf3c712b69: Download complete
+95bf3c712b69: Pull complete
+bfbd60288f07: Verifying Checksum
+bfbd60288f07: Download complete
+bfbd60288f07: Pull complete
+67b8902cebc8: Pull complete
+Digest: sha256:8189c53e1f0323b8beb5fa174853f413364a203f32b0b7c2488b534a3c1e76c6
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/sdk:6.0
+ ---> 612f30d3d8db
+Step 2/13 : ARG version
+ ---> Running in 88ac79d6250c
+Removing intermediate container 88ac79d6250c
+ ---> 9372995990f2
+Step 3/13 : WORKDIR /src
+ ---> Running in 0f490f0594ec
+Removing intermediate container 0f490f0594ec
+ ---> f79abf3401d8
+Step 4/13 : COPY . .
+ ---> 5b34e0122c71
+Step 5/13 : RUN ls -la
+ ---> Running in 9c9cc1e52343
+total 232
+drwxr-xr-x 1 root root  4096 Mar 20 03:14 .
+drwxr-xr-x 1 root root     6 Mar 20 03:14 ..
+drwxr-xr-x 2 root root    47 Mar 20 03:14 .debug
+-rw-r--r-- 1 root root  5879 Mar 20 03:14 .editorconfig
+-rw-r--r-- 1 root root  2600 Mar 20 03:14 .gitattributes
+-rw-r--r-- 1 root root   294 Mar 20 03:14 GitVersion.yml
+-rw-r--r-- 1 root root  1758 Mar 20 03:14 Jenkins.Base.groovy
+-rw-r--r-- 1 root root  6277 Mar 20 03:14 Jenkins.Build.groovy
+-rw-r--r-- 1 root root 12623 Mar 20 03:14 Jenkinsfile
+-rw-r--r-- 1 root root  3895 Mar 20 03:14 Jenkinsfile.Administration.groovy
+-rw-r--r-- 1 root root  8293 Mar 20 03:14 Jenkinsfile.All.groovy
+-rw-r--r-- 1 root root  3806 Mar 20 03:14 Jenkinsfile.AppGateway.groovy
+-rw-r--r-- 1 root root  3826 Mar 20 03:14 Jenkinsfile.AuditLog.groovy
+-rw-r--r-- 1 root root  3801 Mar 20 03:14 Jenkinsfile.AuthApi.groovy
+-rw-r--r-- 1 root root  3755 Mar 20 03:14 Jenkinsfile.AuthFe.groovy
+-rw-r--r-- 1 root root  3812 Mar 20 03:14 Jenkinsfile.AuthLogin.groovy
+-rw-r--r-- 1 root root  3808 Mar 20 03:14 Jenkinsfile.AuthWorker.groovy
+-rw-r--r-- 1 root root 25493 Mar 20 03:14 Jenkinsfile.BuildAll.js
+-rw-r--r-- 1 root root  3802 Mar 20 03:14 Jenkinsfile.Cos.groovy
+-rw-r--r-- 1 root root  3847 Mar 20 03:14 Jenkinsfile.Location.groovy
+-rw-r--r-- 1 root root  3879 Mar 20 03:14 Jenkinsfile.Notification.groovy
+-rw-r--r-- 1 root root  3831 Mar 20 03:14 Jenkinsfile.Social.groovy
+-rw-r--r-- 1 root root  3831 Mar 20 03:14 Jenkinsfile.Socket.groovy
+-rw-r--r-- 1 root root  3875 Mar 20 03:14 Jenkinsfile.Stx.groovy
+-rw-r--r-- 1 root root  3797 Mar 20 03:14 Jenkinsfile.Zim.groovy
+drwxr-xr-x 3 root root    86 Mar 20 03:14 Smartlog.Contract.Location
+-rw-r--r-- 1 root root 47161 Mar 20 03:14 Smartlog.sln
+-rw-r--r-- 1 root root  1573 Mar 20 03:14 Smartlog.sln.DotSettings
+-rw-r--r-- 1 root root 14752 Mar 20 03:14 SmartlogCSharp.ruleset
+drwxr-xr-x 2 root root    25 Mar 20 03:14 Templates
+drwxr-xr-x 2 root root   103 Mar 20 03:14 assets
+drwxr-xr-x 2 root root   140 Mar 20 03:14 components
+drwxr-xr-x 2 root root   131 Mar 20 03:14 components-deploy
+-rw-r--r-- 1 root root    80 Mar 20 03:14 global.json
+drwxr-xr-x 3 root root    28 Mar 20 03:14 modules
+-rw-r--r-- 1 root root   636 Mar 20 03:14 nuget.config
+-rw-r--r-- 1 root root  1447 Mar 20 03:14 package.json
+-rw-r--r-- 1 root root  1103 Mar 20 03:14 restclient.http
+drwxr-xr-x 8 root root   111 Mar 20 03:14 src
+-rw-r--r-- 1 root root  2066 Mar 20 03:14 tye.yaml
+Removing intermediate container 9c9cc1e52343
+ ---> 7c885d97f526
+Step 6/13 : RUN cd src/Services/Smartlog.SocketService && dotnet restore
+ ---> Running in 62c436fdea59
+  Determining projects to restore...
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/Smartlog.Infrastructure.Localization.csproj (in 84 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Domain/Smartlog.Domain.csproj (in 4.79 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/Smartlog.Infrastructure.Cache.csproj (in 5.51 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/Smartlog.Infrastructure.Authorization.csproj (in 5.42 sec).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure.App/Smartlog.Infrastructure.App.csproj (in 38 ms).
+  Restored /src/src/BuildingBlocks/Smartlog.Infrastructure/Smartlog.Infrastructure.csproj (in 2.67 sec).
+  Restored /src/src/Services/Smartlog.SocketService/Smartlog.SocketService.csproj (in 7.5 sec).
+Removing intermediate container 62c436fdea59
+ ---> 65d59fe041db
+Step 7/13 : RUN cd src/Services/Smartlog.SocketService && dotnet publish -c Release -o /app/publish -p:Version=$version
+ ---> Running in d0e7c6a5fad3
+MSBuild version 17.3.2+561848881 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+/src/src/BuildingBlocks/Smartlog.Domain/Data/ColumnFilter.cs(13,24): warning CS0414: The field 'ColumnFilter._key' is assigned but its value is never used [/src/src/BuildingBlocks/Smartlog.Domain/Smartlog.Domain.csproj]
+  Smartlog.Infrastructure.Localization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Localization/bin/Release/net6.0/Smartlog.Infrastructure.Localization.dll
+  Smartlog.Domain -> /src/src/BuildingBlocks/Smartlog.Domain/bin/Release/netstandard2.1/Smartlog.Domain.dll
+  Smartlog.Infrastructure.Cache -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Cache/bin/Release/net6.0/Smartlog.Infrastructure.Cache.dll
+  Smartlog.Infrastructure.App -> /src/src/BuildingBlocks/Smartlog.Infrastructure.App/bin/Release/netstandard2.1/Smartlog.Infrastructure.App.dll
+  Smartlog.Infrastructure.Authorization -> /src/src/BuildingBlocks/Smartlog.Infrastructure.Authorization/bin/Release/net6.0/Smartlog.Infrastructure.Authorization.dll
+/src/src/BuildingBlocks/Smartlog.Infrastructure/Dapr/Extensions.cs(15,17): warning SYSLIB0020: 'JsonSerializerOptions.IgnoreNullValues' is obsolete: 'JsonSerializerOptions.IgnoreNullValues is obsolete. To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.' [/src/src/BuildingBlocks/Smartlog.Infrastructure/Smartlog.Infrastructure.csproj]
+  Smartlog.Infrastructure -> /src/src/BuildingBlocks/Smartlog.Infrastructure/bin/Release/net6.0/Smartlog.Infrastructure.dll
+  Smartlog.SocketService -> /src/src/Services/Smartlog.SocketService/bin/Release/net6.0/Smartlog.SocketService.dll
+  Smartlog.SocketService -> /app/publish/
+Removing intermediate container d0e7c6a5fad3
+ ---> 5715fa646646
+Step 8/13 : FROM mcr.microsoft.com/dotnet/aspnet:6.0
+6.0: Pulling from dotnet/aspnet
+3f9582a2cbe7: Already exists
+d866aec6058e: Already exists
+11332129480d: Already exists
+9f9b514859b0: Already exists
+b709e83c5e9e: Already exists
+Digest: sha256:96797423626cd1e4a06f0e03f3c1e66212cee4c687398defd5fadf0f2c7f78ba
+Status: Downloaded newer image for mcr.microsoft.com/dotnet/aspnet:6.0
+ ---> c9cc82d237f9
+Step 9/13 : WORKDIR /app
+ ---> Running in 71596f4c6195
+Removing intermediate container 71596f4c6195
+ ---> f7b5a3344eb2
+Step 10/13 : COPY --from=build /app/publish .
+ ---> f5a4038735ac
+Step 11/13 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in 0471602ac714
+Removing intermediate container 0471602ac714
+ ---> 832012ebba9f
+Step 12/13 : ENV ASPNETCORE_ENVIRONMENT=Staging
+ ---> Running in 39e8561c8477
+Removing intermediate container 39e8561c8477
+ ---> 4fe1b8e626b5
+Step 13/13 : ENTRYPOINT ["dotnet", "Smartlog.SocketService.dll"]
+ ---> Running in fe765fb1ff41
+Removing intermediate container fe765fb1ff41
+ ---> 573fde9c7834
+Successfully built 573fde9c7834
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-socket-be:stage
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiTUw3RCtPVHJqcXZnMXlRK2xJVURzMnNsZEIxNnljQjZxWHZzQ3dJbVFnTFRWZGZZS1JrSmllY1QwTXNHbGgzb2hoQlF4YVdXcm01Wm9rMlRQUTJqZFljY3JvUXJnUkxvUEpsMWpDYjhYYjllVHE2SGQ3cXFJbnJPdmcyeW5Wc3paUGZqWEJjSS9UTTJ3RUN6eHNZbFdZNkd6UElPdW1ERjI3MXp2VDhnQ3FSTkNTemc3SU1oYTdHOTRoRXRhQ2prNmJtWEJOYkt0REdlUlRNN0o5MnBrMEZEa1d6allIUDVMZVBMZ1NvYXNOYjZxRko4NUZ4Nkp6azZFQzNpNGdRMHgzbTBUUzIxYW90NjZJR3ZzTE1xeVVKWDFuNjRrQUw3MDFQZWVSOEJFODhEdlFBYU9EMzhDcEZoM0ttbkJxWnB0aWYrTUh1cG1IR01hZXJGL1Y4K3A0N2ZDa0VuN2ZjbE5kOUpuUEVwbFZ6a2JObEpYSkFUNFpDbUoyRUl0NXZTbVNWTWJySmFXaFFQSUFPeEMyeEhvU2U1cGllRldqTjl6bVRrNGZSNHcyanlrZjlvT3dTZ1liKzRWSzF5V00rRlkxLysvTzhJVnYrQnFYUzY4ZXVaQ09LbGdrTE5Xb1VoamdhSDZscU1JV2d5OGJaUmhmMEQ3Z1lPWUpOSEEyR05rZWVCaTlKa3MwK0JYWTJlemdqWFZ1bEh6VEJNMjc5QkRadWxtb0d1NjR5RGwxSlBaN1NnN1ZsUGh4OEE2Y2YzSFdrT3ByK09ldEFPS0ZTZ0Y0OURlditVd0pVZnhjMzhhbDlaRlN0elkveXFwN0o0VEFMNVZFQWtoalYwRVFOa3Zxdkh1NzdtVEQvNndLdGNHYXpaM1BJNXFFNzVBWDZTYjJvSnEzYXZ6WmpJaXR6RXF2YWg3VDBhS0dZQUlxbGU2WTVzZ3VrbmpiOTRFTm9pWWdzSmdDNDZ6NEJFZEI0V3BaWUZPNE93d0V4cEFlZE1LZHB3Y2N5RXdOR2FMWVBuZTUyUy9PdHRGZnh5UFNhWnVqM2I4SlBaSFJ0ODVFNEtlRDNsdnpLcS81WVFRODNUdm14dStEN3dUNjJBVkM0ZUVEV0tCbFZobW55SDFYUFQzWmE2b3lJd24vT3ZYaWFhai9Nemd4OXhqeUxQVGpacUQza01QWmVRU0lLUmN4UUhNZHZvTUgzS1E4MllGbmUyT24yUTVPNU1pbWk5Qlc4WFJQOUFNcFpaS2t1WG1DR3dIZ2lLbkpxUTI4Rkg5UjFQQU5BVEhzR0hPeDFydmFEOHVtN3FLNnY1TzVQZ1Z5cCtXQ0pORkZzQkljekJha0U0eG1WK1dmRnNYVHJmMGtXK1MxRFJ2Z3FGVlE1SncyZVZiMDB6WlZhd0pvWUlpSFFwRjV1VkkxYVhQbE1hWnNnYWREc2hWeU9NQm5NSGhLbWpCWGsyUW5GeHJFMkI2UWFIb3A1dEtNODZwcm5XYW1DeXFZVEdYdmVleW9wOEN1ZURnaWdhZjRHS3Q2eW03Z3F0alBYeHBRcWlPYWdqSWJiNHlJZGhlZ2MxRUhYMTFVUU1rSmJ1YTJtMnAvSm5Za2Z6cWpTcDQ1MlE1dlJzK1RiTTF2R1BudnRUWjRCQTBYQTRZOE40UTJwQ2cvY2xLdWhDNzJoNWRrSDFLbmw1MEJDQ1pGRzd4SllCRXdHNzVidld6VGVPTlZEWjdKUkJhVHBvWlA4UWlERXZ0Nzg1T0VraTRTWW9oNTlQTUZCNmtlREpIbTFOTDNNbThhT2txYyt6ZDhQK1ZvRFhtdysxZXVRdDh1VGtwTFRIZWZ3aGFNTE9XMU05SHJQRFVSTi9Ya3ZsUG1KRlRYWFVxM3pSN1VCSGhGaFFwNXd6bEFEeU1BQTFOVzVpMGYrYm9nZVZpZld6UmZSQ0NvbXVqbTErWEx3b2FZY29sV1RYQzJCWEVRb2JqRU5INXNseXhJcWNvNHIwazNvZ3ZKRzJVUklPOFUwTGJpQVBNK052aVNzNDAzdXZTU1NJRnlPZ2hRdGFmMTZHSHEzMndia2hZYk92a0tGcC8vT01Ta2FOVitQazJNS2xuNlg0SUt2OVpXS0lRUDVNSjdwdEhSeGkrbFpwdCt0RHB3MXArbDhBZm5LbWlLbkFsamhEanZGU1VQempHdkllVUxKVkpYa2VxN3JOUE4rSWlhZFhPcndybm80Y1o0OURnMXQ1eXV4YWY5NWpQeWsxQkk2MFZpQ05tL2tuWGVBcDVyZkNTdU9zcFlvZFErVXNyRzJRZEpUMGVCbWpFdEt3cUFaejROdmZVcFZCZkFHODZsSXIrNXpOZWpXQkJMUGJNL2xzc3RFaHB2Z1JtelI5TXJPUGljQVdMWGRqRUZqczBFOTBjYy9WaE5hVWVoS2UzWUpFYkZ4QXRTcUZpUFdWRG9SMnRIOWZwYXpCQ2VKMVNhRWt0TExYVDlhVzRTamloczQ0MXJVVlBNRFNhSzJhZmgvekpUZ1BmejA5VmxhUVB1RHRzWjlTYWU0TUVNTDJkbHMwUFhOMjQwVmhrSEZYOW1tOVlhQnhqVzhMQTVaR1YwTHdUdzJpS0lobXhnalhkbDE2UTdIS3ZseUJMeURmYlQ2QkVTWDZIdFRqdWo4WERXVWNHVHIwNWpDYkozQUV1UT09IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURLWmZGdTZoVElIbGgzZ1VKd0lCRUlBN1p3OTBGWkFHa25TTEI3UDFXenVqZkdkRUhWWjlPejZoY1QwSjdEVVRZbk1HUlU5UXNUTlhpWnlpQm5adHgwT0lpVWtoY1F2ZzhuME9nd289IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjc5MzI1Mjc5fQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-socket-be:stage
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/eco-socket-be]
+854fef6e245d: Preparing
+f892717c7a15: Preparing
+81e01a86b13a: Preparing
+df7e6952e470: Preparing
+8649d4736aaa: Preparing
+0c0194b3e6b6: Preparing
+650abce4b096: Preparing
+0c0194b3e6b6: Waiting
+650abce4b096: Waiting
+f892717c7a15: Pushed
+df7e6952e470: Pushed
+854fef6e245d: Pushed
+81e01a86b13a: Pushed
+0c0194b3e6b6: Pushed
+8649d4736aaa: Pushed
+650abce4b096: Pushed
+stage: digest: sha256:2f8e5eea548b12c3c01e592b8ad6030e86c05cf5ab6bd77e12e7f80db908646e size: 1789
+[8mha:////4OnfbYvRNQKmSfnyLkfJYS7qfIlG2Rd2XjJPMXvxZXWuAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4CXtjbZHA7rqzcsjkPtu6T4kIHRbtFElYGPvU/4qWHSsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // container
+[8mha:////4J/lnrjOMgqTbq+THnlX61S9XdnUgkeQJNYmvKJg4v9vAAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCh3m2z77edZvQFXvaklwgAAAA==[0m[Pipeline] container
+[8mha:////4M8vv5Fu5pzi0ewV8q4B9DKdhEze97H084sofKfmnsKwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4N+CVURwtmTtfL0TqgFgUNUXZX4/A8z4U9nOG0mTRq8pAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] sh
++ kubectl apply -f src/Services/Smartlog.SocketService/deploy.stage.yml
+deployment.apps/eco-socket-be-stage configured
+service/eco-socket-be-stage configured
++ date '+%s'
++ kubectl patch deployment eco-socket-be-stage -p '{"spec":{"template":{"metadata":{"labels":{"date":"1679282125"}}}}}' -n eco-system
+deployment.apps/eco-socket-be-stage patched
++ kubectl rollout status deployment eco-socket-be-stage -n eco-system
+Waiting for deployment spec update to be observed...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 0 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 0 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "eco-socket-be-stage" rollout to finish: 1 old replicas are pending termination...
+deployment "eco-socket-be-stage" successfully rolled out
+[8mha:////4PQ0+ZT/m5ilX1CcnIxE00Fk7BSNXdNHGuqtuBCfhZWOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+[8mha:////4P/MhuuUeHNZ6oOobZnoJyUqyev56jp9PUwAecALNBq/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // container
+[8mha:////4KJVjlJ/+ynIOqoji0agdl5/wqAirFJkHYY37wB33qn+AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234AsurmHL4AAAA=[0m[Pipeline] }
+[8mha:////4AY+4Jmz6vRCTx5bEbg0uUmcpXwXdxHCft6ZvAA0vrovAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryf8i1234A8Wi3mr4AAAA=[0m[Pipeline] // stage
+[8mha:////4CwJr5YiofsvyFPTrqngmSerSMCwhdUB8RD3/tGLXDVRAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99AN4wyxO9AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4Eqd4skvc/V2KA+ONTVBFnd9RdBVXcoD5cT2WasPxVBCAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiLYaONY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LdtvsAoOHLw70AAAA=[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4JES14hraJ41BOTa55jA5wMLIZeMq5eATGvKo88VdYpDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsP4dDQ2r0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4OSUJ06FRs4JuRfu6XcnOkzjZC1WsyaqU7wca1Zmer2NAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkKBBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ACKD/fG9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4N8afR+fAwIoz71OtpnX8g2f35ic34MZiPOCP/++vKssAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPb3J64L0AAAA=[0m[Pipeline] }
+[8mha:////4H8G1/Oq/PBj9qr34GMBXvNdULppJp4t1mNRoiRFwe1YAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0UjlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/F/1PLvQAAAA==[0m[Pipeline] // node
+[8mha:////4LSEoO+4IRqBZJeiXp2Fi/oKBwtSeEnKQ+BjLyutVu69AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0UjlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w/j5jSBvQAAAA==[0m[Pipeline] }
+[8mha:////4NCstw0iZYTgo/dp3MGiJM/Lh7KsWlGg6gYxt+efA4rTAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpEDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPkAnwWL0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4GSNC654tOThO16960MFS9HBFnUVLI0wjjk9YftlSG1EAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRkBAFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2A7YQlxK9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

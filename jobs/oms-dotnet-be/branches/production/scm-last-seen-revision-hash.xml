@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>eda6ba1e2e5f589c71716500af6259f1ae810326</hash>
+  <message>Merged in staging (pull request #1189)
+
+Release 3.1.0</message>
+  <author>thuan le &lt;thuan.le@gosmartlog.com&gt;</author>
+  <date>2022-12-10 16:11:42.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

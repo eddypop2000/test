@@ -1,0 +1,26 @@
+commit c717657788d2ded2330d4ce9d84302cb0ed88e44
+tree b6f64f0f9bdd069bf969d859b70f70a0f4103646
+parent 15a6701e64261a94f3abcbfd4e42019b89bc8979
+author Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 10:46:36 +0000
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 10:46:36 +0000
+
+    Merged in config-log-to-cloudwatch (pull request #150)
+    
+    Transport exchange, Notification: Config serilog
+    
+    * IdentityServer: config AWS.Logger.SeriLog
+    
+    * Transport exchange, Notification: Config serilog
+    
+    * merge dev
+
+
+:100644 100644 b69d44fb592b57508a1d0604dcc6ffcbd1f1573e 6e48a25e4b729f95707ca526d6ebeb4d97562588 M	modules/IdentityServer/smartlog-auth-be/Smartlog.Auth.HttpApi.Host/appsettings.Development.json
+:100644 100644 fb11e2d605cec1a1b11baf8ca0c121d16e367e65 00e48b62daa7f623cb61e5f9d2e95f630c228ed9 M	src/Services/Notification/Smartlog.Notification.API/Program.cs
+:100644 100644 6ce21cda52e1f511cac48da77240304a8760bd7d c5a426478baa27dab11568e7261e5a154c0e98b8 M	src/Services/Notification/Smartlog.Notification.API/Smartlog.Notification.API.csproj
+:100644 100644 09b2cd2fdea4808a26c7893f510527fdf3f5f60b 4fca7f60e07264846da347686565a5800ad7c6a4 M	src/Services/Notification/Smartlog.Notification.API/appsettings.Development.json
+:100644 100644 6a19dea0066070f2141b689eca18b0afd03669c6 8fbabbef13dca86a4c87fbba06c4a211e8d6bbc3 M	src/Services/Notification/Smartlog.Notification.API/appsettings.json
+:100644 100644 7cc96c3235687c5edc5720ed3d30cc990bad4952 570e4f5cad5a1d1b21eb9d3a48320ee5f1f0a965 M	src/Services/TransportExchange/Smartlog.TransportExchange.API/Program.cs
+:100644 100644 84e015b824054b5a531b15f056931e4019c0d1b5 5e67388992e0d7873c610241628d28bb47e069bd M	src/Services/TransportExchange/Smartlog.TransportExchange.API/Smartlog.TransportExchange.API.csproj
+:100644 100644 6268d2468aa84f0669f1727eea7c5b4e8d0d6a7d 25e61b8493e908d07ee61e231eb048d9c201c8b7 M	src/Services/TransportExchange/Smartlog.TransportExchange.API/appsettings.Development.json
+:100644 100644 20b6fbaee413e65793f3a2ffaa1ab5e727632474 dfb6d4d726d5b0fc39d6a5b9875aecce3b9f8f5c M	src/Services/TransportExchange/Smartlog.TransportExchange.API/appsettings.json

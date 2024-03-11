@@ -1,0 +1,16 @@
+commit 1db648c9c156ba3421bc67ab9ea745849f73e4fe
+tree 2d60021223b21e9c1a938ace3c9d50fbfb967aef
+parent 4a2b4cc66232829fdc60a23c008dd456d26cd21e
+author Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 04:06:40 +0000
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 04:06:40 +0000
+
+    Merged in bugfix/fix-create-order-follow (pull request #146)
+    
+    Update Order status: Add OrderLog
+    
+    * Update Order status: Add log
+    
+    * Merge remote-tracking branch 'origin/dev' into bugfix/fix-create-order-follow
+
+
+:100644 100644 cd08dda7e171f60902317f580c9b9226a861168c 6cfab175f851b9b7f1fddc5d82d1a8dae58064e6 M	src/Services/TransportExchange/Smartlog.TransportExchange.Application/OrderLists/UpdateOrderStatusFromStmv2Command.cs

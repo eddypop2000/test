@@ -1,0 +1,10 @@
+commit 087fb4c8323a5092573f8b6c1182bba57c378ee1
+tree 7cf07677e6f4864603fe68d5b48fa1dcb00537c0
+parent caae9503b36f4a1078a141cafcbb9c6b91aecb83
+author tuan88 <tuan.tran@gosmartlog.com> 2021-10-11 11:36:53 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-10-11 11:36:53 +0700
+
+    Cancel Job
+
+
+:100644 100644 3debd4b40198ced15cb84011bb942e6a35fb4505 7767cee9737f0d25a76eed086de0633efa6a9400 M	src/x-modules/actions/providers/schedule.provider.ts

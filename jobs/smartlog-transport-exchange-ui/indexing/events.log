@@ -1,0 +1,776 @@
+Checking PR-1153 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/statistical-cos-add-changeDetection
+Checking PR-1112 from smartlogtms/smartlog-transport-exchange-ui and branch dev_new
+Checking PR-1093 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1041/SES-1043/SES-1040/SES-1049/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx
+Checking PR-1107 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1052/feature/change-logic-show-auto-pricing-and-update-auto-pricing
+Checking PR-1102 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1029/feature/add-event-stx-c
+Checking PR-913 from smartlogtms/smartlog-transport-exchange-ui and branch fix-table-name
+Checking PR-894 from smartlogtms/smartlog-transport-exchange-ui and branch SES-938/bugfix/them-phan-trang-cho-view-container
+Checking PR-893 from smartlogtms/smartlog-transport-exchange-ui and branch SES-927/bugfix/fix-tong-tien-view-them-hoa-don
+Checking PR-887 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/fix-input-api-management
+Checking PR-886 from smartlogtms/smartlog-transport-exchange-ui and branch fix-UI-design-cursor-pointer
+Checking PR-580 from smartlogtms/smartlog-transport-exchange-ui and branch feature/update-icon-stx
+Checking PR-501 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/feature/setting-identity-shipping-line
+Checking PR-487 from smartlogtms/smartlog-transport-exchange-ui and branch tms-986-sync-route-setting-from-stm
+Checking PR-374 from smartlogtms/smartlog-transport-exchange-ui and branch social-intergration
+
+  14 pull requests were processed
+[Fri Apr 14 03:12:03 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 03:11:50 UTC 2023 processed in 7.9 sec
+[Fri Apr 14 03:13:08 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 03:13:03 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+Checking branch bugfix/statistical-cos-add-changeDetection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_new from smartlogtms/smartlog-transport-exchange-ui
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev_new (b0e41a9e4e74963829313025a058409c0fe2c344 → f9aa0bc76d4d66896fc4f888264470390209cf28)
+Scheduled build for branch: dev_new
+
+  2 branches were processed (query completed)
+[Fri Apr 14 03:13:17 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 03:13:03 UTC 2023 processed in 8.7 sec
+[Fri Apr 14 03:13:29 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 03:13:24 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+Checking branch bugfix/statistical-cos-add-changeDetection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_new from smartlogtms/smartlog-transport-exchange-ui
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev_new (f9aa0bc76d4d66896fc4f888264470390209cf28 → c9c28cbf6056a4c279161a7db1d2f92f4a87ec56)
+Scheduled build for branch: dev_new
+
+  2 branches were processed (query completed)
+[Fri Apr 14 03:13:37 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 03:13:24 UTC 2023 processed in 8.1 sec
+[Fri Apr 14 08:53:38 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 08:53:33 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+Checking branch COS/SES-978/feature/edit-filter-number-of-order-reuse-return-detail-view-setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch COS/SES-979/add-col-request-date-and-payment-status-view-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1018/feature/add-check-cancel-reuse-for-shippingline from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1029/feature/add-event-stx-c from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1041/SES-1043/SES-1040/SES-1049/dev/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1041/SES-1043/SES-1040/SES-1049/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1044/feature/setting-product-category-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1052/cherr-pick-to-dev/feature/change-logic-show-auto-pricing-and-update-auto-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1052/feature/change-logic-show-auto-pricing-and-update-auto-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-394-2345 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-394/bugfix/feature/fix-ui-all-statistical-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-475-feature/setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-476-feature/user-create from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-514 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-536 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-539/bugfix/feature/report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-555/feature/import-and-export-excel-setting-location-notify from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-558/fix-scroll from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-559/add-complete-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-559/feature/add-button-complete-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-635/feature/dashboard-statistical-percent-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/bugfix/feature/statiscal-region-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/bugfix/feature/statiscal-region-order-test from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/feature/statiscal-region-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-642/feature/statistical-company-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-643/feature/statistical-company-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-655/feature/setting-area-bid from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-658/bugfix/active-navigation from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-660/bugfix/payment-order-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-663/feature/add-long-distance-fee-create-order-reuse-api from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-664/bugfix/feature/check-botton-sync-request-api-and-send-email-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-669/feature/upload-black-list-and-get-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-670/add-search-filter-company-identity-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-671/SES-684/bugfix/feature/setting-port-email/add-filter-area-form-and-reset-store from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-672/bugfix/route-first-price from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-674/add-page-welcome-cos-reuselv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-682/feature/import-excel-location-notify from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-684/feature/add-reset-table-store from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-685/check-duplicate-name-route-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-686/setting-port-email-import-excel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-687/feature/add-filter-tax-number-companies from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-689/SES-690/SES-691/feature/add-validator-create-settings-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-692/bugfix/feature/edit-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-696/add-muti-filter-shipping-line-dash-board from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-698/feature/add-explain-order-reuse-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-699/feature/add-deactive-account from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-704/feature/add-check-reuse-date-shipping-date from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-705/add-valid-rejeck-reason-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-707/feature/add-counter-rejeck-order-pending from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-709/add-filter-company-cos-type-trucker-or-shipper from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-710/add-search-filter-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-711/add-filter-mutil-shipping-report-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-712/bugfix/message-send-email-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-714/remove-nzallow-clear-date-type-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-715/feature/block-order-reuse-in-the-pass-for-cont-last-event-IDF-IRI-TAF from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-716/add-default-shipping-line-cma-create-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-717/feature/add-filter-shipping-line-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-718/edit-filter-company-account-balance-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-719/feature/remove-filter-company-if-user-trucker-or-shipper from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-721/bugfix/feature/order-detail-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-721/bugfix/feature/stx-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-722/feature/add-mutil-filter-status-report-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-723/bugfix/feature/fee-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/add-permission-pricing-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/bugfix/feature/add-permission-pricing-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/feature/add-permission-setting-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-727/add-reject-order-reuse-shippingline-maersk-hapaglloyed from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-728/feature/default-filter-order-reuse-approve-user-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-730/feature/add-filter-company-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-731/add-reload-reset-list-order-return-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-742/bugfix/feature/setting-area from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-743/SES-741/bugfix/dashboard-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-751/bugfix/feature/edit-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-752/feature/add-permission-are-and-point-deactive-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-756/add-permission-dash-board-child from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-757/feature/invocie-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-758/feature/remove-bank-qr-code from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-759/feature/add-highlight-form-create-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-760/bugfix/feature/add-authorize-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-762/remove-button-send-email-ssc-of-order-status-cancel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-764/feature/add-detail-error-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-765/bugfix/feature/remove-check-container-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-766/bugfix/feature/add-filter-finish-date-get-report-mt-return-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-770/feature/change-all-template-excel-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-775/bugfix/feature/create-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-777/feature/add-mutil-filter-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-778/feature/add-title-modal-success-register from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-780/feature/add-mutil-filter-order-status-dashboard-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-790/bugfix/feature/fix-permission-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-792/bugfix/feature/add-permission-red-setting-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-793/feature/add-nz-search-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-796/feature/add-statistical-order-by-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-797/bugfix/feature/export-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-798/feature/add-tool-tip-mt-reuse-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-800/feature/update-table-setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-801/bugfix/sub-task-SES-801/setting-company-release-seal from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-801/feature/add-view-setting-company-release-seal from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-803/feature/add-destination-country-limit-booking from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-805/feature/add-reuse-date-view-api-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-807/bugfix/order-detail-item-reuse-lv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-811/bugfix/feature/update-filter-payment-status-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-812/bugfix/feature/order-detail-item-reuse-lv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-820/feature/add-message-lease-type-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-822/bugfix/feature/import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-823/fix-filter-finish-date from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-833/bugfix/add-enum-shippingline-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-834/bugfix/feature/report-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-837/bugfix/feature/create-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-838/bugfix/report-container-no-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-843/bugfix/cancel-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-843/bugfix/feature/add-filter-table-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-845/bugfix/feature/add-banner-shipping-line-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-845/feature/add-banner-shipping-line-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-846/bugfix/feature/payment-check-result from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-848/bugfix/feature/export-excel-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-850/bugfix/feature/add-read-order-price-log-and-bid-history-stx-admin from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-864/add-filter-number-of-container-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-866/feature/change-message-cancel-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-881/bugfix/create-strategy/stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-889/feature/change-ui-fcl-order-detail-contact-info from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-916/feature/setting-fee-empty-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-927/bugfix/fix-tong-tien-view-them-hoa-don from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-938/bugfix/them-phan-trang-cho-view-container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-948/production/feature/remove-col-user-name-identity-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-980/feature/add-payment-date-invoice-manager from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-982/feature/add-popup-landing-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-982/feature/add-popup-landing-page-for-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-983/feature/add-email-company-invoice-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-989/feature/fix-order-price-log-order-detail-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES/stx-translate from smartlogtms/smartlog-transport-exchange-ui
+Checking branch STX/SES-986/feature/add-phone-number-driver-view-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ThinhDoanDEV from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ZIM from smartlogtms/smartlog-transport-exchange-ui
+Checking branch argocd from smartlogtms/smartlog-transport-exchange-ui
+Checking branch argocd-dev-conflict from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bk-pug from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bk_dev_20211213 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bug-fix/display-money-in-words from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-419/synthetic-bug-419 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-512 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-545 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-547-noti-cancel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-565 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-585 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-585-edit-vi-en from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-586 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-592-vi-en from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-612 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-613 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-616/disable-select from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-616/disable-select-billing-null-create-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-619/reload-current-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-620/update-fee-manual-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-622-SES-625 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-624-SES-623 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-626/SES-627/SES-628/feature/create-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-632/reload-current-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-633/identity-role-reload-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-701 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-764 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-794 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-802 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-804-add-free-text from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-936-COS_-Thông-báo-Xác-nhận-xóa-hãng-tàu from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/add-Change-Detection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/add-select-multiple-onpush from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/bidding-button from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/chang-store-in-component-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/change-service-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/change-store-setting-fee-empty-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/cs-cancel-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/custom-table-filter from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/export-excel-report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/export-excel-report-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/extend-max-budget-scss from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/add-new-langding-page-and-regisrter-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/add-start-of-day-end-of-day-view-report-reuse-return-payment-account-balance from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/cancel-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/commission-fee-and-revenue from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/dash-board-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/edit-const-shipping-line-name-hapag-loyd from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/export-excel-report-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/fee-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/filter-mt-reuse-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/fix-permission from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/get-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/import-excel-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/invocie-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/invoice-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/reaload-when-cancel-order-and-fix-contact-info from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/remove-requiredPolicy-identity from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/remove-validator-location-id-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/setting-identity-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/sync-location-stm-setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/translate-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/translate-setting-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/upload-excel-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/validate-api-accept-price from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-account-general-information from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-app-table-delete-id--and-loading from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-input-api-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-table-show-title-button-delete from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-ui-settings from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-checkbox-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-local-Storage-app-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-menu-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/location-order-view-order-list-data from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/min-length-start-char-limit-booking from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/note-order-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/order-item-note-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/order-route-view-carrier-manage-order- from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/price-auto-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/remove-whitespace-booking-billing-create-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/scroll from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/statistical-cos-add-changeDetection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/statistical-remove-filter-companyId from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/test-push from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/translate-pages-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/user-indentity from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cherry-pick-to-dev/feature/fix-order-item-note from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cherry-pick/feature/update-auth-guard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cos_billing_release from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cos_billing_release_add_setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch demo-chart from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_backup from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_new from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-1027/add-strategy-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-1044/add-product-category from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-22-stx-angular-setting-module from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-590-add-carrier-in-detail-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-645/FE from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-80-tích-hợp-notification from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-875-chang-ui-order-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-977/fix-create-invoice-reuse-and-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-condition-for-trucker from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-export-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-language-notification-cos-template from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-loading-export-excel-report-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-message-create-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-new-landing-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-nzShowSearch-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-report-payment-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-router-link-notification-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-service-api from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-sign-up-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/async-road-location-stm from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/auth_spa from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-environment-sentry from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-and-add-app-table-view-report-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-cos-setting-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-create-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-dash-board-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-list-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-page-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-report-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-setting-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-view-report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/configuration-environment-files from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/create-mt-return-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/done-view-setting-limit-booking-and-setting-priority-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/done-view-setting-product-category from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/edit-name-export-excel-setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/export-excel-nt-move-fee from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/fix-auth-guard-and-check-auth from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/fix-order-item-note from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/fix-struc-org from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/format-code-order-price-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/implement-api-reuse-bids from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/organization-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/reuse-notification from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/ses-338 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/setup-user-permission from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/struc-org-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/sync-stm-locations from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/template from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-page-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-setting-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/ui-carrier-get-owner-plan-noti from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-icon-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-report-account-balance from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-view-report-account-balance-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-UI-design-cursor-pointer from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-SES-442 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-SES-449-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/SES-932/cos/invoice-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/load-while-waiting-to-download-the-excel-file from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/missing-attribute-nzShowSearch from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-conflict-dev-to-prodution from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-error-display-UI from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-jenkinsfile from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-local-store-user-profile from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-oidc-cma from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-table-name from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-ui/display-money-in-word from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-930/cos/invoice-management/detail-container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-934/invoice-return-management/change-display from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-941/settings/cos/container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-944/setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/bugfix/SES-934/cos/invoice-management/bill-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/message-container-leasee-type from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixUI/add-loading-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixUI/fix-chart-not-translate-when-reload-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixbug/store-rename-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch hotfix/update-location-data from smartlogtms/smartlog-transport-exchange-ui
+Checking branch load-config-from-app-config-json from smartlogtms/smartlog-transport-exchange-ui
+Checking branch master from smartlogtms/smartlog-transport-exchange-ui
+Checking branch merge-prod-to-dev from smartlogtms/smartlog-transport-exchange-ui
+Checking branch new-ui from smartlogtms/smartlog-transport-exchange-ui
+Checking branch order-detail-map from smartlogtms/smartlog-transport-exchange-ui
+Checking branch order-detail-new-ui from smartlogtms/smartlog-transport-exchange-ui
+Checking branch origin/split-project from smartlogtms/smartlog-transport-exchange-ui
+Checking branch production from smartlogtms/smartlog-transport-exchange-ui
+Checking branch production_backup from smartlogtms/smartlog-transport-exchange-ui
+Checking branch realse-spint-10 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch refactor-order-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch reuse-shippingLine from smartlogtms/smartlog-transport-exchange-ui
+Checking branch sentry from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-338 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-476-bugfix/feature/create-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-493-edit-error-messages from smartlogtms/smartlog-transport-exchange-ui
+Checking branch social-intergration from smartlogtms/smartlog-transport-exchange-ui
+Checking branch tms-986-sync-route-setting-from-stm from smartlogtms/smartlog-transport-exchange-ui
+Checking branch translate-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch translate-vn-to-en from smartlogtms/smartlog-transport-exchange-ui
+
+  332 branches were processed
+Looking up smartlogtms/smartlog-transport-exchange-ui for pull requests
+Checking PR-1112 from smartlogtms/smartlog-transport-exchange-ui and branch dev_new
+Checking PR-1093 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1041/SES-1043/SES-1040/SES-1049/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx
+Checking PR-1107 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1052/feature/change-logic-show-auto-pricing-and-update-auto-pricing
+Checking PR-1102 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1029/feature/add-event-stx-c
+Checking PR-913 from smartlogtms/smartlog-transport-exchange-ui and branch fix-table-name
+Checking PR-894 from smartlogtms/smartlog-transport-exchange-ui and branch SES-938/bugfix/them-phan-trang-cho-view-container
+Checking PR-893 from smartlogtms/smartlog-transport-exchange-ui and branch SES-927/bugfix/fix-tong-tien-view-them-hoa-don
+Checking PR-887 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/fix-input-api-management
+Checking PR-886 from smartlogtms/smartlog-transport-exchange-ui and branch fix-UI-design-cursor-pointer
+Checking PR-580 from smartlogtms/smartlog-transport-exchange-ui and branch feature/update-icon-stx
+Checking PR-501 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/feature/setting-identity-shipping-line
+Checking PR-487 from smartlogtms/smartlog-transport-exchange-ui and branch tms-986-sync-route-setting-from-stm
+Checking PR-374 from smartlogtms/smartlog-transport-exchange-ui and branch social-intergration
+
+  13 pull requests were processed
+[Fri Apr 14 08:53:47 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 08:53:33 UTC 2023 processed in 8.7 sec
+[Fri Apr 14 09:00:36 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:00:31 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+[Fri Apr 14 09:00:35 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:00:30 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+Checking branch dev from smartlogtms/smartlog-transport-exchange-ui
+Checking branch COS/SES-978/feature/edit-filter-number-of-order-reuse-return-detail-view-setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch COS/SES-979/add-col-request-date-and-payment-status-view-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1018/feature/add-check-cancel-reuse-for-shippingline from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1029/feature/add-event-stx-c from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1041/SES-1043/SES-1040/SES-1049/dev/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1041/SES-1043/SES-1040/SES-1049/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1044/feature/setting-product-category-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1052/cherr-pick-to-dev/feature/change-logic-show-auto-pricing-and-update-auto-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-1052/feature/change-logic-show-auto-pricing-and-update-auto-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-394-2345 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-394/bugfix/feature/fix-ui-all-statistical-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-475-feature/setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-476-feature/user-create from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-514 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-536 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-539/bugfix/feature/report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-555/feature/import-and-export-excel-setting-location-notify from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-558/fix-scroll from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-559/add-complete-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-559/feature/add-button-complete-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-635/feature/dashboard-statistical-percent-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/bugfix/feature/statiscal-region-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/bugfix/feature/statiscal-region-order-test from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-641/feature/statiscal-region-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-642/feature/statistical-company-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-643/feature/statistical-company-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-655/feature/setting-area-bid from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-658/bugfix/active-navigation from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-660/bugfix/payment-order-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-663/feature/add-long-distance-fee-create-order-reuse-api from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-664/bugfix/feature/check-botton-sync-request-api-and-send-email-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-669/feature/upload-black-list-and-get-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-670/add-search-filter-company-identity-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-671/SES-684/bugfix/feature/setting-port-email/add-filter-area-form-and-reset-store from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-672/bugfix/route-first-price from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-674/add-page-welcome-cos-reuselv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-682/feature/import-excel-location-notify from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-684/feature/add-reset-table-store from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-685/check-duplicate-name-route-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-686/setting-port-email-import-excel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-687/feature/add-filter-tax-number-companies from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-689/SES-690/SES-691/feature/add-validator-create-settings-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-692/bugfix/feature/edit-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-696/add-muti-filter-shipping-line-dash-board from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-698/feature/add-explain-order-reuse-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-699/feature/add-deactive-account from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-704/feature/add-check-reuse-date-shipping-date from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-705/add-valid-rejeck-reason-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-707/feature/add-counter-rejeck-order-pending from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-709/add-filter-company-cos-type-trucker-or-shipper from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-710/add-search-filter-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-711/add-filter-mutil-shipping-report-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-712/bugfix/message-send-email-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-714/remove-nzallow-clear-date-type-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-715/feature/block-order-reuse-in-the-pass-for-cont-last-event-IDF-IRI-TAF from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-716/add-default-shipping-line-cma-create-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-717/feature/add-filter-shipping-line-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-718/edit-filter-company-account-balance-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-719/feature/remove-filter-company-if-user-trucker-or-shipper from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-721/bugfix/feature/order-detail-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-721/bugfix/feature/stx-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-722/feature/add-mutil-filter-status-report-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-723/bugfix/feature/fee-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/add-permission-pricing-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/bugfix/feature/add-permission-pricing-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-725/feature/add-permission-setting-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-727/add-reject-order-reuse-shippingline-maersk-hapaglloyed from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-728/feature/default-filter-order-reuse-approve-user-ssc from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-730/feature/add-filter-company-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-731/add-reload-reset-list-order-return-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-742/bugfix/feature/setting-area from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-743/SES-741/bugfix/dashboard-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-751/bugfix/feature/edit-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-752/feature/add-permission-are-and-point-deactive-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-756/add-permission-dash-board-child from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-757/feature/invocie-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-758/feature/remove-bank-qr-code from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-759/feature/add-highlight-form-create-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-760/bugfix/feature/add-authorize-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-762/remove-button-send-email-ssc-of-order-status-cancel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-764/feature/add-detail-error-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-765/bugfix/feature/remove-check-container-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-766/bugfix/feature/add-filter-finish-date-get-report-mt-return-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-770/feature/change-all-template-excel-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-775/bugfix/feature/create-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-777/feature/add-mutil-filter-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-778/feature/add-title-modal-success-register from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-780/feature/add-mutil-filter-order-status-dashboard-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-790/bugfix/feature/fix-permission-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-792/bugfix/feature/add-permission-red-setting-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-793/feature/add-nz-search-bid-route-pricing from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-796/feature/add-statistical-order-by-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-797/bugfix/feature/export-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-798/feature/add-tool-tip-mt-reuse-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-800/feature/update-table-setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-801/bugfix/sub-task-SES-801/setting-company-release-seal from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-801/feature/add-view-setting-company-release-seal from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-803/feature/add-destination-country-limit-booking from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-805/feature/add-reuse-date-view-api-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-807/bugfix/order-detail-item-reuse-lv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-811/bugfix/feature/update-filter-payment-status-report-payment from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-812/bugfix/feature/order-detail-item-reuse-lv2 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-820/feature/add-message-lease-type-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-822/bugfix/feature/import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-823/fix-filter-finish-date from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-833/bugfix/add-enum-shippingline-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-834/bugfix/feature/report-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-837/bugfix/feature/create-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-838/bugfix/report-container-no-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-843/bugfix/cancel-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-843/bugfix/feature/add-filter-table-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-845/bugfix/feature/add-banner-shipping-line-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-845/feature/add-banner-shipping-line-pil from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-846/bugfix/feature/payment-check-result from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-848/bugfix/feature/export-excel-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-850/bugfix/feature/add-read-order-price-log-and-bid-history-stx-admin from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-864/add-filter-number-of-container-dashboard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-866/feature/change-message-cancel-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-881/bugfix/create-strategy/stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-889/feature/change-ui-fcl-order-detail-contact-info from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-916/feature/setting-fee-empty-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-927/bugfix/fix-tong-tien-view-them-hoa-don from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-938/bugfix/them-phan-trang-cho-view-container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-948/production/feature/remove-col-user-name-identity-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-980/feature/add-payment-date-invoice-manager from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-982/feature/add-popup-landing-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-982/feature/add-popup-landing-page-for-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-983/feature/add-email-company-invoice-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES-989/feature/fix-order-price-log-order-detail-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch SES/stx-translate from smartlogtms/smartlog-transport-exchange-ui
+Checking branch STX/SES-986/feature/add-phone-number-driver-view-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ThinhDoanDEV from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ZIM from smartlogtms/smartlog-transport-exchange-ui
+Checking branch argocd from smartlogtms/smartlog-transport-exchange-ui
+Checking branch argocd-dev-conflict from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bk-pug from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bk_dev_20211213 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bug-fix/display-money-in-words from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-419/synthetic-bug-419 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-512 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-545 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-547-noti-cancel from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-565 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-585 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-585-edit-vi-en from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-586 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-592-vi-en from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-612 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-613 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-616/disable-select from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-616/disable-select-billing-null-create-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-619/reload-current-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-620/update-fee-manual-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-622-SES-625 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-624-SES-623 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-626/SES-627/SES-628/feature/create-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-632/reload-current-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-633/identity-role-reload-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-701 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-764 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-794 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-802 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-804-add-free-text from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/SES-936-COS_-Thông-báo-Xác-nhận-xóa-hãng-tàu from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/add-Change-Detection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/add-select-multiple-onpush from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/bidding-button from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/chang-store-in-component-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/change-service-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/change-store-setting-fee-empty-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/cs-cancel-order-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/custom-table-filter from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/export-excel-report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/export-excel-report-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/extend-max-budget-scss from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/add-new-langding-page-and-regisrter-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/add-start-of-day-end-of-day-view-report-reuse-return-payment-account-balance from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/cancel-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/commission-fee-and-revenue from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/dash-board-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/edit-const-shipping-line-name-hapag-loyd from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/export-excel-report-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/fee-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/filter-mt-reuse-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/fix-permission from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/get-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/import-excel-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/invocie-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/invoice-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/reaload-when-cancel-order-and-fix-contact-info from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/remove-requiredPolicy-identity from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/remove-validator-location-id-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/setting-identity-shipping-line from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/sync-location-stm-setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/translate-order-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/translate-setting-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/upload-excel-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/feature/validate-api-accept-price from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-account-general-information from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-app-table-delete-id--and-loading from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-input-api-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-table-show-title-button-delete from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/fix-ui-settings from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-checkbox-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-local-Storage-app-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/hidden-menu-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/location-order-view-order-list-data from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/min-length-start-char-limit-booking from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/note-order-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/order-item-note-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/order-route-view-carrier-manage-order- from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/price-auto-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/remove-whitespace-booking-billing-create-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/scroll from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/statistical-cos-add-changeDetection from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/statistical-remove-filter-companyId from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/test-push from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/translate-pages-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch bugfix/user-indentity from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cherry-pick-to-dev/feature/fix-order-item-note from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cherry-pick/feature/update-auth-guard from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cos_billing_release from smartlogtms/smartlog-transport-exchange-ui
+Checking branch cos_billing_release_add_setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch demo-chart from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_backup from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev_new from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-1027/add-strategy-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-1044/add-product-category from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-22-stx-angular-setting-module from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-590-add-carrier-in-detail-order from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-645/FE from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-80-tích-hợp-notification from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-875-chang-ui-order-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/SES-977/fix-create-invoice-reuse-and-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-condition-for-trucker from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-export-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-language-notification-cos-template from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-loading-export-excel-report-reuse-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-message-create-order-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-new-landing-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-nzShowSearch-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-report-payment-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-router-link-notification-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-service-api from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/add-sign-up-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/async-road-location-stm from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/auth_spa from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-environment-sentry from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-and-add-app-table-view-report-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-cos-setting-port-email from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-create-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-dash-board-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-list-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-page-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-report-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-setting-limit-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/change-store-view-report-mt-return-container-no from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/configuration-environment-files from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/create-mt-return-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/done-view-setting-limit-booking-and-setting-priority-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/done-view-setting-product-category from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/edit-name-export-excel-setting-bid-route from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/export-excel-nt-move-fee from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/fix-order-item-note from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/fix-struc-org from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/format-code-order-price-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/implement-api-reuse-bids from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/organization-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/reuse-notification from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/ses-338 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/setup-user-permission from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/struc-org-cos from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/sync-stm-locations from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/template from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-page-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-setting from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/translate-setting-port from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/ui-carrier-get-owner-plan-noti from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-icon-stx from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-report-account-balance from smartlogtms/smartlog-transport-exchange-ui
+Checking branch feature/update-view-report-account-balance-log from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-UI-design-cursor-pointer from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-SES-442 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-SES-449-fee-mt-return from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bug-import-excel-black-list from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/SES-932/cos/invoice-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/load-while-waiting-to-download-the-excel-file from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-bugfix/missing-attribute-nzShowSearch from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-conflict-dev-to-prodution from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-error-display-UI from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-jenkinsfile from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-local-store-user-profile from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-oidc-cma from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-table-name from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix-ui/display-money-in-word from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-930/cos/invoice-management/detail-container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-934/invoice-return-management/change-display from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-941/settings/cos/container from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/SES-944/setting-company from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/bugfix/SES-934/cos/invoice-management/bill-detail from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fix/message-container-leasee-type from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixUI/add-loading-table from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixUI/fix-chart-not-translate-when-reload-page from smartlogtms/smartlog-transport-exchange-ui
+Checking branch fixbug/store-rename-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch hotfix/update-location-data from smartlogtms/smartlog-transport-exchange-ui
+Checking branch load-config-from-app-config-json from smartlogtms/smartlog-transport-exchange-ui
+Checking branch master from smartlogtms/smartlog-transport-exchange-ui
+Checking branch merge-prod-to-dev from smartlogtms/smartlog-transport-exchange-ui
+Checking branch new-ui from smartlogtms/smartlog-transport-exchange-ui
+Checking branch order-detail-map from smartlogtms/smartlog-transport-exchange-ui
+Checking branch order-detail-new-ui from smartlogtms/smartlog-transport-exchange-ui
+Checking branch origin/split-project from smartlogtms/smartlog-transport-exchange-ui
+Checking branch production from smartlogtms/smartlog-transport-exchange-ui
+Checking branch production_backup from smartlogtms/smartlog-transport-exchange-ui
+Checking branch realse-spint-10 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch refactor-order-management from smartlogtms/smartlog-transport-exchange-ui
+Checking branch remove-export-excel-invoice from smartlogtms/smartlog-transport-exchange-ui
+Checking branch dev from smartlogtms/smartlog-transport-exchange-ui
+Checking branch reuse-shippingLine from smartlogtms/smartlog-transport-exchange-ui
+Checking branch sentry from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-338 from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-476-bugfix/feature/create-user from smartlogtms/smartlog-transport-exchange-ui
+Checking branch ses-493-edit-error-messages from smartlogtms/smartlog-transport-exchange-ui
+Checking branch social-intergration from smartlogtms/smartlog-transport-exchange-ui
+Checking branch tms-986-sync-route-setting-from-stm from smartlogtms/smartlog-transport-exchange-ui
+Checking branch translate-mt-reuse from smartlogtms/smartlog-transport-exchange-ui
+Checking branch translate-vn-to-en from smartlogtms/smartlog-transport-exchange-ui
+
+  331 branches were processed
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (11b58ac4254532144d90152b9fafb8170c0d5401 → d4a7bb4dcb96a194df24a40e61833d8ba4901e48)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Apr 14 09:00:44 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:00:31 UTC 2023 processed in 8.7 sec
+Looking up smartlogtms/smartlog-transport-exchange-ui for pull requests
+Checking PR-1112 from smartlogtms/smartlog-transport-exchange-ui and branch dev_new
+Checking PR-1093 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1041/SES-1043/SES-1040/SES-1049/feature/add-create-reuse-for-order-fcl-and-check-reuse-stx
+Checking PR-1107 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1052/feature/change-logic-show-auto-pricing-and-update-auto-pricing
+Checking PR-1102 from smartlogtms/smartlog-transport-exchange-ui and branch SES-1029/feature/add-event-stx-c
+Checking PR-913 from smartlogtms/smartlog-transport-exchange-ui and branch fix-table-name
+Checking PR-894 from smartlogtms/smartlog-transport-exchange-ui and branch SES-938/bugfix/them-phan-trang-cho-view-container
+Checking PR-893 from smartlogtms/smartlog-transport-exchange-ui and branch SES-927/bugfix/fix-tong-tien-view-them-hoa-don
+Checking PR-887 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/fix-input-api-management
+Checking PR-886 from smartlogtms/smartlog-transport-exchange-ui and branch fix-UI-design-cursor-pointer
+Checking PR-580 from smartlogtms/smartlog-transport-exchange-ui and branch feature/update-icon-stx
+Checking PR-501 from smartlogtms/smartlog-transport-exchange-ui and branch bugfix/feature/setting-identity-shipping-line
+Checking PR-487 from smartlogtms/smartlog-transport-exchange-ui and branch tms-986-sync-route-setting-from-stm
+Checking PR-374 from smartlogtms/smartlog-transport-exchange-ui and branch social-intergration
+
+  13 pull requests were processed
+[Fri Apr 14 09:00:45 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:00:30 UTC 2023 processed in 9.4 sec
+[Fri Apr 14 09:09:04 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:08:59 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-transport-exchange-ui for branches
+Checking branch dev from smartlogtms/smartlog-transport-exchange-ui
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d4a7bb4dcb96a194df24a40e61833d8ba4901e48 → dae1f0368571f2a023a4c348e2394966ac87dd64)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Apr 14 09:09:12 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:08:59 UTC 2023 processed in 8.8 sec

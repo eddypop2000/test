@@ -1,0 +1,590 @@
+[Wed Mar 31 03:35:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 03:35:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Mar 31 03:35:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 03:35:55 UTC 2021 processed in 1.5 sec
+[Wed Mar 31 03:56:21 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 03:56:21 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (b255d3e4fc306db2f28c3042b6c1d3ccd42bafc4 → 3781a680d31ce245056c15c1b2af879bc44f6a98)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Mar 31 03:56:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 31 03:56:21 UTC 2021 processed in 1.5 sec
+[Thu Apr 01 07:55:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 07:55:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (3781a680d31ce245056c15c1b2af879bc44f6a98 → 9b9599dcbedc6b2e6223b158ff7bf04aa93f1a3d)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Apr 01 07:55:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 07:55:02 UTC 2021 processed in 2.1 sec
+[Thu Apr 01 08:03:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 08:03:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9b9599dcbedc6b2e6223b158ff7bf04aa93f1a3d → 8f498b0cfe495d1c487ef9449c36b2fbd9c76967)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Apr 01 08:03:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 01 08:03:28 UTC 2021 processed in 1.6 sec
+[Sat Apr 03 07:07:57 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 07:07:57 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (8f498b0cfe495d1c487ef9449c36b2fbd9c76967 → d52a12ac064b443fad8c73e30ad587ba5b8ab07f)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 03 07:07:59 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 07:07:57 UTC 2021 processed in 1.5 sec
+[Sat Apr 03 23:18:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 23:18:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  2 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Sat Apr 03 23:18:40 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 23:18:39 UTC 2021 processed in 1.6 sec
+[Sat Apr 03 23:19:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 23:19:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (d52a12ac064b443fad8c73e30ad587ba5b8ab07f → 9543f2e115f72dc4885b42e7f7d0d371676882a4)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 03 23:19:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 03 23:19:28 UTC 2021 processed in 1.5 sec
+[Sun Apr 04 00:13:10 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 00:13:10 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9543f2e115f72dc4885b42e7f7d0d371676882a4 → b33fb561cbb8f14aed631778c8ac6e8a1754283d)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Apr 04 00:13:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 00:13:10 UTC 2021 processed in 1.5 sec
+[Sun Apr 04 04:17:16 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 04:17:16 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (b33fb561cbb8f14aed631778c8ac6e8a1754283d → e6fa3cb33da4e23cd06cb244c1779afb64222e61)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Apr 04 04:17:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 04:17:16 UTC 2021 processed in 1.5 sec
+[Sun Apr 04 04:35:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 04:35:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e6fa3cb33da4e23cd06cb244c1779afb64222e61 → 4433479e912818967d9cffe0e2aacf711baf59a6)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Apr 04 04:35:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 04:35:18 UTC 2021 processed in 2.3 sec
+[Mon Apr 05 07:27:14 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 07:27:14 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (4433479e912818967d9cffe0e2aacf711baf59a6 → 1eaa429ac5297a7f1d704edc0009c43e78df33d7)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 05 07:27:15 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 07:27:14 UTC 2021 processed in 1.6 sec
+[Mon Apr 05 09:23:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:23:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (1eaa429ac5297a7f1d704edc0009c43e78df33d7 → e65079b48169e4c3202060bb069fa9294948c533)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 05 09:23:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:23:00 UTC 2021 processed in 1.7 sec
+[Mon Apr 05 10:55:58 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 10:55:58 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e65079b48169e4c3202060bb069fa9294948c533 → abb39cf928d1ea01748e01ae0d0368ea3a33494c)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 05 10:56:00 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 10:55:58 UTC 2021 processed in 1.5 sec
+[Mon Apr 05 11:07:14 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 11:07:14 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (abb39cf928d1ea01748e01ae0d0368ea3a33494c → 6afd973e038da59d08fc7465c4e49f5ba3ab2db9)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 05 11:07:15 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 11:07:14 UTC 2021 processed in 1.6 sec
+[Tue Apr 06 11:17:47 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 11:17:47 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Tue Apr 06 11:17:49 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 11:17:47 UTC 2021 processed in 2 sec
+[Wed Apr 07 09:05:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 07 09:05:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Apr 07 09:05:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 07 09:05:55 UTC 2021 processed in 2.1 sec
+[Wed Apr 07 09:33:16 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 07 09:33:16 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Apr 07 09:33:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 07 09:33:16 UTC 2021 processed in 2.3 sec
+[Fri Apr 09 07:05:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 07:05:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (6afd973e038da59d08fc7465c4e49f5ba3ab2db9 → 01b179a062bcdecf64defdf43b82f9bbd5ccdbcb)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Fri Apr 09 07:05:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 07:05:22 UTC 2021 processed in 1.9 sec
+[Fri Apr 09 07:08:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 07:08:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (01b179a062bcdecf64defdf43b82f9bbd5ccdbcb → f14a9cae8d0bbbc957781a507322b9e83662a76b)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Fri Apr 09 07:08:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 07:08:22 UTC 2021 processed in 1.9 sec
+[Sat Apr 10 04:17:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:17:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (f14a9cae8d0bbbc957781a507322b9e83662a76b → 5af674b3eb9d451adb8f772cc2eea32e788abe68)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Sat Apr 10 04:17:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:17:22 UTC 2021 processed in 1.6 sec
+[Sat Apr 10 04:31:25 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:31:25 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (5af674b3eb9d451adb8f772cc2eea32e788abe68 → 35e6a09d056d04899437ad4deb7a021d8504fa1a)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 04:31:26 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 04:31:25 UTC 2021 processed in 1.5 sec
+[Sat Apr 10 14:29:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:29:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (35e6a09d056d04899437ad4deb7a021d8504fa1a → 8b97bab40caba892ead31fd503e19442278fe297)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 14:29:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:29:45 UTC 2021 processed in 1.7 sec
+[Sat Apr 10 14:40:03 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:40:03 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (8b97bab40caba892ead31fd503e19442278fe297 → 4e4b198a11cc3bd7f6509800fe0402db3b97462a)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 14:40:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:40:03 UTC 2021 processed in 1.6 sec
+[Sat Apr 10 14:47:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:47:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (4e4b198a11cc3bd7f6509800fe0402db3b97462a → 1f3436c6fa9e88da56245e243a44f370ceb291d4)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 14:47:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:47:37 UTC 2021 processed in 1.7 sec
+[Sat Apr 10 14:55:56 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:55:56 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (1f3436c6fa9e88da56245e243a44f370ceb291d4 → 5f47a646b13ffb4eb229e735e40f01e4a69dc479)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 14:55:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 14:55:56 UTC 2021 processed in 1.6 sec
+[Sat Apr 10 15:04:32 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 15:04:32 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (5f47a646b13ffb4eb229e735e40f01e4a69dc479 → 32287639afba99dd69239b5df2f4e1ca967c5e86)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 15:04:34 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 15:04:32 UTC 2021 processed in 1.7 sec
+[Sat Apr 10 15:07:11 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 15:07:11 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (32287639afba99dd69239b5df2f4e1ca967c5e86 → 6bd9ba5befe21c2f0e239810527770daa0a88281)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Sat Apr 10 15:07:13 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 15:07:11 UTC 2021 processed in 1.5 sec
+[Sat Apr 10 17:04:48 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:04:48 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (6bd9ba5befe21c2f0e239810527770daa0a88281 → f3a015a98b577c4155b252881c21b4104e1f5e45)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 17:04:50 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:04:48 UTC 2021 processed in 2.4 sec
+[Sat Apr 10 17:29:46 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:29:46 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (f3a015a98b577c4155b252881c21b4104e1f5e45 → 71d83c83e068576b7a69f0facb5f8001fdfae4e6)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 17:29:48 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:29:46 UTC 2021 processed in 1.7 sec
+[Sat Apr 10 17:49:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:49:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (71d83c83e068576b7a69f0facb5f8001fdfae4e6 → e866a282756c202fef9c59f08b1215b2d0146730)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 17:49:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:49:27 UTC 2021 processed in 1.6 sec
+[Sat Apr 10 17:57:25 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:57:25 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e866a282756c202fef9c59f08b1215b2d0146730 → 87533d5b18a910d4f0a4393df70e63ac72dee56c)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Sat Apr 10 17:57:27 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 17:57:25 UTC 2021 processed in 1.5 sec
+[Sat Apr 10 19:13:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 19:13:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (87533d5b18a910d4f0a4393df70e63ac72dee56c → 6678555bbdada899ce55502644d99717522d719d)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 10 19:13:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 10 19:13:09 UTC 2021 processed in 1.7 sec
+[Sun Apr 11 02:30:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 11 02:30:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (6678555bbdada899ce55502644d99717522d719d → d3739d4f35645ddd5360268fd10bec3be8229c8e)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Apr 11 02:30:10 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 11 02:30:09 UTC 2021 processed in 1.6 sec
+[Sun Apr 11 04:51:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 11 04:51:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (d3739d4f35645ddd5360268fd10bec3be8229c8e → 404536a042fcbc055c9b9f710e3a1f1110858f3e)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Apr 11 04:51:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 11 04:51:39 UTC 2021 processed in 1.6 sec
+[Mon Apr 12 09:43:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 09:43:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (404536a042fcbc055c9b9f710e3a1f1110858f3e → 95b9d720225f317ae628a86d2cb5d7097810df50)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 12 09:43:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 09:43:31 UTC 2021 processed in 2.2 sec
+[Mon Apr 12 15:04:12 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 15:04:12 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (95b9d720225f317ae628a86d2cb5d7097810df50 → 2c1c503e9d455c85eb87a3567c765c4d6168377c)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Apr 12 15:04:16 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 12 15:04:12 UTC 2021 processed in 3.6 sec
+[Tue Apr 13 09:43:51 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 13 09:43:51 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (2c1c503e9d455c85eb87a3567c765c4d6168377c → 14e62b6e7b88fdeba278fc908b255e4ca6719b44)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Tue Apr 13 09:43:53 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 13 09:43:51 UTC 2021 processed in 1.7 sec
+[Tue Apr 13 10:57:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 13 10:57:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (14e62b6e7b88fdeba278fc908b255e4ca6719b44 → 1fcba973c53e0b709042ae2995cad536fcdc113f)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Apr 13 10:57:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 13 10:57:39 UTC 2021 processed in 1.6 sec
+[Wed Apr 14 04:34:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 04:34:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch cluster_algo from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (1fcba973c53e0b709042ae2995cad536fcdc113f → 1db3fe92b22abd9497338dfaf8b995966b41a844)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Wed Apr 14 04:34:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 04:34:55 UTC 2021 processed in 1.6 sec
+[Wed Apr 14 05:30:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:30:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (1db3fe92b22abd9497338dfaf8b995966b41a844 → abcb1cf6460a9d7c5010e605b1164995be73bcf7)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Apr 14 05:30:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:30:18 UTC 2021 processed in 1.7 sec
+[Wed Apr 14 05:34:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:34:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (abcb1cf6460a9d7c5010e605b1164995be73bcf7 → 2ca1f831e1bff82ebb07eb8fb6abe9439635c383)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Apr 14 05:34:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:34:02 UTC 2021 processed in 2.1 sec
+[Wed Apr 14 05:55:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:55:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  2 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Apr 14 05:55:38 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 05:55:37 UTC 2021 processed in 1.6 sec
+[Wed Apr 14 18:35:38 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 18:35:38 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch dev_modules from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Apr 14 18:35:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 18:35:38 UTC 2021 processed in 1.7 sec
+[Wed Apr 14 18:40:43 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 18:40:43 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch dev_modules from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Apr 14 18:40:45 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 14 18:40:43 UTC 2021 processed in 1.7 sec
+[Thu Apr 15 02:26:35 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 02:26:35 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch dev_modules from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Thu Apr 15 02:26:36 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 02:26:35 UTC 2021 processed in 1.5 sec
+[Thu Apr 15 04:51:35 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 04:51:35 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch dev_modules from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (2ca1f831e1bff82ebb07eb8fb6abe9439635c383 → 522c28dfcfe636d0e0f6a1fedaa1a5c9e9a65148)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Thu Apr 15 04:51:37 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 04:51:35 UTC 2021 processed in 1.6 sec
+[Thu Apr 15 04:55:55 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 04:55:55 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (522c28dfcfe636d0e0f6a1fedaa1a5c9e9a65148 → ba6aa6c1fe281526d089dc2ada679c7a367cf192)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Apr 15 04:55:57 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 15 04:55:55 UTC 2021 processed in 1.6 sec
+[Sat May 08 11:23:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat May 08 11:23:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch dev_modules from smartlogtms/vrp-2e-ss
+Checking branch master from smartlogtms/vrp-2e-ss
+Checking branch old_DS from smartlogtms/vrp-2e-ss
+
+  3 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Sat May 08 11:23:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat May 08 11:23:27 UTC 2021 processed in 1.6 sec

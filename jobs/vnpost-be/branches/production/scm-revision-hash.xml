@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>5adb49dc7a32e07c3743deae69a4e4d2c330bda8</hash>
+  <message>Merged in argocd-production (pull request #36)
+
+modify jenkinsfile</message>
+  <author>thanh.nc &lt;thanh.nc@gosmartlog.com&gt;</author>
+  <date>2023-04-10 04:41:15.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

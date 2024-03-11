@@ -1,0 +1,11 @@
+commit 3fc53322426b94098d3fe7d5c0dcb128b3439f04
+tree 04122f8667f6906466be6d9a89a9516c9d995515
+parent 61aa3854914599cefbf3740c51aad64b8bd44a15
+author Karkill <hoa.tran@gosmartlog.com> 2021-03-26 10:24:53 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-03-26 10:24:53 +0700
+
+    add nodeSelector
+
+
+:100644 100644 a68a2053ee4e8b7394261a2889430c07190f60cb 303356045c24415ed9a0af7d28184756c1bf0b91 M	deploy-javalin.stage.yml
+:100644 100644 1aeb78eb63fe8f1c4678fa52bbed98e93cecb1be 7612cec3647ef156eef1bb4da4c07132c439fe86 M	deploy.stage.yml

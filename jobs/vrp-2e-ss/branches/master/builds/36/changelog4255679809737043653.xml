@@ -1,0 +1,10 @@
+commit 1db3fe92b22abd9497338dfaf8b995966b41a844
+tree 9f57afd22bced79236a35353dfc11a65efadd839
+parent 1fcba973c53e0b709042ae2995cad536fcdc113f
+author hoang7k <hoang.dao@gosmartlog.com> 2021-04-14 11:34:39 +0700
+committer hoang7k <hoang.dao@gosmartlog.com> 2021-04-14 11:34:39 +0700
+
+    set level 2 algo time limit to 180s
+
+
+:100644 100644 354ea765bdffe43caaff25dd645354a815cfc2e2 9ee243d76fa7cabd48b9022e41028cea97bf8d91 M	modules/classes/vrp/Solver.py

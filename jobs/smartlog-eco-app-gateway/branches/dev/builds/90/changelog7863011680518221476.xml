@@ -1,0 +1,18 @@
+commit 15a6701e64261a94f3abcbfd4e42019b89bc8979
+tree 45fbbfe11ef2a705ab644b0e2a6354331f01c2e6
+parent 1fca9b825f80a27a62a75da77bf5fac08ebd42ba
+author Tu Hoang <htu25399@gmail.com> 2021-02-19 08:01:17 +0000
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-02-19 08:01:17 +0000
+
+    Merged in update-many-order-pricing-list (pull request #149)
+    
+    remove order pricing when update
+    
+    * remove order pricing when update
+    
+    * Merge remote-tracking branch 'origin/dev' into update-many-order-pricing-list
+    
+    * refactor code
+
+
+:100644 100644 f65bfa8278450ef129a5c70e083d72766dd80d83 c93d61b584057f0111128b93e76d842624d61e81 M	src/Services/TransportExchange/Smartlog.TransportExchange.Application/OrderPricingLists/UpdateManyOrderPricingListCommand.cs

@@ -1,0 +1,354 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1681353852065</timestamp>
+            <origin>192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>5718</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>5716</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>b7b5232d-a70c-481a-ad95-8cd164e6ea18</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev_new</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>142e716bd2d634ffb1e907278394baa1f32bf991</hash>
+        <message>Merged in feature/done-view-setting-limit-container (pull request #1152)
+
+done-view-setting-limit-container</message>
+        <author>Hồ Minh Tiến &lt;tien.ho@gosmartlog.com&gt;</author>
+        <date>2023-04-13 02:44:00.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev_new</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>142e716bd2d634ffb1e907278394baa1f32bf991</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev_new</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>44</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{fpE_EJvbFZlpVwmqNh1H5EcWdqcSzNfjo99OlUt0_4JntGVATo1j1pcVOVhWQeEnWHeC_XrtdQ7XdvDVGTratHkdpg==}@bitbucket.org/smartlogtms/smartlog-transport-exchange-ui.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogtms/smartlog-transport-exchange-ui.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev_new</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>142e716bd2d634ffb1e907278394baa1f32bf991</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev_new</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>44</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{TKt3uHxl3eaJAhCSX6ANhPclUQAWeLB7butccpVuORYDvWP2Fkq2Xh4LY6tueUaeNlp3MdRxRWm9a7Kb6tUFmtc=}@bitbucket.org/smartlogtms/smartlog-transport-exchange-ui.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>4874</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>4873</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>92251</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>13383868</queueId>
+  <timestamp>1681353872017</timestamp>
+  <startTime>1681353872025</startTime>
+  <result>FAILURE</result>
+  <duration>104241</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;stx-fe-pod&apos;, containers: [
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;buildkit&apos;, image: &apos;moby/buildkit:v0.10.6&apos;, ttyEnabled: true, privileged: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+    configMapVolume(configMapName: &apos;docker-config&apos;, mountPath: &apos;/root/.docker&apos;),
+  ]) {
+  node(&apos;stx-fe-pod&apos;) {
+    commitMessage = &quot;&quot;
+    try {
+      SEM_VER = &apos;0.0.0&apos;
+      stage(&apos;Get source code&apos;) {
+        echo &apos;Getting source code...&apos;
+        checkout([
+          $class: &apos;GitSCM&apos;,
+          branches: [[name: &apos;*/dev&apos;]],
+          extensions: scm.extensions,
+          userRemoteConfigs: [[
+            credentialsId: scm.userRemoteConfigs[0].credentialsId,
+            name: &apos;origin&apos;,
+            refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+            url: scm.userRemoteConfigs[0].url
+          ]],
+          doGenerateSubmoduleConfigurations: false
+        ])
+        checkout scm
+
+        String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+        commitMessage = parts[0]
+      }
+      if (env.BRANCH_NAME == &apos;dev&apos;) {
+        echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+        REPO=&quot;eco-stx-fe&quot;
+        TAG=&quot;stage&quot;
+        DOCKERFILE = &quot;Dockerfile&quot;
+        PROJECT = &quot;stx&quot;
+        build()
+        currentBuild.result = &apos;SUCCESS&apos;
+      } else if (env.BRANCH_NAME == &apos;production&apos;) {
+        echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+        REPO=&quot;eco-stx-fe&quot;
+        TAG=&quot;prod&quot;
+        DOCKERFILE = &quot;Dockerfile&quot;
+        PROJECT = &quot;stx&quot;
+        build()
+        currentBuild.result = &apos;SUCCESS&apos;
+      } else if (env.BRANCH_NAME == &apos;dev_new&apos;) {
+        echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+        REPO=&quot;eco-stx-fe&quot;
+        TAG=&quot;dev_new&quot;
+        DOCKERFILE = &quot;Dockerfile&quot;
+        PROJECT = &quot;stx&quot;
+        build()
+        currentBuild.result = &apos;SUCCESS&apos;
+      } else {
+        echo &quot;Khong phai branch (dev|production) nen ko lam gi ca&quot;
+        error(&apos;Failed to build&apos;)
+      }
+    } catch (exc) {
+      currentBuild.result = &apos;FAILURE&apos;
+      echo &apos;I failed&apos;
+      echo exc.getMessage()
+    }
+    finally {
+      echo &apos;One way or another, I have finished&apos;
+      try {
+        deleteDir() /* clean up our workspace */
+      } catch(err) {
+        // Do nothing
+      }
+      if (currentBuild.result == &apos;SUCCESS&apos;) {
+        echo &apos;Build successful&apos;
+        slackSend channel: &apos;cma-no-boss&apos;,
+          color: &apos;good&apos;,
+          message: &quot;The pipeline ${currentBuild.fullDisplayName} v${SEM_VER} [${commitMessage}] completed successfully.&quot;
+      } else if (currentBuild.result == &apos;FAILURE&apos;) {
+        echo &apos;I failed :(&apos;
+        slackSend channel: &apos;cma-no-boss&apos;,
+          color: &apos;#c40e0e&apos;,
+          message: &quot;Attention @here ${env.JOB_NAME} v${SEM_VER} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+      }
+    }
+  }
+}
+
+def build() {
+  currentTimestamp = sh(returnStdout: true, script: &apos;date +%s&apos;).trim()
+  scr = &quot;aws ecr describe-images --registry-id 744004065806 --repository-name ${REPO} --image-ids imageTag=${TAG} --query &apos;sort(imageDetails[].imageDigest)&apos; --output text --region ap-southeast-1&quot;
+  stage(&apos;Build&apos;) {
+    container(&apos;buildkit&apos;) {
+      REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${REPO}&quot;
+      sh &quot;&quot;&quot;
+      wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+      chmod 755 /usr/local/bin/docker-credential-ecr-login
+      buildctl build --frontend dockerfile.v0 --local context=. --local dockerfile=./ --opt filename=./${DOCKERFILE} --output &apos;type=image,name=${REGISTRY_URL}:${TAG},push=true&apos;
+      &quot;&quot;&quot;
+    }
+    container(&apos;awscli&apos;) {
+      def sha256 = sh(
+        script: scr,
+        returnStdout: true
+      ).trim()
+      SHA256 = sha256
+    }
+  }
+  stage(&apos;Update GIT&apos;) {
+    script {
+      withCredentials([usernamePassword(credentialsId: &apos;cicd-bitbucket&apos;, passwordVariable: &apos;BITBUCKET_PASSWORD&apos;, usernameVariable: &apos;BITBUCKET_USERNAME&apos;)]) {
+        //def encodedPassword = URLEncoder.encode(&quot;$GIT_PASSWORD&quot;,&apos;UTF-8&apos;)
+        sh &quot;&quot;&quot;
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+        cd devops-deployment-${PROJECT}
+        sed -i &apos;s+${REGISTRY_URL}.*+${REGISTRY_URL}@${SHA256}+g&apos; ./smartlog-transport-exchange-ui/${env.BRANCH_NAME}/.argocd-source.yaml
+        git add ./smartlog-transport-exchange-ui/${env.BRANCH_NAME}/.argocd-source.yaml
+        for file in ./smartlog-transport-exchange-ui/${env.BRANCH_NAME}/deploy*.yaml; do sed -i &quot;s/\\(date:\\s*\\)&apos;[^&apos;]*&apos;/\\1&apos;${currentTimestamp}&apos;/&quot; &quot;\$file&quot;;git add &quot;\$file&quot;;done
+        git commit -m &apos;Done by Jenkins Job changemanifest: ${REPO}:${env.BUILD_NUMBER}&apos;
+        git pull --rebase https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git HEAD:refs/heads/master
+        &quot;&quot;&quot;
+      }
+    }
+  }
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>169292146</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>43824351</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>3333266930</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>50325734</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>313628066</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>36</iota>
+    <head>1:36</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://x-token-auth:{fpE_EJvbFZlpVwmqNh1H5EcWdqcSzNfjo99OlUt0_4JntGVATo1j1pcVOVhWQeEnWHeC_XrtdQ7XdvDVGTratHkdpg==}@bitbucket.org/smartlogtms/smartlog-transport-exchange-ui.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>stx-fe-pod-l5t35-bl6bm</node>
+      <workspace>/home/jenkins/agent/workspace/og-transport-exchange-ui_dev_new</workspace>
+      <changelogFile>/var/jenkins_home/jobs/smartlog-transport-exchange-ui/branches/dev-new.d110ck/builds/44/changelog2479130181008457818.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev_new:refs/remotes/origin/dev_new</refspec>
+            <url>https://x-token-auth:{TKt3uHxl3eaJAhCSX6ANhPclUQAWeLB7butccpVuORYDvWP2Fkq2Xh4LY6tueUaeNlp3MdRxRWm9a7Kb6tUFmtc=}@bitbucket.org/smartlogtms/smartlog-transport-exchange-ui.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev_new</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/smartlog-transport-exchange-ui</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>stx-fe-pod-l5t35-bl6bm</node>
+      <workspace>/home/jenkins/agent/workspace/og-transport-exchange-ui_dev_new</workspace>
+      <changelogFile>/var/jenkins_home/jobs/smartlog-transport-exchange-ui/branches/dev-new.d110ck/builds/44/changelog10541754805795429215.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

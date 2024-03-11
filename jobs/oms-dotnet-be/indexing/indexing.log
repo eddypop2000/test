@@ -1,0 +1,71 @@
+Started
+[Sat Jul 16 10:05:10 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/oms-dotnet-be for branches
+Checking branch dev from smartlogtms/oms-dotnet-be
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at ba15ad6db1742dd4c9047ffec7d5150d26f269e6)
+Checking branch staging from smartlogtms/oms-dotnet-be
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: staging
+Checking branch bugfix/OMS-Logistic from smartlogtms/oms-dotnet-be
+Checking branch bugfix/approve_order from smartlogtms/oms-dotnet-be
+Checking branch bugfix/customer from smartlogtms/oms-dotnet-be
+Checking branch bugfix/error_id from smartlogtms/oms-dotnet-be
+Checking branch bugfix/filter_date from smartlogtms/oms-dotnet-be
+Checking branch bugfix/fix_upload from smartlogtms/oms-dotnet-be
+Checking branch bugfix/index_negative from smartlogtms/oms-dotnet-be
+Checking branch bugfix/number_larger_0 from smartlogtms/oms-dotnet-be
+Checking branch bugfix/oms_116 from smartlogtms/oms-dotnet-be
+Checking branch bugfix/order_fliter from smartlogtms/oms-dotnet-be
+Checking branch bugfix/quantity_item from smartlogtms/oms-dotnet-be
+Checking branch bugfix/service_type_order from smartlogtms/oms-dotnet-be
+Checking branch bugfix/template_name from smartlogtms/oms-dotnet-be
+Checking branch bugfix/update-swagger-config from smartlogtms/oms-dotnet-be
+Checking branch bugfix/upload_excel from smartlogtms/oms-dotnet-be
+Checking branch bugfix/upload_excel_order from smartlogtms/oms-dotnet-be
+Checking branch bugfix/upload_order_message from smartlogtms/oms-dotnet-be
+Checking branch develop from smartlogtms/oms-dotnet-be
+Checking branch feature/138_shipping_discount from smartlogtms/oms-dotnet-be
+Checking branch feature/add_field from smartlogtms/oms-dotnet-be
+Checking branch feature/add_field_seller_sku from smartlogtms/oms-dotnet-be
+Checking branch feature/add_fields_products from smartlogtms/oms-dotnet-be
+Checking branch feature/add_warehouse_sale_channel from smartlogtms/oms-dotnet-be
+Checking branch feature/bundle_logisitc_sku from smartlogtms/oms-dotnet-be
+Checking branch feature/change_template_excel_order from smartlogtms/oms-dotnet-be
+Checking branch feature/change_type_integration from smartlogtms/oms-dotnet-be
+Checking branch feature/customer_name from smartlogtms/oms-dotnet-be
+Checking branch feature/fix_add_field from smartlogtms/oms-dotnet-be
+Checking branch feature/fix_api_filter from smartlogtms/oms-dotnet-be
+Checking branch feature/generate-shipment-key from smartlogtms/oms-dotnet-be
+Checking branch feature/hasura_controller from smartlogtms/oms-dotnet-be
+Checking branch feature/order from smartlogtms/oms-dotnet-be
+Checking branch feature/order-management from smartlogtms/oms-dotnet-be
+Checking branch feature/order_by_create_at_request_order from smartlogtms/oms-dotnet-be
+Checking branch feature/rename_field_map_logistics from smartlogtms/oms-dotnet-be
+Checking branch feature/shop-api from smartlogtms/oms-dotnet-be
+Checking branch feature/status_shipment_item from smartlogtms/oms-dotnet-be
+Checking branch feature/validate_source from smartlogtms/oms-dotnet-be
+Checking branch feature/verify-create-order from smartlogtms/oms-dotnet-be
+Checking branch master from smartlogtms/oms-dotnet-be
+Checking branch production from smartlogtms/oms-dotnet-be
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: production (still at deca1ba711611736318073eeb2f4d09603ac12bc)
+Checking branch test/allocate from smartlogtms/oms-dotnet-be
+
+  44 branches were processed
+Looking up smartlogtms/oms-dotnet-be for pull requests
+Checking PR-430 from smartlogtms/oms-dotnet-be and branch feature/customer_name
+Checking PR-296 from smartlogtms/oms-dotnet-be and branch feature/bundle_logisitc_sku
+Checking PR-301 from smartlogtms/oms-dotnet-be and branch feature/rename_field_map_logistics
+Checking PR-293 from smartlogtms/oms-dotnet-be and branch bugfix/customer
+Checking PR-240 from smartlogtms/oms-dotnet-be and branch bugfix/OMS-Logistic
+Checking PR-5 from smartlogtms/oms-dotnet-be and branch bugfix/update-swagger-config
+
+  6 pull requests were processed
+[Sat Jul 16 10:05:16 UTC 2022] Finished branch indexing. Indexing took 6.5 sec
+Finished: SUCCESS

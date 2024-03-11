@@ -1,0 +1,66 @@
+commit 0ae70530b04537abeaca4fd2311f0bf3260ad3c2
+tree b27f8242ba795910f05f5b0eff33cc2098f30a40
+parent 8f43e095164f5158be7147cb44a29e62d6b42630
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-26 17:12:27 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-26 17:12:27 +0700
+
+    Add nullable
+
+
+:100644 100644 c10c7568580ce3293366d4bcd0b80a2a3a0dcd46 670e76711daa8df46bb7630723359397ee82a0a7 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 c0230342c6ac9e952209e1f3af6a9cc5a47e2fdd 5c8c2894636605c1c6f7e944d240af63be0b59f0 M	src/entities/primary/dock_operation_historical.ts
+commit 8f43e095164f5158be7147cb44a29e62d6b42630
+tree 2b4987803e7513d4f57b66dd6d136d1da376e472
+parent 49578f0c6a615e0a16e52d559fe7333dc771146e
+author tuan88 <tuan.tran@gosmartlog.com> 2021-11-26 17:04:21 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-11-26 17:04:21 +0700
+
+    Update
+
+
+:100644 100644 0ff708ef03fbc4f7f2ba8a62a20ff3ab1489bb93 c10c7568580ce3293366d4bcd0b80a2a3a0dcd46 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 3ae6e64ba775cbb42ce2c2cebcdebba2db11ef28 c0230342c6ac9e952209e1f3af6a9cc5a47e2fdd M	src/entities/primary/dock_operation_historical.ts
+commit 49578f0c6a615e0a16e52d559fe7333dc771146e
+tree 564c82ce014a6c6c0c1df36e37d49a3787d97a38
+parent dc6a973f85e105be4878f53c239fe3ac36c9dfea
+author Karkill <hoa.tran@gosmartlog.com> 2021-11-26 16:40:22 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-11-26 16:40:22 +0700
+
+    Add CommitMessage Jenkins
+
+
+:100644 100644 3a63d77c7f041bdee5ecbc670a31a65c3d5f3ec2 7b8776de3a289f436eba310e38b3b66719c3c5ba M	Jenkinsfile
+:100644 100644 6a11d13276934847d3e2dec234a7710182080701 0ff708ef03fbc4f7f2ba8a62a20ff3ab1489bb93 M	src/entities/primary/dock_management_historical.ts
+:100644 100644 39a02083bcef05487c9528e5fe286c55234bb107 72de3c3d9242fe77eac88f1f442928138c97fc19 M	yarn.lock
+commit dc6a973f85e105be4878f53c239fe3ac36c9dfea
+tree e5bed7159ab9e918012b42ee8577322be798e8cc
+parent 087fb4c8323a5092573f8b6c1182bba57c378ee1
+author tuan88 <tuan.tran@gosmartlog.com> 2021-11-16 16:59:31 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-11-16 16:59:31 +0700
+
+    Update
+
+
+:100755 100755 2141df8bdf923ab209ad49463a20d8442fbd03a8 8b8a2743a715aff64a221da13c8ec246eb169db9 M	src/@config/envs/development.ts
+:100755 100755 23176536714b189c5578c6bc8584f7098b044a86 2510dd371c8b0fc21b4e7b47096ce8eb5785b9cd M	src/@config/envs/qa.ts
+:100644 100644 3b0db1d9a367cfa24e192208592cd5c328519087 3ae6e64ba775cbb42ce2c2cebcdebba2db11ef28 M	src/entities/primary/dock_operation_historical.ts
+:100644 100644 7bb44495d6d421aeca8f04e837aec6c714107254 22178d325053fc56822aab9f9c9a20840efb32bb M	src/entities/primary/index.ts
+:000000 100644 0000000000000000000000000000000000000000 c3a7f11cac8b2d46e2af1e375d8594322520564b A	src/entities/primary/order_tracking.ts
+:100644 100644 c024ceb32cc5d2c458a7f2dfa07b63da3c104ef1 a0e2507d50c4d9647562ce3f1e8ade88464e27a1 M	src/repositories/primary/index.ts
+:000000 100644 0000000000000000000000000000000000000000 e092feb38c8be2a70dad454cca481eb04d8e9da4 A	src/repositories/primary/order_tracking.repo.ts
+:100755 100755 6e700d1466aff9027f2f25d6f84d7c48e73728f1 6dc4f7b40f0afd02afa693d694f1b2098512babf M	src/services/index.ts
+:000000 100644 0000000000000000000000000000000000000000 e53a9368238c2ae3078820c5a294d17066d6c17c A	src/services/order_tracking/dto/filter.dto.ts
+:000000 100644 0000000000000000000000000000000000000000 15d5fbf9516b7d5527fda52ea8c11128acff79cf A	src/services/order_tracking/order_tracking.service.ts
+:100644 100644 fbbd70396d734791ca83f1b925fb64ccd4cc5221 183bb3c0e0a30e8ef6632d2b9a488428758b7d89 M	src/x-modules/index.ts
+:000000 100644 0000000000000000000000000000000000000000 05ed1ea0d31691d6373e9f8b3bd4a4299e006c08 A	src/x-modules/order_tracking/controllers/order_tracking.controller.ts
+:000000 100644 0000000000000000000000000000000000000000 34bf322fb774b3da3b6bda9e9b23976b7475a77c A	src/x-modules/order_tracking/index.ts
+commit 087fb4c8323a5092573f8b6c1182bba57c378ee1
+tree 7cf07677e6f4864603fe68d5b48fa1dcb00537c0
+parent caae9503b36f4a1078a141cafcbb9c6b91aecb83
+author tuan88 <tuan.tran@gosmartlog.com> 2021-10-11 11:36:53 +0700
+committer tuan88 <tuan.tran@gosmartlog.com> 2021-10-11 11:36:53 +0700
+
+    Cancel Job
+
+
+:100644 100644 3debd4b40198ced15cb84011bb942e6a35fb4505 7767cee9737f0d25a76eed086de0633efa6a9400 M	src/x-modules/actions/providers/schedule.provider.ts

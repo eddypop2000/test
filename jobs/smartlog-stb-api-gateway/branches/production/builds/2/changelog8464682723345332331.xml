@@ -1,0 +1,11 @@
+commit bb914edf24ed9ead4ed53a1e5ce0c7978178814a
+tree bef6bedf00edec04c86efabbcd283fa93e01c83a
+parent 7db395180b9d5f855e2d967926f7819d5c9bed16
+author Hung Dang <hung.dang980@gmail.com> 2021-06-27 00:40:11 +0700
+committer Hung Dang <hung.dang980@gmail.com> 2021-06-27 00:40:11 +0700
+
+    fix bug link stmv3
+
+
+:000000 100644 0000000000000000000000000000000000000000 2da04968c4cd8b57a9c240abca427650eb9ba2ec A	.env copy
+:100644 100644 6e293c816fa80a041280f112bca65d1b97fa285e 4be8d78ffde3440a0c12ff9cc7e251550a8e9b6a M	deploy.prod.yml

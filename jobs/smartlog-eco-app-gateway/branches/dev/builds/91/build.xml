@@ -1,0 +1,324 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.40">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.6.2">
+            <timestamp>1613731601377</timestamp>
+            <origin>192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.6.4">
+      <sourceId>a4fcbd75-bf31-46a0-a691-1963d7cdc0dd</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@2.9.5">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>c717657788d2ded2330d4ce9d84302cb0ed88e44</hash>
+        <message>Merged in config-log-to-cloudwatch (pull request #150)
+
+Transport exchange, Notification: Config serilog
+
+* IdentityServer: config AWS.Logger.SeriLog
+
+* Transport exchange, Notification: Config serilog
+
+* merge dev
+</message>
+        <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+        <date>2021-02-19 10:46:36.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.17">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.4.5">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.6.0">
+              <sha1>c717657788d2ded2330d4ce9d84302cb0ed88e44</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>91</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://bitbucket.org/smartlogtms/smartlog-ecosystem.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.4.5">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>dev</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/home/jenkins/agent/workspace/smartlog-eco-app-gateway_dev</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.11">
+      <revisionStates>
+        <entry>
+          <string>git https://bitbucket.org/smartlogtms/smartlog-ecosystem.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@2.9.5"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.89">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>24370</queueId>
+  <timestamp>1613731609817</timestamp>
+  <startTime>1613731609826</startTime>
+  <result>SUCCESS</result>
+  <duration>1438106</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+    node(&apos;pod-with-gitversion&apos;) {
+      isDeploy = true
+      try {
+        SEM_VER = &apos;0.0.0&apos;
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout([
+            $class: &apos;GitSCM&apos;,
+            branches: [[name: &apos;*/dev&apos;]],
+            extensions: scm.extensions,
+            userRemoteConfigs: [[
+              credentialsId: scm.userRemoteConfigs[0].credentialsId,
+              name: &apos;origin&apos;,
+              refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+              url: scm.userRemoteConfigs[0].url
+            ]],
+            doGenerateSubmoduleConfigurations: false
+          ])
+          checkout scm
+          result = sh (
+            script: &quot;git log -1 --pretty=%B | grep &apos;build-all&apos;&quot;,
+            returnStatus: true
+          )
+          if (result != 0){
+            result = sh (
+              script: &apos;git diff --name-status HEAD~1..HEAD | grep src/Gateway/Smartlog.AppGateway&apos;,
+              returnStatus: true
+            )
+          }
+          echo &quot;result: ${result}&quot;
+        }
+        if (env.BRANCH_NAME == &apos;dev&apos; &amp;&amp; result == 0) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Build docker&apos;) {
+            container(&apos;gitversion&apos;) {
+              SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+              ).trim()
+              echo &quot;SemVer: ${SEM_VER}&quot;
+            }
+
+            container(&apos;awscli&apos;) {
+              sh &apos;aws s3 cp s3://smartlog-build-config/stx/smartlog-ecosystem-auth/appsettings-app-gateway.Staging.json src/Gateway/Smartlog.AppGateway/appsettings.Production.json&apos;
+              sh &apos;ls -la src/Gateway/Smartlog.AppGateway&apos;
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+
+            container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/staging-smartlog-eco-auth-be:app-gateway&quot;
+              sh &quot;&quot;&quot;
+              ls -la
+              docker build -f src/Gateway/Smartlog.AppGateway/Dockerfile.staging  --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL}-${SEM_VER} -t ${REGISTRY_URL}-latest --pull=true .
+              ${DOCKER_LOGIN}
+              docker push ${REGISTRY_URL}-${SEM_VER}
+              docker push ${REGISTRY_URL}-latest
+              &quot;&quot;&quot;
+            }
+          }
+          stage(&apos;Deploy to k8s&apos;) {
+            container(&apos;kubectl&apos;) {
+              sh &quot;&quot;&quot;
+              kubectl apply -f src/Gateway/Smartlog.AppGateway/deploy.staging.yml
+              kubectl patch deployment sml-eco-app-gateway-be-dev -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n eco-system
+              kubectl rollout status deployment sml-eco-app-gateway-be-dev -n eco-system
+              &quot;&quot;&quot;
+            }
+          }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else if (env.BRANCH_NAME == &apos;dev&apos;  &amp;&amp; result != 0) {
+          isDeploy = false
+          echo &apos;NO BUILD&apos;
+        } else {
+          currentBuild.result = &apos;NO BUILD&apos;
+          echo &quot;Khong phai branch dev nen ko lam gi ca&quot;
+          error(&apos;Failed to build&apos;)
+        }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        try {
+          deleteDir() /* clean up our workspace */
+        } catch(err) {
+          // Do nothing
+        }
+        if (isDeploy != true) {
+          /* Do nothing */
+        } else if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: &apos;cma-no-boss&apos;,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} v${SEM_VER} completed successfully.&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: &apos;cma-no-boss&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} v${SEM_VER} #${env.BUILD_NUMBER} has failed.&quot;
+        }
+      }
+    }
+  }
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>383449787</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1769077499</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>5407747778</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>684380220</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>313629245</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>24</iota>
+    <head>1:24</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-24jwk-97wrm</node>
+      <workspace>/home/jenkins/agent/workspace/smartlog-eco-app-gateway_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/smartlog-eco-app-gateway/branches/dev/builds/91/changelog1781982100449306706.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.4.5">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision plugin="git-client@3.6.0">
+                <sha1>c717657788d2ded2330d4ce9d84302cb0ed88e44</sha1>
+                <branches class="singleton-set">
+                  <hudson.plugins.git.Branch>
+                    <sha1 reference="../../../sha1"/>
+                    <name>dev</name>
+                  </hudson.plugins.git.Branch>
+                </branches>
+              </revision>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-24jwk-97wrm</node>
+      <workspace>/home/jenkins/agent/workspace/smartlog-eco-app-gateway_dev</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

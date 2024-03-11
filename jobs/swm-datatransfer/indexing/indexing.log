@@ -1,0 +1,43 @@
+Started
+[Fri Mar 11 01:16:03 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/swm-datatransfer for branches
+Checking branch Update-TMS from smartlogwms/swm-datatransfer
+Checking branch add-memory from smartlogwms/swm-datatransfer
+Checking branch add_Url_TBS from smartlogwms/swm-datatransfer
+Checking branch config_cronjob from smartlogwms/swm-datatransfer
+Checking branch dev from smartlogwms/swm-datatransfer
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at 0ae70530b04537abeaca4fd2311f0bf3260ad3c2)
+Checking branch docker from smartlogwms/swm-datatransfer
+Checking branch master from smartlogwms/swm-datatransfer
+Checking branch production from smartlogwms/swm-datatransfer
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: production (still at ccf72ae3d32da0d01eefd609a376ca7fb83a7cee)
+
+  8 branches were processed
+Looking up smartlogwms/swm-datatransfer for pull requests
+ERROR: [Fri Mar 11 01:16:08 UTC 2022] Could not fetch branches from source 2573dc13-63a1-4c58-b0be-235755204781
+[Fri Mar 11 01:16:08 UTC 2022] Finished branch indexing. Indexing took 4.8 sec
+FATAL: Failed to recompute children of swm-datatransfer
+com.cloudbees.jenkins.plugins.bitbucket.api.BitbucketRequestException: HTTP request error. Status: 403: Forbidden.
+{"type": "error", "error": {"message": "Your credentials lack one or more required privilege scopes.", "detail": {"granted": ["issue", "project", "team"], "required": ["pullrequest"]}}}
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getRequestAsInputStream(BitbucketCloudApiClient.java:911)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getRequest(BitbucketCloudApiClient.java:923)
+	at com.cloudbees.jenkins.plugins.bitbucket.client.BitbucketCloudApiClient.getPullRequests(BitbucketCloudApiClient.java:284)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource$1.create(BitbucketSCMSource.java:569)
+	at com.cloudbees.jenkins.plugins.bitbucket.LazyIterable.iterator(LazyIterable.java:57)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource.retrievePullRequests(BitbucketSCMSource.java:635)
+	at com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource.retrieve(BitbucketSCMSource.java:608)
+	at jenkins.scm.api.SCMSource._retrieve(SCMSource.java:373)
+	at jenkins.scm.api.SCMSource.fetch(SCMSource.java:283)
+	at jenkins.branch.MultiBranchProject.computeChildren(MultiBranchProject.java:641)
+	at com.cloudbees.hudson.plugins.folder.computed.ComputedFolder.updateChildren(ComputedFolder.java:278)
+	at com.cloudbees.hudson.plugins.folder.computed.FolderComputation.run(FolderComputation.java:166)
+	at jenkins.branch.MultiBranchProject$BranchIndexing.run(MultiBranchProject.java:1032)
+	at hudson.model.ResourceController.execute(ResourceController.java:99)
+	at hudson.model.Executor.run(Executor.java:432)
+Finished: FAILURE

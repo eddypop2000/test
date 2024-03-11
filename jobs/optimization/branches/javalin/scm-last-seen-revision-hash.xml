@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>javalin</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>3fc53322426b94098d3fe7d5c0dcb128b3439f04</hash>
+  <message>add nodeSelector
+</message>
+  <author>Karkill &lt;hoa.tran@gosmartlog.com&gt;</author>
+  <date>2021-03-26 03:24:53.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

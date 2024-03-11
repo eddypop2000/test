@@ -1,0 +1,10 @@
+commit cbbcca3a2fddf9f04a386070567d81050eeb3e5e
+tree 68182d28b297a8d8ae6f333801787024ae413efd
+parent 7f7b9bf5167dffac2c667d9b53c9266b5a4c4fd4
+author Phuong Do <dongphuong2004@gmail.com> 2021-05-31 12:49:44 +0700
+committer Phuong Do <dongphuong2004@gmail.com> 2021-05-31 12:49:44 +0700
+
+    avoid dist null
+
+
+:100644 100644 ec1829fb7c913a556b20325d4c9087a2c2a71bc9 db22334d715c5217a06a2106fc48cc4689517f63 M	src/main/java/vrp/model/VRPLocationConfig.java

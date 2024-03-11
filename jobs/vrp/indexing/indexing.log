@@ -1,0 +1,24 @@
+Started
+[Fri Apr 09 03:28:33 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp for branches
+Checking branch dev from smartlogtms/vrp
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: dev
+Checking branch vinamilk from smartlogtms/vrp
+Checking branch 1mg-Shipment from smartlogtms/vrp
+Checking branch ACC-Services from smartlogtms/vrp
+Checking branch ACC-Shipment from smartlogtms/vrp
+Checking branch Fix-ACC-Case from smartlogtms/vrp
+Checking branch dev2 from smartlogtms/vrp
+Checking branch master from smartlogtms/vrp
+Checking branch master-service from smartlogtms/vrp
+
+  9 branches were processed
+Looking up smartlogtms/vrp for pull requests
+
+  0 pull requests were processed
+[Fri Apr 09 03:28:35 UTC 2021] Finished branch indexing. Indexing took 2.1 sec
+Finished: SUCCESS

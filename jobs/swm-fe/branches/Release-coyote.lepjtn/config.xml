@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions/>
+  <displayName>Release/coyote</displayName>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@716.vc692a_e52371b_">
+      <branch plugin="branch-api@2.1051.v9985666b_f6cc">
+        <sourceId>e66144d8-30c7-497e-9bbc-26b256625d99</sourceId>
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <name>Release/coyote</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/Release/coyote:refs/remotes/origin/Release/coyote</refspec>
+              <url>https://x-token-auth:{9vrCMy28Ze9-Lf49Hpg1RsnmCGBTWIInE-saSmYr_YkCvUW2yRhbmbl_wZuFpivtzgbQumozFB0JVWJQMFJu40DL9w==}@bitbucket.org/smartlogwms/swm-fe.git</url>
+              <credentialsId>oauth-swm</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>Release/coyote</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="hudson.plugins.git.browser.BitbucketWeb">
+            <url>https://bitbucket.org/smartlogwms/swm-fe</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties/>
+        <actions>
+          <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+            <iconClassName>icon-bitbucket-branch</iconClassName>
+            <url>https://bitbucket.org/smartlogwms/swm-fe/branch/Release%2Fcoyote</url>
+          </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@631.v9143df5b_e4a_a">
+            <objectUrl>https://bitbucket.org/smartlogwms/swm-fe/branch/Release%2Fcoyote</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@716.vc692a_e52371b_">
+    <scriptPath>Jenkinsfile</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

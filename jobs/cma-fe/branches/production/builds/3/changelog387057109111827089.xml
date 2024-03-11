@@ -1,0 +1,22 @@
+commit b31ca07a8e2fc562088a40c10f46aadf10f8d5b0
+tree d1a97ed55a24f78117e260dc31fd38cc4aa3b51c
+parent 03474df8429bc4c4c4ad5e1472826f95dc7d739b
+author Karkill <hoa.tran@gosmartlog.com> 2021-03-22 16:52:34 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-03-22 17:08:42 +0700
+
+    Deploy Dev
+
+
+:100644 100644 f3b0c06b7d17b18d9d4b600a749631464c34f2f2 43e9750eaac2b7dd23b26dfe31a04b33e51b9762 M	Jenkinsfile
+:100644 100644 998cb9a55d65f19fd00d40e822a03d5bc4c073cf 899075aea2303bd8fe50c9dcd9535c46d8d730ec M	deploy.prod.yml
+:100644 100644 24d8cb42e8bb482dbf43d746b71b3396d2f373b6 e7025ac956004f9196681414ec805f224df07a6c M	deploy.stage.yml
+commit 03474df8429bc4c4c4ad5e1472826f95dc7d739b
+tree 39b9ba01614a70fcc84de148a4d5e276184dca66
+parent 36215b6fcaba351d71126764c1ed87f90c2dd397
+author Tu Hoang <htu25399@gmail.com> 2021-03-22 02:49:56 +0000
+committer tqhoa-Karkill <hoa.tran@gosmartlog.com> 2021-03-22 02:49:56 +0000
+
+    [SES-118]-Add-Filed-Currency-Unit
+
+
+:100644 100644 7ed7ad32426f76e825c9dff43244b7866a7d3b39 82046c4e622523fb233c8e5c9b133949f188c17e M	src/appConst/ReportTableColumn.ts

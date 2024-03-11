@@ -1,0 +1,387 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1679913962734</timestamp>
+            <origin>192.168.24.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>8943</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>8942</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>162846ee-69c3-4137-abe3-83aabe7b4fee</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>production</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>633ee08cda7505c43e13a3dd6e38c7a14136d396</hash>
+        <message>Merged in sprint-11/hot-fix-size-table (pull request #1042)
+
+rebuild</message>
+        <author>[DEV] Đức Nguyễn &lt;duc.nguyen@gosmartlog.com&gt;</author>
+        <date>2023-03-27 10:45:54.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>production</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>633ee08cda7505c43e13a3dd6e38c7a14136d396</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>production</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>49</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{eIv-z5fCc1Y2zjBU-DgNBalQ0GDawfkgIyBsMGHksdNjPfF3XNVOzKpJ4mmrmw3a2PEtHrEreQm6ZHjfPKnCDhZiqg==}@bitbucket.org/smartlogwms/swm-sme-fe.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogwms/swm-sme-fe.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>production</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>633ee08cda7505c43e13a3dd6e38c7a14136d396</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>production</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>49</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{WSR9Xi2ur96TlAEnLX_PkI0DoQ1mh8JcoMj2CYlfmh2bmlW2zKwjsaxAoXtjDcrTXg5NWyJXWrqTJmd_qNr1pkX5nw==}@bitbucket.org/smartlogwms/swm-sme-fe.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>3827</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>3826</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>384221</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>12446753</queueId>
+  <timestamp>1679913984211</timestamp>
+  <startTime>1679913984214</startTime>
+  <result>SUCCESS</result>
+  <duration>394404</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;, resourceRequestEphemeralStorage: &apos;10Mi&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true, resourceRequestEphemeralStorage: &apos;10Mi&apos;),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true, resourceRequestEphemeralStorage: &apos;10Mi&apos;),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true, resourceRequestEphemeralStorage: &apos;10Mi&apos;),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+    node(&apos;pod-with-gitversion&apos;) {
+      SLACK_CHANNEL = &apos;C033GC8BZ51&apos; // swm_sme_build_log
+      commitMessage = &quot;&quot;
+      try {
+        SEM_VER = &apos;0.0.0&apos;
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout([
+            $class: &apos;GitSCM&apos;,
+            branches: [[name: &apos;*/dev&apos;]],
+            extensions: scm.extensions,
+            userRemoteConfigs: [[
+              credentialsId: scm.userRemoteConfigs[0].credentialsId,
+              name: &apos;origin&apos;,
+              refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+              url: scm.userRemoteConfigs[0].url
+            ]],
+            doGenerateSubmoduleConfigurations: false
+          ])
+          checkout scm
+
+          String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+          commitMessage = parts[0]
+        }
+
+        rootDir = pwd()
+        baseDeploy = load &quot;${rootDir}/Jenkins.Base.groovy&quot;
+        baseDeploy.awscli()
+
+        if (env.BRANCH_NAME == &apos;dev&apos;) {
+          tagEnv = &apos;stage&apos;
+          build()
+        } else if (env.BRANCH_NAME == &apos;production&apos;) {
+          tagEnv = &apos;prod&apos;
+          build()
+        } else {
+          echo &quot;Khong phai branch (dev|production) nen ko lam gi ca&quot;
+          error(&apos;Failed to build&apos;)
+        }
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        try {
+          deleteDir() /* clean up our workspace */
+        } catch(err) {
+          // Do nothing
+        }
+        if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: SLACK_CHANNEL,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} [Swm-Sme-Fe] v${SEM_VER} [${commitMessage}] completed successfully.&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: SLACK_CHANNEL,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} [Swm-Sme-Fe] v${SEM_VER} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+        }
+      }
+    }
+  }
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+  baseDeploy.generateVersion()
+  echo &quot;Version ${SEM_VER}&quot;
+
+  namespace = &apos;swmsme&apos;
+  repoPath = &apos;&apos;
+  prefixPod = &apos;swm-sme-fe&apos;
+
+  stage(&apos;Build docker&apos;) {
+    slackSend channel: SLACK_CHANNEL,
+      color: &apos;good&apos;,
+      message: &quot;Start build ${currentBuild.fullDisplayName} [Swm-Sme-FE] v.${SEM_VER} [${commitMessage}]&quot;
+    baseDeploy.buildDocker(true)
+  }
+  stage(&apos;Deploy to k8s&apos;) {
+    baseDeploy.deployToK8s(true)
+  }
+
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>/* groovylint-disable LineLength */
+def awscli(running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+            ).trim()
+        }
+    }
+}
+
+def generateVersion(running = true) {
+    if (running) {
+        container(&apos;gitversion&apos;) {
+            SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+            ).trim()
+            echo &quot;SemVer: ${SEM_VER}&quot;
+        }
+    }
+}
+
+def loadS3File(source, dest, running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            sh &quot;&quot;&quot;
+                aws s3 cp ${source} ${dest}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def buildDocker(running = true) {
+    if (running) {
+        container(&apos;docker&apos;) {
+            REGISTRY_URL = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}:${tagEnv}&quot;&quot;&quot;
+            sh &quot;&quot;&quot;
+                ls -la ${repoPath}
+                docker build -f ${repoPath}Dockerfile.${tagEnv} --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL} --pull=true .
+                ${DOCKER_LOGIN}
+                docker push ${REGISTRY_URL}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def deployToK8s(running = true) {
+    if (running) {
+        container(&apos;kubectl&apos;) {
+            sh &quot;&quot;&quot;
+                kubectl apply -f ${repoPath}deploy.${tagEnv}.yml
+                kubectl patch deployment ${prefixPod}-${tagEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n ${namespace}
+                kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+            &quot;&quot;&quot;
+        }
+    }
+}
+return this
+</string>
+      </entry>
+    </loadedScripts>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>282128364</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>194949538</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>4389150269</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>137594097</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>444198863</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>60</iota>
+    <head>1:60</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://x-token-auth:{eIv-z5fCc1Y2zjBU-DgNBalQ0GDawfkgIyBsMGHksdNjPfF3XNVOzKpJ4mmrmw3a2PEtHrEreQm6ZHjfPKnCDhZiqg==}@bitbucket.org/smartlogwms/swm-sme-fe.git</url>
+            <credentialsId>oauth-swm</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-srmb2-60m2p</node>
+      <workspace>/home/jenkins/agent/workspace/swm-sme-fe_production</workspace>
+      <changelogFile>/var/jenkins_home/jobs/swm-sme-fe/branches/production/builds/49/changelog665484471414555662.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/production:refs/remotes/origin/production</refspec>
+            <url>https://x-token-auth:{WSR9Xi2ur96TlAEnLX_PkI0DoQ1mh8JcoMj2CYlfmh2bmlW2zKwjsaxAoXtjDcrTXg5NWyJXWrqTJmd_qNr1pkX5nw==}@bitbucket.org/smartlogwms/swm-sme-fe.git</url>
+            <credentialsId>oauth-swm</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>production</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogwms/swm-sme-fe</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-srmb2-60m2p</node>
+      <workspace>/home/jenkins/agent/workspace/swm-sme-fe_production</workspace>
+      <changelogFile>/var/jenkins_home/jobs/swm-sme-fe/branches/production/builds/49/changelog29763564965991131.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

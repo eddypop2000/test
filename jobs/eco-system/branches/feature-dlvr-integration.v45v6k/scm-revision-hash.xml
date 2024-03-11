@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>feature/dlvr_integration</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>01f04f03631350ca08faf710d36543e3c8225244</hash>
+  <message>Merged in bugfix/update-get-user-avatar (pull request #1034)
+
+fix GetAvatarUrl
+
+* fix GetAvatarUrl</message>
+  <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+  <date>2022-07-14 02:59:28.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

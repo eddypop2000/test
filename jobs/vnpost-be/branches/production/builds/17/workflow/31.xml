@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>30</string>
+    </parentIds>
+    <id>31</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-swm.git
+        cd devops-deployment-swm
+        for file in ./vnpost-be/production/deploy*.yaml; do sed -i &quot;s/\(date:\s*\)&apos;[^&apos;]*&apos;/\1&apos;1681101712&apos;/&quot; &quot;$file&quot;;git add &quot;$file&quot;;done
+        git commit -m &apos;Done by Jenkins Job changemanifest: vnpost-be:17&apos;
+        git pull --rebase https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-swm.git
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-swm.git HEAD:refs/heads/master
+        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1681101768446</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

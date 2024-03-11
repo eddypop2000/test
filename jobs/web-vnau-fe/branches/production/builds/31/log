@@ -1,0 +1,532 @@
+Branch event
+Obtained Jenkinsfile from 338d4b39dae46d5a96c5affac59d4429b4d4aa4b
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘[8mha:////4ObvLlyTtnP0BTSCwTdmju0kTH4n5pzlhAx4oU0Xzk9TAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZpoPak1Bz9gvwU3fLMkgzd9MySstSi4sz8PH0AWlk5HNAAAAA=[0mpod-with-gitversion’
+Agent [8mha:////4O1VEdxA5xkbwje/KM/5KJTAZQGmw6c7SaIFT9tYvFYrAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgZN/eT83ILSktQi/YL8FN3yzJIM3fTMkrLUouLM/DxdCxOLvBzdspLCtFwAwzKhqN4AAAA=[0mpod-with-gitversion-848nl-vtqfm is provisioned from template pod-with-gitversion-848nl
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/web-vnau-admin/job/production/17/"
+    runUrl: "job/web-vnau-admin/job/production/17/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "80fe24075936274d2a741dc1a6fc9a48b225a8ce"
+    jenkins/label: "pod-with-gitversion"
+  name: "pod-with-gitversion-848nl-vtqfm"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1"
+    imagePullPolicy: "IfNotPresent"
+    name: "gitversion"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "pod-with-gitversion-848nl-vtqfm"
+    - name: "JENKINS_NAME"
+      value: "pod-with-gitversion-848nl-vtqfm"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4MliMXPC03lW1dIxfi1ppzayEHuXbkEKnpy0GZv2LL3GAAAAuh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz5EgYj/eT83ILSktQi/YL8FFUjl/LMkgwglZ5ZUpZaVJyZnwfkWJhY5OUA6bKSwrRcfQCx2tIV5wAAAA==[0mpod-with-gitversion-848nl-vtqfm in /home/jenkins/agent/workspace/web-vnau-fe_production
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/smartlogwms/web-vnau-fe.git
+ > git init /home/jenkins/agent/workspace/web-vnau-fe_production # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogwms/web-vnau-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogwms/web-vnau-fe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 338d4b39dae46d5a96c5affac59d4429b4d4aa4b (production)
+ > git config remote.origin.url https://bitbucket.org/smartlogwms/web-vnau-fe.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 338d4b39dae46d5a96c5affac59d4429b4d4aa4b # timeout=10
+Commit message: "update language"
+ > git rev-list --no-walk 7cfc1a2406cdfa79925a60fe40d5e497dae45655 # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/web-vnau-fe_production/.git # timeout=10
+ > git config remote.origin.url https://bitbucket.org/smartlogwms/web-vnau-fe.git # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogwms/web-vnau-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogwms/web-vnau-fe.git +refs/heads/production:refs/remotes/origin/production # timeout=10
+Checking out Revision 338d4b39dae46d5a96c5affac59d4429b4d4aa4b (production)
+Commit message: "update language"
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4HvcU3qz3cKxe1yU2rDxBc0W4GMLnHwqC4vKt7gzN97GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4PBgYTz/0ukqnkXWwIZRA41zsp5tLN0nJQjPAMa4nFv3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4A6j4PJDL2AnaHydOV8myGgDRk6aZ1TLflkgZ84Eyc0YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPOb21ub0AAAA=[0m[Pipeline] echo
+Process build for production branch
+[8mha:////4JnQ4bAoJImGiCagXsVS6+guB8uLHRXT73mm50YvFjx3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] container
+[8mha:////4PcUaNYR+Wl+fNndvl/oHtU75iLH4k5ZeVJRRSdLex6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4GjcxG80zQRbAyuzbtQ5CfXy37qw8AmltMe5wonAY5BhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 338d4b39dae46d5a96c5affac59d4429b4d4aa4b # timeout=10
++ /tools/dotnet-gitversion . /showvariable SemVer
+[8mha:////4FBz1qXfSkA6XIj2IjpWYeb0cYQq0lhPRDwUoOMNJedJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKOtDrn3tP1ih7y++AAAA[0m[Pipeline] echo
+SemVer: 0.1.77-beta.17
+[8mha:////4NZW9P2vKdfvt6/GdcIW1v3SBriiBGe1KSWrXJEOIprqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIR6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BGVd59ofPoukFhO+AAAA[0m[Pipeline] }
+[8mha:////4IBmH6UAlOdjxNIswDI37smfFvm16ND+fSJoVlE9xTEfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+4R02vvgAAAA==[0m[Pipeline] // container
+[8mha:////4JErtdsEyJSlOARQYsKUy3tNqxv4AmLiUUukvOrP9rvHAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm+sP66UwgAAAA==[0m[Pipeline] container
+[8mha:////4Oyw2zrJlcWr3kG6TpfmHOzbJMxXkYbWxe+I10Oj3Gz/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4JKHrCWJz7n3BKcmuopTcwSdgouRg214yx8jaxIxGcXHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4Io6GVFGkwR4RWFTk2MTX+TmP/g0x4Zy9qNrHE2eyvdQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3QKkBhvgAAAA==[0m[Pipeline] }
+[8mha:////4LVmDlQ1R8tvHYjA8ni5lWc8rjyIxdx6jIXD3zI7OsHkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2TqBHnvgAAAA==[0m[Pipeline] // container
+[8mha:////4Iu0ESUeZHi060CZwGW0QnYrTECo+Llt48+VCWfKvAb2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsCCEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g1yLDAowgAAAA==[0m[Pipeline] container
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] {
+[8mha:////4H/KG9IZoQdwC6EGJmTl2qjrVW22e3iTp31W5mip3JzEAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfewYmQ+b4AAAA=[0m[Pipeline] sh
++ ls -la
+total 624
+drwxr-xr-x   15 1000     1000          4096 Mar  2 15:49 .
+drwxr-xr-x    4 1000     1000            92 Mar  2 15:48 ..
+-rw-r--r--    1 1000     1000           128 Mar  2 15:49 .babelrc.js
+-rw-r--r--    1 1000     1000           181 Mar  2 15:49 .dockerignore
+-rw-r--r--    1 1000     1000           345 Mar  2 15:49 .eslintrc.json
+drwxr-xr-x    9 1000     1000           186 Mar  2 15:49 .git
+-rw-r--r--    1 1000     1000           531 Mar  2 15:49 .gitignore
+-rw-r--r--    1 1000     1000           106 Mar  2 15:49 .prettierrc.json
+-rw-r--r--    1 1000     1000           699 Mar  2 15:49 Dockerfile.prod
+-rw-r--r--    1 1000     1000           701 Mar  2 15:49 Dockerfile.stage
+-rw-r--r--    1 1000     1000           294 Mar  2 15:49 GitVersion.yml
+-rw-r--r--    1 1000     1000          3996 Mar  2 15:49 Jenkinsfile
+-rw-r--r--    1 1000     1000          1582 Mar  2 15:49 README.md
+drwxr-xr-x    4 1000     1000            32 Mar  2 15:49 assets
+drwxr-xr-x    3 1000     1000            21 Mar  2 15:49 backup
+drwxr-xr-x    2 1000     1000           303 Mar  2 15:49 components
+drwxr-xr-x    2 1000     1000            75 Mar  2 15:49 constants
+drwxr-xr-x    2 1000     1000           106 Mar  2 15:49 contexts
+-rw-r--r--    1 1000     1000          1376 Mar  2 15:49 deploy.prod.yml
+-rw-r--r--    1 1000     1000          1385 Mar  2 15:49 deploy.stage.yml
+drwxr-xr-x    9 1000     1000          4096 Mar  2 15:49 hooks
+drwxr-xr-x   11 1000     1000          4096 Mar  2 15:49 layouts
+-rw-r--r--    1 1000     1000           749 Mar  2 15:49 netlify.toml
+-rw-r--r--    1 1000     1000           201 Mar  2 15:49 next-env.d.ts
+-rw-r--r--    1 1000     1000           822 Mar  2 15:49 next.config.js
+-rw-r--r--    1 1000     1000          1508 Mar  2 15:49 package.json
+drwxr-xr-x   10 1000     1000          4096 Mar  2 15:49 pages
+drwxr-xr-x    4 1000     1000            69 Mar  2 15:49 public
+drwxr-xr-x    5 1000     1000            95 Mar  2 15:49 styles
+drwxr-xr-x    4 1000     1000            26 Mar  2 15:49 translations
+-rw-r--r--    1 1000     1000           529 Mar  2 15:49 tsconfig.json
+drwxr-xr-x    3 1000     1000            33 Mar  2 15:49 utils
+-rw-r--r--    1 1000     1000        549841 Mar  2 15:49 yarn.lock
++ docker build -f Dockerfile.prod --build-arg 'version=0.1.77-beta.17' '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/web-vnau-fe:prod '--pull=true' .
+Sending build context to Docker daemon  2.232MB
+Step 1/19 : FROM public.ecr.aws/smartlog/node:16.5.0-alpine3.14 as builder
+16.5.0-alpine3.14: Pulling from smartlog/node
+5843afab3874: Already exists
+a323d77b1d49: Already exists
+375bc03a4853: Already exists
+e9d0d9a61f19: Already exists
+Digest: sha256:69203e6a0484bc930e453a053ff2fcf769cf3bf5bbd5b7271c5fd9bae684856a
+Status: Downloaded newer image for public.ecr.aws/smartlog/node:16.5.0-alpine3.14
+ ---> f88956284d23
+Step 2/19 : WORKDIR /app
+ ---> Running in 799b7d2f9848
+Removing intermediate container 799b7d2f9848
+ ---> e172456e93cd
+Step 3/19 : COPY package.json yarn.lock ./
+ ---> 43d163550e23
+Step 4/19 : RUN yarn
+ ---> Running in cf97aaf7d18b
+yarn install v1.22.5
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info @next/swc-android-arm64@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-android-arm64@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-android-arm64@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-arm64@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-arm64@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-darwin-arm64@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-darwin-x64@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-darwin-x64@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm-gnueabihf@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-linux-arm-gnueabihf@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-gnu@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-linux-arm64-gnu@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-linux-arm64-musl@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info "@next/swc-linux-arm64-musl@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-arm64-msvc@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-arm64-msvc@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-arm64-msvc@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-win32-ia32-msvc@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-ia32-msvc@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @next/swc-win32-ia32-msvc@12.0.7: The CPU architecture "x64" is incompatible with this module.
+info @next/swc-win32-x64-msvc@12.0.7: The platform "linux" is incompatible with this module.
+info "@next/swc-win32-x64-msvc@12.0.7" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-darwin-arm64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-darwin-arm64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-darwin-arm64@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info @netlify/local-functions-proxy-darwin-x64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-darwin-x64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-freebsd-arm64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-freebsd-arm64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-freebsd-arm64@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info @netlify/local-functions-proxy-freebsd-x64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-freebsd-x64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-linux-arm@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info "@netlify/local-functions-proxy-linux-arm@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-linux-arm64@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info "@netlify/local-functions-proxy-linux-arm64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-linux-ia32@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info "@netlify/local-functions-proxy-linux-ia32@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-linux-ppc64@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info "@netlify/local-functions-proxy-linux-ppc64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-openbsd-x64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-openbsd-x64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-win32-ia32@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-win32-ia32@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/local-functions-proxy-win32-ia32@1.1.1: The CPU architecture "x64" is incompatible with this module.
+info @netlify/local-functions-proxy-win32-x64@1.1.1: The platform "linux" is incompatible with this module.
+info "@netlify/local-functions-proxy-win32-x64@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/routing-local-proxy-darwin-arm64@0.34.1: The platform "linux" is incompatible with this module.
+info "@netlify/routing-local-proxy-darwin-arm64@0.34.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/routing-local-proxy-darwin-arm64@0.34.1: The CPU architecture "x64" is incompatible with this module.
+info @netlify/routing-local-proxy-darwin-x64@0.34.1: The platform "linux" is incompatible with this module.
+info "@netlify/routing-local-proxy-darwin-x64@0.34.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @netlify/routing-local-proxy-win32-x64@0.34.1: The platform "linux" is incompatible with this module.
+info "@netlify/routing-local-proxy-win32-x64@0.34.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[91mwarning "next > styled-jsx > @babel/plugin-syntax-jsx@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+[0m[91mwarning "next-plugin-antd-less > less-loader@7.3.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning "next-plugin-antd-less > null-loader@4.0.1" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+[0m[91mwarning " > slick-carousel@1.8.1" has unmet peer dependency "jquery@>=1.8.0".
+[0m[91mwarning " > @typescript-eslint/eslint-plugin@5.6.0" has unmet peer dependency "@typescript-eslint/parser@^5.0.0".
+[0m[4/4] Building fresh packages...
+Done in 86.85s.
+Removing intermediate container cf97aaf7d18b
+ ---> 062401d369a2
+Step 5/19 : COPY . ./
+ ---> ce6d696c70c0
+Step 6/19 : ENV REACT_APP_ENV=prod
+ ---> Running in 002eb7568b4b
+Removing intermediate container 002eb7568b4b
+ ---> f6cdc1981af9
+Step 7/19 : RUN yarn build
+ ---> Running in 02b039646623
+yarn run v1.22.5
+$ next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+info  - Skipping validation of types...
+info  - Creating an optimized production build...
+info  - Disabled SWC as replacement for Babel because of custom Babel configuration ".babelrc.js" https://nextjs.org/docs/messages/swc-disabled
+info  - Using external babel configuration from /app/.babelrc.js
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/29)
+info  - Generating static pages (7/29)
+info  - Generating static pages (14/29)
+info  - Generating static pages (21/29)
+info  - Generating static pages (29/29)
+info  - Finalizing page optimization...
+
+Page                                       Size     First Load JS
+┌ ○ /                                      16.2 kB         375 kB
+├   └ css/c18c4392febdcb10.css             599 B
+├   /_app                                  0 B             359 kB
+├ ○ /404                                   337 B           360 kB
+├ ○ /about-us                              294 B           359 kB
+├ ○ /account                               31.5 kB         412 kB
+├   ├ css/ee90e170d65ed7fe.css             8.27 kB
+├   └ css/3a961967b8f6e77c.css             310 B
+├ λ /api/hello                             0 B             359 kB
+├ ○ /cancel-email                          2.49 kB         383 kB
+├   └ css/0b041d7fd579970d.css             2.2 kB
+├ ○ /contact                               2.59 kB         362 kB
+├   └ css/efbe9d51f054b8e3.css             238 B
+├ ○ /event                                 3.92 kB         370 kB
+├ ○ /event/[id]                            1.83 kB         361 kB
+├ ○ /forum                                 3.32 kB         399 kB
+├   └ css/33d48be511547c0b.css             833 B
+├ ○ /forum-refactor                        5.91 kB         397 kB
+├   └ css/85c955cb351e7ed1.css             530 B
+├ ○ /forum/[id]                            5.03 kB         376 kB
+├   └ css/0466fa9c2b3e12c3.css             795 B
+├ ○ /forum/new-post                        5.41 kB         365 kB
+├   └ css/d69f240838228143.css             1.06 kB
+├ ○ /look-up/3PL                           2.16 kB         433 kB
+├   └ css/422caeb8d6a22187.css             1.85 kB
+├ ○ /look-up/port                          4.03 kB         437 kB
+├   └ css/59f43ee1c4c9fd4a.css             2.79 kB
+├ ○ /look-up/shipping                      5.89 kB         378 kB
+├   └ css/4650deed0e3b4758.css             1.9 kB
+├ ○ /media-release                         4.18 kB         371 kB
+├ ○ /media-release/[id]                    1.84 kB         361 kB
+├ ○ /news                                  5.12 kB         378 kB
+├   └ css/63e16bd3c817f686.css             1.48 kB
+├ ○ /news/[id]                             1.83 kB         361 kB
+├ ○ /partner/find                          6.45 kB         373 kB
+├ ○ /partner/find/[id]                     7.52 kB         374 kB
+├   └ css/efd9e4e4a329e236.css             549 B
+├ ○ /partner/find/create-request           5.84 kB         365 kB
+├   └ css/7f03cef63a4e98b8.css             2.09 kB
+├ ○ /partner/list                          2.55 kB         427 kB
+├   └ css/891a68e43902c13f.css             549 B
+├ ○ /privacy-policy                        827 B           360 kB
+├ ○ /received-email                        4.29 kB         363 kB
+├   └ css/1e90cc8e28dfb3cb.css             1.86 kB
+├ ○ /rules                                 4.21 kB         369 kB
+├ ○ /terms-and-conditions                  794 B           360 kB
+└ ○ /useful-link                           4.23 kB         369 kB
++ First Load JS shared by all              359 kB
+  ├ chunks/framework-4975f770e34de116.js   42.2 kB
+  ├ chunks/main-b293ecd91d075b15.js        27 kB
+  ├ chunks/pages/_app-fb6001897c50fb86.js  288 kB
+  ├ chunks/webpack-ab4d5ce12c1f63f1.js     2.01 kB
+  └ css/622d5368f5a85e1c.css               71.9 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
+Done in 122.24s.
+Removing intermediate container 02b039646623
+ ---> f92dded15205
+Step 8/19 : FROM public.ecr.aws/smartlog/node:16.5.0-alpine3.14 as runner
+16.5.0-alpine3.14: Pulling from smartlog/node
+Digest: sha256:69203e6a0484bc930e453a053ff2fcf769cf3bf5bbd5b7271c5fd9bae684856a
+Status: Image is up to date for public.ecr.aws/smartlog/node:16.5.0-alpine3.14
+ ---> f88956284d23
+Step 9/19 : WORKDIR /app
+ ---> Using cache
+ ---> e172456e93cd
+Step 10/19 : RUN addgroup -g 1001 -S nodejs
+ ---> Running in 81b7f74e61f1
+Removing intermediate container 81b7f74e61f1
+ ---> 3d3c87992daf
+Step 11/19 : RUN adduser -S nextjs -u 1001
+ ---> Running in 9fe4c0658d4b
+Removing intermediate container 9fe4c0658d4b
+ ---> e8046569640a
+Step 12/19 : COPY --from=builder /app/next.config.js ./
+ ---> 0dec1ae95c8a
+Step 13/19 : COPY --from=builder /app/public ./public
+ ---> 27b25f2fd10b
+Step 14/19 : COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+ ---> 6bb2477a1656
+Step 15/19 : COPY --from=builder /app/node_modules ./node_modules
+ ---> 41e08720ce3d
+Step 16/19 : COPY --from=builder /app/package.json ./package.json
+ ---> eac956c9df0e
+Step 17/19 : ENV REACT_APP_ENV=prod
+ ---> Running in 2c41ce04275f
+Removing intermediate container 2c41ce04275f
+ ---> fd4bf313268b
+Step 18/19 : EXPOSE 3000
+ ---> Running in 69e31d974b1d
+Removing intermediate container 69e31d974b1d
+ ---> 3fcaec5658d1
+Step 19/19 : CMD ["node_modules/.bin/next", "start"]
+ ---> Running in 3aafb1516e24
+Removing intermediate container 3aafb1516e24
+ ---> 0092cf904ffa
+[Warning] One or more build-args [version] were not consumed
+Successfully built 0092cf904ffa
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/web-vnau-fe:prod
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiajFrQWRUYVVObDJCSTZWelMwd3Q1UHNFM213dmMwMmVwTHd6TXQxL0EzWit4bGJEbE02Y3F3UTdBaFBmUXVJK3k1UElpOEswd2RFbkgvZFFNL1hsYjhHUDhMQ0lnUWhvdUlPNCsxL29OYWhYKzVwMmVXZ1o3NGRlRTZ0K1ZOZjByQkV6SXFBdkNna0xVMERLNjFwdHNYb1hXRTlQUHE1aGFzc1V3SXdtNFRZNzVlNVMvb3BUcVp4a2lpOC9OYlpuaGpSeU5iRklWNEJNazdVQ0F0dG93N01NTUFVVVpIUlJtWWQ1aDN1K1hEZi9Sc3ZjemdVZ2ZYQlRBaFlNRytLa09UQ3J5cFBSQ1NtR1k2Um9rNVlFd1pTcWJoUGwyVW9LdkdRbklmQmswWGlINjgrRjFmckU2K0ZJOVNFYkpsQk42Vk5GdjZ1ZTYvbWlFZUp0YW1kTVBkLzltN1VJMjNGNlVpQkxUVk8rdm1Tb0E5N0lJcm1FMlBkU255TDdNVTRjSHowZitqVEwrcExSNFkrZXhtcWN6anFNTXFHS3RkMEtLc1JWWmcvTVdhaUVuQjh5YU41ZmNuNkxWZUR3ZGlleDBsT2hxaVMrK240K2ttZEJ0NktIN1JyenFLUC9paWw4RWV1OFQrVHpoeTRsWUk1bUcyeVhpZjFxZHhMZWUzSXZaYy84aUl5ZlFxMTU3TGpKRUwvZzFvMDE5Q1BTeUY3TWhGWDI4YjFnK1c2WU4yRUEvcHZwZWpTV3g4VWpQeVhQUXZDR3ZzYXlIbGwvcWhIdmxTSytLSFpDMGVkR3phMTl5Z085VW10SlltWGxzWWpOZFN0cHYzZUtBTFdUWnJpWm5pV3g3VDJhcTBkZm9pRUVtSUUrYXVSa1VXV0hjemNkTkllczJBcW54TDRNZnQ1Qm9MOHZjdXJmYUFiYjZaK1FzWkZnSkttWENRK0JDempFUUluWnVOU05MUERwOGFVeFJTZ2FxL2lLWmpPVWlVZTh4R3FQUGNiRFNYOG9pbnpRQUJDKzNkTDdzV2F2Vnp6WVQrTUFxRk1nbkVac3NnVGw4bHdCdVJ2UW1VTGpIQmc5ZWZxdmtHL1BwRWc4Y0JZU3M1TlczcXY3OVFoYklzSHdXdEhzUFVaMEdpRmwxYmJDTFNBTW9yZTQrWTJyeDhTSmJXS0VZQmZLQUJ1Y3ZRMkp4Tjlzb2lySDRIVHpsR1NIZHV0RjJITmEvOEh3M3gxYkJOeU5hOVRpajkrMTlmNUpuUU9JeFBGalhaR2htVXh1OUw3VElJRGt5T0FwVnMzSVFkQVpwNlpKV2dMcnA5VW5jaVgxalhEdWZCN1FSQ1F0Qis2cDlmY2xMbEVPdnJ6SWNuMjdwbkxMM1Y3aklCeU9jZE95cFZqc0VqL1JlVDFtRjIrYms0UCtkN3J5b3lBWVlyM0w4T3RxZGR2eDBQL2orMG5YVU83NVFQNkdsU2tZU2lhUmw0Tm40aGM4WnowdnMxOGEzdTJ1YXg1VnJrOTBXZjQzQXk0V3V0SnpxazJHMGFtMVZnVTJ6YzN2MUhmRVltZitLb25hOE9iMnk4RDFtMHlYcm1ZL2FUSWxPczlkTFlKcHlWREdvbVRUQ01hOS9TR1dYbzUxSWhQWXRoOWtIZkFhUFROYmRtcmRMVXNWSXoxMHF5cXZlWEpJb1pOZXZ4eXplL3VZelBkZEllQlpHRDFnZkRlVmttVEZVSHNLbGZsTE1yV0Q4QWhqTXR6M1g5RjBuL2RpV3VoTVRySGtYYnFFamUvWWIxcGF3a2laMk11TFArZHh5RjBXbDA2TmxwYjcyYUpxK29yVXp2SkZTL1JNT1NSY2JUNE9zbmlXWTB6bU5PUjdKZnpscWpTYmVOYnkxTXRKanFzTC83MEw4UXV5N0d5YmNNZ0Z2YmZVOVYvaU5YTjJPTVRQSHlBbFFGSGRVSWRtZlEvTzF2R0hvcW1XdXRpRVNvWTl4Tytnb3FwMUdCMjhjWDlKWERiVWRMdjlEWkNyU0ZmNUFDVVRpSXVyOHcwSlJ6N1lUN2pyM1ZaUC9ESzVodFZmSWFIQ3JGamNCTGhUanJlaXQ3ZmpVbFBzZTN6ZG9Oc0MybWczVzByUXVteWYvRXUvZFpQak1JcWJmazFHY3ZmT0NzQmlmZlVmWXV4QTFFQjI2ZTZlSjhTY1FnRjl3Zm1xeUd4NmJtNXhadVBuMm5xczE4WTFhVDJDMnNNPSIsImRhdGFrZXkiOiJBUUVCQUhpZEVyWkNmaEtPZURNMDgrY1A1ZnR5anZROVhNTVNRNHBLMEZabnZBWlhKZ0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVES21tNlhWVEp3ZHpEaUNaVVFJQkVJQTdHK2N3d21QM0pRTFhCdFJYcFFhdFgwbEUwRUZlN1lSU21XNTA4R2VyTHFXQ2ZlVk1jVGlNV1Vzc0loUTJKZ3BKeFlLck16dUlqVUtWVytBPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTY0NjI3OTM4NH0=' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/web-vnau-fe:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/web-vnau-fe]
+b6fdf14058da: Preparing
+4eeaf0fb4f1d: Preparing
+ca77582e3c6f: Preparing
+d664d2a8195b: Preparing
+bd129e734ec5: Preparing
+15b7565869fa: Preparing
+7f5de9ea7ae7: Preparing
+4e7915c42ace: Preparing
+bd0523bc056b: Preparing
+067156d67f70: Preparing
+8f161adc4508: Preparing
+72e830a4dff5: Preparing
+bd0523bc056b: Waiting
+067156d67f70: Waiting
+8f161adc4508: Waiting
+15b7565869fa: Waiting
+72e830a4dff5: Waiting
+7f5de9ea7ae7: Waiting
+4e7915c42ace: Waiting
+bd129e734ec5: Pushed
+b6fdf14058da: Pushed
+d664d2a8195b: Pushed
+15b7565869fa: Pushed
+4e7915c42ace: Pushed
+bd0523bc056b: Layer already exists
+067156d67f70: Layer already exists
+8f161adc4508: Layer already exists
+72e830a4dff5: Layer already exists
+7f5de9ea7ae7: Pushed
+ca77582e3c6f: Pushed
+4eeaf0fb4f1d: Pushed
+prod: digest: sha256:96cc603e93e3ea81faa310b87e874740bb3ff1a55b573dbc68f83feb2edce0d0 size: 2828
+[8mha:////4GojVieHuwvUbKKf/zQB5RkqQOXsdfc6+WLH8QPt+lU9AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKPe7T23fGXWL/r4AAAA=[0m[Pipeline] }
+[8mha:////4HF2FaiQvsTbjCpAskOJWTOQnQYHTAThe8w1qLcPRRiyAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSIUQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AFZLxBVvgAAAA==[0m[Pipeline] // container
+[8mha:////4KwCB6Q4NiML+25AGK+R4sb3AFjWB408PA8QLrM+w43ZAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAJWGAhL4AAAA=[0m[Pipeline] }
+[8mha:////4FYJrHiYlNEyI0fZhgRR9Scc+qQhyHrqxEDFVGGbwzoVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8Wgts4vgAAAA==[0m[Pipeline] // stage
+[8mha:////4CeKfvp9i8GlI8E9UdVhBVCvRQOmobw0VLy1CB93N/RlAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRTIKVBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZvQ6+ASMEAAAA=[0m[Pipeline] stage
+[8mha:////4D/kMJXzq3H61aruBULYV12wW3LxK2naxwZrWmWYXEj9AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4CVu/77gdSBl/Kewz+UlV7s3oYanpWUp22nYalSgSd9hAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] container
+[8mha:////4JQ9qqiP67s5ytpQtIrWP4hrYEtJAEXZIep7Jd1A2vb0AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4LUNBUzKJqea+oXfxbr+kMApAz5JEs7+qTZQTlCOlgI8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
++ kubectl apply -f deploy.prod.yml
+deployment.apps/web-vnau-fe-prod configured
+service/web-vnau-fe-prod unchanged
++ date '+%s'
++ kubectl patch deployment web-vnau-fe-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1646236566"}}}}}' -n swm
+deployment.apps/web-vnau-fe-prod patched
++ kubectl rollout status deployment web-vnau-fe-prod -n swm
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 0 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 1 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 2 out of 3 new replicas have been updated...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "web-vnau-fe-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "web-vnau-fe-prod" successfully rolled out
+[8mha:////4FY8NYfOQbO9ImrA06iBkTLY5OEhLYuU7DFI1+4JYV2nAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[8mha:////4M1GgDrpBL4YLVjYsfnISLqgocxtUsSX4vVc5/+yu04LAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // container
+[8mha:////4MbnEyYokbsnMNqe08AhG6Whr6ntkirH6Tk5eRKgERs9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBIkCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw+RDRRuvgAAAA==[0m[Pipeline] }
+[8mha:////4MQX4IQIYDG8DBP/g1/hDltJqWB7iVE9L0Hx6ajfWABOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiGgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AG/DRYEvgAAAA==[0m[Pipeline] // stage
+[8mha:////4EyZ3CcFZJ8pe7xll4SWaz/qk2IKRqPxRrFsAhLmGxbkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LtrvsA0n9+v70AAAA=[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4FEDtapzfVHqn9y0l92q2biKLNgIJRNtixzagQ3+TQEDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0Do1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AESxTlL0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4N/rgJtjhmWuqnZswiI2HiBoHG9DoL0Ld6RR2PuZJQJpAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPUB1Ijb0AAAA=[0m[Pipeline] echo
+Build successful
+[8mha:////4PEneYDemV8sPG8t/68UcP//bYbobcoNdsOUF+HbIXvYAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEEJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99AJ8B0Aq9AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: sabeco-system-notification, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4IvOBdU1F+RfriJbtztg6D3XxzzI7iKW7a/X/aRp5OpqAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AGu5lmG9AAAA[0m[Pipeline] }
+[8mha:////4IWRnhptzTcsQ4WAsZ8JDHcorQoTt7BK3NuK37zilQq/AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiLYUDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg8FWdM+vQAAAA==[0m[Pipeline] // node
+[8mha:////4ILo7TZYobIdx7Cp8xdZMXnomiwhnOUmK3Z6ICBV+1FRAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPI0C0dL0AAAA=[0m[Pipeline] }
+[8mha:////4JJPAgpILgHnPHXDe3CxQFTFZVA/1wUNYtxMpPznk85TAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPUK9wrb0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4ISdIvuvuiLkZPhupb75aNJzKMjt2+JysR3qPy8iPScPAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPdrYX570AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

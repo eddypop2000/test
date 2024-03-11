@@ -1,0 +1,11 @@
+commit 1d1bd1a420fecc6d0cc7808c720f0c5eeec59db3
+tree e127383fba4dac0f686299c41619296cb15f2927
+parent 5a74290323c571c9fa4f0dc788b64c1f9461883d
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-23 16:17:14 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-23 16:17:14 +0700
+
+    Fix
+
+
+:100755 100755 48820441c106ef35c2d654f421a8c74d685ba568 c8a8f0e9d444e21de04696caac6a3086195def8c M	src/@config/envs/production.ts
+:100644 100644 910bda2697b0021d07b1d776ed99e8720f16d35e a72a56473ee2ad97aed60f6dea2ce433c200a1ca M	src/services/notifiations/notification.service.ts

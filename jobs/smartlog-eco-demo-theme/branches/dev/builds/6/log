@@ -1,0 +1,437 @@
+Branch event
+Obtained Jenkinsfile from 9bbd0f0363acd8c02313ec8513fdb2f8817b2ec9
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/common-pod-21kd7-71hg1
+[Normal][jenkins/common-pod-21kd7-71hg1][Scheduled] Successfully assigned jenkins/common-pod-21kd7-71hg1 to ip-192-168-73-141.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-21kd7-71hg1][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/common-pod-21kd7-71hg1][Created] Created container kubectl
+[Normal][jenkins/common-pod-21kd7-71hg1][Started] Started container kubectl
+[Normal][jenkins/common-pod-21kd7-71hg1][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/common-pod-21kd7-71hg1][Created] Created container awscli
+[Normal][jenkins/common-pod-21kd7-71hg1][Started] Started container awscli
+[Normal][jenkins/common-pod-21kd7-71hg1][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/common-pod-21kd7-71hg1][Created] Created container docker
+[Normal][jenkins/common-pod-21kd7-71hg1][Started] Started container docker
+[Normal][jenkins/common-pod-21kd7-71hg1][Pulled] Container image "jenkins/inbound-agent:4.3-4" already present on machine
+[Normal][jenkins/common-pod-21kd7-71hg1][Created] Created container jnlp
+[Normal][jenkins/common-pod-21kd7-71hg1][Started] Started container jnlp
+Agent [8mha:////4CZwzjqsEsalY9+JBzIWdANjfz8aqX1I81juB16/vmoYAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9F18gwO8Vc19wwI90QAFQ6S8PVAAAA[0mcommon-pod-21kd7-71hg1 is provisioned from template common-pod-21kd7
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins:8080/job/smartlog-eco-demo-theme/job/dev/6/"
+    runUrl: "job/smartlog-eco-demo-theme/job/dev/6/"
+  labels:
+    jenkins/jenkins-jenkins-agent: "true"
+    jenkins/label-digest: "e9aee56a0479dc22327d6d0ea4afda5e3c4a2c22"
+    jenkins/label: "common-pod"
+  name: "common-pod-21kd7-71hg1"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins-agent:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-21kd7-71hg1"
+    - name: "JENKINS_NAME"
+      value: "common-pod-21kd7-71hg1"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins:8080/"
+    image: "jenkins/inbound-agent:4.3-4"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4CNP+UivkC/RG+r1ZG55YV74b5+Bs8KXiwWeG6C18HjrAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZF/eT83ILSktQiECM3P0+3ID9F18gwO8Vc19wwI91QHwA1XZQx1gAAAA==[0mcommon-pod-21kd7-71hg1 in /home/jenkins/agent/workspace/smartlog-eco-demo-theme_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/smartlogtms/smartlog-stm-fe.git
+ > git init /home/jenkins/agent/workspace/smartlog-eco-demo-theme_dev # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogtms/smartlog-stm-fe.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogtms/smartlog-stm-fe.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision 9bbd0f0363acd8c02313ec8513fdb2f8817b2ec9 (dev)
+ > git config remote.origin.url https://bitbucket.org/smartlogtms/smartlog-stm-fe.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9bbd0f0363acd8c02313ec8513fdb2f8817b2ec9 # timeout=10
+Commit message: "change deploy"
+ > git rev-list --no-walk adc28ac95799e6bb9a5af1c38bc4a52f86810644 # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4HNuZvHPhJzOnDLqEHrwnbz1S3v1CTG+lpYWuuk4QfonAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4M89+sba7ffu+qHsbBbqhN8rZ1qTvxcUfzvL7Pz/myTCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // container
+[8mha:////4Pg+whfNdDodDIEG5bJYMuFMVVxae0mgnbEXSkhgU4GWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] container
+[8mha:////4Biyld1GUC8alAaCxFUhcPEd+p1k7JJeIywwkhhP7j/qAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IgLKfm2gzaUpKIW9f2mFrh0IhZWLBRL+JCxDdBoCuEtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ ls -la
+total 988
+drwxr-xr-x    5 1000     1000          4096 Feb 22 06:48 .
+drwxr-xr-x    4 1000     1000           102 Feb 22 06:48 ..
+-rw-r--r--    1 1000     1000           853 Feb 22 06:48 .browserslistrc
+-rw-r--r--    1 1000     1000           274 Feb 22 06:48 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Feb 22 06:48 .git
+-rw-r--r--    1 1000     1000           631 Feb 22 06:48 .gitignore
+-rw-r--r--    1 1000     1000           146 Feb 22 06:48 .prettierrc.json
+-rw-r--r--    1 1000     1000           416 Feb 22 06:48 Dockerfile.stage
+-rw-r--r--    1 1000     1000          2864 Feb 22 06:48 Jenkinsfile
+-rw-r--r--    1 1000     1000          1029 Feb 22 06:48 README.md
+-rw-r--r--    1 1000     1000          5129 Feb 22 06:48 angular.json
+-rw-r--r--    1 1000     1000          1682 Feb 22 06:48 deploy.stage.yml
+drwxr-xr-x    3 1000     1000            64 Feb 22 06:48 e2e
+-rw-r--r--    1 1000     1000          1024 Feb 22 06:48 karma.conf.js
+-rw-r--r--    1 1000     1000          1030 Feb 22 06:48 nginx.conf
+-rw-r--r--    1 1000     1000        539096 Feb 22 06:48 package-lock.json
+-rw-r--r--    1 1000     1000          1572 Feb 22 06:48 package.json
+drwxr-xr-x    8 1000     1000           213 Feb 22 06:48 src
+-rw-r--r--    1 1000     1000           287 Feb 22 06:48 tsconfig.app.json
+-rw-r--r--    1 1000     1000           458 Feb 22 06:48 tsconfig.json
+-rw-r--r--    1 1000     1000           333 Feb 22 06:48 tsconfig.spec.json
+-rw-r--r--    1 1000     1000          3208 Feb 22 06:48 tslint.json
+-rw-r--r--    1 1000     1000        395218 Feb 22 06:48 yarn.lock
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/demo-theme:latest '--pull=true' .
+Sending build context to Docker daemon  1.973MB
+Step 1/12 : FROM node:12.16.1-alpine as build-deps
+12.16.1-alpine: Pulling from library/node
+aad63a933944: Pulling fs layer
+edd41271d385: Pulling fs layer
+dd731a721451: Pulling fs layer
+495807fcdd37: Pulling fs layer
+495807fcdd37: Verifying Checksum
+495807fcdd37: Download complete
+dd731a721451: Verifying Checksum
+dd731a721451: Download complete
+aad63a933944: Verifying Checksum
+aad63a933944: Download complete
+aad63a933944: Pull complete
+edd41271d385: Verifying Checksum
+edd41271d385: Download complete
+edd41271d385: Pull complete
+dd731a721451: Pull complete
+495807fcdd37: Pull complete
+Digest: sha256:6b5b783c9cfe229af0bd5b0b677dd32005bb22d58465f3d0fe7fbd1c60ce068c
+Status: Downloaded newer image for node:12.16.1-alpine
+ ---> f77abbe89ac1
+Step 2/12 : WORKDIR /usr/src/app
+ ---> Running in dfc08bc41c55
+Removing intermediate container dfc08bc41c55
+ ---> d8a4011bb206
+Step 3/12 : COPY package.json ./
+ ---> 73e542fe57ba
+Step 4/12 : RUN yarn
+ ---> Running in 65c6b0d3f00e
+yarn install v1.22.0
+info No lockfile found.
+[1/4] Resolving packages...
+[91mwarning @aspnet/signalr > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mwarning @aspnet/signalr > request > har-validator@5.1.5: this library is no longer supported
+[0m[91mwarning @angular-devkit/build-angular > webpack-dev-server > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+[0m[91mwarning @angular-devkit/build-angular > rollup > fsevents@2.1.3: "Please update to latest v2.3 or v2.2"
+[0m[91mwarning @angular-devkit/build-angular > webpack-dev-server > chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+[0m[91mwarning @angular-devkit/build-angular > webpack > watchpack > watchpack-chokidar2 > chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+[0m[91mwarning @angular-devkit/build-angular > resolve-url-loader > rework > css > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[91mwarning @angular-devkit/build-angular > resolve-url-loader > rework > css > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[91mwarning @angular-devkit/build-angular > resolve-url-loader > rework > css > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[91mwarning @angular/cli > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mwarning @angular/cli > ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+[0m[91mwarning @angular/cli > universal-analytics > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mwarning @angular/cli > @schematics/update > ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+[0m[91mwarning karma > socket.io > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mwarning karma > socket.io > engine.io > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mwarning karma > socket.io > socket.io-parser > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mwarning protractor > webdriver-manager > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mwarning tslint@6.1.3: TSLint has been deprecated in favor of ESLint. Please see https://github.com/palantir/tslint/issues/4534 for more information.
+[0m[2/4] Fetching packages...
+info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@2.3.2: The platform "linux" is incompatible with this module.
+info "fsevents@2.3.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 53.15s.
+Removing intermediate container 65c6b0d3f00e
+ ---> fa90ad357056
+Step 5/12 : COPY . ./
+ ---> fec58255ba4e
+Step 6/12 : RUN yarn staging
+ ---> Running in bfa4389b5c71
+yarn run v1.22.0
+$ ng build --configuration=staging
+[91mCompiling @angular/core : es2015 as esm2015
+[0m[91mCompiling @angular/common : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/platform : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/types : es2015 as esm2015
+[0m[91mCompiling @angular/platform-browser : es2015 as esm2015
+[0m[91mCompiling @angular/common/http : es2015 as esm2015
+[0m[91mCompiling @ant-design/icons-angular : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/environments : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/logger : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/util : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/polyfill : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/layout : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/services : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/config : es2015 as esm2015
+[0m[91mCompiling @ant-design/icons-angular/icons : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/icon : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/avatar : es2015 as esm2015
+[0m[91mCompiling @angular/animations : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/animation : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/observers : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/outlet : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/badge : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/divider : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/keycodes : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/a11y : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/bidi : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/collections : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/scrolling : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/portal : es2015 as esm2015
+[0m[91mCompiling @angular/cdk/overlay : es2015 as esm2015
+[0m[91mCompiling @angular/animations/browser : es2015 as esm2015
+[0m[91mCompiling @angular/platform-browser/animations : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/no-animation : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/drawer : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/overlay : es2015 as esm2015
+[0m[91mCompiling @angular/forms : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/transition-patch : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/wave : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/button : es2015 as esm2015
+[0m[91mCompiling @angular/router : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/menu : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/dropdown : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/grid : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/color : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/tooltip : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/core/time : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/i18n : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/form : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/input : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/layout : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/radio : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/result : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/message : es2015 as esm2015
+[0m[91mCompiling ng-zorro-antd/notification : es2015 as esm2015
+[0m[91mCompiling angular-oauth2-oidc : es2015 as esm2015
+[0m[91mCompiling @angular/platform-browser-dynamic : es2015 as esm2015
+[0m
+chunk {} runtime.0f7dc182e458c40913e0.js (runtime) 2.3 kB [entry] [rendered]
+chunk {1} 1.01c3d39b61c4d72a3995.js () 64 kB  [rendered]
+chunk {2} main.3bcffd2aa57470fcedbd.js (main) 714 kB [initial] [rendered]
+chunk {3} polyfills.de46992e35e444b11737.js (polyfills) 36.1 kB [initial] [rendered]
+chunk {4} styles.6583c2d5764cab745264.css (styles) 509 kB [initial] [rendered]
+chunk {5} 5.ac1a49a8487d9f3b0b3c.js () 2.21 MB  [rendered]
+chunk {6} 6.6cd83ab510559c42e60c.js () 2.96 kB  [rendered]
+chunk {7} 7.4da6d892e1c2f1df6ecc.js () 15.5 kB  [rendered]
+Date: 2021-02-22T06:52:42.627Z - Hash: 5c7127e49d53d05d4aa8 - Time: 74552ms
+[91m
+WARNING in /usr/src/app/src/auth/login/login.component.less exceeded maximum budget. Budget 6 kB was not met by 1.06 kB with a total of 7.06 kB.
+
+WARNING in /usr/src/app/src/app/app.component.less exceeded maximum budget. Budget 6 kB was not met by 486 kB with a total of 492 kB.
+
+WARNING in /usr/src/app/src/app/pages/config-drawer/config-drawer.component.less exceeded maximum budget. Budget 6 kB was not met by 484 kB with a total of 490 kB.
+
+WARNING in /usr/src/app/src/app/pages/menu/menu.component.less exceeded maximum budget. Budget 6 kB was not met by 485 kB with a total of 491 kB.
+
+WARNING in /usr/src/app/node_modules/ng-zorro-antd/__ivy_ngcc__/fesm2015/ng-zorro-antd-i18n.js depends on 'date-fns/parse'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+WARNING in /usr/src/app/node_modules/ng-zorro-antd/__ivy_ngcc__/fesm2015/ng-zorro-antd-i18n.js depends on 'date-fns/getISOWeek'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+WARNING in /usr/src/app/node_modules/ng-zorro-antd/__ivy_ngcc__/fesm2015/ng-zorro-antd-i18n.js depends on 'date-fns/format'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+[0mDone in 101.50s.
+Removing intermediate container bfa4389b5c71
+ ---> 7026d0fa3e35
+Step 7/12 : FROM nginx:1.12-alpine
+1.12-alpine: Pulling from library/nginx
+Digest: sha256:db5acc22920799fe387a903437eb89387607e5b3f63cf0f4472ac182d7bad644
+Status: Downloaded newer image for nginx:1.12-alpine
+ ---> 24ed1c575f81
+Step 8/12 : COPY --from=build-deps /usr/src/app/dist/custom-theme /usr/share/nginx/html
+ ---> 2e1cd0b8b5dc
+Step 9/12 : RUN rm /etc/nginx/conf.d/default.conf
+ ---> Running in a28c9b4010e7
+Removing intermediate container a28c9b4010e7
+ ---> 844f58783b67
+Step 10/12 : COPY nginx.conf /etc/nginx/conf.d/default.conf
+ ---> d5adf9ff4b06
+Step 11/12 : EXPOSE 80
+ ---> Running in 007cfdb6b1d1
+Removing intermediate container 007cfdb6b1d1
+ ---> bec6105d0a4e
+Step 12/12 : CMD ["nginx", "-g", "daemon off;"]
+ ---> Running in ef7691b8acf1
+Removing intermediate container ef7691b8acf1
+ ---> 2b458e69aa4a
+Successfully built 2b458e69aa4a
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/demo-theme:latest
++ docker login -u AWS -p eyJwYXlsb2FkIjoibEo5ejBkZmYycEgwVWJhbk1xdTdOTk51eHlyWVZwOUdZRnI5MEtZaUNURTZVTmY2a1ZTQTMrdHZvM21ERy9wMlQ5UnVPanhNRkJpdTVaOEphN1krNVk1cUpJMzdTWXpFeHRHdThRVzlNSFg0VDNrc1hGSTdicEhWM0d1U3h4OVpIa05FYzAzRlBTcnFtOSs1cUFUNHZ6M0Q2S2JuVW12d3hIZkZpazlNQVJreitMRUFuTWVMM3RTQkUydjJ5ZmFsS3pUQlZwZ1JkYUhDMTdTL3ZLK3owai9JRzVOQy9PWDFWcEwrOUcxb0EzcHkzY1RkcTJTc1hQT0p0cWNUdUhBK3VEY3VvMWhJaG8yRlVITjl3djZRMDJMejluRFJOeU5vYjR1NHlNN0QzOUFkM3ExQlBtOWFtZC9rWHJzN1Z4OFBiV3FhekFVUlkzbFFsSjdhY3NCR3FmKzdISkZ3OVhDVnkyeW1TQ0JjczZtYVhvbVVMQmw5Y0NvNGxjWmpBdnVORjRsT04wYSsva2cxMUE1SEZzM3U1MGRnYVVad0VveXBRaHlnbDkybDZwQkRLcEFvazFGZTNtMXFlc3dZT1BnTmwwM1VtVGRoT2VuczNkN20rbDBwZ2lNbk9MYXJsd1JtSXFtMjlqUi91U0FXQXFVT0puYXcvRUpkcG5EY3hIVGpTR2hvc3gydnJySGtjOEVNYUoybVI4anVtRWQ2T0RDSTNtbFBEV0hlVXpFbDVTeStGMDNsV2Q4Q2xHYi9ETU1zdWhpV2krSmJ5RVl2YTlnR1lZaDgrMG5BNi9qYloyZjRETHJWelFGTjRCYmlOQWZIdXF6eExqeE80VmlTai9CS2JRL3d2enhvbGVBTXVLUnRvOSt4Mm9kQTBTMmdjdHU0Tkg0Y09lNWN4VHdBOTcxaWRiRy94VUpYR2FJUER2bk5FRUswallDd3p6ODlBMnFUeUdCUTRhVHlqT0JyN2RianJSamp6eWlZeWdPdVl3K2wvOGJ2YXdBbFlQKzBIVk82TDFCa0tGNjFnVUU0bzRwRlFwelhVNnhLOHpkOXFZelp2Sk1YRHZiKytwdnlzTExwTkNkN2syZ0FseUdmQ21VSjNKVjJwdU81a3p4NW1VZnVrQnZWNFlneCtuZkF5NmxiZzVNNTRBU09MZ29xSHgvaG1CeXFyMURMUjJDZTFWZW8va0FzMVVjOXJvK2lPdE1wb0w3U3Frd2xqK2pPckJXc0VKMHVGYTdLYUZ2aDV1NVpFZVM5c1JvUzlNeUFYOU5OY0RmZUxxeHk0RGJwY2licHNzQ3k0bXNTV0FlTlFXY3d6SFdMNmcwSEVzZ2hwZG13bXJab1cybEpsa05yWThrMVhiNmp1Yld4ZS8rWkN5cHNqMUMyT1FTK3lrY0cxZ240UGgxYThJNENZaXZKbm9nWXZ0YkhObk9VQUtIS2JVMEFwZEdNL0FVaHJ2RDhTMlV2SmpVSjV0N3pJdDlkZVlHZkVSUVM5RGFkTEg5WVZ2VXg4MWIzeWs2V2RWSWsxSUgxSXloNjIrZkswcytPWmk0cTd4bkU0dnBYU29JbjRiNkx0T3FPb1hRM2FuSVpYN3BFdkNqL21uOENIMU1YeTlWR2p0Yk5nVFZ6Mnp3dzNGQlJrbjcyaksyZ0VlVmd5cFNaT3pxTkRvR09ZK3lMZVJPc25LUjdRUWhua1Bpejg1WFdOaXNtY0M3ekw0Tm9RejU3elRSeHRxMkFjS01FdWpVT202SWprRnM2N1VxU0lGT0VJTE5HN3M2VmdoWUlMYjZoK3BaVHNmVm91THhHWFQzWlBMdG4yckVET2ZQVGdsYUlpV0EwcDRzNmRZQnpYNDJQVTcxK0pheFVqdFUzc2gzNSsrK1IzNVZVWUhXaVpzREwzV0FQQ3AwREZYK292Y3QvOHpRa0NINjNMVldZdzdTM3hQTmFCQUd4TkV0cURiMmNTemRIQ2t1VTB3N21iZVpzbXJtVkx5RDJEeWpFYlFFMURnVlZlL3pPMXlXMHZBdElyRVUwQVpKNjlISHZFQUhVdnNCeHNGMHV5WFp3NlB0dklOZjZTajkxYmlZb2dQaXBCdU5CMWNXRURnTTBWWkNYb3g3N0x0SG5FS2tKRHZYR0FFZ3FuQlJ4RHFYVmppa1liMVZQMTRmQTRWa0JNWi94VUVqWWV3OWlWdkpyT2psZGFnRFhZM1BlUWdLVmtRbStpWklwZ3ZlYnlQcUhTMG80T09LcGN4bmhxSXFDMWZ4cG9XM2lpbE9CcHFLcllVY09NbTBGTGRpN2NlUkciLCJkYXRha2V5IjoiQVFFQkFIaWRFclpDZmhLT2VETTA4K2NQNWZ0eWp2UTlYTU1TUTRwSzBGWm52QVpYSmdBQUFINHdmQVlKS29aSWh2Y05BUWNHb0c4d2JRSUJBREJvQmdrcWhraUc5dzBCQndFd0hnWUpZSVpJQVdVREJBRXVNQkVFREZpWUh6bFNhVXo0c1pBNzF3SUJFSUE3WUp6R2Exa3JKRXQzZmY1cnI5Y2JlQURFT2Q5RFZyMEs4TEhyaGJZRzdIZi9MZVVYYU5YS3l3ZDNMdWRZMnBoeFFQWXVHdDI0Z3hvU0J3ND0iLCJ2ZXJzaW9uIjoiMiIsInR5cGUiOiJEQVRBX0tFWSIsImV4cGlyYXRpb24iOjE2MTQwMTk3Mzl9 https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/demo-theme:latest
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/demo-theme]
+b0e9ec965a9d: Preparing
+d7cf0d335358: Preparing
+8ea51064fdc7: Preparing
+68695a6cfd7d: Preparing
+c1dc81a64903: Preparing
+8460a579ab63: Preparing
+d39d92664027: Preparing
+8460a579ab63: Waiting
+d39d92664027: Waiting
+c1dc81a64903: Layer already exists
+68695a6cfd7d: Layer already exists
+d39d92664027: Layer already exists
+8460a579ab63: Layer already exists
+b0e9ec965a9d: Pushed
+d7cf0d335358: Pushed
+8ea51064fdc7: Pushed
+latest: digest: sha256:033b31ef418b42dee78f0e28277411bfa565a3976ca74426555830af238a83ee size: 1778
+[8mha:////4KWF0pNJ/YTgi81wLIDe8BTBQ3z1mPj8KllstFNCmlxyAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4CazcmbbifzPIbHe+Ik/gZFi4Bk3E8K9/jhh2OD7cEOQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4D3hmYdxjU8XVFpF+wMM4syXQckhTJwjyPV5jzU3guFpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] }
+[8mha:////4IVv0lYAl42UN0QNk2dev6Cbv1SmF0oGuZL2KJI7qhXBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] // stage
+[8mha:////4LK5al4eqReEWNnCcvS52S6fM0e8TjoDmxqfP6JpvxR+AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG4fF/dTBAAAA[0m[Pipeline] stage
+[8mha:////4KUAmbgRK7qFBzI+a2qpesOCqzslphsdZI7NJuQZvqtlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] container
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4NqvfkRS1ZporbVgqIMixLWF8Vq1pWIz3fS29dwcL7BuAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy.stage.yml
+deployment.apps/demo-theme created
+service/demo-theme created
+ingress.networking.k8s.io/demo-theme created
++ date '+%s'
++ kubectl patch deployment demo-theme -p '{"spec":{"template":{"metadata":{"labels":{"date":"1613976772"}}}}}' -n stx
+deployment.apps/demo-theme patched
++ kubectl rollout status deployment demo-theme -n stx
+Waiting for deployment spec update to be observed...
+Waiting for deployment "demo-theme" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "demo-theme" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "demo-theme" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "demo-theme" rollout to finish: 1 old replicas are pending termination...
+deployment "demo-theme" successfully rolled out
+[8mha:////4G87h2+xpNSBt+7lb2zAOZKUc5HcR5V6WoF8Y6JOxZHHAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4IUlBncUQZm6NYOtnhBpOaEI6aSkplAMwGHputdbpcoTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // container
+[8mha:////4Lg7iBkwIauAYzzxFEUETQb6ApXJVjISRMlph5eCDy1AAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4H55eVUR1MbAhss647slnGXmwpClpV12SMsO8gPJ36BeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // stage
+[8mha:////4KM/K60iwy0ELaiubczBEnfeuSe5mn+xUhFabBo5IQH+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99ANULB4i9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] deleteDir
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: cma-no-boss, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4BBOF8zL0QuEPSserDoebGo7eedy9wFxGLBc4knRq4LZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKry5lG9AAAA[0m[Pipeline] }
+[8mha:////4I80lOpg5HUJA80xtI+tZBmR9p4ZN2LLYBhkMdQXpaF6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPwNlPj70AAAA=[0m[Pipeline] // node
+[8mha:////4OSZrNYCuGZci/f+w9qZka3AmOhvr3h12W0fQ92vc87HAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/mwCjFvQAAAA==[0m[Pipeline] }
+[8mha:////4DWZSrDNKCa4wMOhomNh6rPaNQwjD7UQNFyAKu7DDl83AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9ViWzpvQAAAA==[0m[Pipeline] // podTemplate
+[8mha:////4F0oAKG8YtO1f0ykH2BifRPib7ffpNpqbMnq6ye67ePbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPc5ALo70AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

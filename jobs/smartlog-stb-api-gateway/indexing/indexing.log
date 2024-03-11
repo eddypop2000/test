@@ -1,0 +1,33 @@
+Started
+[Wed Dec 15 03:36:03 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stb-api-gateway for branches
+Checking branch eco-prod from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: eco-prod
+Checking branch an-dev from smartlogtms/smartlog-stb-api-gateway
+Checking branch check-error from smartlogtms/smartlog-stb-api-gateway
+Checking branch create.update.order from smartlogtms/smartlog-stb-api-gateway
+Checking branch create_order from smartlogtms/smartlog-stb-api-gateway
+Checking branch dev from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at d307b10e275b236967c00f194025625bd7f61a93)
+Checking branch develop from smartlogtms/smartlog-stb-api-gateway
+Checking branch fix.location from smartlogtms/smartlog-stb-api-gateway
+Checking branch huynhtienhuy from smartlogtms/smartlog-stb-api-gateway
+Checking branch integrate.auth.service from smartlogtms/smartlog-stb-api-gateway
+Checking branch master from smartlogtms/smartlog-stb-api-gateway
+Checking branch production from smartlogtms/smartlog-stb-api-gateway
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: production (still at bb914edf24ed9ead4ed53a1e5ce0c7978178814a)
+
+  12 branches were processed
+Looking up smartlogtms/smartlog-stb-api-gateway for pull requests
+
+  0 pull requests were processed
+[Wed Dec 15 03:36:05 UTC 2021] Finished branch indexing. Indexing took 2.4 sec
+Finished: SUCCESS

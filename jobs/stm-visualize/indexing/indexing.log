@@ -1,0 +1,17 @@
+Started
+[Thu Nov 10 12:03:07 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  2 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Thu Nov 10 12:03:11 UTC 2022] Finished branch indexing. Indexing took 3.7 sec
+Finished: SUCCESS

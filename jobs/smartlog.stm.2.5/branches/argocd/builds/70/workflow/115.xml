@@ -1,0 +1,35 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>114</string>
+    </parentIds>
+    <id>115</id>
+    <descriptorId>jenkins.plugins.slack.workflow.SlackSendStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>channel</string>
+          <string>C0223PGJMK6</string>
+        </entry>
+        <entry>
+          <string>color</string>
+          <string>good</string>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>Complete build smartlog.stm.2.5 » argocd #70[Be] v.2.5.0-dev.70 [Merge branch &apos;dev&apos; of https://bitbucket.org/smartlogtms/smartlog.stm.2.5 into argocd] 2/2.
+Ngonnnnn! :pika_tang:</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1676449572437</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

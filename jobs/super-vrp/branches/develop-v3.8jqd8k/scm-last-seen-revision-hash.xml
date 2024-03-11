@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>develop_v3</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>ff5c8bea11325d6eaf098bcb39c0734abaea0d02</hash>
+  <message>Merged in hoangnv/add_binary_cbm (pull request #322)
+
+Merge items SME</message>
+  <author>Hoàng Nguyễn Việt &lt;hoang.nguyenviet@gosmartlog.com&gt;</author>
+  <date>2023-04-07 01:11:57.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,747 @@
+Branch event
+Obtained Jenkinsfile from 02b17abe95dad00f51f5b340ce37eabac1317d3d
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Agent [8mha:////4JAUvZm/cVxFafqhaj8qMqUT8/4XQptrr0UI7Xq0KqEpAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FN7vcMq9INy2pKikbAHL8673VAAAA[0mcommon-pod-kw9nr-fbzbk is provisioned from template common-pod-kw9nr
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/swa-be/job/dev/3306/"
+    runUrl: "job/swa-be/job/dev/3306/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-kw9nr-fbzbk"
+  namespace: "jenkins"
+spec:
+  containers:
+  - image: "moby/buildkit:master"
+    imagePullPolicy: "IfNotPresent"
+    name: "buildkit"
+    resources:
+      limits: {}
+      requests: {}
+    securityContext:
+      privileged: true
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-kw9nr-fbzbk"
+    - name: "JENKINS_NAME"
+      value: "common-pod-kw9nr-fbzbk"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/root/.docker"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - configMap:
+      name: "docker-config"
+    name: "volume-1"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4IGdrx600XAEMczgXsjCvXk91MhsAFs0MQDzRbTd+SDmAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgY9/dzEvMT0VP3k/NyC0pLUIhAjNz9P1cilID8FSGaXW+YVAem0pKqkbH0AI0cyA+MAAAA=[0mcommon-pod-kw9nr-fbzbk in /home/jenkins/agent/workspace/super-vrp_master
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{YZpKfDOAaz4uvaIvuOO5w34kfdGD0yMb7hE1hPy6uGkf6E7TLBf8rCTsvOrZHaWwM0_7zy9AFepa82Ao-vbaINW-QQ%3d%3d}@bitbucket.org/smartlogtms/super-vrp.git
+ > git init /home/jenkins/agent/workspace/super-vrp_master # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/super-vrp.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{YZpKfDOAaz4uvaIvuOO5w34kfdGD0yMb7hE1hPy6uGkf6E7TLBf8rCTsvOrZHaWwM0_7zy9AFepa82Ao-vbaINW-QQ%3d%3d}@bitbucket.org/smartlogtms/super-vrp.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Avoid second fetch
+Checking out Revision 02b17abe95dad00f51f5b340ce37eabac1317d3d (master)
+Commit message: "Merged in origin/split-project (pull request #321)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+ > git config remote.origin.url https://x-token-auth:{YZpKfDOAaz4uvaIvuOO5w34kfdGD0yMb7hE1hPy6uGkf6E7TLBf8rCTsvOrZHaWwM0_7zy9AFepa82Ao-vbaINW-QQ%3d%3d}@bitbucket.org/smartlogtms/super-vrp.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 02b17abe95dad00f51f5b340ce37eabac1317d3d # timeout=10
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -2 --pretty=%an
+[8mha:////4HvcU3qz3cKxe1yU2rDxBc0W4GMLnHwqC4vKt7gzN97GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4PBgYTz/0ukqnkXWwIZRA41zsp5tLN0nJQjPAMa4nFv3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4A6j4PJDL2AnaHydOV8myGgDRk6aZ1TLflkgZ84Eyc0YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPOb21ub0AAAA=[0m[Pipeline] sh
++ date +%s
+[8mha:////4JnQ4bAoJImGiCagXsVS6+guB8uLHRXT73mm50YvFjx3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Build)
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] container
+[8mha:////4PcUaNYR+Wl+fNndvl/oHtU75iLH4k5ZeVJRRSdLex6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4GjcxG80zQRbAyuzbtQ5CfXy37qw8AmltMe5wonAY5BhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ wget https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.6.0/linux-amd64/docker-credential-ecr-login -O /usr/local/bin/docker-credential-ecr-login
+Connecting to amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com (52.219.102.250:443)
+saving to '/usr/local/bin/docker-credential-ecr-login'
+docker-credential-ec   3% |*                               |  237k  0:00:24 ETA
+docker-credential-ec 100% |********************************| 6164k  0:00:00 ETA
+'/usr/local/bin/docker-credential-ecr-login' saved
++ chmod 755 /usr/local/bin/docker-credential-ecr-login
++ buildctl build --frontend dockerfile.v0 --local 'context=.' --local 'dockerfile=./' --opt 'filename=./Dockerfile' --output 'type=image,name=744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization:vrp,push=true'
+#1 [internal] load build definition from ./Dockerfile
+#1 transferring dockerfile: 361B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.9.16-slim-bullseye
+#2 DONE 2.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 45B done
+#3 DONE 0.0s
+
+#4 [1/7] FROM docker.io/library/python:3.9.16-slim-bullseye@sha256:5192f07402cbe8b0267eef13085b321d50ab8aaac79d2f0657f96810c3f4555c
+#4 resolve docker.io/library/python:3.9.16-slim-bullseye@sha256:5192f07402cbe8b0267eef13085b321d50ab8aaac79d2f0657f96810c3f4555c 0.0s done
+#4 ...
+
+#5 [internal] load build context
+#5 transferring context: 8.25MB 0.1s done
+#5 DONE 0.1s
+
+#4 [1/7] FROM docker.io/library/python:3.9.16-slim-bullseye@sha256:5192f07402cbe8b0267eef13085b321d50ab8aaac79d2f0657f96810c3f4555c
+#4 sha256:e76f10d4c3fff6e466625c031cb84ae2223642142b519e174f331848c6076078 3.20MB / 3.20MB 0.3s done
+#4 sha256:bfa3763962baaa37ad51900b996bfb632cdf4e4ccf396572c52c3228d8a6af07 0B / 243B 0.2s
+#4 sha256:4ea840b65f34f84eb19e8681a7c65091ab6c8bc0efc3fe2a2eb49719ef793d54 0B / 11.11MB 0.2s
+#4 sha256:2d2b016608857911079186690549bb03798585a3f2310e34bc878db7fa0fcd80 0B / 1.08MB 0.2s
+#4 sha256:bfa3763962baaa37ad51900b996bfb632cdf4e4ccf396572c52c3228d8a6af07 243B / 243B 0.3s done
+#4 sha256:4ea840b65f34f84eb19e8681a7c65091ab6c8bc0efc3fe2a2eb49719ef793d54 11.11MB / 11.11MB 0.5s done
+#4 sha256:2d2b016608857911079186690549bb03798585a3f2310e34bc878db7fa0fcd80 1.08MB / 1.08MB 0.5s done
+#4 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 0B / 31.41MB 0.2s
+#4 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 15.73MB / 31.41MB 0.5s
+#4 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 31.41MB / 31.41MB 0.6s done
+#4 extracting sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7
+#4 extracting sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 0.6s done
+#4 extracting sha256:2d2b016608857911079186690549bb03798585a3f2310e34bc878db7fa0fcd80 0.0s done
+#4 DONE 1.7s
+
+#4 [1/7] FROM docker.io/library/python:3.9.16-slim-bullseye@sha256:5192f07402cbe8b0267eef13085b321d50ab8aaac79d2f0657f96810c3f4555c
+#4 extracting sha256:4ea840b65f34f84eb19e8681a7c65091ab6c8bc0efc3fe2a2eb49719ef793d54
+#4 extracting sha256:4ea840b65f34f84eb19e8681a7c65091ab6c8bc0efc3fe2a2eb49719ef793d54 0.2s done
+#4 extracting sha256:bfa3763962baaa37ad51900b996bfb632cdf4e4ccf396572c52c3228d8a6af07 0.0s done
+#4 extracting sha256:e76f10d4c3fff6e466625c031cb84ae2223642142b519e174f331848c6076078
+#4 extracting sha256:e76f10d4c3fff6e466625c031cb84ae2223642142b519e174f331848c6076078 0.1s done
+#4 DONE 2.0s
+
+#6 [2/7] WORKDIR /app
+#6 DONE 0.3s
+
+#7 [3/7] COPY ./requirements.txt /app/requirements.txt
+#7 DONE 0.0s
+
+#8 [4/7] RUN apt-get update
+#8 0.151 Get:1 http://deb.debian.org/debian bullseye InRelease [116 kB]
+#8 0.159 Get:2 http://deb.debian.org/debian-security bullseye-security InRelease [48.4 kB]
+#8 0.159 Get:3 http://deb.debian.org/debian bullseye-updates InRelease [44.1 kB]
+#8 0.233 Get:4 http://deb.debian.org/debian bullseye/main amd64 Packages [8183 kB]
+#8 0.323 Get:5 http://deb.debian.org/debian-security bullseye-security/main amd64 Packages [236 kB]
+#8 0.360 Get:6 http://deb.debian.org/debian bullseye-updates/main amd64 Packages [14.6 kB]
+#8 1.296 Fetched 8642 kB in 1s (7466 kB/s)
+#8 1.296 Reading package lists...
+#8 DONE 1.8s
+
+#9 [5/7] RUN apt-get install gcc -y
+#9 0.072 Reading package lists...
+#9 0.458 Building dependency tree...
+#9 0.546 Reading state information...
+#9 0.660 The following additional packages will be installed:
+#9 0.660   binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-10
+#9 0.660   fontconfig-config fonts-dejavu-core gcc-10 libasan6 libatomic1 libbinutils
+#9 0.660   libbrotli1 libbsd0 libc-dev-bin libc-devtools libc6-dev libcc1-0
+#9 0.660   libcrypt-dev libctf-nobfd0 libctf0 libdeflate0 libfontconfig1 libfreetype6
+#9 0.660   libgcc-10-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg62-turbo
+#9 0.660   liblsan0 libmd0 libmpc3 libmpfr6 libnsl-dev libpng16-16 libquadmath0
+#9 0.660   libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp6 libx11-6 libx11-data
+#9 0.660   libxau6 libxcb1 libxdmcp6 libxpm4 linux-libc-dev manpages manpages-dev
+#9 0.660   sensible-utils ucf
+#9 0.661 Suggested packages:
+#9 0.661   binutils-doc cpp-doc gcc-10-locales gcc-multilib make autoconf automake
+#9 0.661   libtool flex bison gdb gcc-doc gcc-10-multilib gcc-10-doc glibc-doc
+#9 0.661   libgd-tools man-browser
+#9 0.884 The following NEW packages will be installed:
+#9 0.884   binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-10
+#9 0.885   fontconfig-config fonts-dejavu-core gcc gcc-10 libasan6 libatomic1
+#9 0.885   libbinutils libbrotli1 libbsd0 libc-dev-bin libc-devtools libc6-dev libcc1-0
+#9 0.885   libcrypt-dev libctf-nobfd0 libctf0 libdeflate0 libfontconfig1 libfreetype6
+#9 0.885   libgcc-10-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg62-turbo
+#9 0.885   liblsan0 libmd0 libmpc3 libmpfr6 libnsl-dev libpng16-16 libquadmath0
+#9 0.885   libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp6 libx11-6 libx11-data
+#9 0.885   libxau6 libxcb1 libxdmcp6 libxpm4 linux-libc-dev manpages manpages-dev
+#9 0.886   sensible-utils ucf
+#9 0.907 0 upgraded, 54 newly installed, 0 to remove and 1 not upgraded.
+#9 0.907 Need to get 55.1 MB of archives.
+#9 0.907 After this operation, 193 MB of additional disk space will be used.
+#9 0.907 Get:1 http://deb.debian.org/debian bullseye/main amd64 sensible-utils all 0.0.14 [14.8 kB]
+#9 0.910 Get:2 http://deb.debian.org/debian bullseye/main amd64 manpages all 5.10-1 [1412 kB]
+#9 0.929 Get:3 http://deb.debian.org/debian bullseye/main amd64 ucf all 3.0043 [74.0 kB]
+#9 0.929 Get:4 http://deb.debian.org/debian bullseye/main amd64 binutils-common amd64 2.35.2-2 [2220 kB]
+#9 0.947 Get:5 http://deb.debian.org/debian bullseye/main amd64 libbinutils amd64 2.35.2-2 [570 kB]
+#9 0.951 Get:6 http://deb.debian.org/debian bullseye/main amd64 libctf-nobfd0 amd64 2.35.2-2 [110 kB]
+#9 0.951 Get:7 http://deb.debian.org/debian bullseye/main amd64 libctf0 amd64 2.35.2-2 [53.2 kB]
+#9 0.952 Get:8 http://deb.debian.org/debian bullseye/main amd64 binutils-x86-64-linux-gnu amd64 2.35.2-2 [1809 kB]
+#9 0.963 Get:9 http://deb.debian.org/debian bullseye/main amd64 binutils amd64 2.35.2-2 [61.2 kB]
+#9 0.963 Get:10 http://deb.debian.org/debian bullseye/main amd64 libisl23 amd64 0.23-1 [676 kB]
+#9 0.967 Get:11 http://deb.debian.org/debian bullseye/main amd64 libmpfr6 amd64 4.1.0-3 [2012 kB]
+#9 0.979 Get:12 http://deb.debian.org/debian bullseye/main amd64 libmpc3 amd64 1.2.0-1 [45.0 kB]
+#9 0.980 Get:13 http://deb.debian.org/debian bullseye/main amd64 cpp-10 amd64 10.2.1-6 [8528 kB]
+#9 1.030 Get:14 http://deb.debian.org/debian bullseye/main amd64 cpp amd64 4:10.2.1-1 [19.7 kB]
+#9 1.030 Get:15 http://deb.debian.org/debian bullseye/main amd64 fonts-dejavu-core all 2.37-2 [1069 kB]
+#9 1.037 Get:16 http://deb.debian.org/debian bullseye/main amd64 fontconfig-config all 2.13.1-4.2 [281 kB]
+#9 1.039 Get:17 http://deb.debian.org/debian bullseye/main amd64 libcc1-0 amd64 10.2.1-6 [47.0 kB]
+#9 1.039 Get:18 http://deb.debian.org/debian bullseye/main amd64 libgomp1 amd64 10.2.1-6 [99.9 kB]
+#9 1.040 Get:19 http://deb.debian.org/debian bullseye/main amd64 libitm1 amd64 10.2.1-6 [25.8 kB]
+#9 1.040 Get:20 http://deb.debian.org/debian bullseye/main amd64 libatomic1 amd64 10.2.1-6 [9008 B]
+#9 1.041 Get:21 http://deb.debian.org/debian bullseye/main amd64 libasan6 amd64 10.2.1-6 [2065 kB]
+#9 1.054 Get:22 http://deb.debian.org/debian bullseye/main amd64 liblsan0 amd64 10.2.1-6 [828 kB]
+#9 1.061 Get:23 http://deb.debian.org/debian bullseye/main amd64 libtsan0 amd64 10.2.1-6 [2000 kB]
+#9 1.075 Get:24 http://deb.debian.org/debian bullseye/main amd64 libubsan1 amd64 10.2.1-6 [777 kB]
+#9 1.080 Get:25 http://deb.debian.org/debian bullseye/main amd64 libquadmath0 amd64 10.2.1-6 [145 kB]
+#9 1.081 Get:26 http://deb.debian.org/debian bullseye/main amd64 libgcc-10-dev amd64 10.2.1-6 [2328 kB]
+#9 1.097 Get:27 http://deb.debian.org/debian bullseye/main amd64 gcc-10 amd64 10.2.1-6 [17.0 MB]
+#9 1.186 Get:28 http://deb.debian.org/debian bullseye/main amd64 gcc amd64 4:10.2.1-1 [5192 B]
+#9 1.186 Get:29 http://deb.debian.org/debian bullseye/main amd64 libbrotli1 amd64 1.0.9-2+b2 [279 kB]
+#9 1.188 Get:30 http://deb.debian.org/debian bullseye/main amd64 libmd0 amd64 1.0.3-3 [28.0 kB]
+#9 1.188 Get:31 http://deb.debian.org/debian bullseye/main amd64 libbsd0 amd64 0.11.3-1 [108 kB]
+#9 1.189 Get:32 http://deb.debian.org/debian bullseye/main amd64 libc-dev-bin amd64 2.31-13+deb11u5 [276 kB]
+#9 1.190 Get:33 http://deb.debian.org/debian bullseye/main amd64 libpng16-16 amd64 1.6.37-3 [294 kB]
+#9 1.192 Get:34 http://deb.debian.org/debian bullseye/main amd64 libfreetype6 amd64 2.10.4+dfsg-1+deb11u1 [418 kB]
+#9 1.194 Get:35 http://deb.debian.org/debian bullseye/main amd64 libfontconfig1 amd64 2.13.1-4.2 [347 kB]
+#9 1.196 Get:36 http://deb.debian.org/debian bullseye/main amd64 libjpeg62-turbo amd64 1:2.0.6-4 [151 kB]
+#9 1.197 Get:37 http://deb.debian.org/debian bullseye/main amd64 libdeflate0 amd64 1.7-1 [53.1 kB]
+#9 1.197 Get:38 http://deb.debian.org/debian bullseye/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]
+#9 1.198 Get:39 http://deb.debian.org/debian bullseye/main amd64 libwebp6 amd64 0.6.1-2.1 [258 kB]
+#9 1.199 Get:40 http://deb.debian.org/debian-security bullseye-security/main amd64 libtiff5 amd64 4.2.0-1+deb11u4 [290 kB]
+#9 1.200 Get:41 http://deb.debian.org/debian bullseye/main amd64 libxau6 amd64 1:1.0.9-1 [19.7 kB]
+#9 1.201 Get:42 http://deb.debian.org/debian bullseye/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
+#9 1.201 Get:43 http://deb.debian.org/debian bullseye/main amd64 libxcb1 amd64 1.14-3 [140 kB]
+#9 1.202 Get:44 http://deb.debian.org/debian bullseye/main amd64 libx11-data all 2:1.7.2-1 [311 kB]
+#9 1.217 Get:45 http://deb.debian.org/debian bullseye/main amd64 libx11-6 amd64 2:1.7.2-1 [772 kB]
+#9 1.223 Get:46 http://deb.debian.org/debian bullseye/main amd64 libxpm4 amd64 1:3.5.12-1 [49.1 kB]
+#9 1.224 Get:47 http://deb.debian.org/debian bullseye/main amd64 libgd3 amd64 2.3.0-2 [137 kB]
+#9 1.225 Get:48 http://deb.debian.org/debian bullseye/main amd64 libc-devtools amd64 2.31-13+deb11u5 [246 kB]
+#9 1.226 Get:49 http://deb.debian.org/debian-security bullseye-security/main amd64 linux-libc-dev amd64 5.10.162-1 [1576 kB]
+#9 1.234 Get:50 http://deb.debian.org/debian bullseye/main amd64 libcrypt-dev amd64 1:4.4.18-4 [104 kB]
+#9 1.235 Get:51 http://deb.debian.org/debian bullseye/main amd64 libtirpc-dev amd64 1.3.1-1+deb11u1 [191 kB]
+#9 1.236 Get:52 http://deb.debian.org/debian bullseye/main amd64 libnsl-dev amd64 1.3.0-2 [66.4 kB]
+#9 1.237 Get:53 http://deb.debian.org/debian bullseye/main amd64 libc6-dev amd64 2.31-13+deb11u5 [2359 kB]
+#9 1.249 Get:54 http://deb.debian.org/debian bullseye/main amd64 manpages-dev all 5.10-1 [2309 kB]
+#9 1.347 debconf: delaying package configuration, since apt-utils is not installed
+#9 1.367 Fetched 55.1 MB in 0s (148 MB/s)
+#9 1.378 Selecting previously unselected package sensible-utils.
+#9 1.378 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7031 files and directories currently installed.)
+#9 1.384 Preparing to unpack .../00-sensible-utils_0.0.14_all.deb ...
+#9 1.385 Unpacking sensible-utils (0.0.14) ...
+#9 1.399 Selecting previously unselected package manpages.
+#9 1.400 Preparing to unpack .../01-manpages_5.10-1_all.deb ...
+#9 1.402 Unpacking manpages (5.10-1) ...
+#9 1.502 Selecting previously unselected package ucf.
+#9 1.503 Preparing to unpack .../02-ucf_3.0043_all.deb ...
+#9 1.505 Moving old data out of the way
+#9 1.506 Unpacking ucf (3.0043) ...
+#9 1.525 Selecting previously unselected package binutils-common:amd64.
+#9 1.525 Preparing to unpack .../03-binutils-common_2.35.2-2_amd64.deb ...
+#9 1.527 Unpacking binutils-common:amd64 (2.35.2-2) ...
+#9 1.728 Selecting previously unselected package libbinutils:amd64.
+#9 1.729 Preparing to unpack .../04-libbinutils_2.35.2-2_amd64.deb ...
+#9 1.733 Unpacking libbinutils:amd64 (2.35.2-2) ...
+#9 1.800 Selecting previously unselected package libctf-nobfd0:amd64.
+#9 1.800 Preparing to unpack .../05-libctf-nobfd0_2.35.2-2_amd64.deb ...
+#9 1.800 Unpacking libctf-nobfd0:amd64 (2.35.2-2) ...
+#9 1.828 Selecting previously unselected package libctf0:amd64.
+#9 1.829 Preparing to unpack .../06-libctf0_2.35.2-2_amd64.deb ...
+#9 1.831 Unpacking libctf0:amd64 (2.35.2-2) ...
+#9 1.849 Selecting previously unselected package binutils-x86-64-linux-gnu.
+#9 1.849 Preparing to unpack .../07-binutils-x86-64-linux-gnu_2.35.2-2_amd64.deb ...
+#9 1.852 Unpacking binutils-x86-64-linux-gnu (2.35.2-2) ...
+#9 2.033 Selecting previously unselected package binutils.
+#9 2.034 Preparing to unpack .../08-binutils_2.35.2-2_amd64.deb ...
+#9 2.036 Unpacking binutils (2.35.2-2) ...
+#9 2.058 Selecting previously unselected package libisl23:amd64.
+#9 2.059 Preparing to unpack .../09-libisl23_0.23-1_amd64.deb ...
+#9 2.061 Unpacking libisl23:amd64 (0.23-1) ...
+#9 2.134 Selecting previously unselected package libmpfr6:amd64.
+#9 2.135 Preparing to unpack .../10-libmpfr6_4.1.0-3_amd64.deb ...
+#9 2.137 Unpacking libmpfr6:amd64 (4.1.0-3) ...
+#9 2.234 Selecting previously unselected package libmpc3:amd64.
+#9 2.235 Preparing to unpack .../11-libmpc3_1.2.0-1_amd64.deb ...
+#9 2.237 Unpacking libmpc3:amd64 (1.2.0-1) ...
+#9 2.255 Selecting previously unselected package cpp-10.
+#9 2.256 Preparing to unpack .../12-cpp-10_10.2.1-6_amd64.deb ...
+#9 2.258 Unpacking cpp-10 (10.2.1-6) ...
+#9 2.886 Selecting previously unselected package cpp.
+#9 2.887 Preparing to unpack .../13-cpp_4%3a10.2.1-1_amd64.deb ...
+#9 2.889 Unpacking cpp (4:10.2.1-1) ...
+#9 2.908 Selecting previously unselected package fonts-dejavu-core.
+#9 2.909 Preparing to unpack .../14-fonts-dejavu-core_2.37-2_all.deb ...
+#9 2.914 Unpacking fonts-dejavu-core (2.37-2) ...
+#9 3.024 Selecting previously unselected package fontconfig-config.
+#9 3.025 Preparing to unpack .../15-fontconfig-config_2.13.1-4.2_all.deb ...
+#9 3.088 Unpacking fontconfig-config (2.13.1-4.2) ...
+#9 3.117 Selecting previously unselected package libcc1-0:amd64.
+#9 3.118 Preparing to unpack .../16-libcc1-0_10.2.1-6_amd64.deb ...
+#9 3.120 Unpacking libcc1-0:amd64 (10.2.1-6) ...
+#9 3.141 Selecting previously unselected package libgomp1:amd64.
+#9 3.142 Preparing to unpack .../17-libgomp1_10.2.1-6_amd64.deb ...
+#9 3.144 Unpacking libgomp1:amd64 (10.2.1-6) ...
+#9 3.168 Selecting previously unselected package libitm1:amd64.
+#9 3.169 Preparing to unpack .../18-libitm1_10.2.1-6_amd64.deb ...
+#9 3.171 Unpacking libitm1:amd64 (10.2.1-6) ...
+#9 3.192 Selecting previously unselected package libatomic1:amd64.
+#9 3.193 Preparing to unpack .../19-libatomic1_10.2.1-6_amd64.deb ...
+#9 3.195 Unpacking libatomic1:amd64 (10.2.1-6) ...
+#9 3.213 Selecting previously unselected package libasan6:amd64.
+#9 3.214 Preparing to unpack .../20-libasan6_10.2.1-6_amd64.deb ...
+#9 3.217 Unpacking libasan6:amd64 (10.2.1-6) ...
+#9 3.404 Selecting previously unselected package liblsan0:amd64.
+#9 3.405 Preparing to unpack .../21-liblsan0_10.2.1-6_amd64.deb ...
+#9 3.407 Unpacking liblsan0:amd64 (10.2.1-6) ...
+#9 3.490 Selecting previously unselected package libtsan0:amd64.
+#9 3.491 Preparing to unpack .../22-libtsan0_10.2.1-6_amd64.deb ...
+#9 3.493 Unpacking libtsan0:amd64 (10.2.1-6) ...
+#9 3.679 Selecting previously unselected package libubsan1:amd64.
+#9 3.680 Preparing to unpack .../23-libubsan1_10.2.1-6_amd64.deb ...
+#9 3.682 Unpacking libubsan1:amd64 (10.2.1-6) ...
+#9 3.762 Selecting previously unselected package libquadmath0:amd64.
+#9 3.763 Preparing to unpack .../24-libquadmath0_10.2.1-6_amd64.deb ...
+#9 3.765 Unpacking libquadmath0:amd64 (10.2.1-6) ...
+#9 3.790 Selecting previously unselected package libgcc-10-dev:amd64.
+#9 3.791 Preparing to unpack .../25-libgcc-10-dev_10.2.1-6_amd64.deb ...
+#9 3.794 Unpacking libgcc-10-dev:amd64 (10.2.1-6) ...
+#9 3.987 Selecting previously unselected package gcc-10.
+#9 3.988 Preparing to unpack .../26-gcc-10_10.2.1-6_amd64.deb ...
+#9 3.990 Unpacking gcc-10 (10.2.1-6) ...
+#9 5.252 Selecting previously unselected package gcc.
+#9 5.253 Preparing to unpack .../27-gcc_4%3a10.2.1-1_amd64.deb ...
+#9 5.255 Unpacking gcc (4:10.2.1-1) ...
+#9 5.273 Selecting previously unselected package libbrotli1:amd64.
+#9 5.274 Preparing to unpack .../28-libbrotli1_1.0.9-2+b2_amd64.deb ...
+#9 5.277 Unpacking libbrotli1:amd64 (1.0.9-2+b2) ...
+#9 5.319 Selecting previously unselected package libmd0:amd64.
+#9 5.320 Preparing to unpack .../29-libmd0_1.0.3-3_amd64.deb ...
+#9 5.322 Unpacking libmd0:amd64 (1.0.3-3) ...
+#9 5.342 Selecting previously unselected package libbsd0:amd64.
+#9 5.343 Preparing to unpack .../30-libbsd0_0.11.3-1_amd64.deb ...
+#9 5.345 Unpacking libbsd0:amd64 (0.11.3-1) ...
+#9 5.366 Selecting previously unselected package libc-dev-bin.
+#9 5.367 Preparing to unpack .../31-libc-dev-bin_2.31-13+deb11u5_amd64.deb ...
+#9 5.369 Unpacking libc-dev-bin (2.31-13+deb11u5) ...
+#9 5.393 Selecting previously unselected package libpng16-16:amd64.
+#9 5.394 Preparing to unpack .../32-libpng16-16_1.6.37-3_amd64.deb ...
+#9 5.396 Unpacking libpng16-16:amd64 (1.6.37-3) ...
+#9 5.430 Selecting previously unselected package libfreetype6:amd64.
+#9 5.431 Preparing to unpack .../33-libfreetype6_2.10.4+dfsg-1+deb11u1_amd64.deb ...
+#9 5.433 Unpacking libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+#9 5.481 Selecting previously unselected package libfontconfig1:amd64.
+#9 5.482 Preparing to unpack .../34-libfontconfig1_2.13.1-4.2_amd64.deb ...
+#9 5.484 Unpacking libfontconfig1:amd64 (2.13.1-4.2) ...
+#9 5.514 Selecting previously unselected package libjpeg62-turbo:amd64.
+#9 5.515 Preparing to unpack .../35-libjpeg62-turbo_1%3a2.0.6-4_amd64.deb ...
+#9 5.517 Unpacking libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+#9 5.546 Selecting previously unselected package libdeflate0:amd64.
+#9 5.547 Preparing to unpack .../36-libdeflate0_1.7-1_amd64.deb ...
+#9 5.549 Unpacking libdeflate0:amd64 (1.7-1) ...
+#9 5.569 Selecting previously unselected package libjbig0:amd64.
+#9 5.570 Preparing to unpack .../37-libjbig0_2.1-3.1+b2_amd64.deb ...
+#9 5.572 Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+#9 5.593 Selecting previously unselected package libwebp6:amd64.
+#9 5.594 Preparing to unpack .../38-libwebp6_0.6.1-2.1_amd64.deb ...
+#9 5.596 Unpacking libwebp6:amd64 (0.6.1-2.1) ...
+#9 5.633 Selecting previously unselected package libtiff5:amd64.
+#9 5.634 Preparing to unpack .../39-libtiff5_4.2.0-1+deb11u4_amd64.deb ...
+#9 5.637 Unpacking libtiff5:amd64 (4.2.0-1+deb11u4) ...
+#9 5.673 Selecting previously unselected package libxau6:amd64.
+#9 5.674 Preparing to unpack .../40-libxau6_1%3a1.0.9-1_amd64.deb ...
+#9 5.676 Unpacking libxau6:amd64 (1:1.0.9-1) ...
+#9 5.693 Selecting previously unselected package libxdmcp6:amd64.
+#9 5.694 Preparing to unpack .../41-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+#9 5.696 Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+#9 5.715 Selecting previously unselected package libxcb1:amd64.
+#9 5.716 Preparing to unpack .../42-libxcb1_1.14-3_amd64.deb ...
+#9 5.718 Unpacking libxcb1:amd64 (1.14-3) ...
+#9 5.740 Selecting previously unselected package libx11-data.
+#9 5.740 Preparing to unpack .../43-libx11-data_2%3a1.7.2-1_all.deb ...
+#9 5.743 Unpacking libx11-data (2:1.7.2-1) ...
+#9 5.785 Selecting previously unselected package libx11-6:amd64.
+#9 5.786 Preparing to unpack .../44-libx11-6_2%3a1.7.2-1_amd64.deb ...
+#9 5.788 Unpacking libx11-6:amd64 (2:1.7.2-1) ...
+#9 5.853 Selecting previously unselected package libxpm4:amd64.
+#9 5.854 Preparing to unpack .../45-libxpm4_1%3a3.5.12-1_amd64.deb ...
+#9 5.856 Unpacking libxpm4:amd64 (1:3.5.12-1) ...
+#9 5.877 Selecting previously unselected package libgd3:amd64.
+#9 5.878 Preparing to unpack .../46-libgd3_2.3.0-2_amd64.deb ...
+#9 5.880 Unpacking libgd3:amd64 (2.3.0-2) ...
+#9 5.905 Selecting previously unselected package libc-devtools.
+#9 5.905 Preparing to unpack .../47-libc-devtools_2.31-13+deb11u5_amd64.deb ...
+#9 5.907 Unpacking libc-devtools (2.31-13+deb11u5) ...
+#9 5.931 Selecting previously unselected package linux-libc-dev:amd64.
+#9 5.932 Preparing to unpack .../48-linux-libc-dev_5.10.162-1_amd64.deb ...
+#9 5.935 Unpacking linux-libc-dev:amd64 (5.10.162-1) ...
+#9 6.048 Selecting previously unselected package libcrypt-dev:amd64.
+#9 6.050 Preparing to unpack .../49-libcrypt-dev_1%3a4.4.18-4_amd64.deb ...
+#9 6.058 Unpacking libcrypt-dev:amd64 (1:4.4.18-4) ...
+#9 6.083 Selecting previously unselected package libtirpc-dev:amd64.
+#9 6.084 Preparing to unpack .../50-libtirpc-dev_1.3.1-1+deb11u1_amd64.deb ...
+#9 6.087 Unpacking libtirpc-dev:amd64 (1.3.1-1+deb11u1) ...
+#9 6.122 Selecting previously unselected package libnsl-dev:amd64.
+#9 6.123 Preparing to unpack .../51-libnsl-dev_1.3.0-2_amd64.deb ...
+#9 6.125 Unpacking libnsl-dev:amd64 (1.3.0-2) ...
+#9 6.147 Selecting previously unselected package libc6-dev:amd64.
+#9 6.148 Preparing to unpack .../52-libc6-dev_2.31-13+deb11u5_amd64.deb ...
+#9 6.151 Unpacking libc6-dev:amd64 (2.31-13+deb11u5) ...
+#9 6.354 Selecting previously unselected package manpages-dev.
+#9 6.356 Preparing to unpack .../53-manpages-dev_5.10-1_all.deb ...
+#9 6.358 Unpacking manpages-dev (5.10-1) ...
+#9 6.563 Setting up libxau6:amd64 (1:1.0.9-1) ...
+#9 6.569 Setting up manpages (5.10-1) ...
+#9 6.576 Setting up libbrotli1:amd64 (1.0.9-2+b2) ...
+#9 6.582 Setting up binutils-common:amd64 (2.35.2-2) ...
+#9 6.588 Setting up libdeflate0:amd64 (1.7-1) ...
+#9 6.595 Setting up linux-libc-dev:amd64 (5.10.162-1) ...
+#9 6.601 Setting up libctf-nobfd0:amd64 (2.35.2-2) ...
+#9 6.608 Setting up libgomp1:amd64 (10.2.1-6) ...
+#9 6.615 Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+#9 6.622 Setting up libasan6:amd64 (10.2.1-6) ...
+#9 6.628 Setting up libtirpc-dev:amd64 (1.3.1-1+deb11u1) ...
+#9 6.635 Setting up libjpeg62-turbo:amd64 (1:2.0.6-4) ...
+#9 6.641 Setting up libx11-data (2:1.7.2-1) ...
+#9 6.647 Setting up libmpfr6:amd64 (4.1.0-3) ...
+#9 6.653 Setting up libquadmath0:amd64 (10.2.1-6) ...
+#9 6.659 Setting up libpng16-16:amd64 (1.6.37-3) ...
+#9 6.666 Setting up libmpc3:amd64 (1.2.0-1) ...
+#9 6.673 Setting up libatomic1:amd64 (10.2.1-6) ...
+#9 6.679 Setting up libwebp6:amd64 (0.6.1-2.1) ...
+#9 6.686 Setting up fonts-dejavu-core (2.37-2) ...
+#9 6.719 Setting up libubsan1:amd64 (10.2.1-6) ...
+#9 6.726 Setting up libmd0:amd64 (1.0.3-3) ...
+#9 6.733 Setting up libnsl-dev:amd64 (1.3.0-2) ...
+#9 6.741 Setting up sensible-utils (0.0.14) ...
+#9 6.747 Setting up libcrypt-dev:amd64 (1:4.4.18-4) ...
+#9 6.754 Setting up libtiff5:amd64 (4.2.0-1+deb11u4) ...
+#9 6.762 Setting up libbinutils:amd64 (2.35.2-2) ...
+#9 6.769 Setting up libisl23:amd64 (0.23-1) ...
+#9 6.776 Setting up libc-dev-bin (2.31-13+deb11u5) ...
+#9 6.782 Setting up libbsd0:amd64 (0.11.3-1) ...
+#9 6.789 Setting up libcc1-0:amd64 (10.2.1-6) ...
+#9 6.796 Setting up liblsan0:amd64 (10.2.1-6) ...
+#9 6.803 Setting up cpp-10 (10.2.1-6) ...
+#9 6.810 Setting up libitm1:amd64 (10.2.1-6) ...
+#9 6.817 Setting up libtsan0:amd64 (10.2.1-6) ...
+#9 6.830 Setting up libctf0:amd64 (2.35.2-2) ...
+#9 6.837 Setting up manpages-dev (5.10-1) ...
+#9 6.843 Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+#9 6.849 Setting up libxcb1:amd64 (1.14-3) ...
+#9 6.856 Setting up libgcc-10-dev:amd64 (10.2.1-6) ...
+#9 6.866 Setting up libfreetype6:amd64 (2.10.4+dfsg-1+deb11u1) ...
+#9 6.880 Setting up ucf (3.0043) ...
+#9 6.940 debconf: unable to initialize frontend: Dialog
+#9 6.940 debconf: (TERM is not set, so the dialog frontend is not usable.)
+#9 6.940 debconf: falling back to frontend: Readline
+#9 6.940 debconf: unable to initialize frontend: Readline
+#9 6.940 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+#9 6.940 debconf: falling back to frontend: Teletype
+#9 6.962 Setting up cpp (4:10.2.1-1) ...
+#9 6.973 Setting up libc6-dev:amd64 (2.31-13+deb11u5) ...
+#9 6.980 Setting up libx11-6:amd64 (2:1.7.2-1) ...
+#9 6.986 Setting up binutils-x86-64-linux-gnu (2.35.2-2) ...
+#9 6.993 Setting up libxpm4:amd64 (1:3.5.12-1) ...
+#9 6.999 Setting up fontconfig-config (2.13.1-4.2) ...
+#9 7.060 debconf: unable to initialize frontend: Dialog
+#9 7.060 debconf: (TERM is not set, so the dialog frontend is not usable.)
+#9 7.060 debconf: falling back to frontend: Readline
+#9 7.060 debconf: unable to initialize frontend: Readline
+#9 7.060 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.32.1 /usr/local/share/perl/5.32.1 /usr/lib/x86_64-linux-gnu/perl5/5.32 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.32 /usr/share/perl/5.32 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+#9 7.060 debconf: falling back to frontend: Teletype
+#9 7.167 Setting up binutils (2.35.2-2) ...
+#9 7.174 Setting up gcc-10 (10.2.1-6) ...
+#9 7.180 Setting up libfontconfig1:amd64 (2.13.1-4.2) ...
+#9 7.187 Setting up gcc (4:10.2.1-1) ...
+#9 7.200 Setting up libgd3:amd64 (2.3.0-2) ...
+#9 7.206 Setting up libc-devtools (2.31-13+deb11u5) ...
+#9 7.213 Processing triggers for libc-bin (2.31-13+deb11u5) ...
+#9 DONE 7.6s
+
+#10 [6/7] RUN pip3 install -r requirements.txt
+#10 1.689 Collecting absl-py==1.1.0
+#10 1.713   Downloading absl_py-1.1.0-py3-none-any.whl (123 kB)
+#10 1.724      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.7/123.7 KB 17.4 MB/s eta 0:00:00
+#10 1.758 Collecting click==8.1.3
+#10 1.769   Downloading click-8.1.3-py3-none-any.whl (96 kB)
+#10 1.774      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 KB 31.3 MB/s eta 0:00:00
+#10 1.803 Collecting colorama==0.4.5
+#10 1.811   Downloading colorama-0.4.5-py2.py3-none-any.whl (16 kB)
+#10 1.846 Collecting Flask==2.1.2
+#10 1.852   Downloading Flask-2.1.2-py3-none-any.whl (95 kB)
+#10 1.858      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.2/95.2 KB 22.7 MB/s eta 0:00:00
+#10 1.934 Collecting importlib-metadata==4.11.4
+#10 1.940   Downloading importlib_metadata-4.11.4-py3-none-any.whl (18 kB)
+#10 1.964 Collecting itsdangerous==2.1.2
+#10 1.974   Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+#10 2.005 Collecting Jinja2==3.1.2
+#10 2.015   Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+#10 2.021      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.1/133.1 KB 43.1 MB/s eta 0:00:00
+#10 2.062 Collecting joblib==1.1.0
+#10 2.069   Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+#10 2.076      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 307.0/307.0 KB 65.7 MB/s eta 0:00:00
+#10 2.163 Collecting MarkupSafe==2.1.1
+#10 2.168   Downloading MarkupSafe-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+#10 2.549 Collecting numpy==1.22.4
+#10 2.557   Downloading numpy-1.22.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+#10 2.751      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 78.7 MB/s eta 0:00:00
+#10 2.883 Collecting ortools==9.3.10497
+#10 2.901   Downloading ortools-9.3.10497-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (15.5 MB)
+#10 3.072      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.5/15.5 MB 82.8 MB/s eta 0:00:00
+#10 3.424 Collecting protobuf==4.21.1
+#10 3.429   Downloading protobuf-4.21.1-cp37-abi3-manylinux2014_x86_64.whl (407 kB)
+#10 3.437      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 407.8/407.8 KB 72.2 MB/s eta 0:00:00
+#10 3.464 Collecting pyhumps==3.7.1
+#10 3.469   Downloading pyhumps-3.7.1-py3-none-any.whl (5.5 kB)
+#10 3.635 Collecting scikit-learn==1.1.1
+#10 3.641   Downloading scikit_learn-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (30.8 MB)
+#10 4.009      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 30.8/30.8 MB 58.8 MB/s eta 0:00:00
+#10 4.281 Collecting scipy==1.8.1
+#10 4.287   Downloading scipy-1.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.2 MB)
+#10 4.695      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.2/42.2 MB 55.6 MB/s eta 0:00:00
+#10 4.772 Collecting threadpoolctl==3.1.0
+#10 4.776   Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+#10 4.802 Collecting typing_extensions==4.2.0
+#10 4.808   Downloading typing_extensions-4.2.0-py3-none-any.whl (24 kB)
+#10 4.850 Collecting Werkzeug==2.1.2
+#10 4.858   Downloading Werkzeug-2.1.2-py3-none-any.whl (224 kB)
+#10 4.865      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.9/224.9 KB 53.3 MB/s eta 0:00:00
+#10 4.900 Collecting zipp==3.8.0
+#10 4.905   Downloading zipp-3.8.0-py3-none-any.whl (5.4 kB)
+#10 5.099 Collecting numba==0.56.4
+#10 5.111   Downloading numba-0.56.4-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.5 MB)
+#10 5.137      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 143.4 MB/s eta 0:00:00
+#10 5.223 Collecting plotly==5.13.0
+#10 5.230   Downloading plotly-5.13.0-py2.py3-none-any.whl (15.2 MB)
+#10 5.342      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.2/15.2 MB 114.5 MB/s eta 0:00:00
+#10 5.706 Collecting pandas==1.5.3
+#10 5.721   Downloading pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)
+#10 5.854      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.2/12.2 MB 114.2 MB/s eta 0:00:00
+#10 5.901 Collecting uWSGI==2.0.20
+#10 5.906   Downloading uwsgi-2.0.20.tar.gz (804 kB)
+#10 5.918      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 804.9/804.9 KB 92.6 MB/s eta 0:00:00
+#10 6.064   Preparing metadata (setup.py): started
+#10 6.452   Preparing metadata (setup.py): finished with status 'done'
+#10 6.769 Collecting llvmlite<0.40,>=0.39.0dev0
+#10 6.776   Downloading llvmlite-0.39.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.6 MB)
+#10 7.089      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 34.6/34.6 MB 55.6 MB/s eta 0:00:00
+#10 7.139 Requirement already satisfied: setuptools in /usr/local/lib/python3.9/site-packages (from numba==0.56.4->-r requirements.txt (line 21)) (58.1.0)
+#10 7.196 Collecting tenacity>=6.2.0
+#10 7.222   Downloading tenacity-8.2.2-py3-none-any.whl (24 kB)
+#10 7.296 Collecting python-dateutil>=2.8.1
+#10 7.303   Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+#10 7.313      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 KB 42.3 MB/s eta 0:00:00
+#10 7.402 Collecting pytz>=2020.1
+#10 7.408   Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+#10 7.417      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 KB 86.1 MB/s eta 0:00:00
+#10 7.456 Collecting six>=1.5
+#10 7.461   Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+#10 7.507 Building wheels for collected packages: uWSGI
+#10 7.507   Building wheel for uWSGI (setup.py): started
+#10 14.82   Building wheel for uWSGI (setup.py): finished with status 'done'
+#10 14.82   Created wheel for uWSGI: filename=uWSGI-2.0.20-cp39-cp39-linux_x86_64.whl size=510103 sha256=bbc2f14a430b3cdc9a9f896a1aafe0c1c78ca8913349ffe7b8a736efb054106e
+#10 14.82   Stored in directory: /root/.cache/pip/wheels/09/ac/7b/80681f729cf8c820803228c8752d49581afd6a446bc58b172c
+#10 14.82 Successfully built uWSGI
+#10 15.06 Installing collected packages: uWSGI, pytz, pyhumps, zipp, Werkzeug, typing_extensions, threadpoolctl, tenacity, six, protobuf, numpy, MarkupSafe, llvmlite, joblib, itsdangerous, colorama, click, absl-py, scipy, python-dateutil, plotly, ortools, numba, Jinja2, importlib-metadata, scikit-learn, pandas, Flask
+#10 35.29 Successfully installed Flask-2.1.2 Jinja2-3.1.2 MarkupSafe-2.1.1 Werkzeug-2.1.2 absl-py-1.1.0 click-8.1.3 colorama-0.4.5 importlib-metadata-4.11.4 itsdangerous-2.1.2 joblib-1.1.0 llvmlite-0.39.1 numba-0.56.4 numpy-1.22.4 ortools-9.3.10497 pandas-1.5.3 plotly-5.13.0 protobuf-4.21.1 pyhumps-3.7.1 python-dateutil-2.8.2 pytz-2023.3 scikit-learn-1.1.1 scipy-1.8.1 six-1.16.0 tenacity-8.2.2 threadpoolctl-3.1.0 typing_extensions-4.2.0 uWSGI-2.0.20 zipp-3.8.0
+#10 35.29 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#10 35.38 WARNING: You are using pip version 22.0.4; however, version 23.0.1 is available.
+#10 35.38 You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+#10 DONE 40.6s
+
+#11 [7/7] COPY . /app
+#11 DONE 0.2s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 30.5s done
+#12 exporting manifest sha256:7de292275fd3111f56df563d472121e56b49ebb74629c698bbda26e6b0be9092 done
+#12 exporting config sha256:dc4da553505098e4522d97dadb73ef757d20406736014fc66d13a239f8f82d45 done
+#12 pushing layers
+#12 ...
+
+#13 [auth] sharing credentials for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+#13 DONE 0.0s
+
+#12 exporting to image
+#12 pushing layers 13.5s done
+#12 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization:vrp@sha256:7de292275fd3111f56df563d472121e56b49ebb74629c698bbda26e6b0be9092
+#12 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization:vrp@sha256:7de292275fd3111f56df563d472121e56b49ebb74629c698bbda26e6b0be9092 0.2s done
+#12 DONE 44.3s
+[8mha:////4GHHcQA/8jFHOB0BlaLXg3cD4Fxbp+xSCO/EsOno6UzRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4JBBypnV/qBTFKw/HGmc8Ei15QkOPFqMJignilmMU8v5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // container
+[8mha:////4O1og0ZWlhpPCr7a71YL8clrS5drLrz7nPJeLbk0FNYAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0UD6uJwgAAAA==[0m[Pipeline] container
+[8mha:////4M8W1q6iQix3FEn4koCfbPRJn8z2IOXZp5cJb2YPcAB+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4F+JqAzsBSUrcRh5OagHbo8kb/6GhZpsrgSWhX7WeFUwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ aws ecr describe-images --registry-id 744004065806 --repository-name smartlog-optimization --image-ids imageTag=vrp --query sort(imageDetails[].imageDigest) --output text --region ap-southeast-1
+[8mha:////4BqNjw3g0w3nLaegnpAJhxA8C4zLkvSGNPJWW9J8EEPBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4CUZtj1jTIAIy9H2/KH1i7g4wZzsozjIjafNVCJkBLSBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // container
+[8mha:////4BcefTI60uiLYC82mdJW8RjlozufTD/JXRQ8NOVlV0GwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w/qqjVVvgAAAA==[0m[Pipeline] }
+[8mha:////4JJ+UFLzQKh14qXlZ5r/362a+eRKQlAy3CHdVQpnRhbpAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKJAQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8A2Ulu6b4AAAA=[0m[Pipeline] // stage
+[8mha:////4PjyoD68h/o4LQUP7K2pD47y62cP1PvRODWJBuuqPQmdAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A15M2Z7BAAAA[0m[Pipeline] stage
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Update GIT)
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] script
+[8mha:////4Gdmm38Jz+v6e350CDJbvX1mlSUvNF1jyF1Rw9vHBaCkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4FJBJQOPddeg2o1LGO9A80p4KYwXviMAa8mcnrILiVqLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] withCredentials
+Masking supported pattern matches of $BITBUCKET_USERNAME or $BITBUCKET_PASSWORD
+[8mha:////4I+6fxEdgC244kNbrOSS1sE/rGwjpt2Avzf5SCI//puGAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] {
+[8mha:////4MsOMELb4oAlqvODYU0ubzyBsb/Ygft3JEj/G3Ej0MdTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [BITBUCKET_PASSWORD, BITBUCKET_USERNAME]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ git config --global user.email jenkins@gosmartlog.com
++ git config --global user.name jenkins
++ git clone https://****:****@bitbucket.org/smartlogtms/devops-deployment-stm2.5.git
+Cloning into 'devops-deployment-stm2.5'...
++ cd devops-deployment-stm2.5
++ sed -i s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization@sha256:7de292275fd3111f56df563d472121e56b49ebb74629c698bbda26e6b0be9092+g ./super-vrp/master/.argocd-source.yaml
++ git add ./super-vrp/master/.argocd-source.yaml
++ sed -i s/\(date:\s*\)'[^']*'/\1'1680577453'/ ./super-vrp/master/deploy.yaml
++ git add ./super-vrp/master/deploy.yaml
+[8mha:////4H7g/rkE13nbTDQ88JG5wsmbcKG6MvhUeTmmIvlEJih+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHgAfL9vgAAAA==[0m[Pipeline] sh
++ cd devops-deployment-stm2.5
++ sed -i s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization@sha256:7de292275fd3111f56df563d472121e56b49ebb74629c698bbda26e6b0be9092+g ./super-vrp/master-deliveree/.argocd-source.yaml
++ git add ./super-vrp/master-deliveree/.argocd-source.yaml
++ sed -i s/\(date:\s*\)'[^']*'/\1'1680577453'/ ./super-vrp/master-deliveree/deploy.yaml
++ git add ./super-vrp/master-deliveree/deploy.yaml
+[8mha:////4Ovv0cx+6sLbjHUcCPWEPfoINAdFFjG29R9y4JD8Wo2GAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q0vHWp6vgAAAA==[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [BITBUCKET_PASSWORD, BITBUCKET_USERNAME]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ cd devops-deployment-stm2.5
++ git commit -m Done by Jenkins Job changemanifest: smartlog-optimization:30
+[master be525e1] Done by Jenkins Job changemanifest: smartlog-optimization:30
+ 4 files changed, 4 insertions(+), 4 deletions(-)
++ git pull --rebase https://****:****@bitbucket.org/smartlogtms/devops-deployment-stm2.5.git
+From https://bitbucket.org/smartlogtms/devops-deployment-stm2.5
+ * branch            HEAD       -> FETCH_HEAD
+Current branch master is up to date.
++ git push https://****:****@bitbucket.org/smartlogtms/devops-deployment-stm2.5.git HEAD:refs/heads/master
+To https://bitbucket.org/smartlogtms/devops-deployment-stm2.5.git
+   0b0929b..be525e1  HEAD -> master
+[8mha:////4EGo5yc/lY16qp/TYomvdhGtRj4bC/Ps4QOpo+B5VEl/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIAqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFVcSbkvgAAAA==[0m[Pipeline] }
+[8mha:////4J9S4RGfsTLCfQtFVG4wsDDF4Py4x70sBrr+XuSLS0PAAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoP4UuiXG+AAAA[0m[Pipeline] // withCredentials
+[8mha:////4FBnrUpn+r4qkij8qk8kvUKKUCrB+lCCjurHOasoBAyvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP4NosSS+AAAA[0m[Pipeline] }
+[8mha:////4CY04bsb+MaH944iUtwFaTmIwLZx3frXlMqip8Nfwji6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP7sqItW+AAAA[0m[Pipeline] // script
+[8mha:////4Do94EJDeQwYui6yMQ9OUr0ARFNtJ8J+h725TlPq136gAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP6Sod4e+AAAA[0m[Pipeline] }
+[8mha:////4Pmd3jIdpKJezCT4g8rLptIwwf+RfY7NblTDa067/YodAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd5zrsP4qode2+AAAA[0m[Pipeline] // stage
+[8mha:////4EyZ3CcFZJ8pe7xll4SWaz/qk2IKRqPxRrFsAhLmGxbkAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbC/LtrvsA0n9+v70AAAA=[0m[Pipeline] deleteDir
+[8mha:////4FEDtapzfVHqn9y0l92q2biKLNgIJRNtixzagQ3+TQEDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0Do1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YKsFOT7sv8AESxTlL0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: opt_build_log, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4LTEZC1qAofPoHQFHIZI8modHNRRVsTI9zQtzlmiLPZ/AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpEBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPCgem3r0AAAA=[0m[Pipeline] }
+[8mha:////4AWH7lNu3x8BHVG3qF4EGcZHWWsk44/bNL+0GvKKNu5HAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpQEJCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AGHB/8W9AAAA[0m[Pipeline] // node
+[8mha:////4J5hrNidvCXBojBgQbq/fYjGib+e6cG6+hhDaqdyXSS8AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0NI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAR9iYj70AAAA=[0m[Pipeline] }
+[8mha:////4Okg9xClkdaRxe5ZR2qKrtopxloHydvgo9kLpdfofxwsAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQlSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPMPyw170AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4DClbbrOK8P2eM7ApM34/Tc2KdAy5bYG6kO/hlriSRnYAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRSFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPFuXXnb0AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

@@ -1,0 +1,509 @@
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Wed Oct 05 04:20:45 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 05 04:20:37 UTC 2022 processed in 3.4 sec
+[Wed Oct 05 04:24:56 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.70 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 05 04:24:51 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (b32e5478cda77fea38a1d88ad74447c56570ed5b → d1737ae84a24a773fafd3f4efe5b2e1c5ec74033)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Oct 05 04:24:59 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.70 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 05 04:24:51 UTC 2022 processed in 3.3 sec
+[Thu Oct 06 14:09:44 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.137 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Oct 06 14:09:39 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (5e8ea95133f5d79ab8a2d9e20de5b3c85a131587 → 8a30fbcabd8d3202699fa91a13140cc3cbbf6a97)
+Scheduled build for branch: production
+
+  14 branches were processed (query completed)
+[Thu Oct 06 14:09:48 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.137 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Oct 06 14:09:39 UTC 2022 processed in 3.9 sec
+[Wed Oct 26 02:51:28 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 26 02:51:23 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  17 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Wed Oct 26 02:51:30 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 26 02:51:23 UTC 2022 processed in 2.3 sec
+[Wed Oct 26 02:52:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 26 02:52:46 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d1737ae84a24a773fafd3f4efe5b2e1c5ec74033 → 29f2c3f0fc84da1243c04451e48e417b850fd274)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Wed Oct 26 02:52:54 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.141.153 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Oct 26 02:52:46 UTC 2022 processed in 3.3 sec
+[Wed Nov 02 02:45:04 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.145.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 02:44:59 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (8a30fbcabd8d3202699fa91a13140cc3cbbf6a97 → 0c76e1ca0628c3fca7db639856faa974d53b7cdc)
+Scheduled build for branch: production
+
+  15 branches were processed (query completed)
+[Wed Nov 02 02:45:08 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.145.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 02 02:44:59 UTC 2022 processed in 3.9 sec
+[Fri Nov 11 09:51:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.191.21 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 09:51:47 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  18 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-47 from smartlogwms/poms-fe and branch 1.8.8/mdlz
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  2 pull requests were processed
+[Fri Nov 11 09:51:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.191.21 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 09:51:47 UTC 2022 processed in 3.5 sec
+[Fri Nov 11 09:52:54 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.214 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 09:52:49 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (29f2c3f0fc84da1243c04451e48e417b850fd274 → fb736b6bb106c6599058a836875b0ea0f34d2379)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Nov 11 09:52:58 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.214 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 11 09:52:49 UTC 2022 processed in 3.3 sec
+[Sat Nov 12 13:15:13 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Nov 12 13:15:08 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  18 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Sat Nov 12 13:15:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Nov 12 13:15:08 UTC 2022 processed in 3.5 sec
+[Sat Nov 12 13:15:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.145.157 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Nov 12 13:15:37 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (fb736b6bb106c6599058a836875b0ea0f34d2379 → 10e7c90d413cd95bc479eb6c2502d6060f88e246)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Sat Nov 12 13:15:46 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.145.157 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Nov 12 13:15:37 UTC 2022 processed in 3.3 sec
+[Tue Nov 15 03:46:39 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:46:34 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  18 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Tue Nov 15 03:46:42 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.128.18 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:46:34 UTC 2022 processed in 3 sec
+[Tue Nov 15 03:49:13 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:49:08 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  19 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-49 from smartlogwms/poms-fe and branch huy2k-dev
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  2 pull requests were processed
+[Tue Nov 15 03:49:16 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:49:08 UTC 2022 processed in 3.3 sec
+[Tue Nov 15 03:51:05 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.101 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:51:00 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (10e7c90d413cd95bc479eb6c2502d6060f88e246 → 8e53b00d1ff80060a008d6a29daadd36c6daa570)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Nov 15 03:51:08 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.133.101 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 15 03:51:00 UTC 2022 processed in 3.5 sec
+[Fri Dec 09 09:54:34 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.152.93 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 09 09:54:29 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  19 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Fri Dec 09 09:54:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.152.93 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 09 09:54:29 UTC 2022 processed in 3.7 sec
+[Fri Dec 09 10:01:11 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 09 10:01:06 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (8e53b00d1ff80060a008d6a29daadd36c6daa570 → df57e3fa059eb5c109e1cf3129691b170f59c47a)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Dec 09 10:01:14 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Dec 09 10:01:06 UTC 2022 processed in 3.4 sec
+[Fri Feb 17 16:54:20 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 16:54:15 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  19 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Fri Feb 17 16:54:24 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 16:54:15 UTC 2023 processed in 4 sec
+[Fri Feb 17 16:54:51 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 16:54:46 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (df57e3fa059eb5c109e1cf3129691b170f59c47a → 80218870fba514fa7692b6307c84006ae509a794)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 17 16:54:54 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 16:54:46 UTC 2023 processed in 3.2 sec
+[Fri Feb 17 17:04:38 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:04:33 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  19 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Fri Feb 17 17:04:41 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:04:33 UTC 2023 processed in 3.4 sec
+[Fri Feb 17 17:05:22 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:05:17 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  19 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-55 from smartlogwms/poms-fe and branch 1.8.8/mdlz
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  2 pull requests were processed
+[Fri Feb 17 17:05:26 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:05:17 UTC 2023 processed in 3.3 sec
+[Fri Feb 17 17:05:36 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:05:31 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (80218870fba514fa7692b6307c84006ae509a794 → e4db8cba54b444a47fe4be5f276bc3f723076623)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Fri Feb 17 17:05:39 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 17 17:05:31 UTC 2023 processed in 3.3 sec
+[Thu Feb 23 08:59:26 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 23 08:59:21 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (0c76e1ca0628c3fca7db639856faa974d53b7cdc → 563ba6a807c87bd59da35102447526952b42859e)
+Scheduled build for branch: production
+
+  17 branches were processed (query completed)
+[Thu Feb 23 08:59:29 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 23 08:59:21 UTC 2023 processed in 3.4 sec
+[Wed Mar 08 05:17:01 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.83.27 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 08 05:16:56 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch 1.9.6/poms-col from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+Checking branch sgb-oms from smartlogwms/poms-fe
+Checking branch swms-1211 from smartlogwms/poms-fe
+
+  20 branches were processed
+Looking up smartlogwms/poms-fe for pull requests
+Checking PR-23 from smartlogwms/poms-fe and branch swms-1211
+
+  1 pull requests were processed
+[Wed Mar 08 05:17:03 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.83.27 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 08 05:16:56 UTC 2023 processed in 2.3 sec
+[Wed Mar 08 07:02:44 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.83.27 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 08 07:02:39 UTC 2023
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/poms-fe for branches
+Checking branch 1.5.2/Merge-Production from smartlogwms/poms-fe
+Checking branch 1.5.x/oms-ui from smartlogwms/poms-fe
+Checking branch 1.7.0/syncall-trasas from smartlogwms/poms-fe
+Checking branch 1.7.0/ump-01 from smartlogwms/poms-fe
+Checking branch 1.7.4/nandio from smartlogwms/poms-fe
+Checking branch 1.8.5/thienlong from smartlogwms/poms-fe
+Checking branch 1.8.8/mdlz from smartlogwms/poms-fe
+Checking branch 1.9.6/poms-col from smartlogwms/poms-fe
+Checking branch TICHHOP-VFC-NOVA from smartlogwms/poms-fe
+Checking branch dev from smartlogwms/poms-fe
+Checking branch huy2 from smartlogwms/poms-fe
+Checking branch huy2k-dev from smartlogwms/poms-fe
+Checking branch huy2k-thienlong from smartlogwms/poms-fe
+Checking branch huythai from smartlogwms/poms-fe
+Checking branch khavico-dev from smartlogwms/poms-fe
+Checking branch luanle from smartlogwms/poms-fe
+Checking branch master from smartlogwms/poms-fe
+Checking branch production from smartlogwms/poms-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: production (563ba6a807c87bd59da35102447526952b42859e → 231024e3386146688cf918c572ba454c189d83b9)
+Scheduled build for branch: production
+
+  18 branches were processed (query completed)
+[Wed Mar 08 07:02:48 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.83.27 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 08 07:02:39 UTC 2023 processed in 3.3 sec

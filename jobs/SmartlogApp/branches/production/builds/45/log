@@ -1,0 +1,995 @@
+Branch event
+Obtained Jenkinsfile from 381b0189a3e19606bf0f7cb99ee52967b6cfaa64
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/mono-pod-qdpjs-w7f0r
+Agent [8mha:////4Pi/ySw2m/B6jDhrVXpv0AwuQBX9HtCNbxgj1xecioOCAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/eT83ILSktQi/dz8vHzdgvwU3cKUgqxi3XLzNIMiAHo47GrTAAAA[0mmono-pod-qdpjs-w7f0r is provisioned from template mono-pod-qdpjs
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/SmartlogApp/job/production/45/"
+    runUrl: "job/SmartlogApp/job/production/45/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "7b4a533592459db0c004ec9ef22eccdfdc4d7cc3"
+    jenkins/label: "mono-pod"
+  name: "mono-pod-qdpjs-w7f0r"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/usr/local/share"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/usr/local/share"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "danghung/trainingdocker:nx5"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/usr/local/share"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "mono-pod-qdpjs-w7f0r"
+    - name: "JENKINS_NAME"
+      value: "mono-pod-qdpjs-w7f0r"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/usr/local/share"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - name: "volume-1"
+    persistentVolumeClaim:
+      claimName: "pvc-monorepo-cache"
+      readOnly: false
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4EAxwGxtUq8VZJ8RpAHr9SCoHd+sn5fUe+Qu8O4ejwVjAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYd/dzEvMT0VP3k/NyC0pLUIv3c/Lx8VSOXgvwUIFmYUpBVDKTLzdMMivQB5n78yeEAAAA=[0mmono-pod-qdpjs-w7f0r in /home/jenkins/agent/workspace/SmartlogApp_production
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{Zdl_sBMYB-imuqmIYKN78P9tt5_EXabM3diGUwQQvrhKluJ4S8aoQ3zWYs70DxeOq1YSKxcW5peOAfs6zJnZp7_8}@bitbucket.org/smartlogtms/smartlog-app.git
+ > git init /home/jenkins/agent/workspace/SmartlogApp_production # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{Zdl_sBMYB-imuqmIYKN78P9tt5_EXabM3diGUwQQvrhKluJ4S8aoQ3zWYs70DxeOq1YSKxcW5peOAfs6zJnZp7_8}@bitbucket.org/smartlogtms/smartlog-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 381b0189a3e19606bf0f7cb99ee52967b6cfaa64 (production)
+Commit message: "Merged in bugfix/sa-262 (pull request #853)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+ > git config remote.origin.url https://x-token-auth:{Zdl_sBMYB-imuqmIYKN78P9tt5_EXabM3diGUwQQvrhKluJ4S8aoQ3zWYs70DxeOq1YSKxcW5peOAfs6zJnZp7_8}@bitbucket.org/smartlogtms/smartlog-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 381b0189a3e19606bf0f7cb99ee52967b6cfaa64 # timeout=10
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Fetching changes from the remote Git repository
+Fetching without tags
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/SmartlogApp_production/.git # timeout=10
+ > git config remote.origin.url https://x-token-auth:{3-aXOaXcWvI6_Fsu2OQSyWzIDyMoP4Tg1ydP0lirmNN9Qv7_ZCvboFalVNKETYiPm6CwDF1HNCP17-X3PNbwXaWrDw%3d%3d}@bitbucket.org/smartlogtms/smartlog-app.git # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/smartlog-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{3-aXOaXcWvI6_Fsu2OQSyWzIDyMoP4Tg1ydP0lirmNN9Qv7_ZCvboFalVNKETYiPm6CwDF1HNCP17-X3PNbwXaWrDw%3d%3d}@bitbucket.org/smartlogtms/smartlog-app.git +refs/heads/production:refs/remotes/origin/production # timeout=10
+Checking out Revision 381b0189a3e19606bf0f7cb99ee52967b6cfaa64 (production)
+Commit message: "Merged in bugfix/sa-262 (pull request #853)"
+First time build. Skipping changelog.
+[8mha:////4FRA31dklo707iJwtNJqMdl9iD1X229YLXYhY0DvCM1mAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPo1DLpr0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4HvcU3qz3cKxe1yU2rDxBc0W4GMLnHwqC4vKt7gzN97GAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AH4dU5y9AAAA[0m[Pipeline] }
+[8mha:////4PBgYTz/0ukqnkXWwIZRA41zsp5tLN0nJQjPAMa4nFv3AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A//czL69AAAA[0m[Pipeline] // stage
+[8mha:////4A6j4PJDL2AnaHydOV8myGgDRk6aZ1TLflkgZ84Eyc0YAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPOb21ub0AAAA=[0m[Pipeline] echo
+Process build for production branch
+[8mha:////4JnQ4bAoJImGiCagXsVS6+guB8uLHRXT73mm50YvFjx3AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjmjSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INar4f38EAAAA=[0m[Pipeline] stage
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (Docker Login)
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] container
+[8mha:////4PcUaNYR+Wl+fNndvl/oHtU75iLH4k5ZeVJRRSdLex6uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] {
+[8mha:////4GjcxG80zQRbAyuzbtQ5CfXy37qw8AmltMe5wonAY5BhAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 381b0189a3e19606bf0f7cb99ee52967b6cfaa64 # timeout=10
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4GHHcQA/8jFHOB0BlaLXg3cD4Fxbp+xSCO/EsOno6UzRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4JBBypnV/qBTFKw/HGmc8Ei15QkOPFqMJignilmMU8v5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // container
+[8mha:////4F/FTJN2vpUtaoGmSjBILsgOsn92m754yDmId5EAPADgAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8pWvI/vgAAAA==[0m[Pipeline] }
+[8mha:////4B1S5Sfboyp2p6Ez5KNxPydDivJeEOShdRMd80uMJ6gIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8HWvBVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4D5BKkl5ItxKLEuD/x7ly8iZtxxG2bug5jarGfXxXd+MAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUGDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A1nWY2jBAAAA[0m[Pipeline] container
+[8mha:////4EAkDTgqqXKiRunZ6QUD2J0w4nEpxKSH6O7BvMyOHjxuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] {
+[8mha:////4I0FJ335KXrdEiuMFYgaeex3tWZmYA1AhkK8hhNK401NAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] stage
+[8mha:////4AVOxxlM451w47lfeWg9olKwGp1CcetHTyw3FUlRiEAbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] { (yarn)
+[8mha:////4OV0ScJcppg2Eu6zg0Vpk+U8sBR5YhShYnFbfrIjKdSgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUYEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNwcnzs++AAAA[0m[Pipeline] sh
++ mkdir -p /usr/local/share/node_modules
++ ln -s /usr/local/share/node_modules node_modules
++ mkdir -p /usr/local/share/Nuget
++ mkdir -p /root/.local/share
++ ln -s /usr/local/share/Nuget /root/.local/share/NuGet
++ yarn
+yarn install v1.22.18
+warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+[1/4] Resolving packages...
+success Already up-to-date.
+$ ngcc --properties es2015 browser module main
+Done in 2.71s.
+[8mha:////4KEdGs+IwOEWWiMhxLtYhEjxWzk6wzU3Vw9gGVG57Ls5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEFCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9hbYOkvgAAAA==[0m[Pipeline] }
+[8mha:////4DbAGtvKy0rrftvcVXpIMJlDSYz9ih6fT93dE+1vYrGwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] // stage
+[8mha:////4AGZ7EZhM4T7GT8AbZOUqmR54G+gQKrzZzBQVfavum3FAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKhILYuoadeEEoQkhafR/SVLSiRNxNe5AoBITHizbkvWeL6iChyN5zazCwWDoDRvdpHNiifxwcZSYpTPrCQM5xTqVOpKqXWpHUcGiooQVh7XC3lEwqCNsuBV3UTuBuj5Fn7cDh9LIGzyg4JkchY/fMnvYXicZCH+cvwCYxwhls8+2az7P6g012pBSwgAAAA==[0m[Pipeline] stage
+[8mha:////4Gdmm38Jz+v6e350CDJbvX1mlSUvNF1jyF1Rw9vHBaCkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] { (Prepare build)
+[8mha:////4GJ915m9rtgFKJ5qKJyYgd06Xt/OYV063kqANWbgHq7zAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ docker buildx create --use --driver-opt network=host --buildkitd-flags --allow-insecure-entitlement network.host
+unruffled_swanson
++ docker login -u AWS -p eyJwYXlsb2FkIjoiQW5YMTFYNEZVbngzSS9WaEJHSEpKd0ZqTlFoS3JxSjZZK0xTUEV6Q3poR0RReThsRW5id3ovUEVPWlR6M3liVHlWcXVXYm1pd1dVR3VqbytxUWpkaUtTelFocnY3ckR0TzlwbWxsRmNtNVFrM2xkVGs2Y3NEMmtWUDZTLzRwWlEwQkM2dzlndmdXR0w3VUlMcitMeVNuV0Y0SHRUTloyNHlyTCsrd0Z5bzcwb3QrVUVucWk0dXl5cmhBZ0ZoRzlhVzFUZVhoYVc4Z1NOSmNJdVYxUnNpd3FQUTBmbGtPSFJpNWRFNnFZUmdXRW1ZUEl6VmdmeTVEK2hPV29nQ1RMalhlbDJ0QzBZRlJaQ2J3K1VhQlB1WWJzTzJLdXlQWHV6aW9YNDVYbktKa3h6SkxKY0xIOTJFeDdkVk9DZGQ0d0tYdmY3OWFZbzdqWWt0elJXOGxQcGNWOE9KL041WEpUUjBSV0tPRG5nTTVjRGhPWWdsakwybTN0ZHd5QTdyM2JrY1VVdHVUMi9UOXc0THJweXFpeWVmNXJ0elN2UXBWWDlCbTZvdVd0SEFHbHZlayt3RksvYVdNRmtmOVRKYXlJY09lZTljZHFSNTkzYW94QXE0T1NTNGxZTUtYRFFGVy9tLzREVXBoV21SbHVZaW9wSnRtYnFGLzRkZHgwVkc0RlliSW5OcnlmVzBWU0JLZjVYY3VNQkJHN2E4RnFGOTBDR2F4K0ZUOFZtV0RubzArUXovM2tvK0pQSVZtS3owa2VXeVJ0eG9XTS9CS2ttV210VkhHTUhxam9RY01Qb2E4aE5ZRWhVRTM1LzNYMTZzQlFvMTVpeWt1M0lna3puR24vaGFobGd4RWsycXloY0RveTFveTZqRm9DcmVoWVlUWExPRGtLbVNzZGc2Yk9yS2pMTHUzZ1FXYVhEOE5IZVN4eUI4OWk4bE5iVjlYdnp4ZGhWNklnVGs3WG9XNmVnL29HZHM4U00wOFMxYkxDbFFhS1lPUENLVmRvTjRwOUdoNjUxL3dCUGw0VjFJQTRsZzJ4T0E1TkJJbjJuSzl2a0hvL0dTdUFaY2VKRHE2ZklMa254ek45eUV5ZWJFUE1ySVM4NzZNajFCNTRPNjQ2Y2QwbkkzcnVMWUhVQlZ5YnVrZW1NKzRQUnFKaSs2WjdaTEpCSDdhUmQ0WmVtZjZUYmtQVmg1eVFzS0M5eGNKVS94TXRMT2hJZ0JieElUOHdNeXVPWnd5OUtBUlFNVTJCb25mK29PampiSitCemNjNTBHNU1zK05UVER1OTVra3poeXB5a1Q0TEZrczZvdUdLQXRReXQzdDErS1A3K0tRNENUcW1mZEZza1kvV2RJWW56TGhIRzZnZTRRbVVoOHB0WCswQlM1YW5OeTMxTUxXS293WkgxMXZNclNDUTR2elZuVXE4Y0s3TTk5WmtTWTF6YitHYTM2RVRBci9MM3lLYmNwT2E4amxTVnZLeVpjOWN3K3djYXBNS05xbXlzNXNRYVVBajhWM1dlalVHT1FBcEhiN3NVa1RDZWZ5TzU0ZWJRVGJ3aGhBMkIzSXd1OVFaMW5EWFF1Y25nZk5wUm9kL2xEQ0ZnY3lYYnd5elZoZjZyRFRvMmpacktoZW1uNC9FekpEN0VwaWJ2SlJRTUF0dG9OZHpxb0ZSOXd5OXk5MGV4QXl0Q3FBaythUHZzRUFodFNoY0FnZE5HRDV2clF5UGw4OWhWSGhuRU5sN05vSHo1VTAvdFA3VGw1V0hLd3RCUVl4cmNqOGMwZHhSMGNaazFxZzJ5bm9RNHdnR3gvWHRjWWg5Tnl6N29DNWh4SEdvNVphZExnZmpBMjlMNjRrNG1qMW8wRDYxQjdEMHZUUmtML0x4VjNNQlpDZFdPUG1vNWZKTnRZd1pGMmQvSkg5eVU3M1ZqQjF2Zlk2U1FzaTYrTEVhNWhMOVNiVlpMOWF6alI3ejZTdlU2MVNUaDBTdzdBaGhFZGFzUTgzcFNXMWJuNXpTa04zMGJiT1lnQ1Jvb09IclR5YkcvK2tMRlM1bDhQWFlUb3RxL0RSSkdGOUp5Qy8yVXNOUWM1N3RpVW4xOFlacG1ZSFJ5K2IraGZqd1VGekxDV0hQU1ZzWGpKdXowdHVNSWlDSGNhVXI4eU1wN29JVkhTWUUzcUJhZjZtSHhtRmZKa3p4NXhtU1JDMnRzNmlxc3FtM1JoY3FlR01sMGdlM2RVR3VmNVJVWHN3eGhHRkRWUVlVR1JRWU81ZVNPcXExZ0g1RlRlRENjb0x4QzN2ajJTcURVZjNmMEhRLy9KenFnMXoyL3Q0dUZRUlhCb1pjUWx0akZ1SFl1TjBDQlc2SmUzZHcweXRTN0ViT01UWXhWWVlDZ2wvV1dseGNudHJKZ00vWmYyVUc5c2FxbHdCUnZlcklSWHpHU3FZc1B6L3F0MHJtZkVQSkgrdCt1YnlSUGZjVzhPQ3pLTUZRaGdXbXJCODk1dVcxZ09uN256R09BR0FFVTlNV01ybnlEVC8vV2haMmxmOHBJY0FVRHZCeXF4d1hLaDN5cHpQWWZybnJTREZIY1g1U1RIYVMvUU83Z1k5NEVybUpWSUNIdkRNTXNycUxhMHo2L3pTVFprQ3dLTmY4eUJTaDY0QkN2IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURLYzgzOVMyVTBidlRFTGVad0lCRUlBN2o5aU1VVEYrUUtBZGJPam12WHFYVEkwZWJrV1VveU9kL1RzY3pBeG4vRlE1QXkyUUpENG5nNmMrOFhuYjFLTXBBdkpqSTYrWlo4OXVxTFk9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjgwNTM3MTYxfQ== https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ git config --global --add safe.directory /home/jenkins/agent/workspace/SmartlogApp_production
++ mkdir -p /usr/local/share/.angular
++ ln -s /usr/local/share/.angular .angular
+[8mha:////4Mct4KEvRMTu1wz2Mz++Ub5VmGF+3jzyK/NqNxFvdm/mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4HOemGfZ0To9ZEAHNbXAyQPPjHL5uwEp942Mrx/2Ew1ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NpeM5lMNPSSGiUQ3RQJyELAnYXTALyHQpGX1cffIp2RAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAgkG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzS7bdv95Vm+GS10CwgAAAA==[0m[Pipeline] stage
+[8mha:////4CVu/77gdSBl/Kewz+UlV7s3oYanpWUp22nYalSgSd9hAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Build app)
+[8mha:////4HfNzAj3z8u6ZgIDo1ZP4pXT1huCCY+6FH1ZkNhviqtbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ echo NX_WORKSPACE_ROOT_PATH=/home/jenkins/agent/workspace/SmartlogApp_production
+[8mha:////4MLjU4rwYx3EdrQtyZN541bhuQD45stqez0nSNg70sOoAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAYuAr1r4AAAA=[0m[Pipeline] sh
++ node_modules/.bin/nx affected:apps --base=remotes/origin/production~1 --head=HEAD --plain
+[8mha:////4AxzDoBKCl0C5L93bfXbN52IRApMbBNgpo7sI+J0fjIQAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAI9Ewz74AAAA=[0m[Pipeline] sh
++ yarn nx affected:build --base=remotes/origin/production~1 --head=HEAD --skip-nx-cache --runner=jenkins
+yarn run v1.22.18
+$ /home/jenkins/agent/workspace/SmartlogApp_production/node_modules/.bin/nx affected:build '--base=remotes/origin/production~1' --head=HEAD --skip-nx-cache --runner=jenkins
+
+ >  NX   Running target build for 2 project(s) and 3 task(s) they depend on:
+
+    - smartlog-admin-service
+    - smartlog-admin-webapi
+
+ 
+6.0.202
+6.0.202
+6.0.202
+
+Welcome to .NET 6.0!
+---------------------
+SDK Version: 6.0.202
+
+Telemetry
+---------
+The .NET tools collect usage data in order to help us improve your experience. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
+
+Read more about .NET CLI Tools telemetry: https://aka.ms/dotnet-cli-telemetry
+
+----------------
+Installed an ASP.NET Core HTTPS development certificate.
+To trust the certificate run 'dotnet dev-certs https --trust' (Windows and macOS only).
+Learn about HTTPS: https://aka.ms/dotnet-https
+----------------
+Write your first app: https://aka.ms/dotnet-hello-world
+Find out what's new: https://aka.ms/dotnet-whats-new
+Explore documentation: https://aka.ms/dotnet-docs
+Report issues and find source on GitHub: https://github.com/dotnet/core
+Use 'dotnet --help' to see available commands or visit: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  Determining projects to restore...
+  Determining projects to restore...
+  Restored /home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/socket/SmartlogApp.ShareDotnet.Socket.csproj (in 189 ms).
+  Restored /home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/notification/SmartlogApp.ShareDotnet.Notification.csproj (in 183 ms).
+  Restored /home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/infrastructure/SmartlogApp.ShareDotnet.Infrastructure.csproj (in 1.48 sec).
+  SmartlogApp.ShareDotnet.Notification -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/notification/net6.0/SmartlogApp.ShareDotnet.Notification.dll
+  SmartlogApp.ShareDotnet.Socket -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/socket/net6.0/SmartlogApp.ShareDotnet.Socket.dll
+  SmartlogApp.ShareDotnet.Infrastructure -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/infrastructure/net6.0/SmartlogApp.ShareDotnet.Infrastructure.dll
+  Checking module boundaries for share-dotnet-notification
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.56
+
+> nx run share-dotnet-notification:build
+
+Executing Command: dotnet "--version"
+Executing Command: dotnet "build" "/home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/notification/SmartlogApp.ShareDotnet.Notification.csproj" "--configuration" "Debug" "--no-dependencies" "--verbosity" "minimal"
+  Checking module boundaries for share-dotnet-socket
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.17
+
+> nx run share-dotnet-socket:build
+
+Executing Command: dotnet "--version"
+Executing Command: dotnet "build" "/home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/socket/SmartlogApp.ShareDotnet.Socket.csproj" "--configuration" "Debug" "--no-dependencies" "--verbosity" "minimal"
+  Checking module boundaries for share-dotnet-infrastructure
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.40
+
+> nx run share-dotnet-infrastructure:build
+
+Executing Command: dotnet "--version"
+Executing Command: dotnet "build" "/home/jenkins/agent/workspace/SmartlogApp_production/libs/share-dotnet/infrastructure/SmartlogApp.ShareDotnet.Infrastructure.csproj" "--configuration" "Debug" "--no-dependencies" "--verbosity" "minimal"
+6.0.202
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  Restored /home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj (in 1.83 sec).
+  3 of 4 projects are up-to-date for restore.
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(248,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(252,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(254,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(21,16): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerPackages/AdditionalInformation.cs(21,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(11,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(17,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Requests/PackageFeatures/PackageFeaturesResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(52,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(24,59): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,13): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,43): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,95): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(156,17): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(161,17): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(80,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(81,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(96,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(97,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(132,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(133,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(134,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(135,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(13,52): warning CS0612: 'STMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(21,52): warning CS0612: 'SWMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220430035259_AddPackage.cs(27,63): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(26,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(27,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(28,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(23,52): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(31,52): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(21,35): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(25,35): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(29,35): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(33,35): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(37,35): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(16,35): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(17,35): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,23): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,62): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerMonthlyBills/UnpaidCustomerBillItemResponse.cs(34,28): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(22,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(23,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,13): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,39): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(47,13): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(48,13): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(49,13): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(56,20): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(58,56): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(95,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(98,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(24,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(26,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(43,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(45,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(351,46): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(353,44): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(362,48): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(363,50): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(381,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(418,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(173,38): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(387,39): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(402,42): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/RegistryDeploymentRequestProcessor.cs(16,49): warning CS0649: Field 'RegistryDeploymentRequestProcessor._dbContext' is never assigned to, and will always have its default value null [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+  SmartlogApp.SmartlogAdminService -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/apps/smartlog-admin/service/net6.0/SmartlogApp.SmartlogAdminService.dll
+
+Build succeeded.
+
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(248,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(252,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(254,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(21,16): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerPackages/AdditionalInformation.cs(21,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(11,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(17,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Requests/PackageFeatures/PackageFeaturesResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(52,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(24,59): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,13): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,43): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,95): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(156,17): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(161,17): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(80,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(81,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(96,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(97,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(132,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(133,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(134,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(135,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(13,52): warning CS0612: 'STMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(21,52): warning CS0612: 'SWMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220430035259_AddPackage.cs(27,63): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(26,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(27,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(28,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(23,52): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(31,52): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(21,35): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(25,35): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(29,35): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(33,35): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(37,35): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(16,35): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(17,35): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,23): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,62): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerMonthlyBills/UnpaidCustomerBillItemResponse.cs(34,28): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(22,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(23,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,13): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,39): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(47,13): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(48,13): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(49,13): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(56,20): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(58,56): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(95,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(98,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(24,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(26,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(43,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(45,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(351,46): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(353,44): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(362,48): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(363,50): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(381,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(418,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(173,38): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(387,39): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(402,42): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/RegistryDeploymentRequestProcessor.cs(16,49): warning CS0649: Field 'RegistryDeploymentRequestProcessor._dbContext' is never assigned to, and will always have its default value null [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+    74 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:17.32
+
+> nx run smartlog-admin-service:build
+
+Executing Command: dotnet "--version"
+Executing Command: dotnet "build" "/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj" "--configuration" "Debug" "--no-dependencies" "--verbosity" "minimal"
+6.0.202
+Microsoft (R) Build Engine version 17.1.1+a02f73656 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  Restored /home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/webapi/SmartlogApp.SmartlogAdmin.Webapi.csproj (in 6.04 sec).
+  4 of 5 projects are up-to-date for restore.
+  SmartlogApp.ShareDotnet.Infrastructure -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/infrastructure/net6.0/SmartlogApp.ShareDotnet.Infrastructure.dll
+  SmartlogApp.ShareDotnet.Notification -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/notification/net6.0/SmartlogApp.ShareDotnet.Notification.dll
+  SmartlogApp.ShareDotnet.Socket -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/libs/share-dotnet/socket/net6.0/SmartlogApp.ShareDotnet.Socket.dll
+  Checking module boundaries for share-dotnet-infrastructure
+  Checking module boundaries for share-dotnet-notification
+  Checking module boundaries for share-dotnet-socket
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(248,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(252,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(254,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(52,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(24,59): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Requests/PackageFeatures/PackageFeaturesResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerPackages/AdditionalInformation.cs(21,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(21,16): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(11,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(17,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(80,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(81,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(96,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(97,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(132,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(133,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(134,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(135,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220430035259_AddPackage.cs(27,63): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(13,52): warning CS0612: 'STMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(21,52): warning CS0612: 'SWMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,13): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,43): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,95): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(156,17): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(161,17): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(21,35): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(25,35): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(29,35): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(33,35): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(37,35): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(26,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(27,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(28,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(16,35): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(17,35): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerMonthlyBills/UnpaidCustomerBillItemResponse.cs(34,28): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(22,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(23,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,13): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,39): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(47,13): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(48,13): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(49,13): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(56,20): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(58,56): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,23): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,62): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(23,52): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(31,52): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(351,46): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(353,44): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(362,48): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(363,50): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(173,38): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(381,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(418,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(24,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(26,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(43,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(45,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(95,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(98,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(387,39): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(402,42): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/RegistryDeploymentRequestProcessor.cs(16,49): warning CS0649: Field 'RegistryDeploymentRequestProcessor._dbContext' is never assigned to, and will always have its default value null [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+  SmartlogApp.SmartlogAdminService -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/apps/smartlog-admin/service/net6.0/SmartlogApp.SmartlogAdminService.dll
+  SmartlogApp.SmartlogAdmin.Webapi -> /home/jenkins/agent/workspace/SmartlogApp_production/dist/apps/smartlog-admin/webapi/net6.0/SmartlogApp.SmartlogAdmin.Webapi.dll
+  Checking module boundaries for smartlog-admin-webapi
+
+Build succeeded.
+
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(248,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(252,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(254,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(52,16): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(24,59): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Requests/PackageFeatures/PackageFeaturesResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerPackages/AdditionalInformation.cs(21,22): warning CS8632: The annotation for nullable reference types should only be used in code within a '#nullable' annotations context. [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(13,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(19,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(21,16): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(11,16): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageItemResponse.cs(17,16): warning CS0612: 'PackageType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(80,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerBillPaymentRequest.cs(81,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(96,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(97,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(132,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(133,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(134,13): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/CustomerMonthlyBill.cs(135,13): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220430035259_AddPackage.cs(27,63): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(13,52): warning CS0612: 'STMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220505142821_AddPackageFeatures.cs(21,52): warning CS0612: 'SWMFeature' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,13): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,43): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(135,95): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(156,17): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/UpgradeTrialUserRequestProcessor.cs(161,17): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(21,35): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(25,35): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(29,35): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(33,35): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/PackageConfiguration.cs(37,35): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(26,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(27,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/ProductType.cs(28,13): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(16,35): warning CS0612: 'CustomerMonthlyBill.TotalNumberUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Persistence/EntityTypeConfigurations/CustomerMonthlyBillConfiguration.cs(17,35): warning CS0612: 'CustomerMonthlyBill.NumberChargedUser' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/CustomerMonthlyBills/UnpaidCustomerBillItemResponse.cs(34,28): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(22,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(23,19): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,13): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(46,39): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(47,13): warning CS0612: 'Package.STMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(48,13): warning CS0612: 'Package.SWMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(49,13): warning CS0612: 'Package.SOMFeatures' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(56,20): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Entities/Package.cs(58,56): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,23): warning CS0612: 'Package.PackageDetails' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/PackageEntityResponse.cs(42,62): warning CS0612: 'PackageDetailResponse' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(36,28): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Responses/Packages/NormalizedPackageEntityResponse.cs(39,20): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(23,52): warning CS0612: 'PackageDetail' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Migrations/20220516122248_RemovePackagePeriod.cs(31,52): warning CS0612: 'ProductType' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(351,46): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(353,44): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(362,48): warning CS0612: 'CustomerMonthlyBill.TotalNumberOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(363,50): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(173,38): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(381,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerMonthlyBillService.Admin.cs(418,36): warning CS0612: 'CustomerMonthlyBill.NumberChargedOrder' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(24,32): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(26,24): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(43,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageFeatureService.cs(45,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(95,36): warning CS0612: 'Package.ProductTypes' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/PackageService.cs(98,28): warning CS0612: 'Package.Type' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(387,39): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/Impls/CustomerRequestService.Admin.cs(402,42): warning CS0612: 'Customer.PackageDetailId' is obsolete [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/Services/UserRequestProcessors/RegistryDeploymentRequestProcessor.cs(16,49): warning CS0649: Field 'RegistryDeploymentRequestProcessor._dbContext' is never assigned to, and will always have its default value null [/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/service/SmartlogApp.SmartlogAdminService.csproj]
+    74 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:18.21
+
+> nx run smartlog-admin-webapi:build
+
+Executing Command: dotnet "--version"
+Executing Command: dotnet "build" "/home/jenkins/agent/workspace/SmartlogApp_production/apps/smartlog-admin/webapi/SmartlogApp.SmartlogAdmin.Webapi.csproj" "--configuration" "Release" "--verbosity" "minimal"
+
+ 
+
+ >  NX   Successfully ran target build for 2 projects
+
+
+Done in 48.94s.
+[8mha:////4DFFGGbSzpXnOYdRT04dS7V3R1H+LGc2m4H7KTAkqGogAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wA4IId5L4AAAA=[0m[Pipeline] sh
++ echo affectedApp: smartlog-admin-service smartlog-admin-webapi
+affectedApp: smartlog-admin-service smartlog-admin-webapi
+[8mha:////4I2YFmJTKvf5F3VOqUpK7U/J1/bYRSRUxPPr/k77r0TdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAIJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw8AEKv+vgAAAA==[0m[Pipeline] }
+[8mha:////4Ez6OLA4vNacu2YCcFCFBear5PU45tQeSR2X4tzV776rAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiESBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw8pPRFzvgAAAA==[0m[Pipeline] // stage
+[8mha:////4FvfIPXYL75+LCUzE+NR5+1z13geOoarwLQwzujgIHFQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQsCCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0D1DKKwgAAAA==[0m[Pipeline] stage
+[8mha:////4Dcz7P2c4a/k+VJkI+PUgd4VnBwCyZKrHyZwOkaN56jFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ARbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUxleXrCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4BKh/YNDN8lp3ckLSsXq3NiIs5ztv1vQTP3V3YtuZZlcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN+EEkMO+AAAA[0m[Pipeline] sh
++ yarn nx affected --target=dockerprod --base=remotes/origin/production~1 --head=HEAD --parallel=1 --runner=jenkins
+yarn run v1.22.18
+$ /home/jenkins/agent/workspace/SmartlogApp_production/node_modules/.bin/nx affected --target=dockerprod '--base=remotes/origin/production~1' --head=HEAD --parallel=1 --runner=jenkins
+
+ >  NX   Running target dockerprod for 1 project(s):
+
+    - smartlog-admin-webapi
+
+ 
+
+> nx run smartlog-admin-webapi:dockerprod
+
+
+>  Nx Docker  Docker info
+
+[command]/usr/bin/docker version
+Client: Docker Engine - Community
+ Version:           20.10.14
+ API version:       1.41
+ Go version:        go1.16.15
+ Git commit:        a224086
+ Built:             Thu Mar 24 01:48:02 2022
+ OS/Arch:           linux/amd64
+ Context:           default
+ Experimental:      true
+
+Server:
+ Engine:
+  Version:          20.10.17
+  API version:      1.41 (minimum version 1.12)
+  Go version:       go1.18.6
+  Git commit:       a89b842
+  Built:            Wed Sep 28 23:10:55 2022
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.6
+  GitCommit:        10c12954828e7c7c9b6e0ea9b0c02b01407d3ae1
+ runc:
+  Version:          1.1.4
+  GitCommit:        5fd4c4d144137e991c4acebb2146ab1483a97925
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+[command]/usr/bin/docker info
+Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  app: Docker App (Docker Inc., v0.9.1-beta3)
+  buildx: Docker Buildx (Docker Inc., v0.8.2)
+  compose: Docker Compose (Docker Inc., v2.3.3)
+  scan: Docker Scan (Docker Inc., v0.17.0)
+
+Server:
+ Containers: 180
+  Running: 143
+  Paused: 0
+  Stopped: 37
+ Images: 181
+ Server Version: 20.10.17
+ Storage Driver: overlay2
+  Backing Filesystem: xfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 10c12954828e7c7c9b6e0ea9b0c02b01407d3ae1
+ runc version: 5fd4c4d144137e991c4acebb2146ab1483a97925
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 5.4.226-129.415.amzn2.x86_64
+ Operating System: Amazon Linux 2
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 4
+ Total Memory: 30.91GiB
+ Name: ip-192-168-122-14.ap-southeast-1.compute.internal
+ ID: JRE7:U4XB:ENMM:INDQ:XIQL:JRQF:BAFR:WGD6:GXHB:4QHF:DDZ4:K2LW
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: true
+
+
+>  Nx Docker  Starting build...
+
+[command]/usr/bin/docker buildx build --allow network.host --file apps/smartlog-admin/webapi/Dockerfile --iidfile /tmp/docker-build-push-k33NZH/iidfile --platform linux/amd64,linux/arm64 --tag 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo:smartlog-admin-api-prod --metadata-file /tmp/docker-build-push-k33NZH/metadata-file --push .
+#1 [internal] booting buildkit
+#1 pulling image moby/buildkit:buildx-stable-1
+#1 pulling image moby/buildkit:buildx-stable-1 2.0s done
+#1 creating container buildx_buildkit_unruffled_swanson0
+#1 creating container buildx_buildkit_unruffled_swanson0 2.1s done
+#1 DONE 4.1s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load build definition from Dockerfile
+#3 transferring dockerfile: 250B done
+#3 DONE 0.1s
+
+#4 [linux/amd64 internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0
+#4 DONE 0.8s
+
+#5 [linux/arm64 internal] load metadata for mcr.microsoft.com/dotnet/aspnet:6.0
+#5 DONE 0.9s
+
+#6 [linux/arm64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#6 resolve mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219 0.0s done
+#6 DONE 0.4s
+
+#7 [linux/amd64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#7 resolve mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219 0.0s done
+#7 sha256:b349e6089b6cc58481a31c5945dbb6861720b5179fdf24423c1467f3c748dfae 154B / 154B 0.1s done
+#7 sha256:9567d8cd2e6028d8f736e04a4c2d5e13e2e8801b9a17075ae191402bc089e05e 9.46MB / 9.46MB 0.2s done
+#7 sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 9.44MB / 31.63MB 0.2s
+#7 sha256:40885535e7f37acfb331637d34c17a550688dd746fa64f1141b0b80ec5944573 9.44MB / 14.97MB 0.2s
+#7 sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 14.68MB / 31.63MB 0.3s
+#7 sha256:40885535e7f37acfb331637d34c17a550688dd746fa64f1141b0b80ec5944573 14.97MB / 14.97MB 0.3s done
+#7 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 4.19MB / 31.41MB 0.2s
+#7 sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 24.85MB / 31.63MB 0.5s
+#7 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 11.46MB / 31.41MB 0.3s
+#7 sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 31.63MB / 31.63MB 0.6s
+#7 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 23.07MB / 31.41MB 0.5s
+#7 sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 31.63MB / 31.63MB 0.6s done
+#7 sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 31.41MB / 31.41MB 0.7s done
+#7 extracting sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7
+#7 ...
+
+#8 [internal] load build context
+#8 transferring context: 24.17MB 1.4s done
+#8 DONE 1.5s
+
+#6 [linux/arm64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#6 sha256:0d7f105ac69a4eaa2a34dd0cce0ca50c5d9655488c5b79df9f1770640e9fe547 154B / 154B 0.1s done
+#6 sha256:0f244610ce85f0639e85a81de34a6558fffcaf7e027c746f8c2920d280f5311f 9.07MB / 9.07MB 0.3s done
+#6 sha256:17f3d6e1f2c0a45d59a56b04c7a58e85e10605e306824b7dde01563b46d1c982 29.31MB / 29.31MB 0.6s done
+#6 sha256:d1c8fd954cb65dd7c215454b4f61d9369d427843f63d60054acb93639e8ccc7a 14.92MB / 14.92MB 0.4s done
+#6 sha256:fcdb9667c46b09d1c1d058681ea4a1db41e66bbc1a71d873a0c9da4f7a92947d 30.06MB / 30.06MB 0.5s done
+#6 extracting sha256:fcdb9667c46b09d1c1d058681ea4a1db41e66bbc1a71d873a0c9da4f7a92947d
+#6 ...
+
+#7 [linux/amd64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#7 extracting sha256:f1f26f5702560b7e591bef5c4d840f76a232bf13fd5aefc4e22077a1ae4440c7 2.2s done
+#7 DONE 3.4s
+
+#6 [linux/arm64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#6 extracting sha256:fcdb9667c46b09d1c1d058681ea4a1db41e66bbc1a71d873a0c9da4f7a92947d 2.0s done
+#6 DONE 3.5s
+
+#7 [linux/amd64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#7 extracting sha256:40885535e7f37acfb331637d34c17a550688dd746fa64f1141b0b80ec5944573
+#7 extracting sha256:40885535e7f37acfb331637d34c17a550688dd746fa64f1141b0b80ec5944573 0.6s done
+#7 extracting sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200
+#7 extracting sha256:e770cc837acf654e2ab503f61a9a27b332f55b30d24fbf401501b217d53a9200 1.2s done
+#7 extracting sha256:b349e6089b6cc58481a31c5945dbb6861720b5179fdf24423c1467f3c748dfae 0.0s done
+#7 extracting sha256:9567d8cd2e6028d8f736e04a4c2d5e13e2e8801b9a17075ae191402bc089e05e
+#7 extracting sha256:9567d8cd2e6028d8f736e04a4c2d5e13e2e8801b9a17075ae191402bc089e05e 0.4s done
+#7 DONE 5.6s
+
+#9 [linux/amd64 2/3] WORKDIR /app
+#9 ...
+
+#6 [linux/arm64 1/3] FROM mcr.microsoft.com/dotnet/aspnet:6.0@sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219
+#6 extracting sha256:d1c8fd954cb65dd7c215454b4f61d9369d427843f63d60054acb93639e8ccc7a 0.5s done
+#6 extracting sha256:17f3d6e1f2c0a45d59a56b04c7a58e85e10605e306824b7dde01563b46d1c982 1.4s done
+#6 extracting sha256:0d7f105ac69a4eaa2a34dd0cce0ca50c5d9655488c5b79df9f1770640e9fe547 0.0s done
+#6 extracting sha256:0f244610ce85f0639e85a81de34a6558fffcaf7e027c746f8c2920d280f5311f 0.4s done
+#6 DONE 5.8s
+
+#10 [linux/arm64 2/3] WORKDIR /app
+#10 DONE 2.9s
+
+#9 [linux/amd64 2/3] WORKDIR /app
+#9 DONE 3.1s
+
+#11 [linux/arm64 3/3] COPY ./dist/apps/smartlog-admin/webapi/net6.0  .
+#11 DONE 0.6s
+
+#12 [linux/amd64 3/3] COPY ./dist/apps/smartlog-admin/webapi/net6.0  .
+#12 DONE 0.6s
+
+#13 exporting to image
+#13 exporting layers
+#13 ...
+
+#14 [auth] sharing credentials for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+#14 DONE 0.0s
+
+#13 exporting to image
+#13 exporting layers 1.6s done
+#13 exporting manifest sha256:cf3b9f5d1cd1633a402b401e96419b3f0f0c2c62c1617ea512fface1908ab943 done
+#13 exporting config sha256:34027bb5d3568105273427f77c03a54afbf097ec94b1d11f21296132b6b4a04f done
+#13 exporting manifest sha256:459db07d077859dd3ac729eff46197b178638efa7de111b367e2910b1d683e7f done
+#13 exporting config sha256:82859bd6a0f1467fbc5be48959410ba13201d8d69d4872f2c5667de9a9d27099 done
+#13 exporting manifest list sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba 0.0s done
+#13 pushing layers
+#13 pushing layers 0.8s done
+#13 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo:smartlog-admin-api-prod@sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba
+#13 pushing manifest for 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo:smartlog-admin-api-prod@sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba 0.4s done
+#13 DONE 2.9s
+
+>  Nx Docker  Setting outputs
+
+digest=sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba
+metadata={
+  "containerimage.buildinfo/linux/amd64": {
+    "frontend": "dockerfile.v0",
+    "attrs": {
+      "add-hosts": "",
+      "filename": "Dockerfile"
+    },
+    "sources": [
+      {
+        "type": "docker-image",
+        "ref": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "pin": "sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219"
+      }
+    ]
+  },
+  "containerimage.buildinfo/linux/arm64": {
+    "frontend": "dockerfile.v0",
+    "attrs": {
+      "add-hosts": "",
+      "filename": "Dockerfile"
+    },
+    "sources": [
+      {
+        "type": "docker-image",
+        "ref": "mcr.microsoft.com/dotnet/aspnet:6.0",
+        "pin": "sha256:d3167d2996f3d0ec044538452332112e991fb9aca4e27b9e0d93371b0fc86219"
+      }
+    ]
+  },
+  "containerimage.descriptor": {
+    "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
+    "digest": "sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba",
+    "size": 685
+  },
+  "containerimage.digest": "sha256:6661cee379756e9fa892218debc1e43abd4418c367db6e51b5e63567308fa0ba",
+  "image.name": "744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo:smartlog-admin-api-prod"
+}
+
+>  Nx Docker  Removing temp folder /tmp/docker-build-push-k33NZH
+
+
+ 
+
+ >  NX   Successfully ran target dockerprod for 1 projects
+
+
+Done in 19.69s.
+[8mha:////4PORABQpT2gMMSGH2N4BC/m+GyVJd93InCS64XxPBRFiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEDW5U8vgAAAA==[0m[Pipeline] }
+[8mha:////4FNAcPiaUQ1V1fB4ZgY7sheOcZGafyOu6xqH7aimhK3YAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NxzZwG6+AAAA[0m[Pipeline] // stage
+[8mha:////4EngCD1EzhlLAIkXB+nZ8HU4OuwTG2ldMtvJgKr9vyJmAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUIcGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0EToh8wgAAAA==[0m[Pipeline] stage
+[8mha:////4Ah4NCEii3fugezJnFp5IcYWwlPEGfu7zeEDvbQ9+5xvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUBibE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAW2++SvCAAAA[0m[Pipeline] { (Deploy)
+[8mha:////4DyT/7Vuq57s9T77UBPUa2mqqQcfggH7t8cIISOI8e0KAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN4OkKLa+AAAA[0m[Pipeline] sh
++ yarn nx affected --target=deployprod --base=remotes/origin/production~1 --head=HEAD
+yarn run v1.22.18
+$ /home/jenkins/agent/workspace/SmartlogApp_production/node_modules/.bin/nx affected --target=deployprod '--base=remotes/origin/production~1' --head=HEAD
+
+ >  NX   Running target deployprod for 1 project(s):
+
+    - smartlog-admin-webapi
+
+ 
+
+> nx run smartlog-admin-webapi:deployprod
+
+deployment.apps/smartlog-admin-api-prod patched
+deployment.apps/smartlog-admin-api-prod configured
+service/smartlog-admin-api-prod unchanged
+Waiting for deployment spec update to be observed...
+Waiting for deployment "smartlog-admin-api-prod" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "smartlog-admin-api-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "smartlog-admin-api-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "smartlog-admin-api-prod" successfully rolled out
+
+ 
+
+ >  NX   Successfully ran target deployprod for 1 projects
+
+
+Done in 20.23s.
+[8mha:////4OGIHs3AGSeeBYjcAML0LnZSGpMVi+3Z9aMA/2beyDStAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN5YEWne+AAAA[0m[Pipeline] }
+[8mha:////4Lg8O7qOsSaVlLtUARM8JJHaj03dAvz/rsAZzRCGjY6IAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCARWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BrgEWB2+AAAA[0m[Pipeline] // stage
+[8mha:////4ALi4HdhZpeVBW2W/O5eGuNIQFXM/mWZAdEk1nAeb+WpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkEKDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw/v5CZwvgAAAA==[0m[Pipeline] }
+[8mha:////4EGlTgL7kswnvUG8ixISbm0wtv13RTaLGTO/wYssRyO7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkEKDqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZH3Lt6w/7x7tvvgAAAA==[0m[Pipeline] // container
+[8mha:////4DHg52RRkxiczwKmM5Xm+2lYHU9RDqwcbhzzJVRyZ1beAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJUauFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMnSDbCfLtvvsAZ3eKjL0AAAA=[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4EU92WjmVDz117P/DSxqFjEBt+R4BX51m4OQjb3x3lz4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsPqGsSC70AAAA=[0m[Pipeline] echo
+Build successful
+[8mha:////4DePDgIT3i2/isg3gDM16DPbDnLGK/uO/h4CpdL7kH1RAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKpQEKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmynSDf7rsP6VoJEr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: smartlog_admin_workspace_notification, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4Op9Raa8jLLNfdBL0RWdHQIi5guMEKPoPX8ouHp0YApgAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJY0ThWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg8Rek4hvQAAAA==[0m[Pipeline] }
+[8mha:////4Pxm7BWw2hLcnuUG7IRkzp3pNZIfZgB0t/08H7CuJaNiAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsPGwInhb0AAAA=[0m[Pipeline] // node
+[8mha:////4LT2ijkNAko39HqnJUL/4+ARhXdQorFhKi+8SWmdY9mCAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AF1IgLW9AAAA[0m[Pipeline] }
+[8mha:////4GODIfUb+/ulas52KOcmiCrgxJayixxoS4KCsGlAgphQAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHTvSEFr0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4PUoAMbaU39sIxb/HRMrkRNRGGiFcdzB0oON6sDpEhzyAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AMgYo9O9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

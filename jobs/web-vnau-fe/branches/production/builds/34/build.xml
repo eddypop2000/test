@@ -1,0 +1,312 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1145.v7f2433caa07f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.7.0">
+            <timestamp>1646239383750</timestamp>
+            <origin>192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.0.2.8.1">
+      <queuingDurationMillis>7202</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>7200</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@595.vd5a_df5eb_0e39">
+      <sourceId>ee2e0e67-ceb9-4134-9e75-0f4474b9df86</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>production</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>eb0f1e4e78a43a9a085dd0f877e55c4020415efb</hash>
+        <message>update
+</message>
+        <author>dung.phung &lt;dung.phung@bizzi.vn&gt;</author>
+        <date>2022-03-02 16:42:54.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@552.vd9cc05b8a2e1">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.10.2">
+      <buildsByBranchName>
+        <entry>
+          <string>production</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>eb0f1e4e78a43a9a085dd0f877e55c4020415efb</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>production</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>34</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://bitbucket.org/smartlogwms/web-vnau-fe.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.13">
+      <revisionStates>
+        <entry>
+          <string>git https://bitbucket.org/smartlogwms/web-vnau-fe.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781"/>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2648.va9433432b33c">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.0.2.8.1">
+      <queuingDurationMillis>9965</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>9964</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>334501</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>388941</queueId>
+  <timestamp>1646239397833</timestamp>
+  <startTime>1646239397836</startTime>
+  <result>SUCCESS</result>
+  <duration>346295</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+  node(&apos;pod-with-gitversion&apos;) {
+    commitMessage = &apos;&apos;
+    try {
+      SEM_VER = &apos;0.0.0&apos;
+      stage(&apos;Get source code&apos;) {
+        echo &apos;Getting source code...&apos;
+        checkout([
+          $class: &apos;GitSCM&apos;,
+          branches: [[name: &apos;*/dev&apos;]],
+          extensions: scm.extensions,
+          userRemoteConfigs: [[
+            credentialsId: scm.userRemoteConfigs[0].credentialsId,
+            name: &apos;origin&apos;,
+            refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+            url: scm.userRemoteConfigs[0].url
+          ]],
+          doGenerateSubmoduleConfigurations: false
+        ])
+        checkout scm
+
+        String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+        commitMessage = parts[0]
+      }
+      if (env.BRANCH_NAME == &apos;dev&apos;) {
+        shortEnv = &apos;stage&apos;
+        build()
+      } else if (env.BRANCH_NAME == &apos;production&apos;) {
+        shortEnv = &apos;prod&apos;
+        build()
+      } else {
+        echo &apos;Khong phai branch (dev|production) nen ko lam gi ca&apos;
+        error(&apos;Failed to build&apos;)
+      }
+    } catch (exc) {
+      currentBuild.result = &apos;FAILURE&apos;
+      echo &apos;I failed&apos;
+      echo exc.getMessage()
+    }
+    finally {
+      echo &apos;One way or another, I have finished&apos;
+      try {
+        deleteDir() /* clean up our workspace */
+      } catch (err) {
+      // Do nothing
+      }
+      if (currentBuild.result == &apos;SUCCESS&apos;) {
+        echo &apos;Build successful&apos;
+        slackSend channel: &apos;sabeco-system-notification&apos;,
+          color: &apos;good&apos;,
+          message: &quot;The pipeline ${currentBuild.fullDisplayName} v${SEM_VER} [${commitMessage}] completed successfully.&quot;
+      } else if (currentBuild.result == &apos;FAILURE&apos;) {
+        echo &apos;I failed :(&apos;
+        slackSend channel: &apos;sabeco-system-notification&apos;,
+          color: &apos;#c40e0e&apos;,
+          message: &quot;Attention @here ${env.JOB_NAME} v${SEM_VER} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+      }
+    }
+  }
+  }
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+
+  stage(&apos;Build docker&apos;) {
+    container(&apos;gitversion&apos;) {
+      SEM_VER = sh (
+              script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+              returnStdout: true
+            ).trim()
+      echo &quot;SemVer: ${SEM_VER}&quot;
+    }
+    container(&apos;awscli&apos;) {
+      DOCKER_LOGIN = sh (
+              script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+              returnStdout: true
+            ).trim()
+    }
+    container(&apos;docker&apos;) {
+      REGISTRY_URL = &quot;&quot;&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/web-vnau-fe:${shortEnv}&quot;&quot;&quot;
+      sh &quot;&quot;&quot;
+            ls -la
+            docker build -f Dockerfile.${shortEnv} --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL} --pull=true .
+            ${DOCKER_LOGIN}
+            docker push ${REGISTRY_URL}
+            &quot;&quot;&quot;
+    }
+  }
+  stage(&apos;Deploy to k8s&apos;) {
+    container(&apos;kubectl&apos;) {
+      sh &quot;&quot;&quot;
+            kubectl apply -f deploy.${shortEnv}.yml
+            kubectl patch deployment web-vnau-fe-${shortEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n swm
+            kubectl rollout status deployment web-vnau-fe-${shortEnv} -n swm
+            &quot;&quot;&quot;
+    }
+  }
+
+  currentBuild.result = &apos;SUCCESS&apos;
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>228088942</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>331433139</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2002851228</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>202974392</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>339325715</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>53</iota>
+    <head>1:53</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.10.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://bitbucket.org/smartlogwms/web-vnau-fe.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-ggs73-43tg8</node>
+      <workspace>/home/jenkins/agent/workspace/web-vnau-fe_production</workspace>
+      <changelogFile>/var/jenkins_home/jobs/web-vnau-fe/branches/production/builds/34/changelog4081570504637955790.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.10.2">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/production:refs/remotes/origin/production</refspec>
+            <url>https://bitbucket.org/smartlogwms/web-vnau-fe.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>production</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogwms/web-vnau-fe</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision plugin="git-client@3.11.0">
+                <sha1>eb0f1e4e78a43a9a085dd0f877e55c4020415efb</sha1>
+                <branches class="singleton-set">
+                  <hudson.plugins.git.Branch>
+                    <sha1 reference="../../../sha1"/>
+                    <name>production</name>
+                  </hudson.plugins.git.Branch>
+                </branches>
+              </revision>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-ggs73-43tg8</node>
+      <workspace>/home/jenkins/agent/workspace/web-vnau-fe_production</workspace>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

@@ -1,0 +1,437 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1681446246949</timestamp>
+            <origin>192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>8650</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>8647</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>50a64025-8cbd-458e-a335-04b6c2dbeac0</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>35f08adc283a43a84b44c35d9fd4bf58c07ea262</hash>
+        <message>Merged in feature/sa-558 (pull request #886)
+
+change input findbycode
+
+Approved-by: Bong Bui</message>
+        <author>Trần Hùng &lt;tranhung.nguyen@gosmartlog.com&gt;</author>
+        <date>2023-04-14 04:23:58.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>35f08adc283a43a84b44c35d9fd4bf58c07ea262</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>854</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{NWt03YA4_R_FxrV9ma0BlHDZMWC9ZAZdLL7xIBPiY_D2h8q_ygwSnNf6G6awaN0Fapws5AEr8jHglVXC8ZF3PXtKBA==}@bitbucket.org/smartlogtms/smartlog-app.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogtms/smartlog-app.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>dev</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>35f08adc283a43a84b44c35d9fd4bf58c07ea262</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>dev</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>854</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{WeDPsJsKQk4EL63_pE2I4FfofVd24bndgdb86SUiqrlHRYUxZTAlD2Iwh7ItgcibCwEGLQphRfbTec7AqdJC-aMafw==}@bitbucket.org/smartlogtms/smartlog-app.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>62685</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>62684</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>97688</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>13459952</queueId>
+  <timestamp>1681446264987</timestamp>
+  <startTime>1681446264993</startTime>
+  <result>SUCCESS</result>
+  <duration>162608</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;mono-pod&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;danghung/trainingdocker:nx5&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+    persistentVolumeClaim(claimName: &apos;pvc-monorepo-cache&apos;, mountPath: &apos;/usr/local/share&apos;)
+  ]) {
+    node(&apos;mono-pod&apos;) {
+      commitMessage = &quot;&quot;
+      affectedApp = &quot;&quot;
+      try {
+        stage(&apos;Get source code&apos;) {
+          echo &apos;Getting source code...&apos;
+          checkout([
+            $class: &apos;GitSCM&apos;,
+            branches: [[name: &apos;*/main&apos;]],
+            extensions: scm.extensions,
+            userRemoteConfigs: [[
+              credentialsId: scm.userRemoteConfigs[0].credentialsId,
+              name: &apos;origin&apos;,
+              refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+              url: scm.userRemoteConfigs[0].url
+            ]],
+            doGenerateSubmoduleConfigurations: false
+          ])
+          checkout scm
+          String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+          commitMessage = parts[0]
+        }
+        if (env.BRANCH_NAME == &apos;main&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Build docker&apos;) {
+            container(&apos;awscli&apos;) {
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+            container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo&quot;
+            //   npm run nx affected:build --base= origin/main~1 --head= origin/main
+            // npm run nx run smartlog-admin-angular:docker
+              sh &quot;&quot;&quot;
+              npm i
+              docker run --privileged --rm tonistiigi/binfmt --install all
+              docker buildx create --use --driver-opt network=host --buildkitd-flags &apos;--allow-insecure-entitlement network.host&apos;
+              ${DOCKER_LOGIN}
+              yarn nx affected --target=docker --base=remotes/origin/main
+
+              &quot;&quot;&quot;
+            }
+          }
+          // stage(&apos;Deploy k8s&apos;) {
+          //   container(&apos;kubectl&apos;) {
+          //     sh &quot;&quot;&quot;
+
+          //     &quot;&quot;&quot;
+          //   }
+          // }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else if (env.BRANCH_NAME == &apos;dev&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Docker Login&apos;) {
+            container(&apos;awscli&apos;) {
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+          }
+          container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo&quot;
+              // yarn nx affected:build --base= origin/main~1 --head= origin/main
+            // yarn nx build smartlog-admin-angular
+            //   yarn nx run smartlog-admin-angular:docker
+              stage(&apos;yarn&apos;) {
+                sh &quot;&quot;&quot;
+                mkdir -p /usr/local/share/node_modules
+                ln -s  /usr/local/share/node_modules node_modules
+                mkdir -p /usr/local/share/Nuget
+                mkdir -p ~/.local/share
+                ln -s  /usr/local/share/Nuget ~/.local/share/NuGet
+                yarn
+                &quot;&quot;&quot;
+              }
+              // docker run --privileged --rm tonistiigi/binfmt --install all
+              stage(&apos;Prepare build&apos;) {
+                sh &quot;&quot;&quot;
+                    docker buildx create --use --driver-opt network=host --buildkitd-flags &apos;--allow-insecure-entitlement network.host&apos;
+                    ${DOCKER_LOGIN}
+                    git config --global --add safe.directory /home/jenkins/agent/workspace/SmartlogApp_${env.BRANCH_NAME}
+                    mkdir -p /usr/local/share/.angular
+                    ln -s /usr/local/share/.angular .angular
+                &quot;&quot;&quot;
+              }
+              stage(&apos;Build app&apos;) {
+                sh &quot;&quot;&quot;
+                    echo NX_WORKSPACE_ROOT_PATH=/home/jenkins/agent/workspace/SmartlogApp_${env.BRANCH_NAME} &gt;&gt; .env
+                &quot;&quot;&quot;
+                affectedApp = sh (  script: &quot;node_modules/.bin/nx affected:apps &apos;--base=remotes/origin/dev~1&apos; --head=HEAD --plain&quot;, returnStdout: true  ).trim()
+                sh &quot;&quot;&quot;
+                    yarn nx affected:build --base=remotes/origin/dev~1 --head=HEAD --skip-nx-cache --runner=jenkins
+                &quot;&quot;&quot;
+                sh &quot;echo affectedApp: ${affectedApp}&quot;
+              }
+              stage(&apos;Build docker&apos;) {
+                sh &apos;yarn nx affected --target=docker --base=remotes/origin/dev~1 --head=HEAD --parallel=1 --runner=jenkins&apos;
+              }
+              stage(&apos;Deploy&apos;) {
+                sh &apos;yarn nx affected --target=deploystage --base=remotes/origin/dev~1 --head=HEAD&apos;
+              }
+            }
+
+
+          // stage(&apos;Deploy k8s&apos;) {
+          //   container(&apos;kubectl&apos;) {
+
+          //   }
+          // }
+          currentBuild.result = &apos;SUCCESS&apos;
+        } else if (env.BRANCH_NAME == &apos;production&apos;) {
+          echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+          stage(&apos;Docker Login&apos;) {
+            container(&apos;awscli&apos;) {
+              DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+              ).trim()
+            }
+          }
+          container(&apos;docker&apos;) {
+              REGISTRY_URL=&quot;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-app-monorepo&quot;
+              // yarn nx affected:build --base= origin/main~1 --head= origin/main
+            // yarn nx build smartlog-admin-angular
+            //   yarn nx run smartlog-admin-angular:docker
+              stage(&apos;yarn&apos;) {
+                sh &quot;&quot;&quot;
+                mkdir -p /usr/local/share/node_modules
+                ln -s  /usr/local/share/node_modules node_modules
+                mkdir -p /usr/local/share/Nuget
+                mkdir -p ~/.local/share
+                ln -s  /usr/local/share/Nuget ~/.local/share/NuGet
+                yarn
+                &quot;&quot;&quot;
+              }
+              // docker run --privileged --rm tonistiigi/binfmt --install all
+              stage(&apos;Prepare build&apos;) {
+                sh &quot;&quot;&quot;
+                    docker buildx create --use --driver-opt network=host --buildkitd-flags &apos;--allow-insecure-entitlement network.host&apos;
+                    ${DOCKER_LOGIN}
+                    git config --global --add safe.directory /home/jenkins/agent/workspace/SmartlogApp_${env.BRANCH_NAME}
+                    mkdir -p /usr/local/share/.angular
+                    ln -s /usr/local/share/.angular .angular
+                &quot;&quot;&quot;
+              }
+              stage(&apos;Build app&apos;) {
+                sh &quot;&quot;&quot;
+                    echo NX_WORKSPACE_ROOT_PATH=/home/jenkins/agent/workspace/SmartlogApp_${env.BRANCH_NAME} &gt;&gt; .env
+                &quot;&quot;&quot;
+                affectedApp = sh (  script: &quot;node_modules/.bin/nx affected:apps &apos;--base=remotes/origin/production~1&apos; --head=HEAD --plain&quot;, returnStdout: true  ).trim()
+                sh &quot;&quot;&quot;
+                    yarn nx affected:build --base=remotes/origin/production~1 --head=HEAD --skip-nx-cache --runner=jenkins
+                &quot;&quot;&quot;
+                sh &quot;echo affectedApp: ${affectedApp}&quot;
+              }
+              stage(&apos;Build docker&apos;) {
+                sh &apos;yarn nx affected --target=dockerprod --base=remotes/origin/production~1 --head=HEAD --parallel=1 --runner=jenkins&apos;
+              }
+              stage(&apos;Deploy&apos;) {
+                sh &apos;yarn nx affected --target=deployprod --base=remotes/origin/production~1 --head=HEAD&apos;
+              }
+            }
+
+
+          // stage(&apos;Deploy k8s&apos;) {
+          //   container(&apos;kubectl&apos;) {
+
+          //   }
+          // }
+          currentBuild.result = &apos;SUCCESS&apos;
+          } else {
+          echo &quot;Khong phai branch (production|dev) nen ko lam gi&quot;
+          error(&apos;Failed to build&apos;)
+        }
+
+      } catch (exc) {
+        currentBuild.result = &apos;FAILURE&apos;
+        echo &apos;I failed&apos;
+        echo exc.getMessage()
+      }
+      finally {
+        echo &apos;One way or another, I have finished&apos;
+        // deleteDir() /* clean up our workspace */
+        if (currentBuild.result == &apos;SUCCESS&apos;) {
+          echo &apos;Build successful&apos;
+          slackSend channel: &apos;smartlog_admin_workspace_notification&apos;,
+            color: &apos;good&apos;,
+            message: &quot;The pipeline ${currentBuild.fullDisplayName} [${commitMessage}] completed successfully.\nBuild app: ${affectedApp}&quot;
+        } else if (currentBuild.result == &apos;FAILURE&apos;) {
+          echo &apos;I failed :(&apos;
+          slackSend channel: &apos;smartlog_admin_workspace_notification&apos;,
+            color: &apos;#c40e0e&apos;,
+            message: &quot;Attention @here ${env.JOB_NAME} [${commitMessage}] #${env.BUILD_NUMBER} has failed. ${env.BUILD_URL}/console\nBuild app:${affectedApp}\n  &quot;
+        }
+      }
+    }
+  }
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>334961647</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>64472504</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6533892231</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>57584218</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>562433709</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>64</iota>
+    <head>1:64</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://x-token-auth:{NWt03YA4_R_FxrV9ma0BlHDZMWC9ZAZdLL7xIBPiY_D2h8q_ygwSnNf6G6awaN0Fapws5AEr8jHglVXC8ZF3PXtKBA==}@bitbucket.org/smartlogtms/smartlog-app.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>mono-pod-jsc7q-3bxt6</node>
+      <workspace>/home/jenkins/agent/workspace/SmartlogApp_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/SmartlogApp/branches/dev/builds/854/changelog14785282116454566936.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+            <url>https://x-token-auth:{WeDPsJsKQk4EL63_pE2I4FfofVd24bndgdb86SUiqrlHRYUxZTAlD2Iwh7ItgcibCwEGLQphRfbTec7AqdJC-aMafw==}@bitbucket.org/smartlogtms/smartlog-app.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/smartlog-app</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>mono-pod-jsc7q-3bxt6</node>
+      <workspace>/home/jenkins/agent/workspace/SmartlogApp_dev</workspace>
+      <changelogFile>/var/jenkins_home/jobs/SmartlogApp/branches/dev/builds/854/changelog16752181658433818745.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

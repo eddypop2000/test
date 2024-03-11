@@ -1,0 +1,10 @@
+commit 815941e19c6dc2bff1b79f7ab8dae84fde17db2d
+tree 0d673ccec451b0bacba3880bda4d373ea285f181
+parent 9bbd0f0363acd8c02313ec8513fdb2f8817b2ec9
+author Karkill <hoa.tran@gosmartlog.com> 2021-03-01 19:03:54 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-03-01 19:03:54 +0700
+
+    disable setupAutomaticSilentRefresh
+
+
+:100644 100644 619278c0712c0e1446bf6a75cbc455da02412d77 ccb2ed1e6a582923595e4280ba5eef686c4d7e15 M	src/shared/services/auth.service.ts

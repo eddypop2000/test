@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>master</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>02b17abe95dad00f51f5b340ce37eabac1317d3d</hash>
+  <message>Merged in origin/split-project (pull request #321)
+
+fix pipeline</message>
+  <author>thanh.nc &lt;thanh.nc@gosmartlog.com&gt;</author>
+  <date>2023-04-04 03:03:12.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

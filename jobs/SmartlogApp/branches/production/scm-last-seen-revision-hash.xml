@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>e80b671bded04a28b8cecc567c0b99c3baf61c92</hash>
+  <message>Merged in feature/sa-440 (pull request #863)
+
+fix bug</message>
+  <author>Trần Hùng &lt;tranhung.nguyen@gosmartlog.com&gt;</author>
+  <date>2023-04-05 07:20:12.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

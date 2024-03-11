@@ -1,0 +1,33 @@
+Started
+[Wed Apr 12 04:44:16 UTC 2023] Starting branch indexing...
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/nikola-admin-fe for branches
+Checking branch argocd from smartlogtms/nikola-admin-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: argocd
+Checking branch dev from smartlogtms/nikola-admin-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at ceb7c289196e49c2a7efba7a51345084601c5427)
+Checking branch bugfix/fix-bug-sprint-41 from smartlogtms/nikola-admin-fe
+Checking branch feature/customer-registration from smartlogtms/nikola-admin-fe
+Checking branch integrate-service-package-api from smartlogtms/nikola-admin-fe
+Checking branch lokalise-2022-04-12_06-16-25 from smartlogtms/nikola-admin-fe
+Checking branch lokalise-2022-04-12_06-16-56 from smartlogtms/nikola-admin-fe
+Checking branch lokalise-2022-04-18_05-34-17 from smartlogtms/nikola-admin-fe
+Checking branch lokalise-2022-04-18_11-16-00 from smartlogtms/nikola-admin-fe
+Checking branch master from smartlogtms/nikola-admin-fe
+Checking branch qc from smartlogtms/nikola-admin-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: qc (still at e27dbc77a6d95569c49f6097651c40dce2263217)
+
+  11 branches were processed
+Looking up smartlogtms/nikola-admin-fe for pull requests
+Checking PR-72 from smartlogtms/nikola-admin-fe and branch argocd
+
+  1 pull requests were processed
+[Wed Apr 12 04:44:22 UTC 2023] Finished branch indexing. Indexing took 5.4 sec
+Finished: SUCCESS

@@ -1,0 +1,1438 @@
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Mon Feb 08 10:36:34 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.154 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Feb 08 10:36:32 UTC 2021 processed in 2.3 sec
+[Tue Feb 09 02:53:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 02:53:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 02:53:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 02:53:44 UTC 2021 processed in 2.6 sec
+[Tue Feb 09 02:57:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 02:57:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 02:57:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 02:57:28 UTC 2021 processed in 1.9 sec
+[Tue Feb 09 03:01:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.154 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 03:01:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 03:01:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.154 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 03:01:28 UTC 2021 processed in 1.9 sec
+[Tue Feb 09 06:30:24 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:30:24 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 06:30:26 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:30:24 UTC 2021 processed in 1.8 sec
+[Tue Feb 09 06:31:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:31:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 06:31:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:31:00 UTC 2021 processed in 2.2 sec
+[Tue Feb 09 06:32:03 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.53.154 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:32:03 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+[Tue Feb 09 06:32:03 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:32:03 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+
+  3 pull requests were processed
+[Tue Feb 09 06:32:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.53.154 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:32:03 UTC 2021 processed in 2 sec
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (689cd2ab3e7d1230f0d02600cf81f251cca63f78 → aa9439f03e87bf7a28e2188f2fd98b17a7f2887c)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 06:32:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 06:32:03 UTC 2021 processed in 1.8 sec
+[Tue Feb 09 07:09:30 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:09:30 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (aa9439f03e87bf7a28e2188f2fd98b17a7f2887c → 661f775b90cc9315569e4fed483fa3dfa7d14462)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 07:09:32 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:09:30 UTC 2021 processed in 2.1 sec
+[Tue Feb 09 07:18:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:18:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (661f775b90cc9315569e4fed483fa3dfa7d14462 → 984434a9253be7508030d2823370a5a9e721790b)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 07:18:22 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 07:18:20 UTC 2021 processed in 1.7 sec
+[Tue Feb 09 09:02:06 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 09:02:06 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (984434a9253be7508030d2823370a5a9e721790b → 4b714c1f381d5892e4069aae0388af239151549f)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Tue Feb 09 09:02:09 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Feb 09 09:02:06 UTC 2021 processed in 2.3 sec
+[Thu Feb 18 06:37:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:37:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Thu Feb 18 06:37:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:37:02 UTC 2021 processed in 2.2 sec
+[Thu Feb 18 06:44:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:44:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Thu Feb 18 06:44:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:44:28 UTC 2021 processed in 1.8 sec
+[Thu Feb 18 06:50:41 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:50:41 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch feature/implment-login-user-has-many-tenant from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-122 from smartlogtms/smartlog-ecosystem and branch feature/implment-login-user-has-many-tenant
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Thu Feb 18 06:50:43 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.38.244 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:50:41 UTC 2021 processed in 1.9 sec
+[Thu Feb 18 06:53:13 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:53:13 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Thu Feb 18 06:53:15 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:53:13 UTC 2021 processed in 1.8 sec
+[Thu Feb 18 06:53:13 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:53:13 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4b714c1f381d5892e4069aae0388af239151549f → a8b178cc25cdb5d12d6d18a13335d1bae74b40a9)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Thu Feb 18 06:53:15 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.68.202 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Feb 18 06:53:13 UTC 2021 processed in 2 sec
+[Fri Feb 19 03:54:58 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:54:58 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 03:55:00 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:54:58 UTC 2021 processed in 2.3 sec
+[Fri Feb 19 03:57:15 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:57:15 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch feature/config-notification-API from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 03:57:17 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:57:15 UTC 2021 processed in 1.9 sec
+[Fri Feb 19 03:58:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:58:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+[Fri Feb 19 03:58:31 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:58:31 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 03:58:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:58:31 UTC 2021 processed in 1.8 sec
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (a8b178cc25cdb5d12d6d18a13335d1bae74b40a9 → 4a2b4cc66232829fdc60a23c008dd456d26cd21e)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 03:58:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 03:58:31 UTC 2021 processed in 1.8 sec
+[Fri Feb 19 04:04:30 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:04:30 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch bugfix/fix-create-order-follow from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 04:04:32 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:04:30 UTC 2021 processed in 1.8 sec
+[Fri Feb 19 04:06:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch bugfix/fix-create-order-follow from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-146 from smartlogtms/smartlog-ecosystem and branch bugfix/fix-create-order-follow
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Fri Feb 19 04:06:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:18 UTC 2021 processed in 1.9 sec
+[Fri Feb 19 04:06:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+[Fri Feb 19 04:06:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 04:06:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:44 UTC 2021 processed in 1.8 sec
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (4a2b4cc66232829fdc60a23c008dd456d26cd21e → 1db648c9c156ba3421bc67ab9ea745849f73e4fe)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 04:06:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:06:44 UTC 2021 processed in 1.8 sec
+[Fri Feb 19 04:21:49 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:21:49 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch bugfix/fix-create-order-follow from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 04:21:51 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:21:49 UTC 2021 processed in 1.8 sec
+[Fri Feb 19 04:22:26 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:22:26 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+[Fri Feb 19 04:22:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:22:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 04:22:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:22:26 UTC 2021 processed in 1.8 sec
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1db648c9c156ba3421bc67ab9ea745849f73e4fe → 29e74f4dbbd4f9b578b201ad962338c3a6f203ba)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 04:22:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 04:22:27 UTC 2021 processed in 1.8 sec
+[Fri Feb 19 07:11:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:11:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 07:11:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:11:44 UTC 2021 processed in 1.9 sec
+[Fri Feb 19 07:13:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:13:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 07:13:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:13:00 UTC 2021 processed in 2.5 sec
+[Fri Feb 19 07:13:01 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:13:01 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (29e74f4dbbd4f9b578b201ad962338c3a6f203ba → 1fca9b825f80a27a62a75da77bf5fac08ebd42ba)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 07:13:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:13:01 UTC 2021 processed in 4.9 sec
+[Fri Feb 19 07:38:56 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:38:56 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch update-many-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 07:38:58 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:38:56 UTC 2021 processed in 2.1 sec
+[Fri Feb 19 07:51:05 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:51:05 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch update-many-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  32 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-149 from smartlogtms/smartlog-ecosystem and branch update-many-order-pricing-list
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Fri Feb 19 07:51:08 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 07:51:05 UTC 2021 processed in 2.5 sec
+[Fri Feb 19 08:00:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:00:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch update-many-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  32 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-149 from smartlogtms/smartlog-ecosystem and branch update-many-order-pricing-list
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  3 pull requests were processed
+[Fri Feb 19 08:00:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:00:20 UTC 2021 processed in 2.9 sec
+[Fri Feb 19 08:01:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:01:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+[Fri Feb 19 08:01:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:01:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 08:01:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:01:22 UTC 2021 processed in 2.1 sec
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (1fca9b825f80a27a62a75da77bf5fac08ebd42ba → 15a6701e64261a94f3abcbfd4e42019b89bc8979)
+Scheduled build for branch: dev
+
+  2 branches were processed (query completed)
+[Fri Feb 19 08:01:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:01:22 UTC 2021 processed in 1.9 sec
+[Fri Feb 19 08:14:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:14:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 08:14:25 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 08:14:22 UTC 2021 processed in 2.3 sec
+[Fri Feb 19 10:46:41 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:46:41 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+[Fri Feb 19 10:46:41 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:46:41 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  30 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 10:46:44 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:46:41 UTC 2021 processed in 2.7 sec
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (15a6701e64261a94f3abcbfd4e42019b89bc8979 → c717657788d2ded2330d4ce9d84302cb0ed88e44)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Feb 19 10:46:44 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:46:41 UTC 2021 processed in 2.7 sec
+[Fri Feb 19 10:50:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:50:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 10:50:04 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.16.228 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:50:00 UTC 2021 processed in 3.3 sec
+[Fri Feb 19 10:51:56 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:51:56 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-1-porting-stx-project-to-.net-5 from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  32 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 10:51:59 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:51:56 UTC 2021 processed in 2.1 sec
+[Fri Feb 19 10:52:07 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:52:07 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  31 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 10:52:09 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:52:07 UTC 2021 processed in 2.4 sec
+[Fri Feb 19 10:53:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:53:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch feature/SES-1-porting-stx-project-to-.net-5 from smartlogtms/smartlog-ecosystem
+Checking branch Delete-Auto-Pricing-Setting from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch config-log-to-cloudwatch from smartlogtms/smartlog-ecosystem
+Checking branch dev from smartlogtms/smartlog-ecosystem
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch dev-freight-transport from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-custom-response-token-disable-switch-tenant from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement-muti-login-page from smartlogtms/smartlog-ecosystem
+Checking branch feature/implement_concurrent_login from smartlogtms/smartlog-ecosystem
+Checking branch feature/notification-history from smartlogtms/smartlog-ecosystem
+Checking branch feature/restructure-notification-service from smartlogtms/smartlog-ecosystem
+Checking branch feature/send-notification-with-fcm from smartlogtms/smartlog-ecosystem
+Checking branch feature/update-logit-send-notify from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch notifycation from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  32 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-105 from smartlogtms/smartlog-ecosystem and branch feature/implement_concurrent_login
+Checking PR-143 from smartlogtms/smartlog-ecosystem and branch feature/implement-custom-response-token-disable-switch-tenant
+
+  2 pull requests were processed
+[Fri Feb 19 10:53:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.34.87 ⇒ http://smartlogjenkins.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Feb 19 10:53:28 UTC 2021 processed in 2.3 sec

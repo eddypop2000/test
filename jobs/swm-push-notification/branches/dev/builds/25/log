@@ -1,0 +1,1841 @@
+Branch event
+Obtained Jenkinsfile from 868b0488131169c643df8b6b5f27f3e5ec2e8d5b
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/common-pod-jh727-3kpvx
+[Normal][jenkins/common-pod-jh727-3kpvx][Scheduled] Successfully assigned jenkins/common-pod-jh727-3kpvx to ip-192-168-103-121.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-jh727-3kpvx][Pulled] Container image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" already present on machine
+[Normal][jenkins/common-pod-jh727-3kpvx][Created] Created container kubectl
+[Normal][jenkins/common-pod-jh727-3kpvx][Started] Started container kubectl
+[Normal][jenkins/common-pod-jh727-3kpvx][Pulled] Container image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" already present on machine
+[Normal][jenkins/common-pod-jh727-3kpvx][Created] Created container awscli
+[Normal][jenkins/common-pod-jh727-3kpvx][Started] Started container awscli
+[Normal][jenkins/common-pod-jh727-3kpvx][Pulled] Container image "public.ecr.aws/smartlog/docker:19.03.8" already present on machine
+[Normal][jenkins/common-pod-jh727-3kpvx][Created] Created container docker
+[Normal][jenkins/common-pod-jh727-3kpvx][Started] Started container docker
+[Normal][jenkins/common-pod-jh727-3kpvx][Pulled] Container image "jenkins/inbound-agent:4.11-1-jdk11" already present on machine
+[Normal][jenkins/common-pod-jh727-3kpvx][Created] Created container jnlp
+[Normal][jenkins/common-pod-jh727-3kpvx][Started] Started container jnlp
+Agent [8mha:////4GIM3AcdXkceeJ/+EfreqoThm+bsXiQE2bcaxdhr4xbgAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9FNyvD3Mhc1zi7oKwCAH6CxFzVAAAA[0mcommon-pod-jh727-3kpvx is provisioned from template common-pod-jh727
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/swm-push-notification/job/dev/25/"
+    runUrl: "job/swm-push-notification/job/dev/25/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-jh727-3kpvx"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-jh727-3kpvx"
+    - name: "JENKINS_NAME"
+      value: "common-pod-jh727-3kpvx"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4H3jiHDhAciB5YI+b/ACue3nRZ+uKSD3OMk9hczWUJvzAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVIZmWYG5kDaePsgrIKfQAggHCz3AAAAA==[0mcommon-pod-jh727-3kpvx in /home/jenkins/agent/workspace/swm-push-notification_dev
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential oauth-swm
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{S4VqnhYKAiYr74q0SmM-sg4irJoorDIyGoWWFaPptJMLZpGA1pcvqBr_q0F1Q-bwIh8M9hyatHaUF65oIWApFE3C7Q%3d%3d}@bitbucket.org/smartlogwms/pushnotification.git
+ > git init /home/jenkins/agent/workspace/swm-push-notification_dev # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogwms/pushnotification.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{S4VqnhYKAiYr74q0SmM-sg4irJoorDIyGoWWFaPptJMLZpGA1pcvqBr_q0F1Q-bwIh8M9hyatHaUF65oIWApFE3C7Q%3d%3d}@bitbucket.org/smartlogwms/pushnotification.git +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+Avoid second fetch
+Checking out Revision 868b0488131169c643df8b6b5f27f3e5ec2e8d5b (dev)
+ > git config remote.origin.url https://x-token-auth:{S4VqnhYKAiYr74q0SmM-sg4irJoorDIyGoWWFaPptJMLZpGA1pcvqBr_q0F1Q-bwIh8M9hyatHaUF65oIWApFE3C7Q%3d%3d}@bitbucket.org/smartlogwms/pushnotification.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/dev:refs/remotes/origin/dev # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 868b0488131169c643df8b6b5f27f3e5ec2e8d5b # timeout=10
+Commit message: "check dockerfile"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for dev branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4HNuZvHPhJzOnDLqEHrwnbz1S3v1CTG+lpYWuuk4QfonAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4M89+sba7ffu+qHsbBbqhN8rZ1qTvxcUfzvL7Pz/myTCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // container
+[8mha:////4Pg+whfNdDodDIEG5bJYMuFMVVxae0mgnbEXSkhgU4GWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] container
+[8mha:////4Biyld1GUC8alAaCxFUhcPEd+p1k7JJeIywwkhhP7j/qAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IgLKfm2gzaUpKIW9f2mFrh0IhZWLBRL+JCxDdBoCuEtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ docker build -f Dockerfile.stage '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-push-notification-be:dev '--pull=true' .
+Sending build context to Docker daemon    770kB
+Step 1/10 : FROM public.ecr.aws/smartlog/node:16.13.0-alpine3.14
+16.13.0-alpine3.14: Pulling from smartlog/node
+97518928ae5f: Already exists
+784cd1fd612b: Already exists
+0ec5d186b713: Already exists
+98dc27ad6276: Already exists
+Digest: sha256:5277c7d171e02ee76417bb290ef488aa80e4e64572119eec0cb9fffbcffb8f6a
+Status: Downloaded newer image for public.ecr.aws/smartlog/node:16.13.0-alpine3.14
+ ---> 44e24535dfbf
+Step 2/10 : WORKDIR /usr/src/app
+ ---> Running in 22599aa3e66c
+Removing intermediate container 22599aa3e66c
+ ---> 9c03f33d9164
+Step 3/10 : COPY ./package.json  ./
+ ---> acf7baef2e50
+Step 4/10 : RUN yarn  --verbose
+ ---> Running in df4f65237f9a
+yarn install v1.22.15
+verbose 0.240345324 Checking for configuration file "/usr/src/app/.npmrc".
+verbose 0.241184241 Checking for configuration file "/usr/local/share/.npmrc".
+verbose 0.241454259 Checking for configuration file "/usr/local/etc/npmrc".
+verbose 0.241731798 Checking for configuration file "/root/.npmrc".
+verbose 0.242298424 Checking for configuration file "/usr/src/app/.npmrc".
+verbose 0.242561836 Checking for configuration file "/usr/src/.npmrc".
+verbose 0.243129106 Checking for configuration file "/usr/.npmrc".
+verbose 0.244281094 Checking for configuration file "/usr/src/app/.yarnrc".
+verbose 0.244655063 Checking for configuration file "/usr/local/share/.yarnrc".
+verbose 0.245115511 Checking for configuration file "/usr/local/etc/yarnrc".
+verbose 0.245586611 Checking for configuration file "/root/.yarnrc".
+verbose 0.245987309 Checking for configuration file "/usr/src/app/.yarnrc".
+verbose 0.246189586 Checking for configuration file "/usr/src/.yarnrc".
+verbose 0.246540027 Checking for configuration file "/usr/.yarnrc".
+verbose 0.251377359 current time: 2022-12-16T03:18:53.655Z
+info No lockfile found.
+[1/4] Resolving packages...
+verbose 0.330884436 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fcommon".
+verbose 0.4367589 Request "https://registry.yarnpkg.com/@nestjs%2fcommon" finished with status code 200.
+verbose 0.447048176 Performing "GET" request to "https://registry.yarnpkg.com/axios".
+verbose 0.447929976 Performing "GET" request to "https://registry.yarnpkg.com/iterare".
+verbose 0.448700747 Performing "GET" request to "https://registry.yarnpkg.com/tslib".
+verbose 0.449738837 Performing "GET" request to "https://registry.yarnpkg.com/uuid".
+verbose 0.469125073 Request "https://registry.yarnpkg.com/axios" finished with status code 200.
+verbose 0.475719658 Performing "GET" request to "https://registry.yarnpkg.com/follow-redirects".
+verbose 0.483033274 Request "https://registry.yarnpkg.com/tslib" finished with status code 200.
+verbose 0.496612358 Request "https://registry.yarnpkg.com/uuid" finished with status code 200.
+verbose 0.510274559 Request "https://registry.yarnpkg.com/follow-redirects" finished with status code 200.
+verbose 1.335628676 Request "https://registry.yarnpkg.com/iterare" finished with status code 200.
+verbose 1.33794784 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fcore".
+verbose 2.481003699 Request "https://registry.yarnpkg.com/@nestjs%2fcore" finished with status code 200.
+verbose 2.485127488 Performing "GET" request to "https://registry.yarnpkg.com/@nuxtjs%2fopencollective".
+verbose 2.486391038 Performing "GET" request to "https://registry.yarnpkg.com/fast-safe-stringify".
+verbose 2.491279479 Performing "GET" request to "https://registry.yarnpkg.com/object-hash".
+verbose 2.492240278 Performing "GET" request to "https://registry.yarnpkg.com/path-to-regexp".
+verbose 2.519841576 Request "https://registry.yarnpkg.com/fast-safe-stringify" finished with status code 200.
+verbose 2.522696649 Request "https://registry.yarnpkg.com/path-to-regexp" finished with status code 200.
+verbose 2.525603068 Request "https://registry.yarnpkg.com/object-hash" finished with status code 200.
+verbose 3.648422955 Request "https://registry.yarnpkg.com/@nuxtjs%2fopencollective" finished with status code 200.
+verbose 3.650735765 Performing "GET" request to "https://registry.yarnpkg.com/chalk".
+verbose 3.651486977 Performing "GET" request to "https://registry.yarnpkg.com/consola".
+verbose 3.652132312 Performing "GET" request to "https://registry.yarnpkg.com/node-fetch".
+verbose 3.673019938 Request "https://registry.yarnpkg.com/chalk" finished with status code 200.
+verbose 3.675455335 Performing "GET" request to "https://registry.yarnpkg.com/ansi-styles".
+verbose 3.676511487 Performing "GET" request to "https://registry.yarnpkg.com/supports-color".
+verbose 3.686819657 Request "https://registry.yarnpkg.com/node-fetch" finished with status code 200.
+verbose 3.688767083 Performing "GET" request to "https://registry.yarnpkg.com/whatwg-url".
+verbose 3.698348509 Request "https://registry.yarnpkg.com/ansi-styles" finished with status code 200.
+verbose 3.700479703 Performing "GET" request to "https://registry.yarnpkg.com/color-convert".
+verbose 3.707509597 Request "https://registry.yarnpkg.com/consola" finished with status code 200.
+verbose 3.710188107 Request "https://registry.yarnpkg.com/supports-color" finished with status code 200.
+verbose 3.712698182 Performing "GET" request to "https://registry.yarnpkg.com/has-flag".
+verbose 3.73191587 Request "https://registry.yarnpkg.com/color-convert" finished with status code 200.
+verbose 3.734984072 Performing "GET" request to "https://registry.yarnpkg.com/color-name".
+verbose 3.735729801 Request "https://registry.yarnpkg.com/has-flag" finished with status code 200.
+verbose 3.7385299 Request "https://registry.yarnpkg.com/whatwg-url" finished with status code 200.
+verbose 3.740964544 Performing "GET" request to "https://registry.yarnpkg.com/tr46".
+verbose 3.74220657 Performing "GET" request to "https://registry.yarnpkg.com/webidl-conversions".
+verbose 3.762245272 Request "https://registry.yarnpkg.com/webidl-conversions" finished with status code 200.
+verbose 3.763730325 Request "https://registry.yarnpkg.com/tr46" finished with status code 200.
+verbose 3.775142653 Request "https://registry.yarnpkg.com/color-name" finished with status code 200.
+verbose 3.777503804 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fplatform-express".
+verbose 3.834049118 Request "https://registry.yarnpkg.com/@nestjs%2fplatform-express" finished with status code 200.
+verbose 3.85085611 Performing "GET" request to "https://registry.yarnpkg.com/body-parser".
+verbose 3.851902104 Performing "GET" request to "https://registry.yarnpkg.com/cors".
+verbose 3.852858201 Performing "GET" request to "https://registry.yarnpkg.com/express".
+verbose 3.854061179 Performing "GET" request to "https://registry.yarnpkg.com/multer".
+verbose 3.889502649 Request "https://registry.yarnpkg.com/express" finished with status code 200.
+verbose 3.899537389 Performing "GET" request to "https://registry.yarnpkg.com/accepts".
+verbose 3.900697413 Performing "GET" request to "https://registry.yarnpkg.com/array-flatten".
+verbose 3.902416852 Performing "GET" request to "https://registry.yarnpkg.com/content-disposition".
+verbose 3.90344281 Performing "GET" request to "https://registry.yarnpkg.com/content-type".
+verbose 3.904400311 Performing "GET" request to "https://registry.yarnpkg.com/cookie".
+verbose 3.916598566 Request "https://registry.yarnpkg.com/multer" finished with status code 200.
+verbose 3.917168666 Performing "GET" request to "https://registry.yarnpkg.com/cookie-signature".
+[91mwarning @nestjs/platform-express > multer@1.4.2: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0mverbose 3.941407352 Request "https://registry.yarnpkg.com/body-parser" finished with status code 200.
+verbose 3.941854506 Performing "GET" request to "https://registry.yarnpkg.com/debug".
+verbose 3.949142601 Request "https://registry.yarnpkg.com/cors" finished with status code 200.
+verbose 3.949712318 Performing "GET" request to "https://registry.yarnpkg.com/depd".
+verbose 3.964019498 Request "https://registry.yarnpkg.com/array-flatten" finished with status code 200.
+verbose 3.965087676 Performing "GET" request to "https://registry.yarnpkg.com/encodeurl".
+verbose 3.968170361 Request "https://registry.yarnpkg.com/accepts" finished with status code 200.
+verbose 3.968484249 Performing "GET" request to "https://registry.yarnpkg.com/escape-html".
+verbose 3.972720157 Request "https://registry.yarnpkg.com/debug" finished with status code 200.
+verbose 3.973405788 Performing "GET" request to "https://registry.yarnpkg.com/etag".
+verbose 3.97743908 Request "https://registry.yarnpkg.com/depd" finished with status code 200.
+verbose 3.978227104 Performing "GET" request to "https://registry.yarnpkg.com/finalhandler".
+verbose 3.990093628 Request "https://registry.yarnpkg.com/encodeurl" finished with status code 200.
+verbose 3.992384322 Performing "GET" request to "https://registry.yarnpkg.com/fresh".
+verbose 3.995846265 Request "https://registry.yarnpkg.com/content-type" finished with status code 200.
+verbose 3.99673145 Performing "GET" request to "https://registry.yarnpkg.com/merge-descriptors".
+verbose 3.99844848 Request "https://registry.yarnpkg.com/escape-html" finished with status code 200.
+verbose 3.998777165 Performing "GET" request to "https://registry.yarnpkg.com/methods".
+verbose 4.000226014 Request "https://registry.yarnpkg.com/cookie-signature" finished with status code 200.
+verbose 4.000551476 Performing "GET" request to "https://registry.yarnpkg.com/on-finished".
+verbose 4.004266506 Request "https://registry.yarnpkg.com/content-disposition" finished with status code 200.
+verbose 4.00459617 Performing "GET" request to "https://registry.yarnpkg.com/parseurl".
+verbose 4.006573673 Request "https://registry.yarnpkg.com/etag" finished with status code 200.
+verbose 4.007147089 Performing "GET" request to "https://registry.yarnpkg.com/proxy-addr".
+verbose 4.009432853 Request "https://registry.yarnpkg.com/cookie" finished with status code 200.
+verbose 4.009786894 Performing "GET" request to "https://registry.yarnpkg.com/qs".
+verbose 4.011441026 Request "https://registry.yarnpkg.com/finalhandler" finished with status code 200.
+verbose 4.011773794 Performing "GET" request to "https://registry.yarnpkg.com/range-parser".
+verbose 4.017444075 Request "https://registry.yarnpkg.com/fresh" finished with status code 200.
+verbose 4.017770671 Performing "GET" request to "https://registry.yarnpkg.com/safe-buffer".
+verbose 4.030802078 Request "https://registry.yarnpkg.com/methods" finished with status code 200.
+verbose 4.031358282 Performing "GET" request to "https://registry.yarnpkg.com/send".
+verbose 4.0323245 Request "https://registry.yarnpkg.com/on-finished" finished with status code 200.
+verbose 4.032670771 Performing "GET" request to "https://registry.yarnpkg.com/serve-static".
+verbose 4.035171893 Request "https://registry.yarnpkg.com/merge-descriptors" finished with status code 200.
+verbose 4.035709464 Performing "GET" request to "https://registry.yarnpkg.com/setprototypeof".
+verbose 4.038735528 Request "https://registry.yarnpkg.com/range-parser" finished with status code 200.
+verbose 4.039262601 Performing "GET" request to "https://registry.yarnpkg.com/statuses".
+verbose 4.043148183 Request "https://registry.yarnpkg.com/parseurl" finished with status code 200.
+verbose 4.04371121 Performing "GET" request to "https://registry.yarnpkg.com/type-is".
+verbose 4.05008226 Request "https://registry.yarnpkg.com/proxy-addr" finished with status code 200.
+verbose 4.050441824 Performing "GET" request to "https://registry.yarnpkg.com/utils-merge".
+verbose 4.056103362 Request "https://registry.yarnpkg.com/serve-static" finished with status code 200.
+verbose 4.056699884 Performing "GET" request to "https://registry.yarnpkg.com/vary".
+verbose 4.065884588 Request "https://registry.yarnpkg.com/statuses" finished with status code 200.
+verbose 4.066539068 Performing "GET" request to "https://registry.yarnpkg.com/append-field".
+verbose 4.070181682 Request "https://registry.yarnpkg.com/send" finished with status code 200.
+verbose 4.070735675 Performing "GET" request to "https://registry.yarnpkg.com/busboy".
+verbose 4.085080032 Request "https://registry.yarnpkg.com/qs" finished with status code 200.
+verbose 4.085478914 Performing "GET" request to "https://registry.yarnpkg.com/concat-stream".
+verbose 4.095666152 Request "https://registry.yarnpkg.com/setprototypeof" finished with status code 200.
+verbose 4.096310381 Performing "GET" request to "https://registry.yarnpkg.com/mkdirp".
+verbose 4.098152372 Request "https://registry.yarnpkg.com/type-is" finished with status code 200.
+verbose 4.098543192 Performing "GET" request to "https://registry.yarnpkg.com/object-assign".
+verbose 4.106699031 Request "https://registry.yarnpkg.com/utils-merge" finished with status code 200.
+verbose 4.107069236 Performing "GET" request to "https://registry.yarnpkg.com/xtend".
+verbose 4.108794046 Request "https://registry.yarnpkg.com/safe-buffer" finished with status code 200.
+verbose 4.112331621 Performing "GET" request to "https://registry.yarnpkg.com/bytes".
+verbose 4.116671468 Request "https://registry.yarnpkg.com/vary" finished with status code 200.
+verbose 4.117150695 Performing "GET" request to "https://registry.yarnpkg.com/http-errors".
+verbose 4.125906116 Request "https://registry.yarnpkg.com/mkdirp" finished with status code 200.
+verbose 4.126555237 Performing "GET" request to "https://registry.yarnpkg.com/iconv-lite".
+verbose 4.1351641 Request "https://registry.yarnpkg.com/busboy" finished with status code 200.
+verbose 4.135619102 Performing "GET" request to "https://registry.yarnpkg.com/raw-body".
+verbose 4.142232952 Request "https://registry.yarnpkg.com/concat-stream" finished with status code 200.
+verbose 4.142557535 Performing "GET" request to "https://registry.yarnpkg.com/mime-types".
+verbose 4.146424367 Request "https://registry.yarnpkg.com/object-assign" finished with status code 200.
+verbose 4.14672037 Performing "GET" request to "https://registry.yarnpkg.com/negotiator".
+verbose 4.14790305 Request "https://registry.yarnpkg.com/append-field" finished with status code 200.
+verbose 4.14821877 Performing "GET" request to "https://registry.yarnpkg.com/ms".
+verbose 4.14951191 Request "https://registry.yarnpkg.com/xtend" finished with status code 200.
+verbose 4.149891734 Performing "GET" request to "https://registry.yarnpkg.com/unpipe".
+verbose 4.153326373 Request "https://registry.yarnpkg.com/bytes" finished with status code 200.
+verbose 4.153841269 Performing "GET" request to "https://registry.yarnpkg.com/ee-first".
+verbose 4.155968907 Request "https://registry.yarnpkg.com/http-errors" finished with status code 200.
+verbose 4.156270177 Performing "GET" request to "https://registry.yarnpkg.com/forwarded".
+verbose 4.166111834 Request "https://registry.yarnpkg.com/raw-body" finished with status code 200.
+verbose 4.166793411 Performing "GET" request to "https://registry.yarnpkg.com/ipaddr.js".
+verbose 4.173112586 Request "https://registry.yarnpkg.com/iconv-lite" finished with status code 200.
+verbose 4.17375986 Performing "GET" request to "https://registry.yarnpkg.com/destroy".
+verbose 4.183945463 Request "https://registry.yarnpkg.com/mime-types" finished with status code 200.
+verbose 4.185185198 Performing "GET" request to "https://registry.yarnpkg.com/mime".
+verbose 4.189229782 Request "https://registry.yarnpkg.com/ms" finished with status code 200.
+verbose 4.190126761 Performing "GET" request to "https://registry.yarnpkg.com/media-typer".
+verbose 4.192731428 Request "https://registry.yarnpkg.com/negotiator" finished with status code 200.
+verbose 4.193372491 Performing "GET" request to "https://registry.yarnpkg.com/minimist".
+verbose 4.195689568 Request "https://registry.yarnpkg.com/forwarded" finished with status code 200.
+verbose 4.196320875 Performing "GET" request to "https://registry.yarnpkg.com/dicer".
+verbose 4.200691664 Request "https://registry.yarnpkg.com/unpipe" finished with status code 200.
+verbose 4.20138876 Performing "GET" request to "https://registry.yarnpkg.com/readable-stream".
+verbose 4.203308882 Request "https://registry.yarnpkg.com/ee-first" finished with status code 200.
+verbose 4.203912283 Performing "GET" request to "https://registry.yarnpkg.com/buffer-from".
+verbose 4.206393476 Request "https://registry.yarnpkg.com/ipaddr.js" finished with status code 200.
+verbose 4.206733067 Performing "GET" request to "https://registry.yarnpkg.com/inherits".
+verbose 4.211969894 Request "https://registry.yarnpkg.com/destroy" finished with status code 200.
+verbose 4.212475551 Performing "GET" request to "https://registry.yarnpkg.com/typedarray".
+verbose 4.219436232 Request "https://registry.yarnpkg.com/mime" finished with status code 200.
+verbose 4.219856157 Performing "GET" request to "https://registry.yarnpkg.com/toidentifier".
+verbose 4.221549968 Request "https://registry.yarnpkg.com/minimist" finished with status code 200.
+verbose 4.221858316 Performing "GET" request to "https://registry.yarnpkg.com/safer-buffer".
+verbose 4.224503459 Request "https://registry.yarnpkg.com/media-typer" finished with status code 200.
+verbose 4.224812128 Performing "GET" request to "https://registry.yarnpkg.com/mime-db".
+verbose 4.235181516 Request "https://registry.yarnpkg.com/inherits" finished with status code 200.
+verbose 4.252179022 Request "https://registry.yarnpkg.com/readable-stream" finished with status code 200.
+verbose 4.258301354 Performing "GET" request to "https://registry.yarnpkg.com/core-util-is".
+verbose 4.258932882 Performing "GET" request to "https://registry.yarnpkg.com/isarray".
+verbose 4.267281092 Request "https://registry.yarnpkg.com/dicer" finished with status code 200.
+verbose 4.268026727 Performing "GET" request to "https://registry.yarnpkg.com/string_decoder".
+verbose 4.271011368 Request "https://registry.yarnpkg.com/typedarray" finished with status code 200.
+verbose 4.271372469 Performing "GET" request to "https://registry.yarnpkg.com/process-nextick-args".
+verbose 4.272256794 Request "https://registry.yarnpkg.com/safer-buffer" finished with status code 200.
+verbose 4.272546027 Performing "GET" request to "https://registry.yarnpkg.com/util-deprecate".
+verbose 4.274738286 Request "https://registry.yarnpkg.com/mime-db" finished with status code 200.
+verbose 4.275359801 Performing "GET" request to "https://registry.yarnpkg.com/streamsearch".
+verbose 4.279207491 Request "https://registry.yarnpkg.com/toidentifier" finished with status code 200.
+verbose 4.330846602 Request "https://registry.yarnpkg.com/buffer-from" finished with status code 200.
+verbose 4.332889273 Request "https://registry.yarnpkg.com/isarray" finished with status code 200.
+verbose 4.335267668 Request "https://registry.yarnpkg.com/util-deprecate" finished with status code 200.
+verbose 4.336483803 Request "https://registry.yarnpkg.com/streamsearch" finished with status code 200.
+verbose 4.337549727 Request "https://registry.yarnpkg.com/string_decoder" finished with status code 200.
+verbose 4.341469015 Request "https://registry.yarnpkg.com/process-nextick-args" finished with status code 200.
+verbose 5.199419407 Request "https://registry.yarnpkg.com/core-util-is" finished with status code 200.
+verbose 5.201124471 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fschedule".
+verbose 7.238486935 Request "https://registry.yarnpkg.com/@nestjs%2fschedule" finished with status code 200.
+verbose 7.239907535 Performing "GET" request to "https://registry.yarnpkg.com/cron".
+verbose 7.265259928 Request "https://registry.yarnpkg.com/cron" finished with status code 200.
+verbose 7.266315392 Performing "GET" request to "https://registry.yarnpkg.com/moment-timezone".
+verbose 7.284880609 Request "https://registry.yarnpkg.com/moment-timezone" finished with status code 200.
+verbose 7.285734879 Performing "GET" request to "https://registry.yarnpkg.com/moment".
+verbose 7.306955405 Request "https://registry.yarnpkg.com/moment" finished with status code 200.
+verbose 7.308234702 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fswagger".
+verbose 9.13937018 Request "https://registry.yarnpkg.com/@nestjs%2fswagger" finished with status code 200.
+verbose 9.141742442 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2fmapped-types".
+verbose 9.142424379 Performing "GET" request to "https://registry.yarnpkg.com/lodash".
+verbose 9.180622449 Request "https://registry.yarnpkg.com/lodash" finished with status code 200.
+verbose 10.969668348 Request "https://registry.yarnpkg.com/@nestjs%2fmapped-types" finished with status code 200.
+verbose 10.971086415 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs%2ftypeorm".
+verbose 12.703503811 Request "https://registry.yarnpkg.com/@nestjs%2ftypeorm" finished with status code 200.
+verbose 12.706313165 Performing "GET" request to "https://registry.yarnpkg.com/@slack%2fevents-api".
+verbose 14.664199616 Request "https://registry.yarnpkg.com/@slack%2fevents-api" finished with status code 200.
+verbose 14.667325731 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fdebug".
+verbose 14.66793028 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fexpress".
+verbose 14.668497419 Performing "GET" request to "https://registry.yarnpkg.com/@types%2flodash.isstring".
+verbose 14.669017918 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fnode".
+verbose 14.66955774 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fyargs".
+verbose 14.670368506 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isstring".
+verbose 14.671146584 Performing "GET" request to "https://registry.yarnpkg.com/tsscmp".
+verbose 14.671656074 Performing "GET" request to "https://registry.yarnpkg.com/yargs".
+verbose 14.742830337 Request "https://registry.yarnpkg.com/lodash.isstring" finished with status code 200.
+verbose 14.743135933 Performing "GET" request to "https://registry.yarnpkg.com/side-channel".
+verbose 14.751034348 Request "https://registry.yarnpkg.com/yargs" finished with status code 200.
+verbose 14.758659952 Performing "GET" request to "https://registry.yarnpkg.com/cliui".
+verbose 14.763447049 Request "https://registry.yarnpkg.com/tsscmp" finished with status code 200.
+verbose 14.763719504 Performing "GET" request to "https://registry.yarnpkg.com/decamelize".
+verbose 14.764778569 Request "https://registry.yarnpkg.com/@types%2fexpress" finished with status code 200.
+verbose 14.765045146 Performing "GET" request to "https://registry.yarnpkg.com/find-up".
+verbose 14.770348735 Request "https://registry.yarnpkg.com/@types%2fdebug" finished with status code 200.
+verbose 14.77073947 Performing "GET" request to "https://registry.yarnpkg.com/get-caller-file".
+verbose 14.774530122 Request "https://registry.yarnpkg.com/side-channel" finished with status code 200.
+verbose 14.774796332 Performing "GET" request to "https://registry.yarnpkg.com/require-directory".
+verbose 14.78058129 Request "https://registry.yarnpkg.com/cliui" finished with status code 200.
+verbose 14.780833175 Performing "GET" request to "https://registry.yarnpkg.com/require-main-filename".
+verbose 14.795052869 Request "https://registry.yarnpkg.com/@types%2fnode" finished with status code 200.
+verbose 14.795374098 Performing "GET" request to "https://registry.yarnpkg.com/set-blocking".
+verbose 14.80983256 Request "https://registry.yarnpkg.com/@types%2fyargs" finished with status code 200.
+verbose 14.810216824 Performing "GET" request to "https://registry.yarnpkg.com/string-width".
+verbose 14.812249787 Request "https://registry.yarnpkg.com/require-directory" finished with status code 200.
+verbose 14.812746136 Performing "GET" request to "https://registry.yarnpkg.com/which-module".
+verbose 14.815235423 Request "https://registry.yarnpkg.com/get-caller-file" finished with status code 200.
+verbose 14.815505137 Performing "GET" request to "https://registry.yarnpkg.com/y18n".
+verbose 14.817373528 Request "https://registry.yarnpkg.com/require-main-filename" finished with status code 200.
+verbose 14.817710339 Performing "GET" request to "https://registry.yarnpkg.com/yargs-parser".
+verbose 14.818426787 Request "https://registry.yarnpkg.com/decamelize" finished with status code 200.
+verbose 14.818669989 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fbody-parser".
+verbose 14.827007799 Request "https://registry.yarnpkg.com/set-blocking" finished with status code 200.
+verbose 14.827259802 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fexpress-serve-static-core".
+verbose 14.833438696 Request "https://registry.yarnpkg.com/y18n" finished with status code 200.
+verbose 14.833756944 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fqs".
+verbose 14.834720754 Request "https://registry.yarnpkg.com/which-module" finished with status code 200.
+verbose 14.835020331 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fserve-static".
+verbose 14.83801844 Request "https://registry.yarnpkg.com/yargs-parser" finished with status code 200.
+verbose 14.838304678 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fms".
+verbose 14.84142733 Request "https://registry.yarnpkg.com/string-width" finished with status code 200.
+verbose 14.841776296 Performing "GET" request to "https://registry.yarnpkg.com/call-bind".
+verbose 14.84558643 Request "https://registry.yarnpkg.com/find-up" finished with status code 200.
+verbose 14.845924331 Performing "GET" request to "https://registry.yarnpkg.com/get-intrinsic".
+verbose 14.848850597 Request "https://registry.yarnpkg.com/@types%2fbody-parser" finished with status code 200.
+verbose 14.849087331 Performing "GET" request to "https://registry.yarnpkg.com/object-inspect".
+verbose 14.862927833 Request "https://registry.yarnpkg.com/@types%2fqs" finished with status code 200.
+verbose 14.863289119 Performing "GET" request to "https://registry.yarnpkg.com/strip-ansi".
+verbose 14.866832072 Request "https://registry.yarnpkg.com/get-intrinsic" finished with status code 200.
+verbose 14.867121204 Performing "GET" request to "https://registry.yarnpkg.com/wrap-ansi".
+verbose 14.869978679 Request "https://registry.yarnpkg.com/@types%2fserve-static" finished with status code 200.
+verbose 14.870299801 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fyargs-parser".
+verbose 14.873070378 Request "https://registry.yarnpkg.com/object-inspect" finished with status code 200.
+verbose 14.873459308 Performing "GET" request to "https://registry.yarnpkg.com/camelcase".
+verbose 14.875935416 Request "https://registry.yarnpkg.com/@types%2fexpress-serve-static-core" finished with status code 200.
+verbose 14.87618877 Performing "GET" request to "https://registry.yarnpkg.com/emoji-regex".
+verbose 14.878327088 Request "https://registry.yarnpkg.com/@types%2fms" finished with status code 200.
+verbose 14.878654662 Performing "GET" request to "https://registry.yarnpkg.com/is-fullwidth-code-point".
+verbose 14.880354016 Request "https://registry.yarnpkg.com/call-bind" finished with status code 200.
+verbose 14.880655959 Performing "GET" request to "https://registry.yarnpkg.com/locate-path".
+verbose 14.883370515 Request "https://registry.yarnpkg.com/strip-ansi" finished with status code 200.
+verbose 14.88361349 Performing "GET" request to "https://registry.yarnpkg.com/path-exists".
+verbose 14.88982267 Request "https://registry.yarnpkg.com/wrap-ansi" finished with status code 200.
+verbose 14.890063922 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fconnect".
+verbose 14.896901613 Request "https://registry.yarnpkg.com/emoji-regex" finished with status code 200.
+verbose 14.897167903 Performing "GET" request to "https://registry.yarnpkg.com/function-bind".
+verbose 14.899114447 Request "https://registry.yarnpkg.com/is-fullwidth-code-point" finished with status code 200.
+verbose 14.899368448 Performing "GET" request to "https://registry.yarnpkg.com/has".
+verbose 14.901335384 Request "https://registry.yarnpkg.com/locate-path" finished with status code 200.
+verbose 14.901613605 Performing "GET" request to "https://registry.yarnpkg.com/has-symbols".
+verbose 14.903000314 Request "https://registry.yarnpkg.com/camelcase" finished with status code 200.
+verbose 14.903248348 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fmime".
+verbose 14.911344791 Request "https://registry.yarnpkg.com/@types%2fyargs-parser" finished with status code 200.
+verbose 14.911689793 Performing "GET" request to "https://registry.yarnpkg.com/@types%2frange-parser".
+verbose 14.912913395 Request "https://registry.yarnpkg.com/path-exists" finished with status code 200.
+verbose 14.913276957 Performing "GET" request to "https://registry.yarnpkg.com/ansi-regex".
+verbose 14.919209503 Request "https://registry.yarnpkg.com/has" finished with status code 200.
+verbose 14.919481805 Performing "GET" request to "https://registry.yarnpkg.com/p-locate".
+verbose 14.921062582 Request "https://registry.yarnpkg.com/function-bind" finished with status code 200.
+verbose 14.923114878 Request "https://registry.yarnpkg.com/@types%2fconnect" finished with status code 200.
+verbose 14.929794154 Request "https://registry.yarnpkg.com/has-symbols" finished with status code 200.
+verbose 14.932415117 Request "https://registry.yarnpkg.com/ansi-regex" finished with status code 200.
+verbose 14.938865771 Request "https://registry.yarnpkg.com/@types%2frange-parser" finished with status code 200.
+verbose 14.946965883 Request "https://registry.yarnpkg.com/@types%2fmime" finished with status code 200.
+verbose 15.182286427 Request "https://registry.yarnpkg.com/p-locate" finished with status code 200.
+verbose 15.183396676 Performing "GET" request to "https://registry.yarnpkg.com/p-limit".
+verbose 15.212585772 Request "https://registry.yarnpkg.com/p-limit" finished with status code 200.
+verbose 15.214167823 Performing "GET" request to "https://registry.yarnpkg.com/p-try".
+verbose 15.239115597 Request "https://registry.yarnpkg.com/p-try" finished with status code 200.
+verbose 16.509367488 Request "https://registry.yarnpkg.com/@types%2flodash.isstring" finished with status code 200.
+verbose 16.510714993 Performing "GET" request to "https://registry.yarnpkg.com/@types%2flodash".
+verbose 16.544609045 Request "https://registry.yarnpkg.com/@types%2flodash" finished with status code 200.
+verbose 16.545546244 Performing "GET" request to "https://registry.yarnpkg.com/@slack%2fweb-api".
+verbose 16.601978243 Request "https://registry.yarnpkg.com/@slack%2fweb-api" finished with status code 200.
+verbose 16.60534242 Performing "GET" request to "https://registry.yarnpkg.com/@slack%2flogger".
+verbose 16.60588893 Performing "GET" request to "https://registry.yarnpkg.com/@slack%2ftypes".
+verbose 16.606459712 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fis-stream".
+verbose 16.607800418 Performing "GET" request to "https://registry.yarnpkg.com/eventemitter3".
+verbose 16.608412338 Performing "GET" request to "https://registry.yarnpkg.com/form-data".
+verbose 16.608834908 Performing "GET" request to "https://registry.yarnpkg.com/is-stream".
+verbose 16.609370531 Performing "GET" request to "https://registry.yarnpkg.com/p-queue".
+verbose 16.609886455 Performing "GET" request to "https://registry.yarnpkg.com/p-retry".
+verbose 16.634167872 Request "https://registry.yarnpkg.com/p-queue" finished with status code 200.
+verbose 16.635640062 Performing "GET" request to "https://registry.yarnpkg.com/p-timeout".
+verbose 16.645091453 Request "https://registry.yarnpkg.com/@types%2fis-stream" finished with status code 200.
+verbose 16.647080203 Request "https://registry.yarnpkg.com/eventemitter3" finished with status code 200.
+verbose 16.656795175 Request "https://registry.yarnpkg.com/is-stream" finished with status code 200.
+verbose 16.657881134 Request "https://registry.yarnpkg.com/p-retry" finished with status code 200.
+verbose 16.658910046 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fretry".
+verbose 16.659348398 Performing "GET" request to "https://registry.yarnpkg.com/retry".
+verbose 16.677919952 Request "https://registry.yarnpkg.com/p-timeout" finished with status code 200.
+verbose 16.679052015 Performing "GET" request to "https://registry.yarnpkg.com/p-finally".
+verbose 16.688118459 Request "https://registry.yarnpkg.com/retry" finished with status code 200.
+verbose 16.706550383 Request "https://registry.yarnpkg.com/p-finally" finished with status code 200.
+verbose 16.715686591 Request "https://registry.yarnpkg.com/@types%2fretry" finished with status code 200.
+verbose 17.50839869 Request "https://registry.yarnpkg.com/form-data" finished with status code 200.
+verbose 17.51047372 Performing "GET" request to "https://registry.yarnpkg.com/asynckit".
+verbose 17.511014729 Performing "GET" request to "https://registry.yarnpkg.com/combined-stream".
+verbose 17.530131366 Request "https://registry.yarnpkg.com/combined-stream" finished with status code 200.
+verbose 17.530987673 Performing "GET" request to "https://registry.yarnpkg.com/delayed-stream".
+verbose 17.532053503 Request "https://registry.yarnpkg.com/asynckit" finished with status code 200.
+verbose 17.547529589 Request "https://registry.yarnpkg.com/delayed-stream" finished with status code 200.
+verbose 17.732331079 Request "https://registry.yarnpkg.com/@slack%2flogger" finished with status code 200.
+verbose 17.965668119 Request "https://registry.yarnpkg.com/@slack%2ftypes" finished with status code 200.
+verbose 17.967883173 Performing "GET" request to "https://registry.yarnpkg.com/@supercharge%2frequest-ip".
+verbose 19.306532103 Request "https://registry.yarnpkg.com/@supercharge%2frequest-ip" finished with status code 200.
+verbose 19.308246272 Performing "GET" request to "https://registry.yarnpkg.com/@types%2ffaker".
+verbose 21.065168243 Request "https://registry.yarnpkg.com/@types%2ffaker" finished with status code 200.
+verbose 21.066512304 Performing "GET" request to "https://registry.yarnpkg.com/aws-sdk".
+verbose 21.15911065 Request "https://registry.yarnpkg.com/aws-sdk" finished with status code 200.
+verbose 21.161129611 Performing "GET" request to "https://registry.yarnpkg.com/buffer".
+verbose 21.161621033 Performing "GET" request to "https://registry.yarnpkg.com/events".
+verbose 21.16207451 Performing "GET" request to "https://registry.yarnpkg.com/ieee754".
+verbose 21.162531659 Performing "GET" request to "https://registry.yarnpkg.com/jmespath".
+verbose 21.162976911 Performing "GET" request to "https://registry.yarnpkg.com/querystring".
+verbose 21.16345495 Performing "GET" request to "https://registry.yarnpkg.com/sax".
+verbose 21.163889209 Performing "GET" request to "https://registry.yarnpkg.com/url".
+verbose 21.164347173 Performing "GET" request to "https://registry.yarnpkg.com/util".
+verbose 21.183963768 Request "https://registry.yarnpkg.com/url" finished with status code 200.
+verbose 21.184351911 Performing "GET" request to "https://registry.yarnpkg.com/xml2js".
+verbose 21.193026756 Request "https://registry.yarnpkg.com/buffer" finished with status code 200.
+verbose 21.195192428 Performing "GET" request to "https://registry.yarnpkg.com/punycode".
+verbose 21.200008506 Request "https://registry.yarnpkg.com/querystring" finished with status code 200.
+verbose 21.200746526 Performing "GET" request to "https://registry.yarnpkg.com/base64-js".
+[91mwarning aws-sdk > querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mwarning aws-sdk > url > querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0mverbose 21.211698148 Request "https://registry.yarnpkg.com/events" finished with status code 200.
+verbose 21.215639375 Request "https://registry.yarnpkg.com/jmespath" finished with status code 200.
+verbose 21.218620602 Request "https://registry.yarnpkg.com/ieee754" finished with status code 200.
+verbose 21.224685411 Request "https://registry.yarnpkg.com/sax" finished with status code 200.
+verbose 21.226109828 Request "https://registry.yarnpkg.com/util" finished with status code 200.
+verbose 21.227431233 Performing "GET" request to "https://registry.yarnpkg.com/is-arguments".
+verbose 21.22781268 Performing "GET" request to "https://registry.yarnpkg.com/is-generator-function".
+verbose 21.228229806 Performing "GET" request to "https://registry.yarnpkg.com/is-typed-array".
+verbose 21.228771011 Performing "GET" request to "https://registry.yarnpkg.com/which-typed-array".
+verbose 21.230282431 Request "https://registry.yarnpkg.com/xml2js" finished with status code 200.
+verbose 21.231915282 Performing "GET" request to "https://registry.yarnpkg.com/xmlbuilder".
+verbose 21.245737419 Request "https://registry.yarnpkg.com/punycode" finished with status code 200.
+verbose 21.249419062 Request "https://registry.yarnpkg.com/is-arguments" finished with status code 200.
+verbose 21.250845711 Performing "GET" request to "https://registry.yarnpkg.com/has-tostringtag".
+verbose 21.252104289 Request "https://registry.yarnpkg.com/base64-js" finished with status code 200.
+verbose 21.253074599 Request "https://registry.yarnpkg.com/which-typed-array" finished with status code 200.
+verbose 21.254353309 Performing "GET" request to "https://registry.yarnpkg.com/available-typed-arrays".
+verbose 21.254979657 Performing "GET" request to "https://registry.yarnpkg.com/for-each".
+verbose 21.255432908 Performing "GET" request to "https://registry.yarnpkg.com/gopd".
+verbose 21.2575969 Request "https://registry.yarnpkg.com/is-typed-array" finished with status code 200.
+verbose 21.27114029 Request "https://registry.yarnpkg.com/has-tostringtag" finished with status code 200.
+verbose 21.273069008 Request "https://registry.yarnpkg.com/gopd" finished with status code 200.
+verbose 21.274604334 Request "https://registry.yarnpkg.com/for-each" finished with status code 200.
+verbose 21.275506851 Performing "GET" request to "https://registry.yarnpkg.com/is-callable".
+verbose 21.27621796 Request "https://registry.yarnpkg.com/available-typed-arrays" finished with status code 200.
+verbose 21.294993827 Request "https://registry.yarnpkg.com/is-callable" finished with status code 200.
+verbose 22.148046878 Request "https://registry.yarnpkg.com/is-generator-function" finished with status code 200.
+verbose 22.159399888 Request "https://registry.yarnpkg.com/xmlbuilder" finished with status code 200.
+verbose 22.161813181 Performing "GET" request to "https://registry.yarnpkg.com/bcrypt".
+verbose 22.19625913 Request "https://registry.yarnpkg.com/bcrypt" finished with status code 200.
+verbose 22.197309587 Performing "GET" request to "https://registry.yarnpkg.com/@mapbox%2fnode-pre-gyp".
+verbose 22.197915644 Performing "GET" request to "https://registry.yarnpkg.com/node-addon-api".
+verbose 22.214886188 Request "https://registry.yarnpkg.com/node-addon-api" finished with status code 200.
+verbose 22.251441153 Request "https://registry.yarnpkg.com/@mapbox%2fnode-pre-gyp" finished with status code 200.
+verbose 22.253215484 Performing "GET" request to "https://registry.yarnpkg.com/detect-libc".
+verbose 22.253641348 Performing "GET" request to "https://registry.yarnpkg.com/https-proxy-agent".
+verbose 22.254071913 Performing "GET" request to "https://registry.yarnpkg.com/make-dir".
+verbose 22.254581702 Performing "GET" request to "https://registry.yarnpkg.com/nopt".
+verbose 22.254923927 Performing "GET" request to "https://registry.yarnpkg.com/npmlog".
+verbose 22.255258758 Performing "GET" request to "https://registry.yarnpkg.com/rimraf".
+verbose 22.255590253 Performing "GET" request to "https://registry.yarnpkg.com/semver".
+verbose 22.255919383 Performing "GET" request to "https://registry.yarnpkg.com/tar".
+verbose 22.273704695 Request "https://registry.yarnpkg.com/https-proxy-agent" finished with status code 200.
+verbose 22.274982856 Performing "GET" request to "https://registry.yarnpkg.com/agent-base".
+verbose 22.277028728 Request "https://registry.yarnpkg.com/detect-libc" finished with status code 200.
+verbose 22.278399354 Request "https://registry.yarnpkg.com/npmlog" finished with status code 200.
+verbose 22.279517984 Performing "GET" request to "https://registry.yarnpkg.com/are-we-there-yet".
+verbose 22.279953006 Performing "GET" request to "https://registry.yarnpkg.com/console-control-strings".
+verbose 22.282722903 Request "https://registry.yarnpkg.com/semver" finished with status code 200.
+verbose 22.283018791 Performing "GET" request to "https://registry.yarnpkg.com/gauge".
+verbose 22.287578963 Request "https://registry.yarnpkg.com/tar" finished with status code 200.
+verbose 22.287831144 Performing "GET" request to "https://registry.yarnpkg.com/lru-cache".
+verbose 22.290962552 Request "https://registry.yarnpkg.com/make-dir" finished with status code 200.
+verbose 22.291235684 Performing "GET" request to "https://registry.yarnpkg.com/chownr".
+verbose 22.293222793 Request "https://registry.yarnpkg.com/rimraf" finished with status code 200.
+verbose 22.293504385 Performing "GET" request to "https://registry.yarnpkg.com/fs-minipass".
+verbose 22.295518162 Request "https://registry.yarnpkg.com/agent-base" finished with status code 200.
+verbose 22.295786922 Performing "GET" request to "https://registry.yarnpkg.com/minipass".
+verbose 22.302493278 Request "https://registry.yarnpkg.com/are-we-there-yet" finished with status code 200.
+verbose 22.30275788 Performing "GET" request to "https://registry.yarnpkg.com/minizlib".
+verbose 22.308063414 Request "https://registry.yarnpkg.com/console-control-strings" finished with status code 200.
+verbose 22.308306815 Performing "GET" request to "https://registry.yarnpkg.com/yallist".
+verbose 22.30956431 Request "https://registry.yarnpkg.com/gauge" finished with status code 200.
+verbose 22.309816124 Performing "GET" request to "https://registry.yarnpkg.com/glob".
+verbose 22.315580766 Request "https://registry.yarnpkg.com/lru-cache" finished with status code 200.
+verbose 22.315837201 Performing "GET" request to "https://registry.yarnpkg.com/delegates".
+verbose 22.317308901 Request "https://registry.yarnpkg.com/fs-minipass" finished with status code 200.
+verbose 22.317579661 Performing "GET" request to "https://registry.yarnpkg.com/aproba".
+verbose 22.318726534 Request "https://registry.yarnpkg.com/chownr" finished with status code 200.
+verbose 22.318966561 Performing "GET" request to "https://registry.yarnpkg.com/color-support".
+verbose 22.325905122 Request "https://registry.yarnpkg.com/minipass" finished with status code 200.
+verbose 22.326171626 Performing "GET" request to "https://registry.yarnpkg.com/has-unicode".
+verbose 22.330271821 Request "https://registry.yarnpkg.com/minizlib" finished with status code 200.
+verbose 22.330519522 Performing "GET" request to "https://registry.yarnpkg.com/signal-exit".
+verbose 22.335793106 Request "https://registry.yarnpkg.com/yallist" finished with status code 200.
+verbose 22.336181708 Performing "GET" request to "https://registry.yarnpkg.com/wide-align".
+verbose 22.341015646 Request "https://registry.yarnpkg.com/aproba" finished with status code 200.
+verbose 22.344598908 Request "https://registry.yarnpkg.com/glob" finished with status code 200.
+verbose 22.348235119 Performing "GET" request to "https://registry.yarnpkg.com/fs.realpath".
+verbose 22.348842106 Performing "GET" request to "https://registry.yarnpkg.com/inflight".
+verbose 22.351818302 Request "https://registry.yarnpkg.com/delegates" finished with status code 200.
+verbose 22.352139707 Performing "GET" request to "https://registry.yarnpkg.com/minimatch".
+verbose 22.35371154 Request "https://registry.yarnpkg.com/color-support" finished with status code 200.
+verbose 22.354123871 Performing "GET" request to "https://registry.yarnpkg.com/once".
+verbose 22.35539921 Request "https://registry.yarnpkg.com/signal-exit" finished with status code 200.
+verbose 22.35569166 Performing "GET" request to "https://registry.yarnpkg.com/path-is-absolute".
+verbose 22.361587225 Request "https://registry.yarnpkg.com/wide-align" finished with status code 200.
+verbose 22.370722642 Request "https://registry.yarnpkg.com/fs.realpath" finished with status code 200.
+verbose 22.371477125 Request "https://registry.yarnpkg.com/inflight" finished with status code 200.
+verbose 22.372443854 Performing "GET" request to "https://registry.yarnpkg.com/wrappy".
+verbose 22.373797784 Request "https://registry.yarnpkg.com/minimatch" finished with status code 200.
+verbose 22.374647912 Performing "GET" request to "https://registry.yarnpkg.com/brace-expansion".
+verbose 22.376901644 Request "https://registry.yarnpkg.com/path-is-absolute" finished with status code 200.
+verbose 22.381996804 Request "https://registry.yarnpkg.com/once" finished with status code 200.
+verbose 22.392780249 Request "https://registry.yarnpkg.com/brace-expansion" finished with status code 200.
+verbose 22.393702954 Performing "GET" request to "https://registry.yarnpkg.com/balanced-match".
+verbose 22.394120786 Performing "GET" request to "https://registry.yarnpkg.com/concat-map".
+verbose 22.395136001 Request "https://registry.yarnpkg.com/wrappy" finished with status code 200.
+verbose 22.41241333 Request "https://registry.yarnpkg.com/concat-map" finished with status code 200.
+verbose 22.414322162 Request "https://registry.yarnpkg.com/balanced-match" finished with status code 200.
+verbose 22.566069251 Request "https://registry.yarnpkg.com/has-unicode" finished with status code 200.
+verbose 23.19942504 Request "https://registry.yarnpkg.com/nopt" finished with status code 200.
+verbose 23.200509989 Performing "GET" request to "https://registry.yarnpkg.com/abbrev".
+verbose 23.24735288 Request "https://registry.yarnpkg.com/abbrev" finished with status code 200.
+verbose 23.249664081 Performing "GET" request to "https://registry.yarnpkg.com/class-transformer".
+verbose 23.277104744 Request "https://registry.yarnpkg.com/class-transformer" finished with status code 200.
+verbose 23.278076661 Performing "GET" request to "https://registry.yarnpkg.com/class-validator".
+verbose 23.2988692 Request "https://registry.yarnpkg.com/class-validator" finished with status code 200.
+verbose 23.300128283 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fvalidator".
+verbose 23.300530544 Performing "GET" request to "https://registry.yarnpkg.com/google-libphonenumber".
+verbose 23.301060514 Performing "GET" request to "https://registry.yarnpkg.com/validator".
+verbose 23.319748009 Request "https://registry.yarnpkg.com/google-libphonenumber" finished with status code 200.
+verbose 23.33204573 Request "https://registry.yarnpkg.com/validator" finished with status code 200.
+verbose 23.338716191 Request "https://registry.yarnpkg.com/@types%2fvalidator" finished with status code 200.
+verbose 23.339804229 Performing "GET" request to "https://registry.yarnpkg.com/cls-hooked".
+verbose 23.36344015 Request "https://registry.yarnpkg.com/cls-hooked" finished with status code 200.
+verbose 23.365028387 Performing "GET" request to "https://registry.yarnpkg.com/async-hook-jl".
+verbose 23.366285818 Performing "GET" request to "https://registry.yarnpkg.com/emitter-listener".
+verbose 23.387989161 Request "https://registry.yarnpkg.com/async-hook-jl" finished with status code 200.
+verbose 23.389326321 Performing "GET" request to "https://registry.yarnpkg.com/stack-chain".
+verbose 23.410306263 Request "https://registry.yarnpkg.com/stack-chain" finished with status code 200.
+verbose 24.261207945 Request "https://registry.yarnpkg.com/emitter-listener" finished with status code 200.
+verbose 24.262218702 Performing "GET" request to "https://registry.yarnpkg.com/shimmer".
+verbose 24.286866443 Request "https://registry.yarnpkg.com/shimmer" finished with status code 200.
+verbose 24.287606861 Performing "GET" request to "https://registry.yarnpkg.com/compression".
+verbose 24.309045212 Request "https://registry.yarnpkg.com/compression" finished with status code 200.
+verbose 24.310510274 Performing "GET" request to "https://registry.yarnpkg.com/compressible".
+verbose 24.311078217 Performing "GET" request to "https://registry.yarnpkg.com/on-headers".
+verbose 24.330790586 Request "https://registry.yarnpkg.com/on-headers" finished with status code 200.
+verbose 24.559543617 Request "https://registry.yarnpkg.com/compressible" finished with status code 200.
+verbose 24.567420899 Performing "GET" request to "https://registry.yarnpkg.com/cookie-parser".
+verbose 24.585341662 Request "https://registry.yarnpkg.com/cookie-parser" finished with status code 200.
+verbose 24.587926946 Performing "GET" request to "https://registry.yarnpkg.com/dotenv".
+verbose 24.607880741 Request "https://registry.yarnpkg.com/dotenv" finished with status code 200.
+verbose 24.60892876 Performing "GET" request to "https://registry.yarnpkg.com/es6-shim".
+verbose 24.859599624 Request "https://registry.yarnpkg.com/es6-shim" finished with status code 200.
+verbose 24.86117313 Performing "GET" request to "https://registry.yarnpkg.com/faker".
+verbose 24.888376829 Request "https://registry.yarnpkg.com/faker" finished with status code 200.
+verbose 24.889811028 Performing "GET" request to "https://registry.yarnpkg.com/fastify-swagger".
+verbose 25.799731737 Request "https://registry.yarnpkg.com/fastify-swagger" finished with status code 200.
+verbose 25.801324411 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fswagger-schema-official".
+verbose 25.801828534 Performing "GET" request to "https://registry.yarnpkg.com/fastify-plugin".
+verbose 25.802284164 Performing "GET" request to "https://registry.yarnpkg.com/fastify-static".
+verbose 25.802760557 Performing "GET" request to "https://registry.yarnpkg.com/js-yaml".
+verbose 25.803223549 Performing "GET" request to "https://registry.yarnpkg.com/json-schema-resolver".
+verbose 25.82537586 Request "https://registry.yarnpkg.com/fastify-plugin" finished with status code 200.
+verbose 25.830967699 Request "https://registry.yarnpkg.com/json-schema-resolver" finished with status code 200.
+verbose 25.832599927 Performing "GET" request to "https://registry.yarnpkg.com/rfdc".
+verbose 25.833162233 Performing "GET" request to "https://registry.yarnpkg.com/uri-js".
+verbose 25.851829268 Request "https://registry.yarnpkg.com/uri-js" finished with status code 200.
+verbose 25.889666234 Request "https://registry.yarnpkg.com/js-yaml" finished with status code 200.
+verbose 25.891480682 Performing "GET" request to "https://registry.yarnpkg.com/argparse".
+verbose 25.892069179 Performing "GET" request to "https://registry.yarnpkg.com/esprima".
+verbose 25.923540206 Request "https://registry.yarnpkg.com/esprima" finished with status code 200.
+verbose 26.082117517 Request "https://registry.yarnpkg.com/rfdc" finished with status code 200.
+verbose 26.15346774 Request "https://registry.yarnpkg.com/argparse" finished with status code 200.
+verbose 26.154887636 Performing "GET" request to "https://registry.yarnpkg.com/sprintf-js".
+verbose 26.172114666 Request "https://registry.yarnpkg.com/sprintf-js" finished with status code 200.
+verbose 26.669973053 Request "https://registry.yarnpkg.com/fastify-static" finished with status code 200.
+verbose 27.608639357 Request "https://registry.yarnpkg.com/@types%2fswagger-schema-official" finished with status code 200.
+verbose 27.609830393 Performing "GET" request to "https://registry.yarnpkg.com/firebase-admin".
+verbose 27.638777883 Request "https://registry.yarnpkg.com/firebase-admin" finished with status code 200.
+verbose 27.641192562 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fdatabase-compat".
+verbose 27.64168786 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fdatabase-types".
+verbose 27.642424509 Performing "GET" request to "https://registry.yarnpkg.com/jsonwebtoken".
+verbose 27.642817631 Performing "GET" request to "https://registry.yarnpkg.com/jwks-rsa".
+verbose 27.643208082 Performing "GET" request to "https://registry.yarnpkg.com/node-forge".
+verbose 27.643688306 Performing "GET" request to "https://registry.yarnpkg.com/@google-cloud%2ffirestore".
+verbose 27.644164598 Performing "GET" request to "https://registry.yarnpkg.com/@google-cloud%2fstorage".
+verbose 27.664289768 Request "https://registry.yarnpkg.com/jsonwebtoken" finished with status code 200.
+verbose 27.665668775 Performing "GET" request to "https://registry.yarnpkg.com/jws".
+verbose 27.666085777 Performing "GET" request to "https://registry.yarnpkg.com/lodash.includes".
+verbose 27.670926995 Request "https://registry.yarnpkg.com/node-forge" finished with status code 200.
+verbose 27.671231954 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isboolean".
+verbose 27.674977728 Request "https://registry.yarnpkg.com/jwks-rsa" finished with status code 200.
+verbose 27.675262693 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isinteger".
+verbose 27.729891657 Request "https://registry.yarnpkg.com/lodash.isboolean" finished with status code 200.
+verbose 27.730360023 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isnumber".
+verbose 27.736794895 Request "https://registry.yarnpkg.com/jws" finished with status code 200.
+verbose 27.737481096 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isplainobject".
+verbose 27.741122421 Request "https://registry.yarnpkg.com/lodash.includes" finished with status code 200.
+verbose 27.74164878 Performing "GET" request to "https://registry.yarnpkg.com/lodash.once".
+verbose 27.743364395 Request "https://registry.yarnpkg.com/lodash.isinteger" finished with status code 200.
+verbose 27.743820516 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fjsonwebtoken".
+verbose 27.845196384 Request "https://registry.yarnpkg.com/@firebase%2fdatabase-types" finished with status code 200.
+verbose 27.846017138 Performing "GET" request to "https://registry.yarnpkg.com/jose".
+verbose 27.9257017 Request "https://registry.yarnpkg.com/lodash.isnumber" finished with status code 200.
+verbose 27.926168651 Performing "GET" request to "https://registry.yarnpkg.com/limiter".
+verbose 27.937762349 Request "https://registry.yarnpkg.com/lodash.isplainobject" finished with status code 200.
+verbose 27.938120822 Performing "GET" request to "https://registry.yarnpkg.com/lru-memoizer".
+verbose 27.944327282 Request "https://registry.yarnpkg.com/@types%2fjsonwebtoken" finished with status code 200.
+verbose 27.944777543 Performing "GET" request to "https://registry.yarnpkg.com/jwa".
+verbose 27.953133535 Request "https://registry.yarnpkg.com/lodash.once" finished with status code 200.
+verbose 27.953839873 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fapp-types".
+verbose 27.95859806 Request "https://registry.yarnpkg.com/@google-cloud%2ffirestore" finished with status code 200.
+verbose 27.960187853 Performing "GET" request to "https://registry.yarnpkg.com/fast-deep-equal".
+verbose 27.964072184 Request "https://registry.yarnpkg.com/limiter" finished with status code 200.
+verbose 27.964320511 Performing "GET" request to "https://registry.yarnpkg.com/functional-red-black-tree".
+verbose 27.967670854 Request "https://registry.yarnpkg.com/jose" finished with status code 200.
+verbose 27.967931868 Performing "GET" request to "https://registry.yarnpkg.com/google-gax".
+verbose 27.975313478 Request "https://registry.yarnpkg.com/lru-memoizer" finished with status code 200.
+verbose 27.975601711 Performing "GET" request to "https://registry.yarnpkg.com/protobufjs".
+verbose 27.983551505 Request "https://registry.yarnpkg.com/fast-deep-equal" finished with status code 200.
+verbose 27.984018629 Performing "GET" request to "https://registry.yarnpkg.com/@panva%2fasn1.js".
+verbose 27.985345762 Request "https://registry.yarnpkg.com/functional-red-black-tree" finished with status code 200.
+verbose 27.985689788 Performing "GET" request to "https://registry.yarnpkg.com/lodash.clonedeep".
+verbose 28.007517244 Request "https://registry.yarnpkg.com/google-gax" finished with status code 200.
+verbose 28.007828697 Performing "GET" request to "https://registry.yarnpkg.com/pseudomap".
+verbose 28.018703588 Request "https://registry.yarnpkg.com/protobufjs" finished with status code 200.
+verbose 28.018973306 Performing "GET" request to "https://registry.yarnpkg.com/@grpc%2fgrpc-js".
+verbose 28.030809157 Request "https://registry.yarnpkg.com/lodash.clonedeep" finished with status code 200.
+verbose 28.031110307 Performing "GET" request to "https://registry.yarnpkg.com/@grpc%2fproto-loader".
+verbose 28.031928346 Request "https://registry.yarnpkg.com/jwa" finished with status code 200.
+verbose 28.032172949 Performing "GET" request to "https://registry.yarnpkg.com/@types%2flong".
+verbose 28.040344604 Request "https://registry.yarnpkg.com/pseudomap" finished with status code 200.
+verbose 28.040633908 Performing "GET" request to "https://registry.yarnpkg.com/abort-controller".
+verbose 28.067078075 Request "https://registry.yarnpkg.com/@firebase%2fapp-types" finished with status code 200.
+verbose 28.067542164 Performing "GET" request to "https://registry.yarnpkg.com/duplexify".
+verbose 28.087042142 Request "https://registry.yarnpkg.com/abort-controller" finished with status code 200.
+verbose 28.087366427 Performing "GET" request to "https://registry.yarnpkg.com/fast-text-encoding".
+verbose 28.089080969 Request "https://registry.yarnpkg.com/@types%2flong" finished with status code 200.
+verbose 28.089354199 Performing "GET" request to "https://registry.yarnpkg.com/google-auth-library".
+verbose 28.09215177 Request "https://registry.yarnpkg.com/@grpc%2fproto-loader" finished with status code 200.
+verbose 28.092437994 Performing "GET" request to "https://registry.yarnpkg.com/is-stream-ended".
+verbose 28.120823234 Request "https://registry.yarnpkg.com/duplexify" finished with status code 200.
+verbose 28.121397062 Performing "GET" request to "https://registry.yarnpkg.com/proto3-json-serializer".
+verbose 28.125213745 Request "https://registry.yarnpkg.com/fast-text-encoding" finished with status code 200.
+verbose 28.125460718 Performing "GET" request to "https://registry.yarnpkg.com/retry-request".
+verbose 28.13274415 Request "https://registry.yarnpkg.com/google-auth-library" finished with status code 200.
+verbose 28.133035725 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2faspromise".
+verbose 28.142742711 Request "https://registry.yarnpkg.com/is-stream-ended" finished with status code 200.
+verbose 28.143101331 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2fbase64".
+verbose 28.15031464 Request "https://registry.yarnpkg.com/proto3-json-serializer" finished with status code 200.
+verbose 28.150593811 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2fcodegen".
+verbose 28.160330713 Request "https://registry.yarnpkg.com/retry-request" finished with status code 200.
+verbose 28.160745492 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2feventemitter".
+verbose 28.183646533 Request "https://registry.yarnpkg.com/@protobufjs%2faspromise" finished with status code 200.
+verbose 28.184062393 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2ffetch".
+verbose 28.255547957 Request "https://registry.yarnpkg.com/@protobufjs%2feventemitter" finished with status code 200.
+verbose 28.255893287 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2ffloat".
+verbose 28.309868908 Request "https://registry.yarnpkg.com/@grpc%2fgrpc-js" finished with status code 200.
+verbose 28.310264238 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2finquire".
+verbose 28.397349072 Request "https://registry.yarnpkg.com/@protobufjs%2finquire" finished with status code 200.
+verbose 28.39775713 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2fpath".
+verbose 28.457958198 Request "https://registry.yarnpkg.com/@protobufjs%2fpath" finished with status code 200.
+verbose 28.458318939 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2fpool".
+verbose 28.681912255 Request "https://registry.yarnpkg.com/@protobufjs%2fbase64" finished with status code 200.
+verbose 28.682307701 Performing "GET" request to "https://registry.yarnpkg.com/@protobufjs%2futf8".
+verbose 28.769587258 Request "https://registry.yarnpkg.com/@protobufjs%2futf8" finished with status code 200.
+verbose 28.769957738 Performing "GET" request to "https://registry.yarnpkg.com/long".
+verbose 28.788594609 Request "https://registry.yarnpkg.com/long" finished with status code 200.
+verbose 28.788902244 Performing "GET" request to "https://registry.yarnpkg.com/buffer-equal-constant-time".
+verbose 28.814397204 Request "https://registry.yarnpkg.com/buffer-equal-constant-time" finished with status code 200.
+verbose 28.814722726 Performing "GET" request to "https://registry.yarnpkg.com/ecdsa-sig-formatter".
+verbose 28.858852043 Request "https://registry.yarnpkg.com/ecdsa-sig-formatter" finished with status code 200.
+verbose 28.859191162 Performing "GET" request to "https://registry.yarnpkg.com/event-target-shim".
+verbose 28.902472379 Request "https://registry.yarnpkg.com/event-target-shim" finished with status code 200.
+verbose 28.902812469 Performing "GET" request to "https://registry.yarnpkg.com/lodash.camelcase".
+verbose 28.939335491 Request "https://registry.yarnpkg.com/lodash.camelcase" finished with status code 200.
+verbose 28.939671882 Performing "GET" request to "https://registry.yarnpkg.com/escalade".
+verbose 28.959077369 Request "https://registry.yarnpkg.com/escalade" finished with status code 200.
+verbose 28.959379517 Performing "GET" request to "https://registry.yarnpkg.com/end-of-stream".
+verbose 29.00366555 Request "https://registry.yarnpkg.com/end-of-stream" finished with status code 200.
+verbose 29.004014124 Performing "GET" request to "https://registry.yarnpkg.com/stream-shift".
+verbose 29.024150628 Request "https://registry.yarnpkg.com/stream-shift" finished with status code 200.
+verbose 29.024483101 Performing "GET" request to "https://registry.yarnpkg.com/arrify".
+verbose 29.049315109 Request "https://registry.yarnpkg.com/arrify" finished with status code 200.
+verbose 29.049662333 Performing "GET" request to "https://registry.yarnpkg.com/gaxios".
+verbose 29.085851968 Request "https://registry.yarnpkg.com/@protobufjs%2ffetch" finished with status code 200.
+verbose 29.086320024 Performing "GET" request to "https://registry.yarnpkg.com/gcp-metadata".
+verbose 29.092659222 Request "https://registry.yarnpkg.com/gaxios" finished with status code 200.
+verbose 29.092914851 Performing "GET" request to "https://registry.yarnpkg.com/gtoken".
+verbose 29.108156082 Request "https://registry.yarnpkg.com/gcp-metadata" finished with status code 200.
+verbose 29.108500252 Performing "GET" request to "https://registry.yarnpkg.com/extend".
+verbose 29.112970348 Request "https://registry.yarnpkg.com/gtoken" finished with status code 200.
+verbose 29.113327028 Performing "GET" request to "https://registry.yarnpkg.com/json-bigint".
+verbose 29.134080508 Request "https://registry.yarnpkg.com/json-bigint" finished with status code 200.
+verbose 29.134359 Performing "GET" request to "https://registry.yarnpkg.com/google-p12-pem".
+verbose 29.141367036 Request "https://registry.yarnpkg.com/extend" finished with status code 200.
+verbose 29.141746938 Performing "GET" request to "https://registry.yarnpkg.com/bignumber.js".
+verbose 29.159540324 Request "https://registry.yarnpkg.com/bignumber.js" finished with status code 200.
+verbose 29.39217353 Request "https://registry.yarnpkg.com/google-p12-pem" finished with status code 200.
+verbose 29.467039433 Request "https://registry.yarnpkg.com/@google-cloud%2fstorage" finished with status code 200.
+verbose 29.471585172 Performing "GET" request to "https://registry.yarnpkg.com/@google-cloud%2fpaginator".
+verbose 29.472246808 Performing "GET" request to "https://registry.yarnpkg.com/@google-cloud%2fprojectify".
+verbose 29.472843691 Performing "GET" request to "https://registry.yarnpkg.com/@google-cloud%2fpromisify".
+verbose 29.558268514 Request "https://registry.yarnpkg.com/@google-cloud%2fpromisify" finished with status code 200.
+verbose 29.558713129 Performing "GET" request to "https://registry.yarnpkg.com/async-retry".
+verbose 29.587686539 Request "https://registry.yarnpkg.com/async-retry" finished with status code 200.
+verbose 29.588183556 Performing "GET" request to "https://registry.yarnpkg.com/configstore".
+verbose 29.611522599 Request "https://registry.yarnpkg.com/@firebase%2fdatabase-compat" finished with status code 200.
+verbose 29.611922383 Performing "GET" request to "https://registry.yarnpkg.com/ent".
+verbose 29.649112233 Request "https://registry.yarnpkg.com/configstore" finished with status code 200.
+verbose 29.64949552 Performing "GET" request to "https://registry.yarnpkg.com/hash-stream-validation".
+verbose 29.700305166 Request "https://registry.yarnpkg.com/hash-stream-validation" finished with status code 200.
+verbose 29.700677805 Performing "GET" request to "https://registry.yarnpkg.com/pumpify".
+verbose 29.719048213 Request "https://registry.yarnpkg.com/pumpify" finished with status code 200.
+verbose 29.719343515 Performing "GET" request to "https://registry.yarnpkg.com/stream-events".
+verbose 29.738277181 Request "https://registry.yarnpkg.com/stream-events" finished with status code 200.
+verbose 29.738600444 Performing "GET" request to "https://registry.yarnpkg.com/teeny-request".
+verbose 29.757317568 Request "https://registry.yarnpkg.com/teeny-request" finished with status code 200.
+verbose 29.757776934 Performing "GET" request to "https://registry.yarnpkg.com/xdg-basedir".
+verbose 29.782930099 Request "https://registry.yarnpkg.com/xdg-basedir" finished with status code 200.
+verbose 29.783317529 Performing "GET" request to "https://registry.yarnpkg.com/yocto-queue".
+verbose 29.804307468 Request "https://registry.yarnpkg.com/yocto-queue" finished with status code 200.
+verbose 29.804684444 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fdatabase".
+verbose 29.919869943 Request "https://registry.yarnpkg.com/@firebase%2fdatabase" finished with status code 200.
+verbose 29.920314219 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2flogger".
+verbose 29.929130559 Request "https://registry.yarnpkg.com/ent" finished with status code 200.
+verbose 29.929427824 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2futil".
+verbose 29.964598548 Request "https://registry.yarnpkg.com/@protobufjs%2fcodegen" finished with status code 200.
+verbose 29.964985115 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fcomponent".
+verbose 29.968459567 Request "https://registry.yarnpkg.com/@panva%2fasn1.js" finished with status code 200.
+verbose 29.968731704 Performing "GET" request to "https://registry.yarnpkg.com/dot-prop".
+verbose 30.010488019 Request "https://registry.yarnpkg.com/dot-prop" finished with status code 200.
+verbose 30.010874328 Performing "GET" request to "https://registry.yarnpkg.com/graceful-fs".
+verbose 30.072758624 Request "https://registry.yarnpkg.com/@firebase%2flogger" finished with status code 200.
+verbose 30.073175111 Performing "GET" request to "https://registry.yarnpkg.com/unique-string".
+verbose 30.167292456 Request "https://registry.yarnpkg.com/@firebase%2futil" finished with status code 200.
+verbose 30.167814989 Performing "GET" request to "https://registry.yarnpkg.com/write-file-atomic".
+verbose 30.243987293 Request "https://registry.yarnpkg.com/@firebase%2fcomponent" finished with status code 200.
+verbose 30.244791457 Performing "GET" request to "https://registry.yarnpkg.com/pump".
+verbose 30.274565171 Request "https://registry.yarnpkg.com/graceful-fs" finished with status code 200.
+verbose 30.275044618 Performing "GET" request to "https://registry.yarnpkg.com/stubs".
+verbose 30.275995091 Request "https://registry.yarnpkg.com/@protobufjs%2ffloat" finished with status code 200.
+verbose 30.276318872 Performing "GET" request to "https://registry.yarnpkg.com/http-proxy-agent".
+verbose 30.279878865 Request "https://registry.yarnpkg.com/write-file-atomic" finished with status code 200.
+verbose 30.280320424 Performing "GET" request to "https://registry.yarnpkg.com/@firebase%2fauth-interop-types".
+verbose 30.283497986 Request "https://registry.yarnpkg.com/unique-string" finished with status code 200.
+verbose 30.283910104 Performing "GET" request to "https://registry.yarnpkg.com/faye-websocket".
+verbose 30.285327056 Request "https://registry.yarnpkg.com/@protobufjs%2fpool" finished with status code 200.
+verbose 30.285719146 Performing "GET" request to "https://registry.yarnpkg.com/is-obj".
+verbose 30.294051309 Request "https://registry.yarnpkg.com/pump" finished with status code 200.
+verbose 30.294512017 Performing "GET" request to "https://registry.yarnpkg.com/imurmurhash".
+verbose 30.299172121 Request "https://registry.yarnpkg.com/http-proxy-agent" finished with status code 200.
+verbose 30.299604347 Performing "GET" request to "https://registry.yarnpkg.com/is-typedarray".
+verbose 30.30330764 Request "https://registry.yarnpkg.com/is-obj" finished with status code 200.
+verbose 30.303700691 Performing "GET" request to "https://registry.yarnpkg.com/typedarray-to-buffer".
+verbose 30.305645701 Request "https://registry.yarnpkg.com/faye-websocket" finished with status code 200.
+verbose 30.305962925 Performing "GET" request to "https://registry.yarnpkg.com/crypto-random-string".
+verbose 30.313093334 Request "https://registry.yarnpkg.com/imurmurhash" finished with status code 200.
+verbose 30.313463182 Performing "GET" request to "https://registry.yarnpkg.com/@tootallnate%2fonce".
+verbose 30.318747357 Request "https://registry.yarnpkg.com/is-typedarray" finished with status code 200.
+verbose 30.319025874 Performing "GET" request to "https://registry.yarnpkg.com/websocket-driver".
+verbose 30.32298559 Request "https://registry.yarnpkg.com/typedarray-to-buffer" finished with status code 200.
+verbose 30.325061467 Request "https://registry.yarnpkg.com/crypto-random-string" finished with status code 200.
+verbose 30.329173469 Request "https://registry.yarnpkg.com/stubs" finished with status code 200.
+verbose 30.337760543 Request "https://registry.yarnpkg.com/websocket-driver" finished with status code 200.
+verbose 30.339261385 Performing "GET" request to "https://registry.yarnpkg.com/http-parser-js".
+verbose 30.340055258 Performing "GET" request to "https://registry.yarnpkg.com/websocket-extensions".
+verbose 30.382129547 Request "https://registry.yarnpkg.com/@firebase%2fauth-interop-types" finished with status code 200.
+verbose 30.391441748 Request "https://registry.yarnpkg.com/@tootallnate%2fonce" finished with status code 200.
+verbose 30.392656997 Request "https://registry.yarnpkg.com/http-parser-js" finished with status code 200.
+verbose 30.398870054 Request "https://registry.yarnpkg.com/websocket-extensions" finished with status code 200.
+verbose 30.62797944 Request "https://registry.yarnpkg.com/@google-cloud%2fprojectify" finished with status code 200.
+verbose 30.910044706 Request "https://registry.yarnpkg.com/@google-cloud%2fpaginator" finished with status code 200.
+verbose 30.922376016 Performing "GET" request to "https://registry.yarnpkg.com/gulp".
+verbose 30.946858027 Request "https://registry.yarnpkg.com/gulp" finished with status code 200.
+verbose 30.948775074 Performing "GET" request to "https://registry.yarnpkg.com/glob-watcher".
+verbose 30.949344325 Performing "GET" request to "https://registry.yarnpkg.com/gulp-cli".
+verbose 30.950254057 Performing "GET" request to "https://registry.yarnpkg.com/undertaker".
+verbose 30.95111429 Performing "GET" request to "https://registry.yarnpkg.com/vinyl-fs".
+verbose 30.967477273 Request "https://registry.yarnpkg.com/gulp-cli" finished with status code 200.
+verbose 30.970667932 Performing "GET" request to "https://registry.yarnpkg.com/ansi-colors".
+verbose 30.971230535 Performing "GET" request to "https://registry.yarnpkg.com/archy".
+verbose 30.971746393 Performing "GET" request to "https://registry.yarnpkg.com/array-sort".
+verbose 30.972698936 Performing "GET" request to "https://registry.yarnpkg.com/copy-props".
+verbose 30.973425225 Performing "GET" request to "https://registry.yarnpkg.com/fancy-log".
+verbose 30.996972138 Request "https://registry.yarnpkg.com/vinyl-fs" finished with status code 200.
+verbose 30.997355779 Performing "GET" request to "https://registry.yarnpkg.com/gulplog".
+verbose 31.013779423 Request "https://registry.yarnpkg.com/ansi-colors" finished with status code 200.
+verbose 31.014141288 Performing "GET" request to "https://registry.yarnpkg.com/interpret".
+verbose 31.015732593 Request "https://registry.yarnpkg.com/array-sort" finished with status code 200.
+verbose 31.016027609 Performing "GET" request to "https://registry.yarnpkg.com/isobject".
+verbose 31.018851942 Request "https://registry.yarnpkg.com/archy" finished with status code 200.
+verbose 31.019155503 Performing "GET" request to "https://registry.yarnpkg.com/liftoff".
+verbose 31.020059879 Request "https://registry.yarnpkg.com/fancy-log" finished with status code 200.
+verbose 31.020359236 Performing "GET" request to "https://registry.yarnpkg.com/matchdep".
+verbose 31.035714193 Request "https://registry.yarnpkg.com/isobject" finished with status code 200.
+verbose 31.0361794 Performing "GET" request to "https://registry.yarnpkg.com/mute-stdout".
+verbose 31.038431067 Request "https://registry.yarnpkg.com/interpret" finished with status code 200.
+verbose 31.038737916 Performing "GET" request to "https://registry.yarnpkg.com/pretty-hrtime".
+verbose 31.040287748 Request "https://registry.yarnpkg.com/gulplog" finished with status code 200.
+verbose 31.040585454 Performing "GET" request to "https://registry.yarnpkg.com/replace-homedir".
+verbose 31.042925715 Request "https://registry.yarnpkg.com/liftoff" finished with status code 200.
+verbose 31.043237987 Performing "GET" request to "https://registry.yarnpkg.com/semver-greatest-satisfied-range".
+verbose 31.048868309 Request "https://registry.yarnpkg.com/matchdep" finished with status code 200.
+verbose 31.04921575 Performing "GET" request to "https://registry.yarnpkg.com/v8flags".
+verbose 31.053999242 Request "https://registry.yarnpkg.com/mute-stdout" finished with status code 200.
+verbose 31.054428718 Performing "GET" request to "https://registry.yarnpkg.com/os-locale".
+verbose 31.072556653 Request "https://registry.yarnpkg.com/os-locale" finished with status code 200.
+verbose 31.07285164 Performing "GET" request to "https://registry.yarnpkg.com/read-pkg-up".
+verbose 31.074174506 Request "https://registry.yarnpkg.com/semver-greatest-satisfied-range" finished with status code 200.
+verbose 31.074442535 Performing "GET" request to "https://registry.yarnpkg.com/code-point-at".
+verbose 31.075694495 Request "https://registry.yarnpkg.com/replace-homedir" finished with status code 200.
+verbose 31.075924919 Performing "GET" request to "https://registry.yarnpkg.com/object.assign".
+verbose 31.083274278 Request "https://registry.yarnpkg.com/v8flags" finished with status code 200.
+verbose 31.083539551 Performing "GET" request to "https://registry.yarnpkg.com/number-is-nan".
+verbose 31.088192432 Request "https://registry.yarnpkg.com/read-pkg-up" finished with status code 200.
+verbose 31.088422322 Performing "GET" request to "https://registry.yarnpkg.com/fs-mkdirp-stream".
+verbose 31.094795398 Request "https://registry.yarnpkg.com/object.assign" finished with status code 200.
+verbose 31.095071979 Performing "GET" request to "https://registry.yarnpkg.com/glob-stream".
+verbose 31.103105189 Request "https://registry.yarnpkg.com/code-point-at" finished with status code 200.
+verbose 31.103448396 Performing "GET" request to "https://registry.yarnpkg.com/is-valid-glob".
+verbose 31.104312952 Request "https://registry.yarnpkg.com/number-is-nan" finished with status code 200.
+verbose 31.104559589 Performing "GET" request to "https://registry.yarnpkg.com/lazystream".
+verbose 31.122756985 Request "https://registry.yarnpkg.com/glob-stream" finished with status code 200.
+verbose 31.123040192 Performing "GET" request to "https://registry.yarnpkg.com/lead".
+verbose 31.127352707 Request "https://registry.yarnpkg.com/lazystream" finished with status code 200.
+verbose 31.127594787 Performing "GET" request to "https://registry.yarnpkg.com/remove-bom-buffer".
+verbose 31.134729235 Request "https://registry.yarnpkg.com/is-valid-glob" finished with status code 200.
+verbose 31.135087525 Performing "GET" request to "https://registry.yarnpkg.com/remove-bom-stream".
+verbose 31.152912105 Request "https://registry.yarnpkg.com/remove-bom-stream" finished with status code 200.
+verbose 31.153204079 Performing "GET" request to "https://registry.yarnpkg.com/resolve-options".
+verbose 31.155208951 Request "https://registry.yarnpkg.com/remove-bom-buffer" finished with status code 200.
+verbose 31.155463151 Performing "GET" request to "https://registry.yarnpkg.com/through2".
+verbose 31.156669864 Request "https://registry.yarnpkg.com/lead" finished with status code 200.
+verbose 31.156929332 Performing "GET" request to "https://registry.yarnpkg.com/to-through".
+verbose 31.174686893 Request "https://registry.yarnpkg.com/to-through" finished with status code 200.
+verbose 31.174914686 Performing "GET" request to "https://registry.yarnpkg.com/value-or-function".
+verbose 31.182889987 Request "https://registry.yarnpkg.com/through2" finished with status code 200.
+verbose 31.183163722 Performing "GET" request to "https://registry.yarnpkg.com/vinyl".
+verbose 31.197476648 Request "https://registry.yarnpkg.com/value-or-function" finished with status code 200.
+verbose 31.197855585 Performing "GET" request to "https://registry.yarnpkg.com/vinyl-sourcemap".
+verbose 31.204348553 Request "https://registry.yarnpkg.com/vinyl" finished with status code 200.
+verbose 31.204694581 Performing "GET" request to "https://registry.yarnpkg.com/ansi-wrap".
+verbose 31.209410673 Request "https://registry.yarnpkg.com/undertaker" finished with status code 200.
+verbose 31.209731237 Performing "GET" request to "https://registry.yarnpkg.com/default-compare".
+verbose 31.22416541 Request "https://registry.yarnpkg.com/ansi-wrap" finished with status code 200.
+verbose 31.224516544 Performing "GET" request to "https://registry.yarnpkg.com/get-value".
+verbose 31.232338682 Request "https://registry.yarnpkg.com/default-compare" finished with status code 200.
+verbose 31.232657729 Performing "GET" request to "https://registry.yarnpkg.com/kind-of".
+verbose 31.245297343 Request "https://registry.yarnpkg.com/copy-props" finished with status code 200.
+verbose 31.245666421 Performing "GET" request to "https://registry.yarnpkg.com/ansi-gray".
+verbose 31.248596561 Request "https://registry.yarnpkg.com/get-value" finished with status code 200.
+verbose 31.248888546 Performing "GET" request to "https://registry.yarnpkg.com/parse-node-version".
+verbose 31.260739106 Request "https://registry.yarnpkg.com/kind-of" finished with status code 200.
+verbose 31.261092379 Performing "GET" request to "https://registry.yarnpkg.com/time-stamp".
+verbose 31.410803884 Request "https://registry.yarnpkg.com/resolve-options" finished with status code 200.
+verbose 31.411211061 Performing "GET" request to "https://registry.yarnpkg.com/glogg".
+verbose 31.438580337 Request "https://registry.yarnpkg.com/glogg" finished with status code 200.
+verbose 31.438936804 Performing "GET" request to "https://registry.yarnpkg.com/findup-sync".
+verbose 31.47718488 Request "https://registry.yarnpkg.com/findup-sync" finished with status code 200.
+verbose 31.477635876 Performing "GET" request to "https://registry.yarnpkg.com/fined".
+verbose 31.486366537 Request "https://registry.yarnpkg.com/parse-node-version" finished with status code 200.
+verbose 31.48666906 Performing "GET" request to "https://registry.yarnpkg.com/flagged-respawn".
+verbose 31.497119958 Request "https://registry.yarnpkg.com/fined" finished with status code 200.
+verbose 31.497449836 Performing "GET" request to "https://registry.yarnpkg.com/is-plain-object".
+verbose 31.504830608 Request "https://registry.yarnpkg.com/flagged-respawn" finished with status code 200.
+verbose 31.505159116 Performing "GET" request to "https://registry.yarnpkg.com/object.map".
+verbose 31.519599781 Request "https://registry.yarnpkg.com/is-plain-object" finished with status code 200.
+verbose 31.519962843 Performing "GET" request to "https://registry.yarnpkg.com/rechoir".
+verbose 31.528987603 Request "https://registry.yarnpkg.com/object.map" finished with status code 200.
+verbose 31.529303265 Performing "GET" request to "https://registry.yarnpkg.com/resolve".
+verbose 31.54714279 Request "https://registry.yarnpkg.com/resolve" finished with status code 200.
+verbose 31.547461706 Performing "GET" request to "https://registry.yarnpkg.com/micromatch".
+verbose 31.549564915 Request "https://registry.yarnpkg.com/rechoir" finished with status code 200.
+verbose 31.549800022 Performing "GET" request to "https://registry.yarnpkg.com/stack-trace".
+verbose 31.5649888 Request "https://registry.yarnpkg.com/ansi-gray" finished with status code 200.
+verbose 31.565261649 Performing "GET" request to "https://registry.yarnpkg.com/lcid".
+verbose 31.56710417 Request "https://registry.yarnpkg.com/stack-trace" finished with status code 200.
+verbose 31.56736488 Performing "GET" request to "https://registry.yarnpkg.com/sver-compat".
+verbose 31.569575647 Request "https://registry.yarnpkg.com/micromatch" finished with status code 200.
+verbose 31.569823895 Performing "GET" request to "https://registry.yarnpkg.com/homedir-polyfill".
+verbose 31.600207568 Request "https://registry.yarnpkg.com/homedir-polyfill" finished with status code 200.
+verbose 31.600507438 Performing "GET" request to "https://registry.yarnpkg.com/is-absolute".
+verbose 31.86872525 Request "https://registry.yarnpkg.com/glob-watcher" finished with status code 200.
+verbose 31.869082273 Performing "GET" request to "https://registry.yarnpkg.com/remove-trailing-separator".
+verbose 31.899363446 Request "https://registry.yarnpkg.com/remove-trailing-separator" finished with status code 200.
+verbose 31.899622572 Performing "GET" request to "https://registry.yarnpkg.com/read-pkg".
+verbose 31.922355643 Request "https://registry.yarnpkg.com/pretty-hrtime" finished with status code 200.
+verbose 31.922618119 Performing "GET" request to "https://registry.yarnpkg.com/pinkie-promise".
+verbose 31.929850915 Request "https://registry.yarnpkg.com/read-pkg" finished with status code 200.
+verbose 31.930095587 Performing "GET" request to "https://registry.yarnpkg.com/define-properties".
+verbose 31.941479221 Request "https://registry.yarnpkg.com/pinkie-promise" finished with status code 200.
+verbose 31.941805756 Performing "GET" request to "https://registry.yarnpkg.com/object-keys".
+verbose 31.967998887 Request "https://registry.yarnpkg.com/object-keys" finished with status code 200.
+verbose 31.968230685 Performing "GET" request to "https://registry.yarnpkg.com/glob-parent".
+verbose 31.973623667 Request "https://registry.yarnpkg.com/define-properties" finished with status code 200.
+verbose 31.973839259 Performing "GET" request to "https://registry.yarnpkg.com/is-negated-glob".
+verbose 31.992343987 Request "https://registry.yarnpkg.com/glob-parent" finished with status code 200.
+verbose 31.992668477 Performing "GET" request to "https://registry.yarnpkg.com/ordered-read-streams".
+verbose 32.008786493 Request "https://registry.yarnpkg.com/fs-mkdirp-stream" finished with status code 200.
+verbose 32.009062616 Performing "GET" request to "https://registry.yarnpkg.com/to-absolute-glob".
+verbose 32.082775831 Request "https://registry.yarnpkg.com/vinyl-sourcemap" finished with status code 200.
+verbose 32.08310849 Performing "GET" request to "https://registry.yarnpkg.com/unique-stream".
+verbose 32.104184604 Request "https://registry.yarnpkg.com/unique-stream" finished with status code 200.
+verbose 32.10446361 Performing "GET" request to "https://registry.yarnpkg.com/is-buffer".
+verbose 32.126008393 Request "https://registry.yarnpkg.com/is-buffer" finished with status code 200.
+verbose 32.126273832 Performing "GET" request to "https://registry.yarnpkg.com/is-utf8".
+verbose 32.141243533 Request "https://registry.yarnpkg.com/time-stamp" finished with status code 200.
+verbose 32.141550376 Performing "GET" request to "https://registry.yarnpkg.com/flush-write-stream".
+verbose 32.154664776 Request "https://registry.yarnpkg.com/is-utf8" finished with status code 200.
+verbose 32.154982439 Performing "GET" request to "https://registry.yarnpkg.com/clone".
+verbose 32.161244735 Request "https://registry.yarnpkg.com/flush-write-stream" finished with status code 200.
+verbose 32.161601411 Performing "GET" request to "https://registry.yarnpkg.com/clone-buffer".
+verbose 32.17863205 Request "https://registry.yarnpkg.com/clone" finished with status code 200.
+verbose 32.178910737 Performing "GET" request to "https://registry.yarnpkg.com/clone-stats".
+verbose 32.18387382 Request "https://registry.yarnpkg.com/clone-buffer" finished with status code 200.
+verbose 32.184094176 Performing "GET" request to "https://registry.yarnpkg.com/cloneable-readable".
+verbose 32.20406267 Request "https://registry.yarnpkg.com/clone-stats" finished with status code 200.
+verbose 32.204289302 Performing "GET" request to "https://registry.yarnpkg.com/replace-ext".
+verbose 32.205861418 Request "https://registry.yarnpkg.com/cloneable-readable" finished with status code 200.
+verbose 32.206097041 Performing "GET" request to "https://registry.yarnpkg.com/arr-flatten".
+verbose 32.226582379 Request "https://registry.yarnpkg.com/replace-ext" finished with status code 200.
+verbose 32.226799594 Performing "GET" request to "https://registry.yarnpkg.com/arr-map".
+verbose 32.227928742 Request "https://registry.yarnpkg.com/arr-flatten" finished with status code 200.
+verbose 32.228189273 Performing "GET" request to "https://registry.yarnpkg.com/bach".
+verbose 32.234245202 Request "https://registry.yarnpkg.com/ordered-read-streams" finished with status code 200.
+verbose 32.234501117 Performing "GET" request to "https://registry.yarnpkg.com/collection-map".
+verbose 32.268567564 Request "https://registry.yarnpkg.com/bach" finished with status code 200.
+verbose 32.268856806 Performing "GET" request to "https://registry.yarnpkg.com/es6-weak-map".
+verbose 32.290532847 Request "https://registry.yarnpkg.com/es6-weak-map" finished with status code 200.
+verbose 32.290857878 Performing "GET" request to "https://registry.yarnpkg.com/last-run".
+verbose 32.432346639 Request "https://registry.yarnpkg.com/sver-compat" finished with status code 200.
+verbose 32.432785427 Performing "GET" request to "https://registry.yarnpkg.com/object.defaults".
+verbose 32.453643239 Request "https://registry.yarnpkg.com/lcid" finished with status code 200.
+verbose 32.453903494 Performing "GET" request to "https://registry.yarnpkg.com/object.reduce".
+verbose 32.455260519 Request "https://registry.yarnpkg.com/object.defaults" finished with status code 200.
+verbose 32.455489249 Performing "GET" request to "https://registry.yarnpkg.com/undertaker-registry".
+verbose 32.474234415 Request "https://registry.yarnpkg.com/undertaker-registry" finished with status code 200.
+verbose 32.474483027 Performing "GET" request to "https://registry.yarnpkg.com/fast-levenshtein".
+verbose 32.487652854 Request "https://registry.yarnpkg.com/is-absolute" finished with status code 200.
+verbose 32.487970201 Performing "GET" request to "https://registry.yarnpkg.com/each-props".
+verbose 32.492745649 Request "https://registry.yarnpkg.com/fast-levenshtein" finished with status code 200.
+verbose 32.493029464 Performing "GET" request to "https://registry.yarnpkg.com/sparkles".
+verbose 32.511080853 Request "https://registry.yarnpkg.com/each-props" finished with status code 200.
+verbose 32.511400324 Performing "GET" request to "https://registry.yarnpkg.com/detect-file".
+verbose 32.521487448 Request "https://registry.yarnpkg.com/sparkles" finished with status code 200.
+verbose 32.521834675 Performing "GET" request to "https://registry.yarnpkg.com/is-glob".
+verbose 32.534681561 Request "https://registry.yarnpkg.com/detect-file" finished with status code 200.
+verbose 32.535004067 Performing "GET" request to "https://registry.yarnpkg.com/resolve-dir".
+verbose 32.541282875 Request "https://registry.yarnpkg.com/is-glob" finished with status code 200.
+verbose 32.541707301 Performing "GET" request to "https://registry.yarnpkg.com/expand-tilde".
+verbose 32.544435968 Request "https://registry.yarnpkg.com/last-run" finished with status code 200.
+verbose 32.544726139 Performing "GET" request to "https://registry.yarnpkg.com/object.pick".
+verbose 32.552440535 Request "https://registry.yarnpkg.com/resolve-dir" finished with status code 200.
+verbose 32.552661472 Performing "GET" request to "https://registry.yarnpkg.com/parse-filepath".
+verbose 32.562107482 Request "https://registry.yarnpkg.com/expand-tilde" finished with status code 200.
+verbose 32.562339613 Performing "GET" request to "https://registry.yarnpkg.com/for-own".
+verbose 32.566732866 Request "https://registry.yarnpkg.com/object.pick" finished with status code 200.
+verbose 32.567059742 Performing "GET" request to "https://registry.yarnpkg.com/make-iterator".
+verbose 32.579472118 Request "https://registry.yarnpkg.com/for-own" finished with status code 200.
+verbose 32.579722762 Performing "GET" request to "https://registry.yarnpkg.com/is-core-module".
+verbose 32.612215325 Request "https://registry.yarnpkg.com/is-core-module" finished with status code 200.
+verbose 32.612750378 Performing "GET" request to "https://registry.yarnpkg.com/path-parse".
+verbose 32.631691121 Request "https://registry.yarnpkg.com/path-parse" finished with status code 200.
+verbose 32.631959994 Performing "GET" request to "https://registry.yarnpkg.com/supports-preserve-symlinks-flag".
+verbose 32.648807364 Request "https://registry.yarnpkg.com/supports-preserve-symlinks-flag" finished with status code 200.
+verbose 32.649041344 Performing "GET" request to "https://registry.yarnpkg.com/arr-diff".
+verbose 32.675988171 Request "https://registry.yarnpkg.com/arr-diff" finished with status code 200.
+verbose 32.676248749 Performing "GET" request to "https://registry.yarnpkg.com/array-unique".
+verbose 32.694251374 Request "https://registry.yarnpkg.com/array-unique" finished with status code 200.
+verbose 32.694491419 Performing "GET" request to "https://registry.yarnpkg.com/braces".
+verbose 32.713742532 Request "https://registry.yarnpkg.com/braces" finished with status code 200.
+verbose 32.714012534 Performing "GET" request to "https://registry.yarnpkg.com/define-property".
+verbose 32.739309809 Request "https://registry.yarnpkg.com/define-property" finished with status code 200.
+verbose 32.739576822 Performing "GET" request to "https://registry.yarnpkg.com/extend-shallow".
+verbose 32.761803768 Request "https://registry.yarnpkg.com/extend-shallow" finished with status code 200.
+verbose 32.762212233 Performing "GET" request to "https://registry.yarnpkg.com/extglob".
+verbose 32.78303246 Request "https://registry.yarnpkg.com/extglob" finished with status code 200.
+verbose 32.783352786 Performing "GET" request to "https://registry.yarnpkg.com/fragment-cache".
+verbose 32.803991572 Request "https://registry.yarnpkg.com/parse-filepath" finished with status code 200.
+verbose 32.804315768 Performing "GET" request to "https://registry.yarnpkg.com/nanomatch".
+verbose 32.806269316 Request "https://registry.yarnpkg.com/fragment-cache" finished with status code 200.
+verbose 32.806669344 Performing "GET" request to "https://registry.yarnpkg.com/regex-not".
+verbose 32.824067175 Request "https://registry.yarnpkg.com/nanomatch" finished with status code 200.
+verbose 32.824375147 Performing "GET" request to "https://registry.yarnpkg.com/snapdragon".
+verbose 32.828072875 Request "https://registry.yarnpkg.com/regex-not" finished with status code 200.
+verbose 32.828349424 Performing "GET" request to "https://registry.yarnpkg.com/to-regex".
+verbose 32.846566187 Request "https://registry.yarnpkg.com/snapdragon" finished with status code 200.
+verbose 32.846849554 Performing "GET" request to "https://registry.yarnpkg.com/parse-passwd".
+verbose 32.851785577 Request "https://registry.yarnpkg.com/to-regex" finished with status code 200.
+verbose 32.852101737 Performing "GET" request to "https://registry.yarnpkg.com/anymatch".
+verbose 32.864888116 Request "https://registry.yarnpkg.com/is-negated-glob" finished with status code 200.
+verbose 32.865125778 Performing "GET" request to "https://registry.yarnpkg.com/async-done".
+verbose 32.866004273 Request "https://registry.yarnpkg.com/parse-passwd" finished with status code 200.
+verbose 32.866251627 Performing "GET" request to "https://registry.yarnpkg.com/chokidar".
+verbose 32.87157104 Request "https://registry.yarnpkg.com/anymatch" finished with status code 200.
+verbose 32.871827644 Performing "GET" request to "https://registry.yarnpkg.com/just-debounce".
+verbose 32.883247268 Request "https://registry.yarnpkg.com/async-done" finished with status code 200.
+verbose 32.883504836 Performing "GET" request to "https://registry.yarnpkg.com/normalize-path".
+verbose 32.89024066 Request "https://registry.yarnpkg.com/just-debounce" finished with status code 200.
+verbose 32.890565431 Performing "GET" request to "https://registry.yarnpkg.com/load-json-file".
+verbose 32.894924867 Request "https://registry.yarnpkg.com/chokidar" finished with status code 200.
+verbose 32.895258699 Performing "GET" request to "https://registry.yarnpkg.com/normalize-package-data".
+[91mwarning gulp > glob-watcher > chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+[0mverbose 32.907822534 Request "https://registry.yarnpkg.com/normalize-path" finished with status code 200.
+verbose 32.908269353 Performing "GET" request to "https://registry.yarnpkg.com/path-type".
+verbose 32.918658823 Request "https://registry.yarnpkg.com/to-absolute-glob" finished with status code 200.
+verbose 32.918981221 Performing "GET" request to "https://registry.yarnpkg.com/pinkie".
+verbose 32.930799927 Request "https://registry.yarnpkg.com/normalize-package-data" finished with status code 200.
+verbose 32.931067698 Performing "GET" request to "https://registry.yarnpkg.com/has-property-descriptors".
+verbose 32.940907298 Request "https://registry.yarnpkg.com/path-type" finished with status code 200.
+verbose 32.941162216 Performing "GET" request to "https://registry.yarnpkg.com/path-dirname".
+verbose 32.943272444 Request "https://registry.yarnpkg.com/load-json-file" finished with status code 200.
+verbose 32.943503275 Performing "GET" request to "https://registry.yarnpkg.com/append-buffer".
+verbose 32.961090982 Request "https://registry.yarnpkg.com/has-property-descriptors" finished with status code 200.
+verbose 32.961350198 Performing "GET" request to "https://registry.yarnpkg.com/convert-source-map".
+verbose 32.964233423 Request "https://registry.yarnpkg.com/pinkie" finished with status code 200.
+verbose 32.964488013 Performing "GET" request to "https://registry.yarnpkg.com/now-and-later".
+verbose 32.985652257 Request "https://registry.yarnpkg.com/now-and-later" finished with status code 200.
+verbose 32.985902369 Performing "GET" request to "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify".
+verbose 32.988029308 Request "https://registry.yarnpkg.com/convert-source-map" finished with status code 200.
+verbose 32.988268473 Performing "GET" request to "https://registry.yarnpkg.com/through2-filter".
+verbose 33.003861715 Request "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify" finished with status code 200.
+verbose 33.004119868 Performing "GET" request to "https://registry.yarnpkg.com/arr-filter".
+verbose 33.020041854 Request "https://registry.yarnpkg.com/arr-filter" finished with status code 200.
+verbose 33.020309936 Performing "GET" request to "https://registry.yarnpkg.com/array-each".
+verbose 33.043417395 Request "https://registry.yarnpkg.com/array-each" finished with status code 200.
+verbose 33.043649725 Performing "GET" request to "https://registry.yarnpkg.com/array-initial".
+verbose 33.15069945 Request "https://registry.yarnpkg.com/arr-map" finished with status code 200.
+verbose 33.151037582 Performing "GET" request to "https://registry.yarnpkg.com/array-last".
+verbose 33.153888877 Request "https://registry.yarnpkg.com/collection-map" finished with status code 200.
+verbose 33.154132029 Performing "GET" request to "https://registry.yarnpkg.com/async-settle".
+verbose 33.380935561 Request "https://registry.yarnpkg.com/object.reduce" finished with status code 200.
+verbose 33.381277004 Performing "GET" request to "https://registry.yarnpkg.com/d".
+verbose 33.400701141 Request "https://registry.yarnpkg.com/async-settle" finished with status code 200.
+verbose 33.401096615 Performing "GET" request to "https://registry.yarnpkg.com/es5-ext".
+verbose 33.402739076 Request "https://registry.yarnpkg.com/d" finished with status code 200.
+verbose 33.402990324 Performing "GET" request to "https://registry.yarnpkg.com/es6-iterator".
+verbose 33.42787869 Request "https://registry.yarnpkg.com/es6-iterator" finished with status code 200.
+verbose 33.428119896 Performing "GET" request to "https://registry.yarnpkg.com/es6-symbol".
+verbose 33.430971095 Request "https://registry.yarnpkg.com/es5-ext" finished with status code 200.
+verbose 33.431212151 Performing "GET" request to "https://registry.yarnpkg.com/invert-kv".
+verbose 33.448605564 Request "https://registry.yarnpkg.com/invert-kv" finished with status code 200.
+verbose 33.448840233 Performing "GET" request to "https://registry.yarnpkg.com/array-slice".
+verbose 33.459909693 Request "https://registry.yarnpkg.com/es6-symbol" finished with status code 200.
+verbose 33.460165847 Performing "GET" request to "https://registry.yarnpkg.com/is-relative".
+verbose 33.478548968 Request "https://registry.yarnpkg.com/is-relative" finished with status code 200.
+verbose 33.478801337 Performing "GET" request to "https://registry.yarnpkg.com/is-windows".
+verbose 33.480842522 Request "https://registry.yarnpkg.com/make-iterator" finished with status code 200.
+verbose 33.481076043 Performing "GET" request to "https://registry.yarnpkg.com/is-extglob".
+verbose 33.496127758 Request "https://registry.yarnpkg.com/is-windows" finished with status code 200.
+verbose 33.496372231 Performing "GET" request to "https://registry.yarnpkg.com/default-resolution".
+verbose 33.502513927 Request "https://registry.yarnpkg.com/is-extglob" finished with status code 200.
+verbose 33.502744426 Performing "GET" request to "https://registry.yarnpkg.com/global-modules".
+verbose 33.523234307 Request "https://registry.yarnpkg.com/global-modules" finished with status code 200.
+verbose 33.523469189 Performing "GET" request to "https://registry.yarnpkg.com/for-in".
+verbose 33.545945032 Request "https://registry.yarnpkg.com/for-in" finished with status code 200.
+verbose 33.546181673 Performing "GET" request to "https://registry.yarnpkg.com/fill-range".
+verbose 33.566955555 Request "https://registry.yarnpkg.com/fill-range" finished with status code 200.
+verbose 33.567187622 Performing "GET" request to "https://registry.yarnpkg.com/repeat-element".
+verbose 33.585593161 Request "https://registry.yarnpkg.com/repeat-element" finished with status code 200.
+verbose 33.585809738 Performing "GET" request to "https://registry.yarnpkg.com/snapdragon-node".
+verbose 33.607023699 Request "https://registry.yarnpkg.com/snapdragon-node" finished with status code 200.
+verbose 33.607239498 Performing "GET" request to "https://registry.yarnpkg.com/split-string".
+verbose 33.637722676 Request "https://registry.yarnpkg.com/split-string" finished with status code 200.
+verbose 33.637952029 Performing "GET" request to "https://registry.yarnpkg.com/is-descriptor".
+verbose 33.663428577 Request "https://registry.yarnpkg.com/is-descriptor" finished with status code 200.
+verbose 33.663916207 Performing "GET" request to "https://registry.yarnpkg.com/assign-symbols".
+verbose 33.685695792 Request "https://registry.yarnpkg.com/assign-symbols" finished with status code 200.
+verbose 33.68592467 Performing "GET" request to "https://registry.yarnpkg.com/is-extendable".
+verbose 33.691401269 Request "https://registry.yarnpkg.com/array-slice" finished with status code 200.
+verbose 33.691623784 Performing "GET" request to "https://registry.yarnpkg.com/expand-brackets".
+verbose 33.709743296 Request "https://registry.yarnpkg.com/is-extendable" finished with status code 200.
+verbose 33.710042264 Performing "GET" request to "https://registry.yarnpkg.com/map-cache".
+verbose 33.713767133 Request "https://registry.yarnpkg.com/expand-brackets" finished with status code 200.
+verbose 33.714071066 Performing "GET" request to "https://registry.yarnpkg.com/path-root".
+verbose 33.733427468 Request "https://registry.yarnpkg.com/map-cache" finished with status code 200.
+verbose 33.733800037 Performing "GET" request to "https://registry.yarnpkg.com/safe-regex".
+verbose 33.738038206 Request "https://registry.yarnpkg.com/default-resolution" finished with status code 200.
+verbose 33.738277646 Performing "GET" request to "https://registry.yarnpkg.com/base".
+verbose 33.763728499 Request "https://registry.yarnpkg.com/base" finished with status code 200.
+verbose 33.764089237 Performing "GET" request to "https://registry.yarnpkg.com/source-map".
+verbose 33.776304827 Request "https://registry.yarnpkg.com/safe-regex" finished with status code 200.
+verbose 33.776780891 Performing "GET" request to "https://registry.yarnpkg.com/source-map-resolve".
+verbose 33.786478308 Request "https://registry.yarnpkg.com/source-map" finished with status code 200.
+verbose 33.786777139 Performing "GET" request to "https://registry.yarnpkg.com/use".
+verbose 33.799986487 Request "https://registry.yarnpkg.com/source-map-resolve" finished with status code 200.
+verbose 33.800299058 Performing "GET" request to "https://registry.yarnpkg.com/stream-exhaust".
+[91mwarning gulp > gulp-cli > matchdep > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+[0mverbose 33.803143993 Request "https://registry.yarnpkg.com/use" finished with status code 200.
+verbose 33.803501511 Performing "GET" request to "https://registry.yarnpkg.com/async-each".
+verbose 33.82187997 Request "https://registry.yarnpkg.com/async-each" finished with status code 200.
+verbose 33.822163503 Performing "GET" request to "https://registry.yarnpkg.com/is-binary-path".
+verbose 33.826300506 Request "https://registry.yarnpkg.com/append-buffer" finished with status code 200.
+verbose 33.826576769 Performing "GET" request to "https://registry.yarnpkg.com/readdirp".
+verbose 33.839100386 Request "https://registry.yarnpkg.com/is-binary-path" finished with status code 200.
+verbose 33.839366271 Performing "GET" request to "https://registry.yarnpkg.com/upath".
+verbose 33.851841653 Request "https://registry.yarnpkg.com/readdirp" finished with status code 200.
+verbose 33.852142218 Performing "GET" request to "https://registry.yarnpkg.com/fsevents".
+verbose 33.866558805 Request "https://registry.yarnpkg.com/through2-filter" finished with status code 200.
+verbose 33.866913848 Performing "GET" request to "https://registry.yarnpkg.com/hosted-git-info".
+verbose 33.878254833 Request "https://registry.yarnpkg.com/fsevents" finished with status code 200.
+verbose 33.878601234 Performing "GET" request to "https://registry.yarnpkg.com/validate-npm-package-license".
+[91mwarning gulp > glob-watcher > chokidar > fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+[0mverbose 33.881384408 Request "https://registry.yarnpkg.com/path-dirname" finished with status code 200.
+verbose 33.881745209 Performing "GET" request to "https://registry.yarnpkg.com/pify".
+verbose 33.883218674 Request "https://registry.yarnpkg.com/upath" finished with status code 200.
+verbose 33.883528133 Performing "GET" request to "https://registry.yarnpkg.com/parse-json".
+verbose 33.897346862 Request "https://registry.yarnpkg.com/hosted-git-info" finished with status code 200.
+verbose 33.897715675 Performing "GET" request to "https://registry.yarnpkg.com/strip-bom".
+verbose 33.901252739 Request "https://registry.yarnpkg.com/pify" finished with status code 200.
+verbose 33.901561787 Performing "GET" request to "https://registry.yarnpkg.com/type".
+verbose 33.903066851 Request "https://registry.yarnpkg.com/parse-json" finished with status code 200.
+verbose 33.90335691 Performing "GET" request to "https://registry.yarnpkg.com/next-tick".
+verbose 33.904780783 Request "https://registry.yarnpkg.com/validate-npm-package-license" finished with status code 200.
+verbose 33.905030012 Performing "GET" request to "https://registry.yarnpkg.com/ext".
+verbose 33.913723885 Request "https://registry.yarnpkg.com/strip-bom" finished with status code 200.
+verbose 33.914032743 Performing "GET" request to "https://registry.yarnpkg.com/is-unc-path".
+verbose 33.919168609 Request "https://registry.yarnpkg.com/type" finished with status code 200.
+verbose 33.919460994 Performing "GET" request to "https://registry.yarnpkg.com/global-prefix".
+verbose 33.930839359 Request "https://registry.yarnpkg.com/ext" finished with status code 200.
+verbose 33.93116852 Performing "GET" request to "https://registry.yarnpkg.com/is-number".
+verbose 33.93619199 Request "https://registry.yarnpkg.com/next-tick" finished with status code 200.
+verbose 33.936473394 Performing "GET" request to "https://registry.yarnpkg.com/repeat-string".
+verbose 33.938199641 Request "https://registry.yarnpkg.com/array-initial" finished with status code 200.
+verbose 33.938477486 Performing "GET" request to "https://registry.yarnpkg.com/to-regex-range".
+verbose 33.940615346 Request "https://registry.yarnpkg.com/global-prefix" finished with status code 200.
+verbose 33.94090996 Performing "GET" request to "https://registry.yarnpkg.com/snapdragon-util".
+verbose 33.946657273 Request "https://registry.yarnpkg.com/is-unc-path" finished with status code 200.
+verbose 33.947050851 Performing "GET" request to "https://registry.yarnpkg.com/is-accessor-descriptor".
+verbose 33.949694714 Request "https://registry.yarnpkg.com/is-number" finished with status code 200.
+verbose 33.950007473 Performing "GET" request to "https://registry.yarnpkg.com/is-data-descriptor".
+verbose 33.955565304 Request "https://registry.yarnpkg.com/repeat-string" finished with status code 200.
+verbose 33.95587505 Performing "GET" request to "https://registry.yarnpkg.com/posix-character-classes".
+verbose 33.967340659 Request "https://registry.yarnpkg.com/snapdragon-util" finished with status code 200.
+verbose 33.967652944 Performing "GET" request to "https://registry.yarnpkg.com/cache-base".
+verbose 33.970514489 Request "https://registry.yarnpkg.com/is-accessor-descriptor" finished with status code 200.
+verbose 33.970815349 Performing "GET" request to "https://registry.yarnpkg.com/class-utils".
+verbose 33.973517357 Request "https://registry.yarnpkg.com/is-data-descriptor" finished with status code 200.
+verbose 33.973856993 Performing "GET" request to "https://registry.yarnpkg.com/component-emitter".
+verbose 33.976824402 Request "https://registry.yarnpkg.com/to-regex-range" finished with status code 200.
+verbose 33.977122989 Performing "GET" request to "https://registry.yarnpkg.com/mixin-deep".
+verbose 33.979003472 Request "https://registry.yarnpkg.com/posix-character-classes" finished with status code 200.
+verbose 33.979304358 Performing "GET" request to "https://registry.yarnpkg.com/pascalcase".
+verbose 33.989061356 Request "https://registry.yarnpkg.com/cache-base" finished with status code 200.
+verbose 33.989377489 Performing "GET" request to "https://registry.yarnpkg.com/ret".
+verbose 33.992457897 Request "https://registry.yarnpkg.com/class-utils" finished with status code 200.
+verbose 33.992748966 Performing "GET" request to "https://registry.yarnpkg.com/atob".
+verbose 33.997972615 Request "https://registry.yarnpkg.com/mixin-deep" finished with status code 200.
+verbose 33.998253435 Performing "GET" request to "https://registry.yarnpkg.com/decode-uri-component".
+verbose 34.000604743 Request "https://registry.yarnpkg.com/pascalcase" finished with status code 200.
+verbose 34.000917449 Performing "GET" request to "https://registry.yarnpkg.com/resolve-url".
+verbose 34.002617443 Request "https://registry.yarnpkg.com/component-emitter" finished with status code 200.
+verbose 34.00292391 Performing "GET" request to "https://registry.yarnpkg.com/source-map-url".
+verbose 34.009790082 Request "https://registry.yarnpkg.com/ret" finished with status code 200.
+verbose 34.010091516 Performing "GET" request to "https://registry.yarnpkg.com/urix".
+verbose 34.015212816 Request "https://registry.yarnpkg.com/resolve-url" finished with status code 200.
+verbose 34.01545664 Performing "GET" request to "https://registry.yarnpkg.com/buffer-equal".
+[91mwarning gulp > gulp-cli > matchdep > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0mverbose 34.016404339 Request "https://registry.yarnpkg.com/decode-uri-component" finished with status code 200.
+verbose 34.016634516 Performing "GET" request to "https://registry.yarnpkg.com/binary-extensions".
+verbose 34.017267923 Request "https://registry.yarnpkg.com/atob" finished with status code 200.
+verbose 34.017554619 Performing "GET" request to "https://registry.yarnpkg.com/bindings".
+verbose 34.021413055 Request "https://registry.yarnpkg.com/source-map-url" finished with status code 200.
+verbose 34.021705933 Performing "GET" request to "https://registry.yarnpkg.com/nan".
+[91mwarning gulp > gulp-cli > matchdep > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+[0mverbose 34.028576263 Request "https://registry.yarnpkg.com/urix" finished with status code 200.
+verbose 34.028801431 Performing "GET" request to "https://registry.yarnpkg.com/error-ex".
+[91mwarning gulp > gulp-cli > matchdep > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0mverbose 34.035457634 Request "https://registry.yarnpkg.com/buffer-equal" finished with status code 200.
+verbose 34.035683506 Performing "GET" request to "https://registry.yarnpkg.com/spdx-correct".
+verbose 34.040129526 Request "https://registry.yarnpkg.com/binary-extensions" finished with status code 200.
+verbose 34.040378737 Performing "GET" request to "https://registry.yarnpkg.com/spdx-expression-parse".
+verbose 34.043014183 Request "https://registry.yarnpkg.com/nan" finished with status code 200.
+verbose 34.043356138 Performing "GET" request to "https://registry.yarnpkg.com/ini".
+verbose 34.044370208 Request "https://registry.yarnpkg.com/bindings" finished with status code 200.
+verbose 34.044601768 Performing "GET" request to "https://registry.yarnpkg.com/which".
+verbose 34.051522791 Request "https://registry.yarnpkg.com/error-ex" finished with status code 200.
+verbose 34.052512636 Performing "GET" request to "https://registry.yarnpkg.com/unc-path-regex".
+verbose 34.05452207 Request "https://registry.yarnpkg.com/spdx-correct" finished with status code 200.
+verbose 34.054803161 Performing "GET" request to "https://registry.yarnpkg.com/collection-visit".
+verbose 34.057836457 Request "https://registry.yarnpkg.com/array-last" finished with status code 200.
+verbose 34.058168573 Performing "GET" request to "https://registry.yarnpkg.com/has-value".
+verbose 34.061136295 Request "https://registry.yarnpkg.com/ini" finished with status code 200.
+verbose 34.06141428 Performing "GET" request to "https://registry.yarnpkg.com/set-value".
+verbose 34.062969736 Request "https://registry.yarnpkg.com/which" finished with status code 200.
+verbose 34.063199564 Performing "GET" request to "https://registry.yarnpkg.com/to-object-path".
+verbose 34.064393713 Request "https://registry.yarnpkg.com/spdx-expression-parse" finished with status code 200.
+verbose 34.064625986 Performing "GET" request to "https://registry.yarnpkg.com/union-value".
+verbose 34.072541028 Request "https://registry.yarnpkg.com/collection-visit" finished with status code 200.
+verbose 34.072790473 Performing "GET" request to "https://registry.yarnpkg.com/unset-value".
+verbose 34.075824319 Request "https://registry.yarnpkg.com/has-value" finished with status code 200.
+verbose 34.076080575 Performing "GET" request to "https://registry.yarnpkg.com/arr-union".
+verbose 34.082703267 Request "https://registry.yarnpkg.com/to-object-path" finished with status code 200.
+verbose 34.082943583 Performing "GET" request to "https://registry.yarnpkg.com/static-extend".
+verbose 34.087637866 Request "https://registry.yarnpkg.com/union-value" finished with status code 200.
+verbose 34.087869639 Performing "GET" request to "https://registry.yarnpkg.com/file-uri-to-path".
+verbose 34.09441949 Request "https://registry.yarnpkg.com/unset-value" finished with status code 200.
+verbose 34.094652838 Performing "GET" request to "https://registry.yarnpkg.com/is-arrayish".
+verbose 34.099270503 Request "https://registry.yarnpkg.com/arr-union" finished with status code 200.
+verbose 34.099525059 Performing "GET" request to "https://registry.yarnpkg.com/spdx-license-ids".
+verbose 34.105434797 Request "https://registry.yarnpkg.com/static-extend" finished with status code 200.
+verbose 34.105708229 Performing "GET" request to "https://registry.yarnpkg.com/isexe".
+verbose 34.109416175 Request "https://registry.yarnpkg.com/file-uri-to-path" finished with status code 200.
+verbose 34.109730646 Performing "GET" request to "https://registry.yarnpkg.com/spdx-exceptions".
+verbose 34.113066697 Request "https://registry.yarnpkg.com/is-arrayish" finished with status code 200.
+verbose 34.113292833 Performing "GET" request to "https://registry.yarnpkg.com/map-visit".
+verbose 34.122718531 Request "https://registry.yarnpkg.com/isexe" finished with status code 200.
+verbose 34.122929037 Performing "GET" request to "https://registry.yarnpkg.com/object-visit".
+verbose 34.125075993 Request "https://registry.yarnpkg.com/spdx-license-ids" finished with status code 200.
+verbose 34.125337781 Performing "GET" request to "https://registry.yarnpkg.com/has-values".
+verbose 34.136222146 Request "https://registry.yarnpkg.com/map-visit" finished with status code 200.
+verbose 34.136450304 Performing "GET" request to "https://registry.yarnpkg.com/object-copy".
+verbose 34.140703326 Request "https://registry.yarnpkg.com/spdx-exceptions" finished with status code 200.
+verbose 34.152170727 Request "https://registry.yarnpkg.com/object-copy" finished with status code 200.
+verbose 34.153199854 Performing "GET" request to "https://registry.yarnpkg.com/copy-descriptor".
+verbose 34.159323866 Request "https://registry.yarnpkg.com/object-visit" finished with status code 200.
+verbose 34.160615289 Request "https://registry.yarnpkg.com/has-values" finished with status code 200.
+verbose 34.299891123 Request "https://registry.yarnpkg.com/unc-path-regex" finished with status code 200.
+verbose 34.322759107 Request "https://registry.yarnpkg.com/set-value" finished with status code 200.
+verbose 34.625599152 Request "https://registry.yarnpkg.com/path-root" finished with status code 200.
+verbose 34.626528764 Performing "GET" request to "https://registry.yarnpkg.com/path-root-regex".
+verbose 34.740372904 Request "https://registry.yarnpkg.com/stream-exhaust" finished with status code 200.
+verbose 35.015215143 Request "https://registry.yarnpkg.com/copy-descriptor" finished with status code 200.
+verbose 35.499682232 Request "https://registry.yarnpkg.com/path-root-regex" finished with status code 200.
+verbose 35.500585456 Performing "GET" request to "https://registry.yarnpkg.com/gulp-rename".
+verbose 36.40772491 Request "https://registry.yarnpkg.com/gulp-rename" finished with status code 200.
+verbose 36.408987368 Performing "GET" request to "https://registry.yarnpkg.com/module-alias".
+verbose 36.430098719 Request "https://registry.yarnpkg.com/module-alias" finished with status code 200.
+verbose 36.431535991 Performing "GET" request to "https://registry.yarnpkg.com/mongodb".
+verbose 36.46650641 Request "https://registry.yarnpkg.com/mongodb" finished with status code 200.
+verbose 36.468512302 Performing "GET" request to "https://registry.yarnpkg.com/bl".
+verbose 36.468926888 Performing "GET" request to "https://registry.yarnpkg.com/bson".
+verbose 36.469357025 Performing "GET" request to "https://registry.yarnpkg.com/denque".
+verbose 36.469810724 Performing "GET" request to "https://registry.yarnpkg.com/optional-require".
+verbose 36.470622615 Performing "GET" request to "https://registry.yarnpkg.com/saslprep".
+verbose 36.495030964 Request "https://registry.yarnpkg.com/optional-require" finished with status code 200.
+verbose 36.495712065 Performing "GET" request to "https://registry.yarnpkg.com/require-at".
+verbose 36.4967892 Request "https://registry.yarnpkg.com/bl" finished with status code 200.
+verbose 36.502251992 Request "https://registry.yarnpkg.com/bson" finished with status code 200.
+verbose 36.503466495 Request "https://registry.yarnpkg.com/saslprep" finished with status code 200.
+verbose 36.504133629 Performing "GET" request to "https://registry.yarnpkg.com/sparse-bitfield".
+verbose 36.505485857 Request "https://registry.yarnpkg.com/denque" finished with status code 200.
+verbose 36.514037254 Request "https://registry.yarnpkg.com/require-at" finished with status code 200.
+verbose 36.547777429 Request "https://registry.yarnpkg.com/sparse-bitfield" finished with status code 200.
+verbose 36.548491622 Performing "GET" request to "https://registry.yarnpkg.com/memory-pager".
+verbose 36.568912843 Request "https://registry.yarnpkg.com/memory-pager" finished with status code 200.
+verbose 36.570738771 Performing "GET" request to "https://registry.yarnpkg.com/morgan".
+verbose 36.593649587 Request "https://registry.yarnpkg.com/morgan" finished with status code 200.
+verbose 36.594744535 Performing "GET" request to "https://registry.yarnpkg.com/basic-auth".
+verbose 36.644757467 Request "https://registry.yarnpkg.com/basic-auth" finished with status code 200.
+[91mwarning multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0mverbose 36.65226917 Performing "GET" request to "https://registry.yarnpkg.com/mysql".
+verbose 36.671550547 Request "https://registry.yarnpkg.com/mysql" finished with status code 200.
+verbose 36.673559053 Performing "GET" request to "https://registry.yarnpkg.com/sqlstring".
+verbose 36.691372914 Request "https://registry.yarnpkg.com/sqlstring" finished with status code 200.
+verbose 36.692151605 Performing "GET" request to "https://registry.yarnpkg.com/pg".
+verbose 36.716384593 Request "https://registry.yarnpkg.com/pg" finished with status code 200.
+verbose 36.718257368 Performing "GET" request to "https://registry.yarnpkg.com/buffer-writer".
+verbose 36.718920349 Performing "GET" request to "https://registry.yarnpkg.com/packet-reader".
+verbose 36.719426857 Performing "GET" request to "https://registry.yarnpkg.com/pg-connection-string".
+verbose 36.720125346 Performing "GET" request to "https://registry.yarnpkg.com/pg-pool".
+verbose 36.720669341 Performing "GET" request to "https://registry.yarnpkg.com/pg-protocol".
+verbose 36.721217391 Performing "GET" request to "https://registry.yarnpkg.com/pg-types".
+verbose 36.721829353 Performing "GET" request to "https://registry.yarnpkg.com/pgpass".
+verbose 36.739045044 Request "https://registry.yarnpkg.com/packet-reader" finished with status code 200.
+verbose 36.741015047 Request "https://registry.yarnpkg.com/buffer-writer" finished with status code 200.
+verbose 36.742106579 Request "https://registry.yarnpkg.com/pg-pool" finished with status code 200.
+verbose 36.74430378 Request "https://registry.yarnpkg.com/pgpass" finished with status code 200.
+verbose 36.74500618 Performing "GET" request to "https://registry.yarnpkg.com/split2".
+verbose 36.745811558 Request "https://registry.yarnpkg.com/pg-connection-string" finished with status code 200.
+verbose 36.747627993 Request "https://registry.yarnpkg.com/pg-protocol" finished with status code 200.
+verbose 36.760997628 Request "https://registry.yarnpkg.com/pg-types" finished with status code 200.
+verbose 36.76204766 Performing "GET" request to "https://registry.yarnpkg.com/pg-int8".
+verbose 36.762557795 Performing "GET" request to "https://registry.yarnpkg.com/postgres-array".
+verbose 36.763056078 Performing "GET" request to "https://registry.yarnpkg.com/postgres-bytea".
+verbose 36.763564748 Performing "GET" request to "https://registry.yarnpkg.com/postgres-date".
+verbose 36.764068002 Performing "GET" request to "https://registry.yarnpkg.com/postgres-interval".
+verbose 36.766566852 Request "https://registry.yarnpkg.com/split2" finished with status code 200.
+verbose 36.779799623 Request "https://registry.yarnpkg.com/postgres-date" finished with status code 200.
+verbose 36.783375715 Request "https://registry.yarnpkg.com/pg-int8" finished with status code 200.
+verbose 36.785496632 Request "https://registry.yarnpkg.com/postgres-interval" finished with status code 200.
+verbose 36.792692505 Request "https://registry.yarnpkg.com/postgres-array" finished with status code 200.
+verbose 37.651418863 Request "https://registry.yarnpkg.com/postgres-bytea" finished with status code 200.
+verbose 37.652468116 Performing "GET" request to "https://registry.yarnpkg.com/redis".
+verbose 37.684221046 Request "https://registry.yarnpkg.com/redis" finished with status code 200.
+verbose 37.685508308 Performing "GET" request to "https://registry.yarnpkg.com/redis-commands".
+verbose 37.685993771 Performing "GET" request to "https://registry.yarnpkg.com/redis-errors".
+verbose 37.686433087 Performing "GET" request to "https://registry.yarnpkg.com/redis-parser".
+verbose 37.711442737 Request "https://registry.yarnpkg.com/redis-errors" finished with status code 200.
+verbose 37.961570505 Request "https://registry.yarnpkg.com/redis-parser" finished with status code 200.
+verbose 38.629797632 Request "https://registry.yarnpkg.com/redis-commands" finished with status code 200.
+verbose 38.630754097 Performing "GET" request to "https://registry.yarnpkg.com/reflect-metadata".
+verbose 38.652730551 Request "https://registry.yarnpkg.com/reflect-metadata" finished with status code 200.
+verbose 38.653840281 Performing "GET" request to "https://registry.yarnpkg.com/rxjs".
+verbose 38.695018514 Request "https://registry.yarnpkg.com/rxjs" finished with status code 200.
+verbose 38.696806747 Performing "GET" request to "https://registry.yarnpkg.com/shortid".
+verbose 38.79937267 Request "https://registry.yarnpkg.com/shortid" finished with status code 200.
+verbose 38.800452178 Performing "GET" request to "https://registry.yarnpkg.com/nanoid".
+verbose 38.826839588 Request "https://registry.yarnpkg.com/nanoid" finished with status code 200.
+verbose 38.828173379 Performing "GET" request to "https://registry.yarnpkg.com/socket.io".
+verbose 38.849267589 Request "https://registry.yarnpkg.com/socket.io" finished with status code 200.
+verbose 38.850807648 Performing "GET" request to "https://registry.yarnpkg.com/engine.io".
+verbose 38.85119956 Performing "GET" request to "https://registry.yarnpkg.com/has-binary2".
+verbose 38.85159714 Performing "GET" request to "https://registry.yarnpkg.com/socket.io-adapter".
+verbose 38.851964154 Performing "GET" request to "https://registry.yarnpkg.com/socket.io-client".
+verbose 38.85243198 Performing "GET" request to "https://registry.yarnpkg.com/socket.io-parser".
+[91mwarning socket.io > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0mverbose 38.870899659 Request "https://registry.yarnpkg.com/socket.io-adapter" finished with status code 200.
+verbose 38.873427011 Request "https://registry.yarnpkg.com/engine.io" finished with status code 200.
+verbose 38.87484333 Performing "GET" request to "https://registry.yarnpkg.com/base64id".
+verbose 38.87561067 Performing "GET" request to "https://registry.yarnpkg.com/engine.io-parser".
+verbose 38.875976275 Performing "GET" request to "https://registry.yarnpkg.com/ws".
+[91mwarning socket.io > engine.io > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0mverbose 38.878361397 Request "https://registry.yarnpkg.com/socket.io-parser" finished with status code 200.
+[91mwarning socket.io > socket.io-parser > debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0mverbose 38.882736371 Request "https://registry.yarnpkg.com/socket.io-client" finished with status code 200.
+verbose 38.88405173 Performing "GET" request to "https://registry.yarnpkg.com/backo2".
+verbose 38.884448891 Performing "GET" request to "https://registry.yarnpkg.com/component-bind".
+verbose 38.885084514 Performing "GET" request to "https://registry.yarnpkg.com/engine.io-client".
+verbose 38.885603743 Performing "GET" request to "https://registry.yarnpkg.com/indexof".
+verbose 38.896747893 Request "https://registry.yarnpkg.com/ws" finished with status code 200.
+verbose 38.897000135 Performing "GET" request to "https://registry.yarnpkg.com/parseqs".
+verbose 38.898520416 Request "https://registry.yarnpkg.com/base64id" finished with status code 200.
+verbose 38.898763555 Performing "GET" request to "https://registry.yarnpkg.com/parseuri".
+verbose 38.904158614 Request "https://registry.yarnpkg.com/indexof" finished with status code 200.
+verbose 38.904413047 Performing "GET" request to "https://registry.yarnpkg.com/to-array".
+verbose 38.906824531 Request "https://registry.yarnpkg.com/has-binary2" finished with status code 200.
+verbose 38.907856335 Request "https://registry.yarnpkg.com/component-bind" finished with status code 200.
+verbose 38.914186476 Request "https://registry.yarnpkg.com/engine.io-client" finished with status code 200.
+verbose 38.91590532 Performing "GET" request to "https://registry.yarnpkg.com/component-inherit".
+verbose 38.916566397 Performing "GET" request to "https://registry.yarnpkg.com/has-cors".
+verbose 38.917544001 Performing "GET" request to "https://registry.yarnpkg.com/xmlhttprequest-ssl".
+verbose 38.919539219 Request "https://registry.yarnpkg.com/backo2" finished with status code 200.
+verbose 38.919788552 Performing "GET" request to "https://registry.yarnpkg.com/yeast".
+verbose 38.923900032 Request "https://registry.yarnpkg.com/to-array" finished with status code 200.
+verbose 38.935218085 Request "https://registry.yarnpkg.com/has-cors" finished with status code 200.
+verbose 38.950657153 Request "https://registry.yarnpkg.com/yeast" finished with status code 200.
+verbose 38.952095885 Request "https://registry.yarnpkg.com/component-inherit" finished with status code 200.
+verbose 39.178506343 Request "https://registry.yarnpkg.com/xmlhttprequest-ssl" finished with status code 200.
+verbose 39.762176525 Request "https://registry.yarnpkg.com/parseqs" finished with status code 200.
+verbose 39.805471384 Request "https://registry.yarnpkg.com/parseuri" finished with status code 200.
+verbose 39.807234586 Request "https://registry.yarnpkg.com/engine.io-parser" finished with status code 200.
+verbose 39.809950451 Performing "GET" request to "https://registry.yarnpkg.com/after".
+verbose 39.810455124 Performing "GET" request to "https://registry.yarnpkg.com/arraybuffer.slice".
+verbose 39.810950617 Performing "GET" request to "https://registry.yarnpkg.com/base64-arraybuffer".
+verbose 39.811432183 Performing "GET" request to "https://registry.yarnpkg.com/blob".
+verbose 39.829562516 Request "https://registry.yarnpkg.com/after" finished with status code 200.
+verbose 39.834226296 Request "https://registry.yarnpkg.com/base64-arraybuffer" finished with status code 200.
+verbose 39.835088185 Request "https://registry.yarnpkg.com/arraybuffer.slice" finished with status code 200.
+verbose 40.68720157 Request "https://registry.yarnpkg.com/blob" finished with status code 200.
+verbose 40.688180277 Performing "GET" request to "https://registry.yarnpkg.com/sqs-consumer".
+verbose 40.936232643 Request "https://registry.yarnpkg.com/sqs-consumer" finished with status code 200.
+verbose 40.938668211 Performing "GET" request to "https://registry.yarnpkg.com/swagger-ui-express".
+verbose 41.83136636 Request "https://registry.yarnpkg.com/swagger-ui-express" finished with status code 200.
+verbose 41.832335673 Performing "GET" request to "https://registry.yarnpkg.com/swagger-ui-dist".
+verbose 41.855814861 Request "https://registry.yarnpkg.com/swagger-ui-dist" finished with status code 200.
+verbose 41.856683714 Performing "GET" request to "https://registry.yarnpkg.com/typeorm".
+verbose 41.914611622 Request "https://registry.yarnpkg.com/typeorm" finished with status code 200.
+verbose 41.925716259 Performing "GET" request to "https://registry.yarnpkg.com/@sqltools%2fformatter".
+verbose 41.92652843 Performing "GET" request to "https://registry.yarnpkg.com/app-root-path".
+verbose 41.927967268 Performing "GET" request to "https://registry.yarnpkg.com/cli-highlight".
+verbose 41.929546018 Performing "GET" request to "https://registry.yarnpkg.com/sha.js".
+verbose 41.930485416 Performing "GET" request to "https://registry.yarnpkg.com/zen-observable-ts".
+verbose 41.961008309 Request "https://registry.yarnpkg.com/zen-observable-ts" finished with status code 200.
+verbose 41.962013134 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fzen-observable".
+verbose 41.962412636 Performing "GET" request to "https://registry.yarnpkg.com/zen-observable".
+verbose 41.963627133 Request "https://registry.yarnpkg.com/sha.js" finished with status code 200.
+verbose 41.964920348 Request "https://registry.yarnpkg.com/app-root-path" finished with status code 200.
+verbose 41.966008549 Request "https://registry.yarnpkg.com/cli-highlight" finished with status code 200.
+verbose 41.967107588 Performing "GET" request to "https://registry.yarnpkg.com/highlight.js".
+verbose 41.967488378 Performing "GET" request to "https://registry.yarnpkg.com/mz".
+verbose 41.967848671 Performing "GET" request to "https://registry.yarnpkg.com/parse5".
+verbose 41.968232691 Performing "GET" request to "https://registry.yarnpkg.com/parse5-htmlparser2-tree-adapter".
+verbose 41.983812583 Request "https://registry.yarnpkg.com/parse5-htmlparser2-tree-adapter" finished with status code 200.
+verbose 41.985226512 Request "https://registry.yarnpkg.com/parse5" finished with status code 200.
+verbose 41.987504613 Request "https://registry.yarnpkg.com/@types%2fzen-observable" finished with status code 200.
+verbose 41.990300737 Request "https://registry.yarnpkg.com/highlight.js" finished with status code 200.
+verbose 42.177662835 Request "https://registry.yarnpkg.com/@sqltools%2fformatter" finished with status code 200.
+verbose 42.850839659 Request "https://registry.yarnpkg.com/mz" finished with status code 200.
+verbose 42.851879052 Performing "GET" request to "https://registry.yarnpkg.com/any-promise".
+verbose 42.852418424 Performing "GET" request to "https://registry.yarnpkg.com/thenify-all".
+verbose 42.871616309 Request "https://registry.yarnpkg.com/thenify-all" finished with status code 200.
+verbose 42.872286897 Performing "GET" request to "https://registry.yarnpkg.com/thenify".
+verbose 42.874444869 Request "https://registry.yarnpkg.com/any-promise" finished with status code 200.
+verbose 42.888805013 Request "https://registry.yarnpkg.com/zen-observable" finished with status code 200.
+verbose 42.891896117 Request "https://registry.yarnpkg.com/thenify" finished with status code 200.
+verbose 42.893337606 Performing "GET" request to "https://registry.yarnpkg.com/winston".
+verbose 42.912617695 Request "https://registry.yarnpkg.com/winston" finished with status code 200.
+verbose 42.914029799 Performing "GET" request to "https://registry.yarnpkg.com/@dabh%2fdiagnostics".
+verbose 42.914500676 Performing "GET" request to "https://registry.yarnpkg.com/@colors%2fcolors".
+verbose 42.914940819 Performing "GET" request to "https://registry.yarnpkg.com/async".
+verbose 42.915473442 Performing "GET" request to "https://registry.yarnpkg.com/logform".
+verbose 42.915799848 Performing "GET" request to "https://registry.yarnpkg.com/one-time".
+verbose 42.916254569 Performing "GET" request to "https://registry.yarnpkg.com/safe-stable-stringify".
+verbose 42.916713336 Performing "GET" request to "https://registry.yarnpkg.com/triple-beam".
+verbose 42.917041974 Performing "GET" request to "https://registry.yarnpkg.com/winston-transport".
+verbose 42.935830829 Request "https://registry.yarnpkg.com/triple-beam" finished with status code 200.
+verbose 42.93847934 Request "https://registry.yarnpkg.com/safe-stable-stringify" finished with status code 200.
+verbose 42.941259497 Request "https://registry.yarnpkg.com/one-time" finished with status code 200.
+verbose 42.942173963 Performing "GET" request to "https://registry.yarnpkg.com/fn.name".
+verbose 42.94365546 Request "https://registry.yarnpkg.com/winston-transport" finished with status code 200.
+verbose 42.946517563 Request "https://registry.yarnpkg.com/logform" finished with status code 200.
+verbose 42.948182007 Performing "GET" request to "https://registry.yarnpkg.com/fecha".
+verbose 42.952101205 Request "https://registry.yarnpkg.com/async" finished with status code 200.
+verbose 42.975318829 Request "https://registry.yarnpkg.com/@colors%2fcolors" finished with status code 200.
+verbose 42.983340111 Request "https://registry.yarnpkg.com/@dabh%2fdiagnostics" finished with status code 200.
+verbose 42.984522802 Performing "GET" request to "https://registry.yarnpkg.com/colorspace".
+verbose 42.984991379 Performing "GET" request to "https://registry.yarnpkg.com/enabled".
+verbose 42.985490374 Performing "GET" request to "https://registry.yarnpkg.com/kuler".
+verbose 42.990721627 Request "https://registry.yarnpkg.com/fecha" finished with status code 200.
+verbose 43.004373893 Request "https://registry.yarnpkg.com/colorspace" finished with status code 200.
+verbose 43.005197493 Performing "GET" request to "https://registry.yarnpkg.com/color".
+verbose 43.005677739 Performing "GET" request to "https://registry.yarnpkg.com/text-hex".
+verbose 43.006714692 Request "https://registry.yarnpkg.com/enabled" finished with status code 200.
+verbose 43.025047683 Request "https://registry.yarnpkg.com/text-hex" finished with status code 200.
+verbose 43.061013074 Request "https://registry.yarnpkg.com/fn.name" finished with status code 200.
+verbose 43.236947921 Request "https://registry.yarnpkg.com/kuler" finished with status code 200.
+verbose 43.924939439 Request "https://registry.yarnpkg.com/color" finished with status code 200.
+verbose 43.926570189 Performing "GET" request to "https://registry.yarnpkg.com/color-string".
+verbose 43.965570863 Request "https://registry.yarnpkg.com/color-string" finished with status code 200.
+verbose 43.966521494 Performing "GET" request to "https://registry.yarnpkg.com/simple-swizzle".
+verbose 43.99574472 Request "https://registry.yarnpkg.com/simple-swizzle" finished with status code 200.
+verbose 43.996806122 Performing "GET" request to "https://registry.yarnpkg.com/winston-cloudwatch".
+verbose 44.904428632 Request "https://registry.yarnpkg.com/winston-cloudwatch" finished with status code 200.
+verbose 44.906512954 Performing "GET" request to "https://registry.yarnpkg.com/lodash.assign".
+verbose 44.906939278 Performing "GET" request to "https://registry.yarnpkg.com/lodash.find".
+verbose 44.907349178 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isempty".
+verbose 44.90771915 Performing "GET" request to "https://registry.yarnpkg.com/lodash.iserror".
+verbose 44.908190008 Performing "GET" request to "https://registry.yarnpkg.com/proxy-agent".
+verbose 44.927258841 Request "https://registry.yarnpkg.com/lodash.assign" finished with status code 200.
+verbose 44.938280701 Request "https://registry.yarnpkg.com/lodash.isempty" finished with status code 200.
+verbose 45.776960413 Request "https://registry.yarnpkg.com/proxy-agent" finished with status code 200.
+verbose 45.778958246 Performing "GET" request to "https://registry.yarnpkg.com/pac-proxy-agent".
+verbose 45.779314564 Performing "GET" request to "https://registry.yarnpkg.com/proxy-from-env".
+verbose 45.7796528 Performing "GET" request to "https://registry.yarnpkg.com/socks-proxy-agent".
+verbose 45.801462678 Request "https://registry.yarnpkg.com/socks-proxy-agent" finished with status code 200.
+verbose 45.802701164 Performing "GET" request to "https://registry.yarnpkg.com/socks".
+verbose 45.806574206 Request "https://registry.yarnpkg.com/pac-proxy-agent" finished with status code 200.
+verbose 45.808389654 Performing "GET" request to "https://registry.yarnpkg.com/get-uri".
+verbose 45.808987016 Performing "GET" request to "https://registry.yarnpkg.com/pac-resolver".
+verbose 45.822790545 Request "https://registry.yarnpkg.com/socks" finished with status code 200.
+verbose 45.8234745 Performing "GET" request to "https://registry.yarnpkg.com/ip".
+verbose 45.823839964 Performing "GET" request to "https://registry.yarnpkg.com/smart-buffer".
+verbose 45.833904376 Request "https://registry.yarnpkg.com/get-uri" finished with status code 200.
+verbose 45.835036474 Performing "GET" request to "https://registry.yarnpkg.com/data-uri-to-buffer".
+verbose 45.835641811 Performing "GET" request to "https://registry.yarnpkg.com/fs-extra".
+verbose 45.837152572 Request "https://registry.yarnpkg.com/lodash.iserror" finished with status code 200.
+verbose 45.837361637 Performing "GET" request to "https://registry.yarnpkg.com/ftp".
+verbose 45.838833055 Request "https://registry.yarnpkg.com/pac-resolver" finished with status code 200.
+verbose 45.839632541 Performing "GET" request to "https://registry.yarnpkg.com/degenerator".
+verbose 45.842327647 Request "https://registry.yarnpkg.com/ip" finished with status code 200.
+verbose 45.842594099 Performing "GET" request to "https://registry.yarnpkg.com/netmask".
+verbose 45.844282002 Request "https://registry.yarnpkg.com/smart-buffer" finished with status code 200.
+verbose 45.854043447 Request "https://registry.yarnpkg.com/lodash.find" finished with status code 200.
+verbose 45.858531859 Request "https://registry.yarnpkg.com/data-uri-to-buffer" finished with status code 200.
+verbose 45.866207073 Request "https://registry.yarnpkg.com/netmask" finished with status code 200.
+verbose 45.868791547 Request "https://registry.yarnpkg.com/degenerator" finished with status code 200.
+verbose 45.869687779 Performing "GET" request to "https://registry.yarnpkg.com/ast-types".
+verbose 45.870085085 Performing "GET" request to "https://registry.yarnpkg.com/escodegen".
+verbose 45.87661283 Request "https://registry.yarnpkg.com/fs-extra" finished with status code 200.
+verbose 45.877848094 Performing "GET" request to "https://registry.yarnpkg.com/jsonfile".
+verbose 45.87822709 Performing "GET" request to "https://registry.yarnpkg.com/universalify".
+verbose 45.890735944 Request "https://registry.yarnpkg.com/escodegen" finished with status code 200.
+verbose 45.891908308 Performing "GET" request to "https://registry.yarnpkg.com/estraverse".
+verbose 45.892259308 Performing "GET" request to "https://registry.yarnpkg.com/esutils".
+verbose 45.892731376 Performing "GET" request to "https://registry.yarnpkg.com/optionator".
+verbose 45.894585591 Request "https://registry.yarnpkg.com/jsonfile" finished with status code 200.
+verbose 45.898048589 Request "https://registry.yarnpkg.com/ast-types" finished with status code 200.
+verbose 45.899793061 Request "https://registry.yarnpkg.com/universalify" finished with status code 200.
+verbose 45.912706114 Request "https://registry.yarnpkg.com/estraverse" finished with status code 200.
+verbose 45.913453529 Request "https://registry.yarnpkg.com/optionator" finished with status code 200.
+verbose 45.914435775 Performing "GET" request to "https://registry.yarnpkg.com/prelude-ls".
+verbose 45.91482824 Performing "GET" request to "https://registry.yarnpkg.com/deep-is".
+verbose 45.915201411 Performing "GET" request to "https://registry.yarnpkg.com/word-wrap".
+verbose 45.915586787 Performing "GET" request to "https://registry.yarnpkg.com/type-check".
+verbose 45.915956816 Performing "GET" request to "https://registry.yarnpkg.com/levn".
+verbose 45.920128584 Request "https://registry.yarnpkg.com/esutils" finished with status code 200.
+verbose 45.937156158 Request "https://registry.yarnpkg.com/type-check" finished with status code 200.
+verbose 45.938106106 Request "https://registry.yarnpkg.com/levn" finished with status code 200.
+verbose 45.939692371 Request "https://registry.yarnpkg.com/word-wrap" finished with status code 200.
+verbose 45.940310691 Request "https://registry.yarnpkg.com/prelude-ls" finished with status code 200.
+verbose 45.953573071 Request "https://registry.yarnpkg.com/deep-is" finished with status code 200.
+verbose 46.666538584 Request "https://registry.yarnpkg.com/proxy-from-env" finished with status code 200.
+verbose 46.755654993 Request "https://registry.yarnpkg.com/ftp" finished with status code 200.
+verbose 46.756914422 Performing "GET" request to "https://registry.yarnpkg.com/xregexp".
+verbose 46.789876339 Request "https://registry.yarnpkg.com/xregexp" finished with status code 200.
+verbose 46.791127678 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fcls-hooked".
+verbose 46.814278103 Request "https://registry.yarnpkg.com/@types%2fcls-hooked" finished with status code 200.
+verbose 46.816654414 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fmoment-timezone".
+verbose 47.938218047 Request "https://registry.yarnpkg.com/@types%2fmoment-timezone" finished with status code 200.
+[91mwarning @types/moment-timezone@0.5.30: This is a stub types definition. moment-timezone provides its own type definitions, so you do not need this installed.
+[0mverbose 47.939761466 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fmorgan".
+verbose 47.980210304 Request "https://registry.yarnpkg.com/@types%2fmorgan" finished with status code 200.
+verbose 47.981463151 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fmulter".
+verbose 48.006786337 Request "https://registry.yarnpkg.com/@types%2fmulter" finished with status code 200.
+verbose 48.01064741 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fredis".
+verbose 49.803943479 Request "https://registry.yarnpkg.com/@types%2fredis" finished with status code 200.
+verbose 49.805804398 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fsocket.io".
+verbose 50.980464402 Request "https://registry.yarnpkg.com/@types%2fsocket.io" finished with status code 200.
+verbose 50.981650232 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fengine.io".
+verbose 50.982259523 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fsocket.io-parser".
+verbose 52.157809988 Request "https://registry.yarnpkg.com/@types%2fsocket.io-parser" finished with status code 200.
+[91mwarning @types/socket.io > @types/socket.io-parser@3.0.0: This is a stub types definition. socket.io-parser provides its own type definitions, so you do not need this installed.
+[0mverbose 52.160173148 Performing "GET" request to "https://registry.yarnpkg.com/@socket.io%2fcomponent-emitter".
+verbose 52.204592531 Request "https://registry.yarnpkg.com/@socket.io%2fcomponent-emitter" finished with status code 200.
+verbose 52.711548122 Request "https://registry.yarnpkg.com/@types%2fengine.io" finished with status code 200.
+verbose 52.713300881 Performing "GET" request to "https://registry.yarnpkg.com/@types%2fuuid".
+verbose 52.740897149 Request "https://registry.yarnpkg.com/@types%2fuuid" finished with status code 200.
+verbose 52.742706678 Performing "GET" request to "https://registry.yarnpkg.com/cross-env".
+verbose 52.764394948 Request "https://registry.yarnpkg.com/cross-env" finished with status code 200.
+verbose 52.766180613 Performing "GET" request to "https://registry.yarnpkg.com/cross-spawn".
+verbose 52.784822683 Request "https://registry.yarnpkg.com/cross-spawn" finished with status code 200.
+verbose 52.785873783 Performing "GET" request to "https://registry.yarnpkg.com/path-key".
+verbose 52.78632223 Performing "GET" request to "https://registry.yarnpkg.com/shebang-command".
+verbose 52.806057814 Request "https://registry.yarnpkg.com/shebang-command" finished with status code 200.
+verbose 52.80683873 Performing "GET" request to "https://registry.yarnpkg.com/shebang-regex".
+verbose 52.810000371 Request "https://registry.yarnpkg.com/path-key" finished with status code 200.
+verbose 52.826326145 Request "https://registry.yarnpkg.com/shebang-regex" finished with status code 200.
+verbose 52.827096962 Performing "GET" request to "https://registry.yarnpkg.com/nodemon".
+verbose 52.855261313 Request "https://registry.yarnpkg.com/nodemon" finished with status code 200.
+verbose 52.857027008 Performing "GET" request to "https://registry.yarnpkg.com/ignore-by-default".
+verbose 52.857669458 Performing "GET" request to "https://registry.yarnpkg.com/pstree.remy".
+verbose 52.859480404 Performing "GET" request to "https://registry.yarnpkg.com/simple-update-notifier".
+verbose 52.860088078 Performing "GET" request to "https://registry.yarnpkg.com/touch".
+verbose 52.860489885 Performing "GET" request to "https://registry.yarnpkg.com/undefsafe".
+verbose 52.87694383 Performing "GET" request to "https://registry.yarnpkg.com/picomatch".
+verbose 52.901414004 Request "https://registry.yarnpkg.com/simple-update-notifier" finished with status code 200.
+verbose 52.903282577 Request "https://registry.yarnpkg.com/touch" finished with status code 200.
+verbose 52.905478514 Request "https://registry.yarnpkg.com/picomatch" finished with status code 200.
+verbose 52.906409406 Request "https://registry.yarnpkg.com/ignore-by-default" finished with status code 200.
+verbose 52.907605268 Request "https://registry.yarnpkg.com/undefsafe" finished with status code 200.
+verbose 52.922693187 Request "https://registry.yarnpkg.com/pstree.remy" finished with status code 200.
+verbose 52.924343604 Performing "GET" request to "https://registry.yarnpkg.com/typescript".
+verbose 53.041308401 Request "https://registry.yarnpkg.com/typescript" finished with status code 200.
+[2/4] Fetching packages...
+verbose 53.277501168 Performing "GET" request to "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz".
+verbose 53.296992431 Performing "GET" request to "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz".
+verbose 53.299658749 Performing "GET" request to "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz".
+verbose 53.301249942 Performing "GET" request to "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz".
+verbose 53.303135906 Performing "GET" request to "https://registry.yarnpkg.com/iterare/-/iterare-1.2.1.tgz".
+verbose 53.314593675 Performing "GET" request to "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz".
+verbose 53.324433523 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/common/-/common-7.6.18.tgz".
+verbose 53.32629326 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/core/-/core-7.6.18.tgz".
+verbose 53.423137776 Performing "GET" request to "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-3.2.0.tgz".
+verbose 53.439586234 Performing "GET" request to "https://registry.yarnpkg.com/object-hash/-/object-hash-2.1.1.tgz".
+verbose 53.44459936 Performing "GET" request to "https://registry.yarnpkg.com/@nuxtjs/opencollective/-/opencollective-0.3.2.tgz".
+verbose 53.481397299 Performing "GET" request to "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz".
+verbose 53.519800691 Performing "GET" request to "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz".
+verbose 53.554290157 Performing "GET" request to "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-4.3.0.tgz".
+verbose 53.560516861 Performing "GET" request to "https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz".
+verbose 53.605692704 Performing "GET" request to "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz".
+verbose 53.616846703 Performing "GET" request to "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz".
+verbose 53.635718214 Performing "GET" request to "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz".
+verbose 53.6968648 Performing "GET" request to "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz".
+verbose 53.701941411 Performing "GET" request to "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz".
+verbose 53.711996758 Performing "GET" request to "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz".
+verbose 53.761866797 Performing "GET" request to "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz".
+verbose 53.77371094 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-7.6.18.tgz".
+verbose 53.777762205 Performing "GET" request to "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz".
+verbose 53.786399982 Performing "GET" request to "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz".
+verbose 53.788748284 Performing "GET" request to "https://registry.yarnpkg.com/multer/-/multer-1.4.2.tgz".
+verbose 53.795192499 Performing "GET" request to "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz".
+verbose 53.806217248 Performing "GET" request to "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz".
+verbose 53.837290984 Performing "GET" request to "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz".
+verbose 53.865647445 Performing "GET" request to "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz".
+verbose 53.867599656 Performing "GET" request to "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz".
+verbose 53.872478422 Performing "GET" request to "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz".
+verbose 53.879235845 Performing "GET" request to "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz".
+verbose 53.882734391 Performing "GET" request to "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz".
+verbose 53.908704297 Performing "GET" request to "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz".
+verbose 53.929418944 Performing "GET" request to "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz".
+verbose 53.932524837 Performing "GET" request to "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.3.tgz".
+verbose 53.943377903 Performing "GET" request to "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz".
+verbose 53.962269864 Performing "GET" request to "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz".
+verbose 53.979205425 Performing "GET" request to "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz".
+verbose 54.00576454 Performing "GET" request to "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz".
+verbose 54.008981782 Performing "GET" request to "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz".
+verbose 54.014781273 Performing "GET" request to "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz".
+verbose 54.023846629 Performing "GET" request to "https://registry.yarnpkg.com/on-finished/-/on-finished-2.4.1.tgz".
+verbose 54.029384956 Performing "GET" request to "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz".
+verbose 54.04216374 Performing "GET" request to "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz".
+verbose 54.069459971 Performing "GET" request to "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz".
+verbose 54.074681268 Performing "GET" request to "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.7.tgz".
+verbose 54.077018632 Performing "GET" request to "https://registry.yarnpkg.com/serve-static/-/serve-static-1.14.1.tgz".
+verbose 54.079216555 Performing "GET" request to "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz".
+verbose 54.091200701 Performing "GET" request to "https://registry.yarnpkg.com/send/-/send-0.17.1.tgz".
+verbose 54.113040758 Performing "GET" request to "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz".
+verbose 54.119577127 Performing "GET" request to "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz".
+verbose 54.122082903 Performing "GET" request to "https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz".
+verbose 54.12357494 Performing "GET" request to "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz".
+verbose 54.134935116 Performing "GET" request to "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz".
+verbose 54.161404215 Performing "GET" request to "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz".
+verbose 54.166206665 Performing "GET" request to "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.6.tgz".
+verbose 54.172813573 Performing "GET" request to "https://registry.yarnpkg.com/busboy/-/busboy-0.2.14.tgz".
+verbose 54.190454469 Performing "GET" request to "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.2.tgz".
+verbose 54.191670304 Performing "GET" request to "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz".
+verbose 54.22722012 Performing "GET" request to "https://registry.yarnpkg.com/append-field/-/append-field-1.0.0.tgz".
+verbose 54.237733112 Performing "GET" request to "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz".
+verbose 54.245334225 Performing "GET" request to "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz".
+verbose 54.247656595 Performing "GET" request to "https://registry.yarnpkg.com/http-errors/-/http-errors-1.7.2.tgz".
+verbose 54.24992414 Performing "GET" request to "https://registry.yarnpkg.com/http-errors/-/http-errors-1.7.3.tgz".
+verbose 54.309880549 Performing "GET" request to "https://registry.yarnpkg.com/raw-body/-/raw-body-2.4.0.tgz".
+verbose 54.316671837 Performing "GET" request to "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz".
+verbose 54.321976706 Performing "GET" request to "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz".
+verbose 54.324159355 Performing "GET" request to "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz".
+verbose 54.328625911 Performing "GET" request to "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz".
+verbose 54.338939536 Performing "GET" request to "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz".
+verbose 54.36344262 Performing "GET" request to "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz".
+verbose 54.37924864 Performing "GET" request to "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz".
+verbose 54.387128583 Performing "GET" request to "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz".
+verbose 54.391356437 Performing "GET" request to "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz".
+verbose 54.428042438 Performing "GET" request to "https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz".
+verbose 54.432906026 Performing "GET" request to "https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz".
+verbose 54.441264697 Performing "GET" request to "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz".
+verbose 54.444373928 Performing "GET" request to "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz".
+verbose 54.454722113 Performing "GET" request to "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz".
+verbose 54.476222844 Performing "GET" request to "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz".
+verbose 54.513858747 Performing "GET" request to "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz".
+verbose 54.526392149 Performing "GET" request to "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.7.tgz".
+verbose 54.528145303 Performing "GET" request to "https://registry.yarnpkg.com/dicer/-/dicer-0.2.5.tgz".
+verbose 54.537837789 Performing "GET" request to "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz".
+verbose 54.55253175 Performing "GET" request to "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz".
+verbose 54.602179845 Performing "GET" request to "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz".
+verbose 54.612887562 Performing "GET" request to "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz".
+verbose 54.617999798 Performing "GET" request to "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz".
+verbose 54.629914913 Performing "GET" request to "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz".
+verbose 54.669219758 Performing "GET" request to "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz".
+verbose 54.674820386 Performing "GET" request to "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz".
+verbose 54.680466436 Performing "GET" request to "https://registry.yarnpkg.com/streamsearch/-/streamsearch-0.1.2.tgz".
+verbose 54.688663931 Performing "GET" request to "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz".
+verbose 54.695318613 Performing "GET" request to "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz".
+verbose 54.723748197 Performing "GET" request to "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz".
+verbose 54.727027731 Performing "GET" request to "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz".
+verbose 54.735080813 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/schedule/-/schedule-0.4.3.tgz".
+verbose 54.740624987 Performing "GET" request to "https://registry.yarnpkg.com/cron/-/cron-1.7.2.tgz".
+verbose 54.7486137 Performing "GET" request to "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.40.tgz".
+verbose 54.769607428 Performing "GET" request to "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz".
+verbose 54.776247708 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/swagger/-/swagger-4.8.2.tgz".
+verbose 54.828610267 Performing "GET" request to "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz".
+verbose 54.913743893 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-0.4.1.tgz".
+verbose 54.953979832 Performing "GET" request to "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-7.1.5.tgz".
+verbose 54.966334412 Performing "GET" request to "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz".
+verbose 55.342494881 Performing "GET" request to "https://registry.yarnpkg.com/@slack/events-api/-/events-api-2.3.4.tgz".
+verbose 55.578082706 Performing "GET" request to "https://registry.yarnpkg.com/raw-body/-/raw-body-2.5.1.tgz".
+verbose 55.608116414 Performing "GET" request to "https://registry.yarnpkg.com/express/-/express-4.18.2.tgz".
+verbose 55.643609055 Performing "GET" request to "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz".
+verbose 55.673599156 Performing "GET" request to "https://registry.yarnpkg.com/http-errors/-/http-errors-2.0.0.tgz".
+verbose 55.679439381 Performing "GET" request to "https://registry.yarnpkg.com/body-parser/-/body-parser-1.20.1.tgz".
+verbose 55.715482061 Performing "GET" request to "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.4.tgz".
+verbose 55.729960274 Performing "GET" request to "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz".
+verbose 55.751538701 Performing "GET" request to "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz".
+verbose 55.783351717 Performing "GET" request to "https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.2.0.tgz".
+verbose 55.795561311 Performing "GET" request to "https://registry.yarnpkg.com/qs/-/qs-6.11.0.tgz".
+Aborted by [8mha:////4HY7CwRUKh0EX2b9u1eVXzwzXdi9jM3iVSk6qDi0dm6CAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgY+/dLi1CL95IzMkozEvAwAYD3+JsMAAAA=[0mchi thanh
+Sending interrupt signal to process
+Killing processes
+verbose 55.846728311 Performing "GET" request to "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz".
+verbose 55.852052881 Performing "GET" request to "https://registry.yarnpkg.com/send/-/send-0.18.0.tgz".
+verbose 55.899389429 Performing "GET" request to "https://registry.yarnpkg.com/serve-static/-/serve-static-1.15.0.tgz".
+verbose 55.902322358 Performing "GET" request to "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz".
+verbose 55.907659184 Performing "GET" request to "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz".
+verbose 55.918301723 Performing "GET" request to "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz".
+verbose 55.950017973 Performing "GET" request to "https://registry.yarnpkg.com/destroy/-/destroy-1.2.0.tgz".
+verbose 55.95606183 Performing "GET" request to "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz".
+verbose 55.965154001 Performing "GET" request to "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz".
+verbose 55.966827055 Performing "GET" request to "https://registry.yarnpkg.com/yargs/-/yargs-15.4.1.tgz".
+verbose 55.977472721 Performing "GET" request to "https://registry.yarnpkg.com/tsscmp/-/tsscmp-1.0.6.tgz".
+verbose 56.004553436 Performing "GET" request to "https://registry.yarnpkg.com/@types/express/-/express-4.17.15.tgz".
+verbose 56.021292209 Performing "GET" request to "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz".
+verbose 56.025340647 Performing "GET" request to "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz".
+verbose 56.051973296 Performing "GET" request to "https://registry.yarnpkg.com/cliui/-/cliui-6.0.0.tgz".
+verbose 56.059913831 Performing "GET" request to "https://registry.yarnpkg.com/@types/node/-/node-12.20.55.tgz".
+verbose 56.072202615 Performing "GET" request to "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.14.tgz".
+verbose 56.086712429 Performing "GET" request to "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz".
+kill finished with exit code 0
+verbose 56.107539043 Performing "GET" request to "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz".
+verbose 56.13554989 Performing "GET" request to "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz".
+verbose 56.148204698 Performing "GET" request to "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz".
+verbose 56.16160477 Performing "GET" request to "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz".
+verbose 56.189895478 Performing "GET" request to "https://registry.yarnpkg.com/y18n/-/y18n-4.0.3.tgz".
+verbose 56.197458794 Performing "GET" request to "https://registry.yarnpkg.com/which-module/-/which-module-2.0.0.tgz".
+verbose 56.210702576 Performing "GET" request to "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.3.tgz".
+verbose 56.228298557 Performing "GET" request to "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz".
+verbose 56.243284509 Performing "GET" request to "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz".
+verbose 56.247537744 Performing "GET" request to "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.2.tgz".
+Terminated
+script returned exit code 143
+[8mha:////4KWF0pNJ/YTgi81wLIDe8BTBQ3z1mPj8KllstFNCmlxyAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4CazcmbbifzPIbHe+Ik/gZFi4Bk3E8K9/jhh2OD7cEOQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4D3hmYdxjU8XVFpF+wMM4syXQckhTJwjyPV5jzU3guFpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] }
+[8mha:////4IVv0lYAl42UN0QNk2dev6Cbv1SmF0oGuZL2KJI7qhXBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] // stage
+[8mha:////4O1gOBi8UyHHI5xH6CAOZ4VN+EXF8daooUR5cnErBBInAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAy19XQ69AAAA[0m[Pipeline] echo
+I failed
+[8mha:////4CJIENh3O0YTjsCLxyHbtiT0ro25iqMHilbKJpAivVFfAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA2xMRhe9AAAA[0m[Pipeline] echo
+null
+[8mha:////4GwuIlKQ8JmuMs1nhcRxBWFen6rQNjsj27lNSi8osy3RAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABKdRse9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4EtmJYALdgseWQZnyW+jti5lsAZ1+YkcZZPJ4QL6saC9AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AFOsXd69AAAA[0m[Pipeline] deleteDir
+[8mha:////4Hp3edMkKwg5aefCZhibEoXkhOSzhrbp/L+3csa8FEOeAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9AJD/cPW9AAAA[0m[Pipeline] echo
+I failed :(
+[8mha:////4GBinaipe06RCV6DD9oYqj7DsjO+1Zg7zxE6Ji7FsNY0AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqRdke0Felv0H0c5r7L0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: sabeco-system-notification, color: #c40e0e, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4D0yzqjASiLBUP3xp7fPTKYXEWbUC+4LkDYjy6FOOGm1AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPYk0DhL0AAAA=[0m[Pipeline] }
+[8mha:////4Hri8ykahe0VFgHWRQMeNcWx23u1Mn5IgiupEn61RJHMAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUDpVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAaDVqIL0AAAA=[0m[Pipeline] // node
+[8mha:////4CzeypAV+zJwzszoDzRoZa3vdeUEAkaPko4t0a95rfoLAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPLn/NEL0AAAA=[0m[Pipeline] }
+[8mha:////4H8TGpGPoziHujLRRH1yJT9EJVaQd/u2OaRggkVPMIYOAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvNwLsvIDPcPJs70AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4LJYyEAvMfLZryEIRwtHDx74eeowk1LO3qXbh7i8Oy25AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHpknka9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: ABORTED

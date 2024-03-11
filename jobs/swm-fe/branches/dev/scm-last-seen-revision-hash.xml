@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>dev</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>c88d50470028967f443b2bd5d2cc14e964c1c24d</hash>
+  <message>Remove menu Warehouse Coverage
+</message>
+  <author>tuan88 &lt;tuan.tran@gosmartlog.com&gt;</author>
+  <date>2023-04-15 15:32:17.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

@@ -1,0 +1,42 @@
+Started
+[Mon Mar 22 10:33:16 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/cma-angular-fe for branches
+Checking branch STX-590-filter-name-view-company from smartlogtms/cma-angular-fe
+Checking branch STX-642-filter from smartlogtms/cma-angular-fe
+Checking branch STX-703-Fix-CSS from smartlogtms/cma-angular-fe
+Checking branch STX-713-Add-Column-Report from smartlogtms/cma-angular-fe
+Checking branch STX-721-Show-Area-Create-Request-View from smartlogtms/cma-angular-fe
+Checking branch Update-Dashboard-And-UserGuide from smartlogtms/cma-angular-fe
+Checking branch angular_v9 from smartlogtms/cma-angular-fe
+Checking branch dashboard from smartlogtms/cma-angular-fe
+Checking branch dev from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at b31ca07a8e2fc562088a40c10f46aadf10f8d5b0)
+Checking branch dev-fix from smartlogtms/cma-angular-fe
+Checking branch dev-fix001 from smartlogtms/cma-angular-fe
+Checking branch dev-hoangvantu from smartlogtms/cma-angular-fe
+Checking branch dev-region from smartlogtms/cma-angular-fe
+Checking branch dev-tuhoang from smartlogtms/cma-angular-fe
+Checking branch dev-tuhv from smartlogtms/cma-angular-fe
+Checking branch feature/Log-default-filter from smartlogtms/cma-angular-fe
+Checking branch fix-mtmovefee from smartlogtms/cma-angular-fe
+Checking branch fix_black_list from smartlogtms/cma-angular-fe
+Checking branch fix_bug from smartlogtms/cma-angular-fe
+Checking branch fix_bug_register from smartlogtms/cma-angular-fe
+Checking branch master from smartlogtms/cma-angular-fe
+Checking branch mtmove-fee from smartlogtms/cma-angular-fe
+Checking branch production from smartlogtms/cma-angular-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: production (still at b31ca07a8e2fc562088a40c10f46aadf10f8d5b0)
+Checking branch stx from smartlogtms/cma-angular-fe
+
+  24 branches were processed
+Looking up smartlogtms/cma-angular-fe for pull requests
+
+  0 pull requests were processed
+[Mon Mar 22 10:33:20 UTC 2021] Finished branch indexing. Indexing took 3.9 sec
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>master</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>ba6669b177b3725e6201125ce4dbfd42e8232994</hash>
+  <message>Merged in feature/TMS-3656 (pull request #13684)
+
+Feature/TMS-3656</message>
+  <author>Alex Huynh &lt;alex7huynh@gmail.com&gt;</author>
+  <date>2023-04-15 02:53:03.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

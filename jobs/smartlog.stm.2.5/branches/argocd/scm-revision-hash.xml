@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>argocd</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>e01e8f4b914edc919d39d562f10b923999aa3470</hash>
+  <message>add dotnet restore
+</message>
+  <author>thanhnc &lt;thanh.nc@gosmartlog.com&gt;</author>
+  <date>2023-02-15 08:26:25.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

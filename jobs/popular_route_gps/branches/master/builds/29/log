@@ -1,0 +1,395 @@
+Branch event
+Obtained Jenkinsfile from 9a1a49a5b0cb22bd44614892901f90fecc72c2de
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Created Pod: kubernetes jenkins/common-pod-zspfs-xlt7c
+[Normal][jenkins/common-pod-zspfs-xlt7c][Scheduled] Successfully assigned jenkins/common-pod-zspfs-xlt7c to ip-192-168-150-143.ap-southeast-1.compute.internal
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulling] Pulling image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulled] Successfully pulled image "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2" in 7.261520059s
+[Normal][jenkins/common-pod-zspfs-xlt7c][Created] Created container kubectl
+[Normal][jenkins/common-pod-zspfs-xlt7c][Started] Started container kubectl
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulling] Pulling image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+Still waiting to schedule task
+‘[8mha:////4A22uIXKD+crkgYZz05Ca2/SoXnAg38weIeMof8TDt0AAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZF/eT83ILSktQiECM3P0+3ID9Ft6q4IK1YtyKnxDxZHwAZ6MMV1gAAAA==[0mcommon-pod-zspfs-xlt7c’ is offline
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulled] Successfully pulled image "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190" in 11.394314918s
+[Normal][jenkins/common-pod-zspfs-xlt7c][Created] Created container awscli
+[Normal][jenkins/common-pod-zspfs-xlt7c][Started] Started container awscli
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulling] Pulling image "public.ecr.aws/smartlog/docker:19.03.8"
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulled] Successfully pulled image "public.ecr.aws/smartlog/docker:19.03.8" in 14.73988215s
+[Normal][jenkins/common-pod-zspfs-xlt7c][Created] Created container docker
+[Normal][jenkins/common-pod-zspfs-xlt7c][Started] Started container docker
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulling] Pulling image "jenkins/inbound-agent:4.3-4"
+[Normal][jenkins/common-pod-zspfs-xlt7c][Pulled] Successfully pulled image "jenkins/inbound-agent:4.3-4" in 9.530568733s
+[Normal][jenkins/common-pod-zspfs-xlt7c][Created] Created container jnlp
+[Normal][jenkins/common-pod-zspfs-xlt7c][Started] Started container jnlp
+Agent [8mha:////4LixUeuSeG7dz4V8EBmNF6Q/LL1aX8XXonIO23ViNRMFAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9Ft6q4IK1YtyKnxDwZAKewXSDVAAAA[0mcommon-pod-zspfs-xlt7c is provisioned from template common-pod-zspfs
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/popular_route_gps/job/master/29/"
+    runUrl: "job/popular_route_gps/job/master/29/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "e9aee56a0479dc22327d6d0ea4afda5e3c4a2c22"
+    jenkins/label: "common-pod"
+  name: "common-pod-zspfs-xlt7c"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-zspfs-xlt7c"
+    - name: "JENKINS_NAME"
+      value: "common-pod-zspfs-xlt7c"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.3-4"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4A22uIXKD+crkgYZz05Ca2/SoXnAg38weIeMof8TDt0AAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZF/eT83ILSktQiECM3P0+3ID9Ft6q4IK1YtyKnxDxZHwAZ6MMV1gAAAA==[0mcommon-pod-zspfs-xlt7c in /home/jenkins/agent/workspace/popular_route_gps_master
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://bitbucket.org/smartlogtms/popular_route_gps.git
+ > git init /home/jenkins/agent/workspace/popular_route_gps_master # timeout=10
+Fetching upstream changes from https://bitbucket.org/smartlogtms/popular_route_gps.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.20.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://bitbucket.org/smartlogtms/popular_route_gps.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Avoid second fetch
+Checking out Revision 9a1a49a5b0cb22bd44614892901f90fecc72c2de (master)
+ > git config remote.origin.url https://bitbucket.org/smartlogtms/popular_route_gps.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9a1a49a5b0cb22bd44614892901f90fecc72c2de # timeout=10
+Commit message: "hotfix"
+ > git rev-list --no-walk de8bcf0c339503e1e7e41651967eda41dcf6c759 # timeout=10
+[Bitbucket] Notifying commit build result
+[8mha:////4IF2QtGTMKdrFcnxU0MTKnVEbn4NMhhc+vf9cWci4+9/AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8AHk6T5r0AAAA=[0m[Pipeline] }
+[8mha:////4Kh06Pi46J18Xyh6YMZToPU1kMDbyz9IN0fI+nD0clSrAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPXymMMb0AAAA=[0m[Pipeline] // stage
+[8mha:////4IGFyf3GkM5OVRlNqM5xawA3+pug7a3S9wSV6vs6qBdvAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AL8a7++9AAAA[0m[Pipeline] echo
+Process build for master branch
+[8mha:////4L8WXX+r8Fujys4dqutKoSWD08z1LmO94vqHJktnz9NRAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8A2Ef15LBAAAA[0m[Pipeline] stage
+[8mha:////4Blpm/dTvXyK9ZFMIa2hloBtTWJimtIXdOcPniSDbHYKAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] container
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4BCNXPi5S0qKi5zpvJp+IaVx6vxix21bGcW4LS5m3vCgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4HNuZvHPhJzOnDLqEHrwnbz1S3v1CTG+lpYWuuk4QfonAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKoQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N9Jjga++AAAA[0m[Pipeline] }
+[8mha:////4M89+sba7ffu+qHsbBbqhN8rZ1qTvxcUfzvL7Pz/myTCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICFDQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AERGGHOvgAAAA==[0m[Pipeline] // container
+[8mha:////4Pg+whfNdDodDIEG5bJYMuFMVVxae0mgnbEXSkhgU4GWAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohURWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQHeFw+cwgAAAA==[0m[Pipeline] container
+[8mha:////4Biyld1GUC8alAaCxFUhcPEd+p1k7JJeIywwkhhP7j/qAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IgLKfm2gzaUpKIW9f2mFrh0IhZWLBRL+JCxDdBoCuEtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] sh
++ ls -la
+total 2032
+drwxr-xr-x    4 1000     1000          4096 Nov 24 10:08 .
+drwxr-xr-x    4 1000     1000            96 Nov 24 10:08 ..
+-rw-r--r--    1 1000     1000          6148 Nov 24 10:08 .DS_Store
+drwxr-xr-x    8 1000     1000           162 Nov 24 10:08 .git
+-rw-r--r--    1 1000     1000            17 Nov 24 10:08 .gitignore
+-rw-r--r--    1 1000     1000             6 Nov 24 10:08 .python-version
+-rw-r--r--    1 1000     1000           178 Nov 24 10:08 Dockerfile
+-rw-r--r--    1 1000     1000           644 Nov 24 10:08 Dockerfile.buildhub
+-rw-r--r--    1 1000     1000           573 Nov 24 10:08 GPSDistance.py
+-rw-r--r--    1 1000     1000          2816 Nov 24 10:08 Jenkinsfile
+-rw-r--r--    1 1000     1000           198 Nov 24 10:08 README.md
+-rw-r--r--    1 1000     1000       1955356 Nov 24 10:08 data.json
+-rw-r--r--    1 1000     1000          1631 Nov 24 10:08 deploy.yml
+-rw-r--r--    1 1000     1000          4064 Nov 24 10:08 gps_trajectory.py
+-rw-r--r--    1 1000     1000          6378 Nov 24 10:08 gps_trajectory_clustering_ver_1_0.py
+-rw-r--r--    1 1000     1000          6311 Nov 24 10:08 gps_trajectory_v2.py
+-rw-r--r--    1 1000     1000          7211 Nov 24 10:08 gps_trajectory_v3.py
+-rw-r--r--    1 1000     1000         12203 Nov 24 10:08 gps_trajectory_v4.py
+drwxr-xr-x    2 1000     1000            20 Nov 24 10:08 inputs
+-rw-r--r--    1 1000     1000          4097 Nov 24 10:08 main.py
+-rw-r--r--    1 1000     1000           117 Nov 24 10:08 requirements-common.txt
+-rw-r--r--    1 1000     1000            40 Nov 24 10:08 requirements.txt
+-rw-r--r--    1 1000     1000           388 Nov 24 10:08 s3_service.py
+-rw-r--r--    1 1000     1000            93 Nov 24 10:08 test.sql
+-rw-r--r--    1 1000     1000           195 Nov 24 10:08 todo.txt
+-rw-r--r--    1 1000     1000          7735 Nov 24 10:08 tuyến_đường.py
++ docker build '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/popular-route-gps:latest '--pull=true' .
+Sending build context to Docker daemon  7.337MB
+Step 1/7 : FROM danghung/popular_route_gps
+latest: Pulling from danghung/popular_route_gps
+c87736221ed0: Pulling fs layer
+c3f51b0d0765: Pulling fs layer
+a65abebf5480: Pulling fs layer
+6628a73c2c85: Pulling fs layer
+b49d22f17d2f: Pulling fs layer
+83ebddeadc1f: Pulling fs layer
+95d07ac71345: Pulling fs layer
+ae5fc2df6075: Pulling fs layer
+d8ad697ab99b: Pulling fs layer
+5a10b7641436: Pulling fs layer
+357d3959d5d0: Pulling fs layer
+2c1063def24f: Pulling fs layer
+bcd9d3d54bc9: Pulling fs layer
+357d3959d5d0: Waiting
+2c1063def24f: Waiting
+bcd9d3d54bc9: Waiting
+c3f51b0d0765: Download complete
+ae5fc2df6075: Verifying Checksum
+ae5fc2df6075: Download complete
+83ebddeadc1f: Verifying Checksum
+83ebddeadc1f: Download complete
+c87736221ed0: Verifying Checksum
+c87736221ed0: Download complete
+d8ad697ab99b: Verifying Checksum
+d8ad697ab99b: Download complete
+c87736221ed0: Pull complete
+c3f51b0d0765: Pull complete
+6628a73c2c85: Verifying Checksum
+6628a73c2c85: Download complete
+a65abebf5480: Download complete
+5a10b7641436: Verifying Checksum
+5a10b7641436: Download complete
+b49d22f17d2f: Verifying Checksum
+b49d22f17d2f: Download complete
+a65abebf5480: Pull complete
+6628a73c2c85: Pull complete
+2c1063def24f: Download complete
+b49d22f17d2f: Pull complete
+83ebddeadc1f: Pull complete
+357d3959d5d0: Verifying Checksum
+357d3959d5d0: Download complete
+bcd9d3d54bc9: Verifying Checksum
+bcd9d3d54bc9: Download complete
+95d07ac71345: Verifying Checksum
+95d07ac71345: Download complete
+95d07ac71345: Pull complete
+ae5fc2df6075: Pull complete
+d8ad697ab99b: Pull complete
+5a10b7641436: Pull complete
+357d3959d5d0: Pull complete
+2c1063def24f: Pull complete
+bcd9d3d54bc9: Pull complete
+Digest: sha256:131a4359c7b78863e004cc28c7c4285d2d40af98642cf792fef6e6681c2d420c
+Status: Downloaded newer image for danghung/popular_route_gps:latest
+ ---> a99ebab998e8
+Step 2/7 : WORKDIR /app
+ ---> Running in 20fa0b3cb2bc
+Removing intermediate container 20fa0b3cb2bc
+ ---> 0cbd6c80596e
+Step 3/7 : ADD requirements.txt ./
+ ---> 8ade2a13b7ae
+Step 4/7 : RUN pip install -r requirements.txt
+ ---> Running in dd171c5dc1bb
+Collecting boto3~=1.18.16 (from -r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/73/42/9f0173f83f8c2717ce102cf98e5668a1858a21eadd28a235e9b3b0824fa4/boto3-1.18.65-py3-none-any.whl (131kB)
+Collecting rfc3339 (from -r requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/0f/2e/48d6cf57dec789c90a7b1cb59a21c3cad509f0ec1284632152f33bb1d88d/rfc3339-6.2-py3-none-any.whl
+Collecting ansicolors~=1.1.8 (from -r requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/53/18/a56e2fe47b259bb52201093a3a9d4a32014f9d85071ad07e9d60600890ca/ansicolors-1.1.8-py2.py3-none-any.whl
+Collecting botocore<1.22.0,>=1.21.65 (from boto3~=1.18.16->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/0b/12/0ece2363299f037904fe7cb75faaae859e1547f43e688b6195343ff60e76/botocore-1.21.65-py3-none-any.whl (8.0MB)
+Collecting jmespath<1.0.0,>=0.7.1 (from boto3~=1.18.16->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/07/cb/5f001272b6faeb23c1c9e0acc04d48eaaf5c862c17709d20e3469c6e0139/jmespath-0.10.0-py2.py3-none-any.whl
+Collecting s3transfer<0.6.0,>=0.5.0 (from boto3~=1.18.16->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/ab/84/fc3717a7b7f0f6bb08af593127171f08e3e0087c197922da09c01bfe7c3a/s3transfer-0.5.0-py3-none-any.whl (79kB)
+Requirement already satisfied: python-dateutil<3.0.0,>=2.1 in /usr/local/lib/python3.7/site-packages (from botocore<1.22.0,>=1.21.65->boto3~=1.18.16->-r requirements.txt (line 1)) (2.8.1)
+Collecting urllib3<1.27,>=1.25.4 (from botocore<1.22.0,>=1.21.65->boto3~=1.18.16->-r requirements.txt (line 1))
+  Downloading https://files.pythonhosted.org/packages/af/f4/524415c0744552cce7d8bf3669af78e8a069514405ea4fcbd0cc44733744/urllib3-1.26.7-py2.py3-none-any.whl (138kB)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.7/site-packages (from python-dateutil<3.0.0,>=2.1->botocore<1.22.0,>=1.21.65->boto3~=1.18.16->-r requirements.txt (line 1)) (1.15.0)
+Installing collected packages: jmespath, urllib3, botocore, s3transfer, boto3, rfc3339, ansicolors
+Successfully installed ansicolors-1.1.8 boto3-1.18.65 botocore-1.21.65 jmespath-0.10.0 rfc3339-6.2 s3transfer-0.5.0 urllib3-1.26.7
+[91mWARNING: You are using pip version 19.1.1, however version 21.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+[0mRemoving intermediate container dd171c5dc1bb
+ ---> 6d00feaf16d6
+Step 5/7 : ADD . .
+ ---> d5a74d9d1817
+Step 6/7 : EXPOSE 5000
+ ---> Running in 544b7a36ae08
+Removing intermediate container 544b7a36ae08
+ ---> db921ec919de
+Step 7/7 : CMD ["python", "main.py"]
+ ---> Running in 07b5b30bfaac
+Removing intermediate container 07b5b30bfaac
+ ---> bd14e6e085f5
+Successfully built bd14e6e085f5
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/popular-route-gps:latest
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoicTZZdm5SK0ZsTlltRTFuQTNaU0Q0NWVPOUtpQ0lwWmtEcVlqa3N1RHk5U0pYeXZ6RnZoQzdmOUI2RlJPeE9TOWlJNlJpN1AxWWxFME1ocTVtM3hmd2hSaEJnWG1JcmRMVlBlSEtpN2dDUWFML3JjU2txcjhDY1lHeGY5SmxZVEkxSkRFN3kvaUVYN3g3VDRreEFyWWtFVmdLNXNXM0krSnMxRk1lK0djSEVUUVJ6UmlvdzJJb3BPak0rcytsOU9XTEtWZytwSk1CQUVOTHBwYyszVDBTZ2hlMit0VHVBNGRYRUtLYUIrZVlHbmhURHBiMnN0NjQ0UEV6dUk3eXl6MGc5ODlCTXZlNFFlRGRFRElqZnZTb1M4ZUcyRHY3eUtXUFpOVjVJTFQvNmRwSUMzMTFuWld3VURuNU5yMHovSGZoQnhDYW11S2hoLzZFTWdubzlzTnlVQm5uaXM1TmRIUmIrK0Q3eG5wVGdYQjM2QWxVUUJyQ3FSd0JBU0t6MnVqQkExb1NIT0h6RjJUdUkrMUlMUElEc0JCQU9kK3lzeThuTnp4Y016U01raWJNL05ocG1QaEl1YlZsTUJQVThYTUZNUHNnNG9POFlXazZScXV2VVNkM3pVU3gxQ2dOSmRqME8xL2oyWGpBY3Q4N25hNnJxYVJraDJSc2V4UVprNWJKWDNyY1BsZjZWU1V2UWljSVB1K2Vxci9VUVI5WXFFM0tjdkc5aFBrQitNd2NuVnZubzNmT3o2aHhWU1JONXVScU4reTRkYVpPdUZ3TDhHODNHYld0SnBBelNPN1NiRjVzM0RWU3N1S0ZjU0U5YTZpTGY5bWZ6SmJBemlTMEYvZDJsd1dXeVpBWEViQ3RIYnY2N0FEWVBMU253QUpLRjlBSkZja09qbm1mUXhLOTJ0UU15TFJROUpqdVoxTXNjcEtucnhsWWlNSElvbXJmOXdBaTF5cUZ1ejJjZU5QK1ppMTdLWmlaczFYTHhyRDhMMjV5b2pjNFhiTTFTODlLeGhsUDRKV20vWmUxVkIzdk9iYnVsR3FCcnExem1SaU9QSkVpUmZ4M0xnTVVjUGc2d0hkZ3hrM2FNYWwwMW5uUUdGa0NROGtnbldpU2Q2amhmZW5TNGhWWjVick1HakJDeGZoeitYU1NzR0ppRFBLVEtqSHhCTWVtOTgwYVlHNkV4bjRKTHF2cEl3R2tvR1F1Z2Q3aHFUdnk2aWt2dS81NS9GYWFObWlUcmJTamhBdUxMRDVacnRZc2xIdzg5cXNZNXRRWkJMK3Z1cEJ3N2lmRW13bDlOZ1RFa2RPd2toTEJkcC9USXhXNGpqSGM5K2RuZ3puSzZubk5HcGhrODc3eTJJUGNyNUlSYUxjQUkzSDFDRWRudmxsT2hXZVVJcEZjQUIwajhyOGF1NENObzVHMGxqVjBsR3lvVlJob0ErOFErNnltOEQrbVFNMmN5SDZMSGJqcDBwSForZEpmdXEvNFhCendRQlFjdmJqbjZyMmVWYzlFRW9UREhhOXF2U1pkc1NpaEhPVVdUazM5bWp4bUdobkh3MFRXTDVYL3dlbFdaVXJvdGtvUWZmdkg0R0U3cXdza1hCZmd0dHJ2dlZmb0RQK2p4VW5ieXlpK0RJM25sM3ZVcDN2M1YwL1A1QWI2Q2R2N25ta0d5TXF5Ym00VWRlTGdFR0FtZzNYY3RIVVl2dkhZSU94aEtudlpORFhFY3UrcWFubE5CWkErR1VGbkdPU0k0dXdNc245T1lSNkZSRHhlS2VWRUd6U3dRQ0NkRDM3ZmcxcWMvVHFiUWMxOEl2NVcxeDlBUDJ1dEVrWkZtVk84S2VZN3Y1ZTM3bW1DMVQxSnNtVTZESWlyMStLcXU1RklrZUEvZTRCVXI4Q2NDZU5UTCtVTWNSRVBxdm0rY1Iva2ttRTg5TE93TFZLWWxVM0tLbDJNSi9lcHFvL0RnYVBBVjhxWUNabGU5Vno1LzZXMUliWXJ1RmtSNEJ6SUtlcUpFUG81d1EwcHFYeTBrWXF3bFA3NjJMWUkvMDV5akllSDRsMDVlbFp3YjM0VHg5T3dWMk9QeEhFalNSNGM2THVDMUtvUGEzM1IzZHY4N0ZiWkdBZ1lhY0M3dFVZenRjbWdjRnhORXBlWXhsMFVXL3BZbEZOMFc3M0RlcldXdjcwQ0N5SFpsOWw4NjJLMU9oSFFid1A2M01WMmRjOVNNVzZiMUg4K2EwPSIsImRhdGFrZXkiOiJBUUVCQUhpZEVyWkNmaEtPZURNMDgrY1A1ZnR5anZROVhNTVNRNHBLMEZabnZBWlhKZ0FBQUg0d2ZBWUpLb1pJaHZjTkFRY0dvRzh3YlFJQkFEQm9CZ2txaGtpRzl3MEJCd0V3SGdZSllJWklBV1VEQkFFdU1CRUVETDE3c2Y3SlFEYkRELzJjMHdJQkVJQTdFMXppM0lKY1RPZlA5ZERpazlLMEwzQTlXRks4VnlkRTNGOUNBc1U5VmRZZUxZWkhZS2NmNlpwVE9ydy9JTkxPZjEyYms1N2pmak5rVGswPSIsInZlcnNpb24iOiIyIiwidHlwZSI6IkRBVEFfS0VZIiwiZXhwaXJhdGlvbiI6MTYzNzc5MTcyMn0=' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/popular-route-gps:latest
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/popular-route-gps]
+36aa33192a76: Preparing
+733f162802c1: Preparing
+e1c0dd2997e6: Preparing
+118b59602c41: Preparing
+28e8427380fa: Preparing
+d2c3bd9ad9c3: Preparing
+b2cc8ab25dd5: Preparing
+66a53cfb5dc3: Preparing
+8acaf2cbda22: Preparing
+e34bb38310f9: Preparing
+0b9205dc671f: Preparing
+20bf722c0f8a: Preparing
+0923546b81e3: Preparing
+af455f8d4714: Preparing
+8cc80861cf3a: Preparing
+9797041513df: Preparing
+d9ff549177a9: Preparing
+e34bb38310f9: Waiting
+66a53cfb5dc3: Waiting
+8cc80861cf3a: Waiting
+0b9205dc671f: Waiting
+8acaf2cbda22: Waiting
+b2cc8ab25dd5: Waiting
+d2c3bd9ad9c3: Waiting
+9797041513df: Waiting
+af455f8d4714: Waiting
+0923546b81e3: Waiting
+20bf722c0f8a: Waiting
+d9ff549177a9: Waiting
+28e8427380fa: Layer already exists
+d2c3bd9ad9c3: Layer already exists
+b2cc8ab25dd5: Layer already exists
+66a53cfb5dc3: Layer already exists
+8acaf2cbda22: Layer already exists
+e34bb38310f9: Layer already exists
+0b9205dc671f: Layer already exists
+20bf722c0f8a: Layer already exists
+118b59602c41: Pushed
+0923546b81e3: Layer already exists
+af455f8d4714: Layer already exists
+9797041513df: Layer already exists
+8cc80861cf3a: Layer already exists
+d9ff549177a9: Layer already exists
+e1c0dd2997e6: Pushed
+36aa33192a76: Pushed
+733f162802c1: Pushed
+latest: digest: sha256:144d94b4bfb57d841cecf62185fe4140f4a02e431ecdd6ceb75e05bad07b0cea size: 3892
+[8mha:////4KWF0pNJ/YTgi81wLIDe8BTBQ3z1mPj8KllstFNCmlxyAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4CazcmbbifzPIbHe+Ik/gZFi4Bk3E8K9/jhh2OD7cEOQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4D3hmYdxjU8XVFpF+wMM4syXQckhTJwjyPV5jzU3guFpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+2qjGBvgAAAA==[0m[Pipeline] }
+[8mha:////4IVv0lYAl42UN0QNk2dev6Cbv1SmF0oGuZL2KJI7qhXBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AhUlqPb4AAAA=[0m[Pipeline] // stage
+[8mha:////4LK5al4eqReEWNnCcvS52S6fM0e8TjoDmxqfP6JpvxR+AAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUSAkREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lG4fF/dTBAAAA[0m[Pipeline] stage
+[8mha:////4KUAmbgRK7qFBzI+a2qpesOCqzslphsdZI7NJuQZvqtlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4Gp/GvHIpvm8bz9USYHuX1EiDmsmyyW4KPBMXMEIDw72AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] container
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4NqvfkRS1ZporbVgqIMixLWF8Vq1pWIz3fS29dwcL7BuAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy.yml
+deployment.apps/popular-route-gps configured
+service/popular-route-gps unchanged
+ingress.networking.k8s.io/popular-route-gps unchanged
++ date '+%s'
++ kubectl patch deployment popular-route-gps -p '{"spec":{"template":{"metadata":{"labels":{"date":"1637748571"}}}}}' -n common-system
+deployment.apps/popular-route-gps patched
++ kubectl rollout status deployment popular-route-gps -n common-system
+Waiting for deployment "popular-route-gps" rollout to finish: 0 out of 1 new replicas have been updated...
+Waiting for deployment "popular-route-gps" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "popular-route-gps" rollout to finish: 1 old replicas are pending termination...
+deployment "popular-route-gps" successfully rolled out
+[8mha:////4G87h2+xpNSBt+7lb2zAOZKUc5HcR5V6WoF8Y6JOxZHHAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4IUlBncUQZm6NYOtnhBpOaEI6aSkplAMwGHputdbpcoTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // container
+[8mha:////4Lg7iBkwIauAYzzxFEUETQb6ApXJVjISRMlph5eCDy1AAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4H55eVUR1MbAhss647slnGXmwpClpV12SMsO8gPJ36BeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // stage
+[8mha:////4KM/K60iwy0ELaiubczBEnfeuSe5mn+xUhFabBo5IQH+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QT5dt99ANULB4i9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4BSeEvQDq3DPFgxYpTNDWn7SC6OwAn5bn3BKjnG3Uo44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkBASoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuAxoXnw+9AAAA[0m[Pipeline] deleteDir
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: opt_build_log, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4BBOF8zL0QuEPSserDoebGo7eedy9wFxGLBc4knRq4LZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AKry5lG9AAAA[0m[Pipeline] }
+[8mha:////4I80lOpg5HUJA80xtI+tZBmR9p4ZN2LLYBhkMdQXpaF6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPwNlPj70AAAA=[0m[Pipeline] // node
+[8mha:////4OSZrNYCuGZci/f+w9qZka3AmOhvr3h12W0fQ92vc87HAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/mwCjFvQAAAA==[0m[Pipeline] }
+[8mha:////4DWZSrDNKCa4wMOhomNh6rPaNQwjD7UQNFyAKu7DDl83AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU0jlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9ViWzpvQAAAA==[0m[Pipeline] // podTemplate
+[8mha:////4F0oAKG8YtO1f0ykH2BifRPib7ffpNpqbMnq6ye67ePbAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPc5ALo70AAAA=[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

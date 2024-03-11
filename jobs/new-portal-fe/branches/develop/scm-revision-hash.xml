@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>develop</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>3e2218c97b475708e81890c49db2e0a1a0b6f130</hash>
+  <message>Merged in feature/new-report (pull request #16)
+
+Feature/new report
+
+* delete jquery
+
+* #setting
+
+* #setting
+
+* fix size navbar, Pagination
+
+* grid no virtual scroll
+
+* no message
+
+* format code
+
+* scroll to top of the table
+
+* #scroll to top of the table
+#resolve conflict
+
+* remove comment
+
+Approved-by: Tu Hoang
+</message>
+  <author>Trâm Anh &lt;tramanh1998tls@gmail.com&gt;</author>
+  <date>2021-04-05 09:29:41.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

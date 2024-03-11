@@ -1,0 +1,15 @@
+Started
+[Wed Mar 31 03:34:48 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp-2e-ss for branches
+Checking branch master from smartlogtms/vrp-2e-ss
+      ‘Jenkinsfile’ not found
+    Skipped
+
+  1 branches were processed
+Looking up smartlogtms/vrp-2e-ss for pull requests
+
+  0 pull requests were processed
+[Wed Mar 31 03:34:50 UTC 2021] Finished branch indexing. Indexing took 1.7 sec
+Finished: SUCCESS

@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>36</string>
+    </parentIds>
+    <id>37</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-stm2.5.git
+        cd devops-deployment-stm2.5
+        sed -i &apos;s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/smartlog-optimization@sha256:573e5b2a9654636a554037ed501c4f66772b115277780da1224f96fb80cafad5+g&apos; ./super-vrp/develop_v3/.argocd-source.yaml
+        git add ./super-vrp/develop_v3/.argocd-source.yaml
+        for file in ./super-vrp/develop_v3/deploy*.yaml; do sed -i &quot;s/\(date:\s*\)&apos;[^&apos;]*&apos;/\1&apos;1680576615&apos;/&quot; &quot;$file&quot;;git add &quot;$file&quot;;done
+        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1680576721383</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

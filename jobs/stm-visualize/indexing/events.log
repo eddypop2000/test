@@ -1,0 +1,239 @@
+[Thu Nov 10 12:17:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:17:31 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9af2f95274eac5f89fd51157a2bf4a3aca3638f2 → 952725fc0c1cd91cdc6a2cd7e9eed0eaf2d40589)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Nov 10 12:17:39 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.8 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:17:31 UTC 2022 processed in 3.3 sec
+[Thu Nov 10 12:28:11 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.99.200 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:28:06 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (952725fc0c1cd91cdc6a2cd7e9eed0eaf2d40589 → 9c15a25adf0076266df85b92f531bf8aa3ef33ac)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Nov 10 12:28:14 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.99.200 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:28:06 UTC 2022 processed in 3.3 sec
+[Thu Nov 10 12:33:25 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.241 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:33:20 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9c15a25adf0076266df85b92f531bf8aa3ef33ac → 20641314184b0bf17c7bec08d16196ae2d744a88)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Nov 10 12:33:28 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.241 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:33:20 UTC 2022 processed in 3.2 sec
+[Thu Nov 10 12:36:58 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.34 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:36:53 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (20641314184b0bf17c7bec08d16196ae2d744a88 → 455a29cbd059818a26cf7322d783142fb2bcecf5)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Nov 10 12:37:02 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.34 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:36:53 UTC 2022 processed in 3.3 sec
+[Thu Nov 10 12:40:20 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:40:15 UTC 2022
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (455a29cbd059818a26cf7322d783142fb2bcecf5 → 4841baa0224b3d6ecd0bd26dbd5d5b517c192e65)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Nov 10 12:40:24 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 10 12:40:15 UTC 2022 processed in 3.3 sec
+[Mon Jan 23 14:36:51 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.66.97 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jan 23 14:36:46 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (4841baa0224b3d6ecd0bd26dbd5d5b517c192e65 → 9a63cd329d257d37621e4fc248ce894368e40d3a)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Mon Jan 23 14:36:55 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.66.97 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jan 23 14:36:46 UTC 2023 processed in 3.9 sec
+[Sat Feb 04 20:49:34 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 04 20:49:29 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  4 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Sat Feb 04 20:49:37 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.40.118 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 04 20:49:29 UTC 2023 processed in 3.2 sec
+[Sat Feb 04 20:50:00 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 04 20:49:55 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9a63cd329d257d37621e4fc248ce894368e40d3a → 7a56146ba9ce3c282ef8df15c452ea438f6e4373)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Feb 04 20:50:03 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Feb 04 20:49:55 UTC 2023 processed in 3.3 sec
+[Wed Mar 01 16:40:20 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 01 16:40:15 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch feature/view-group-location from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  5 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Wed Mar 01 16:40:23 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 01 16:40:15 UTC 2023 processed in 3.2 sec
+[Wed Mar 01 17:03:56 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 01 17:03:51 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/view-group-location from smartlogtms/visualize-thp
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  5 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+Checking PR-9 from smartlogtms/visualize-thp and branch feature/view-group-location
+
+  1 pull requests were processed
+[Wed Mar 01 17:03:59 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.23.176 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Mar 01 17:03:51 UTC 2023 processed in 3.3 sec
+[Thu Mar 02 04:19:55 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.203 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:19:50 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch feature/view-group-location from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (7a56146ba9ce3c282ef8df15c452ea438f6e4373 → ec8c00c94ada00db23048c4574c6de6e345a5d3e)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Thu Mar 02 04:19:57 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.203 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:19:50 UTC 2023 processed in 2.6 sec
+[Thu Mar 02 04:43:04 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:42:59 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/view-group-location from smartlogtms/visualize-thp
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  5 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Thu Mar 02 04:43:08 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:42:59 UTC 2023 processed in 3.3 sec
+[Thu Mar 02 04:43:31 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.203 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:43:26 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+[Thu Mar 02 04:43:32 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:43:27 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  4 branches were processed
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (ec8c00c94ada00db23048c4574c6de6e345a5d3e → 23a233b13916e3dac7bef1d2931c7fac24d188a3)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Mar 02 04:43:35 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.53.203 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:43:26 UTC 2023 processed in 3.9 sec
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Thu Mar 02 04:43:35 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 04:43:27 UTC 2023 processed in 2.6 sec
+[Thu Mar 02 05:01:03 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 05:00:58 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (23a233b13916e3dac7bef1d2931c7fac24d188a3 → 8af783bcf4f6586e713a2a63a8a518cb50ff2e8e)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Mar 02 05:01:07 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.64.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 02 05:00:58 UTC 2023 processed in 3.3 sec
+[Tue Mar 07 02:39:01 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.13.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 07 02:38:56 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (8af783bcf4f6586e713a2a63a8a518cb50ff2e8e → fc0121dacec6c37bf5dc9eb5f12019f3cbf588d3)
+Scheduled build for branch: master
+
+  3 branches were processed (query completed)
+[Tue Mar 07 02:39:05 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.13.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 07 02:38:56 UTC 2023 processed in 3.3 sec
+[Tue Mar 07 02:43:41 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.13.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 07 02:43:36 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch master from smartlogtms/visualize-thp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (fc0121dacec6c37bf5dc9eb5f12019f3cbf588d3 → 834fcc1909653e777d5ff7fbc0503b4a97c89345)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Mar 07 02:43:44 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.13.64 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Mar 07 02:43:36 UTC 2023 processed in 3.2 sec
+[Thu Mar 30 07:43:58 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.24.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 30 07:43:53 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/visualize-thp for branches
+Checking branch feature/load-model-truck from smartlogtms/visualize-thp
+Checking branch feature/update-truck-model from smartlogtms/visualize-thp
+Checking branch master from smartlogtms/visualize-thp
+Checking branch origin/split-project from smartlogtms/visualize-thp
+Checking branch pnqdung from smartlogtms/visualize-thp
+
+  5 branches were processed
+Looking up smartlogtms/visualize-thp for pull requests
+
+  0 pull requests were processed
+[Thu Mar 30 07:44:02 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.24.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Mar 30 07:43:53 UTC 2023 processed in 3.6 sec

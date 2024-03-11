@@ -1,0 +1,10 @@
+commit c6aad8e881941059a5890ef144931b971893d343
+tree 0805f01ae67684ed80aeb6329acf5f821583c355
+parent 3ef1238c09e727eb908db6d0b44c28c12a4673c0
+author hoang7k <hoang.dao@gomartlog.com> 2022-03-05 10:52:53 +0700
+committer hoang7k <hoang.dao@gomartlog.com> 2022-03-05 10:52:53 +0700
+
+     fix division by zero
+
+
+:100644 100644 000fd90b7889c4201230f6ba8688a170715aca55 9d50307bd8db22ee7e119b1b41f7f5538fcc24e9 M	src/main/java/vrp/opvrp/service/Estimator.java

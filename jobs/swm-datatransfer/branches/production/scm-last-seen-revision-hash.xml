@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@2.9.5">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>ccf72ae3d32da0d01eefd609a376ca7fb83a7cee</hash>
+  <message>Merged in dev (pull request #39)
+
+Dev</message>
+  <author>Tuan Tran &lt;tuan.tran@gosmartlog.com&gt;</author>
+  <date>2021-12-19 15:51:39.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

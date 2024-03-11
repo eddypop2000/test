@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>33</string>
+    </parentIds>
+    <id>34</id>
+    <descriptorId>org.jenkinsci.plugins.credentialsbinding.impl.BindingStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>bindings</string>
+          <list>
+            <org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+              <symbol>usernamePassword</symbol>
+              <arguments class="linked-hash-map">
+                <entry>
+                  <string>credentialsId</string>
+                  <string>cicd-bitbucket</string>
+                </entry>
+                <entry>
+                  <string>passwordVariable</string>
+                  <string>BITBUCKET_PASSWORD</string>
+                </entry>
+                <entry>
+                  <string>usernameVariable</string>
+                  <string>BITBUCKET_USERNAME</string>
+                </entry>
+              </arguments>
+              <interpolatedStrings/>
+            </org.jenkinsci.plugins.workflow.cps.UninstantiatedDescribableWithInterpolation>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1681462929182</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

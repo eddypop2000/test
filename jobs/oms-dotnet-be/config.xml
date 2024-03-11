@@ -1,0 +1,91 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject plugin="workflow-multibranch@716.vc692a_e52371b_">
+  <actions/>
+  <description></description>
+  <displayName>oms-dotnet-be</displayName>
+  <properties>
+    <org.csanchez.jenkins.plugins.kubernetes.KubernetesFolderProperty plugin="kubernetes@3600.v144b_cd192ca_a_">
+      <permittedClouds/>
+    </org.csanchez.jenkins.plugins.kubernetes.KubernetesFolderProperty>
+    <com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty plugin="cloudbees-folder@6.740.ve4f4ffa_dea_54">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain plugin="credentials@1143.vb_e8b_b_ceee347">
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList>
+            <org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl plugin="plain-credentials@139.ved2b_9cf7587b">
+              <id>migration-all.dev.sh</id>
+              <description>migration-all.dev.sh</description>
+              <fileName>migration-all.dev.sh</fileName>
+              <secretBytes>{lF/vGRlZkosHE2fdFMe30CEH3SRUKo1bU2QD93JxoxKgQoF2Xs1p6LtDJ9N8IRLiGI3R071awXMATNt31SOOaZG8mMLWB/J0e1so8pg4WmWs7vDTF8NrjQAB2iprbmikvg7Efu+xcnNgRftAgA1zzNg6ODL74PZMEWZ+M7tFj3M2jh8Te5xp1DFlm9pinIRQYsBy8CulJ6rYYngQh02dnKkdJ7FiQPLZ1H+C7RsowztBkX4qYzApbU2V0nrfhWYmmSOhRau4HosTgW3JdLIYUsL/AZePj2W1t3JQzOo/XP21JEGHq8OqzbdRb3tOgLTjbcxAZqkkD2OH4YqZoEqgPfnK1/iXg7WH5Y3Ja17fB27F05UilsSg1vxjstbUdqiKm1NBigQuM6l7SyfOtzMqXM6iMfQWpnEgPtsFehspe6OAwFWYHuZkCn3+X4b4qTc1/Hn6N6OH65H0B1ocNtTV4p7TgludnjkkemoOe6bW5oBAErtZicyvGaUGF/J2RA53BWtfCmrMQrFfLUsMcZa4vujGJhI5bl5G7M/yS7YPdqvyE/N6GmLW5Ct+cBqGtuas9xrDcofdKbdztdRmW49DKmpko6YHCVLH44oFFyTcD5Y5436ux9KfVYFlm74xl0NreDs69bdIzjagc1LR1aNZnmdFRTq6DvyxFzAy13PQ1dFxKmLei2As3ED59TC1wMFcu2lY7ddO3/FJZFaUw51I8exDrSkbuYv7lKT/GO/sERA5T4zmUXaIHY18EsooY4bTV7k2bD1OoMUvoX7wrLEkm7TAL+RI9rqypzJHy0l1hRQ=}</secretBytes>
+            </org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl>
+            <org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl plugin="plain-credentials@139.ved2b_9cf7587b">
+              <id>migration-all.staging.sh</id>
+              <description>migration-all.staging.sh</description>
+              <fileName>migration-all.staging.sh</fileName>
+              <secretBytes>{2Ex4G4aBb84HxuDv8o3FocidGF8oZTRd2s//Iglb5cmQFLWqjDWNjIGEGX1obdjaFW6fRDpziYnnL0LqVwubL7FhRxqOHT71OZlrpPiaUspJTQM9w2k4D3H3Rp89Miqjo1ANB+/JvI+T9mSRvG4AuklEhuq4+Qpf8WUly1yTguKWeNsOliXsz0NOfK/AuSbWzHAyg6A03VkATe5e0RjNMXH62hxGxcb/0I3GX0JBipvSBs/diY5f6xT9D5tQrP0SWcVzBo8QHeo24ibBF+9rn+qPJIFK661M04ldtn0q9CU44tCU7PKnDx/4KHeoblk9KC2KMthPyWETEuVhPNP4e0iCDLo53YXhj8ujzPLG0e8PHDgVvMRCnQFo/RSxN0FK02rLyXUVrbBr0SyOkKXkCTE56qWJiGCSbcU0uoO97wuebGUiiOZsYMwzqpSB936H0uAjPY2s/NMmYK5A1lIU1/FvOxfNB9Fxhho5aBmwadm/vFekmm/lwe6dCaQomeTwCY6TJog0CscK+LSCbvIb81CH5uz0Vd65+EiGrFngnF/KGQhhyNDJ4+eytRkJeZwyhse3RhzLu2WZPkRtqykXb8Zq78grBX+ZpnKr/TvxZ99vBVpTSKwJxYFn4Df6TjOA0BL3JLIVGcrK7W41gbxrabjXlqwUTzvjJ4mn1lqCv/4xvADqHIRaL96emvMEQUDUN9PHPA2hSb6aZf/baXwAGo6CE2plkT3Mzq1sLD3FUcRp/2vYCegzX/ONzclb4cnymde3+t2HPxG//JqLCKGbkWlHwX2ZTmoF30dO6RgNsVR50gzdmHvx1jH5p/peuM7b}</secretBytes>
+            </org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl>
+            <org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl plugin="plain-credentials@139.ved2b_9cf7587b">
+              <id>migration-all.prod.sh</id>
+              <description>migration-all.prod.sh</description>
+              <fileName>migration-all.prod.sh</fileName>
+              <secretBytes>{o14eFiYu2rAHtjIms8igz8qjMN+XY4lyaPIwydAsawfWoVV+PA19zJ82Q4XAUY3t3IoVwXZrfSbGwU11UuHaZVtJSzdck21Id85JU/3ItocjoaUa3zDYO6TqfKR3U+xjSdKoNd5LTP/fqqa3/8CeDGFMrRpwYIxzR1XPSN76QC5RxxnuBlyGgWyukTYeSPIPP80qih1t/HK9Gj9IWC34cxrCJtUwdr7MmXNGcR1VOdUHp2Fb3dotrx6bwBMuO4pW0h22t7ir2aLAtzLe03ej+R2V3u7N00YQvuJ/J2vJp0Byaxjr85k9KStd74koVrWMr7NBfDT1IFUpPeDMAww2tgNPAqudUWu2uWwW8L0B0KGLHe+iGzGtHTa5Gp2j0lOQCLQThRaJFhXZ2tNzixhf4OZvuskjaJfFBgnEOwWbXfmxs/SHqhwXizJHrdBnNUsqMiHRyL9hvJ5L+JS1D5BtZsTYtU/TLWwm1eCY+SfvY9lQGu27DtI3P4VuSMj6Q0Z+HzdiQ1yHIzCnY8KPLcdQDOGzKB7ZxVLhyBJm21BT/OboNdu7Jmt0sDXv8dWCbLeAKe9PsUYHS2PxjRuObo0Baqkultm05oKk18eLbNQYFbyEfYYxLuiDcdT8We8taUkC9eZL7zcZd6bP1ghQa4M7DLkts0JPPfYIlgn4I8wfd7AmiZGyklMu/PLNGuRy5FuDlOX9CDh53UiQghyId6d+VxHDwMFNQ3BFdHzLG2lG7J7XQcM8abimgj2xyTGFVciw}</secretBytes>
+            </org.jenkinsci.plugins.plaincredentials.impl.FileCredentialsImpl>
+          </java.util.concurrent.CopyOnWriteArrayList>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.hudson.plugins.folder.properties.FolderCredentialsProvider_-FolderCredentialsProperty>
+  </properties>
+  <folderViews class="jenkins.branch.MultiBranchProjectViewHolder" plugin="branch-api@2.1046.v0ca_37783ecc5">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </folderViews>
+  <healthMetrics/>
+  <icon class="jenkins.branch.MetadataActionFolderIcon" plugin="branch-api@2.1046.v0ca_37783ecc5">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </icon>
+  <orphanedItemStrategy class="com.cloudbees.hudson.plugins.folder.computed.DefaultOrphanedItemStrategy" plugin="cloudbees-folder@6.740.ve4f4ffa_dea_54">
+    <pruneDeadBranches>true</pruneDeadBranches>
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>-1</numToKeep>
+    <abortBuilds>false</abortBuilds>
+  </orphanedItemStrategy>
+  <triggers/>
+  <disabled>true</disabled>
+  <sources class="jenkins.branch.MultiBranchProject$BranchSourceList" plugin="branch-api@2.1046.v0ca_37783ecc5">
+    <data>
+      <jenkins.branch.BranchSource>
+        <source class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketSCMSource" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <id>cc446e7d-2153-41bc-ac94-23811ba784df</id>
+          <serverUrl>https://bitbucket.org</serverUrl>
+          <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          <repoOwner>smartlogtms</repoOwner>
+          <repository>oms-dotnet-be</repository>
+          <traits>
+            <com.cloudbees.jenkins.plugins.bitbucket.BranchDiscoveryTrait>
+              <strategyId>3</strategyId>
+            </com.cloudbees.jenkins.plugins.bitbucket.BranchDiscoveryTrait>
+            <com.cloudbees.jenkins.plugins.bitbucket.OriginPullRequestDiscoveryTrait>
+              <strategyId>1</strategyId>
+            </com.cloudbees.jenkins.plugins.bitbucket.OriginPullRequestDiscoveryTrait>
+            <com.cloudbees.jenkins.plugins.bitbucket.ForkPullRequestDiscoveryTrait>
+              <strategyId>1</strategyId>
+              <trust class="com.cloudbees.jenkins.plugins.bitbucket.ForkPullRequestDiscoveryTrait$TrustTeamForks"/>
+            </com.cloudbees.jenkins.plugins.bitbucket.ForkPullRequestDiscoveryTrait>
+            <jenkins.scm.impl.trait.RegexSCMHeadFilterTrait plugin="scm-api@621.vda_a_b_055e58f7">
+              <regex>(dev|staging|production)</regex>
+            </jenkins.scm.impl.trait.RegexSCMHeadFilterTrait>
+          </traits>
+        </source>
+        <strategy class="jenkins.branch.DefaultBranchPropertyStrategy">
+          <properties class="empty-list"/>
+        </strategy>
+      </jenkins.branch.BranchSource>
+    </data>
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+  </sources>
+  <factory class="org.jenkinsci.plugins.workflow.multibranch.WorkflowBranchProjectFactory">
+    <owner class="org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject" reference="../.."/>
+    <scriptPath>Jenkinsfile</scriptPath>
+  </factory>
+</org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject>

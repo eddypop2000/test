@@ -1,0 +1,11 @@
+commit 1ba88d298716451522426883cf0b163aaf7c2d55
+tree 39dafeec81e8c198331b75088576c78ef42dc927
+parent 815941e19c6dc2bff1b79f7ab8dae84fde17db2d
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-07 13:49:59 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-07 13:49:59 +0700
+
+    Change namespace
+
+
+:100644 100644 9993dca117ebf2e03adda923ed41cb91288feb44 44c21cbff051c4b94da03df9fc3f87d791b75d2c M	Jenkinsfile
+:100644 100644 521e3910337eff90e45766630104cfc43f180a36 911a2920d03d81276c39de610a550886b76ab81f M	deploy.stage.yml

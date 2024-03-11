@@ -1,0 +1,18 @@
+Started
+[Sat Apr 17 08:57:45 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: master
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  3 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Sat Apr 17 08:57:47 UTC 2021] Finished branch indexing. Indexing took 1.7 sec
+Finished: SUCCESS

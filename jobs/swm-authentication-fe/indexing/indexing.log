@@ -1,0 +1,25 @@
+Started by user [8mha:////4ANZAGLv6DgoFYLkburj/B+/aIPr1YRcUA63DrOpmnZ5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mJenkins Admin
+[Mon Apr 25 19:41:04 UTC 2022] Starting branch indexing...
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: dev
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  10 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Mon Apr 25 19:41:11 UTC 2022] Finished branch indexing. Indexing took 6.6 sec
+Finished: SUCCESS

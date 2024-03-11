@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@716.vc692a_e52371b_">
+      <branch plugin="branch-api@2.1051.v9985666b_f6cc">
+        <sourceId>4e92d50b-d52e-4ee0-a989-c1bfb2e50dcf</sourceId>
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+          <name>dev</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/dev:refs/remotes/origin/dev</refspec>
+              <url>https://x-token-auth:{dQCxk_KqphKywK0oV49t0hIRoVnVHD5BcbI97J3ZmHJbtkI9bv-hZpL4NzmvsAO1r9_-RBkTCZcvM2vDiFju-8TJ8g==}@bitbucket.org/smartlogtms/smartlog-ecosystem.git</url>
+              <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>dev</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="hudson.plugins.git.browser.BitbucketWeb">
+            <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties>
+          <jenkins.branch.NoTriggerBranchProperty/>
+        </properties>
+        <actions>
+          <com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+            <iconClassName>icon-bitbucket-branch</iconClassName>
+            <url>https://bitbucket.org/smartlogtms/smartlog-ecosystem/branch/dev</url>
+          </com.cloudbees.jenkins.plugins.bitbucket.BitbucketLink>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@631.v9143df5b_e4a_a">
+            <objectUrl>https://bitbucket.org/smartlogtms/smartlog-ecosystem/branch/dev</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+          <jenkins.scm.api.metadata.PrimaryInstanceMetadataAction plugin="scm-api@631.v9143df5b_e4a_a"/>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@716.vc692a_e52371b_">
+    <scriptPath>Jenkinsfile.Socket.groovy</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

@@ -1,0 +1,38 @@
+Started
+[Mon Jan 11 08:37:57 UTC 2021] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-ecosystem for branches
+Checking branch dev from smartlogtms/smartlog-ecosystem
+      ‘src/Gateway/Smartlog.AppGateway/Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at ed8919e29182cef4636f532aefbd4dd9af841e97)
+Checking branch dev-bongbx from smartlogtms/smartlog-ecosystem
+Checking branch get-bid-history from smartlogtms/smartlog-ecosystem
+Checking branch SES-18-stx-order-get-order-detail from smartlogtms/smartlog-ecosystem
+Checking branch SES-21-stx-angular-order-management from smartlogtms/smartlog-ecosystem
+Checking branch angular-custom-entity-actions from smartlogtms/smartlog-ecosystem
+Checking branch buiding-block-mapper from smartlogtms/smartlog-ecosystem
+Checking branch docs from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-2-migrating-database-initial-domain- from smartlogtms/smartlog-ecosystem
+Checking branch feature/SES-4-stx-order-api-order-pricing-list from smartlogtms/smartlog-ecosystem
+Checking branch feature/app-gateway-authentication from smartlogtms/smartlog-ecosystem
+Checking branch feature/code-review from smartlogtms/smartlog-ecosystem
+Checking branch master from smartlogtms/smartlog-ecosystem
+Checking branch notification-service from smartlogtms/smartlog-ecosystem
+Checking branch notification-service-apply-dynamodb from smartlogtms/smartlog-ecosystem
+Checking branch production from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-20 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-21 from smartlogtms/smartlog-ecosystem
+Checking branch revert-pr-23 from smartlogtms/smartlog-ecosystem
+Checking branch signalR from smartlogtms/smartlog-ecosystem
+Checking branch socket from smartlogtms/smartlog-ecosystem
+Checking branch socket2 from smartlogtms/smartlog-ecosystem
+
+  22 branches were processed
+Looking up smartlogtms/smartlog-ecosystem for pull requests
+Checking PR-88 from smartlogtms/smartlog-ecosystem and branch get-bid-history
+
+  1 pull requests were processed
+[Mon Jan 11 08:38:00 UTC 2021] Finished branch indexing. Indexing took 2.2 sec
+Finished: SUCCESS

@@ -1,0 +1,1915 @@
+[Mon Apr 25 19:47:23 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 25 19:47:18 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev from smartlogwms/authentication-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (9ed07fe99dafbe73283f2fd0439bf9b311a87bcb → 0e572ca8940e75dc64d06aecbe2d8ffdc93bab95)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Mon Apr 25 19:47:27 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 25 19:47:18 UTC 2022 processed in 4.4 sec
+[Mon May 23 18:45:05 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.148.55 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 23 18:45:00 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS_2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Mon May 23 18:45:08 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.148.55 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 23 18:45:00 UTC 2022 processed in 3.4 sec
+[Tue May 24 02:21:48 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 02:21:43 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch SWMS_2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Tue May 24 02:21:51 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 02:21:43 UTC 2022 processed in 3.2 sec
+[Tue May 24 02:22:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.147.254 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 02:21:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Tue May 24 02:22:04 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 REMOVED event from 192.168.147.254 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 02:21:56 UTC 2022 processed in 3.3 sec
+[Tue May 24 07:12:02 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 07:11:57 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Tue May 24 07:12:06 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 07:11:57 UTC 2022 processed in 4 sec
+[Tue May 24 10:30:33 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.164.121 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 10:30:28 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Tue May 24 10:30:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.164.121 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 24 10:30:28 UTC 2022 processed in 3.3 sec
+[Wed May 25 03:49:53 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 03:49:48 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Wed May 25 03:49:56 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 03:49:48 UTC 2022 processed in 3.3 sec
+[Wed May 25 09:05:39 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.97.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 09:05:34 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Wed May 25 09:05:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.97.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 09:05:34 UTC 2022 processed in 3.4 sec
+[Wed May 25 09:24:38 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 09:24:32 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Wed May 25 09:24:41 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 09:24:32 UTC 2022 processed in 3.4 sec
+[Wed May 25 10:55:14 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 10:55:09 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Wed May 25 10:55:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed May 25 10:55:09 UTC 2022 processed in 3.4 sec
+[Thu May 26 11:34:58 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu May 26 11:34:53 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  11 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Thu May 26 11:35:01 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu May 26 11:34:53 UTC 2022 processed in 3.5 sec
+[Fri May 27 05:36:09 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 05:36:04 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Fri May 27 05:36:13 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 05:36:04 UTC 2022 processed in 3.3 sec
+[Fri May 27 05:47:50 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 05:47:45 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Fri May 27 05:47:53 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 05:47:45 UTC 2022 processed in 3.3 sec
+[Fri May 27 08:34:46 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 08:34:41 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Fri May 27 08:34:50 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri May 27 08:34:41 UTC 2022 processed in 3.3 sec
+[Mon May 30 07:10:44 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 07:10:39 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon May 30 07:10:48 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 07:10:39 UTC 2022 processed in 3.5 sec
+[Mon May 30 07:47:11 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 07:47:06 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon May 30 07:47:14 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 07:47:06 UTC 2022 processed in 3.6 sec
+[Mon May 30 09:25:34 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 09:25:29 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon May 30 09:25:38 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 09:25:29 UTC 2022 processed in 3.4 sec
+[Mon May 30 09:50:19 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 09:50:14 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon May 30 09:50:22 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon May 30 09:50:14 UTC 2022 processed in 2.8 sec
+[Tue May 31 07:13:18 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.114.45 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 07:13:13 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue May 31 07:13:21 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.114.45 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 07:13:13 UTC 2022 processed in 2.8 sec
+[Tue May 31 07:26:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 07:26:02 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue May 31 07:26:11 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 07:26:02 UTC 2022 processed in 3.4 sec
+[Tue May 31 13:05:26 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 13:05:21 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue May 31 13:05:30 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue May 31 13:05:21 UTC 2022 processed in 3.4 sec
+[Wed Jun 01 02:24:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 02:23:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 01 02:24:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 02:23:56 UTC 2022 processed in 3.6 sec
+[Wed Jun 01 03:07:54 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 03:07:49 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 01 03:07:57 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 03:07:49 UTC 2022 processed in 3.3 sec
+[Wed Jun 01 10:34:47 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 10:34:42 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 01 10:34:51 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 01 10:34:42 UTC 2022 processed in 3.5 sec
+[Thu Jun 02 14:18:55 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 02 14:18:50 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 02 14:18:58 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 02 14:18:50 UTC 2022 processed in 3.4 sec
+[Fri Jun 03 03:50:42 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 03:50:37 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 03 03:50:45 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 03:50:37 UTC 2022 processed in 3.3 sec
+[Fri Jun 03 04:43:28 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.99.56 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 04:43:23 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 03 04:43:32 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.99.56 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 04:43:23 UTC 2022 processed in 3.4 sec
+[Fri Jun 03 10:57:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.107 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 10:57:27 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 03 10:57:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.115.107 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 10:57:27 UTC 2022 processed in 3.3 sec
+[Fri Jun 03 11:07:49 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 11:07:44 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 03 11:07:52 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 03 11:07:44 UTC 2022 processed in 3.5 sec
+[Sun Jun 05 15:26:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 05 15:26:35 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Sun Jun 05 15:26:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 05 15:26:35 UTC 2022 processed in 3.3 sec
+[Mon Jun 06 01:05:16 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 01:05:11 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 01:05:19 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 01:05:11 UTC 2022 processed in 3.3 sec
+[Mon Jun 06 06:38:53 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 06:38:48 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 06:38:56 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 06:38:48 UTC 2022 processed in 3.4 sec
+[Mon Jun 06 08:43:55 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 08:43:50 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 08:43:58 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 08:43:50 UTC 2022 processed in 3.4 sec
+[Mon Jun 06 09:32:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 09:32:54 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 09:33:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 09:32:54 UTC 2022 processed in 3.4 sec
+[Mon Jun 06 09:54:16 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 09:54:11 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 09:54:20 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 09:54:11 UTC 2022 processed in 3.5 sec
+[Mon Jun 06 10:59:06 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 10:59:01 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 10:59:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.7 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 10:59:01 UTC 2022 processed in 3.5 sec
+[Mon Jun 06 11:31:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 11:31:22 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 11:31:30 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 11:31:22 UTC 2022 processed in 3.5 sec
+[Mon Jun 06 14:43:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 14:43:54 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 14:44:02 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 14:43:54 UTC 2022 processed in 3.6 sec
+[Mon Jun 06 14:59:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 14:59:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 06 14:59:39 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 06 14:59:31 UTC 2022 processed in 3.1 sec
+[Fri Jun 17 10:37:09 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 17 10:37:04 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 17 10:37:12 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 17 10:37:04 UTC 2022 processed in 3.4 sec
+[Mon Jun 20 10:07:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 20 10:06:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 20 10:07:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 20 10:06:56 UTC 2022 processed in 3.8 sec
+[Mon Jun 20 10:52:56 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 20 10:52:51 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 20 10:52:59 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 20 10:52:51 UTC 2022 processed in 3.6 sec
+[Tue Jun 21 05:00:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 05:00:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jun 21 05:00:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 05:00:31 UTC 2022 processed in 3.7 sec
+[Tue Jun 21 11:11:03 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.125.194 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 11:10:58 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jun 21 11:11:08 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.125.194 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 11:10:58 UTC 2022 processed in 4.2 sec
+[Tue Jun 21 15:58:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 15:58:02 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jun 21 15:58:11 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.126.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 21 15:58:02 UTC 2022 processed in 3.7 sec
+[Wed Jun 22 10:33:05 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 22 10:33:00 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 22 10:33:09 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 22 10:33:00 UTC 2022 processed in 3.9 sec
+[Wed Jun 22 11:15:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 22 11:15:46 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 22 11:15:54 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 22 11:15:46 UTC 2022 processed in 3.8 sec
+[Thu Jun 23 01:05:55 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.50.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 01:05:50 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 01:05:59 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.50.162 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 01:05:50 UTC 2022 processed in 3.5 sec
+[Thu Jun 23 07:13:25 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 07:13:20 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 07:15:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 07:13:20 UTC 2022 processed in 1 min 35 sec
+[Thu Jun 23 08:37:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 08:37:54 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 08:38:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 08:37:54 UTC 2022 processed in 3.4 sec
+[Thu Jun 23 11:06:59 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 11:06:54 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 11:07:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 11:06:54 UTC 2022 processed in 4.1 sec
+[Thu Jun 23 11:22:31 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.190 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 11:22:26 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 11:22:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.190 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 11:22:26 UTC 2022 processed in 3.4 sec
+[Thu Jun 23 14:09:54 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 14:09:49 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 14:09:58 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 14:09:49 UTC 2022 processed in 3.5 sec
+[Thu Jun 23 15:12:29 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.139.137 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 15:12:24 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 23 15:12:33 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.139.137 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 23 15:12:24 UTC 2022 processed in 3.4 sec
+[Fri Jun 24 04:45:50 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 24 04:45:45 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jun 24 04:45:54 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jun 24 04:45:45 UTC 2022 processed in 3.7 sec
+[Sun Jun 26 03:16:01 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 03:15:56 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Sun Jun 26 03:16:05 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.147.223 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 03:15:56 UTC 2022 processed in 3.5 sec
+[Sun Jun 26 10:08:48 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.190 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 10:08:43 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Sun Jun 26 10:08:51 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.105.190 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 10:08:43 UTC 2022 processed in 3.3 sec
+[Sun Jun 26 15:02:56 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 15:02:51 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Sun Jun 26 15:02:59 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Jun 26 15:02:51 UTC 2022 processed in 3.3 sec
+[Mon Jun 27 08:24:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 08:24:27 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 27 08:24:35 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 08:24:27 UTC 2022 processed in 3.4 sec
+[Mon Jun 27 08:37:14 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 08:37:09 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 27 08:37:17 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.177.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 08:37:09 UTC 2022 processed in 3.4 sec
+[Mon Jun 27 10:46:46 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 10:46:41 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Mon Jun 27 10:46:49 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Jun 27 10:46:41 UTC 2022 processed in 3.4 sec
+[Tue Jun 28 04:59:52 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 28 04:59:47 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jun 28 04:59:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 28 04:59:47 UTC 2022 processed in 3.4 sec
+[Tue Jun 28 12:48:39 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 28 12:48:34 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jun 28 12:48:43 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.153.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jun 28 12:48:34 UTC 2022 processed in 3.4 sec
+[Wed Jun 29 10:00:27 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 29 10:00:22 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 29 10:00:31 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 29 10:00:22 UTC 2022 processed in 3.6 sec
+[Wed Jun 29 17:48:34 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 29 17:48:29 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jun 29 17:48:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jun 29 17:48:29 UTC 2022 processed in 3.3 sec
+[Thu Jun 30 08:34:19 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 08:34:14 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 30 08:34:23 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.170.95 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 08:34:14 UTC 2022 processed in 3.5 sec
+[Thu Jun 30 09:07:51 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 09:07:46 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 30 09:07:55 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 09:07:46 UTC 2022 processed in 3.5 sec
+[Thu Jun 30 09:32:40 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.129.16 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 09:32:35 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 30 09:32:44 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.129.16 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 09:32:35 UTC 2022 processed in 3.5 sec
+[Thu Jun 30 10:48:48 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 10:48:43 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 30 10:48:52 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.87 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 10:48:43 UTC 2022 processed in 3.4 sec
+[Thu Jun 30 10:56:06 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.120.16 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 10:56:01 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Thu Jun 30 10:56:10 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.120.16 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Jun 30 10:56:01 UTC 2022 processed in 3.5 sec
+[Fri Jul 01 11:38:43 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 11:38:38 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 11:38:47 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.136 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 11:38:38 UTC 2022 processed in 4 sec
+[Fri Jul 01 12:02:45 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:02:40 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 12:02:49 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.162.50 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:02:40 UTC 2022 processed in 3.9 sec
+[Fri Jul 01 12:27:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:27:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 12:28:01 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.59.231 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:27:52 UTC 2022 processed in 3.8 sec
+[Fri Jul 01 12:49:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:49:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 12:49:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.55.197 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 12:49:31 UTC 2022 processed in 3.9 sec
+[Fri Jul 01 15:32:00 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 15:31:55 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 15:32:03 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 15:31:55 UTC 2022 processed in 3.6 sec
+[Fri Jul 01 15:43:23 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 15:43:18 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 15:43:26 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 15:43:18 UTC 2022 processed in 3.3 sec
+[Fri Jul 01 17:01:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 17:01:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 01 17:02:01 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 01 17:01:52 UTC 2022 processed in 3.4 sec
+[Tue Jul 05 10:24:32 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 05 10:24:27 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jul 05 10:24:36 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 05 10:24:27 UTC 2022 processed in 4 sec
+[Tue Jul 05 11:07:33 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.137.32 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 05 11:07:28 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Tue Jul 05 11:07:37 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.137.32 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Jul 05 11:07:28 UTC 2022 processed in 3.4 sec
+[Wed Jul 06 11:10:18 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.157.126 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 06 11:10:13 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  12 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Wed Jul 06 11:10:21 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.157.126 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Jul 06 11:10:13 UTC 2022 processed in 3.5 sec
+[Fri Jul 08 02:28:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:28:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch backup_dev from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  13 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+Checking PR-1 from smartlogwms/authentication-fe and branch dev-trihuynh
+
+  1 pull requests were processed
+[Fri Jul 08 02:29:01 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.167.127 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:28:52 UTC 2022 processed in 3.4 sec
+[Fri Jul 08 02:29:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:29:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+[Fri Jul 08 02:29:57 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PullRequestHookProcessor$HeadEvent REMOVED event from 192.168.160.115 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:29:52 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch dev from smartlogwms/authentication-fe
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch backup_dev from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  13 branches were processed
+      ‘Jenkinsfile’ not found
+    Skipped
+Checking branch SWMS-2301 from smartlogwms/authentication-fe
+Checking branch antd-table from smartlogwms/authentication-fe
+Checking branch backup_dev from smartlogwms/authentication-fe
+Checking branch copy-grid from smartlogwms/authentication-fe
+Checking branch dev-trihuynh from smartlogwms/authentication-fe
+Checking branch luanle from smartlogwms/authentication-fe
+Checking branch master from smartlogwms/authentication-fe
+Checking branch new-table from smartlogwms/authentication-fe
+Checking branch pr-less from smartlogwms/authentication-fe
+Checking branch production from smartlogwms/authentication-fe
+Checking branch thanhlong from smartlogwms/authentication-fe
+Checking branch v4/dev from smartlogwms/authentication-fe
+
+  13 branches were processed
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Fri Jul 08 02:30:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:29:52 UTC 2022 processed in 3.5 sec
+Looking up smartlogwms/authentication-fe for pull requests
+
+  0 pull requests were processed
+[Fri Jul 08 02:30:00 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PullRequestHookProcessor$HeadEvent REMOVED event from 192.168.160.115 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:29:52 UTC 2022 processed in 3 sec
+[Fri Jul 08 02:37:25 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:37:20 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev from smartlogwms/authentication-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Branch reopened: dev (e1271f37b2e978cebd77b0e4d28e5c76674552ac)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Jul 08 02:37:29 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.136.35 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:37:20 UTC 2022 processed in 3.9 sec
+[Fri Jul 08 02:40:07 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.221 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:40:02 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev from smartlogwms/authentication-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e1271f37b2e978cebd77b0e4d28e5c76674552ac → d53db3a1f9f74eb35834fc900659e112ceb609e9)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Jul 08 02:40:11 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.108.221 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:40:02 UTC 2022 processed in 3.9 sec
+[Fri Jul 08 02:49:36 UTC 2022] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:49:31 UTC 2022
+Connecting to https://bitbucket.org using oauth-swm
+Repository type: Git
+Looking up smartlogwms/authentication-fe for branches
+Checking branch dev from smartlogwms/authentication-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (d53db3a1f9f74eb35834fc900659e112ceb609e9 → b42bf8766fb5c2d62bfc8fda5cf751485d520cf8)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Jul 08 02:49:40 UTC 2022] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.190.25 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Jul 08 02:49:31 UTC 2022 processed in 4 sec

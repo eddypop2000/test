@@ -1,0 +1,10 @@
+commit cc741ad533353043e94436acba33b1057c688afc
+tree ffa25d03daf4a145b3a2f473ce878673dedc8eb1
+parent 625b7999bd26478f5a398ab07f0cb89b7352b139
+author Karkill <hoa.tran@gosmartlog.com> 2022-02-08 10:17:21 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2022-02-08 10:17:21 +0700
+
+    Scale
+
+
+:100644 100644 d7ca23736faa82b01605b91d922e46ebfa153e30 8300d60122f5af548bc5b7bd79d1e71817ab2ebc M	deploy.stage.yml

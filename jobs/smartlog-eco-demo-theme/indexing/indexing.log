@@ -1,0 +1,21 @@
+Started
+[Sat Dec 05 02:42:04 UTC 2020] Starting branch indexing...
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/smartlog-stm-fe for branches
+Checking branch dev from smartlogtms/smartlog-stm-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (2fd14737eed64af3705c4f6e228e13bcc1aacdb7 → 5691086593c5cabc0cfc8413bbe5a3ba61f3cac9)
+Scheduled build for branch: dev
+Checking branch dev-test from smartlogtms/smartlog-stm-fe
+Checking branch dev-tuhv from smartlogtms/smartlog-stm-fe
+Checking branch master from smartlogtms/smartlog-stm-fe
+Checking branch socket from smartlogtms/smartlog-stm-fe
+
+  5 branches were processed
+Looking up smartlogtms/smartlog-stm-fe for pull requests
+
+  0 pull requests were processed
+[Sat Dec 05 02:42:06 UTC 2020] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

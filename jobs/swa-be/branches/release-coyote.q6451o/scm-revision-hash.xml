@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>release/coyote</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>504516de1a7315a7bbd47808805cc94d5f46665f</hash>
+  <message>Merged in production (pull request #2932)
+
+Production</message>
+  <author>huy ho &lt;huy.ho@gosmartlog.com&gt;</author>
+  <date>2023-04-04 02:35:20.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

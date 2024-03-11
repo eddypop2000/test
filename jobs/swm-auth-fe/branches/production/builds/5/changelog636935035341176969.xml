@@ -1,0 +1,21 @@
+commit e684e64afc3a926e6a27d9a0f82c98108c8debb8
+tree 10862f15bfc86f9f69bd260c980aa0c36a93698a
+parent 627553c7b982fd9a5d2f20c5353c97f3a2a70f0c
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-21 09:56:15 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-21 09:56:15 +0700
+
+    Fix deploy
+
+
+:100644 100644 8f914d8046332657846f48008e98029a3445dbdd c862caa73546a09ce2e62cb477c1ddddb5c508a4 M	deploy.prod.yml
+commit 627553c7b982fd9a5d2f20c5353c97f3a2a70f0c
+tree eec743a185bab8ee1a5d8c28c96e8a58c6712b69
+parent eae8307a764dfd63489d5f0ec526a5ec0a959548
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-21 09:39:02 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-21 09:41:04 +0700
+
+    Change proxy-body-size
+
+
+:100644 100644 d025eedc3538a14f9d2c035676248de3c92650fc 8f914d8046332657846f48008e98029a3445dbdd M	deploy.prod.yml
+:100644 100644 73ae24b68fbba3ed85921a3c1789d66ab59af20f 513d1904ca78edfe8a03e01e776699097974c12e M	deploy.stage.yml

@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@839.v35e2736cfd5c">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3583.v4f58de0d78d5">
+    <parentIds>
+      <string>38</string>
+    </parentIds>
+    <id>39</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.durable_task.ShellStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <arguments>
+        <entry>
+          <string>script</string>
+          <string>
+        git config --global user.email jenkins@gosmartlog.com
+        git config --global user.name jenkins
+        git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git
+        cd devops-deployment
+        sed -i &apos;s+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-be-prod.*+744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/swm-sme-be-prod@sha256:e60094ecb611317d4593a0005a595caae7b1d97454ceea5d500832d892d94091+g&apos; ./swa-be/production-sme/.argocd-source.yaml
+        sed -i &quot;s/creationTimestamp:.*/creationTimestamp: &apos;2023-03-01T03:16:51Z&apos;/&quot; ./swa-be/production-sme/.argocd-source.yaml
+        git add ./swa-be/production-sme/.argocd-source.yaml
+        git commit -m &apos;Done by Jenkins Job changemanifest: swm-sme-be-prod:34&apos;
+        git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment.git HEAD:refs/heads/master
+        </string>
+        </entry>
+      </arguments>
+      <sensitiveVariables>
+        <string>BITBUCKET_PASSWORD</string>
+        <string>BITBUCKET_USERNAME</string>
+      </sensitiveVariables>
+      <isUnmodifiedBySanitization>false</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1200.v8005c684b_a_c6">
+      <startTime>1677640716735</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

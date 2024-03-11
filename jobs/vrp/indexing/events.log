@@ -1,0 +1,28 @@
+[Fri Apr 09 03:36:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 03:36:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp for branches
+Checking branch dev from smartlogtms/vrp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (f4d7382438abd2a675567959d50bcd0f49b896c6 → a917efb2f668061dc551f6e3b02d082f0e37eafa)
+Scheduled build for branch: dev
+
+  1 branches were processed (query completed)
+[Fri Apr 09 03:36:45 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 03:36:44 UTC 2021 processed in 1.7 sec
+[Fri Apr 09 03:50:24 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 03:50:24 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/vrp for branches
+Checking branch 1mg-Shipment from smartlogtms/vrp
+Checking branch ACC-Services from smartlogtms/vrp
+Checking branch ACC-Shipment from smartlogtms/vrp
+Checking branch Fix-ACC-Case from smartlogtms/vrp
+Checking branch dev from smartlogtms/vrp
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (a917efb2f668061dc551f6e3b02d082f0e37eafa → da985133602a137aae64d3b757ce014ebd49c975)
+Scheduled build for branch: dev
+
+  5 branches were processed (query completed)
+[Fri Apr 09 03:50:26 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 09 03:50:24 UTC 2021 processed in 1.9 sec

@@ -1,0 +1,20 @@
+commit b773dc21e081f0b0b0cda6871b938526aef9948d
+tree 4c7dc94aab8c5634628e4ff577c8b5a633219ce8
+parent 040cb1c311de2eb715075b15acd59f45e2f57add
+author Khoa Nguyen <khoa.nguyen@gosmartlog.com> 2021-08-10 13:00:00 +0700
+committer Khoa Nguyen <khoa.nguyen@gosmartlog.com> 2021-08-10 13:00:00 +0700
+
+    Update to not remove
+
+
+:100644 100644 4158340681c9edc7c05ce84132ae9ef5d3735ada 4d908ac5893820c1f6ff56da133f3bbd82ba478b M	Smartlog.Stm.Domain.Services/Services/Order/OrderService.cs
+commit 040cb1c311de2eb715075b15acd59f45e2f57add
+tree 3ca57f3508b0cb2eca063627c7e613be15b426a1
+parent 858eb221d2af055923ea59b53abaeb28382c3db5
+author Khoa Nguyen <khoa.nguyen@gosmartlog.com> 2021-08-10 12:56:33 +0700
+committer Khoa Nguyen <khoa.nguyen@gosmartlog.com> 2021-08-10 12:56:33 +0700
+
+    Update set min threads
+
+
+:100644 100644 5c1500089a81d944c03bdb7d9556b1bc8a45ee5d 8bd4bb61e17e275aab78eb99d814af446d5e8a9a M	Smartlog.Stm.Api/Startup.cs

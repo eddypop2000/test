@@ -1,0 +1,1146 @@
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  126 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 09:19:53 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:19:42 UTC 2023 processed in 5.9 sec
+[Fri Apr 14 09:56:26 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:56:21 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  126 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 09:56:32 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 09:56:21 UTC 2023 processed in 6.3 sec
+[Fri Apr 14 10:07:36 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:07:31 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  126 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 10:07:43 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:07:31 UTC 2023 processed in 6.3 sec
+[Fri Apr 14 10:16:43 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:16:38 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e383b573961d7e4a9f8512776cc635bd070b6aba → f9a809b17fbbc0750747c56faca3c3aec024d1b4)
+Scheduled build for branch: dev
+
+  30 branches were processed (query completed)
+[Fri Apr 14 10:16:47 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:16:38 UTC 2023 processed in 4.3 sec
+[Fri Apr 14 10:24:41 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:24:36 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch feature/add-aws-log-payment-expired from smartlogtms/smartlog-app
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  127 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 10:24:48 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 10:24:36 UTC 2023 processed in 6.6 sec
+[Fri Apr 14 11:11:39 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 11:11:34 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/add-aws-log-payment-expired from smartlogtms/smartlog-app
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  127 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 11:11:44 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 11:11:34 UTC 2023 processed in 4.6 sec
+[Fri Apr 14 11:31:36 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 11:31:31 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-aws-log-payment-expired from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  127 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Fri Apr 14 11:31:43 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 14 11:31:31 UTC 2023 processed in 6.3 sec
+[Sat Apr 15 08:14:52 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 08:14:47 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/smartlog-app for branches
+Checking branch angular-build from smartlogtms/smartlog-app
+Checking branch bugfix/SA-247-pop-up-confirm from smartlogtms/smartlog-app
+Checking branch bugfix/SA-4 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-42 from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-create-date-pay from smartlogtms/smartlog-app
+Checking branch bugfix/SA-get-feature-stm from smartlogtms/smartlog-app
+Checking branch bugfix/change-register-service from smartlogtms/smartlog-app
+Checking branch bugfix/fixconflic-sa-558 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-262 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-399 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-440 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-465 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-470 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-471-missing-filter from smartlogtms/smartlog-app
+Checking branch bugfix/sa-472 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-473 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-485 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-528 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-532 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-542 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-564 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-565 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-567-check2 from smartlogtms/smartlog-app
+Checking branch bugfix/sa-errror-list-package from smartlogtms/smartlog-app
+Checking branch bugfix/sa-missing-product-features from smartlogtms/smartlog-app
+Checking branch build/affected-last-commit from smartlogtms/smartlog-app
+Checking branch build/deploy-socket-dev from smartlogtms/smartlog-app
+Checking branch dev from smartlogtms/smartlog-app
+Checking branch dev-conflict/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch dev_backup from smartlogtms/smartlog-app
+Checking branch dotnet-lib from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke from smartlogtms/smartlog-app
+Checking branch feature/OMS-871-oms-notification-thiết-lập-socke2 from smartlogtms/smartlog-app
+Checking branch feature/SA-157-promotion-apply-multiple-packages from smartlogtms/smartlog-app
+Checking branch feature/SA-198-confirm-register from smartlogtms/smartlog-app
+Checking branch feature/SA-230 from smartlogtms/smartlog-app
+Checking branch feature/SA-248 from smartlogtms/smartlog-app
+Checking branch feature/SA-25-Billing from smartlogtms/smartlog-app
+Checking branch feature/SA-296 from smartlogtms/smartlog-app
+Checking branch feature/SA-312 from smartlogtms/smartlog-app
+Checking branch feature/SA-337 from smartlogtms/smartlog-app
+Checking branch feature/SA-349 from smartlogtms/smartlog-app
+Checking branch feature/SA-349-disbale-discount-max from smartlogtms/smartlog-app
+Checking branch feature/SA-411 from smartlogtms/smartlog-app
+Checking branch feature/SA-427-4 from smartlogtms/smartlog-app
+Checking branch feature/SA-440 from smartlogtms/smartlog-app
+Checking branch feature/SA-445 from smartlogtms/smartlog-app
+Checking branch feature/SA-479 from smartlogtms/smartlog-app
+Checking branch feature/SA-521 from smartlogtms/smartlog-app
+Checking branch feature/SA-524 from smartlogtms/smartlog-app
+Checking branch feature/SA-528 from smartlogtms/smartlog-app
+Checking branch feature/SA-529 from smartlogtms/smartlog-app
+Checking branch feature/SA-532 from smartlogtms/smartlog-app
+Checking branch feature/SA-533 from smartlogtms/smartlog-app
+Checking branch feature/SA-534 from smartlogtms/smartlog-app
+Checking branch feature/SA-535 from smartlogtms/smartlog-app
+Checking branch feature/SA-536 from smartlogtms/smartlog-app
+Checking branch feature/SA-539 from smartlogtms/smartlog-app
+Checking branch feature/SA-550 from smartlogtms/smartlog-app
+Checking branch feature/SA-559 from smartlogtms/smartlog-app
+Checking branch feature/SA-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/SA-7-integrate-api from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint12-Add-Migration-PaymentRequest from smartlogtms/smartlog-app
+Checking branch feature/SA-Sprint13-Refactor from smartlogtms/smartlog-app
+Checking branch feature/SA-open-btn-gen-data-sample from smartlogtms/smartlog-app
+Checking branch feature/add-aws-log-payment-expired from smartlogtms/smartlog-app
+Checking branch feature/add-health-checks from smartlogtms/smartlog-app
+Checking branch feature/fix-address from smartlogtms/smartlog-app
+Checking branch feature/notification from smartlogtms/smartlog-app
+Checking branch feature/pay-bill from smartlogtms/smartlog-app
+Checking branch feature/sa-260 from smartlogtms/smartlog-app
+Checking branch feature/sa-262 from smartlogtms/smartlog-app
+Checking branch feature/sa-326-customer-request from smartlogtms/smartlog-app
+Checking branch feature/sa-412 from smartlogtms/smartlog-app
+Checking branch feature/sa-440 from smartlogtms/smartlog-app
+Checking branch feature/sa-470 from smartlogtms/smartlog-app
+Checking branch feature/sa-528 from smartlogtms/smartlog-app
+Checking branch feature/sa-533 from smartlogtms/smartlog-app
+Checking branch feature/sa-533-2 from smartlogtms/smartlog-app
+Checking branch feature/sa-540 from smartlogtms/smartlog-app
+Checking branch feature/sa-557 from smartlogtms/smartlog-app
+Checking branch feature/sa-558 from smartlogtms/smartlog-app
+Checking branch feature/sa-561 from smartlogtms/smartlog-app
+Checking branch feature/sa-562 from smartlogtms/smartlog-app
+Checking branch feature/sa-68-storybook from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-detail-package from smartlogtms/smartlog-app
+Checking branch feature/sa-customer-request-v1.3 from smartlogtms/smartlog-app
+Checking branch feature/sa-field-deployment-package from smartlogtms/smartlog-app
+Checking branch feature/sa-fix-sql-migration from smartlogtms/smartlog-app
+Checking branch feature/sa-init-assignment-feature from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack from smartlogtms/smartlog-app
+Checking branch feature/sa-log-slack-prod from smartlogtms/smartlog-app
+Checking branch feature/sa-migration-promotion-value from smartlogtms/smartlog-app
+Checking branch feature/sa-nullable-promotion from smartlogtms/smartlog-app
+Checking branch feature/smartlog-address-fix from smartlogtms/smartlog-app
+Checking branch feature/smartlog_address-update from smartlogtms/smartlog-app
+Checking branch feature/update_payment_id from smartlogtms/smartlog-app
+Checking branch feature/vnpay-ipn from smartlogtms/smartlog-app
+Checking branch fix-ingress from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint12-fix-package-new-id-fk from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-CreatedBy from smartlogtms/smartlog-app
+Checking branch fixbug/SA-Sprint13-fixNumDayTrial from smartlogtms/smartlog-app
+Checking branch fixbug/sa-sprint13-createdby from smartlogtms/smartlog-app
+Checking branch hotfix/approve-client from smartlogtms/smartlog-app
+Checking branch hotfix/deploy-payment from smartlogtms/smartlog-app
+Checking branch hotfix/socket from smartlogtms/smartlog-app
+Checking branch hung from smartlogtms/smartlog-app
+Checking branch jira-link from smartlogtms/smartlog-app
+Checking branch main from smartlogtms/smartlog-app
+Checking branch master from smartlogtms/smartlog-app
+Checking branch nx-split-admin from smartlogtms/smartlog-app
+Checking branch payment from smartlogtms/smartlog-app
+Checking branch payment-split from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-3 from smartlogtms/smartlog-app
+Checking branch pr-for-production/SA-Sprint11-4 from smartlogtms/smartlog-app
+Checking branch pr-for-production/Sprint12-SOM-Launching from smartlogtms/smartlog-app
+Checking branch pr-for-production/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch production from smartlogtms/smartlog-app
+Checking branch release/23-02-2023 from smartlogtms/smartlog-app
+Checking branch release/prod from smartlogtms/smartlog-app
+Checking branch release/sa-sprint13 from smartlogtms/smartlog-app
+Checking branch releases/swm-integration from smartlogtms/smartlog-app
+Checking branch resolve/prod-to-dev from smartlogtms/smartlog-app
+Checking branch smartlog-address from smartlogtms/smartlog-app
+
+  127 branches were processed
+Looking up smartlogtms/smartlog-app for pull requests
+Checking PR-873 from smartlogtms/smartlog-app and branch feature/sa-558
+Checking PR-875 from smartlogtms/smartlog-app and branch bugfix/sa-564
+Checking PR-877 from smartlogtms/smartlog-app and branch bugfix/sa-565
+Checking PR-889 from smartlogtms/smartlog-app and branch bugfix/sa-567-check2
+Checking PR-890 from smartlogtms/smartlog-app and branch bugfix/sa-567
+Checking PR-881 from smartlogtms/smartlog-app and branch feature/SA-411
+Checking PR-884 from smartlogtms/smartlog-app and branch feature/sa-562
+Checking PR-879 from smartlogtms/smartlog-app and branch feature/sa-561
+Checking PR-871 from smartlogtms/smartlog-app and branch feature/sa-412
+Checking PR-862 from smartlogtms/smartlog-app and branch feature/SA-532
+Checking PR-867 from smartlogtms/smartlog-app and branch feature/SA-536
+Checking PR-865 from smartlogtms/smartlog-app and branch bugfix/sa-470
+Checking PR-860 from smartlogtms/smartlog-app and branch bugfix/sa-532
+Checking PR-858 from smartlogtms/smartlog-app and branch feature/SA-539
+Checking PR-829 from smartlogtms/smartlog-app and branch feature/SA-550
+Checking PR-842 from smartlogtms/smartlog-app and branch feature/sa-440
+Checking PR-841 from smartlogtms/smartlog-app and branch feature/sa-262
+Checking PR-844 from smartlogtms/smartlog-app and branch feature/SA-Sprint13-Refactor
+Checking PR-843 from smartlogtms/smartlog-app and branch bugfix/sa-542
+Checking PR-840 from smartlogtms/smartlog-app and branch feature/sa-540
+Checking PR-839 from smartlogtms/smartlog-app and branch fixbug/SA-Sprint13-CreatedBy
+Checking PR-838 from smartlogtms/smartlog-app and branch feature/SA-528
+Checking PR-682 from smartlogtms/smartlog-app and branch feature/SA-445
+Checking PR-593 from smartlogtms/smartlog-app and branch releases/swm-integration
+
+  24 pull requests were processed
+[Sat Apr 15 08:14:59 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 15 08:14:47 UTC 2023 processed in 6.7 sec

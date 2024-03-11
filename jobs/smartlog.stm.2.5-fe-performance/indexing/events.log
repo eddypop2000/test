@@ -1,0 +1,38 @@
+Looking up smartlogtms/smartlog.stm.2.5 for pull requests
+Checking PR-14331 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3877-sync-filter
+Checking PR-14410 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3894-report-owner-pl-bo-sung-tai-queue
+Checking PR-14450 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3982-bo-sung-bao-cao-do-dau-adsun-15
+Checking PR-14048 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3782-bo-sung-tinh-nang-hien-thi-theo-luot
+Checking PR-14225 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3889
+Checking PR-14446 from smartlogtms/smartlog.stm.2.5 and branch bugfix/thp-order-eta
+Checking PR-14441 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3944
+Checking PR-14437 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3940-qdtrans
+Checking PR-14394 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3915-rang-buoc-thau-tach-chuyen
+Checking PR-14393 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3915-rang-buoc-thau-tach-chuyen
+Checking PR-14364 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3891-edit-master-time
+Checking PR-14414 from smartlogtms/smartlog.stm.2.5 and branch bugfix/auto-sync-maint-mo
+Checking PR-14257 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3934-auto-province
+Checking PR-14168 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3755
+Checking PR-14369 from smartlogtms/smartlog.stm.2.5 and branch bugfix/excel-xe-thau-them-moi
+Checking PR-14286 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3822-open-in-new-tab
+Checking PR-14400 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3135-chan-tinh-phi-thang
+Checking PR-13995 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3589-change-payment-method
+Checking PR-14378 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3899-new-contract-date
+Checking PR-14247 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3819-tick-all-hidden-grid-setting
+Checking PR-13672 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3468-bo-sung-popup-filter
+Checking PR-14148 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3750-romooc-gps-code
+Checking PR-14271 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3893-bo-sung-phan-quyen
+Checking PR-14108 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3878-mainetti
+Checking PR-13680 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3578
+Checking PR-13827 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3784
+Checking PR-14208 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3886-filter-status-master
+Checking PR-14098 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-920-new-entity
+Checking PR-13681 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3615-fix-conflict
+Checking PR-13733 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3712-bo-sung-ngay-loc-bao-cao
+Checking PR-13965 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3667
+Checking PR-13664 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3528-fin-refresh
+Checking PR-13666 from smartlogtms/smartlog.stm.2.5 and branch feature/TMS-3591
+Checking PR-13661 from smartlogtms/smartlog.stm.2.5 and branch feature/update-apm-configuration
+
+  34 pull requests were processed
+[Sun Apr 16 04:33:04 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 16 04:31:53 UTC 2023 processed in 16 sec

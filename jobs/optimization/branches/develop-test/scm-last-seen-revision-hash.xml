@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>develop-test</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>b58fbcf57e1dc9e0ffb0b9b1cf5a5febea8ab87e</hash>
+  <message>Merged in nvhoang/fix-no-external (pull request #446)
+
+[Fix-bug] Data Type error</message>
+  <author>Hoang Dao &lt;hoang.dao@gosmartlog.com&gt;</author>
+  <date>2022-08-16 07:34:54.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

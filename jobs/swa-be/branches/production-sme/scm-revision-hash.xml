@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production-sme</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>ca24303ef63ac85d3a6790defc818e5dec8f3440</hash>
+  <message>Merged in release-sme/sprint-11 (pull request #2913)
+
+Release sme/sprint 11
+
+Approved-by: Tuan Tran</message>
+  <author>[DEV] Đức Nguyễn &lt;duc.nguyen@gosmartlog.com&gt;</author>
+  <date>2023-04-02 15:44:24.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

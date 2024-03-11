@@ -1,0 +1,718 @@
+Branch event
+Obtained Jenkinsfile from 54f5f4f54372a1111d92370c9203d0458175639f
+[8mha:////4AP0BEMbsnn8Uzp5AmimK3Sy4c2uTyK6wmWPvLU3TQDVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Pn6UYa52Vwttj1uYqxby3bTpLc0eIPoRQMYio8I4x/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4OkcocDk1t8dcXZTgBs+G8ZYjX773GaPU+VNYOBdfNACAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4ILMUCDLZwU7R2obCDDUq35DTJ71GsHB6s2pE90kvALzAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] node
+Still waiting to schedule task
+Waiting for next available executor on ‘[8mha:////4DS6TZdvW0vl+UEs3tLvcn34lHD/QqdllX3HqGNg/vQnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwuoBlA7UmpOfrJ+bm5+Xm6Bfkp+gCSF0Q6xwAAAA==[0mcommon-pod’
+Agent [8mha:////4BVTGPQHwAtjlFBraNCOMHxf0rw2s8fBszvW+1EFbsd1AAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYF/eT83ILSktQiECM3P0+3ID9Ftzw5w9hENy2pPKkKACzL+9nVAAAA[0mcommon-pod-wch34-fbwbz is provisioned from template common-pod-wch34
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    buildUrl: "http://jenkins2.jenkins.svc.cluster.local:8080/job/poms-be/job/dev/1096/"
+    runUrl: "job/poms-be/job/dev/1096/"
+  labels:
+    jenkins/jenkins2-jenkins-agent: "true"
+    jenkins/label-digest: "00d9bd3fac8df794a3f0e285c1d4943ec858d119"
+    jenkins/label: "common-pod"
+  name: "common-pod-wch34-fbwbz"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/roffe/kubectl:v1.13.2"
+    imagePullPolicy: "IfNotPresent"
+    name: "kubectl"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190"
+    imagePullPolicy: "IfNotPresent"
+    name: "awscli"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "public.ecr.aws/smartlog/docker:19.03.8"
+    imagePullPolicy: "IfNotPresent"
+    name: "docker"
+    resources:
+      limits: {}
+      requests: {}
+    tty: true
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_TUNNEL"
+      value: "jenkins2-agent.jenkins.svc.cluster.local:50000"
+    - name: "JENKINS_AGENT_NAME"
+      value: "common-pod-wch34-fbwbz"
+    - name: "JENKINS_NAME"
+      value: "common-pod-wch34-fbwbz"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins2.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4H1one5qZ6PdSG62ftvniRDuQmJ0AnTsOqYNm7DNWeVUAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZ1/eT83ILSktQiECM3P0/VyKUgPwVIlidnGJsA6bSk8qQqfQCoeDoE3AAAAA==[0mcommon-pod-wch34-fbwbz in /home/jenkins/agent/workspace/oms-dotnet-be_production
+[8mha:////4CaXktG0WED9gUs0sXsuv/nIC6Qsfm1J8Yk5nt4ZEy4MAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4Ouw4a5oEi1TeoztQ8v7tvPGuLQ+zW45uBv6Isb/j8SIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4LgW66wwEH/NrvJcTG1WzbvNj41wHb7uBgBxHjd2/iAmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (Get source code)
+[8mha:////4GYxthSOCXIIlz3WyTl11VJvGYAhVyo4Zxpu/8AQI+XZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] echo
+Getting source code...
+[8mha:////4ADLSZlJ+MbAP++Kj+ZtZua2qTcOyVMjtHj31flLbVXcAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential f1011a6a-b720-4819-b875-826292740ef0
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://x-token-auth:{xzMJq35TMJKm7i1N6e9DlI83tIdcwe4l_01F-oxtEw6_0_BYaW2S2LReS_bS3n7f7iwmprbxcdVM-H6rkQ_Uvzym}@bitbucket.org/smartlogtms/oms-dotnet-be.git
+ > git init /home/jenkins/agent/workspace/oms-dotnet-be_production # timeout=10
+Fetching upstream changes from https://x-token-auth@bitbucket.org/smartlogtms/oms-dotnet-be.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --no-tags --force --progress -- https://x-token-auth:{xzMJq35TMJKm7i1N6e9DlI83tIdcwe4l_01F-oxtEw6_0_BYaW2S2LReS_bS3n7f7iwmprbxcdVM-H6rkQ_Uvzym}@bitbucket.org/smartlogtms/oms-dotnet-be.git +refs/heads/production:refs/remotes/origin/production # timeout=10
+Avoid second fetch
+Checking out Revision 54f5f4f54372a1111d92370c9203d0458175639f (production)
+ > git config remote.origin.url https://x-token-auth:{xzMJq35TMJKm7i1N6e9DlI83tIdcwe4l_01F-oxtEw6_0_BYaW2S2LReS_bS3n7f7iwmprbxcdVM-H6rkQ_Uvzym}@bitbucket.org/smartlogtms/oms-dotnet-be.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/production:refs/remotes/origin/production # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 54f5f4f54372a1111d92370c9203d0458175639f # timeout=10
+Commit message: "Merged in feature/oms-production-status-owner (pull request #1175)"
+First time build. Skipping changelog.
+[Bitbucket] Notifying commit build result
+[8mha:////4BYtQaAzOg39gFDO0hV9uoUl0U2XtLKSAf+i0uH4BLClAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] sh
++ git log -1 --pretty=%B
+[8mha:////4G1jLElcRd+J3mGGkik+ERq6adugTzeVi1P2g+ZvC/WEAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4MoSakPaeSdxFn0fD1Rv/NWWAgulnfGkAXtPnMA8dMhrAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // stage
+[8mha:////4Lh6R017mmVziF0/1JA3nsy1l6EiwDdvOoYsnMMMcLesAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5dtd9AHiMrqC9AAAA[0m[Pipeline] echo
+Process build for production branch
+[8mha:////4G72Yi4/mlcwlMW+QjYrV1NrzEmGMsIWiUJgv57WRYm0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCmgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvxMyLWcEAAAA=[0m[Pipeline] stage
+[8mha:////4LNT2fNV6P4r0kxiqAeuVdN10WwklVj0jf+X2wVRJpLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build docker)
+[8mha:////4LhkrI4AVLx7m9nJYXGM8QHNGQhU0chbR9VVj7//qW5TAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] container
+[8mha:////4A3HktNW87RuZ1UMupA/w4CWKSR7Piya1nRWl/pdagvYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4K3Gps8Cb6OxwZKT2h59HbwRsfx/XRHlluGCf90aGBO3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ aws s3 cp s3://smartlog-build-config/swm/oms/appsettings.prod.json src/OMS.WebApi/appsettings.Production.json
+Completed 3.1 KiB/3.1 KiB (27.5 KiB/s) with 1 file(s) remainingdownload: s3://smartlog-build-config/swm/oms/appsettings.prod.json to src/OMS.WebApi/appsettings.Production.json
+[8mha:////4N6vi7jJLKGYHenl2f2i9AGeq9Jq3MEoq+qeLRKw5XBdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] sh
++ aws ecr get-login --no-include-email --region ap-southeast-1
+[8mha:////4Cn8fJ41lTBW2y93mATKKOULw8vwaaNWAgc66JfSa+Q2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4PYxv0u4quTP+RhPwKiKtN+M/Pkv3AQbms39wcpw6J3vAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // container
+[8mha:////4HZqH5HSxZPRkRextd7HXtJ5tA+N68VgGXG1zQ7Ku4EuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g3U0CVIwgAAAA==[0m[Pipeline] container
+[8mha:////4M8W1q6iQix3FEn4koCfbPRJn8z2IOXZp5cJb2YPcAB+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] {
+[8mha:////4F+JqAzsBSUrcRh5OagHbo8kb/6GhZpsrgSWhX7WeFUwAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ ls -la
+total 112
+drwxr-xr-x    6 1000     1000          4096 Dec  8 08:53 .
+drwxr-xr-x    4 1000     1000            96 Dec  8 08:53 ..
+-rw-r--r--    1 1000     1000          9005 Dec  8 08:53 .editorconfig
+drwxr-xr-x    8 1000     1000           162 Dec  8 08:53 .git
+-rw-r--r--    1 1000     1000          6704 Dec  8 08:53 .gitignore
+-rw-r--r--    1 1000     1000           576 Dec  8 08:53 Dockerfile.dev
+-rw-r--r--    1 1000     1000           575 Dec  8 08:53 Dockerfile.prod
+-rw-r--r--    1 1000     1000           572 Dec  8 08:53 Dockerfile.stage
+-rw-r--r--    1 1000     1000          5950 Dec  8 08:53 Jenkinsfile
+-rw-r--r--    1 1000     1000         21682 Dec  8 08:53 OMS.All.sln
+-rw-r--r--    1 1000     1000         16776 Dec  8 08:53 OMS.Source.sln
+-rw-r--r--    1 1000     1000          1677 Dec  8 08:53 OMS.Test.sln
+drwxr-xr-x    3 1000     1000            24 Dec  8 08:53 dapr
+-rw-r--r--    1 1000     1000          2200 Dec  8 08:53 deploy.dev.yml
+-rw-r--r--    1 1000     1000          2153 Dec  8 08:53 deploy.prod.yml
+-rw-r--r--    1 1000     1000          2168 Dec  8 08:53 deploy.stage.yml
+drwxr-xr-x    3 1000     1000            20 Dec  8 08:53 docs
+-rw-r--r--    1 1000     1000           288 Dec  8 08:53 package.json
+-rw-r--r--    1 1000     1000           185 Dec  8 08:53 readme.md
+drwxr-xr-x    9 1000     1000           154 Dec  8 08:53 src
++ docker build -f Dockerfile.prod '--network=host' -t 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:prod '--pull=true' .
+Sending build context to Docker daemon  37.97MB
+Step 1/16 : FROM public.ecr.aws/smartlog/dotnet/sdk:5.0 AS build
+5.0: Pulling from smartlog/dotnet/sdk
+Digest: sha256:f19a35fe58a5e8b84302fe01d164472b063b4cd17bb2a7c509f99d8510db76b7
+Status: Image is up to date for public.ecr.aws/smartlog/dotnet/sdk:5.0
+ ---> a24cc6063084
+Step 2/16 : WORKDIR /src
+ ---> Using cache
+ ---> a61155ecaf9f
+Step 3/16 : COPY . .
+ ---> 29efe408e309
+Step 4/16 : RUN cd src/OMS.WebApi && dotnet restore
+ ---> Running in 1b76fcd73454
+  Determining projects to restore...
+  Restored /src/src/Modules/Master/OMS.Master.Domain/OMS.Master.Domain.csproj (in 6.62 sec).
+  Restored /src/src/Modules/Master/OMS.Master.WebApi/OMS.Master.WebApi.csproj (in 6.64 sec).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.CommandSpecification/OMS.Transaction.CommandSpecification.csproj (in 6.65 sec).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.Domain/OMS.Transaction.Domain.csproj (in 6.65 sec).
+  Restored /src/src/Modules/Authorization/OMS.Authorization/OMS.Authorization.csproj (in 6.63 sec).
+  Restored /src/src/Modules/Master/OMS.Master.QuerySpecification/OMS.Master.QuerySpecification.csproj (in 6.63 sec).
+  Restored /src/src/Modules/Admin/OMS.Admin/OMS.Admin.csproj (in 6.63 sec).
+  Restored /src/src/Modules/User/OMS.User.Domain/OMS.User.Domain.csproj (in 6.64 sec).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.QuerySpecification/OMS.Transaction.QuerySpecification.csproj (in 119 ms).
+  Restored /src/src/Modules/Master/OMS.Master.CommandSpecification/OMS.Master.CommandSpecification.csproj (in 154 ms).
+  Restored /src/src/OMS.Persistence/OMS.Persistence.csproj (in 133 ms).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.Persistence/OMS.Transaction.Persistence.csproj (in 183 ms).
+  Restored /src/src/Modules/Master/OMS.Master.Persistence/OMS.Master.Persistence.csproj (in 218 ms).
+  Restored /src/src/OMS.Core/OMS.Core.csproj (in 103 ms).
+  Restored /src/src/OMS.ClientService/OMS.ClientService.csproj (in 152 ms).
+  Restored /src/src/Modules/User/OMS.User.QuerySpecification/OMS.User.QuerySpecification.csproj (in 123 ms).
+  Restored /src/src/Modules/User/OMS.User.WebApi/OMS.User.WebApi.csproj (in 167 ms).
+  Restored /src/src/Modules/User/OMS.User.CommandSpecification/OMS.User.CommandSpecification.csproj (in 117 ms).
+  Restored /src/src/Modules/User/OMS.User.Persistence/OMS.User.Persistence.csproj (in 146 ms).
+  Restored /src/src/OMS.Infrastructure/OMS.Infrastructure.csproj (in 4.06 sec).
+  Restored /src/src/Modules/Transaction/OMS.Transaction.WebApi/OMS.Transaction.WebApi.csproj (in 3.74 sec).
+  Restored /src/src/Modules/Authorization/OMS.Authorization.WebApi/OMS.Authorization.WebApi.csproj (in 4.1 sec).
+  Restored /src/src/OMS.WebApi/OMS.WebApi.csproj (in 4.57 sec).
+Removing intermediate container 1b76fcd73454
+ ---> 8823d584a15a
+Step 5/16 : RUN cd src/OMS.WebApi && dotnet publish -c Release -o /app/publish
+ ---> Running in 3ca98b1361d2
+Microsoft (R) Build Engine version 16.9.0+57a23d249 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+/src/src/OMS.Core/Tenant/TenantService.cs(11,47): warning CS0169: The field 'TenantService._httpContextAccessor' is never used [/src/src/OMS.Core/OMS.Core.csproj]
+  OMS.Core -> /src/src/OMS.Core/bin/Release/net5.0/OMS.Core.dll
+  OMS.ClientService -> /src/src/OMS.ClientService/bin/Release/net5.0/OMS.ClientService.dll
+  OMS.Persistence -> /src/src/OMS.Persistence/bin/Release/net5.0/OMS.Persistence.dll
+  OMS.User.CommandSpecification -> /src/src/Modules/User/OMS.User.CommandSpecification/bin/Release/net5.0/OMS.User.CommandSpecification.dll
+  OMS.User.QuerySpecification -> /src/src/Modules/User/OMS.User.QuerySpecification/bin/Release/net5.0/OMS.User.QuerySpecification.dll
+  OMS.Master.CommandSpecification -> /src/src/Modules/Master/OMS.Master.CommandSpecification/bin/Release/net5.0/OMS.Master.CommandSpecification.dll
+  OMS.Infrastructure -> /src/src/OMS.Infrastructure/bin/Release/net5.0/OMS.Infrastructure.dll
+  OMS.Transaction.CommandSpecification -> /src/src/Modules/Transaction/OMS.Transaction.CommandSpecification/bin/Release/net5.0/OMS.Transaction.CommandSpecification.dll
+  OMS.Authorization -> /src/src/Modules/Authorization/OMS.Authorization/bin/Release/net5.0/OMS.Authorization.dll
+  OMS.Authorization.WebApi -> /src/src/Modules/Authorization/OMS.Authorization.WebApi/bin/Release/net5.0/OMS.Authorization.WebApi.dll
+  OMS.User.WebApi -> /src/src/Modules/User/OMS.User.WebApi/bin/Release/net5.0/OMS.User.WebApi.dll
+  OMS.User.Domain -> /src/src/Modules/User/OMS.User.Domain/bin/Release/net5.0/OMS.User.Domain.dll
+/src/src/Modules/Master/OMS.Master.Domain/CommandHandlers/Owners/RemoveWarehouseCommandHandler.cs(24,44): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/Master/OMS.Master.Domain/OMS.Master.Domain.csproj]
+  OMS.Master.Domain -> /src/src/Modules/Master/OMS.Master.Domain/bin/Release/net5.0/OMS.Master.Domain.dll
+/src/src/Modules/Transaction/OMS.Transaction.Domain/CommandHandlers/Shipments/SetRTSShipmentCommandHandler.cs(24,54): warning CS0169: The field 'SetRTSShipmentCommandHandler._shipmentProviderRepository' is never used [/src/src/Modules/Transaction/OMS.Transaction.Domain/OMS.Transaction.Domain.csproj]
+  OMS.Transaction.Domain -> /src/src/Modules/Transaction/OMS.Transaction.Domain/bin/Release/net5.0/OMS.Transaction.Domain.dll
+  OMS.Master.QuerySpecification -> /src/src/Modules/Master/OMS.Master.QuerySpecification/bin/Release/net5.0/OMS.Master.QuerySpecification.dll
+/src/src/Modules/User/OMS.User.Persistence/Authorization/AuthorizationService.cs(175,61): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/User/OMS.User.Persistence/OMS.User.Persistence.csproj]
+  OMS.Transaction.QuerySpecification -> /src/src/Modules/Transaction/OMS.Transaction.QuerySpecification/bin/Release/net5.0/OMS.Transaction.QuerySpecification.dll
+  OMS.Master.WebApi -> /src/src/Modules/Master/OMS.Master.WebApi/bin/Release/net5.0/OMS.Master.WebApi.dll
+  OMS.User.Persistence -> /src/src/Modules/User/OMS.User.Persistence/bin/Release/net5.0/OMS.User.Persistence.dll
+/src/src/Modules/Transaction/OMS.Transaction.WebApi/DaprHandlers/OrderSubscriber.cs(25,27): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/Transaction/OMS.Transaction.WebApi/OMS.Transaction.WebApi.csproj]
+/src/src/Modules/Transaction/OMS.Transaction.WebApi/Controllers/Integrations/OrderIntegrationController.cs(44,58): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/src/Modules/Transaction/OMS.Transaction.WebApi/OMS.Transaction.WebApi.csproj]
+  OMS.Transaction.WebApi -> /src/src/Modules/Transaction/OMS.Transaction.WebApi/bin/Release/net5.0/OMS.Transaction.WebApi.dll
+  OMS.Transaction.Persistence -> /src/src/Modules/Transaction/OMS.Transaction.Persistence/bin/Release/net5.0/OMS.Transaction.Persistence.dll
+  OMS.Master.Persistence -> /src/src/Modules/Master/OMS.Master.Persistence/bin/Release/net5.0/OMS.Master.Persistence.dll
+  OMS.Admin -> /src/src/Modules/Admin/OMS.Admin/bin/Release/net5.0/OMS.Admin.dll
+  OMS.WebApi -> /src/src/OMS.WebApi/bin/Release/net5.0/OMS.WebApi.dll
+  OMS.WebApi -> /app/publish/
+Removing intermediate container 3ca98b1361d2
+ ---> 93ae8f0ccbba
+Step 6/16 : FROM public.ecr.aws/smartlog/dotnet/aspnet:5.0
+5.0: Pulling from smartlog/dotnet/aspnet
+6ec7b7d162b2: Pulling fs layer
+f48adbf33222: Pulling fs layer
+2a0bbc85b650: Pulling fs layer
+7ab77a7157c0: Pulling fs layer
+b70652007fb4: Pulling fs layer
+7ab77a7157c0: Verifying Checksum
+7ab77a7157c0: Download complete
+b70652007fb4: Verifying Checksum
+b70652007fb4: Download complete
+f48adbf33222: Verifying Checksum
+f48adbf33222: Download complete
+6ec7b7d162b2: Verifying Checksum
+6ec7b7d162b2: Download complete
+2a0bbc85b650: Verifying Checksum
+2a0bbc85b650: Download complete
+6ec7b7d162b2: Pull complete
+f48adbf33222: Pull complete
+2a0bbc85b650: Pull complete
+7ab77a7157c0: Pull complete
+b70652007fb4: Pull complete
+Digest: sha256:fcda19a5b7a46a0ee0f2da4ba4df1d24e21da86d76b9ca56bc98efa541095ba9
+Status: Downloaded newer image for public.ecr.aws/smartlog/dotnet/aspnet:5.0
+ ---> 5f9a6a778eac
+Step 7/16 : RUN apt-get update
+ ---> Running in 76dcf853c0e5
+Get:1 http://deb.debian.org/debian buster InRelease [122 kB]
+Get:2 http://security.debian.org/debian-security buster/updates InRelease [34.8 kB]
+Get:3 http://deb.debian.org/debian buster-updates InRelease [56.6 kB]
+Get:4 http://security.debian.org/debian-security buster/updates/main amd64 Packages [411 kB]
+Get:5 http://deb.debian.org/debian buster/main amd64 Packages [7909 kB]
+Get:6 http://deb.debian.org/debian buster-updates/main amd64 Packages [8788 B]
+Fetched 8542 kB in 2s (4246 kB/s)
+Reading package lists...
+Removing intermediate container 76dcf853c0e5
+ ---> 84db4841a05f
+Step 8/16 : RUN apt-get install -y apt-utils
+ ---> Running in fa6ff7b54b57
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apt libapt-inst2.0
+Suggested packages:
+  apt-doc aptitude | synaptic | wajig dpkg-dev gnupg | gnupg2 | gnupg1
+  powermgmt-base
+The following NEW packages will be installed:
+  apt-utils libapt-inst2.0
+The following packages will be upgraded:
+  apt
+1 upgraded, 2 newly installed, 0 to remove and 35 not upgraded.
+Need to get 2043 kB of archives.
+After this operation, 1650 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 apt amd64 1.8.2.3 [1418 kB]
+Get:2 http://deb.debian.org/debian buster/main amd64 libapt-inst2.0 amd64 1.8.2.3 [204 kB]
+Get:3 http://deb.debian.org/debian buster/main amd64 apt-utils amd64 1.8.2.3 [421 kB]
+[91mdebconf: delaying package configuration, since apt-utils is not installed
+[0mFetched 2043 kB in 0s (32.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6832 files and directories currently installed.)
+Preparing to unpack .../archives/apt_1.8.2.3_amd64.deb ...
+Unpacking apt (1.8.2.3) over (1.8.2.2) ...
+Setting up apt (1.8.2.3) ...
+Selecting previously unselected package libapt-inst2.0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6832 files and directories currently installed.)
+Preparing to unpack .../libapt-inst2.0_1.8.2.3_amd64.deb ...
+Unpacking libapt-inst2.0:amd64 (1.8.2.3) ...
+Selecting previously unselected package apt-utils.
+Preparing to unpack .../apt-utils_1.8.2.3_amd64.deb ...
+Unpacking apt-utils (1.8.2.3) ...
+Setting up libapt-inst2.0:amd64 (1.8.2.3) ...
+Setting up apt-utils (1.8.2.3) ...
+Processing triggers for libc-bin (2.28-10) ...
+Removing intermediate container fa6ff7b54b57
+ ---> ffa65368627b
+Step 9/16 : RUN apt-get install -y libgdiplus
+ ---> Running in d4898064e926
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fontconfig-config fonts-dejavu-core libbsd0 libcairo2 libexif12 libexpat1
+  libfontconfig1 libfreetype6 libgif7 libglib2.0-0 libglib2.0-data libjbig0
+  libjpeg62-turbo libpixman-1-0 libpng16-16 libtiff5 libwebp6 libx11-6
+  libx11-data libxau6 libxcb-render0 libxcb-shm0 libxcb1 libxdmcp6 libxext6
+  libxml2 libxrender1 sensible-utils shared-mime-info ucf xdg-user-dirs
+The following NEW packages will be installed:
+  fontconfig-config fonts-dejavu-core libbsd0 libcairo2 libexif12 libexpat1
+  libfontconfig1 libfreetype6 libgdiplus libgif7 libglib2.0-0 libglib2.0-data
+  libjbig0 libjpeg62-turbo libpixman-1-0 libpng16-16 libtiff5 libwebp6
+  libx11-6 libx11-data libxau6 libxcb-render0 libxcb-shm0 libxcb1 libxdmcp6
+  libxext6 libxml2 libxrender1 sensible-utils shared-mime-info ucf
+  xdg-user-dirs
+0 upgraded, 32 newly installed, 0 to remove and 35 not upgraded.
+Need to get 10.2 MB of archives.
+After this operation, 36.7 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 sensible-utils all 0.0.12 [15.8 kB]
+Get:2 http://security.debian.org/debian-security buster/updates/main amd64 libxml2 amd64 2.9.4+dfsg1-7+deb10u5 [690 kB]
+Get:3 http://deb.debian.org/debian buster/main amd64 ucf all 3.0038+nmu1 [69.0 kB]
+Get:4 http://deb.debian.org/debian buster/main amd64 fonts-dejavu-core all 2.37-1 [1068 kB]
+Get:5 http://deb.debian.org/debian buster/main amd64 fontconfig-config all 2.13.1-2 [280 kB]
+Get:6 http://security.debian.org/debian-security buster/updates/main amd64 libexpat1 amd64 2.2.6-2+deb10u6 [108 kB]
+Get:7 http://security.debian.org/debian-security buster/updates/main amd64 libpixman-1-0 amd64 0.36.0-1+deb10u1 [234 kB]
+Get:8 http://deb.debian.org/debian buster/main amd64 libbsd0 amd64 0.9.1-2+deb10u1 [99.5 kB]
+Get:9 http://security.debian.org/debian-security buster/updates/main amd64 libgif7 amd64 5.1.4-3+deb10u1 [43.4 kB]
+Get:10 http://deb.debian.org/debian buster/main amd64 libpng16-16 amd64 1.6.36-6 [292 kB]
+Get:11 http://security.debian.org/debian-security buster/updates/main amd64 libglib2.0-0 amd64 2.58.3-2+deb10u4 [1259 kB]
+Get:12 http://deb.debian.org/debian buster/main amd64 libfreetype6 amd64 2.9.1-3+deb10u3 [380 kB]
+Get:13 http://deb.debian.org/debian buster/main amd64 libfontconfig1 amd64 2.13.1-2 [346 kB]
+Get:14 http://deb.debian.org/debian buster/main amd64 libxau6 amd64 1:1.0.8-1+b2 [19.9 kB]
+Get:15 http://deb.debian.org/debian buster/main amd64 libxdmcp6 amd64 1:1.1.2-3 [26.3 kB]
+Get:16 http://deb.debian.org/debian buster/main amd64 libxcb1 amd64 1.13.1-2 [137 kB]
+Get:17 http://deb.debian.org/debian buster/main amd64 libx11-data all 2:1.6.7-1+deb10u2 [299 kB]
+Get:18 http://security.debian.org/debian-security buster/updates/main amd64 libglib2.0-data all 2.58.3-2+deb10u4 [1110 kB]
+Get:19 http://deb.debian.org/debian buster/main amd64 libx11-6 amd64 2:1.6.7-1+deb10u2 [757 kB]
+Get:20 http://deb.debian.org/debian buster/main amd64 libxcb-render0 amd64 1.13.1-2 [109 kB]
+Get:21 http://deb.debian.org/debian buster/main amd64 libxcb-shm0 amd64 1.13.1-2 [99.2 kB]
+Get:22 http://deb.debian.org/debian buster/main amd64 libxext6 amd64 2:1.3.3-1+b2 [52.5 kB]
+Get:23 http://deb.debian.org/debian buster/main amd64 libxrender1 amd64 1:0.9.10-1 [33.0 kB]
+Get:24 http://deb.debian.org/debian buster/main amd64 libcairo2 amd64 1.16.0-4+deb10u1 [688 kB]
+Get:25 http://deb.debian.org/debian buster/main amd64 libexif12 amd64 0.6.21-5.1+deb10u5 [326 kB]
+Get:26 http://deb.debian.org/debian buster/main amd64 libjpeg62-turbo amd64 1:1.5.2-2+deb10u1 [133 kB]
+Get:27 http://deb.debian.org/debian buster/main amd64 libjbig0 amd64 2.1-3.1+b2 [31.0 kB]
+Get:28 http://deb.debian.org/debian buster/main amd64 libwebp6 amd64 0.6.1-2+deb10u1 [261 kB]
+Get:29 http://deb.debian.org/debian buster/main amd64 libtiff5 amd64 4.1.0+git191117-2~deb10u4 [271 kB]
+Get:30 http://deb.debian.org/debian buster/main amd64 libgdiplus amd64 4.2-2 [145 kB]
+Get:31 http://deb.debian.org/debian buster/main amd64 shared-mime-info amd64 1.10-1 [766 kB]
+Get:32 http://deb.debian.org/debian buster/main amd64 xdg-user-dirs amd64 0.17-2 [53.8 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 32.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 10.2 MB in 0s (82.6 MB/s)
+Selecting previously unselected package sensible-utils.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 6962 files and directories currently installed.)
+Preparing to unpack .../00-sensible-utils_0.0.12_all.deb ...
+Unpacking sensible-utils (0.0.12) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../01-libxml2_2.9.4+dfsg1-7+deb10u5_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.4+dfsg1-7+deb10u5) ...
+Selecting previously unselected package ucf.
+Preparing to unpack .../02-ucf_3.0038+nmu1_all.deb ...
+Moving old data out of the way
+Unpacking ucf (3.0038+nmu1) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../03-fonts-dejavu-core_2.37-1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../04-fontconfig-config_2.13.1-2_all.deb ...
+Unpacking fontconfig-config (2.13.1-2) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../05-libbsd0_0.9.1-2+deb10u1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.9.1-2+deb10u1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../06-libexpat1_2.2.6-2+deb10u6_amd64.deb ...
+Unpacking libexpat1:amd64 (2.2.6-2+deb10u6) ...
+Selecting previously unselected package libpng16-16:amd64.
+Preparing to unpack .../07-libpng16-16_1.6.36-6_amd64.deb ...
+Unpacking libpng16-16:amd64 (1.6.36-6) ...
+Selecting previously unselected package libfreetype6:amd64.
+Preparing to unpack .../08-libfreetype6_2.9.1-3+deb10u3_amd64.deb ...
+Unpacking libfreetype6:amd64 (2.9.1-3+deb10u3) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../09-libfontconfig1_2.13.1-2_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-2) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../10-libpixman-1-0_0.36.0-1+deb10u1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.36.0-1+deb10u1) ...
+Selecting previously unselected package libxau6:amd64.
+Preparing to unpack .../11-libxau6_1%3a1.0.8-1+b2_amd64.deb ...
+Unpacking libxau6:amd64 (1:1.0.8-1+b2) ...
+Selecting previously unselected package libxdmcp6:amd64.
+Preparing to unpack .../12-libxdmcp6_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp6:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package libxcb1:amd64.
+Preparing to unpack .../13-libxcb1_1.13.1-2_amd64.deb ...
+Unpacking libxcb1:amd64 (1.13.1-2) ...
+Selecting previously unselected package libx11-data.
+Preparing to unpack .../14-libx11-data_2%3a1.6.7-1+deb10u2_all.deb ...
+Unpacking libx11-data (2:1.6.7-1+deb10u2) ...
+Selecting previously unselected package libx11-6:amd64.
+Preparing to unpack .../15-libx11-6_2%3a1.6.7-1+deb10u2_amd64.deb ...
+Unpacking libx11-6:amd64 (2:1.6.7-1+deb10u2) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../16-libxcb-render0_1.13.1-2_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.13.1-2) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../17-libxcb-shm0_1.13.1-2_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.13.1-2) ...
+Selecting previously unselected package libxext6:amd64.
+Preparing to unpack .../18-libxext6_2%3a1.3.3-1+b2_amd64.deb ...
+Unpacking libxext6:amd64 (2:1.3.3-1+b2) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../19-libxrender1_1%3a0.9.10-1_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../20-libcairo2_1.16.0-4+deb10u1_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-4+deb10u1) ...
+Selecting previously unselected package libexif12:amd64.
+Preparing to unpack .../21-libexif12_0.6.21-5.1+deb10u5_amd64.deb ...
+Unpacking libexif12:amd64 (0.6.21-5.1+deb10u5) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../22-libgif7_5.1.4-3+deb10u1_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.4-3+deb10u1) ...
+Selecting previously unselected package libglib2.0-0:amd64.
+Preparing to unpack .../23-libglib2.0-0_2.58.3-2+deb10u4_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.58.3-2+deb10u4) ...
+Selecting previously unselected package libjpeg62-turbo:amd64.
+Preparing to unpack .../24-libjpeg62-turbo_1%3a1.5.2-2+deb10u1_amd64.deb ...
+Unpacking libjpeg62-turbo:amd64 (1:1.5.2-2+deb10u1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../25-libjbig0_2.1-3.1+b2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../26-libwebp6_0.6.1-2+deb10u1_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2+deb10u1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../27-libtiff5_4.1.0+git191117-2~deb10u4_amd64.deb ...
+Unpacking libtiff5:amd64 (4.1.0+git191117-2~deb10u4) ...
+Selecting previously unselected package libgdiplus.
+Preparing to unpack .../28-libgdiplus_4.2-2_amd64.deb ...
+Unpacking libgdiplus (4.2-2) ...
+Selecting previously unselected package libglib2.0-data.
+Preparing to unpack .../29-libglib2.0-data_2.58.3-2+deb10u4_all.deb ...
+Unpacking libglib2.0-data (2.58.3-2+deb10u4) ...
+Selecting previously unselected package shared-mime-info.
+Preparing to unpack .../30-shared-mime-info_1.10-1_amd64.deb ...
+Unpacking shared-mime-info (1.10-1) ...
+Selecting previously unselected package xdg-user-dirs.
+Preparing to unpack .../31-xdg-user-dirs_0.17-2_amd64.deb ...
+Unpacking xdg-user-dirs (0.17-2) ...
+Setting up libexpat1:amd64 (2.2.6-2+deb10u6) ...
+Setting up libpixman-1-0:amd64 (0.36.0-1+deb10u1) ...
+Setting up libxau6:amd64 (1:1.0.8-1+b2) ...
+Setting up xdg-user-dirs (0.17-2) ...
+Setting up libglib2.0-0:amd64 (2.58.3-2+deb10u4) ...
+No schema files found: doing nothing.
+Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+Setting up libglib2.0-data (2.58.3-2+deb10u4) ...
+Setting up libjpeg62-turbo:amd64 (1:1.5.2-2+deb10u1) ...
+Setting up libx11-data (2:1.6.7-1+deb10u2) ...
+Setting up libexif12:amd64 (0.6.21-5.1+deb10u5) ...
+Setting up libpng16-16:amd64 (1.6.36-6) ...
+Setting up libwebp6:amd64 (0.6.1-2+deb10u1) ...
+Setting up fonts-dejavu-core (2.37-1) ...
+Setting up libgif7:amd64 (5.1.4-3+deb10u1) ...
+Setting up sensible-utils (0.0.12) ...
+Setting up libtiff5:amd64 (4.1.0+git191117-2~deb10u4) ...
+Setting up libbsd0:amd64 (0.9.1-2+deb10u1) ...
+Setting up libxml2:amd64 (2.9.4+dfsg1-7+deb10u5) ...
+Setting up libxdmcp6:amd64 (1:1.1.2-3) ...
+Setting up libxcb1:amd64 (1.13.1-2) ...
+Setting up libxcb-render0:amd64 (1.13.1-2) ...
+Setting up libxcb-shm0:amd64 (1.13.1-2) ...
+Setting up libfreetype6:amd64 (2.9.1-3+deb10u3) ...
+Setting up shared-mime-info (1.10-1) ...
+Setting up ucf (3.0038+nmu1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libx11-6:amd64 (2:1.6.7-1+deb10u2) ...
+Setting up libxrender1:amd64 (1:0.9.10-1) ...
+Setting up fontconfig-config (2.13.1-2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Setting up libxext6:amd64 (2:1.3.3-1+b2) ...
+Setting up libfontconfig1:amd64 (2.13.1-2) ...
+Setting up libcairo2:amd64 (1.16.0-4+deb10u1) ...
+Setting up libgdiplus (4.2-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+Removing intermediate container d4898064e926
+ ---> 9fba866e43c3
+Step 10/16 : RUN apt-get install -y libc6-dev
+ ---> Running in 65e444b5e9d8
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libc-dev-bin libc6 linux-libc-dev manpages manpages-dev
+Suggested packages:
+  glibc-doc libc-l10n locales man-browser
+The following NEW packages will be installed:
+  libc-dev-bin libc6-dev linux-libc-dev manpages manpages-dev
+The following packages will be upgraded:
+  libc6
+1 upgraded, 5 newly installed, 0 to remove and 34 not upgraded.
+Need to get 10.9 MB of archives.
+After this operation, 30.7 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian buster/main amd64 manpages all 4.16-2 [1295 kB]
+Get:2 http://security.debian.org/debian-security buster/updates/main amd64 libc6 amd64 2.28-10+deb10u2 [2869 kB]
+Get:3 http://deb.debian.org/debian buster/main amd64 manpages-dev all 4.16-2 [2232 kB]
+Get:4 http://security.debian.org/debian-security buster/updates/main amd64 libc-dev-bin amd64 2.28-10+deb10u2 [276 kB]
+Get:5 http://security.debian.org/debian-security buster/updates/main amd64 linux-libc-dev amd64 4.19.260-1 [1542 kB]
+Get:6 http://security.debian.org/debian-security buster/updates/main amd64 libc6-dev amd64 2.28-10+deb10u2 [2693 kB]
+[91mdebconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+[0m[91mdebconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 6.)
+debconf: falling back to frontend: Teletype
+[0m[91mdpkg-preconfigure: unable to re-open stdin: 
+[0mFetched 10.9 MB in 0s (68.7 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7924 files and directories currently installed.)
+Preparing to unpack .../libc6_2.28-10+deb10u2_amd64.deb ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Unpacking libc6:amd64 (2.28-10+deb10u2) over (2.28-10) ...
+Setting up libc6:amd64 (2.28-10+deb10u2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.28.1 /usr/local/share/perl/5.28.1 /usr/lib/x86_64-linux-gnu/perl5/5.28 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.28 /usr/share/perl/5.28 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Selecting previously unselected package manpages.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 7924 files and directories currently installed.)
+Preparing to unpack .../manpages_4.16-2_all.deb ...
+Unpacking manpages (4.16-2) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../libc-dev-bin_2.28-10+deb10u2_amd64.deb ...
+Unpacking libc-dev-bin (2.28-10+deb10u2) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../linux-libc-dev_4.19.260-1_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (4.19.260-1) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../libc6-dev_2.28-10+deb10u2_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.28-10+deb10u2) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../manpages-dev_4.16-2_all.deb ...
+Unpacking manpages-dev (4.16-2) ...
+Setting up manpages (4.16-2) ...
+Setting up linux-libc-dev:amd64 (4.19.260-1) ...
+Setting up libc-dev-bin (2.28-10+deb10u2) ...
+Setting up manpages-dev (4.16-2) ...
+Setting up libc6-dev:amd64 (2.28-10+deb10u2) ...
+Processing triggers for libc-bin (2.28-10) ...
+Removing intermediate container 65e444b5e9d8
+ ---> 06b5ecd18e8b
+Step 11/16 : RUN ln -s /usr/lib/libgdiplus.so/usr/lib/gdiplus.dll
+ ---> Running in 806c53a7a364
+Removing intermediate container 806c53a7a364
+ ---> f961a6c3c129
+Step 12/16 : WORKDIR /app
+ ---> Running in 8ce4dda47c8c
+Removing intermediate container 8ce4dda47c8c
+ ---> e8018bb3a2ee
+Step 13/16 : COPY --from=build /app/publish .
+ ---> 6687e3683d0d
+Step 14/16 : ENV ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+ ---> Running in e2db64ec4807
+Removing intermediate container e2db64ec4807
+ ---> e536765f01ba
+Step 15/16 : ENV ASPNETCORE_ENVIRONMENT=Production
+ ---> Running in 0e6fe383e85e
+Removing intermediate container 0e6fe383e85e
+ ---> 2f93e2185e78
+Step 16/16 : ENTRYPOINT ["dotnet", "OMS.WebApi.dll"]
+ ---> Running in 3a8c726568c9
+Removing intermediate container 3a8c726568c9
+ ---> 7c360508eb58
+Successfully built 7c360508eb58
+Successfully tagged 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:prod
++ docker login -u AWS -p 'eyJwYXlsb2FkIjoiQlo2YlNhNk50a3BIQXdwWkRuS3hoMjY5cXM4cGNZSlhEd3E1RDh5RjdCU253empQWitiU3hzZjQyUkNTaEEvMm5kTUFBMVhCdk9HSllBMUlnOHJtTElLTnQwRkUzZzFlMDJid0toTWxLQVV1SXJBTXA0TjArMDJrT0lWNHF3dy9wdStyTWtITFZrZm8yNFBkTjRvWWtETnFMNExRS1kvWm9iUFFYam5ZSEVZaFprdUJLUFdLeFROaWVQRmVydFg4aW5tUTVPZW8vYklOa1p2NmdqaEgrL1M4bng2ODNnZTgvcTFoMG9TMnNkYkg1YTdaY2FyakpSNHZaT1hnWVN4OGJBZTBDbG1HdzBSbSs2SzJIZ0xrdGpEU2c3cXJEN0xOTmJ5U0JmYWV2bE01U2RJdThZam0xSGdQRDF6endWOWwzNTRsQnoraU9Bcmh3aWVvcWFRS0gvbmNWbGhNMEY2ZlBQcUNmQUpGcmpReXZTc1E5OE9UZHZqbGJpVGhGVzVoMGxzN3BtUEdMV3BJU1dJSHFXZ1lneWdpcnhiY3B0VkthZU5Id2FVWlZMSmpZbTg0cURYQlEwR0dNR3BSYzdFbTFZeXdpWmpxZFB5M0hsU3Jkc3BIazhLclUyeXVDdjZobFlEZ0NqcTlzMHk3eG5hRDR4Yy9JdHRkUHllYmJhYzNtbXlERHJzYXl4emN0a3g3a3VadGFXTjN6bVBpdzdUc1djVFhWKzdqandEZ3BsS2NaZVNXOTZhOFlnb3pFc1VoTHFDcTRJR2ZOUTNPbU1IMC8zL2l4Z2M3YVRjZmFqcExkUndRclVDU2ZPUjk0d2tSV2NSQWw5V3NSU1Q2Y3hPSEpWYlJIU3FoWnlEeDhVMGcyS1h0cG5zUmtaYm9EcDN1TDNNaGZybXZORzBMRnQ4ckdyS0pvNjRub0tuWWFwTkgvY2YzRGVsYUFFR0NYRitZZ04rQ0VCK1RoaXlVeGJveFNwemRiWTVnM0hyOGhSWXA5cklGWGtldC8rY3BacUltbDdxSTUrck1WQzhWZHZqZzJzWUZTV0FraWZuMVo4akJiSnpBNzhjdGlPY1dBVWpBTUpLLzZIUmFBMitTNS9HUDdESGlrbWw0dENGcldOTksxeVRvbmNad3FVb1d1bTBTdDVXb21MZk9NSDVjSmFXZXZhSVg4R3N6RldNcWlxVmNNNHRjbGVEbnNkQ3o3WmF1bytFK0RWbmFXVDlqbE8zMXNTcmdSeG1aMFlpcjNmdWVnZkswNlk4YUpYM2gxaVpPaDR1N3RocFd5czlTa2dhazRNMkNNZWRvc1ZROUtWN25ZdjdFZnNYZVY2UUtxNXZkUDh0S05xSlBVUzk4c0ZIdzZHTExMRFViMkx2MnJ5L00wNllzZVlNSGZrUnB2U3hSb2ZUQ3NKTjE5TzJGNE5hUjBueXVudGxydTRNN3dLYXM5WlhjclZJU2dMckZUT3JibUxDWTA3bFN1ZUVSRHRhZitGK1ZoQ1RUQXlucUkyOTF2ZXdFaFZaSzFPZ3UrUEpaTTFGOTVSNnNJc3hVYms4QXorcTRVQTF2VDIwOTBpQzl0TU9aeFJYS1djLzlRMnB6MEpIdy81dkhFTXY0OTZUb3ZHRERibTN4WlJjSHVEMVMrM2ZoV1hUWTZtM2lISWkvRkFFN0N5UGJna3JuMThLMHhGS1V1L1J3VGpWcUR6alp3YlFxczVQNTVRRGFZVHg3YWtZSnAxOGdpWWViMmQxNHdnSnpHU1JwL2s4Q0RRNHZrWmJLU0wrcVhjb0hiSXhHVUZyY1o4TW9Kb1dISVphWkJwcmlsOUtJM0NKZ1dwNldvMlkzdHZIVm53dVVxZVhFYTU5K0huWVdSekF4ejJWMy93ajFjb3pScmJ3QmhRUUVCM1Y1Y1hNMjVVbHZTdzFYaWxWRFdKUXF3QWZnS3pOeGZFa2VReHFJSFVsN0VmbXo5cUpRYjJldUhkbmRldEp3ZThaeWRrbnN1VTBtczlEbndvdVI1ZmlHNDF0QVRGWC9IcFRacGFhSEVkZUJEMlBJWG5BR1d3d0NHS1N5bzVpankyNmdBcmlpUWZsQkprKzZodENqc1dyTDNnZDg0c04wS3hOTmpYYVpRRjkrTWZ2bkl6ZkZ3cnJIb1l5YXFSTit4Uks3YlVHU3BkMnVLYkVEcWhDMGdMZDhTeENpaXVBUENmczRmaWNPcktJUFRiUVZLVnN2Z3dxY0R1dXIzTXlmQWZIOW1TckVvNER1bzQ1WFNldklvTmhyRkcxK1VwVTRnVGswWXhNT3hpZ0o0cGJMY0dOTDlBZ0p0NHp3OWpsckdQbkdEdkVWTmJPazhZRk81Nm16bFFPRG4wTmZRNXNxSkpMckJncWVIT3ljNUJ4cmdvNk4xd1k9IiwiZGF0YWtleSI6IkFRRUJBSGlkRXJaQ2ZoS09lRE0wOCtjUDVmdHlqdlE5WE1NU1E0cEswRlpudkFaWEpnQUFBSDR3ZkFZSktvWklodmNOQVFjR29HOHdiUUlCQURCb0Jna3Foa2lHOXcwQkJ3RXdIZ1lKWUlaSUFXVURCQUV1TUJFRURNam9EUWI3a1VxeE9uYmVVUUlCRUlBN1pNM3NrL3hMaVpMUWpXeDNFSzdpQ3l1ejJhVjNRSGIvWm1EenNqYU5NMFBCWVRpRUVNc0ZMQXVoM1RnQ1QwM1FzcnlJUzhxOTc4VlZhdWc9IiwidmVyc2lvbiI6IjIiLCJ0eXBlIjoiREFUQV9LRVkiLCJleHBpcmF0aW9uIjoxNjcwNTMyODM2fQ==' https://744004065806.dkr.ecr.ap-southeast-1.amazonaws.com
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /root/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push 744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be:prod
+The push refers to repository [744004065806.dkr.ecr.ap-southeast-1.amazonaws.com/oms-dotnet-be]
+88dfef127fd1: Preparing
+c997c6d6edf9: Preparing
+21eae6bb0386: Preparing
+c968857ad088: Preparing
+6a6274052f3d: Preparing
+fc60c4baaf41: Preparing
+c49e811d39d5: Preparing
+024230939f4e: Preparing
+ea4124eb3c7e: Preparing
+8ed87ee178f4: Preparing
+0916aa79e133: Preparing
+87c8a1d8f54f: Preparing
+fc60c4baaf41: Waiting
+c49e811d39d5: Waiting
+8ed87ee178f4: Waiting
+87c8a1d8f54f: Waiting
+024230939f4e: Waiting
+ea4124eb3c7e: Waiting
+0916aa79e133: Waiting
+21eae6bb0386: Pushed
+c997c6d6edf9: Pushed
+fc60c4baaf41: Pushed
+024230939f4e: Layer already exists
+ea4124eb3c7e: Layer already exists
+8ed87ee178f4: Layer already exists
+0916aa79e133: Layer already exists
+87c8a1d8f54f: Layer already exists
+c49e811d39d5: Pushed
+6a6274052f3d: Pushed
+c968857ad088: Pushed
+88dfef127fd1: Pushed
+prod: digest: sha256:70655735b63af9c9313dfb284b80f7494aaa60e6d673cb67440da174e0800e85 size: 2843
+[8mha:////4BqNjw3g0w3nLaegnpAJhxA8C4zLkvSGNPJWW9J8EEPBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4CUZtj1jTIAIy9H2/KH1i7g4wZzsozjIjafNVCJkBLSBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // container
+[8mha:////4IsRPpdfzTjzZ86hYn7Hywbs9GVF5n7U9Np6X1sTlURFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKBASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AfJoyIr4AAAA=[0m[Pipeline] }
+[8mha:////4EmOYHLeON4BEMGRQhBnz8/GprISXljfpXvFbfkbhWowAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryd8i13X8AYxhncL4AAAA=[0m[Pipeline] // stage
+[8mha:////4PjyoD68h/o4LQUP7K2pD47y62cP1PvRODWJBuuqPQmdAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYSDhESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKLabz7F8A15M2Z7BAAAA[0m[Pipeline] stage
+[8mha:////4Kjo5/bjF1NE+q/QsBdT13g0b7YkVakhRO/skFGUitQWAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] { (Deploy to k8s)
+[8mha:////4B438o6Rb6EELKXfxtT5c4XU1+CgUUoIEVuppdt0CYFfAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+2YMO4MIAAAA=[0m[Pipeline] container
+[8mha:////4Gdmm38Jz+v6e350CDJbvX1mlSUvNF1jyF1Rw9vHBaCkAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUoiNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPfTawssIAAAA=[0m[Pipeline] {
+[8mha:////4GJ915m9rtgFKJ5qKJyYgd06Xt/OYV063kqANWbgHq7zAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxM6xsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NGWcPtb4AAAA=[0m[Pipeline] sh
++ kubectl apply -f deploy.prod.yml
+deployment.apps/oms-dotnet-be-prod configured
+service/oms-dotnet-be-prod unchanged
+ingress.networking.k8s.io/oms-dotnet-be-prod unchanged
++ date '+%s'
++ kubectl patch deployment oms-dotnet-be-prod -p '{"spec":{"template":{"metadata":{"labels":{"date":"1670489761"}}}}}' -n oms
+deployment.apps/oms-dotnet-be-prod patched
++ kubectl rollout status deployment oms-dotnet-be-prod -n oms
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 0 out of 2 new replicas have been updated...
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 2 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "oms-dotnet-be-prod" rollout to finish: 1 old replicas are pending termination...
+deployment "oms-dotnet-be-prod" successfully rolled out
+[8mha:////4Mct4KEvRMTu1wz2Mz++Ub5VmGF+3jzyK/NqNxFvdm/mAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZKwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfGxSHer4AAAA=[0m[Pipeline] }
+[8mha:////4HOemGfZ0To9ZEAHNbXAyQPPjHL5uwEp942Mrx/2Ew1ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEjVhSLvgAAAA==[0m[Pipeline] // container
+[8mha:////4BcBnXlZcRuGIyYdBeDMsPuRgyKHAU4rAn0OoAasjlbdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE81EHZvgAAAA==[0m[Pipeline] }
+[8mha:////4PVsJDl9gveXVLI9TO8i5AQ4q2jhpQU43PyPveUvDVz5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgF/VhBfvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JiOw085Ij6dpXPoi1NWGGCIDQ6FvwP5bF6rdsBaxCIzAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHaCbCfIt/vuA1smhBa9AAAA[0m[Pipeline] echo
+One way or another, I have finished
+[8mha:////4BXJxUVP9p1qhZvmgDv2I4Lclmv5StDhXJRxVzvMv+ZhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKhQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDfbbsPl4sJwr0AAAA=[0m[Pipeline] deleteDir
+[8mha:////4OMCWsXr0zcvHP9wvtU5MtMnPwtKzKbZOVi3O+nFdIAjAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ANa6Etu9AAAA[0m[Pipeline] echo
+Build successful
+[8mha:////4DCiCHdTSpQ0BmF+u5+ZUXShu/gETxVo9z+j/iCwPBtMAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axk6Q7QX5btt9ABXpP/C9AAAA[0m[Pipeline] slackSend
+Slack Send Pipeline step running, values are - baseUrl: <empty>, teamDomain: gosmartlog, channel: oms-deployment-notification, color: good, botUser: false, tokenCredentialId: slack-Integration-Token, notifyCommitters: false, iconEmoji: <empty>, username: <empty>, timestamp: <empty>
+[8mha:////4ATKL96d4x6Fc6FUDMr/DW0iGQdz+WQ+lbcdOdTwE6HzAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPyqEmK70AAAA=[0m[Pipeline] }
+[8mha:////4LCifKWghR/gBydqAdvIt/SN0MqESeofS0cLrpMYKfV6AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9gLA8AvQAAAA==[0m[Pipeline] // node
+[8mha:////4KAjzB+V99KqC5zyJT4WKYGptrl0SJcvJYdK6Xq3iZvPAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0WDlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg9GNWhKvQAAAA==[0m[Pipeline] }
+[8mha:////4I5gr4Yiv6D0/Vg1cGolbxNCP9xgH/466IGLjeD7Z26RAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPNdqsk70AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4JKmvmLExB0OLwYBFoCkicbaoVF0xCUZKhUxFeIzppMZAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/tBdn2AxPDy9m9AAAA[0m[Pipeline] End of Pipeline
+[Bitbucket] Notifying commit build result
+[Bitbucket] Build result notified
+Finished: SUCCESS

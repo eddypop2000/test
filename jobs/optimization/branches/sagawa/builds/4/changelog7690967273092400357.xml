@@ -1,0 +1,10 @@
+commit 7f7b9bf5167dffac2c667d9b53c9266b5a4c4fd4
+tree b614b6a4440b4b8cb4be6ccabce05617a345dd2a
+parent 17d43aca08fd12c9b0ad8038dad577a3aa4cafe6
+author Phuong Do <dongphuong2004@gmail.com> 2021-05-21 10:41:37 +0700
+committer Phuong Do <dongphuong2004@gmail.com> 2021-05-21 10:41:37 +0700
+
+    add dummy setDistrictCode
+
+
+:100644 100644 0bacd037d4b4c4cb8a6df2d3e641ab0fe004a2c2 ec1829fb7c913a556b20325d4c9087a2c2a71bc9 M	src/main/java/vrp/model/VRPLocationConfig.java

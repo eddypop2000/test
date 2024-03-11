@@ -1,0 +1,488 @@
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  21 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Fri Apr 07 05:36:07 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 05:35:58 UTC 2023 processed in 3.4 sec
+[Fri Apr 07 05:45:07 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 05:45:02 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  21 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Fri Apr 07 05:45:09 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 05:45:02 UTC 2023 processed in 2.7 sec
+[Fri Apr 07 06:04:18 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 06:04:13 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  21 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Fri Apr 07 06:04:21 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.22.53 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Apr 07 06:04:13 UTC 2023 processed in 3.4 sec
+[Sat Apr 08 06:52:51 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 08 06:52:46 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Sat Apr 08 06:52:54 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.50.202 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 08 06:52:46 UTC 2023 processed in 3.4 sec
+[Sat Apr 08 07:38:44 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.75.89 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 08 07:38:39 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Sat Apr 08 07:38:47 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.75.89 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 08 07:38:39 UTC 2023 processed in 3.3 sec
+[Mon Apr 10 22:21:00 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 22:20:55 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Mon Apr 10 22:21:04 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 22:20:55 UTC 2023 processed in 3.6 sec
+[Mon Apr 10 23:36:51 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 23:36:46 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Mon Apr 10 23:36:54 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 10 23:36:46 UTC 2023 processed in 3.3 sec
+[Wed Apr 12 06:56:34 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 06:56:29 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 06:56:38 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 06:56:29 UTC 2023 processed in 3.4 sec
+[Wed Apr 12 07:39:22 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 07:39:17 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 07:39:25 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 07:39:17 UTC 2023 processed in 3.4 sec
+[Wed Apr 12 08:19:47 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:19:42 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 08:19:51 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:19:42 UTC 2023 processed in 3.4 sec
+[Wed Apr 12 08:20:16 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:20:11 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 08:20:19 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.39.0 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:20:11 UTC 2023 processed in 3.4 sec
+[Wed Apr 12 08:36:42 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:36:37 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 08:36:45 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:36:37 UTC 2023 processed in 3.3 sec
+[Wed Apr 12 08:52:27 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:52:22 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 08:52:31 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 08:52:22 UTC 2023 processed in 3.5 sec
+[Wed Apr 12 09:05:11 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 09:05:06 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Wed Apr 12 09:05:14 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Apr 12 09:05:06 UTC 2023 processed in 3.6 sec
+[Thu Apr 13 01:39:00 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 13 01:38:55 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Thu Apr 13 01:39:04 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.24.66 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 13 01:38:55 UTC 2023 processed in 3.8 sec
+[Thu Apr 13 10:34:18 UTC 2023] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 13 10:34:13 UTC 2023
+Connecting to https://bitbucket.org using f1011a6a-b720-4819-b875-826292740ef0
+Repository type: Git
+Looking up smartlogtms/super-vrp for branches
+Checking branch buildkit from smartlogtms/super-vrp
+Checking branch develop_v2 from smartlogtms/super-vrp
+Checking branch develop_v3 from smartlogtms/super-vrp
+Checking branch hoangnv/add_binary_cbm from smartlogtms/super-vrp
+Checking branch hoangnv/fix_route_service from smartlogtms/super-vrp
+Checking branch hoangnv/fix_split_by_pallet from smartlogtms/super-vrp
+Checking branch hoangnv/pana-cost from smartlogtms/super-vrp
+Checking branch hotfix/ingress from smartlogtms/super-vrp
+Checking branch hotfix/revert from smartlogtms/super-vrp
+Checking branch master from smartlogtms/super-vrp
+Checking branch natuan/lifo from smartlogtms/super-vrp
+Checking branch natuan/loading_3d from smartlogtms/super-vrp
+Checking branch natuan/test from smartlogtms/super-vrp
+Checking branch origin/argocd from smartlogtms/super-vrp
+Checking branch origin/fix-cicd from smartlogtms/super-vrp
+Checking branch origin/remove-deliveree-jenkins from smartlogtms/super-vrp
+Checking branch origin/split-project from smartlogtms/super-vrp
+Checking branch release/sme from smartlogtms/super-vrp
+Checking branch release/update_sme from smartlogtms/super-vrp
+Checking branch stagging from smartlogtms/super-vrp
+Checking branch vdtrung/split_strategy from smartlogtms/super-vrp
+Checking branch vdtrung/validate from smartlogtms/super-vrp
+
+  22 branches were processed
+Looking up smartlogtms/super-vrp for pull requests
+
+  0 pull requests were processed
+[Thu Apr 13 10:34:22 UTC 2023] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.69.215 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Apr 13 10:34:13 UTC 2023 processed in 3.8 sec

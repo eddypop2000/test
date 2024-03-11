@@ -1,0 +1,139 @@
+commit 4dabc4a10c33de28a2ddf5f2c7b5f618180df7a9
+tree e25aeaa05863c6c29fa044322b40294621f9741d
+parent 756400d7e2224dddda04e3f337ca23f6a5f17ee9
+author VanTu <htu25399@gmail.com> 2021-05-03 09:49:20 +0700
+committer VanTu <htu25399@gmail.com> 2021-05-03 09:49:20 +0700
+
+    set permission priority list menu
+
+
+:100644 100644 7caf41bde4fba4c60f3e6632382a06d745a52268 338d4caef7f405de59cb29a515cee7cec27579dd M	src/app/shared/layout/nav/app-navigation.service.ts
+commit e8eb595a6ebd6e8e5e6cfc2a8b1870b53aff2a47
+tree 66f3cf5119ec4e03806aaa0e202735de20e637af
+parent 746fe4950e2e80587734448d1bab49ad190d051a
+author VanTu <htu25399@gmail.com> 2021-04-29 11:37:25 +0700
+committer VanTu <htu25399@gmail.com> 2021-04-29 11:37:25 +0700
+
+    fix bug report excel and constraint import excel
+
+
+:100644 100644 7d478c83c30c489cf762b49cc3a7266e0776a42a a1f91d18ce645f279a5468bf665ac4e168d18ae2 M	src/app/main/Report/MTReturnReport/mt-return-report.component.ts
+:100644 100644 16a152193559eaa449d42ecacdf11058c990430f 2d597a7bc6b3c8766b2fd9ed27107314f06cee14 M	src/app/main/Report/ReuseReport/reuse-report.component.ts
+:100644 100644 a08cf307bd16a23a1ba36b0607fbcddd3bba9c07 a417b2fe8d07fda86be1b2bf4562d6651d0b47d6 M	src/app/main/create-reuse/create-reuse-list.component.ts
+:100644 100644 5d820c19de3058770362dd72700e6829d61f68c8 e99c3fd110d51c55abd88fc608ca4736de4c3114 M	src/shared/service-proxies/service-proxies.ts
+commit 746fe4950e2e80587734448d1bab49ad190d051a
+tree 7acad139ac7b1b11b1b308b896faaa1fc33abb55
+parent e699c5d8f68f7ae71596ba91e873de11cd085c4d
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-22 14:35:02 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-22 14:35:23 +0700
+
+    Fix Login
+
+
+:100644 100644 1fb1488be29854edc1e0848230c56bda46e950a7 11d79132cdf3f0cd510e041f2fa8879c5464c25e M	src/account/login/login.service.ts
+commit 82a84d2460801e77ce930546cfb02705d953af49
+tree 48e67e4dec7795f5814429406f9c14a2f7673df7
+parent e78962a531cf222511d4203d0a29406d22dcd257
+author VanTu <htu25399@gmail.com> 2021-04-20 18:34:05 +0700
+committer VanTu <htu25399@gmail.com> 2021-04-20 18:34:05 +0700
+
+    remove console log
+
+
+:100644 100644 22c55760941ff7afc8f529f34d16300218a36b7a 5f9e56271751c931c06436d1351ee247c19a56cf M	src/app/main/priority-list/priority-list.component.ts
+:100644 100644 155cad705e2c727219709e42daf5d6fcb7a88411 18a7ca87e13cff7dcbe0faf92f3fb7a4f145d374 M	src/shared/service-proxies/black-list-service-proxies.ts
+commit 49920111b6c56e760615b834703a227b752fbad0
+tree 758f1115b90c9ea33418d4e996dc3e887553558e
+parent 118965710b0c30d1d64029073e7fe56cac064313
+author VanTu <htu25399@gmail.com> 2021-04-20 18:04:27 +0700
+committer VanTu <htu25399@gmail.com> 2021-04-20 18:04:27 +0700
+
+    add permission
+
+
+:100644 100644 3280fc1cbb11dd0d91a3a31a22c16454c1e5a1ea a5248711d84368c7d2b393763f8a16fde011c16e M	src/app/main/priority-list/priority-list.component.html
+:100644 100644 dcbdd04a765cc486b8b27ffde9f2bc631e54cece e074184c3dabb77043d87d838264fc9e51bb46ed M	src/appConst/Permission.ts
+commit 118965710b0c30d1d64029073e7fe56cac064313
+tree 32cd744969f6b0727f5ecf1d11cde592eb7bb336
+parent 0364480279dc36f5d8cf890ac117a4b9abff78c8
+author VanTu <htu25399@gmail.com> 2021-04-20 17:50:34 +0700
+committer VanTu <htu25399@gmail.com> 2021-04-20 17:50:34 +0700
+
+    [SES-183] Priority List
+
+
+:100644 100644 5d56d8a5674fd799db367d97876210991904b9bb ba244d4d49703ce5fe13f6180b75caf551607453 M	src/app/main/main-routing.module.ts
+:100644 100644 219d11ca612bbf8d76f67030eb4bbd00d2affc22 b4f98518ae578adbf86aa7fba647b51f5b0689fa M	src/app/main/main.module.ts
+:000000 100644 0000000000000000000000000000000000000000 3280fc1cbb11dd0d91a3a31a22c16454c1e5a1ea A	src/app/main/priority-list/priority-list.component.html
+:000000 100644 0000000000000000000000000000000000000000 b97a0b620b8bcf236c5bc07f287cd8670c1ce6c8 A	src/app/main/priority-list/priority-list.component.less
+:000000 100644 0000000000000000000000000000000000000000 22c55760941ff7afc8f529f34d16300218a36b7a A	src/app/main/priority-list/priority-list.component.ts
+:100644 100644 e5005b2dcbe86e549734933d2afe7fc28710cc8e 7caf41bde4fba4c60f3e6632382a06d745a52268 M	src/app/shared/layout/nav/app-navigation.service.ts
+:000000 100644 0000000000000000000000000000000000000000 4c9f2ea7df3c29ae15508cbf7cead7c09e9e381e A	src/assets/doc/PriorityList/PriorityListExcelTemplate.xlsx
+:100644 100644 691b446acfd1ad4854dfeda39b980cbfdef44ff2 155cad705e2c727219709e42daf5d6fcb7a88411 M	src/shared/service-proxies/black-list-service-proxies.ts
+:000000 100644 0000000000000000000000000000000000000000 5c5fabb0397808a520bebb20e323749eba8ddb41 A	src/shared/service-proxies/priority-list.service.ts
+:100644 100644 df4f7a308242055ecf4db56a90a9a8c5cfbf35b1 0c9629a1987c6518a002456386cc5f8be32c9144 M	src/shared/service-proxies/region-service-proxies.ts
+commit 71564d8d9af1711aba842625cee5e80a9783af21
+tree 419b539502d507b73f6b2a98f93ac26e70dda82e
+parent 0364480279dc36f5d8cf890ac117a4b9abff78c8
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-19 19:44:42 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-19 19:44:42 +0700
+
+    Change jwks_uri to backend
+
+
+:100644 100644 2eeca538e8d6792d4de6461a468761919fbda0d1 8af649e2e54d0da0d392d5267148c157c6c52979 M	src/assets/doc/cma-openid-configuration.json
+commit 0364480279dc36f5d8cf890ac117a4b9abff78c8
+tree d2cc18186344504a66412118378e7cdb72641c39
+parent 5a5cf8269faa5610b7254a4f62f94693e13d1f4b
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-15 17:14:34 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-17 17:41:04 +0700
+
+    add dummyClientSecret
+
+
+:100644 100644 205fa8117d93f802b1fefdeab8ed7e104c9781ce 1fb1488be29854edc1e0848230c56bda46e950a7 M	src/account/login/login.service.ts
+commit 5a5cf8269faa5610b7254a4f62f94693e13d1f4b
+tree ab33fa8be58fbc66f290be8bbbb6edf27ed88f94
+parent bb3b41dbf26c9861d5447568e03c0d7e5877d2b6
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-14 14:21:24 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-14 17:47:06 +0700
+
+    HardCode CMA-CGM OIDC
+
+
+:100644 100644 60e915666f7e206e86eac231eafb99afdb5fea04 205fa8117d93f802b1fefdeab8ed7e104c9781ce M	src/account/login/login.service.ts
+:000000 100644 0000000000000000000000000000000000000000 16a11dc05d62a1edb07fc3c59e195a01cadf5d09 A	src/assets/doc/cma-openid-JWKS.json
+:000000 100644 0000000000000000000000000000000000000000 2eeca538e8d6792d4de6461a468761919fbda0d1 A	src/assets/doc/cma-openid-configuration.json
+commit bb3b41dbf26c9861d5447568e03c0d7e5877d2b6
+tree 518ba0b3c74a0f3b6f91c583ee60673ebec4b0d1
+parent bdd067d23518068830e7cb1b62b4f34b42b4fcd7
+author Karkill <hoa.tran@gosmartlog.com> 2021-04-01 19:06:36 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-04-01 19:06:36 +0700
+
+    Add Eco OIDC
+
+
+:100644 100644 05030e27d24cd59f12971a57e864c1fce952f874 8ffb9c2d15f1675a120109806e1ec93e086ca824 M	src/account/login/login-callback.component.ts
+:100644 100644 16d857522003ce0d336c9175aa6f74b8ca66564e 3eb5f46021b6db05a728f93b15174cc5cb21e2d0 M	src/account/login/login.component.html
+:100644 100644 c966612aa6278c25f7b3af7479680347245fc51c 9ee0cf413b7dacae9052f5f48268f1dbe840ecc7 M	src/account/login/login.component.less
+:100644 100644 ce65d072290055cabda5cedbf045d6556c7c6a3c 3d96d6fcc1c6b0b06549d7e449d41fe9da4214ea M	src/account/login/login.component.ts
+:100644 100644 03787b4a1a841487385d985d6659cf3770d5eb27 60e915666f7e206e86eac231eafb99afdb5fea04 M	src/account/login/login.service.ts
+:000000 100644 0000000000000000000000000000000000000000 d5b98ce9627f1864fc955dd87ce8c761fe3e2a12 A	src/assets/common/images/social/smartlog.png
+commit bdd067d23518068830e7cb1b62b4f34b42b4fcd7
+tree d618b3031a0a7198d7afadb0ff3b201db1acd1b3
+parent 835a045023cec52404c6844d174414efda4631f4
+author Karkill <hoa.tran@gosmartlog.com> 2021-03-31 02:54:04 +0700
+committer Karkill <hoa.tran@gosmartlog.com> 2021-03-31 03:18:52 +0700
+
+    Add Oidc CMA
+
+
+:000000 100644 0000000000000000000000000000000000000000 b0e421ce96e71d15f13a558162d059fd60c92657 A	src/account/login-callback-routing.module.ts
+:000000 100644 0000000000000000000000000000000000000000 b4fee35f5574bcaa70be57997c92c9da23a65c08 A	src/account/login-callback.module.ts
+:000000 100644 0000000000000000000000000000000000000000 c9c9f2269ff1ca647d07b7a79294f1b1bb119265 A	src/account/login/login-callback.component.html
+:000000 100644 0000000000000000000000000000000000000000 ec7864e3781c6abf9955de1c7f360034616db234 A	src/account/login/login-callback.component.less
+:000000 100644 0000000000000000000000000000000000000000 05030e27d24cd59f12971a57e864c1fce952f874 A	src/account/login/login-callback.component.ts
+:100644 100644 9339d4bc881f78ccc3d2f137f23020c40a8bb825 16d857522003ce0d336c9175aa6f74b8ca66564e M	src/account/login/login.component.html
+:100644 100644 278729eeb00e24f86ba3956f37225189d645ae33 ce65d072290055cabda5cedbf045d6556c7c6a3c M	src/account/login/login.component.ts
+:100644 100644 ffcf85df422dd30d5b3569017d6b7930cfa412ef 03787b4a1a841487385d985d6659cf3770d5eb27 M	src/account/login/login.service.ts
+:100644 100644 220ae86adebc0266f231c80d44a1c6d489b2a586 a1caeb8fe22288038529f160768a99c1bdbc4f6a M	src/root-routing.module.ts

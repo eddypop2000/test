@@ -1,0 +1,155 @@
+[Sun Apr 04 03:10:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 03:10:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+[Sun Apr 04 03:10:18 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 03:10:17 UTC 2021 processed in 1.5 sec
+[Sun Apr 04 03:23:32 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 03:23:32 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (6c0bd1a8c26a976b411acad061596e08b38a5f72 → c21d14e8bf9e3b982e0ef304d42b804a48509996)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+[Sun Apr 04 03:23:33 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 03:23:32 UTC 2021 processed in 1.5 sec
+[Sun Apr 04 09:12:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 09:12:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+Checking PR-15 from smartlogwms/new-portal-fe and branch feature/new-report
+
+  1 pull requests were processed
+[Sun Apr 04 09:12:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 09:12:28 UTC 2021 processed in 1.6 sec
+[Sun Apr 04 17:38:24 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 17:38:24 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+Checking PR-15 from smartlogwms/new-portal-fe and branch feature/new-report
+
+  1 pull requests were processed
+[Sun Apr 04 17:38:27 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Apr 04 17:38:24 UTC 2021 processed in 2.5 sec
+[Mon Apr 05 02:30:11 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 02:30:11 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (c21d14e8bf9e3b982e0ef304d42b804a48509996 → 442c73124b4c15dd14e7496fc12ef2349807605f)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+[Mon Apr 05 02:30:13 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 02:30:11 UTC 2021 processed in 1.6 sec
+[Mon Apr 05 09:19:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:19:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+
+  0 pull requests were processed
+[Mon Apr 05 09:19:22 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:19:20 UTC 2021 processed in 1.6 sec
+[Mon Apr 05 09:25:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:25:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+
+  0 pull requests were processed
+[Mon Apr 05 09:25:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:25:22 UTC 2021 processed in 1.6 sec
+[Mon Apr 05 09:28:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:28:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+Checking PR-16 from smartlogwms/new-portal-fe and branch feature/new-report
+
+  1 pull requests were processed
+[Mon Apr 05 09:28:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:28:09 UTC 2021 processed in 1.6 sec
+[Mon Apr 05 09:29:45 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:29:45 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: develop (442c73124b4c15dd14e7496fc12ef2349807605f → 3e2218c97b475708e81890c49db2e0a1a0b6f130)
+Scheduled build for branch: develop
+
+  1 branches were processed (query completed)
+[Mon Apr 05 09:29:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Apr 05 09:29:45 UTC 2021 processed in 1.6 sec
+[Tue Apr 06 08:22:59 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 08:22:59 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+
+  0 pull requests were processed
+[Tue Apr 06 08:23:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 08:22:59 UTC 2021 processed in 2.4 sec
+[Tue Apr 06 08:24:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 08:24:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogwms/new-portal-fe for branches
+Checking branch develop from smartlogwms/new-portal-fe
+Checking branch feature/new-report from smartlogwms/new-portal-fe
+Checking branch feature/Init-core-project from smartlogwms/new-portal-fe
+Checking branch feature/inbound-outbuond from smartlogwms/new-portal-fe
+Checking branch feature/new-portal-layout from smartlogwms/new-portal-fe
+
+  5 branches were processed
+Looking up smartlogwms/new-portal-fe for pull requests
+
+  0 pull requests were processed
+[Tue Apr 06 08:24:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 06 08:24:17 UTC 2021 processed in 1.8 sec

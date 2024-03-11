@@ -1,0 +1,814 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1254.v3f64639b_11dd">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchEventCause plugin="branch-api@2.1051.v9985666b_f6cc">
+            <timestamp>1680561276704</timestamp>
+            <origin>192.168.24.243 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify</origin>
+          </jenkins.branch.BranchEventCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>6019</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>6017</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@631.v9143df5b_e4a_a">
+      <sourceId>399e954b-ef39-45ad-82e6-a1956046f2f6</sourceId>
+      <revision class="com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision" plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+        <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+          <name>production-sme</name>
+          <repositoryType>GIT</repositoryType>
+        </head>
+        <hash>2b00c087d44b7533e532d3435a2a2666437e8632</hash>
+        <message>Merged in dev (pull request #3652)
+
+Dev</message>
+        <author>Bong Bui &lt;bong.bui@gosmartlog.com&gt;</author>
+        <date>2023-04-03 22:34:31.0 UTC</date>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@629.vb_5627b_ee2104">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1214.v1de940103927">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>production-sme</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>2b00c087d44b7533e532d3435a2a2666437e8632</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>production-sme</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>60</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{9jBvwhc_Tpb-J9JvZBOAfRYwICnyAcos1iR1Pom3IauZiYUHReEoqi9W4c-cfxA0c91HsfwbJ5Y6ucLk1s1wutor}@bitbucket.org/smartlogtms/stm-be-deliveree.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@400.v6b_89a_1317c9a_">
+      <revisionStates>
+        <entry>
+          <string>git https://x-token-auth@bitbucket.org/smartlogtms/stm-be-deliveree.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <com.cloudbees.jenkins.plugins.bitbucket.FirstCheckoutCompletedInvisibleAction plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_"/>
+    <hudson.plugins.git.util.BuildData plugin="git@4.13.0">
+      <buildsByBranchName>
+        <entry>
+          <string>production-sme</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.13.1">
+              <sha1>2b00c087d44b7533e532d3435a2a2666437e8632</sha1>
+              <branches class="singleton-set">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>production-sme</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>60</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://x-token-auth:{Op2yq7cg8UvamTx99uKtg0xkFu56ku1ECrkQwAosfGOSZvMg4kLYsuxKhx7LUkaLQ3J14d44d_UsMMlHrFKzy5NF}@bitbucket.org/smartlogtms/stm-be-deliveree.git</string>
+      </remoteUrls>
+      <index>2</index>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3583.v4f58de0d78d5">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction plugin="workflow-cps@3583.v4f58de0d78d5">
+      <interpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+        <org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+          <stepName>sh</stepName>
+          <interpolatedVariables>
+            <string>BITBUCKET_PASSWORD</string>
+            <string>BITBUCKET_USERNAME</string>
+          </interpolatedVariables>
+        </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction_-InterpolatedWarnings>
+      </interpolatedWarnings>
+    </org.jenkinsci.plugins.workflow.cps.view.InterpolatedSecretsAction>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.13-420.vea_2f17932dd6">
+      <queuingDurationMillis>7505</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>7503</buildableDurationMillis>
+      <waitingDurationMillis>0</waitingDurationMillis>
+      <executingDurationMillis>183561</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>12764079</queueId>
+  <timestamp>1680561297885</timestamp>
+  <startTime>1680561297892</startTime>
+  <result>SUCCESS</result>
+  <duration>200578</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>podTemplate(label: &apos;pod-with-gitversion&apos;, containers: [
+    containerTemplate(name: &apos;docker&apos;, image: &apos;public.ecr.aws/smartlog/docker:19.03.8&apos;, ttyEnabled: true, command: &apos;cat&apos;),
+    containerTemplate(name: &apos;kubectl&apos;, image: &apos;public.ecr.aws/smartlog/roffe/kubectl:v1.13.2&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;awscli&apos;, image: &apos;public.ecr.aws/smartlog/atlassian/pipelines-awscli:1.18.190&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+    containerTemplate(name: &apos;gitversion&apos;, image: &apos;public.ecr.aws/smartlog/gittools/gitversion:5.3.5-linux-alpine.3.10-x64-netcoreapp3.1&apos;, command: &apos;cat&apos;, ttyEnabled: true),
+  ],
+  volumes: [
+    hostPathVolume(mountPath: &apos;/var/run/docker.sock&apos;, hostPath: &apos;/var/run/docker.sock&apos;),
+  ]) {
+  node(&apos;pod-with-gitversion&apos;) {
+    SLACK_CHANNEL = &apos;C02CR8V040K&apos; // stm_sme_build_log
+    isDeploy = true
+    isBuildBe = false
+    isBuildGPS = false
+    isBuildGEO = false
+    isBuildApiGateway = false
+    // isBuildTenantService = false
+    isBuildTaskManager = false
+    isBuildTaskManagerService = false
+    isBuildSignalR = false
+    isBuildLocalService = false
+
+    successBuild = 0
+    totalBuild = 0
+
+    commitMessage = &quot;&quot;
+    try {
+      SEM_VER = &apos;0.0.0&apos;
+      stage(&apos;Get source code&apos;) {
+        echo &apos;Getting source code...&apos;
+        checkout([
+          $class: &apos;GitSCM&apos;,
+          branches: [[name: &apos;*/dev&apos;]],
+          extensions: scm.extensions,
+          userRemoteConfigs: [[
+            credentialsId: scm.userRemoteConfigs[0].credentialsId,
+            name: &apos;origin&apos;,
+            refspec: &apos;+refs/heads/*:refs/remotes/origin/*&apos;,
+            url: scm.userRemoteConfigs[0].url
+          ]],
+          doGenerateSubmoduleConfigurations: false
+        ])
+
+        checkout scm
+
+        String[] parts = sh(returnStdout: true, script: &apos;git log -1 --pretty=%B&apos;).trim().split(&apos;\n&apos;)
+        commitMessage = parts[0]
+
+        result = sh (
+          script: &quot;git log -1 --pretty=%B | grep &apos;build-all&apos;&quot;,
+          returnStatus: true
+        )
+        isBuildBe = (result == 0)
+        isBuildGPS = (result == 0)
+        isBuildGEO = (result == 0)
+        isBuildApiGateway = (result == 0)
+        // isBuildTenantService = (result == 0)
+        isBuildTaskManager = (result == 0)
+        isBuildTaskManagerService = (result == 0)
+        isBuildSignalR = (result == 0)
+        isBuildLocalService = (result == 0)
+
+        if (!isBuildBe){
+          isBuildBe = (sh (
+            script: &quot;&quot;&quot;git diff --name-status HEAD~1..HEAD \\
+             | grep -v src/GPS \\
+             | grep -v src/Smartlog.Stm.Smes.ApiGateway \\
+             | grep -v src/TenantService \\
+             | grep -v src/TaskManagementSystem \\
+             | grep -v src/SocketService \\
+             | grep -v src/Smartlog.Stm.Smes.SignalR \\
+             | grep -v src/LocalServices
+            &quot;&quot;&quot;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildBe: ${isBuildBe}&quot;
+
+        if (!isBuildGPS){
+          isBuildGPS = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;src/GPS|Jenkins&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildGPS: ${isBuildGPS}&quot;
+
+        if (!isBuildGEO){
+          isBuildGEO = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;src/GPS|Jenkins&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildGEO: ${isBuildGEO}&quot;
+
+        if (!isBuildApiGateway) {
+          isBuildApiGateway = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;Jenkins|src/Smartlog.Stm.Smes.ApiGateway&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildApiGateway: ${isBuildApiGateway}&quot;
+
+        // if (!isBuildTenantService) {
+        //   isBuildTenantService = (sh (
+        //     script: &apos;git diff --name-status HEAD~1..HEAD | grep src/TenantService&apos;,
+        //     returnStatus: true
+        //   ) == 0)
+        // }
+        // echo &quot;isBuildTenantService: ${isBuildTenantService}&quot;
+
+        if (!isBuildTaskManager) {
+          isBuildTaskManager = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;Jenkins|src/TaskManagementSystem&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildTaskManager: ${isBuildTaskManager}&quot;
+
+        if (!isBuildTaskManagerService) {
+          isBuildTaskManagerService = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;Jenkins|src/TaskManagementSystem&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildTaskManagerService: ${isBuildTaskManagerService}&quot;
+
+        if (!isBuildSignalR) {
+          isBuildSignalR = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;Jenkins|src/Smartlog.Stm.Smes.SignalR&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildSignalR: ${isBuildSignalR}&quot;
+
+        if (!isBuildLocalService) {
+          isBuildLocalService = (sh (
+            script: &apos;git diff --name-status HEAD~1..HEAD | grep -E &quot;Jenkins|src/LocalServices&quot;&apos;,
+            returnStatus: true
+          ) == 0)
+        }
+        echo &quot;isBuildLocalService: ${isBuildLocalService}&quot;
+
+        // isDeploy = isBuildBe || isBuildGPS || isBuildGEO || isBuildApiGateway || isBuildTenantService || isBuildTaskManager
+        // isDeploy = isDeploy || isBuildTaskManagerService || isBuildSignalR || isBuildLocalService
+
+        isDeploy =  isBuildGEO || isBuildLocalService || isBuildTaskManagerService || isBuildBe || isBuildGPS || isBuildApiGateway || isBuildTaskManager || isBuildSignalR 
+        if (isBuildBe) { totalBuild++ }
+        if (isBuildGPS) { totalBuild++ }
+        if (isBuildGEO) { totalBuild++ }
+        if (isBuildApiGateway) { totalBuild++ }
+        // if (isBuildTenantService) { totalBuild++ }
+        if (isBuildTaskManager) { totalBuild++ }
+        if (isBuildTaskManagerService) { totalBuild++ }
+        if (isBuildSignalR) { totalBuild++ }
+        if (isBuildLocalService) { totalBuild++ }
+      }
+
+      rootDir = pwd()
+      privateEcr = &apos;744004065806.dkr.ecr.ap-southeast-1.amazonaws.com&apos;
+      namespace = &apos;stmsme&apos;
+      baseDeploy = load &quot;${rootDir}/Jenkins.Base.groovy&quot;
+
+
+      deploy = load &quot;${rootDir}/Jenkinsfile-smartlog.Build.groovy&quot;
+      deploy.init(baseDeploy)
+      baseDeploy.awscli()
+
+      if (env.BRANCH_NAME == &apos;dev&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;dev&apos;
+        longEnv = &apos;Development&apos;
+        account_id = &apos;744004065806&apos;
+        deployDeliveree = true
+        PROJECT = &quot;stm-sme&quot;
+        build()
+      } else if (env.BRANCH_NAME == &apos;production-sme&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;prod&apos;
+        longEnv = &apos;Production&apos;
+        account_id = &apos;744004065806&apos;
+        deployDeliveree = false  
+        PROJECT = &quot;stm-sme&quot;
+        build()
+      } else if (env.BRANCH_NAME == &apos;qc&apos; &amp;&amp; isDeploy) {
+        tagEnv = &apos;qc&apos;
+        longEnv = &apos;Staging&apos;
+        account_id = &apos;744004065806&apos;
+        deployDeliveree = true
+        PROJECT = &quot;stm-sme&quot;
+        build()
+      }
+      currentBuild.result = &apos;SUCCESS&apos;
+    } catch (exc) {
+      currentBuild.result = &apos;FAILURE&apos;
+      echo &apos;I failed&apos;
+      echo exc.getMessage()
+    }
+    finally {
+      echo &apos;One way or another, I have finished&apos;
+      try {
+        deleteDir() /* clean up our workspace */
+      } catch(err) {
+        // Do nothing
+      }
+      if (currentBuild.result == &apos;SUCCESS&apos;) {
+        echo &apos;Build successful&apos;
+      } else if (currentBuild.result == &apos;FAILURE&apos;) {
+        echo &apos;I failed :(&apos;
+        slackSend channel: SLACK_CHANNEL,
+          color: &apos;#c40e0e&apos;,
+          message: &quot;Attention @here ${env.JOB_NAME} #${env.BUILD_NUMBER} [${commitMessage}] has failed.&quot;
+      }
+    }
+  }
+}
+
+def build() {
+  echo &quot;Process build for ${env.BRANCH_NAME} branch&quot;
+  baseDeploy.generateVersion()
+  echo &quot;Version ${SEM_VER}&quot;
+
+  if (isBuildBe) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-Be] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildBe(isBuildBe)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-Be] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildBe(isBuildBe)
+  }
+
+    if (isBuildApiGateway) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildApiGateway(isBuildApiGateway)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-ApiGateway] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildApiGateway(isBuildApiGateway)
+  }
+
+  if (isBuildGPS) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-GPS] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildGPS(isBuildGPS)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-GPS] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildGPS(isBuildGPS)
+  }
+
+  if (isBuildGEO) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-GEO] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildGEO(isBuildGEO)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-GEO] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildGEO(isBuildGEO)
+  }
+
+  // if (isBuildTenantService) {
+  //   slackSend channel: SLACK_CHANNEL,
+  //       color: &apos;good&apos;,
+  //       message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TenantService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+  //   deploy.buildTenantService(isBuildTenantService)
+  //   successBuild++
+  //   slackSend channel: SLACK_CHANNEL,
+  //       color: &apos;good&apos;,
+  //       message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TenantService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  // } else {
+  //   deploy.buildTenantService(isBuildTenantService)
+  // }
+
+  if (isBuildTaskManager) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TaskManager] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildTaskManager(isBuildTaskManager)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TaskManager] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildTaskManager(isBuildTaskManager)
+  }
+
+  if (isBuildTaskManagerService) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-TaskManagerService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildTaskManagerService(isBuildTaskManagerService)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-TaskManagerService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildTaskManagerService(isBuildTaskManagerService)
+  }
+
+  if (isBuildSignalR) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-SignalR] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildSignalR(isBuildSignalR)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-SignalR] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildSignalR(isBuildSignalR)
+  }
+
+  if (isBuildLocalService) {
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;Start build ${currentBuild.fullDisplayName}[stm_sme-LocalService] v.${SEM_VER} [${commitMessage}] ${successBuild + 1}/${totalBuild}&quot;
+    deploy.buildLocalService(isBuildLocalService)
+    successBuild++
+    slackSend channel: SLACK_CHANNEL,
+        color: &apos;good&apos;,
+        message: &quot;The pipeline ${currentBuild.fullDisplayName}[stm_sme-LocalService] v.${SEM_VER} [${commitMessage}] ${successBuild}/${totalBuild} completed successfully.&quot;
+  } else {
+    deploy.buildLocalService(isBuildLocalService)
+  }
+  currentBuild.result = &apos;SUCCESS&apos;
+}</script>
+    <loadedScripts class="map">
+      <entry>
+        <string>Script1</string>
+        <string>/* groovylint-disable LineLength */
+def awscli(running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            DOCKER_LOGIN = sh (
+                script: &apos;aws ecr get-login --no-include-email --region ap-southeast-1&apos;,
+                returnStdout: true
+            ).trim()
+        }
+    }
+}
+
+def generateVersion(running = true) {
+    if (running) {
+        container(&apos;gitversion&apos;) {
+            SEM_VER = sh (
+                script: &apos;/tools/dotnet-gitversion . /showvariable SemVer&apos;,
+                returnStdout: true
+            ).trim()
+            echo &quot;SemVer: ${SEM_VER}&quot;
+        }
+    }
+}
+
+def loadS3File(source, dest, running = true) {
+    if (running) {
+        container(&apos;awscli&apos;) {
+            sh &quot;&quot;&quot;
+                aws s3 cp ${source} ${dest}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def buildDocker(running = true) {
+    if (running) {
+        container(&apos;docker&apos;) {
+            REGISTRY_URL = &quot;&quot;&quot;${account_id}.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}:${tagEnv}&quot;&quot;&quot;
+            sh &quot;&quot;&quot;
+                ls -la ${repoPath}
+                docker build -f ${repoPath}Dockerfile --build-arg version=${SEM_VER} --network=host -t ${REGISTRY_URL} --pull=true .
+                ${DOCKER_LOGIN}
+                docker push ${REGISTRY_URL}
+            &quot;&quot;&quot;
+        }
+        scr = &quot;aws ecr describe-images --registry-id ${account_id} --repository-name ${prefixPod} --image-ids imageTag=${tagEnv} --query &apos;sort(imageDetails[].imageDigest)&apos; --output text --region ap-southeast-1&quot;
+        container(&apos;awscli&apos;) { 
+            def sha256 = sh(
+                script: scr,
+                returnStdout: true
+            ).trim()
+            SHA256 = sha256
+        }
+        currentTimestamp = sh(returnStdout: true, script: &apos;date +%s&apos;).trim()
+        REGISTRY_URL=&quot;${account_id}.dkr.ecr.ap-southeast-1.amazonaws.com/${prefixPod}&quot;
+        retry(3) {
+            script {
+                withCredentials([usernamePassword(credentialsId: &apos;cicd-bitbucket&apos;, passwordVariable: &apos;BITBUCKET_PASSWORD&apos;, usernameVariable: &apos;BITBUCKET_USERNAME&apos;)]) {
+                //def encodedPassword = URLEncoder.encode(&quot;$GIT_PASSWORD&quot;,&apos;UTF-8&apos;)
+                sh &quot;&quot;&quot;
+                git config --global user.email jenkins@gosmartlog.com
+                git config --global user.name jenkins
+                rm -rf devops-deployment-${PROJECT}
+                git clone https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+                cd devops-deployment-${PROJECT}
+                sed -i &apos;s+${REGISTRY_URL}.*+${REGISTRY_URL}@${SHA256}+g&apos; ./stm-be-deliveree/${env.BRANCH_NAME}/${gitFolder}/.argocd-source.yaml
+                git add ./stm-be-deliveree/${env.BRANCH_NAME}/${gitFolder}/.argocd-source.yaml
+                for file in ./stm-be-deliveree/${env.BRANCH_NAME}/${gitFolder}/deploy*.yaml; do sed -i &quot;s/\\(date:\\s*\\)&apos;[^&apos;]*&apos;/\\1&apos;${currentTimestamp}&apos;/&quot; &quot;\$file&quot;;git add &quot;\$file&quot;;done
+                
+                &quot;&quot;&quot;
+                
+                if (deployDeliveree) {
+                    sh &quot;&quot;&quot;
+                    cd devops-deployment-${PROJECT}
+                    sed -i &apos;s+${REGISTRY_URL}.*+${REGISTRY_URL}@${SHA256}+g&apos; ./stm-be-deliveree/${env.BRANCH_NAME}-deliveree/${gitFolder}/.argocd-source.yaml
+                    git add ./stm-be-deliveree/${env.BRANCH_NAME}-deliveree/${gitFolder}/.argocd-source.yaml
+                    for file in ./stm-be-deliveree/${env.BRANCH_NAME}-deliveree/${gitFolder}/deploy*.yaml; do sed -i &quot;s/\\(date:\\s*\\)&apos;[^&apos;]*&apos;/\\1&apos;${currentTimestamp}&apos;/&quot; &quot;\$file&quot;;git add &quot;\$file&quot;;done
+                    &quot;&quot;&quot;
+                }
+                sh &quot;&quot;&quot;
+                cd devops-deployment-${PROJECT}
+                git commit -m &apos;Done by Jenkins Job changemanifest: ${prefixPod}:${env.BUILD_NUMBER}&apos;
+                git pull --rebase https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git
+                git push https://${BITBUCKET_USERNAME}:${BITBUCKET_PASSWORD}@bitbucket.org/smartlogtms/devops-deployment-${PROJECT}.git HEAD:refs/heads/master
+                &quot;&quot;&quot;
+                }
+            }
+        }
+
+    }
+}
+
+def deployToK8s(running = true) {
+    if (running) {
+        container(&apos;kubectl&apos;) {
+            sh &quot;&quot;&quot;
+                kubectl apply -f ${repoPath}deploy.${tagEnv}.yml
+                kubectl patch deployment ${prefixPod}-${tagEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n ${namespace}
+                kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+            &quot;&quot;&quot;
+        }
+    }
+}
+
+def deployToK8sMultipleCloud(running = true) {
+    if (running) {
+        container(&apos;kubectl&apos;) {
+            sh &quot;&quot;&quot;
+                kubectl patch deployment ${prefixPod}-${tagEnv} -p &quot;{\\\&quot;spec\\\&quot;:{\\\&quot;template\\\&quot;:{\\\&quot;metadata\\\&quot;:{\\\&quot;labels\\\&quot;:{\\\&quot;date\\\&quot;:\\\&quot;`date +&apos;%s&apos;`\\\&quot;}}}}}&quot; -n ${namespace}
+                kubectl rollout status deployment ${prefixPod}-${tagEnv} -n ${namespace}
+            &quot;&quot;&quot;
+        }
+    }
+}
+return this
+</string>
+      </entry>
+      <entry>
+        <string>Script2</string>
+        <string>/* groovylint-disable LineLength */
+import groovy.transform.Field
+
+@Field private Base = null
+
+def init(base) {
+    Base = base
+}
+
+def buildBe(running = true) {
+    repoPath = &apos;src/Smartlog.Stm.Smes/&apos;
+    prefixPod = &apos;stm-sme-be&apos;
+    gitFolder = &apos;be&apos;
+    stage(&quot;Build Be&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildGPS(running = true) {
+    repoPath = &apos;src/GPS/Smartlog.Stm.Smes.GPS.Api/&apos;
+    prefixPod = &apos;stm-sme-gps&apos;
+    gitFolder = &apos;gps&apos;
+    stage(&quot;Build GPS&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildGEO(running = true) {
+    repoPath = &apos;src/GPS/Smartlog.Stm.Smes.GPS.Services/&apos;
+    prefixPod = &apos;stm-sme-geo&apos;
+    gitFolder = &apos;geo&apos;
+    stage(&quot;Build GEO&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildApiGateway(running = true) {
+    repoPath = &apos;src/Smartlog.Stm.Smes.ApiGateway/&apos;
+    prefixPod = &apos;stm-sme-api-gateway&apos;
+    gitFolder = &apos;api-gateway&apos;
+    stage(&quot;Build ApiGateway&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildTenantService(running = true) {
+    repoPath = &apos;src/TenantService/Smartlog.Stm.TenantService.API/&apos;
+    prefixPod = &apos;stm-sme-tenant-service&apos;
+    gitFolder = &apos;tenant-service&apos;
+    stage(&quot;Build TenantService&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildTaskManager(running = true) {
+    repoPath = &apos;src/TaskManagementSystem/Smartlog.Stm.TaskManager.Api/&apos;
+    prefixPod = &apos;stm-sme-task-manager&apos;
+    gitFolder = &apos;task-manager&apos;
+    stage(&quot;Build TaskManager&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildTaskManagerService(running = true) {
+    repoPath = &apos;src/TaskManagementSystem/Smartlog.Stm.TaskManager.Services/&apos;
+    prefixPod = &apos;stm-sme-task-manager-service&apos;
+    gitFolder = &apos;task-manager-service&apos;
+    stage(&quot;Build TaskManagerService&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+def buildSocket(running = true) {
+    repoPath = &apos;src/SocketService/Smartlog.Stm.SocketService.API/&apos;
+    prefixPod = &apos;stm-sme-socket&apos;
+    gitFolder = &apos;socket&apos;
+    stage(&quot;Build Socket&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+def buildSignalR(running = true) {
+    repoPath = &apos;src/Smartlog.Stm.Smes.SignalR/&apos;
+    prefixPod = &apos;stm-sme-signalr&apos;
+    gitFolder = &apos;signal-r&apos;
+    stage(&quot;Build SignalR&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+
+def buildLocalService(running = true) {
+    repoPath = &apos;src/LocalServices/Smartlog.Stm.Smes.LocalSV.Services/&apos;
+    prefixPod = &apos;stm-sme-local-service&apos;
+    gitFolder = &apos;local-service&apos;
+    stage(&quot;Build LocalService&quot;) {
+        Base.buildDocker(running)
+        // Base.deployToK8sMultipleCloud(running)
+    }
+}
+
+return this
+</string>
+      </entry>
+    </loadedScripts>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>489477079</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>55625586</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>5920327060</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>110571145</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>776676702</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>120</iota>
+    <head>1:120</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+            <url>https://x-token-auth:{9jBvwhc_Tpb-J9JvZBOAfRYwICnyAcos1iR1Pom3IauZiYUHReEoqi9W4c-cfxA0c91HsfwbJ5Y6ucLk1s1wutor}@bitbucket.org/smartlogtms/stm-be-deliveree.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches>
+          <hudson.plugins.git.BranchSpec>
+            <name>*/dev</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-zffv7-fhrzw</node>
+      <workspace>/home/jenkins/agent/workspace/stm-be-deliveree_production-sme</workspace>
+      <changelogFile>/var/jenkins_home/jobs/stm-be-deliveree/branches/production-sme/builds/60/changelog14207517532341981670.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.13.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <name>origin</name>
+            <refspec>+refs/heads/production-sme:refs/remotes/origin/production-sme</refspec>
+            <url>https://x-token-auth:{Op2yq7cg8UvamTx99uKtg0xkFu56ku1ECrkQwAosfGOSZvMg4kLYsuxKhx7LUkaLQ3J14d44d_UsMMlHrFKzy5NF}@bitbucket.org/smartlogtms/stm-be-deliveree.git</url>
+            <credentialsId>f1011a6a-b720-4819-b875-826292740ef0</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>production-sme</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <browser class="hudson.plugins.git.browser.BitbucketWeb">
+          <url>https://bitbucket.org/smartlogtms/stm-be-deliveree</url>
+        </browser>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <jenkins.plugins.git.GitSCMSourceDefaults>
+            <includeTags>false</includeTags>
+          </jenkins.plugins.git.GitSCMSourceDefaults>
+          <hudson.plugins.git.extensions.impl.BuildChooserSetting>
+            <buildChooser class="jenkins.plugins.git.AbstractGitSCMSource$SpecificRevisionBuildChooser">
+              <revision reference="../../../../../../../actions/hudson.plugins.git.util.BuildData[2]/buildsByBranchName/entry/hudson.plugins.git.util.Build/marked"/>
+            </buildChooser>
+          </hudson.plugins.git.extensions.impl.BuildChooserSetting>
+        </extensions>
+      </scm>
+      <node>pod-with-gitversion-zffv7-fhrzw</node>
+      <workspace>/home/jenkins/agent/workspace/stm-be-deliveree_production-sme</workspace>
+      <changelogFile>/var/jenkins_home/jobs/stm-be-deliveree/branches/production-sme/builds/60/changelog6094852831024403944.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

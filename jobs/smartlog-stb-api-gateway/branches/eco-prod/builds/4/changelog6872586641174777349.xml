@@ -1,0 +1,10 @@
+commit a783b35a39fd426c4c6a19ad98f1f346a2ba354f
+tree c8be94d2564d6689d964e854073fb57ee096a876
+parent fdc316f71daedfaaf6ca7816bb766b198dd88a2d
+author Bong Bui <bong.bui@gosmartlog.com> 2021-12-28 15:16:54 +0700
+committer Bong Bui <bong.bui@gosmartlog.com> 2021-12-28 15:16:54 +0700
+
+    update TOKEN_ADMIN
+
+
+:100644 100644 6210ba04cfef35ade1b2b09dccbbfc8e7eab712e 89c4b4abd1a4bb6bb643d8fa5f29cbd4f837d24e M	deploy-eco.prod.yml

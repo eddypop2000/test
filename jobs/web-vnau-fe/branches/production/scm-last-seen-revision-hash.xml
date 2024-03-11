@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@751.vda_24678a_f781">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>a0ecfcbbb6b593cbf1868e5ebe2e41a41e5c5861</hash>
+  <message>update list notification
+</message>
+  <author>dung.phung &lt;dung.phung@bizzi.vn&gt;</author>
+  <date>2022-03-03 17:24:09.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

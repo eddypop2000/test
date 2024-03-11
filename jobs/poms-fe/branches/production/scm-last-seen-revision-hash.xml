@@ -1,0 +1,15 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision plugin="cloudbees-bitbucket-branch-source@773.v4b_9b_005b_562b_">
+  <head class="com.cloudbees.jenkins.plugins.bitbucket.BranchSCMHead">
+    <name>production</name>
+    <repositoryType>GIT</repositoryType>
+  </head>
+  <hash>231024e3386146688cf918c572ba454c189d83b9</hash>
+  <message>Merged in 1.9.6/poms-col (pull request #57)
+
+add code
+
+Approved-by: Tuan Tran</message>
+  <author>Thái Huy &lt;huy.le@gosmartlog.com&gt;</author>
+  <date>2023-03-08 07:02:33.0 UTC</date>
+</com.cloudbees.jenkins.plugins.bitbucket.BitbucketGitSCMRevision>

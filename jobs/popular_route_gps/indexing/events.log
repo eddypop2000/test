@@ -1,0 +1,631 @@
+[Sat Apr 17 09:32:54 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 17 09:32:54 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (c57d4030139a97a9dca95df0f5b836afe3344703 → e6af5197c0698a1cf46bc48a8d56f51b42bb807f)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sat Apr 17 09:32:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sat Apr 17 09:32:54 UTC 2021 processed in 1.5 sec
+[Tue Apr 20 02:58:25 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 20 02:58:25 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e6af5197c0698a1cf46bc48a8d56f51b42bb807f → 0a68e76e2f3e8c875ce5adcd6ef2c63603ba90a9)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Apr 20 02:58:27 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.167.169 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Apr 20 02:58:25 UTC 2021 processed in 1.6 sec
+[Mon Aug 02 16:18:54 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 02 16:18:54 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Mon Aug 02 16:18:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 CREATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 02 16:18:54 UTC 2021 processed in 1.6 sec
+[Tue Aug 03 04:22:42 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:22:42 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (0a68e76e2f3e8c875ce5adcd6ef2c63603ba90a9 → e2cb45d7779d6ac0f12e3aa13aa8f5a7aa4894d5)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Tue Aug 03 04:22:43 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:22:42 UTC 2021 processed in 1.6 sec
+[Tue Aug 03 04:53:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:53:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 03 04:53:46 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:53:44 UTC 2021 processed in 1.7 sec
+[Tue Aug 03 04:54:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:54:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (e2cb45d7779d6ac0f12e3aa13aa8f5a7aa4894d5 → 3174d7da0d65a2a7610bee93923dc178181fabcf)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Aug 03 04:54:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 04:54:18 UTC 2021 processed in 1.7 sec
+[Tue Aug 03 05:01:58 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.63 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:01:58 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 03 05:02:00 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.63 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:01:58 UTC 2021 processed in 1.6 sec
+[Tue Aug 03 05:02:46 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.98 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:02:46 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (3174d7da0d65a2a7610bee93923dc178181fabcf → 6632db3ec3a9906ac0a34f047af5078f654a8562)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Aug 03 05:02:48 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.98 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:02:46 UTC 2021 processed in 1.6 sec
+[Tue Aug 03 05:15:24 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:15:24 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 03 05:15:25 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:15:24 UTC 2021 processed in 1.8 sec
+[Tue Aug 03 05:15:46 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.98 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:15:46 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (6632db3ec3a9906ac0a34f047af5078f654a8562 → 1ef3cdff3cd036bbba2b05ec3ab1a056447679c9)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Tue Aug 03 05:15:47 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.102.98 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:15:46 UTC 2021 processed in 1.6 sec
+[Tue Aug 03 05:31:02 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:31:02 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 03 05:31:03 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:31:02 UTC 2021 processed in 1.7 sec
+[Tue Aug 03 05:33:04 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.156.179 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:33:04 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (1ef3cdff3cd036bbba2b05ec3ab1a056447679c9 → 50f9df8a734c9c100be53c4e54d800534fb3a04b)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Aug 03 05:33:06 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.156.179 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 03 05:33:04 UTC 2021 processed in 1.6 sec
+[Wed Aug 04 07:58:40 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 04 07:58:40 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Wed Aug 04 07:58:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 04 07:58:40 UTC 2021 processed in 1.1 sec
+[Wed Aug 04 07:59:20 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.124 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 04 07:59:20 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (50f9df8a734c9c100be53c4e54d800534fb3a04b → 49f0415cc771846ecaa151fef829a8801167904c)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Aug 04 07:59:22 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.122.124 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Aug 04 07:59:20 UTC 2021 processed in 1.7 sec
+[Thu Aug 05 09:12:19 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:12:19 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Thu Aug 05 09:12:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:12:19 UTC 2021 processed in 1.6 sec
+[Thu Aug 05 09:13:06 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:13:06 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (49f0415cc771846ecaa151fef829a8801167904c → a17bd28985c2806823b6d3aee266c51ac899c216)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Aug 05 09:13:08 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.180.209 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:13:06 UTC 2021 processed in 1.7 sec
+[Thu Aug 05 09:32:21 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:32:21 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Thu Aug 05 09:32:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:32:21 UTC 2021 processed in 1.9 sec
+[Thu Aug 05 09:33:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.63 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:33:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (a17bd28985c2806823b6d3aee266c51ac899c216 → 9a3630d26efea48e2adfbbd5529420a3065d3505)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Thu Aug 05 09:33:24 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.119.63 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 05 09:33:22 UTC 2021 processed in 1.8 sec
+[Sun Aug 08 14:08:05 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:08:05 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Sun Aug 08 14:08:06 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:08:05 UTC 2021 processed in 1.7 sec
+[Sun Aug 08 14:08:35 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:08:35 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9a3630d26efea48e2adfbbd5529420a3065d3505 → 8629edd82eed9d13a77ded40fba349864a3ba0dc)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Aug 08 14:08:36 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.127.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:08:35 UTC 2021 processed in 0.96 sec
+[Sun Aug 08 14:16:37 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.24 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:16:37 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Sun Aug 08 14:16:39 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.24 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:16:37 UTC 2021 processed in 1.6 sec
+[Sun Aug 08 14:17:09 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:17:09 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (8629edd82eed9d13a77ded40fba349864a3ba0dc → 4171d2fbbf11cf004d25fcf486faec33ad97845b)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Sun Aug 08 14:17:11 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Sun Aug 08 14:17:09 UTC 2021 processed in 1.6 sec
+[Mon Aug 09 10:08:35 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:08:35 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Mon Aug 09 10:08:37 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:08:35 UTC 2021 processed in 1.8 sec
+[Mon Aug 09 10:09:07 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:09:07 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (4171d2fbbf11cf004d25fcf486faec33ad97845b → a1f7f35ba377cf479f72d3ab872cb8b91d165f93)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Mon Aug 09 10:09:09 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:09:07 UTC 2021 processed in 1.9 sec
+[Mon Aug 09 10:21:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:21:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Mon Aug 09 10:21:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:21:18 UTC 2021 processed in 1.7 sec
+[Mon Aug 09 10:21:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.24 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:21:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (a1f7f35ba377cf479f72d3ab872cb8b91d165f93 → aba572b3c45a646145db8669b2e6960d95952fa0)
+Scheduled build for branch: master
+
+  2 branches were processed (query completed)
+[Mon Aug 09 10:21:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.131.24 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Aug 09 10:21:39 UTC 2021 processed in 1.7 sec
+[Tue Aug 10 03:47:40 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.249 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 03:47:40 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 10 03:47:42 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.191.249 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 03:47:40 UTC 2021 processed in 1.7 sec
+[Tue Aug 10 03:48:10 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 03:48:10 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (aba572b3c45a646145db8669b2e6960d95952fa0 → 7c8000ab6feb12159f3b4ef255624f4fb9869044)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Tue Aug 10 03:48:12 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 03:48:10 UTC 2021 processed in 1.6 sec
+[Tue Aug 10 05:56:52 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 05:56:52 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 10 05:56:54 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 05:56:52 UTC 2021 processed in 1.7 sec
+[Tue Aug 10 05:57:27 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.100 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 05:57:27 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (7c8000ab6feb12159f3b4ef255624f4fb9869044 → 659c3fd02de48db21b26e59e7788ed2790beeeb6)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Aug 10 05:57:28 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.100 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 05:57:27 UTC 2021 processed in 1.1 sec
+[Tue Aug 10 06:37:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 06:37:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Tue Aug 10 06:37:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 06:37:17 UTC 2021 processed in 1.8 sec
+[Tue Aug 10 06:37:39 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.164.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 06:37:39 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (659c3fd02de48db21b26e59e7788ed2790beeeb6 → 292280671d7958bcf114751672f3e0544cb6015c)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Tue Aug 10 06:37:41 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.164.42 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Aug 10 06:37:39 UTC 2021 processed in 1.7 sec
+[Thu Aug 12 10:20:30 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 12 10:20:30 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Thu Aug 12 10:20:32 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 12 10:20:30 UTC 2021 processed in 1.8 sec
+[Thu Aug 12 10:23:04 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 12 10:23:04 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (292280671d7958bcf114751672f3e0544cb6015c → bfe9a4f0bd9b21e1baeb877b2b6230b038a97e01)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Aug 12 10:23:06 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 12 10:23:04 UTC 2021 processed in 1.8 sec
+[Thu Aug 19 04:29:42 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 19 04:29:42 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+
+  4 branches were processed
+Looking up smartlogtms/popular_route_gps for pull requests
+
+  0 pull requests were processed
+[Thu Aug 19 04:29:44 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.151.146 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 19 04:29:42 UTC 2021 processed in 1.7 sec
+[Thu Aug 19 04:34:29 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 19 04:34:29 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (bfe9a4f0bd9b21e1baeb877b2b6230b038a97e01 → 283072e6dfbfeba402d4685900669a64ab53ce12)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Aug 19 04:34:30 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.181.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Aug 19 04:34:29 UTC 2021 processed in 1.7 sec
+[Wed Sep 22 19:46:04 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.160 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Sep 22 19:46:04 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (283072e6dfbfeba402d4685900669a64ab53ce12 → 3a4f0b7219ea56e323fe61b74587020fce82755a)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Wed Sep 22 19:46:05 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.144.160 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Sep 22 19:46:04 UTC 2021 processed in 1.6 sec
+[Thu Sep 23 10:45:28 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Sep 23 10:45:28 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (3a4f0b7219ea56e323fe61b74587020fce82755a → 3aeb0f075ab9c0133f321f54bafbb9301876e57c)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Thu Sep 23 10:45:29 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.117.219 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Sep 23 10:45:28 UTC 2021 processed in 1.6 sec
+[Fri Sep 24 10:05:22 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Sep 24 10:05:22 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (3aeb0f075ab9c0133f321f54bafbb9301876e57c → 915483451825b9d74b9997e9ce7915631fad7860)
+Scheduled build for branch: master
+
+  1 branches were processed (query completed)
+[Fri Sep 24 10:05:23 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.176.12 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Sep 24 10:05:22 UTC 2021 processed in 1.6 sec
+[Fri Nov 12 04:18:53 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 12 04:18:53 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (915483451825b9d74b9997e9ce7915631fad7860 → 579ff771d2f5159c7a5d5472a3e57b3bf3b6640f)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Fri Nov 12 04:18:55 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 12 04:18:53 UTC 2021 processed in 1.9 sec
+[Tue Nov 16 04:46:58 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 16 04:46:58 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (579ff771d2f5159c7a5d5472a3e57b3bf3b6640f → ebbf98b325afc8330e7cae113ab25b8bcc9a9ad9)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Tue Nov 16 04:47:00 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 16 04:46:58 UTC 2021 processed in 1.6 sec
+[Thu Nov 18 07:50:44 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 18 07:50:44 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (ebbf98b325afc8330e7cae113ab25b8bcc9a9ad9 → d07263eee6db87893f9e68c4b4bc2d98e397dc6b)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Thu Nov 18 07:50:45 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.109.44 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 18 07:50:44 UTC 2021 processed in 1.6 sec
+[Thu Nov 18 11:53:17 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.98.140 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 18 11:53:17 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (d07263eee6db87893f9e68c4b4bc2d98e397dc6b → 56b6fee374baf4ae16b9931a0d6cc5876fb149a5)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Thu Nov 18 11:53:19 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.98.140 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Thu Nov 18 11:53:17 UTC 2021 processed in 1.6 sec
+[Tue Nov 23 15:55:00 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.150.94 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 23 15:55:00 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (56b6fee374baf4ae16b9931a0d6cc5876fb149a5 → de8bcf0c339503e1e7e41651967eda41dcf6c759)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Tue Nov 23 15:55:02 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.150.94 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Tue Nov 23 15:55:00 UTC 2021 processed in 1.9 sec
+[Wed Nov 24 10:07:18 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 24 10:07:18 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (de8bcf0c339503e1e7e41651967eda41dcf6c759 → 9a1a49a5b0cb22bd44614892901f90fecc72c2de)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Wed Nov 24 10:07:21 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.100.236 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Wed Nov 24 10:07:18 UTC 2021 processed in 2.1 sec
+[Fri Nov 26 07:59:19 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.3 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 26 07:59:19 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (9a1a49a5b0cb22bd44614892901f90fecc72c2de → 59c31b111a2b0e8c8fff1fbf3cc734b1e3ca5ed7)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Fri Nov 26 07:59:20 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.123.3 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Fri Nov 26 07:59:19 UTC 2021 processed in 1.6 sec
+[Mon Nov 29 03:29:36 UTC 2021] Received com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Nov 29 03:29:36 UTC 2021
+Connecting to https://bitbucket.org using danghung@gosmartlog.com/******
+Repository type: Git
+Looking up smartlogtms/popular_route_gps for branches
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectory_clustering_ver_2_0py-1606461245437 from smartlogtms/popular_route_gps
+Checking branch Anh-Nguyen-Thi-Ngoc/gps_trajectorypy-edited-online-with-bitb-1607482383313 from smartlogtms/popular_route_gps
+Checking branch dev from smartlogtms/popular_route_gps
+Checking branch master from smartlogtms/popular_route_gps
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: master (59c31b111a2b0e8c8fff1fbf3cc734b1e3ca5ed7 → 5e864d57021a400f4dca4aadafd25d13f375c404)
+Scheduled build for branch: master
+
+  4 branches were processed (query completed)
+[Mon Nov 29 03:29:37 UTC 2021] com.cloudbees.jenkins.plugins.bitbucket.hooks.PushHookProcessor$1 UPDATED event from 192.168.186.144 ⇒ http://jenkins-smartlog.danghung.xyz/bitbucket-scmsource-hook/notify with timestamp Mon Nov 29 03:29:36 UTC 2021 processed in 1.6 sec
